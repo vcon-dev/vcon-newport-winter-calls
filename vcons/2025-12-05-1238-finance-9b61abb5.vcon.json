@@ -1,0 +1,883 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9b61abb5-0ce6-8deb-8fa1-c8e976ca1379",
+  "created_at": "2025-12-05T12:49:38-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Maureen McCarthy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-05T12:38:57-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, um, I got a parking ticket and it's got the wrong plate on it. Like, not my plate at all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:12-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's a new one for a Friday afternoon. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, it's stuck to my kitchen counter right now because I've been staring at it. It's wicked annoying, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Read me the ticket number, should be near the top."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it starts with a P, then, um, four four one seven, and then two nine zero."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:43-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "P four four one seven two nine zero. Got it, give me a second, I'm pulling it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, take your time. I've got all day, apparently, since I'm paying for a ticket that isn't mine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:39:59-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, I see it. Issued Wednesday, a little after four in the afternoon. What plate is printed on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:40:08-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says, uh, four seven two, then a letter K, then an eight. Mine is nothing like that. Mine starts with a three and I don't have a K anywhere."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:40:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And what's your actual plate?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:40:24-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three one nine, then a B, then six. Three one nine B six."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:40:30-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the ticket is under the other plate in our system, which means it's not linked to you in the records at all. How did you end up with the ticket, was it on your car?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:40:46-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it was on my windshield. I park down by the park on Wednesday, I was running in to get the kids, and I came back and there it was. My car, my windshield, somebody else's plate number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:41:03-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha. So the officer probably mistyped it on the handheld. Happens more than you'd think, they're working fast, especially with weather coming."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:41:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I saw the sky. It's supposed to get nasty today, that nor'easter. I was hoping to get this sorted before it hits and I'm stuck home."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:41:25-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Smart. Okay, what was the violation listed? I want to make sure we're looking at the same thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:41:33-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says expired meter. But, okay, here's the thing. I think I did pay. I had the app going. Or, well, I put in money for an hour and then the meter ran out like, maybe ten minutes before I got back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:41:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So you're saying you were a little over."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:41:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, a little over. I'm not gonna lie to you. It's the plate that's bugging me. If I'm gonna get a ticket, at least get my plate right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:42:07-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I respect the honesty. So here's where we are. A ticket with the wrong plate is a problem for the ticket, not just for you. Normally what happens is you'd contest it or have it corrected, and we'd look at the photo or the officer's notes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:42:27-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but is there a photo? Because I don't remember anyone taking a picture."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:42:34-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] There's an entry from the handheld, but I'm not seeing an image attached. Just the typed data."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:42:44-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's no proof it was even my car, except it was on my car."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:42:51-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the ticket was physically on your car, which kind of makes that argument a wash. But it does mean the plate field is wrong, and that's something we'd have to fix before anybody could collect on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:43:08-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, can I ask something, though. If I just own it, like, I was ten minutes over, it's my first one ever. Can they waive the fine? Is that a thing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:43:22-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be. First-time requests do get looked at. I can't promise you an answer, that goes through a review, but it's a pretty ordinary thing to ask."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:43:34-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, because I'd rather not fight about the plate if I can just, you know, get it forgiven. It's wicked stupid to spend a month going back and forth over a meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:43:48-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. But I'd still want the plate corrected. If we waive it under the wrong plate, you've got a ticket floating around attached to some stranger's record, and then it's their problem, or worse, it comes back around."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:44:05-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. That's fair. I wouldn't want somebody getting hit for mine either, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:44:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. So the cleanest way is to do both. Flag the plate error, and put in the first-offense request at the same time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:44:22-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. How do I do that? Do I have to come in? Because I work, and honestly Fridays are kind of crazy for me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:44:33-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can send it in writing or come to the counter. Since you're on the phone with me, I can add a note to the file right now saying the plate was reported as incorrect and that you're requesting a first-time waiver. That gets it in front of the reviewer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:44:54-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay, that's good. Yeah, please do that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:44:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I'll need your name as it'd be on the registration."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maureen McCarthy. M-A-U-R-E-E-N, McCarthy, M-C-C-A-R-T-H-Y."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And a callback number in case the reviewer has questions."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one eight oh."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:18-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one eight zero. Okay. And your actual plate, three one nine B six, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:28-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Three one nine B six."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. [pause] Okay, I've typed that in. Plate reported wrong, correct plate noted, first-time waiver requested, ten minutes over the paid time. How's that sound?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds right. Should I hold off paying, then? I don't want it to go late and double or whatever."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:45:52-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold off for now. With a review note on it, it shouldn't escalate while it's pending. But keep the ticket, don't toss it. If you hear nothing in a couple of weeks, call back and reference the ticket number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:46:09-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. P four four one seven two nine zero. I'll write it on the ticket, which, I mean, I have it right here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:46:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There you go. Belt and suspenders."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:46:23-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I ask, um, why the meters even run out so fast down there? I swear I put in an hour and it felt like thirty minutes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:46:35-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't speak to that particular meter, but sometimes the time on the display counts from when the last person paid, or the coin slot gets jammed. If you think it's faulty, that's worth mentioning to whoever reviews it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:46:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Can you add that? I'm not trying to make excuses, but if the meter's busted, then, you know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll add a line that you believe the meter ran short. Which block was it, do you remember?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:09-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's right across from the park, by the pizza place. My kids are in there every Friday, that's like their whole thing, they get a slice after school and sit by the window. So I'm always parking around there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, so you're a regular on that block. That actually helps, you're not someone gaming the meter, you're just somebody who's there weekly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:36-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. And that's the thing, today I'll probably park there again and I'm gonna be so paranoid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Keep your receipt or screenshot your app confirmation. That's the best protection you've got."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah. I'll do that. I wish I had on Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:47:57-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, live and learn. Let me read the note back so it's accurate. Ticket P four four one seven two nine zero, issued Wednesday afternoon, wrong plate recorded, correct plate three one nine B six, owner Maureen McCarthy, requesting first-time waiver, caller reports meter may have run short, parked across from the park. Anything I got wrong?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:48:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all it. Wicked thorough, thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:48:25-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the job. Now, one thing, I can't tell you the waiver will go through. They might ask for a statement or a photo of the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:48:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I can take a picture of it later. If I can get down there before the snow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:48:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Might be rain at the start, but yeah, it's supposed to turn. Be careful driving if you head out tonight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:48:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. I'm just going to pick the kids up and come right back. We'll skip the pizza, I think. Or maybe not, they'll riot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:49:06-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then get the slice and go straight home. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:49:13-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. So, to be clear, I don't pay anything right now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:49:20-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Nothing right now. Wait for the review, and call back if you haven't heard in a couple of weeks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:49:29-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Luis. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:49:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Maureen. Stay dry out there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:49:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T12:38:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T12:38:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-05T12:38:57-05:00",
+        "end": "2025-12-05T12:49:38-05:00",
+        "duration_seconds": 641,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T12:38:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-05T12:38:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-05T12:38:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-05T12:38:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-05T12:38:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

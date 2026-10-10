@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2aa18cff-c379-8108-a400-b564755a93a9",
+  "created_at": "2026-03-04T13:23:22-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Leila T. Haddad",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:26-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Kevin. My name is Leila Haddad. I am calling about the street light in front of my house. It goes on and off, on and off, all the night long."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:36-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, flickering overnight. And where is that, ma'am?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three hundred Narragansett Avenue. The light is on the pole just by my front walk."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three hundred Narragansett. Got it. Is it the whole night, or just certain hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The whole night. Even my smart thermostat is arguing with me, because the hallway is bright, then dark, then bright. It does not know what to think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:22:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's definitely noticeable. I'm writing down, flickering light, pole at three hundred Narragansett, going all night."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:23:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly. Could you please send a crew to check the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:23:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in the request for a crew to look at it. Is this number, four-oh-one, five-five-five, oh-one-seven-one, good if they need you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:23:15-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is right. Thank you very much, Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T13:23:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T13:22:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T13:22:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-04T13:22:22-05:00",
+        "end": "2026-03-04T13:23:22-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T13:22:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-04T13:22:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-04T13:22:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-04T13:22:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-04T13:22:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

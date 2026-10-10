@@ -1,0 +1,535 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3ba25451-8ba5-8cec-8798-29347ceca7bf",
+  "created_at": "2026-02-26T16:16:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Diane Iannuccilli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T16:09:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Utilities, billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:09:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, so I just got a reminder notice? For a water and sewer bill? And I never got the actual bill. Like, ever."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:09:29-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can I get your name and the account name or service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:09:38-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Diane Iannuccilli. I-A-N-N-U-C-C-I-L-L-I. And I'd rather not do the address thing, I mean, I can give you the account number off the notice? It's right here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:09:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Go ahead with the account number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:09:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it says four, four, one, seven, dash, zero, three. Then a two. Is that enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:10:04-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull that up. One moment. [pause] Okay, I have it. I see the account under your name, and the notice that went out is a past-due reminder. Can you confirm the mailing address you currently receive mail at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:10:22-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. It's not the one on the notice. The reminder went to my old place? A friend still there forwarded it to me. So that's the only reason I know about any of this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:10:39-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. The mailing address on the account is the previous one. It looks like it was never updated in our system when you moved."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:10:51-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Totally, but I filled out something when I moved, I thought? Like I thought that was handled. Anyway, so the original bill went to the old address and I never saw it. And now I'm getting a past-due notice for something I didn't even know about. Which is, like, annoying."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:11:14-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I'm showing the original bill was issued about two months ago, and the reminder was generated after the due date passed. Both were mailed to the old address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:11:28-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the amount is way high? Like, the amount on this thing is a lot more than I expected. Last year my winter bills were so much lower. Like barely anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:11:43-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the usage history. [pause] I can see last winter's readings. The prior winter bills were lower, yes. This latest one reflects a higher consumption reading for the period."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:11:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Higher how? Because I'm one person. I'm not, like, filling a pool."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:12:04-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The reading for this period is noticeably higher than the same period last year. I can't tell from here what caused it. It could be an estimated reading that was then corrected, a leak, or a meter issue, but I'd only be speculating."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:12:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so which one is it? Because that's kind of the whole question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:12:31-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The record doesn't say whether the reading was estimated or actual. That's something the meter team would have to confirm. I can send a request to have the reading verified."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:12:45-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, please do that. And, um, hold on, sorry, I just got this new cookbook today and I'm flipping through it while I wait. Sorry, it's kind of distracting. Okay. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:00-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I'll put in a request for a reading verification on the account. Someone from that team will review it and follow up. Do you have a good callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:14-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's four-oh-one, five-five-five, oh-one-eight-eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-eight-eight. Got it. I'll also update the mailing address on the account today so future bills reach you. What's the correct address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's a P.O. box now, actually. Is that allowed? Because I'm kind of between places, and honestly I'd rather not say the street."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A mailing address can be a P.O. box. Go ahead and give me the box information."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Box two-two-six, Newport, Rhode Island, zero-two-eight-four-oh."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Box two twenty-six, Newport, zero-two-eight-four-oh. I've updated that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:13:55-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Now, can you put all this in writing? Like, the explanation, that the bill went to the wrong address, and that you're checking the reading? Because I don't want a late fee on something I never got."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:14:12-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send you a written summary of what we discussed: that the bills were mailed to the prior address, that the address has been corrected, and that a reading verification was requested. It will go to the new mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:14:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and will it say that the late thing is on hold? Because that's the main thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:14:39-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can note on the account that you're disputing the charge pending the verification. Whether any late charge is adjusted would be decided after the review, so I won't put a promise in the letter. It will say the dispute is noted."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:14:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. That's, like, not totally what I wanted, but fine. As long as the dispute is on the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:15:08-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It will be. I'm adding the note now. [pause] Done. The summary should go out in the next few business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:15:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how long does the meter team usually take? Roughly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:15:24-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a firm timeframe from here. They'll call the number you gave me. If you haven't heard anything in a couple of weeks, call back and reference your account number and I can check the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:15:41-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a couple weeks. Got it. Alright, well, thanks, I guess. It's just annoying to find out like this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:15:50-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand, and I'm sorry about the mix-up with the address. Is there anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:15:59-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T16:16:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Iannuccilli. Have a good evening."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T16:09:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T16:09:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T16:09:11-05:00",
+        "end": "2026-02-26T16:16:06-05:00",
+        "duration_seconds": 415,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T16:09:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T16:09:11-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T16:09:11-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T16:09:11-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T16:09:11-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2ee8e644-885f-8db0-a3d9-aae22d5d89b8",
+  "created_at": "2026-02-02T10:11:29-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Cristina Medeiros",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. Happy Monday, how can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:15-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Cristina Medeiros. I have a parking ticket, and I want to know how much the fine doubles to, and when it happens."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Do you have the ticket in front of you? Read me the ticket number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:31-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one moment. [pause] Sorry, I dropped a ball. I am learning to juggle, and I practice while I wait. Ticket number is four, four, seven, one, nine, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Don't hurt yourself. Okay, I've got it. Before I go further, I need to verify you. Can you give me the last four digits of the card on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The last four are five, five, two, eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:10:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matches, thank you. So this one is unpaid, and if it isn't paid by the due date, February sixteenth, the fine doubles. It goes from the current amount to twice that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:11:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "February sixteenth. So I have two weeks. I understand. Also, I would like the photo of the violation. Can you email it to me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:11:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can send the photo to the email on your account. It should reach you today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:11:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That is all I need. Thank you very much for your help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T10:11:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Good luck with the juggling."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T10:10:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T10:10:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T10:10:10-05:00",
+        "end": "2026-02-02T10:11:29-05:00",
+        "duration_seconds": 79,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T10:10:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T10:10:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T10:10:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T10:10:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T10:10:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6cc71356-a096-88d7-9573-8abda811802e",
+  "created_at": "2026-02-12T10:29:19-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Ana Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-12T10:27:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:27:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, thank you. My name is Ana Vieira. I manage a property at 3 Kay Street, up on the Hill. I got the tax bill and it went up. I want to know why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:27:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Three Kay Street, correct? Let me bring up the account. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:27:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, 3 Kay Street. Thank you, I wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:27:50-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for holding. I see the bill. In general, a bill can change because the assessed value changed, or because the tax rate changed, or both. Do you have the assessed value from your last bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:02-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, assessed value. Yes, I have both bills here. The old one, and the new one. The new one is higher, so the value is higher, you are saying?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:11-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm saying that is the usual cause. Assessed values are set by the Assessor's office, so for the reasoning behind the number, they would be the ones to explain it. I can transfer you if you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, maybe after. First, I want to ask, is there an exemption I can apply for? What is the form number, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exemptions depend on the type, such as elderly, veteran, or disability. Which one were you asking about? And is the property owner-occupied?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. I am only the manager, the owner is not me. So I will ask the owner what kind. But the form number, you have it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The form differs by exemption type, so I can't give you a single number. The Assessor's office can tell you the exact form once you know which one applies. Shall I transfer you there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:28:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, transfer. One moment, I write this down. Assessor, then ask which exemption, then the form. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:29:01-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:29:03-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I am busy today, I also write questions for the trivia night I run at a pub, so my papers are everywhere. Anyway, thank you very much, Miss Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:29:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Vieira. Transferring you now. Please hold."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T10:29:17-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T10:27:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T10:27:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-12T10:27:26-05:00",
+        "end": "2026-02-12T10:29:19-05:00",
+        "duration_seconds": 113,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T10:27:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-12T10:27:26-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-12T10:27:26-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-12T10:27:26-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-12T10:27:26-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

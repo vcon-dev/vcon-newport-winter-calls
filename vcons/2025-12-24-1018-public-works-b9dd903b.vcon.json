@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b9dd903b-c679-8f9d-9904-62549d78b9a4",
+  "created_at": "2025-12-24T10:20:19-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Diane Ricci",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise. Merry Christmas Eve, how can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:17-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I'm calling about trash. Um, I own a house and my tenant just moved out, and the landlord, well, the previous landlord of the other unit, left a pile of stuff on the curb. A mattress, a couple of chairs, boxes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So that's bulk waste sitting out after a move-out. Is it sitting on the curb in front of your house?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. In front of my house. But I didn't put it there. How do I know I won't get ticketed for it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Bulk items usually need to be scheduled or tagged for pickup, they can't just sit out. If you call it in, it's on record that you're addressing it. I can note that you didn't put it out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and you're noting that now? Like it's actually written down?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:18:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'm typing it in as we speak. Do you have a street address for the pickup?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:05-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I'd rather not say it on speakerphone. Can I just ask when the next pickup is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:11-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Without the address I can't say your exact route. Regular trash goes by your street's day, and the holiday can shift it by a day. Do you know your normal trash day?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thursday. Usually Thursday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then with Christmas tomorrow, I'd expect it to slide, probably to Friday this week. Check the city's holiday schedule online to confirm, since I can't see your route from here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so Friday, not Thursday. And that's for the regular trash, not the mattress."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The mattress and chairs are bulk, so they'd be a separate pickup. Call back with the address and we'll get it set up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:44-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long does that usually take? Why can't they just grab it Friday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Different crew and a different truck, so it's often a separate day. I can't promise it's Friday. It's a holiday week too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:19:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, there's a lot of noise, I'm in the car. The school sent home a supply list and it's like glue sticks by the dozen, so I'm heading to the store."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:20:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a lot of glue. Well, go get them. When you call back, just have your address handy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:20:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So Friday for regular trash, and call back for the bulk. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:20:16-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Happy holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:20:18-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:18:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:18:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T10:18:13-05:00",
+        "end": "2025-12-24T10:20:19-05:00",
+        "duration_seconds": 126,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:18:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T10:18:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T10:18:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T10:18:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T10:18:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

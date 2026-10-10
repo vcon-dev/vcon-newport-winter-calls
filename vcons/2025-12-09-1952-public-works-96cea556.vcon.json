@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "96cea556-df4f-87ab-bf96-300f6ba9329d",
+  "created_at": "2025-12-09T19:53:44-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Gina Conti",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's full again, right to the top, and nothing's going down. I told you people how it gets after the storm, and it's three days now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, ma'am, I'm just picking up. Can I get your name and where you're calling about?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:35-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gina Conti, 333 Annandale Road. The storm drain on the corner, by my building. It's full to the top, not draining at all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 333 Annandale, North End. Is that from the nor'easter Friday into Saturday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:47-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that one. I went out there myself this afternoon and pulled the leaves off the grate by hand. It worked for maybe ten minutes and then it filled right back up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:52:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good for you for trying, but please don't stand in the road doing that. Is water getting toward the building?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:53:04-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's sitting in the street. I called after hours, I know, City Hall's closed, but the recording said this line takes storm calls. So I'm calling. Do the crews come out on the weekend? Because this has been sitting since Saturday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:53:17-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They do work storm cleanup when they need to, but I can't give you a day. I'm putting this in as a drain that's fully blocked and not draining, so it gets looked at. Is 401-555-0182 the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:53:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. I'm home all day anyway. I've had my cooking show on all week, that Italian one, and I can't even enjoy it, I keep going to the window."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:53:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. It's logged, Mrs. Conti. Someone will follow up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T19:53:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Thank you, dear."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T19:52:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T19:52:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T19:52:17-05:00",
+        "end": "2025-12-09T19:53:44-05:00",
+        "duration_seconds": 87,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T19:52:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T19:52:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T19:52:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T19:52:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T19:52:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

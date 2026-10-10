@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1b0c5e84-a479-80fa-95fb-115d6d09ad21",
+  "created_at": "2026-01-08T10:11:52-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Terrence Gallagher",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-08T10:10:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra, good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:10:37-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, good morning to you, Sandra. Hold on one second, I've got a pile of laundry here. Um, I'm trying to reach the post office, and I think I've gone and dialed the wrong place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:10:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, you have, hon, this is the City Clerk at City Hall. Not the post office. What number were you trying?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:10:56-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I had it written on the back of a slip, and it came out four-oh-one, so I figured that was right. Isn't that what we all are? Or did they change the area code on me again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:11:08-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, four-oh-one is right, that's all of Rhode Island. It's the rest of the number that's off. I can't give you the post office line myself, but the Newport branch is listed under the postal service online, or the phone book if you still have one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:11:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online. Right. My daughter set that up, I'll find it. Sorry, one, two, three, that's three socks and no match. Four. There's always one missing, you know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:11:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Oh, the dryer takes them, I swear. Don't worry about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:11:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Five, six, there we go, a pair. Well, I won't keep you, Sandra. Thanks for being so nice about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:11:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. You have a good day, and good luck with the socks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T10:11:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you kindly. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T10:10:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T10:10:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-08T10:10:34-05:00",
+        "end": "2026-01-08T10:11:52-05:00",
+        "duration_seconds": 78,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T10:10:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-08T10:10:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-08T10:10:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-08T10:10:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-08T10:10:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

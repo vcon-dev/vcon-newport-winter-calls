@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a7d35281-6543-827e-96f9-b08afb9a9aec",
+  "created_at": "2025-12-03T13:03:29-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Andres Morales",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T13:00:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:00:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good afternoon. I got a parking ticket in the mail, but it's, uh, it came through a rental car company. I'm calling about that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I can help with that. Do you have the citation number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. Hang on, I'm getting the paper. [pause] Sorry, my reception's wicked bad in here. It's, uh, [line breaks up] ...four, four, seven, one, nine, zero."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, you broke up at the beginning. Could you repeat the number from the start?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Four four seven one nine zero. That's what's printed at the top."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back to you: four, four, seven, one, nine, zero. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:33-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And can I have your name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:38-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Andres Morales. I live at 1 Admiral Kalbfus Road, up the North End. The rental company sent me the ticket with a letter. They tacked on their own fees on top of the fine, like an administrative charge. I never got the original ticket on the windshield, so this is the first I'm seeing it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:01:56-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The rental company's fees are charged by them, not by the city. The city's portion is the amount listed as the fine on the citation. If you wish to dispute the citation itself, that must be done in writing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:02:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's what I want. Where do I send a written appeal? Is there an address, or do I email it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:02:18-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Written appeals are mailed to the Finance Department at City Hall, attention parking violations. I will give you the address. It is the City Hall address on Broadway, Newport, Rhode Island. Please include the citation number, your name, and the reason for the appeal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:02:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[crosstalk] Sorry, go ahead. Broadway, got it. Should I put the rental agreement in too?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:02:39-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a copy of the rental agreement showing the dates would be helpful, along with the letter you received. Keep the originals for yourself."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:02:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I'm just sipping my hot cocoa here, in this mug shaped like an owl, and it's got me distracted. Anyway, so I send it to City Hall, Broadway, attention parking violations."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:02:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. Once it is received, it will be reviewed and you will be notified of the decision by mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:03:06-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And do I need to do anything about the rental company's fees?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:03:11-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be a matter between you and the rental company. I would suggest you contact them once the city has made its determination."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:03:20-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. That's all I needed. Thanks very much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:03:24-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Morales. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T13:03:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T13:00:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T13:00:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T13:00:46-05:00",
+        "end": "2025-12-03T13:03:29-05:00",
+        "duration_seconds": 163,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T13:00:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T13:00:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T13:00:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T13:00:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T13:00:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

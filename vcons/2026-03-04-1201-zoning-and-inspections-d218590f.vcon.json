@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d218590f-9e30-8010-be5a-1cd459b37cdf",
+  "created_at": "2026-03-04T12:05:06-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Yusuf Haddad",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-04T12:01:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:01:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good afternoon. Sure, of course. I'm calling about a fence. I'd like to put one up, and I'm not sure what I'm supposed to do first."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:01:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, happy to help. Can I get the address where the fence would go?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:01:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. It's 237 Pelham Street, up on the Hill. Yusuf Haddad."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:01:46-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Haddad. And what kind of fence are you thinking about? Material, height, that sort of thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:01:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Cedar. Sure, cedar. And whatever is allowed tall, honestly. The dog keeps slipping out of the yard, so I want it high enough that he can't get over or through."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:02:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Is this around the whole back yard, or just part of the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:02:09-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, absolutely, the back and one side. Most of it, I think. So, does a fence need a permit, or is it just a call to the city? Like, I call you and tell you, and that's it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:02:22-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In general a fence does need a permit, so it's more than a phone call. You'd submit an application before building. Since you're in the Historic Hill area, there may be an extra review too, depending on how visible it is from the street."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:02:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, sure. So the call is not the permit. The application is the permit. Or the application is, um, to get the permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:02:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The application is how you request the permit. You apply, we review it, and once it's approved you can build. The call is just the first step."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:02:54-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, absolutely. And the height, is that on the application, or do you tell me the tall limit now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:03:01-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'd put the proposed height on the application. There are limits, and they can be different for front yards and back yards, so I'd rather you get the exact numbers from the application materials. Is the fence going near the street at all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:03:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, no, well, maybe the side by the driveway. Is that the street? I thought the street was the front."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:03:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The front is the street side, but the side along a driveway can still be visible from the street. Just mark it on your sketch and the reviewer will sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:03:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. A sketch. Do I need a survey? Like a real surveyor, with the stamp and everything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:03:40-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not always. Often a plot plan or a drawing showing the fence and your property lines is enough. But if you're not sure where the line is, especially near a neighbor, a survey is a good idea. Do you know where your boundaries are?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:03:55-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, sure, I think so. Well, the neighbor on the left, I think the line is the old hedge. Maybe. I'm not completely sure. The family downstairs, they're in the same house, so that's not a neighbor, right? They host card nights, we hear it faintly through the floor, but that's a different thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:13-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the downstairs household is on your same lot, so that doesn't matter for the fence line. It's the hedge side that I'd double-check. If you're unsure, a survey would settle it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:24-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. Okay. So sketch, application, maybe a survey, and then wait. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:30-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. The application is available on the city website, or you can stop by our office and pick one up. Would you like me to note your number in case someone has follow-up questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, of course. It's 401-555-0168."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0168. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, that's everything. Thank you very much. Though I'm still a little unsure about the survey part, but I'll look at the form."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:04:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The form will give guidance, and you can call back if something's unclear. Have a good afternoon, Mr. Haddad."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T12:05:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, absolutely. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T12:01:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T12:01:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-04T12:01:23-05:00",
+        "end": "2026-03-04T12:05:06-05:00",
+        "duration_seconds": 223,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T12:01:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-04T12:01:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-04T12:01:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-04T12:01:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-04T12:01:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

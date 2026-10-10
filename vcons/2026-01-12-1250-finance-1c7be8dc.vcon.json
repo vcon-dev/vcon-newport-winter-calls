@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1c7be8dc-ac24-8e0d-b370-bee1cffa9679",
+  "created_at": "2026-01-12T12:56:04-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Cristina Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T12:50:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, tax and collections, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:50:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. Sorry to bother you. I think I might be calling the right place? I got a car tax bill, and I'm not sure it's supposed to be mine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:50:57-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You've reached the right office. Motor vehicle excise is handled here. Could you give me your name and the address on the bill, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:51:08-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's Cristina Costa, C-O-S-T-A. And the address is 369 Harrison Avenue, on the Fort Adams side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:51:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Costa. Tell me about the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:51:21-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's for a Honda, and I sold that car last year. In the spring, I think. So I don't understand why I'm getting billed for it. Sorry, I just want to make sure I'm doing this right and not ignoring something I'm supposed to pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:51:40-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's quite all right. Excise bills are generated from registry records as of the registration date. If the vehicle was sold, the registration usually needs to have been cancelled or transferred with the state registry. Do you recall whether you turned in the plates?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:51:58-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I, um, I think the buyer took the plates. I gave them the title and a bill of sale. Is that enough? Sorry, I don't know how it works."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:52:10-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm unable to see the registry's side from here. What I can do is note your account. You would want to contact the registry to confirm the registration was cancelled, and then bring us the proof, such as the bill of sale or a plate return receipt. Then the assessor's side can review the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:52:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I should call the registry first. And then bring the papers here. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:52:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Registry first, then send or bring documentation to us. You can mail it or drop it off at City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:52:50-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Can I ask one more thing? How do I change my mailing address? Because that bill went to my old place and it only got to me because someone forwarded it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:04-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For excise and tax records, the mailing address generally follows what the registry has on file for vehicles. Changing it with the registry will update it. For a property tax account, you would submit the change in writing to our office. Which type of account is this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it's just the car bill. I rent, so no property one. So the registry then, for that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, for the vehicle bill, the registry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, one second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:39-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:41-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Sorry, my coworker is talking over here. Did you just say something about the plates again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ma'am, that wasn't me. I haven't said anything for a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:53:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Oh, I'm sorry, I thought that was you. It's the guy at the next desk, he sounds a lot like you on the phone. Never mind. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:54:07-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:54:10-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, last thing. If I do end up having to pay part of this, the bill says there's an installment. Can I pay on the website with a card? Like right now, late in the day, or does it only work during office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:54:29-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The online payment portal is available at any hour, including evenings and weekends. Payments made outside of office hours are generally recorded when they are processed, so the date you pay matters, but the website itself does not close. The web address is printed on your bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:54:49-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I could do it tonight if I needed to. It's on the bill. Good. And if I pay and then it turns out I shouldn't owe it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:01-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then you would submit your documentation and the account would be reviewed. Any adjustment would be handled through our office. But I would suggest contacting the registry before paying, if you are able, since that could change the amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:17-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That makes sense. I'll call the registry this afternoon. And then I'll bring the papers to City Hall. Is that, um, is that the right order?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:29-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is the right order. When you come in, bring the bill itself, the bill of sale, and anything you receive from the registry. We are open weekdays during regular business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. Sorry again for all the questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize, Ms. Costa. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Thank you very much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:55:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:56:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T12:50:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T12:50:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T12:50:37-05:00",
+        "end": "2026-01-12T12:56:04-05:00",
+        "duration_seconds": 327,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T12:50:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T12:50:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T12:50:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T12:50:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T12:50:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

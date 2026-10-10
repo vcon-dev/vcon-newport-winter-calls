@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c9c12760-440d-85e5-9db2-9203aaa39bd3",
+  "created_at": "2026-02-19T14:21:40-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Margaret Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-19T14:16:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:16:20-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. My name is Margaret Wilcox. I am calling because I want to put a sandwich board on the sidewalk, you know, the sign with two sides that stands up by itself. And I am not sure what is the rule."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:16:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a sandwich board, sure. Is this for a business, Ms. Wilcox?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:16:40-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a small shop. On the other hand, I do not have the shop open yet, so maybe it is too early to ask. But I would like to know the size limit before I order the thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:16:53-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's smart to ask first. Where would the shop be? The street address, if you have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:17:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 309 Carroll Avenue. In the Fifth Ward, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:17:04-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 309 Carroll Avenue. And the sign would sit on the public sidewalk in front, or on your own property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:17:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On the sidewalk, in front of the door. On the other hand, the sidewalk is not so wide there, so maybe it would be half on my side, half on the city side. I do not know where is the line."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:17:26-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matters, actually. Signs on the public sidewalk are handled differently than ones on private property. So this would be a sign permit, and the size limits and placement depend on that. Do you have the dimensions of the board you're looking at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:17:41-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The one in the catalog is, um, thirty inches wide and forty-two inches tall. Is this too big? I am afraid it is too big, or maybe too small. I cannot judge."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:17:52-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the exact maximum in front of me, so I don't want to tell you the wrong number. Let me check with the inspector on that. Can you hold for a moment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, of course. I will hold."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:07-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks for waiting. So the inspector says the size is set in the sign rules, and it can vary by where the shop is located. They'd want to see the dimensions on the permit application. Thirty by forty-two isn't unusual for a sandwich board, but I can't promise it passes until it's reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. So the number is not one number. On the other hand, you say it is not unusual, so this is a little good news, yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A little, yes. The review looks at the size, and also that people can still walk past it on the sidewalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. So I fill the form first, and then I buy the board, not the other way around."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the safer order, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And what about the fee? Is there a fee for this permit? I think there must be."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:18:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There usually is a fee for a sign permit, but I don't have the amount in front of me. It's listed on the application, or I can have someone call you with it. Would you like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:19:12-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please. The number is 401-555-0181. On the other hand, if it is on the form, I can read it there also. I do not want to bother your inspector."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:19:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's no bother. Let me read that back: 401-555-0181, Margaret Wilcox, sandwich board at 309 Carroll Avenue. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:19:29-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly right. Sorry, one more thing. The sign is permanent or temporary? I read something on the internet that said a board you take in at night is not a sign, it is, how do you say, furniture. Is this true?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:19:43-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't call it furniture. A portable sign you bring in each night is still a sign, and it still goes through the permit. Whatever you read may have been about a different city."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:19:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. So I misread. It happens. My English reading is good, but the rules, they have their own language."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:03-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They really do. Don't worry about it. Are you able to come by City Hall, or would you rather have the form sent?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:11-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can come, but not today. The traffic is terrible. I was coming from the other side of town this morning and there was a long line of cars waiting for a road crew to wave them through. Twenty minutes I sat. So I would prefer not to drive again so soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I can email the form, or you can pick it up another day. Whichever is easier."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Email is better, but, on the other hand, I am not sure my email will work with your system. Maybe I should pick up on Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:44-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Monday's fine. We're open regular hours. Just ask for the sign permit application at the counter, and bring the dimensions and a rough sketch of where it would stand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:54-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sketch. Like a drawing? I am not an artist."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:20:58-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nothing fancy. A simple box for the building, a line for the sidewalk, and an X where the sign goes. Just measurements."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:21:06-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a box, a line, and an X. That I can do. So, to repeat: sign permit, I bring the size and the drawing, the fee is on the form, and someone calls me. And the size, I still do not know exactly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:21:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. The exact limit you'll get from the inspector when they call, or when the application is reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:21:28-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. It is a little unclear still, but I think I know my next step. Thank you, Ms. Anita."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:21:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Wilcox. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:21:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T14:16:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T14:16:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-19T14:16:16-05:00",
+        "end": "2026-02-19T14:21:40-05:00",
+        "duration_seconds": 324,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T14:16:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-19T14:16:16-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-19T14:16:16-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-19T14:16:16-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-19T14:16:16-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

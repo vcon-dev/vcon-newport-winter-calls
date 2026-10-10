@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "87014750-b1c0-8349-bf6b-7143272ace95",
+  "created_at": "2026-01-08T09:20:20-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Liam Sullivan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-08T09:16:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise, good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:16:45-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My trash wasn't picked up on my usual day, and I'd like to know when the next pickup is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:16:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:17:06-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "436 Carroll Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:17:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "436 Carroll, in the Fifth Ward. And what's your usual day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:17:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tuesday. Barrel was out at the curb Monday night, and it's still sitting there full."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:17:27-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Bear with me one second while I pull up the route. [pause] Are you still there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:17:39-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, still here. Sorry, I'm writing a grocery list while we talk. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:17:49-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. So I'm showing Carroll Avenue on a Tuesday route. Did the trucks come down your street at all, do you know? Did the neighbors get picked up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:18:09-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I didn't see the truck. The neighbors' barrels were gone when I got home from work, but mine was still there with the lid shut."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:18:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it sounds like they skipped yours specifically. Was the barrel in the street or up on the curb?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:18:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On the curb, next to the mailbox. Same spot as always."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:18:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Was there a tag or sticker left on it, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:18:55-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, nothing on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:18:58-05:00",
+      "duration": 30,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll put in a missed pickup report for 436 Carroll, and I'll flag that no tag was left. Your next regular pickup is this coming Tuesday. If you'd rather not wait, I'll ask the crew whether they can swing back sooner, but I can't promise that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:19:28-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll leave the barrel out in case they come back before Tuesday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:19:37-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, leave it right where it is. Can I get a callback number in case the supervisor has questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:19:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0179."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:19:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0179. And the name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:19:57-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Liam Sullivan. S-U-L-L-I-V-A-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:00-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Sullivan. Anything else I can do for you this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:17-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T09:16:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T09:16:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-08T09:16:40-05:00",
+        "end": "2026-01-08T09:20:20-05:00",
+        "duration_seconds": 220,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T09:16:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-08T09:16:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-08T09:16:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-08T09:16:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-08T09:16:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

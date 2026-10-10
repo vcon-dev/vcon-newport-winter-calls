@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "101a3c29-ae01-8f29-a7bc-05ed6daeed49",
+  "created_at": "2026-01-02T11:39:30-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Jorge Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:11-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I'm calling about a streetlight. It's out in front of my house and, well, the opposite problem actually. It's on, but it's aimed wrong. The light shines straight into our bedroom window. Lights up the whole room at night."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's no good for sleeping. Okay, so the light is working, but it's pointed right at your window. Where is this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:32-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "165 Annandale Road. North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:35-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "165 Annandale Road. Got it. Is it on a utility pole or its own lamp post?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:41-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's on the pole right at the edge of the property. Wooden pole. Could you get a crew out to check the pole? Maybe the fixture got knocked or bent, because it never used to do this."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:38:53-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll put in a request for a crew to look at the fixture on that pole. Anything else you noticed, like flickering or buzzing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:39:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, nothing like that. Just the angle. Sorry, I've got a little noise here, I'm in the garage. I'm rebuilding a lawn mower engine, just for the fun of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:39:11-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Well, I'll let you get back to it. Do you want a call when it's scheduled? I have a number here, is it 401-555-0190?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:39:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:39:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. So that's 165 Annandale Road, light aimed into the bedroom window, crew to check the pole. You're all set."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:39:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, appreciate it."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T11:38:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T11:38:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-02T11:38:07-05:00",
+        "end": "2026-01-02T11:39:30-05:00",
+        "duration_seconds": 83,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T11:38:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-02T11:38:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-02T11:38:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-02T11:38:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-02T11:38:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

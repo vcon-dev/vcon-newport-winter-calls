@@ -1,0 +1,595 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b4036ff5-d0af-802b-942c-3fa84ad3fa7d",
+  "created_at": "2026-02-17T11:46:07-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Miguel Figueroa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-17T11:36:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:36:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. My name is Miguel Figueroa. I have a ticket here, a parking ticket, and I want to talk about it, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:36:57-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Good morning, Mr. Figueroa. Do you have the ticket in front of you? There should be a number on it somewhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:37:09-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it. One moment. [pause] My glasses, they are in the kitchen. Okay, I have them. The number is, I read slowly, okay? Four, four, one, seven, eight, zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:37:25-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one seven eight zero. Let me pull that up. [pause] Okay, I've got it. Issued last Thursday, a little after two in the afternoon. Violation is parking within the distance of a fire hydrant. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:37:46-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The date, yes, it is right. But the hydrant, no. It is not right. I was not too close. The policeman, or the lady, I don't know who, she wrote that I was too close, but I was not."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:38:06-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. How far away do you think you were?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:38:12-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am sure I was far. Maybe, maybe one car length. A little less. I have driven that street for many years, I know where to park. Always I leave space."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:38:28-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I'll tell you, the officer's notes just say hydrant, no measurement on my screen. I can't see a photo either, if there was one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:38:41-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So she does not write how many feet? Then how she knows? This is what I do not understand. I come out, and there is paper on my window, fifty dollars, and nobody measured, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:39:00-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say whether she measured or not, honestly. What I can see is the amount, and it's what's listed for that violation. Nobody's tape measure made it into the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:39:16-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] That is not very good for me, you know. I pay my taxes, I am a homeowner. Seventy-some years old and I never have a ticket like this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:39:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Let me ask you, is this your first ticket with the city?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:39:38-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the first. Maybe a long time ago something small, but not for many years. So I want to ask, when it is first time, can they take away the fine? Can it be waived, this one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:39:57-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wish I could say yes right now, but waiving a fine isn't something I can do from this desk. There's a way to contest it, though. You can ask for a review of the ticket, and you'd explain what you told me, that you believe you were far enough, and that it's your first one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:40:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A review. How do I do this? I write a letter? My handwriting is not so nice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:40:35-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter works, as long as it's readable. Put the ticket number, your name, your phone number, and your reasons. Or you can come to the window here at City Hall and fill out the form in person, and someone will help you with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:40:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The window, okay. Which window? Finance?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:41:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because last time I go to City Hall I walk to the wrong office, and a man tell me upstairs, then downstairs."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:41:14-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, that's the building for you. Come in the main entrance and ask at the front desk for parking tickets. They'll point you right. It's on the first floor, no stairs."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:41:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, no stairs is good. And what happens with the money, the fifty dollars? I wait to pay? Or I pay and then they give back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:41:44-05:00",
+      "duration": 33,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Generally, if you've filed for a review, you don't want to just let it sit forever, because there's a due date and late charges can pile on. When you file, ask them at the window what the hold on it is. They'll tell you how it works for your ticket. Look at the ticket too, there's usually a date printed on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:42:17-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] Yes, here. It says, it says fourteen days. From the day of the ticket. So that is, um, counting, Thursday, then..."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:42:30-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thursday the twelfth. So fourteen days takes you to about the twenty-sixth. You've got over a week. Plenty of time to come in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:42:42-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the twenty-sixth. I write it here on the paper. This is a little annoying, you know. I was thinking it is easy, I call, they say okay, mistake, finished."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:42:58-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. I'd love to be the guy who says mistake, finished, but then my phone would never stop ringing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:43:09-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Yes, maybe so. You are honest, at least."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:43:15-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Occasionally. Look, one thing that might help you. If you can, go back to the spot and take a couple of photos, with the hydrant and your car's usual spot, and measure it if you can. Bring those with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:43:36-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A picture, yes. I can do this. My neighbor has a measuring tape, long one. The family two doors down, they just have a baby, so I do not like to bother them now, but I think the husband can lend. Maybe I ask him quiet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:44:00-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, congratulations to them. A tape measure is a pretty small ask compared to a newborn."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:44:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. Very small. The baby is only one week. Very loud already, I can hear at night, but is a happy sound."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:44:21-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's one way to look at it. Alright, so photos, measurements, ticket in hand, and in by the twenty-sixth. Anything else you need to know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:44:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The hours of the window, what time? I do not want to go and find it closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:44:43-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open weekdays, and the counter generally runs during normal business hours. Mornings are quieter. If you come in around ten, you probably won't wait long."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:44:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ten o'clock. Okay. And I bring the ticket, the photos. Do I bring ID also?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:45:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring your license, sure. It's easy for them to match you to the registration."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:45:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. License. Okay. And, um, if they say no, to the first-time thing, then I pay the fifty and that is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:45:25-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the review comes back against you, they'll send you notice with what to do next and what you owe. You won't be surprised by it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:45:39-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I am still not happy about the ticket, I tell you honestly. But thank you for explaining. You were patient with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:45:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Mr. Figueroa. Say hello to the baby for me. Well, from a distance."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:45:59-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, yes, from a distance. Thank you, Luis. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:46:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take care. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T11:36:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T11:36:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-17T11:36:38-05:00",
+        "end": "2026-02-17T11:46:07-05:00",
+        "duration_seconds": 569,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T11:36:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-17T11:36:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-17T11:36:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-17T11:36:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-17T11:36:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

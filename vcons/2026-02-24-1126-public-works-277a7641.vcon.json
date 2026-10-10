@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "277a7641-e09b-8970-8f26-de6be76626f2",
+  "created_at": "2026-02-24T11:28:44-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Brendan Reardon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T11:26:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:26:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. My recycling bin, they leave it with a tag. Rejected. This is second time in a row, second miss."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:26:45-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sorry about that. Let me get some details. Did the tag say why it was rejected?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:26:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It say contaminated. But I check, only cardboard, cans, bottles, paper. Nothing else. I am in a hurry, please, I have appointment at two o'clock. Two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, we'll keep it quick. When was the pickup? Was it this week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This morning, Tuesday. Before, last Tuesday also. Same thing. Last week tag, this week tag. Two times."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So two Tuesdays in a row, both tagged rejected. And I'm guessing the pickup last week was before the storm, or was it after?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:25-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before. The storm, last weekend, Saturday into Sunday. So that pickup is before. This morning is after the storm. The bin has some water inside, maybe that is the reason? I don't know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be, wet paper and cardboard sometimes gets flagged. I'll note that. Can I get your address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I would rather not say address on phone. You can call me back? Number is 401-555-0199. Zero one nine nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:27:53-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I've got 401-555-0199, zero one nine nine. Without the address I can't pull up the route, so I'll write this up with your name and number and have someone call you. Name again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:28:06-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Brendan Reardon. R-E-A-R-D-O-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:28:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Brendan Reardon, rejected tag two weeks running, possible wet bin after the nor'easter. Anything else for the note?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:28:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please ask them to say what exactly is wrong, so I can fix. And can they pick up the bin again? Not wait until next week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:28:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put that in as a request. I can't promise a special pickup, but they'll call you about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:28:34-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I must go now, appointment. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:28:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it, Mr. Reardon. Good luck at your appointment."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T11:26:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T11:26:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T11:26:34-05:00",
+        "end": "2026-02-24T11:28:44-05:00",
+        "duration_seconds": 130,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T11:26:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T11:26:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T11:26:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T11:26:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T11:26:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

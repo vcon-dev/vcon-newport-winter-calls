@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7c9748db-2347-8298-889a-078738e7a47a",
+  "created_at": "2025-12-17T12:37:28-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Linda Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-17T12:34:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. This is Linda Sisson. I am calling about my water and sewer bill. I have a question about one line, and honestly I think it is wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:16-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "463 Admiral Kalbfus Road, in the North End. [pause] Sorry, there is a little click on my phone. It does this every few seconds. Can you hear it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear it, faint, but you're coming through fine. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:31-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, the water charge is one amount. The sewer charge is higher. Much higher. How can the sewer be more than the water? I only get the water from the tap. The sewer, I do not even use it that much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:46-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull up the account. Give me a moment. [pause] Okay, I see the bill. The sewer line is calculated from the water that's recorded on your meter, so the two are connected."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:35:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but connected how? If it is the same water, the numbers should be the same. Or the sewer is smaller. It is not logical to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:36:08-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The sewer rate per unit is different from the water rate, so the sewer total can come out higher even with the same usage. That's how it's set up. What I can't tell from here is whether your reading this period is accurate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:36:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is exactly my point. Also, I had a plumber here last month. He fixed a leak under the kitchen sink. I kept the receipt. Maybe the meter was reading wrong because of that, I don't know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:36:36-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A repair under the sink wouldn't normally change the meter, but if there was a leak, that could have affected usage. Do you have the date on that receipt?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:36:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it right here. It is the eleventh of November. I do not think I should pay a number that is this high without someone checking."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:36:56-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note the receipt date and ask for the meter reading to be reviewed. I'd want someone in the water division to confirm it before I tell you anything firm."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:37:07-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then please call me back with the answer. My number is 401-555-0164."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:37:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0164, Linda Sisson, 463 Admiral Kalbfus Road. I'll call you once I hear back from them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:37:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Priya. I appreciate it. God bless you, and have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T12:37:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Linda. Stay dry out there today. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T12:34:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T12:34:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-17T12:34:58-05:00",
+        "end": "2025-12-17T12:37:28-05:00",
+        "duration_seconds": 150,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T12:34:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-17T12:34:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-17T12:34:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-17T12:34:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-17T12:34:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

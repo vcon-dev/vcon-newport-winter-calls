@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c5368e21-d2e5-8966-98d8-3b425c3d0812",
+  "created_at": "2026-03-10T11:43:02-04:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Siobhan Brennan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:02-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:06-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, thank you for picking up. I'm calling about a pothole on my street, thank you. It's gotten wicked bad since the rain Friday and Saturday, three days ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:14-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry, you're breaking up a little. Which street is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:18-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, thank you. It's 414 Spring Street, in the Fifth Ward. [line breaks up] it's deep enough to swallow a tire, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:24-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "414 Spring Street, and the hole could swallow a tire. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:29-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right, thank you. And now it's full of water, so you can't see it at all. I've watched two cars drop right into it. [inaudible] This is the third time I've called, thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:39-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, the last part cut out. You're asking for it to be added to the repair list?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:45-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes please, could you add Spring Street to the list? Thank you. I sit on my stoop to watch the tourists on weekends in summer, and somebody's going to wreck a car there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:54-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got it noted, 414 Spring Street, large water-filled pothole, requesting repair. I'll pass it to the crew."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:42:59-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you so much, I appreciate your help. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T11:42:02-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T11:42:02-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T11:42:02-04:00",
+        "end": "2026-03-10T11:43:02-04:00",
+        "duration_seconds": 60,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T11:42:02-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T11:42:02-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T11:42:02-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T11:42:02-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T11:42:02-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "30c9760a-f066-879a-aada-afa8daa3a1b6",
+  "created_at": "2026-03-10T15:01:52-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Liam Cullen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T14:57:25-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:57:30-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. My name is Liam Cullen. I'd like to ask about a birth certificate that has a name spelled wrong on it. Let me explain how it came about, if that's all right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:57:43-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:57:46-04:00",
+      "duration": 31,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So my granddaughter is registering for kindergarten. The registration packet is sitting right here on the counter in front of me. It asks for a copy of her birth certificate, and when I looked at the one we have, her middle name is spelled wrong. It says Margaret with an E-T at the end, M-A-R-G-A-R-E-T-T. It should be M-A-R-G-A-R-E-T, I mean without the second T. Or no, wait, let me look. Yes, the certificate has the extra T. The correct one has only one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:58:17-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the certificate has two Ts at the end and the right spelling is one T. Let me make sure I have that. M-A-R-G-A-R-E-T-T on the record, and it should be M-A-R-G-A-R-E-T."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:58:30-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. That's it exactly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:58:33-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And was she born here in Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:58:37-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She was. At the hospital here, a little over five years ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:58:42-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, then we'd have the record. For a correction, there's an amendment form. Usually the parents fill it out, since they're the ones named on the certificate. Are you a parent, or a grandparent?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:58:55-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm the grandfather. Her mother is my daughter. She works days, so I've been the one handling the packet. Can I do it for her?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:59:05-04:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably not on your own. The parent would need to sign the form, and there's generally some kind of identification and proof of the correct spelling, something like a baptismal record or a medical record. But the parent could sign and you could bring it in for her, I'd think. Let me confirm that with the form in front of me. Can you hold a moment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:59:30-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. I'll wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:59:32-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks for holding. Yes, the parent signs the form, and it should come with a copy of the parent's photo ID. Then the correction is made on the record and a new certified copy can be issued."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:59:46-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. And how long does that take, once it's submitted? The school wants the packet back before the end of the month."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:59:55-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It varies. If everything's complete when it comes in, it's usually a matter of a couple of weeks, sometimes less. If something's missing, it takes longer. I'd bring it in as soon as you can."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:00:09-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple of weeks. All right. Would the school accept the certificate we have now, in the meantime?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:00:16-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's really a question for the school. Some will take the packet with a note that a correction is in process, but I couldn't say for this one. I'd call their office and ask."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:00:29-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's sensible. I'll do that. Where do I get the form? Can I pick it up there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:00:36-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can pick one up at the counter here at City Hall. We're open until five today. Or I can have one mailed to you if you give me an address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:00:49-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll come by this week. Do I need anything with me just to pick up the form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:00:56-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, just come to the counter and ask for the vital records amendment form. When you bring it back filled out, bring the parent's ID and whatever shows the right spelling."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:08-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll have my daughter look for her hospital paperwork. Let me read back what I have. The parent signs the form, a copy of her photo ID, something showing the correct spelling, and about two weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:22-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Do you want my number, in case you have questions when you're filling it out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:29-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the main number on my phone here. If I need to reach you I'll call the clerk's office again."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:38-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:42-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Thank you for your patience, Mr. Haskell."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:47-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:01:50-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T14:57:25-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T14:57:25-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T14:57:25-04:00",
+        "end": "2026-03-10T15:01:52-04:00",
+        "duration_seconds": 267,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T14:57:25-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T14:57:25-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T14:57:25-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T14:57:25-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T14:57:25-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

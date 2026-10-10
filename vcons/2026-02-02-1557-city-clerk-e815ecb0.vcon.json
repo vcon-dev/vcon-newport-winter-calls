@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e815ecb0-6b82-8cdc-9ddb-6bb187aecaf8",
+  "created_at": "2026-02-02T15:58:44-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Colleen Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T15:57:44-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:57:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. Before anything else, may I have your name again? I'm writing it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:57:53-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rosa Delgado. R-O-S-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:57:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rosa Delgado. Thank you. Rosa, I'm looking for a taxi company. I believe I've dialed the wrong number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:01-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, yes, this is City Hall, the clerk's office. We don't dispatch any taxis here. You'd want to look up the cab company directly, in the phone book or online."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:10-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Well, I was working from an old list I keep by the phone. Apparently the list is older than I am. Almost."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It happens. Numbers change all the time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They do. Hold on, I'm writing that down. Look up the company directly. The patch of sun on my kitchen table keeps sliding off my notepad while we talk, so I'm chasing it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's almost four, so it's moving along. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all. Thank you, Rosa. I'll find a current number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T15:58:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T15:57:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T15:57:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T15:57:44-05:00",
+        "end": "2026-02-02T15:58:44-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T15:57:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T15:57:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T15:57:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T15:57:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T15:57:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

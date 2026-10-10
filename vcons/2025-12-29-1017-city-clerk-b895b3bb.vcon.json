@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b895b3bb-3748-8b90-b2b2-4cdc289a24ea",
+  "created_at": "2025-12-29T10:18:44-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Esteban Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T10:17:36-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. Buenos días, good morning."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:17:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, good morning, good morning. Um, I am calling for the library, the Newport library. Is this the library?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:17:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, this is the City Clerk at City Hall. You've got the wrong number, but that's okay. Which library were you looking for, the main one on Spring Street?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:17:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, the main one. I have this number in my phone, from, um, a list. An old list. I think the list is older than my truck, you know? [pause] So the numbers, they walk away."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It happens. Numbers change all the time. Do you have a pen, or are you driving?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:08-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am driving, yes, but slow. I have the window a little open, for the air, so if the wind is loud, I am sorry. I want to ask them about the hours, because of the holiday week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:18-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Easiest thing is to search Newport Public Library online once you park, and the current number and holiday hours will be right there. I can't give you the number off the top of my head without being sure it's current."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:29-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So I look on the internet, the Newport Public Library. Not the old list."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:34-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Not the old list."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Rosa. You are very kind. Sorry for the trouble, and good day to you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:18:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Drive safe, and happy new year."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:17:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:17:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T10:17:36-05:00",
+        "end": "2025-12-29T10:18:44-05:00",
+        "duration_seconds": 68,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:17:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T10:17:36-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T10:17:36-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T10:17:36-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T10:17:36-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

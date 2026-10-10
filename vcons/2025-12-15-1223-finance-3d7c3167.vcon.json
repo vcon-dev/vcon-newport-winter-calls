@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3d7c3167-9638-891a-b024-2e6019cea200",
+  "created_at": "2025-12-15T12:26:59-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Adriana Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-15T12:23:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:23:26-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. I'm calling about a parking ticket for my mother. First, she paid it online, second, we still got a late notice in the mail, and third, I want to know what to do about that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:23:41-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Do you have the ticket number or the license plate number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:23:49-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the plate. It's... hold on. Okay, it's a Rhode Island plate, 4 4 2 1 7. And the notice says it's overdue, which is wild, because she paid it, like, two weeks ago."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:24:04-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And may I have your name, please, and the name of the registered owner?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:24:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm Adriana Cordero. The owner is my mom. I'm just the one calling because she's at work and she doesn't really deal with this stuff."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:24:22-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, Ms. Cordero. One moment while I pull up the record. [pause] I see the citation. It shows a payment posted on December third, but it also shows a late notice generated on the sixth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:24:37-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so that's what I'm saying. First, she paid on the third. Second, there's a confirmation email. Third, the notice came anyway. So that's not on her."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:24:49-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It may be that the notice was generated before the payment was fully reconciled. That does happen occasionally. I would ask that you keep the confirmation email and the notice together."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:25:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have both. I can scan them, whatever you need. Honestly it's a lot of hassle for one ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:25:10-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do apologize for the inconvenience. Since the payment is on the account, the late fee should be removed. I'll make a note on the file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:25:21-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And can I ask, um, you sound exactly like somebody I went to school with. Were you ever at, like, a school across town, a girl named Janet?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:25:33-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm afraid I wouldn't know. I've been with the city for quite some time, though, so it may be a different Janet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:25:43-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, probably. Sorry, it was just the voice. Anyway, there was something else. The notice mentions a hearing. First, is there a date, second, do we even need to go if it's paid?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:25:57-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] The record shows a hearing date listed for January fourteenth. Whether it will still be needed once the late fee is cleared, I can't say from here. I'll have the violations clerk confirm and call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:14-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "January fourteenth. Okay. And can they call this number? It's 401-555-0153."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:19-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one five three, correct. I'll note that. You should hear back within a few business days. If you have not, please call again and reference the plate number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:31-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. Just, I'd really like this to be done, because we already did the thing we were supposed to do."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. You may also email the confirmation to the violations office for the file, if you would like a record on your end."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll do that tonight. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Cordero. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:26:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T12:23:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T12:23:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-15T12:23:19-05:00",
+        "end": "2025-12-15T12:26:59-05:00",
+        "duration_seconds": 220,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T12:23:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-15T12:23:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-15T12:23:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-15T12:23:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-15T12:23:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

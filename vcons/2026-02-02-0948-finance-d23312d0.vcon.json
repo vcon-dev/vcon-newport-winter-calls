@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d23312d0-1637-8e80-84f1-7a3147b0fd5c",
+  "created_at": "2026-02-02T09:55:45-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carlos Cabral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T09:48:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, parking violations, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:48:47-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. Sorry, I'm gonna keep my voice down, I've got the baby here with a bottle. Um, I'm calling about a parking ticket. It's for my mother, it's her car."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:49:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Is your mother available to speak with me, or are you calling on her behalf?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:49:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On her behalf. I'm her son. She's not great with the phone and honestly she's pretty upset about it. Carlos Cabral, that's me. Her name's on the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:49:26-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, Mr. Cabral. I can discuss the ticket with you if you have the ticket number or the plate. What is the violation listed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:49:39-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, let me get it. [pause] Okay, sorry, shifting her here. It says expired registration sticker. Expired. Except she renewed it the day before. Like literally the day before the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:49:55-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you have the ticket number? It should be near the top of the notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:50:04-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's, um, it's a long one. Starts with a P, then 4, 4, 1, 9, 0, 7. That's what I've got on the yellow envelope."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:50:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me look that up. [pause] Yes, I have a citation issued last Thursday on a vehicle for an expired registration. Where was the car parked, do you recall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:50:32-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, she was on Thames, up by where the bank used to be, you know, the one that's the pharmacy now. Not even there long. Maybe an hour, running in to see her friend."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:50:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the location, thank you. The citation is showing as unpaid at this time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:50:57-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, and I don't want her paying it, because she didn't do anything wrong. She went to the registry Wednesday, got the new paperwork, the whole thing. The sticker was just not on the plate yet. It was in the glove box. Come on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:51:18-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand your frustration with the situation, but the officer cites based on what is displayed on the vehicle at the time. If the registration was renewed, the proper course is to file an appeal with documentation."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:51:36-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So that's what I want to do. What do I need? Because I have the receipt from the registry, it's got the date right on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:51:50-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The registry receipt or the new registration document showing the renewal date would be the key item. Please include a copy, not the original. You would submit that with the appeal form, along with a copy of the citation."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:52:09-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I just email it or something, or do I have to bring it in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:52:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You may bring it to City Hall, or mail it. I would recommend keeping a copy for your records either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:52:28-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Mailing's fine. Where do I get the form, though? Is that online or do you send it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:52:37-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The form is available at the counter here, and I can also have one mailed to your mother's address if you would like. Is the address on the citation the correct mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:52:53-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's right. Mail it there. Actually no, wait, send it to me, I'll handle it. Can you do that? Or does it have to go to her?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:53:07-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would need to send it to the registered owner's address on file. You can then handle it from there. Is that acceptable?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:53:19-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, okay. That's fine, I'll grab it from her. [pause] Sorry, she's making noise. Okay. So how long does the appeal take? Like, from when I send it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:53:33-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once it is received, it is reviewed, and a written decision is mailed to the owner. It generally takes a few weeks, though I cannot give you an exact number of days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:53:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few weeks. Okay. And in the meantime, does it go up? Like does she get hit with a late fee while it's sitting there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:54:02-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would advise filing the appeal promptly, within the period stated on the notice. Please read the back of the citation, it lays out the deadline and what happens with the payment during review."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:54:19-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I look at the back of the thing. Got it. I just don't want her getting a second notice for something she already took care of. She's seventy-something, she'll lose sleep."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:54:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Filing the appeal with the documentation is the correct step, and it will be noted on the citation once it is received."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:54:47-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And the plate, it's gonna be the same one on the envelope, so you can match it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:54:57-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the citation number is what we match on, so please write it on the form and on the copy of the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:55:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "P, 4, 4, 1, 9, 0, 7. Got it. I'll write it on everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:55:16-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Is there anything else I can help you with this morning, Mr. Cabral?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:55:24-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Just, it's annoying, you know? She does the right thing, gets it renewed, and still gets a ticket. But okay. Thanks for your help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:55:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You are welcome. Thank you for calling, and have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T09:48:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T09:48:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T09:48:40-05:00",
+        "end": "2026-02-02T09:55:45-05:00",
+        "duration_seconds": 425,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T09:48:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T09:48:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T09:48:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T09:48:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T09:48:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

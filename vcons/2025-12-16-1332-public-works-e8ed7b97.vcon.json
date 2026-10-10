@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e8ed7b97-8825-8be4-ad86-d6d585d8353b",
+  "created_at": "2025-12-16T13:34:46-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Antonella Lombardozzi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T13:32:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:02-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I need the trash and recycling schedule for the holiday week. Is it changing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Let me pull that up. What's the address you're on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:13-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "159 Farewell Street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "159 Farewell, North End. Okay, and you're asking about the week of Christmas, right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Christmas week and the New Year's week too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:25-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So, usually when the holiday falls on a weekday, pickup slides back one day for the rest of that week. For your street, that would put your regular day a day later. Let me double check that against the calendar here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:41-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Christmas week, everything after the holiday shifts one day later. Same thing for New Year's week. Then it goes back to normal the week after."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:52-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So Tuesday pickup becomes Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:55-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, if your pickup is Tuesday, Christmas is a Thursday, so you'd be before the holiday and not affected that week. New Year's is also a Thursday, so same thing. It's only Thursday and Friday routes that slide."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:10-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Mine's Tuesday. So no change."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:13-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, no change for Tuesday. I'll note that down. Tuesday, both weeks, normal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there a fee for any of that? A holiday pickup charge or anything?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no fee. It's just the regular service, only the days move."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. You have a calm voice, by the way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, thank you. I'll take it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:37-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all I needed. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:32:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:32:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T13:32:59-05:00",
+        "end": "2025-12-16T13:34:46-05:00",
+        "duration_seconds": 107,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:32:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T13:32:59-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T13:32:59-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T13:32:59-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T13:32:59-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

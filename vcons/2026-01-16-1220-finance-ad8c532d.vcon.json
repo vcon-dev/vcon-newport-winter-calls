@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ad8c532d-c70f-8d7c-93dd-0e85beef6201",
+  "created_at": "2026-01-16T12:22:34-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Walter Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:09-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Walter Burdick. I'm calling for my mother. She got a late notice on a parking ticket, but she already paid it online. So what do I do about that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can look into that. Do you have the ticket number, or the license plate on the vehicle?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on. Okay, the plate I've got. Hold on, buddy, the baking soda goes in the little cup, not the big one. Sorry. Yeah, the plate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:35-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, sir."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the plate on my mother's Buick. She lives at 337 Marsh Street, down the Point. I'll read it to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, please. And I'll need the plate letter by letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. I'm reading it off the notice. It's Tango Four Seven Two Nine Delta. Wait, no, Four Seven Two Nine Bravo. Sorry, Bravo."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:20:57-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bravo. Thank you. One moment while I pull that up. [pause] I see the ticket here, and I see a payment recorded. It looks like the late notice went out before the payment posted to the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:21:10-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the notice is wrong, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:21:13-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It crossed with the payment. If she has the confirmation email, keep it. The account shows paid, so she doesn't owe a late fee based on what I'm seeing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:21:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if she wants to appeal the original ticket, how long does that take?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:21:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "An appeal is handled separately, and the time varies. Generally it's a matter of weeks. But since the ticket has been paid, she should know that may affect how it's treated. I'd suggest the hearing office for the specifics."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:21:42-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, I'll ask them. Different question. I'm leaving on a trip Sunday. If I need to pay something before I go, can I do it without coming to City Hall? Like at night or on a weekend?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:21:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Payments can be made on the City's website at any hour. There's also a secure drop box outside City Hall for checks. Please include the ticket number on the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:22:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online is fine. Does it work on a phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:22:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It does. Just have the ticket number or plate handy, as you did today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:22:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Yes, the little cup, I said. Sorry. So the late notice is a non-issue and I should keep the confirmation. That's it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:22:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. Is there anything else I can assist you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:22:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T12:22:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon, and safe travels."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T12:20:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T12:20:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-16T12:20:04-05:00",
+        "end": "2026-01-16T12:22:34-05:00",
+        "duration_seconds": 150,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T12:20:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-16T12:20:04-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-16T12:20:04-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-16T12:20:04-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-16T12:20:04-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

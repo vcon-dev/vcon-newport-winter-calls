@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8c3843b1-65b1-82f1-abdb-db9ba61ea5a8",
+  "created_at": "2025-12-29T10:28:41-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Diane Mancini",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra, good morning."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:52-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I'm calling about a certificate. There's a misspelled name on it and I need to find out how to get it corrected."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh sure, we can help with that. What kind of certificate are we talking about, birth, marriage, death?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Birth certificate. It's for my daughter. They spelled her first name wrong, one letter off. It's Gianna and it says Gianna with only one N."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's missing an N. Was she born here in Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, at the hospital here. Well, that's what it says on the certificate. Does it matter where the hospital was versus the city?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:42-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's where the birth was recorded, so if the certificate says Newport, then yes, it's ours to deal with. If it were another town, you'd have to go to them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:56-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how do I know it's not the state that has to fix it? I got a copy from somewhere before and I'm not sure which office it came from."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:10-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The city holds the local record, and corrections usually start with us, then they go through the state health department. If it turns out it needs to be handled differently, we'll tell you right at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:28-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it starts with you. You're sure about that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:33-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a Newport birth, yes, it starts here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What ID do I need to bring?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:41-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A government photo ID for yourself, like a driver's license. And since you're the parent, it helps to have the certificate you already have with the error on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:55-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just my license and the old certificate. Nothing else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:26:00-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's usually something showing the correct spelling, like a hospital record or her baby paperwork, or a doctor's record. Anything that has the name spelled the way it should be."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:26:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on a second. [pause] Sorry, that's the doorbell. I'm not getting it. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:26:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. Do you need me to wait?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:26:27-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, it's fine. So the license, the old certificate, and something with the right spelling. What counts as that, exactly? Would her immunization card work?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:26:39-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A shot record from her pediatrician would be a good one, as long as it has her full name and date of birth. A social security card works too, if she has one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:26:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She does have a social security card. It has two Ns. Okay. And how do I know that's enough and I won't get turned away?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:06-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise what the examiner will ask for, but with those you'd be in good shape. If you want, bring a couple of things and we'll sort out what we need."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Do I have to bring her?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you don't need to bring her. Just you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Are you open today? Like this afternoon?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:34-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We are, we're open until the end of the business day. It's a Monday, so it's usually steady but nothing crazy this time of year."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And then about how long does the correction take?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:27:51-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That depends on the state side of it, so I couldn't give you an exact number. We'll give you an idea when you're here and we start the paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:28:04-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So you don't know. Okay. Let me make sure I have it. License, the old certificate, social security card or shot record. Come to the city clerk."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:28:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Bring both of the extras if you can."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:28:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, both. Thanks. That's what I needed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:28:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Diane. Hope the doorbell wasn't anything important."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:28:32-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably a delivery. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:28:35-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now, happy new year if I don't talk to you before."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:23:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:23:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T10:23:48-05:00",
+        "end": "2025-12-29T10:28:41-05:00",
+        "duration_seconds": 293,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:23:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:48-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:48-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:48-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:48-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d80a7751-8db7-8065-9e93-21caa768f3e6",
+  "created_at": "2026-03-12T16:05:16-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Stephen Hazard",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-12T16:00:53-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:00:58-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Water bill question."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:00-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Can I get your name and the service address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:06-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Stephen Hazard. I don't have the account. I rent."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:10-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the bill in your name, or is it in your landlord's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:16-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not mine. Landlord's. He says I owe it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:20-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So you'd like to know whose responsibility the bill is."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:25-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Whose it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:27-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In general, the city bills the property owner, because the account is tied to the property. Whether a tenant reimburses the owner depends on the lease. So that part is between you and your landlord, and the lease should say. Do you have a copy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:44-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Somewhere. It doesn't say much."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:01:47-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then it would help to see the bill itself. I can't discuss the account details without the owner's authorization, but I can tell you how the billing works. Did your landlord show you a bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:00-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A photo of one. Blurry."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:03-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Would you like me to send a duplicate copy by email? If the owner is the account holder, I may only be able to send it to the email on file. Let me check what I can do."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:18-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I want it emailed. To me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:21-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Give me a moment to look at the notes. [pause] Alright. I can't send an account copy to a new address without the owner's okay. What I can do is note your request, and if your landlord calls or replies to confirm, we can send it to you. Or he can forward you the emailed copy himself."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:43-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "He won't."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:45-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's frustrating, I know. If you give me your email, I'll put it in the request so it's there when he confirms."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:54-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Hazard, H-A-Z-A-R-D, the number one hundred, at a mail dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:02:59-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. Hazard, H-A-Z-A-R-D, one hundred, at a mail dot com. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:06-04:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:07-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And a callback number, in case we need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:12-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one nine eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:17-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one nine eight. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:22-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Another thing. If he pays it, or I do. Can it go in the drop box tonight? Counts as on time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:30-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a payment drop box at City Hall, and it's available outside office hours. Generally a payment placed in it is processed on the next business day, but it's treated as received when it's put in the box, as long as it's in by the due date. There's also online payment, which works any time of day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:52-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online needs the account number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:03:55-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it does. That's on the bill. That's another reason the clear copy matters."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:01-04:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:02-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you drop a check, write the account number on it and the service address, so it's applied correctly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:10-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd need the number first."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:13-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Tonight you'd be guessing without it. If your landlord can read the account number to you, you could pay then."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:21-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. [pause] Also, a different thing. My street smells like woodsmoke most evenings."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:27-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. That's not something I handle in billing. Is that a neighbor's chimney, or something else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:34-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Don't know. Just most evenings."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:37-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it ever looks like an actual fire or you see flames, call 911. For ongoing smoke, I'd suggest the fire department's non-emergency line. Would you like me to transfer you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:49-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Just saying."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:04:51-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, understood. So to recap, I've noted your request for a duplicate bill to your email, pending your landlord's confirmation. The owner is the account holder, and any arrangement with you is under your lease."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:05:04-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. How long?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:05:06-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once he confirms, usually within a business day or two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:05:10-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:05:12-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Hazard. Have a good evening."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T16:00:53-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T16:00:53-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-12T16:00:53-04:00",
+        "end": "2026-03-12T16:05:16-04:00",
+        "duration_seconds": 263,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T16:00:53-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-12T16:00:53-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-12T16:00:53-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-12T16:00:53-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-12T16:00:53-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

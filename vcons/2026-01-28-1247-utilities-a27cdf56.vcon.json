@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a27cdf56-800e-8a9b-8cc5-5d00766349b6",
+  "created_at": "2026-01-28T12:52:22-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Raj Haddad",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello? Yes, good afternoon. I'm calling about my water bill. Can you hear me all right? I've been told I talk loud."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Go ahead, and I'll help with the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:26-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, good. My name is Raj Haddad. The bill came in this week and it's about double what I usually pay. Double! I haven't had company, I haven't done anything different, and I can't figure it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Haddad. Let me pull up your account. Can you spell your last name for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:48-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "H-A-D-D-A-D. Like it sounds."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And are you the account holder, or is the account in a landlord's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:47:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What was that? Say it again, my ears aren't what they were."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:48:02-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is the water account in your name, or in your landlord's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:48:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mine. I rent, but the water comes to me. Landlord set it up that way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:48:14-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Give me just a moment. [pause] Yes, I have it. The latest bill is quite a bit higher than the previous few. The usage reading jumped compared to your normal."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:48:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's real usage then. Not a mistake on your end."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:48:32-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's based on the meter reading, so the water did go through the meter. It doesn't look like a billing error. Has anything changed in the unit? Any leaks, or a fixture acting up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:48:46-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, now that you say it. The toilet was running constantly last month. All the time, that hissing and trickling. I jiggled the handle and it'd stop for a bit and then start again."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:00-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could easily explain it. A running toilet can use a lot of water over a month, and you wouldn't notice it on a bill until the reading comes in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, that's it, then. I told the landlord and he had a fella come fix it. It's quiet now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:20-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, then the usage should come back down on your next reading. If it doesn't, call us and we can have the meter checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on a second, I'm stopped at a railroad crossing in Portsmouth, the gates just came down. If you hear a bell, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Take your time. I can hear it a little."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:45-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, the bill. What I want to know is, is there a way to pay by phone after four-thirty? I can't always get to City Hall before you close."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:57-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, after what time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:49:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "After four-thirty! When the office closes. Can I pay on the phone after that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:50:05-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Our office line is only staffed during business hours, so I can't take a payment by phone with a person after we close. But you do have other options. You can pay online through the city's website at any hour, and there's a drop box at City Hall for payments you want to leave outside of hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:50:28-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online. I'm not much for the computer. My neighbor does some of that for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:50:35-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. The drop box works too. You'd put a check in with your bill stub, and write your account number on the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:50:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A check and the stub. And the box is where, at the front?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:50:51-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's at City Hall, near the main entrance. If you'd like, I can also take the payment now, while we're talking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, not today. I'll get the check written tonight. What's the due date, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:07-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be printed on the front of the bill, near the amount due. If you can't find it, I can read it to you from the account. Would you like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, read it. The train is still going by, by the way. Long one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll wait. [pause] Whenever you're ready, I'll give you the date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, I'm listening. Speak up if you can."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:36-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The payment is due on the date shown on the bill, which is in about two and a half weeks. I'll say it slowly. It's February fourteenth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "February fourteenth. Valentine's Day. Easy to remember."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. So you have time to get the check in the drop box well before then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:51:58-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And if the next bill is still high, I call you and you check the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:52:05-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Just call this line and ask for utilities billing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:52:10-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. The gates are going up now. I appreciate it. Thank you, Priya, was it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:52:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Priya. You're welcome, Mr. Haddad. Drive safely."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:52:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:47:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:47:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T12:47:06-05:00",
+        "end": "2026-01-28T12:52:22-05:00",
+        "duration_seconds": 316,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:47:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T12:47:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T12:47:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T12:47:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T12:47:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

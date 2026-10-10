@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d649794f-6806-83fe-bb2f-0dc3ac9d8a43",
+  "created_at": "2026-01-30T11:37:49-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Anthony Barone",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-30T11:34:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:34:24-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Anthony Barone, I'm at 438 Van Zandt Avenue, up the North End. I got a water and sewer bill here and it's way too high. Hold on, let me find it. [pause] Okay. It says current charges, and then a number I'm not gonna read you because it's ridiculous."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:34:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Do you know why it might be higher than usual, Mr. Barone? Any change at the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:34:51-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, yeah. Two things. We had a pipe break, a copper line down the cellar, and I had a plumber fix it. So that's one. And then the toilet was running constantly last month, the whole month, I didn't catch it till the end. So that's probably on there too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:35:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So a broken pipe and a toilet that was running. Is the pipe repaired now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:35:17-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's fixed. Plumber did it. I got the invoice right here. And I replaced the toilet flapper myself, so that's done too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:35:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So is there a leak adjustment? Is that a thing? Somebody told me there's an adjustment when you have a leak."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:35:35-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a leak adjustment process, yes. You'd submit a request with the repair documentation, like that plumber invoice, and the account gets reviewed. I can't tell you from here what the adjustment would be, because that depends on the review."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:35:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sizzle, hang on. [pause] Sorry, I got eggs on the stove. Go ahead, I'm listening."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:35:57-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I can email or mail you the request form, or you can pick one up at the counter. Which would you prefer?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:36:07-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it. I don't do the email much. Same address, 438 Van Zandt. And do I send the invoice or a copy? I don't want to give up the original."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:36:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy is fine. Keep the original. Include the account number from the top of your bill, too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:36:26-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, account number, copy of the invoice. Got it. Now, the bill itself, I gotta pay something while this is going on, right? Can I pay on a Saturday or Sunday? I'm not off during the week till late, and you people are closed weekends."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:36:43-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall is closed weekends, but there's a payment drop box outside the building that you can use anytime. You can also pay online through the city's website at any hour, including Saturday and Sunday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:36:57-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, ugh. Okay, so the drop box. Check in the box, that works?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:37:03-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, the eggs. [pause] Okay, I'm back. So a check in the box, with the stub."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:37:10-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, write your account number on the check and include the stub if you can. And if you're waiting on the adjustment, you may want to note that on the form when you send it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:37:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I just think it's a lot of hoops for a pipe I already paid a plumber to fix. But okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:37:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I'll get that form in the mail today. Is there anything else I can do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:37:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks. I gotta go save my lunch."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T11:37:46-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Have a good afternoon, Mr. Barone."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T11:34:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T11:34:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-30T11:34:19-05:00",
+        "end": "2026-01-30T11:37:49-05:00",
+        "duration_seconds": 210,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T11:34:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-30T11:34:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-30T11:34:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-30T11:34:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-30T11:34:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ce4182cb-0e6d-8208-85a4-8e5a47b282f3",
+  "created_at": "2026-02-19T13:08:12-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Sarah Kim",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:06-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes, good afternoon. I'm calling about a dog license. I need to get one for my dog, and I was told I need some kind of rabies paperwork. Is that right? I want to make sure I do it right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right. Let me make sure I understand. Is this a new license for the dog, or a renewal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "New. Well, new for me. We just got her. She's a rescue, a little beagle mix. So it's new, yes, new license."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. For a new license we'll want proof that the dog's rabies vaccination is current."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and what counts as proof? I have a paper from the shelter, but I don't know if that's the right one. Is that okay? Would that count?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:05:48-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me think how to say this. What we need is the rabies vaccination certificate. It should show the dog's name, the date she was vaccinated, and the veterinarian's information. If the shelter paper shows all of that, it should do."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:01-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Um, let me get it, hold on. I have it right here on the table. [pause] It says rabies vaccine, and a date, and there's a stamp from a clinic. And her name. Is that okay, then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:13-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Does it say anything about when the vaccine expires, or how long it's good for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it says three year. Three year vaccine. So that's okay? I'm just worried I'll bring it in and it won't be the right paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like what we need. If it has the date, the clinic, and the dog's name, a copy is usually fine. I'd bring it with you when you come in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And what's the fee? For the license. I should bring the right amount, I don't want to come all that way and be short."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fee can depend on whether the dog is spayed or neutered, so I want to give you the right one. Is she spayed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, the shelter did that. It's on the paper too, I think. Spayed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:06:58-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, then bring that paperwork as well. I'm going to check the current fee sheet so I don't give you an old number. Can you hold for a moment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll hold. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:11-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for waiting. The spayed dog fee is listed on our sheet, and the front counter will tell you the exact amount when you arrive. You can pay by check or cash at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:23-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, so you can't tell me the amount? Okay. So cash or check. I'll bring a little extra, then. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Bring your ID too, and something showing your address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:34-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm at 457 Broadway, in the North End. Sorry, I should say, if I come in and smell like varnish, that's me. I restore furniture in my garage, a workshop out there, and I can't get the smell off. I hope that's okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:48-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no trouble at all. Come by whenever it suits you. We're open during regular business hours, weekdays."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:07:54-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, the shelter paper, a copy, my ID, something with my address, and cash or check. Did I get it all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:08:01-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's everything. You've got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:08:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Thank you very much. I just wanted to be sure it was okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T13:08:09-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T13:05:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T13:05:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-19T13:05:02-05:00",
+        "end": "2026-02-19T13:08:12-05:00",
+        "duration_seconds": 190,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T13:05:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-19T13:05:02-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-19T13:05:02-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-19T13:05:02-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-19T13:05:02-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

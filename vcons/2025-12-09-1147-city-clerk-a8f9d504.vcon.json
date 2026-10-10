@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a8f9d504-3fa0-8bd3-948d-c342a1afb7e4",
+  "created_at": "2025-12-09T11:49:31-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Frank DeLuca",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:13-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hello, this is Frank DeLuca. I need a copy of a certificate, a birth certificate, and I'm told I can do it by mail. Which is fine with me, I don't drive in this weather anyway, and the roads around here are a disgrace after that nor'easter Saturday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. Is the birth certificate for you, or for someone else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For me. Born right here in Newport, 1941. Though why they need me to say that again, I don't know. They have the records, don't they?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:38-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We do have the records, yes. For a mailed request you send in a written application, a copy of your photo ID, and the payment. The application is on the city website, or I can mail you one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website. [pause] Well, I don't have the computer. My daughter has the computer. So mail me the form, I guess. Is that the one that says vital records request?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one. Can I get your mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:47:59-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, now, I'd rather not say my address on the phone. Can't you just, uh, look me up? No? Okay, then, you tell me. Do I put it in a letter instead of the form?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:48:08-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter can work if it has your full name, date of birth, place of birth, your parents' names, and a copy of your ID. But the form is easier because it lists everything. Do you want me to take a message so someone mails it, or would your daughter print it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:48:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let her print it. She's good for that. Now how long does it take? Because the last time I needed one, which was years ago, it took forever. Government, you know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:48:31-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once we receive the request, it's usually processed in a few business days, then it goes back out in the mail. So figure about a week or two altogether, depending on the mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:48:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week or two. So that's, what, ten days, two weeks, then? Or is it the few days plus the mail? I'm not following. Is it a week or is it two?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:48:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few days for us to process, plus mail time both ways. So it could be one week, it could be closer to two. Holidays may slow the mail a little."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:48:57-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Hold on, my phone's doing something. It's lighting up on the table. That's the picture of my grandkids, it comes up when it rings. Cute kids, terrible phone. I'll let it go."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:49:06-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Do you need anything else on the request?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:49:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just, the ID. Does it have to be the driver's license? Mine's expired, so, would that do?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:49:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "An expired license might not be accepted. A current photo ID is best. If you don't have one, call us back and we'll go over other options."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:49:22-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So current ID, the form, the payment, and a week or two. I think I got it. Maybe. Thank you, Rosa."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:49:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. DeLuca. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T11:47:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T11:47:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T11:47:09-05:00",
+        "end": "2025-12-09T11:49:31-05:00",
+        "duration_seconds": 142,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T11:47:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T11:47:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T11:47:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T11:47:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T11:47:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a6374a6c-0db9-88f8-bae5-01599bceeb3b",
+  "created_at": "2025-12-29T10:25:22-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Diane Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Luis. Thank you first, I like to say thank you at the start, in case I forget at the end. My name is Diane Cirelli."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's one way to guarantee it. You're welcome, Diane. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a parking ticket. I paid it already, on the website, two weeks ago. But yesterday a letter came, a late notice. It says I owe more now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:39-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Did you get a confirmation when you paid? An email or a receipt number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have the email. It says payment received. I did not print it, but I have it on my phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, hold on to that. Can you give me the ticket number off the notice?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:23:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one moment. [pause] It is the letter C, then four, four, seven, one, nine, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:05-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "C, four four seven one nine two. Let me pull that up. [pause] Okay, I see your payment, it posted on the fifteenth. Looks like the late notice went out before the payment was matched to the ticket. They crossed in the mail, basically."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:20-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I do not owe the extra money?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:24-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You shouldn't. But since the notice is out there, I'd put it in writing. Send the confirmation email with a short appeal letter so the penalty gets removed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "An appeal. How long does the appeal take? I want to know when it is finished."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:40-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a couple of weeks once they have it. Could be a bit longer with the holidays. In the meantime, don't pay the late amount."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And where do I send it, the email and the letter?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:24:54-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can email it to the finance office or drop it at the front counter at City Hall. I'll note the account that you called today, so there's a record."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Do you need my phone number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:09-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 401-555-0182."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:13-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0182. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, Luis."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T10:25:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take care, Diane. Happy New Year."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:23:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:23:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T10:23:09-05:00",
+        "end": "2025-12-29T10:25:22-05:00",
+        "duration_seconds": 133,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T10:23:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T10:23:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

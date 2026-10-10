@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3146f5ce-1f31-8a79-9319-6e35eb46f264",
+  "created_at": "2026-02-26T11:55:00-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Lucia Amaral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Is this the school department?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ma'am, this is the City Clerk at Newport City Hall. Which office were you trying to reach?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:14-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Schools. The school department."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:16-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me make sure I have this right. You meant to call the school department, and you got the city clerk instead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:24-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Wrong number, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:26-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right, it happens. The school department is a separate office from the city. I'd suggest looking up the number on the district's website, so you get the right one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, I had it from an old list."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:41-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, those go stale. Sorry, I'm hearing a little rustling on your end."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:46-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, the headset. The mic keeps hitting my chin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Is there anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:57-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:54:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:54:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T11:54:00-05:00",
+        "end": "2026-02-26T11:55:00-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:54:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

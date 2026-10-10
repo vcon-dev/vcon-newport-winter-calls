@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "15f6c697-c748-8b8d-8969-759dc3e20ca3",
+  "created_at": "2026-03-06T15:07:58-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ellen Sherman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-06T15:04:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:04:17-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, hi. Um, I've got like ten minutes here, I'm on a break from work, so I'll try to be quick. It's about the trash and recycling. I'm a landlord, I've got a couple of units, and the pickup schedule got all thrown off over the holiday week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:04:35-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. So you're looking for the new schedule after the holiday week. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:04:41-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, exactly. Nobody told my tenants anything. One week the bins are out and nothing, the next week it's like, oh, we came a day late. It's wicked confusing and honestly kind of a pain."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:04:54-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Now, the holiday delay usually pushes pickup back a day for the rest of that week, and then things go back to the regular day after. Do you know what your regular day is?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:05:07-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's supposed to be Thursday. But this week it wasn't Thursday, was it? Because I looked out yesterday and the bins were just sitting there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:05:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, let me pull up the route. Do you have an address you'd like me to look at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:05:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I'd rather not give it out on the phone, I'm in a hallway at work. Can you just tell me generally how it works? Like is it back to normal now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:05:36-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can do that. So the holiday week is over, so you should be back to your regular day, which you said is Thursday. If the bins sat yesterday, that could be a missed pickup and not a delay. Was it a Thursday for sure, yesterday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:05:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Thursday. March fifth. And they were still full at like five o'clock."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:05:58-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so Thursday the fifth, still full at five. Then I'd say that's a miss. I can take a report on that, and the crew will try to get it on the next run."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:06:11-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but then what am I supposed to do with the trash till then? It's raining today, it's gonna be soggy and gross. And one of the bins, the lid is cracked, like totally split down the middle. How do I request a replacement?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:06:27-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a replacement bin, you'd put in a request with us, and we note whether it's cracked, broken, or missing. I can start that now. Is it the trash bin or the recycling one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:06:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The recycling. The blue one. It cracked and the rain's just pouring right in, so it's, you know, great."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:06:47-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, the blue recycling bin, cracked lid. I'll put that in as a replacement request. They'll need the service address to deliver it, though. I can take it down and keep it on the request only."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ugh, fine. Hold on, I'm walking outside, it's a little loud. [pause] Okay. It's for my rental, I'll just give you my callback and you can call me for the address, can you do that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. What's the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's four zero one, five five five, zero one eight three."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one eight three. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ellen Sherman. S-H-E-R-M-A-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ellen. So I have a missed pickup Thursday the fifth, and a replacement for a cracked blue recycling bin. Someone will call you for the address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the schedule, so it's regular now, no more shifting around, right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, regular day from here on, unless there's another holiday."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:50-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Good. Thanks. I gotta get back on the phones. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T15:07:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now, Ellen. Stay dry."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T15:04:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T15:04:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-06T15:04:13-05:00",
+        "end": "2026-03-06T15:07:58-05:00",
+        "duration_seconds": 225,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T15:04:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-06T15:04:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-06T15:04:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-06T15:04:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-06T15:04:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

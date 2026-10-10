@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a125eab9-cbb2-8fe4-9c59-542f1207ce78",
+  "created_at": "2025-12-12T14:26:44-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Dario Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-12T14:25:20-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:25:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Dario Tavares. I need the new trash schedule for after the holiday week. Nobody sent anything, and I'm not guessing again."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:25:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. You want the pickup schedule after Christmas and New Year's week. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:25:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "271 Harrison Avenue, the Fort Adams side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:25:41-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "271 Harrison. Okay. Generally the holiday week pushes pickup back a day, and that carries through until the following week, but I'd rather you have the actual calendar. I can mail it or you can print it from the website."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:25:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Print it, with what? Oh, and by the way, my old desktop takes ten minutes to start. Ten minutes. I could make a sandwich. So mail it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. Mail to 271 Harrison Avenue. Anything else on the schedule?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, back to the first thing. My recycling bin is cracked right down the side. How do I request a replacement?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can call us here with the address, and we'll put in the request for a new bin. I'll do it now. So that's a cracked recycling bin at 271 Harrison?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. The blue one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:28-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, blue recycling bin, and the schedule goes in the mail. Is the number on your caller ID the best one if we need you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:37-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, use 401-555-0165."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0165. All set, Mr. Tavares."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:26:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T14:25:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T14:25:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-12T14:25:20-05:00",
+        "end": "2025-12-12T14:26:44-05:00",
+        "duration_seconds": 84,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T14:25:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-12T14:25:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-12T14:25:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-12T14:25:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-12T14:25:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

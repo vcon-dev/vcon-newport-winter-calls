@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "62f44088-ba53-86b6-a31a-00624e35b5f2",
+  "created_at": "2026-02-18T11:39:16-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Josephine Pellegrino",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Department, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:11-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, this is Josephine Pellegrino. I'll give you the bottom line first. My water and sewer bill went up and I want a month by month breakdown of my usage so I can budget."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:25-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Ms. Pellegrino. I can help with that. Can you tell me the name the account is under, and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account is under my name, Pellegrino. I rent, so I don't want to go reading out my address on the phone. Can you find it by name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can try a name search. Is it P-E-L-L-E-G-R-I-N-O?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Two L's, two... no, two L's, one G."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:57-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I have a few listings. Can you give me the account number from the top of your bill? Or the street name alone would do."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:08-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the bill in front of me. Hold on. [pause] I've got it here but the print is tiny. The account number starts with a four, then a zero, then... I can't read the rest without my other glasses."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. Take your time. If you give me just the street name, that will narrow it down enough."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's Spring Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:37-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, I have it now. I see the most recent bill, and the usage did rise compared with the prior quarter. Is that the charge you're asking about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It's more than I've ever paid. I live alone. I don't see how I used that much."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:57-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can pull the reading history and mail you a breakdown by billing period. Do you want it mailed, or would you prefer I read the figures to you now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:36:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Read me what you've got. And I want it monthly, not by period. Can you do monthly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:36:18-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The meter is read on a billing cycle, so what I have are readings for each cycle rather than strictly calendar months. I can give you the usage for each of the last several cycles, and you can divide it for your budget."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:36:36-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Go ahead, I'll write it down. Hold on, let me get a pen. [pause] Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:36:43-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The latest cycle shows noticeably higher usage than the three before it. Those three are fairly close to each other. I'll go through each number slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:36:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Slower than that. I'm writing. Say the first one again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:36:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. The latest cycle first, then I'll go back one at a time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:37:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. That last one is almost double. Something's wrong with that charge. I'd like a supervisor to look at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:37:15-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can set that up. A supervisor can review the reading and see whether the meter needs to be checked. They're not at their desk right now, so I'll take a message and have them call you back. Is this the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:37:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0195. It's the landline, so mornings are best, I'm not here in the afternoons much."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:37:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0195, mornings. I'll note that on the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:37:45-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One more thing. My daughter helps me with the bills. She's going to call about this too. I want her authorized to talk to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:37:56-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can add her as an authorized contact. I'll need your permission recorded, which you've just given me, and her full name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:38:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Her name is Donna Pellegrino-Hayes. Hyphen between them."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:38:10-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I've added her as an authorized contact on the account. When she calls, she'll be asked to confirm the service address and your name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:38:21-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Sorry if I was short before. I've got these earbuds my daughter gave me for the phone and one keeps falling out of my ear, so I'm fiddling with it while we talk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:38:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Is the sound okay on your end?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:38:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's fine now. I put it back in. So, the supervisor calls me, and you mail the breakdown."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:38:48-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I'll send the cycle-by-cycle usage by mail, and the supervisor will call about the review of the latest charge. Is the mailing address on the account correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:39:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same as the service address. Spring Street. Nothing's changed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:39:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Is there anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:39:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:39:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Pellegrino. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:34:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:34:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T11:34:06-05:00",
+        "end": "2026-02-18T11:39:16-05:00",
+        "duration_seconds": 310,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:34:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T11:34:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T11:34:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T11:34:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T11:34:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

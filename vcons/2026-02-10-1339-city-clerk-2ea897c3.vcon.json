@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2ea897c3-c522-8727-a3bd-94401fa8aef2",
+  "created_at": "2026-02-10T13:40:06-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Anh Tran",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:01-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, good afternoon. Sorry, is this the county courthouse? I think I may have the wrong number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, hon, this is the City Clerk at Newport City Hall. The courthouse is a separate office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:14-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. I'm sorry about that. I think I pulled the number off an old list I had. Honestly, it's probably from about ten years ago, so that's on me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens all the time. Those lists get stale fast. What do you need the courthouse for? I can point you the right way."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I just need the clerk's office there, for a records question. I'll try not to take up much of your time, I know you're busy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:36-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're fine, no rush. Your best bet is to look up the Rhode Island Judiciary website and find the courthouse that handles your matter. They list the main lines for each one. Or the state directory assistance can connect you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:47-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the state judiciary website, and look for the right courthouse. Is that right? Sorry, I just want to make sure I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:54-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's exactly right. You've got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:39:56-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thank you so much, and sorry again for the mix-up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:40:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Good luck, and have a nice afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:40:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T13:39:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T13:39:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T13:39:01-05:00",
+        "end": "2026-02-10T13:40:06-05:00",
+        "duration_seconds": 65,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T13:39:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T13:39:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T13:39:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T13:39:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T13:39:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

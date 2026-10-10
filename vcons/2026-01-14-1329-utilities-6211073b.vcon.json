@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6211073b-de6b-84c7-9f94-2e98da8f1343",
+  "created_at": "2026-01-14T13:32:04-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Doug Chase",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:17-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:21-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Um, I am calling about my water bill. It say estimated. I think nobody read my meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:28-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. An estimated read means the bill was based on past usage instead of an actual reading. What's the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:37-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Doug Chase. C-H-A-S-E."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Chase. And do you have the account number in front of you, or the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, wait, I look. [pause] I have two place, you know. One I live, one I rent to other people. This bill, maybe it is the other one. I mix up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:29:57-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Which property are you worried about, the one you live in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:30:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, where I live. But the bill I hold is... [line breaks up] ...the other one, I think. Sorry. Paper look same."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:30:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You broke up a little there. Can you read me the account number printed at the top of the bill you're holding?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:30:18-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I am outside, the signal not good. Okay, I read. It is account ending four, four, one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:30:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-four-one. Let me pull that up. [pause] Yes, that one shows an estimated reading for the last cycle. Is that the rental or your home?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:30:34-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is the rental. So my home bill, I have not look yet. But this one, the meter, nobody come. I am home many day, I never see anybody. Why they estimate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:30:46-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes the reader can't get to the meter, or a reading doesn't come through from the device. The next actual reading corrects the estimate, so any overcharge comes back as an adjustment. I can note on the account that you dispute this reading and request a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:02-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. I think is not fair, pay for something nobody measure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, I've noted it. I'll also flag that a reader should get an actual number next cycle."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:14-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Another thing. I cannot come City Hall before four thirty, I work. Can I pay this bill online? Or some other way when office is closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:24-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can pay online through the city's website with the account number. There's also a drop box at City Hall that's available outside regular hours, if you'd rather pay by check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:35-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online is good. Sorry, it is hard to read the bill, so small. I just learn last month my phone has flashlight. Now I use it for the paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That helps. Use it for the account number then, and be sure you pick the right property when you pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:54-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I check two times. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:31:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Chase. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:32:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T13:29:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T13:29:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-14T13:29:17-05:00",
+        "end": "2026-01-14T13:32:04-05:00",
+        "duration_seconds": 167,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T13:29:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-14T13:29:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-14T13:29:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-14T13:29:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-14T13:29:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

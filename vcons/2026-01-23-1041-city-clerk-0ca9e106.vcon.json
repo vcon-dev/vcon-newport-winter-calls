@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0ca9e106-a6cc-824d-8f4c-8e5101fffe14",
+  "created_at": "2026-01-23T10:45:39-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Walter Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-23T10:41:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:41:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. Am I on, can you hear me alright? I've got you on the speaker here, my hands are full of, well, never mind. Walter Wilcox."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:42:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine, Mr. Wilcox. What can I do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:42:06-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm trying to find out about a yard sale. Do I register it with you, or is that the police, or the fire people? Used to be you just put a sign on a pole and that was that. Now everything needs a form."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:42:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know, it feels that way sometimes. Yes, a yard sale generally goes through our office, so you've called the right place. Are you doing it at your own house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:42:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, at my house, 378 Old Beach Road, down near Easton's Beach. I've got a garage full of stuff that my wife says has to go before spring. Forty years of it. Most of it's junk, if you ask me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:42:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what yard sales are for. So you'd fill out a registration for that address and tell us the date you're planning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:42:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what's the fee? Because I'll tell you, if it costs more than I'd make selling a lawn chair, I'm not doing it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:43:03-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at that for you. [pause] Okay, I'm seeing there's a small fee, and I'd rather give you the exact amount off the current sheet than say it from memory. Do you have a pen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:43:16-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on. [pause] Hold on, somebody's at the, no, that's the television. I'm waiting on a pizza, they said twenty minutes and it's been thirty. Typical. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:43:26-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh no, hungry at ten forty-five! Alright, so I can have the form and the fee schedule sent to you, or you can pick it up at the counter. Which is easier?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:43:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so is it the form and the registration, or is it two different things? I thought the registration was the form."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:43:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same thing, sorry, I made that confusing. The registration is the form. The fee schedule is just the page that lists what it costs."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:43:54-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So I fill out the one thing, and the other thing tells me what to pay. Fine. And do I need it before I put up the sign, or after?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before. You register first, then you hold the sale on the date you gave us."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before. Alright. That seems backwards to me, but alright. What if it rains? It's January, for crying out loud, I'm not going to have it now, but in April you never know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:22-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good question. A lot of people list a rain date right on the form, so you'd put down a backup day just in case."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:31-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A backup day. So that's two dates on the one form. Do I pay twice then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:37-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't believe so, but I'd confirm that on the fee sheet. It'll be spelled out there. Would you like it mailed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is slow, but go ahead. Wait, is there a, hang on, that's the door. [crosstalk] No, wrong house. Sorry, Sandra. Where were we?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:44:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We were mailing it. Can I get the address again to be sure I have it right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:45:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "378 Old Beach Road. Same as I said. And if you need to reach me, it's 401-555-0195."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:45:06-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 378 Old Beach Road, and I've noted your number. It should reach you in a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:45:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So to sum up, I get a form, it has the fee on it, or a second sheet has the fee, and I register before the sale. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:45:24-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Form, fee sheet, register first, then hold your sale."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:45:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think so. Thank you, Sandra. Oh, there's the doorbell, that's the pizza for real this time. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T10:45:36-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Enjoy your lunch, Mr. Wilcox. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T10:41:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T10:41:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-23T10:41:46-05:00",
+        "end": "2026-01-23T10:45:39-05:00",
+        "duration_seconds": 233,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T10:41:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-23T10:41:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-23T10:41:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-23T10:41:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-23T10:41:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

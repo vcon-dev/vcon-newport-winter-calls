@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "13086396-6e58-8c18-8f0c-f74e58a7488b",
+  "created_at": "2026-01-26T11:22:09-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Ivone Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T11:18:47-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:18:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. This is Ivone Andrade. I have a property tax bill for 232 Washington Street. I have two questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Ms. Andrade. Go ahead with your first question."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:08-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I make a partial payment? I can't pay the whole quarter right now. I can pay part of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:17-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the city will generally accept a partial payment toward a bill. Any amount that remains unpaid after the due date would be subject to interest. So I would encourage you to pay as much as you can by the due date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the rest keeps accruing interest."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. The remaining balance is what would accrue interest, not the portion you've already paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Second question. How do I change the mailing address? The bill goes to the house. I want it sent somewhere else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:19:59-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You would need to submit a change of mailing address in writing to the Finance Department, the Tax Collector's office. Please include the property address, your name as it appears on the bill, and the new mailing address. And please sign it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:20:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I email it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:20:21-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would recommend either mailing it or dropping it off at City Hall during business hours. If you'd like, I can transfer you to the tax office and they can confirm whether they accept it electronically."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:20:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine. I'll mail it. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:20:42-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the City of Newport, Finance Department, at City Hall, 43 Broadway, Newport, Rhode Island, 02840. Please mark it to the attention of the Tax Collector."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:20:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me write that down. [pause] City Hall, 43 Broadway. Attention Tax Collector. Zero two eight four zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:03-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Does it take effect right away? For the next bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:10-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once the office has processed it, yes, it would apply to subsequent bills. If your next bill is about to be issued, there may be a timing issue. Include a note with your letter if that is a concern, and the office will do their best."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll send it this week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:33-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be best. Is there anything else I can help you with this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:40-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Well, one thing. I read tide charts for fun on slow afternoons. So I'm not busy today, if the line's long, I can hold. But that's all I needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:21:54-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Thank you, there's no line at the moment. If you have further questions, please call us back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:22:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:22:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye, Ms. Andrade. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:18:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:18:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T11:18:47-05:00",
+        "end": "2026-01-26T11:22:09-05:00",
+        "duration_seconds": 202,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:18:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T11:18:47-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T11:18:47-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T11:18:47-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T11:18:47-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

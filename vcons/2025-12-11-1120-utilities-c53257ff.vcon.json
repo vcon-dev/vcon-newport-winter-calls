@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c53257ff-af5d-82e5-84f8-4dc512d96245",
+  "created_at": "2025-12-11T11:24:44-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sheila Sullivan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T11:20:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:20:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. This is Sheila Sullivan. I am calling about my water and sewer bill. It is wrong, I think. Much too high."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:20:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that, Ms. Sullivan. Can you give me the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:20:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty-three Old Beach Road. Down by Easton's Beach. I have lived there a long time and this bill is nearly double what I pay every quarter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:20:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. Has anything changed at the property recently?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:21:04-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is the thing. A new meter was installed last month. A man came, he was in the basement maybe forty minutes, and he put in the new one. Then this bill comes and it is not right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:21:18-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see a meter change noted on the account. The new bill would be the first one with the new meter, so I want to look at the reading. Did you have any leaks or plumbing work around that time?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:21:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I had a plumber out, yes. Two weeks before the meter. He fixed the toilet in the upstairs bathroom, the flapper, the running one. I kept the receipt. I keep everything. It has the date and the work he did."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:21:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's helpful. A running toilet can add a lot of usage, but if it was repaired before the meter change, it shouldn't explain the new reading. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:21:59-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. The previous reading, then the current reading, and the difference is, one moment, a very large number. I did not use that. I am one person. I wash a load of laundry on Tuesdays. That is all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:22:13-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. What I can do is flag the account for a meter reading verification. Someone would check the new meter and the reading that was entered at installation. Sometimes the starting number is recorded wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:22:26-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wrong how? By the man who installed it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:22:30-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can happen, yes. Either the final read on the old meter or the starting read on the new one gets entered incorrectly. I can't say that's what happened here, but it's the first thing to check."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:22:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, somebody should check it. This is the second time I call about something with this city and I am tired of explaining."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:22:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I'll put the details in the note so you won't have to start over. Can I confirm a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:00-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-seven."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Zero one six seven. Someone from the meter team will call you, and you can have that plumber's receipt ready to read the date to them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Now, another question. If I have to pay it while you check, can I pay on a Saturday or Sunday? I am not able to drive downtown easily in the week, and I do not want a penalty."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:26-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a payment drop box at City Hall that's available outside regular hours, so you could use it over the weekend with a check. You can also pay online any time of day, including weekends."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online. I do not like that so much. But my niece can help. Is there a phone line on Sunday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't believe the office is staffed on weekends, so the drop box or the online site would be the way to go. If you'd like, I can note that you're disputing the bill so it's documented."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:23:59-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please note it. Dispute. Put that. I am looking out the window right now, actually. I am parked at the beach lot, I came to get my prescription nearby, and the water looks flat from here. Very calm. Nothing unusual. I say this because I do not understand where so much water could go."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:24:18-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair point, and I'll include that you've had no unusual usage. Is there anything else I can look at for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:24:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Just have someone call me. I have been patient, but this is a lot of money for a woman on a pension."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:24:35-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, Ms. Sullivan. The note is in, and the meter team will be in touch. Thank you for calling."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:24:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T11:20:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T11:20:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T11:20:30-05:00",
+        "end": "2025-12-11T11:24:44-05:00",
+        "duration_seconds": 254,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T11:20:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T11:20:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T11:20:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T11:20:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T11:20:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

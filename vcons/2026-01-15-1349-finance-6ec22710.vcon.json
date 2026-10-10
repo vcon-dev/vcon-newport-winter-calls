@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6ec22710-264f-85c4-8a94-9444ec38befc",
+  "created_at": "2026-01-15T13:50:08-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Ana Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:05-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Luis. Ana Correia. I'm told I'm a business owner, which is funny, because I mostly feel like a woman who lives in a warehouse. Sorry, I'm up on a mezzanine and the signal comes and goes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Go ahead, I'll tell you if you drop."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's my property tax bill. Can I pay just part of it now and the rest later? Or does that get me in trouble?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally the office will accept a partial payment, it just goes toward what you owe. Interest can keep building on whatever's left, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so not a [line breaks up] ... sorry, did you hear that? I also heard there's an exemption. What's the form number? I want to write it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You cut out on the first part. Exemptions go through the assessor's office, and I don't have the form number in front of me. Want me to transfer you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so it isn't a finance form? I thought it was this department. I'm sorry, I'm a little lost."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:49:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easy mistake. Assessor handles it. Hang on, I'll put you through, and if we lose you, call back and ask for them."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:50:05-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Luis. I think I understand. Mostly."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:49:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:49:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-15T13:49:02-05:00",
+        "end": "2026-01-15T13:50:08-05:00",
+        "duration_seconds": 66,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:49:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-15T13:49:02-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-15T13:49:02-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-15T13:49:02-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-15T13:49:02-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

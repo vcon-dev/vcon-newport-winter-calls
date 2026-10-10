@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e6b80fc3-bd20-81d6-92f3-92e99084a9a0",
+  "created_at": "2025-12-22T11:29:40-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Edson Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T11:22:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:22:49-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, so, um, my name's Edson Tavares? I'm calling because I got a notice that my payment bounced, and like, it did not bounce on my end? So I want to know what the status is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:23:09-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can you spell your last name for me, and give me the service address or the account number from the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:23:24-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "T-A-V-A-R-E-S. Account number, hold on, I've got the paper bill right here. It's, um, it's ending in 4471? And I'm not giving the address, I mean, the account number should be enough, right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:23:42-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number is usually enough to pull it up. Give me a moment. Okay, I have an Edson Tavares here, homeowner account, water and sewer. Is that the one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:23:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, totally, that's me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:24:01-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see a payment attempt that was returned by the bank. It shows as a returned item, and the balance is back to what it was before the payment. So right now that bill is still open."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:24:22-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but that's like, wrong? There was money in that account. I checked. So what does that mean, it just, what, it's sitting there unpaid?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:24:36-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, as it stands the balance is unpaid. What date does your paper bill show? Let's make sure we're looking at the same one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:24:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it says bill date November twenty-fourth, and the due date is, let me see, December nineteenth. So, like, that already passed on Friday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:25:02-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matches what I have. The bill dated November twenty-fourth, due December nineteenth. And the return was posted on the twentieth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:25:14-05:00",
+      "duration": 25,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, see, that's annoying, because I didn't even get told until today. And also, can you, like, re-check the read? The meter reading? Because the usage on this thing looks nuts to me. It's like double what we normally use, and nobody's home half the time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:25:39-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can request a re-read. I'll put in the request for the meter to be checked again, and a technician would verify the number on the register. I can note that you're disputing the usage on this bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Please. Do that. Because I'm not paying double for, like, a bad read."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Let me enter that. Would you like the result by phone? I'd want a callback number on the request."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:19-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's four-oh-one, five-five-five, oh-one-eight-six."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-eight-six. Got it. The request is in. Is there anything else on the account you want noted?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:33-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, yeah, so the thing is, I do want to get the original amount paid today anyway, so it doesn't pile up. Can I give you a card right now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:49-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can take a card payment over the phone. Go ahead whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:26:58-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's a Visa. Four, one, two, eight, [pause] um, and then, actually, wait. Actually, let me use the website. Sorry. I'd rather just do it myself, I don't like saying it out loud on the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:27:19-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, no problem. I haven't entered anything, so nothing was started on my end."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:27:28-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Because honestly I have a deadline tonight. I do books part-time for a couple of small businesses, and I've got to get a bunch of stuff closed out by tonight, so I'm kind of juggling this."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:27:49-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. To be clear, the returned payment is still showing, and the re-read request is on file. When you pay, the balance should reflect it once it posts."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:28:05-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And if the re-read comes back different, then what? Like, I pay the whole thing and then get it back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:28:16-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the meter is found to have been misread, the bill would be corrected and any overpayment would be applied as a credit or handled by the office. The technician's finding decides that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:28:34-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And is there a late fee because of the bounce? Because that was not my fault."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:28:44-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see a notation, but I can't tell you what the final amount will be until the account is reviewed after the re-read. I'll flag your note that the bank return was disputed so the reviewer sees it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:29:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's, yeah, that's fair, I guess. It's just, ugh, it's a hassle, you know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:29:13-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. You should hear back about the re-read within a few business days, with the holidays possibly adding a day or two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:29:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thanks, Priya. I'll do the website thing now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:29:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Tavares. Good luck with your deadline."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:29:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T11:22:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T11:22:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T11:22:43-05:00",
+        "end": "2025-12-22T11:29:40-05:00",
+        "duration_seconds": 417,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T11:22:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T11:22:43-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T11:22:43-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T11:22:43-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T11:22:43-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a1c31417-0fc6-86cb-a79a-d7ba898f323f",
+  "created_at": "2026-02-09T12:43:50-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Anabela Fortes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T12:35:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:35:26-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Good afternoon. My name is Anabela Fortes. I am calling for my mother, because she is not so comfortable on the phone. Her dog is missing, and I would like to register a lost dog poster. I think this is the right office? I was not sure, so I called the clerk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:35:48-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're in the right place to start. Animal control questions come through here, and I can point you to the right people. Let me get some details. When did the dog go missing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:36:02-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Saturday evening, around six. So, two days now. My mother let him out in the yard, the gate was not latched properly, and he was gone. I am worried because it was very cold on Saturday night, and he is old, eleven years."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:36:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, that's stressful. What kind of dog is he?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:36:25-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A beagle mix, brown and white, with one ear that is a little bit folded. His name is Pico. He has a blue collar with a tag, but the tag has an old phone number, so this is a problem. That is why I put my number on the poster."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:36:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And where was he last seen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:36:50-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "At the house. It is 204 Bellevue Avenue. A neighbor thinks she saw him going toward the, um, the side street, but she was not sure. [pause] Sorry, one moment. My brother is texting me again. He texts me the whole time I am talking, I am on speakerphone, so it keeps making noise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:37:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:37:15-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "He says, did you call yet. I am calling right now, so, yes. I will answer him later. Okay. I am back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:37:25-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds like he's worried too. So, for the poster, are you looking to put it up around the neighborhood, or do you want it on file with the city?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:37:37-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both, if possible. I made a poster already, with the photo, and the description. I want to register it so that if somebody finds him and calls the city, there is a record. Also I want to ask, who responds? If someone calls about a dog found on the street, who comes? Is it police, or somebody different?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:38:01-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the animal control officer who handles stray and found dogs. After hours the police dispatch can reach them. So if someone calls in a found beagle, they'd check against reports like yours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:38:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the officer, not the police directly. That is good to know. And the officer can call me, on this number, if the dog is found?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:38:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's what we'd put on the report. Can I confirm your number? Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:38:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is four zero one, five five five, zero one five five."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:38:39-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one five five. Got it. And the name on the report, is it you or your mother?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:38:49-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Put my mother as the owner, but me as the contact. Her name is the same as mine, Fortes, but the first name is different. Wait, [line breaks up] can you hear me? The phone is making a noise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:39:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I lost you for a second. Say that again, the last part."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:39:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The owner is my mother, Fortes, and I am the contact person. I will spell. F, O, R, T, E, S."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:39:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. I'll note you as the contact. And I'm going to ask, does Pico have a microchip?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:39:28-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, he does. He got it at the vet, maybe six years ago. I do not have the number with me, but the vet has it. Should I bring it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:39:41-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you can get it from the vet, great, and call back or give it to the animal control officer. It helps a lot if he's scanned. Also check with the local shelters and vets in case someone dropped him off."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:39:58-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I did call two vets already this morning. Nothing yet. [pause] Sorry. My brother again. He says maybe we should walk the cliff path. I told him, the path is long, and it is cold, and my mother cannot go. But he can go. He is going to go."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:40:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good idea, someone should walk the area. Dogs often stay close to where they got out, or they follow a scent trail. Calling out to him helps too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:40:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And about the poster itself. Is there some rule where I can put it? I do not want to do something wrong, like put it on a pole where it is not allowed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:40:46-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For that, I don't have a list in front of me. Lost pet flyers are common, but if you want to be sure about poles and public boards, I can have someone from the department call you back. Otherwise, shops and community boards are usually fine if you ask."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:41:06-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would like the call back, please, if it is easy. Not only for the poles. I would also like to ask what else the officer can do, for example if they drive around, or if they have a list."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:41:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put that in the message. Questions about poles and what the officer can do for a missing dog. Same number, the oh one five five one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:41:34-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, same number. The best time is after four, because I am working until then. But if they call earlier I will answer anyway. I have the phone next to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:41:47-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll mark after four preferred. And the report is for a beagle mix named Pico, brown and white, folded ear, blue collar, last seen Saturday around six at 204 Bellevue Avenue. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct. Eleven years old. Also, he is a little bit deaf, so if someone calls him he might not respond. I should say this, maybe it is important."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is important. I'll add that he's hard of hearing, and that he may not come when called. People should approach slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:24-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. This is good. I was thinking that nobody would take it seriously because he is only a dog, but you are very kind."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:35-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. He's family. Do you want me to also note that your mother is at the house, in case someone drops by with him?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:46-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. She is home most of the day. She will open the door, but she speaks only a little English, so if somebody comes, she may need to call me. [pause] Okay, my brother wrote again. He says he found a different poster of a lost cat on the pole, so maybe that area is fine. I will tell him to wait for the answer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good idea, hold off until you hear back. I'll get this to the right person right away."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:21-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. So, to repeat, someone calls me after four, the animal control officer is the one who responds, and I should bring the microchip number when I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. And call us if he turns up so we can close out the report."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I will. Thank you, Rosa. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye, and I hope Pico's home soon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:35:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:35:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T12:35:21-05:00",
+        "end": "2026-02-09T12:43:50-05:00",
+        "duration_seconds": 509,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:35:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T12:35:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T12:35:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T12:35:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T12:35:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

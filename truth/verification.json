@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-10",
+  "model": "claude-sonnet-5-5",
+  "answered": 2000,
+  "vcons": 2000,
+  "unanswered": 0,
+  "findings": {
+    "drainage_cluster": {
+      "expected": 41,
+      "observed": 41,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "eleanor_pucci": {
+      "expected": 1,
+      "observed": 1,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "repeat_floods": {
+      "expected": 9,
+      "observed": 9,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "lawyer": {
+      "expected": 2,
+      "observed": 2,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "card_full_read": {
+      "expected": 22,
+      "observed": 22,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "after_hours_pay": {
+      "expected": 200,
+      "observed": 200,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "fence_permit": {
+      "expected": 80,
+      "observed": 80,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    },
+    "downed_tree_where": {
+      "expected": 35,
+      "observed": 35,
+      "missing": 0,
+      "extra": 0,
+      "pass": true
+    }
+  },
+  "topics": {
+    "expected_top5": [
+      "storm-drain-flooding",
+      "water-sewer-billing",
+      "trash-recycling",
+      "permits-licensing",
+      "potholes-roads"
+    ],
+    "observed_top5": [
+      "storm-drain-flooding",
+      "water-sewer-billing",
+      "trash-recycling",
+      "permits-licensing",
+      "potholes-roads"
+    ],
+    "rank_pass": true,
+    "tone_pass": true
+  },
+  "regex_disagreements": {
+    "lawyer": 0,
+    "card": 15
+  },
+  "planted_pass": true
+}

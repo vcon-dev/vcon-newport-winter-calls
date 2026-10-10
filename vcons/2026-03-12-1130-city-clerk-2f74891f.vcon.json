@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2f74891f-6281-8333-a086-04199bfb2fa0",
+  "created_at": "2026-03-12T11:32:14-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Lucia Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-12T11:30:56-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:01-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, um, I'm trying to reach the county courthouse. Is this the, [line breaks up] courthouse?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:08-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, hon, this is the City Clerk at Newport City Hall. You might've dialed the wrong one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:15-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Oh, sorry, hold on, let me, [inaudible] sorry, I'm juggling a dish here. I'm so sorry about that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:22-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Are you looking for the courts? The county courthouse is a separate office from the city. I can't transfer you over, but they'd have their own listing, and you can look up the main number online or in the book."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:38-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah. I just had the wrong, [crosstalk] the wrong card in my phone, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:44-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easy to do. Sounds like you've got your hands full there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:49-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I'm dropping a casserole at a friend's door, she's right here, I'm on her step. Sorry, one second. [pause] Okay. Sorry again, I didn't mean to bother you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:31:59-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're not bothering me one bit. I hope she enjoys it. Did you get what you need for the courthouse?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:32:07-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I'll look it up. Thanks, I appreciate it. Bye now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:32:12-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You take care, bye-bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T11:30:56-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T11:30:56-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-12T11:30:56-04:00",
+        "end": "2026-03-12T11:32:14-04:00",
+        "duration_seconds": 78,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T11:30:56-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-12T11:30:56-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-12T11:30:56-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-12T11:30:56-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-12T11:30:56-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

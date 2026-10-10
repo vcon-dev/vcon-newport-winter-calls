@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e423970b-763b-810c-99d3-b0430c084bd6",
+  "created_at": "2025-12-24T13:26:51-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Bruce Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Happy Christmas Eve, what can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:07-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. I got a late notice for a parking ticket and I already paid it. Online. As I said before, I don't understand how this keeps, well, I mean this is the first time, but I don't understand how it happens."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's sort it out. Do you have the notice in front of you? There should be a ticket number on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hang on. [pause] It says, uh, it's a long number. Starts with a letter, then a bunch of digits. You want all of it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:42-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just read me the whole thing, nice and slow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. P, as in Peter, zero four four, seven one nine two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:23:51-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Give me a second here. [pause] Alright, I see the ticket. Issued about three weeks ago, Thames Street. And I see a payment posted, but it posted after the notice date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "After? I paid it the same day I got the ticket. Well, the next day. I got an email with a confirmation and everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What day was that, do you remember? The date on the confirmation email?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[sighs] Hang on. I think it was the, um, the twenty-sixth? Of November. No wait, that's the day I got the ticket. The twenty-seventh."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The system shows the payment coming in on the first of December. So there's a gap there somewhere."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:35-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That doesn't make sense. I'm looking at the email. It says twenty-seventh. So why would it say December?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:42-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be the payment sat pending, or it was started and not finished on your end. Sometimes the confirmation email goes out when you submit, and the charge itself clears later. I can't see which from here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:24:56-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So what, I paid it twice? I'm confused. Did they take the money or not?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:02-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, only one payment on here. The ticket is marked paid now. The late notice just crossed in the mail with it, probably."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but then why is there a late fee on the notice? It says I owe more than the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because the ticket went past due before the payment landed. That's the part that's added on."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:26-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[line breaks up] Hold on, I got a beep. [pause] Sorry, two beeps. Somebody else is calling. Ignore it. Can that late part be waived? It's my first ticket. Ever, in this city."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:38-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can put in a request. First-time and a payment that was nearly on time both help your case, but I can't promise it. A supervisor looks at those."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:49-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I don't owe it right now? Because the notice says pay by the fifteenth of January."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:25:56-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so you have time. I'll note the account that you're disputing the late fee. Do you have that confirmation email? Hold on to it, they may ask for a copy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:26:08-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I've got it. Wait, so do I send it or do you ask me for it? I don't know what happens next."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:26:17-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nothing from you right now. If they want it, someone will call or write you. Is 401-555-0195 the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:26:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's it. Okay. And the beeping again, sorry. So I just wait. And if the notice shows up again I ignore it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:26:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Don't ignore it, but call me back if it does and mention today. The note will be on there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:26:42-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I still don't totally get the date thing, but okay. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T13:26:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Go answer your other line. Merry Christmas."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T13:23:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T13:23:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T13:23:01-05:00",
+        "end": "2025-12-24T13:26:51-05:00",
+        "duration_seconds": 230,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T13:23:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T13:23:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T13:23:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T13:23:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T13:23:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3f0f0264-06b2-84d0-b34b-4175d32eccc3",
+  "created_at": "2025-12-26T16:17:47-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Mike Doyle",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-26T16:15:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:15:34-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. Mike Doyle. Calling about property tax. Paid first installment a few weeks back, want to make sure it posted."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:15:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:15:45-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "156 Gidley Street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:15:47-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, give me a second. [pause] Yep, I see the first quarter payment there, marked paid. So you're good on that one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:15:55-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. So that's the first one, and next one's due when, February? I thought it was, um, I thought they were all due same time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:16:04-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's split in four. The next one is the one coming up in the new year. The bill itself has the date on it, top of the stub."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:16:14-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Stub. Got it. Different thing. I'm buying a house. Closing attorney emailed, wants a, uh, municipal lien certificate. I don't know what that is. How do I get one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:16:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a document showing what's owed on a property, taxes, water, that kind of thing. Normally the attorney's office requests it from us, there's a request form. Is it the house you're buying that needs it, not Gidley?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:16:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the new one. Not Gidley. Wait, so I request it, or he does?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:16:44-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one can send in the request, but most of the time the attorney's office does it. Ask him if he's already sent one. If not, you can get the form from us and fill it out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:16:57-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll ask him. Sorry, bad connection, guy's blocking the road here. Delivery truck, double parked, cars backing up. One sec. [pause] Okay. Where was I."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:06-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lien certificate. Ask the attorney first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:09-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And that's you, finance, or the assessor?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The request comes through us. The assessor has the property records, different office. Why, you need them?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maybe. What are their hours?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Assessor's is open weekdays, regular business hours, nine to four-thirty or so. Closed today, though, I think. A lot of people are off after Christmas, and I'm the lucky one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha. Okay. So Monday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:36-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Monday's your best bet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thanks. I'll call the attorney, then call back if he says it's me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T16:17:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Happy new year, Mike."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T16:15:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T16:15:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-26T16:15:31-05:00",
+        "end": "2025-12-26T16:17:47-05:00",
+        "duration_seconds": 136,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T16:15:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-26T16:15:31-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-26T16:15:31-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-26T16:15:31-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-26T16:15:31-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

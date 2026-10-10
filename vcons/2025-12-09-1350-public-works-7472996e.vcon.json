@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7472996e-c4ff-80a1-aead-9959732ca6b1",
+  "created_at": "2025-12-09T13:51:55-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Joel Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T13:50:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:50:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. I'm calling about the water at the end of my street. 4 Old Beach Road, the Easton's Beach side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:50:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 4 Old Beach Road. What's it doing down there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:50:43-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The low spot at the end of the block is under about a foot of water. Still. It's been three days since that nor'easter, Friday and Saturday, and it hasn't gone down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:50:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A foot. Okay, I'm writing that down. Is it moving at all or just sitting?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sitting. Cars are slowing to a crawl going through it. Somebody's going to stall out one of these days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's no good. Has the drain there been clogged before, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's always like this after a big one. Nobody ever seems to come. So when did they last come by? Do you have that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:21-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the log for that area. [pause] I'm not seeing a recent entry for that spot, so I can't tell you a date. I'll put in a request for a crew to check the drain today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can you call me when they do? My text messages are coming in hours late lately, so a call is better."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. What's the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:46-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0166."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0166, Joel, 4 Old Beach Road. I'll get it over to the crew supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T13:51:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T13:50:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T13:50:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T13:50:28-05:00",
+        "end": "2025-12-09T13:51:55-05:00",
+        "duration_seconds": 87,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T13:50:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T13:50:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T13:50:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T13:50:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T13:50:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

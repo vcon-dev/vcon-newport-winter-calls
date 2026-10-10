@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "996a4a56-237e-8db4-a11f-870dacb9d983",
+  "created_at": "2026-02-24T10:07:36-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Elvis Duarte",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T10:06:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:06:38-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Lorraine. Let me explain. I'm calling for my mother at 94 Chapel Street, up on the Hill. Her old couch is going out, and I want to know how to put out a bulk item like that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:06:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a couch at 94 Chapel Street. Is it for the regular trash pickup day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:06:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Sorry, hold on. [pause] My son is doing homework here at the kitchen table, so I'm on speaker. Can you hear me alright?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:07:05-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. So you need a bulk pickup for the couch."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:07:10-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And the other thing, her trash bin cracked in the storm last weekend, the nor'easter, Saturday into Sunday. How do I request a replacement?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:07:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can take that request now. A replacement bin for 94 Chapel Street, cracked from the storm. And for the couch, I'll note it and have someone call you with the pickup steps. Is 401-555-0159 the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:07:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:07:34-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:06:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:06:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T10:06:34-05:00",
+        "end": "2026-02-24T10:07:36-05:00",
+        "duration_seconds": 62,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:06:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T10:06:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T10:06:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T10:06:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T10:06:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

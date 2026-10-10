@@ -1,0 +1,763 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "79e86b8b-e569-8dc5-9093-7a21366e8913",
+  "created_at": "2026-01-29T12:28:34-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Dulce Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T12:18:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:18:17-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. My name is Dulce Andrade. I'm calling about my property tax. I paid the first installment and I want to confirm it posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:18:30-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Ms. Andrade. I can look that up for you. May I have the property address or the account number from your bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:18:42-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the account number. I have the bill here in front of me. Hold on. [pause] Okay. It says account number, ah, four, four, seven, one, two, dash, zero three."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:18:57-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four seven one two, dash zero three. Let me pull that up. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:19:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment, yes. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:19:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have the account. Can you verify the name on the account for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:19:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Dulce Andrade. A-N-D-R-A-D-E. Dulce is D-U-L-C-E."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:19:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And do you recall approximately when you made the payment, and by what method?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:19:32-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Approximately when. Let me think. It was, I believe, the second week of January. I mailed a check. I put it in the mail on a Tuesday, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:19:47-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A check, mailed in the second week of January. Yes, I see a first installment payment recorded on the account. It shows as received and posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Received and posted. Good. So it went through all right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. The first installment is showing as paid in full. The next installment is the one that remains open."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:16-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The next one remains open. Yes, that's what I figured. Now, could you send me a confirmation by email? I would like something in writing for my records."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. Do we have an email address on file for you, or would you like to provide one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:41-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Provide one. I don't know if you have one on file. I think maybe not."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then please go ahead and give me the address, and spell it slowly so I record it accurately."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:20:59-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It is dulce dot andrade, all one word on the front, then the number fifty-two, and then at, and it is a mail service. Hmm. I should say, my grandniece set it up for me. I'm sorry, I would rather not read it wrong. Could you send it by mail instead? A paper copy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:21:26-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can certainly mail a paper confirmation to the address on the account. Would you still like the email as well? If you have the address in front of you, I can take it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:21:43-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A paper copy as well. Yes. And the email, let me look. [pause] I have it on a card in the drawer. Hold on one minute."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:21:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I'll wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:21:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, I have it. Can you hear me all right? There is a little hum on the line, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:22:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you. I do detect a faint hum, but it isn't interfering. Please continue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:22:19-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Isn't interfering. Good. It comes and goes. All right. It is dulce, D-U-L-C-E, dot, andrade, A-N-D-R-A-D-E, then the number five, two, at, and then the name of the mail service, it is on the card."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:22:37-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ms. Andrade, I'll need the full address including the part after the at sign, so that I can send it to the correct place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:22:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The part after the at sign. Yes, of course. Sorry. It says, um, the word mail, M-A-I-L, then the word box, B-O-X, and then dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:23:02-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. Dulce, D-U-L-C-E, dot, Andrade, A-N-D-R-A-D-E, five two, at mail box, one word, dot com. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:23:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "At mailbox dot com. Yes, that is it. That is what is on my card."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:23:21-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. I've noted that on the account, and I'll send the confirmation to that address today. A paper copy will also go out to your mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:23:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Today, and the paper copy too. Thank you. Now I have one more question, if you don't mind."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:23:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:23:48-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The next installment. I'd like to pay it myself, in person if I can, but I'm not always able to get to City Hall during the day. Is there a drop box at City Hall for payments after closing time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:24:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is a payment drop box available at City Hall. You may leave a check there outside of regular business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:24:19-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box for a check. Outside of regular hours. And where is it, exactly? Do I go to the front door?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:24:30-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is located near the main entrance. I would suggest you look for the box with the signage as you approach. If you have any difficulty finding it, the staff at the front desk can direct you during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:24:50-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Near the main entrance, with a sign. All right. And is it safe? I mean, does somebody collect it each morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:25:01-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The box is collected on business days, and payments are processed in the order received. I would recommend placing your check in an envelope with your account number and name written clearly on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:25:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account number and name on the envelope. Yes. And the check itself too, I would put the number on the memo line."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:25:29-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is a good practice, yes. Please also include the payment stub from your bill if you have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:25:39-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The stub from the bill. I will tear it off. Okay. And if I put it in on a Friday night, then it is processed Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:25:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, yes. Items left over a weekend would be collected on the next business day, which would be Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:26:02-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The next business day. Good. That I understand. I also wondered, is there a way to pay online, from a computer? My grandniece might help me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:26:15-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the City offers online payment through its website. You would need your account information from the bill. There may be a processing fee depending on the payment method, so I would advise reviewing the details on the payment page."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:26:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Reviewing the details on the page. All right. I think I will stay with the check. I trust the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:26:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is perfectly acceptable. A check by mail, in person, or in the drop box are all options."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:26:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All options. Good. Oh, that hum came back. Do you hear it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:27:02-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can hear it faintly. It does not affect our conversation. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:27:13-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me think. The first installment is posted, I will get the email and the paper copy, and I can use the drop box for the next one. I think that's everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:27:29-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is a good summary. To confirm, the confirmation will go to the email address you gave me, which is dulce dot andrade five two at mailbox dot com, and a paper copy to your mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:27:47-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Mailing address, the same as on the bill. I haven't moved."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:27:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. We'll use the address on file. Would you like the callback number on the account confirmed as well?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:28:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yes, please. It's four-oh-one, five-five-five, zero-one-five-two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:28:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four zero one, five five five, zero one five two. That matches our records."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:28:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Matches your records. Good. Thank you very much, Ms. Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:28:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Andrade. Thank you for calling the Finance Department. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:28:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A good afternoon to you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T12:18:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T12:18:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T12:18:10-05:00",
+        "end": "2026-01-29T12:28:34-05:00",
+        "duration_seconds": 624,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T12:18:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T12:18:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T12:18:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T12:18:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T12:18:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

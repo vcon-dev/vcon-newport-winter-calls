@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ddc6af26-1924-8502-96e7-51c9547e9fee",
+  "created_at": "2026-03-02T12:00:54-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sofia Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:57-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Tony, hello dear. This is Sofia Correia. I'm on Farewell Street, 115 Farewell Street, up the North End. Can you hear me okay? I'm in the car and the signal is not so good."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine, Ms. Correia. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:14-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I got my water and sewer bill in the mail Saturday, and it's for three months. Honey, I never had a bill like that before, I mean one that big. Why does it cover a whole quarter? And how do you count the dates? It says December something to February something and I don't follow it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:35-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can explain that. Water and sewer is billed quarterly, so each bill covers about three months of use. The meter gets read at the end of the period, and the bill covers the days between the previous read and the new one. So the dates on your bill are the read dates, not the first and last of the month."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:57-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, so it's not the calendar. [line breaks up] ...the days between the two readings."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. You're breaking up a little, but yes, between the two meter readings. Sometimes that's a few days over or under ninety."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:12-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Well, it looks high to me. I took a picture of it, a screenshot, with my phone. I only learned last week how to do that, my nephew showed me, so I'm very proud. But the number is the number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good for you. Do you have the usage figure in front of you? It should show the current read and the previous read."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:36-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] The previous is, um, the screen is small. I can't read it with the sun. Anyway it's more than the last one, a lot more."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:47-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. If you want, I can pull the account up. What's the service address again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:54-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "115 Farewell Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:56-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I have it. I can see the two reads, and yes, this period is higher than the one before. I can't tell you from here why. It could be higher use, a running toilet, or a read that needs checking."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:59:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd like somebody to look at the charge. Can I talk to a supervisor to review it? I don't want to just pay it and wonder."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:59:21-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. The supervisor isn't at their desk right now, it's close to noon. I can put in a request for a review and have them call you back. Is the number on the account still the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:59:35-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, use my cell. It's 401-555-0162."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:59:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0162. I'll note that it's for a charge review on the quarterly bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:59:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, dear. And one more thing. If it turns out it's right, is there a payment plan? Could I pay it in pieces? It's a big chunk all at once."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:59:56-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can ask about a payment plan. The supervisor or the billing office sets those up, so I'll add that to the note and they can go over it when they call. Nothing needs to happen on the plan until then."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. I don't want to get a late notice while we wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that the bill is under review, so they can see that when they look at the account. They usually get back within a day or two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:28-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. [crosstalk] Sorry, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:31-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was just going to say, if you do find a leak in the meantime, like a toilet running, let them know on the call. That helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. I'll check the toilets tonight. Thank you, Tony, you were very patient."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy to help, Ms. Correia. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T12:00:51-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, honey. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:56:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:56:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T11:56:53-05:00",
+        "end": "2026-03-02T12:00:54-05:00",
+        "duration_seconds": 241,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:56:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:53-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:53-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:53-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:53-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

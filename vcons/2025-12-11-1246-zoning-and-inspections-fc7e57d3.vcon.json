@@ -1,0 +1,679 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fc7e57d3-cd57-8d96-ab39-57bbb120a624",
+  "created_at": "2025-12-11T12:56:35-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Helena Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T12:46:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:46:41-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Greg. Helena Raposo. Bottom line first, can I add a second curb cut at my place for a garage, and do I need a permit for it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:46:57-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, slow down a second. A curb cut, so you're changing where the driveway meets the street. Where's the property?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:47:08-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seventy Harrison Avenue, the Fort Adams side. I rent, by the way. The landlord's fine with it, he just told me to find out what's needed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:47:22-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So you've got one driveway opening now, and you want another one for a new garage?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:47:32-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Right now there's one cut on the left. The garage would be on the right side of the house, so I'd need a separate opening. I have a good feeling about this call, honestly. I think you're going to sort me out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:47:55-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll do what I can. Generally, yes, a driveway curb cut needs a permit. You're altering the street edge and the sidewalk, which is city property. A second one gets looked at harder than the first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:48:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Harder how? Like, is it a no?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:48:20-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not automatically a no. They look at things like how much frontage you have, sight lines, whether there's a pole or hydrant or tree in the way, and whether two openings make sense on that lot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:48:40-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So who decides that? Is it you, or is it a different office? Because I thought it was the garage permit I needed, not a street thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:48:56-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two separate things. The garage is a building permit, that goes through us. The curb cut is its own permit, and public works is usually involved because it's the street and sidewalk. I can start you on the building side, but the curb cut piece I'd send you over to them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:49:23-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so two permits. And the garage one, does that depend on the curb cut one? Or the other way around?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:49:35-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Kind of both. It makes sense to get the curb cut question answered first, because if they say no to a second opening, a garage with no way to drive into it doesn't do you much good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:49:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Okay, that makes sense. So I call public works first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:50:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I can transfer you after we're done here if you want."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:50:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please. But first, the inspection thing. Does somebody have to come out and inspect it? Like, after the work's done?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:50:20-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a curb cut, typically yes, there's an inspection. Someone checks the apron and the sidewalk tie-in meet the requirements before it's signed off. And the garage itself would have its own inspections, foundation, framing, that kind of thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:50:41-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So multiple inspections. Okay. Do I schedule those or does the contractor?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:50:48-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually the contractor pulls the permit and schedules them. If you're renting, it's often the property owner who applies, since it's his land. Or the contractor applies on his behalf with his authorization."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:51:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. So I can't apply myself? I thought I was the one doing this."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:51:14-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "As a tenant, you'd need the owner's okay in writing at minimum. Most of the time the owner signs the application. Does your landlord own the house outright, or is it a company?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:51:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think it's him personally. His name's on the lease. Is that what you mean?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:51:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close enough. Then he's the owner of record and he'd sign. That's probably the cleanest way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:51:50-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And wait, I got this wrong earlier, I said the garage is on the right. It's actually the left, where the shed is. The existing driveway is on the right. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:52:08-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Doesn't change the answer much. Either way it's a second opening on the same frontage. Do you know how wide the lot is along Harrison?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:52:23-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No clue. Not wide? It's a regular house lot. Is there a number I should be shooting for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:52:33-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not going to give you a number off the top of my head, because it depends on the zoning district and what public works wants. They'll tell you when you go in. Bring a rough sketch of the lot with the house, the driveway, and where the garage would go."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:00-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sketch, like hand-drawn?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:03-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hand-drawn is fine to start the conversation. For the actual application you'll likely want a plot plan, and your contractor or a surveyor can help with that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:18-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so sketch first, call public works, get the landlord to sign. Then the building permit. Am I saying that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pretty much. One tweak, you don't need the landlord to sign for the first conversation. Just for the formal applications."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:41-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And the inspection for the curb cut, that's from the same place as the permit, public works?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, yes. The garage inspections are ours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:53:57-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm still a little fuzzy on whether the garage needs the curb cut approved before I can even apply, or if I can do them at the same time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:54:14-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can technically submit both around the same time, but I'd get public works' answer first. If they want changes to the driveway layout, it could change where the garage door goes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:54:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. Is there a fee for any of it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:54:38-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there are fees, but I don't want to quote you wrong. Public works will give you theirs and we'll give you ours when you apply."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:54:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And how long does it take? Roughly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:54:57-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It varies. Winter's slower for construction, so it can be a little easier to get on the schedule, but the actual work on a curb cut usually waits for decent weather anyway."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:55:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I'm not pouring anything in January."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:55:20-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably not. Spring is more realistic."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:55:24-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's fine. I'm just trying to get the ball rolling. Let me make sure I have it. Two permits, curb cut and building. Curb cut through public works, they probably inspect it. Garage through you, with inspections. Owner signs."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:55:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You've got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:55:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Could you transfer me, then?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:55:54-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Hang on, I'll try to get you to them. If it drops, call back and ask for public works about a driveway opening permit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:56:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Driveway opening permit. Is that the same as curb cut?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:56:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same thing, different name. Some people call it one, some the other. Either will get you to the right person."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:56:25-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that would've confused me later. Thanks, Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T12:56:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Hold on while I connect you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T12:46:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T12:46:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T12:46:37-05:00",
+        "end": "2025-12-11T12:56:35-05:00",
+        "duration_seconds": 598,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T12:46:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T12:46:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T12:46:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T12:46:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T12:46:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

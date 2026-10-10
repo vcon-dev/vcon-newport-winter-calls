@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9758faca-ca70-838b-a3e3-5a833459479b",
+  "created_at": "2025-12-11T15:10:28-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Mei Rahman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T15:07:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:07:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. Before anything else, may I have your name again? Whitcomb, was it? Let me write that down. Janet Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:07:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. Whitcomb, W-H-I-T-C-O-M-B. And you are?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:07:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mei Rahman. I'm calling about a parking ticket. I got it for being too close to a fire hydrant, and I'm telling you, I was not too close."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:07:53-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Do you have the ticket in front of you? I'll need the citation number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:08:00-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. Hold on, I'm on the speakerphone, my glasses are on the other side of the table. [pause] All right. It begins with the letters N P and then seven digits. Four, four, one, eight, eight, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:08:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I pull that up. [pause] Yes, I have it. Issued Monday morning, for parking within the distance required from a hydrant."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:08:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, and the officer wrote that I was within ten feet. I measured it myself yesterday with a tape measure. It's well over that. Maybe thirteen feet. I wrote it down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:08:37-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Ma'am, the measurement is taken by the officer at the time. If you wish to dispute it, there is a process for contesting the citation."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:08:48-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, but the officer took a photograph, it says so right here on the ticket. I want to see it. Can that be emailed to me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:08:58-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The photograph would be attached to the citation record. I can note a request to have it sent to you by email. What email address would you like on the request?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:09:10-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, [pause] I'd rather you call me if there's any problem. Let me give you the number. It's four-oh-one, five-five-five, oh-one-nine-one. And the email, I'll spell it slowly. M-E-I, dot, R-A-H-M-A-N, at a mail provider, I'll send it to you in a moment, I have it on a different paper."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:09:29-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. If you'd rather, you may email the office directly and reference your citation number. I can also have the records clerk call you. She is at extension two-one-four."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:09:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two-four-four. Let me write that. Two, four, four."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:09:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ma'am, two-one-four. Two, one, four."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:09:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Two-one-four. I'm sorry, I heard it wrong. This speakerphone makes everybody sound like they're underwater. I apologize."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:09:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. It happens often. Two-one-four, and the records clerk is generally in until four-thirty."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:10:02-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-thirty. It's after three now, so I'll call her today. And I'm not paying this until I've seen that photograph, just so that's noted."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:10:11-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that you're disputing the citation and requesting the photograph. Please be mindful of the due date printed on the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:10:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I see the date. Thank you, Ms. Whitcomb. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T15:10:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T15:07:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T15:07:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T15:07:25-05:00",
+        "end": "2025-12-11T15:10:28-05:00",
+        "duration_seconds": 183,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T15:07:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T15:07:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T15:07:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T15:07:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T15:07:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

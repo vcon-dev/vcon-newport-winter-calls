@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f6ac34bb-cde3-8aed-bf1c-878ac36a69fe",
+  "created_at": "2026-02-18T13:08:46-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Gina Ricci",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Tony. Hello, and thank you very much for answering. I hope you are having a good day and that you are well."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm doing fine, thanks. What can I help you with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:23-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, so my name is Gina Ricci. I am the property manager for a house, three hundred sixty Bliss Road, near Easton's Beach. And I have received the water and sewer bill, and I am, um, I do not understand it very well."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Bliss Road, three-sixty. Is the account under your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:42-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. The account is still in the name of my late husband. I never changed it. Is this a problem? I am sorry, I should have done it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's very common. I can still talk with you about the bill. Let me pull it up. What's confusing you on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:04:59-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The usage. It says high consumption. A very big number of units. But Tony, I was out of town for six weeks. I was away, nobody was in the house, and the water was not used. So how can the usage be high?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:05:13-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. So I'm seeing the last bill period, and yeah, the reading is higher than the prior one. When you say nobody was in the house, was the water shut off, or just not in use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:05:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not shut off. Just not in use. I did not turn anything. Is that what you call, um, the main valve? I do not know where this is."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:05:34-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The main shutoff, yeah, usually in the basement near where the pipe comes in. So if nobody was using water and the meter still moved, that could be a leak, like a running toilet or a pipe. Or it could be an estimated reading that got trued up on the next real read."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:05:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Estimated? What is this, estimated?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:05:52-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes the meter isn't read, so the bill is a guess based on past use. Then when they do read it, it catches up. So one bill can look low and the next one looks high."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:03-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. So the first one was low, and this one is high, but the total is the same?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:09-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be. I can't tell from here which one this is. Your bill shows an actual read, but I'd want somebody to look at the history."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. I think so. No, wait, I do not completely see. If it is estimated, then it is not actual? But you said actual."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair, I said it confusingly. This one's an actual read. The one before it may have been the estimate. Does that make more sense?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A little. A little, yes. I have a stack of receipts clipped to the fridge, from the earlier bills, if this helps. I can read them to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's great, but I have the payment history on my screen. What I can't do is decide to adjust the charge. That would be a supervisor review."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, then please, I would like to ask for a supervisor to review the charge. If it is possible. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:06:59-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll note the account with what you told me, that you were away six weeks, and send it up for review. They'll call you back. Is 401-555-0158 the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. That is my number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, the amount due is sixty-two fifteen. You can hold off paying until the review if you want."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:19-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I would like to pay it now, today, so there is no trouble. I have my card here. Is this okay to do on the telephone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, I can take that. Go ahead whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Slowly, yes? The card number is five five five five. [pause] Five five five five. [pause] Five five five five. [pause] Four four four four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:41-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Five fives, then four fours at the end. And the expiration?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero eight, twenty-nine. August of twenty-nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. And the three-digit code on the back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:07:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one moment. It is, um, I will read it. Here, it is the three numbers by the signature. Is that the one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one, the three digits next to the signature."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Then I have it. Should I say it now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:08-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven, one, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Okay, that went through for sixty-two fifteen. You'll get a receipt. And the supervisor review is noted on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony, you are very kind. And so if the review finds a mistake, what happens to the money I paid today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then it'd come off as a credit on your next bill. The supervisor can explain that when they call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A credit on the next bill. Okay. I think I understand. Not completely, but they will explain. Thank you, and God bless you and your family."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:08:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Ricci. Take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:04:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:04:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T13:04:08-05:00",
+        "end": "2026-02-18T13:08:46-05:00",
+        "duration_seconds": 278,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:04:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T13:04:08-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T13:04:08-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T13:04:08-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T13:04:08-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

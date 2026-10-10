@@ -1,0 +1,631 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7e2a8411-8708-8862-825f-aff7f6e7a957",
+  "created_at": "2026-02-24T15:50:18-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Maria Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T15:38:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:38:22-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. I'm calling about a storm drain, the water, it's coming into my yard, and I don't know if somebody can come look at it. It's okay that I'm calling you for that, right? Is this the right department?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:38:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, you're in the right place. Drains and street flooding come through us. Let me grab some details. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:38:56-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 129 Annandale Road. In the North End. Annandale, 129."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:39:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "129 Annandale Road, North End. Got it. And what's going on there, exactly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:39:09-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So after the nor'easter, last weekend, Saturday into Sunday, the whole street, the water just comes down the hill from the next street over. It runs down and goes straight into my yard. Straight in. Every time it rains hard it does this, and with that storm it was wicked bad."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:39:36-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so runoff coming downhill from the street above you, and it ends up on your property. Is there a drain near the house that's supposed to catch it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:39:52-05:00",
+      "duration": 39,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a grate at the curb, right by the edge of my yard. And it was packed with leaves, all wet leaves, so I went out, I did it by hand, I pulled them all off the grate. And it helped. It did. But only for like ten minutes, maybe, and then it was backing up again. Ten minutes! I'm worried it's going to just keep doing this and I don't know what to do."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:40:31-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, so you cleared the grate, water drained for a bit, then it backed up again. That tells me it might be something further down, like the pipe itself being blocked or just too much water for it. Was there standing water in the street, or mostly in the yard?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:40:57-05:00",
+      "duration": 26,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both. The street had a puddle, a big one, like a lake almost, and then the yard, it's soaked, it's mud, it's all soft. Is it okay to walk on? I mean I'm not sure if it's going to hurt the foundation or something. Is that okay, or no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:41:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't tell you about your foundation from here, that'd be something to have somebody look at if you see water getting in. Is any water getting into the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:41:39-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, not in the house. Not yet. The yard, and a little by the steps. But I keep thinking, if it keeps going, it'll get in. You know? If it rains again it might get in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:41:59-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Let me write this down. Catch basin at the curb, 129 Annandale, clogged or backing up, runoff from the street uphill. Do you know the name of the street above you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:42:16-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the one that runs along the top of the hill, behind us. I don't know the name right off. I could look it up. Or I could say it's the next street over, uphill. The water comes from there, it just rushes down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:42:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I'll note uphill street, name to be confirmed. The crew can figure it out when they get there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:42:50-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I ask something? Is it a city drain, or a state one? Because somebody told me that sometimes the road belongs to the state and then it's not you, and I don't want to call the wrong people and lose more time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:43:13-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Annandale Road is a city street as far as I know, so the drain at the curb should be ours. If it turned out to be on a state road, we'd pass it along to them, so you wouldn't have to start over. But I'd say this is us."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:43:40-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay good. Because I was worried about that. Honestly I called about this before, I mean, not this exact storm, but it's been the same problem, it keeps happening, and nothing changes. Every time it's the same."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:44:00-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. I don't see the history in front of me from this screen, but I'll put in a new request and mark it as a repeat problem so it doesn't get treated like a one-off. That should help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:44:21-05:00",
+      "duration": 25,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please. Because it's the same thing again and again. The grate fills, the water goes everywhere, and I'm out there with my hands pulling leaves. I shouldn't have to do that. Is that okay that I did that, by the way? Did I do something wrong, touching it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:44:46-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine. Clearing leaves off the top of a grate is no problem, just be careful of traffic and don't put your hand down in it. If it's bigger than leaves, leave it to the crew."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:45:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. I didn't reach in. Just the top. Just the leaves on top."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:45:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Now, is the water out there right now, or has it dried up since Sunday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:45:23-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Some of it's still there. The yard is wet, and the corner of the street has a puddle. It's not running now, because it didn't rain today. But it's cold, and I'm worried it'll freeze, and then it's ice on the street, and somebody falls."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:45:47-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a fair thing to flag. I'll note the standing water and the freezing concern. Nights have been below freezing, so that puddle could turn to ice. I'll put that in so the crew sees it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:46:07-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Thank you. And how long, like, how long will it take? Because I don't want to wait and wait. Is it days? Is it a week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:46:22-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly, I can't give you a day. Crews are still working through a list after the storm, and there's a lot of calls like yours. It goes in the queue and they'll prioritize anything that's a hazard. I'd guess a few days, but I can't promise that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:46:47-05:00",
+      "duration": 25,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few days. Okay. It's just, I have so much going on, and this, I keep thinking about it. Plus the school bake sale is Friday and I haven't baked anything. Nothing. I haven't even bought flour. And I'm out there with the yard and the water instead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:47:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's a lot at once. Friday's still a few days off, you've got time. Store-bought brownies never hurt anybody either."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:47:23-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I know, I know. I just wanted somebody to come before the weekend, because if it rains again, I don't know. Is it supposed to rain?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:47:38-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the forecast in front of me, so I won't say. If something heavy is on the way, call back and tell us it's getting worse, and that can bump it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:47:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if it gets in the house I call this number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:03-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, call us, and if it's an emergency, like water coming in fast, you'd call the emergency line. For the drain itself, this number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:16-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Should I leave a number? You have my number? It's 401-555-0170."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0170, got it. Is that a landline you're on now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:29-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's the house phone. I'm usually home in the afternoons. After three, definitely. Mornings I'm at work or doing school pickups."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll note afternoons after three. And your name, for the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:48-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maria Correia. C-O-R-R-E-I-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:48:50-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maria Correia. Alright, let me read it back. 129 Annandale Road, North End. Catch basin at the curb backing up, runoff from the uphill street flowing into the yard, you cleared leaves and it only helped for about ten minutes, repeat problem, standing water with a freeze concern. Callback 401-555-0170 after three. That right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:49:18-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Yes, that's it. That's everything. And it's okay if the crew comes when I'm not home? Is that okay? They don't need me there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:49:32-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They don't need you there. It's out at the curb, they can look at it on their own. If they have a question they'll call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:49:46-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. I just, I really hope somebody comes soon. I'm sorry, I know you're busy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:49:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine. It's what we're here for. It's in now, and I'll mark it so it gets looked at."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:50:06-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Kevin. Thank you. I appreciate it. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T15:50:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it, Maria. Take care, and good luck with the bake sale."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T15:38:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T15:38:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T15:38:18-05:00",
+        "end": "2026-02-24T15:50:18-05:00",
+        "duration_seconds": 720,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T15:38:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T15:38:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T15:38:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T15:38:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T15:38:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c4c8d0ad-3304-8182-8817-5e34d4bc8e4b",
+  "created_at": "2025-12-30T10:14:38-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Zelia Pina",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T10:13:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:13:19-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Kevin, yes, this is Zelia Pina. So, um, I own a two-family up on Old Beach Road, and I rent the upstairs, and the tenant up there has been after me about this since before Christmas, so I told her I'd call. I'm on my lunch break, I'm a mail carrier, so I'm in the truck, sorry if it echoes on the speaker."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:13:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine, I can hear you. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:13:44-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the streetlight out front. It's not out, it's the opposite. It's wicked bright, and it's turned in a way that it shines straight into the bedroom window. She can't sleep. I checked it myself at night, it's like a spotlight on the bed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:13:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so light's aimed wrong or maybe it's a bad fixture. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:04-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "292 Old Beach Road, by Easton's Beach side. The pole's right at the edge of the property."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 292 Old Beach Road, light shining into the upstairs bedroom. Anything on the pole, like a number tag?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I didn't look for a number. Can you just send a crew to check the pole? Maybe it got knocked crooked or something."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, I'll put in a request for a crew to look at it. Best callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:31-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0164."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, that's in. Enjoy what's left of your lunch."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:14:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Kevin."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:13:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:13:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T10:13:16-05:00",
+        "end": "2025-12-30T10:14:38-05:00",
+        "duration_seconds": 82,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:13:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T10:13:16-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T10:13:16-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T10:13:16-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T10:13:16-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

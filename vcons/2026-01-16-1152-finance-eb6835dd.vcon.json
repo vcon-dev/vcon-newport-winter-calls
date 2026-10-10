@@ -1,0 +1,655 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "eb6835dd-61ab-8385-a464-46b9e8a26ce1",
+  "created_at": "2026-01-16T11:58:49-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Colleen McCarthy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-16T11:52:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:52:29-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I'm calling about a parking ticket. A ticket. I got it during the snow parking ban and I want to, um, to contest it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:52:41-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. I can help with that. May I have your name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:52:47-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Colleen McCarthy. M-c-C-a-r-t-h-y."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:52:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. McCarthy. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:52:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. It's, hold on, it's on the kitchen counter. [pause] Okay. I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful. Would you read me the citation number printed near the top?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:08-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says... [line breaks up] ...can you hear me? I'm on my cell and the signal here is, it's not good."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I lost you for a moment. Please repeat the citation number slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Let me, let me move to the window. Okay. The number is N, as in Nancy, N-4-4-7-1-9-2."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "N-4-4-7-1-9-2. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's right. That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the location and date on the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:41-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's my own street. Sixty-five Dean Avenue. Fifth Ward. The date says, um, it says the ninth of January, early morning, a little after seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:53:52-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I see it here. It was issued for a violation of the winter parking restriction. What would you like to tell us about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:54:04-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well. Here's the thing. That street was never plowed. Never. Not once, that I saw, before that ticket or after it. And it was not posted either. No sign. No sign at all on our end of Dean."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:54:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. And was a parking ban in effect city-wide at that time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:54:26-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I heard there was one, on the news, maybe. But I'm saying the street, the street itself, wasn't plowed or posted. So why would I get a ticket for blocking a plow that never came?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:54:41-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is precisely the sort of information you would include in an appeal. The ticket stands until it is reviewed, so I would advise you to file in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:54:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I do that, can I do it by phone, or does it have to be in writing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:03-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The appeal must be submitted in writing. You may bring it to City Hall or mail it. Please include the citation number, your name, the plate number, and your explanation."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And I should, should I put in photographs? Of the street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Photographs would be appropriate, yes. Particularly if they show the street's condition and the absence of signage. If you have any with a date, include those."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:33-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I took some on my phone. Not that day, but, but a few days after. It was still unplowed then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then include those and state the date they were taken. Be accurate about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:49-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Now, how long, how long does an appeal take? Once I send it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:55:56-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It varies. Generally it is a matter of a few weeks before a reviewer responds, and it can be longer when volume is high. You will be notified by mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:56:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few weeks. Okay. And the fine, does it, does it go up while I wait?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:56:16-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I cannot quote specific penalty amounts over the phone. The notice you receive will state the current balance and any deadlines. I would recommend filing as soon as you can, and well within the period printed on the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:56:33-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The period on the ticket. [pause] Let me look. It says, um, twenty-one days. Is that, does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:56:42-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If that is what the ticket states, then that is the period you should follow. Today is the sixteenth, so you have time, but do not wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:56:54-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I won't. I'll get it in this week. Early next week at the latest."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:57:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Is there anything else on the citation you wish noted?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:57:07-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just one more thing. The man next door, he's always, always working on the same old truck. Right there at the curb. I'm wondering if he got a ticket. I don't want to be, you know, singled out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:57:23-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am unable to discuss another resident's citations. If you believe a vehicle is in violation, you can report it to the parking office, but I cannot speak to his record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:57:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's fair. I just wanted to mention it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:57:42-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will note your statement about the street not being plowed or posted. You will still need to include it in your written appeal."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:57:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. In the written appeal. And where do I send it? The address, [inaudible] City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, you broke up. You asked where to send the appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:06-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The address, for the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Address it to the City of Newport, Finance Department, Parking Violations, at City Hall on Broadway. Write the citation number on the envelope as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, Parking Violations, City Hall, Broadway. Citation number on the envelope. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. Should we have trouble reaching you, may I confirm a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's four-oh-one, five-five-five, zero-one-eight-one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-one. Thank you, Ms. McCarthy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That's all I needed. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T11:58:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T11:52:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T11:52:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-16T11:52:21-05:00",
+        "end": "2026-01-16T11:58:49-05:00",
+        "duration_seconds": 388,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T11:52:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-16T11:52:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-16T11:52:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-16T11:52:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-16T11:52:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

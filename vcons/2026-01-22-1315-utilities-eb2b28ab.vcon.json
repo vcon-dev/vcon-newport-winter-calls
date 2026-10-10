@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "eb2b28ab-f01f-868a-9b5e-5783d1dee758",
+  "created_at": "2026-01-22T13:20:11-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Adriana Ortiz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T13:15:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:15:08-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. My name is Adriana Ortiz. I'm calling for my mother, she's the one renting at 479 Harrison Avenue, over on the Fort Adams side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:15:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Ortiz. What's going on with the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:15:25-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the landlord is telling my mother she owes the water and sewer bill. And I have the bill here, hold on, let me find my place. [pause] Okay. It says the account is in the name of the property owner. So I'd like to know whose bill this is. Because she's a tenant."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:15:48-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can explain that. In Newport the water account is generally tied to the property, so the bill goes to the owner on record. Whether a tenant pays it comes down to the lease. Some leases say the tenant reimburses the landlord, some say water is included in the rent. Does your mother's lease mention water?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:16:12-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't think so. I mean, I haven't read the whole thing. She has it somewhere. But the landlord just sent a note saying she owes, and the amount is, um, here, it says current charges, and then a previous balance, and then a total. It's a lot more than I'd expect for one woman living alone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:16:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Do you see a line for the meter reading, current and previous?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:16:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it says current read, and next to it there's the letter E. Then previous read."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:16:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That E usually means estimated. So nobody got an actual reading, the system guessed based on past use."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:16:57-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I figured. The meter is in a crawlspace under the house and nobody goes in there. My mother certainly doesn't, and the landlord, I doubt he does either. So how would anybody read it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:17:13-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the problem with those. If the meter's hard to get to, we can end up estimating several bills in a row, and then a real reading comes along and catches up. I can note the account that the meter is in a crawlspace and have someone look at whether there's a remote reader or if an appointment is needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:17:39-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. Because honestly it's ridiculous to be handed a bill based on a guess and told it's my mother's problem. I'm not paying a guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:17:51-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Now, the dispute with the landlord about who owes it, that's between the two of them, I can't settle that. But I can tell you the bill itself should be based on a real reading, and I can flag it. The owner is the one who'd have to request the check, since it's his account. Do you have his contact info, or can your mother ask him?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:18:19-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She can ask him. He's not hard to reach, he just doesn't like to be asked. I'll make him. Can I give you my number in case someone needs to call about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:18:33-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:18:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0163."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:18:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0163. I'll put that on the note along with the crawlspace."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:18:43-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now, one more thing. If somebody does end up having to pay this, can I do it on the website with a card? Right now, I mean, it's already afternoon, and I don't know if it only works during office hours or if it's open late."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:19:03-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website's up all the time, so you can pay with a card there any hour, evenings and weekends included. It's not tied to when City Hall is open. There's also a drop box for checks if you'd rather do that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:19:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. I'm not paying yet, though. I want the reading first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:19:27-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. I'd get the owner to request that check first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:19:33-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Sorry, I'm a little short today. I've had this thing in my hand since breakfast and I keep getting interrupted by the television. I've been watching this cooking show all week, the one with the baking competition, and it's on in the other room."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:19:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries at all. Anything else I can look up for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:19:59-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Just the crawlspace and the estimate. Don't forget."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:20:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's going on the account right now. Take care, Ms. Ortiz."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T13:20:09-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T13:15:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T13:15:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T13:15:03-05:00",
+        "end": "2026-01-22T13:20:11-05:00",
+        "duration_seconds": 308,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T13:15:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T13:15:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T13:15:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T13:15:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T13:15:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

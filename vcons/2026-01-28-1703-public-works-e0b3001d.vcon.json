@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e0b3001d-1721-8a58-8c3a-58166814dca6",
+  "created_at": "2026-01-28T17:04:56-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Colleen Lynch",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T17:03:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Lorraine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:03:35-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, this is Colleen Lynch. I know it's after five and City Hall's closed, but I saw this number was the storm line. I'd like to report that my elderly neighbor can't get out, the plow left a wall of snow at the end of her walk and she needs a path cleared."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:03:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm glad you called the storm line. Let me get that down. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:03:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "163 Bacheller Street, in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:01-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "163 Bacheller Street. And the snow is from the plow at the end of her walkway, is that right? This is left over from the storm Sunday into Monday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:11-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The snow turned to rain and then it all froze up into heavy chunks. She can't get through it. I would have shoveled it myself, but it's like concrete. I'm a renter next door, and I only noticed because I was out front waiting for the bus this morning. I sketch people on the bus, so I'm usually looking around."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. So an elderly neighbor, she's stuck behind the plow ridge at 163 Bacheller. Do you want a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:37-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's 401-555-0195."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:39-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0195. Got it. I'll log it now and send it to the crews as a priority path request. Can you please make sure she's got somebody checking on her?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:49-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Thank you. Please log it, that's all I need."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T17:04:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's logged. Take care, Ms. Lynch."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T17:03:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T17:03:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T17:03:32-05:00",
+        "end": "2026-01-28T17:04:56-05:00",
+        "duration_seconds": 84,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T17:03:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T17:03:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T17:03:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T17:03:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T17:03:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

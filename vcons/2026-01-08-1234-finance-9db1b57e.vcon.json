@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9db1b57e-439a-839d-a3f7-d7cae976d831",
+  "created_at": "2026-01-08T12:40:26-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Kevin Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-08T12:34:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:34:12-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. My name is Kevin Dolan. I have a note here so I get this straight. Pardon me, I'm on my lunch hour and I've got a sandwich going, so if I chew in your ear, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:34:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Chew away, Mr. Dolan. Nobody's grading me on ambiance. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:34:32-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I received a bill from the city for a motor vehicle excise tax. A car tax, I believe is what people call it. The bill is for a Buick. I sold that Buick last year. I have it written down, I sold it in the spring."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:34:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you have the bill in front of you? Is there a bill number or a plate number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:34:58-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one moment. [pause] The plate number is on the upper right. It's a Rhode Island plate, and I'd rather not read the whole thing out. Is that all right? I can read the bill number. It's printed under the word 'bill.'"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:35:13-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bill number's fine. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:35:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 4, 4, 1, 0, 7, 2. And then there's a dash and a 3."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:35:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, pulling that up. And the name on it is Kevin Dolan, at Marsh Street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:35:29-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "234 Marsh Street, yes. Down in the Point. Well, that's where I live now. I'm not sure that's the address on the bill. I haven't looked closely."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:35:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mm-hm. I'm seeing it here. The vehicle's listed under your name, and the bill is for the year the car was registered to you. Did you turn the plates in when you sold it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:35:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I handed the plates to the man who bought it. Is that wrong? I thought they went with the car."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:36:00-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, that's usually where it goes sideways. In Rhode Island the plates generally belong to the owner, not the car. So you'd normally return them to the DMV so the registration gets canceled. If it never got canceled, the system still thinks the car's yours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:36:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. So the plates and the car are separate. I did not understand that. So I'm still the owner, as far as the state is concerned?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:36:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On paper, possibly, yes. Our bills come from the state registration records. We don't see who you handed a car to in a driveway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:36:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Well, I have a bill of sale. I wrote that on my note. A handwritten one, with his signature and the date. Would that help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:36:46-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It'll help. What you'd want to do is bring that bill of sale, or a copy, to the tax office along with anything showing the plates were turned in or the registration canceled. Then they can look at adjusting it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:37:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring it in person? Or can I mail it? I'm not sure which is the proper way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:37:08-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one works generally. In person's faster because they can look at it while you wait. If you mail it, keep your original and send a copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:37:18-05:00",
+      "duration": 25,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Keep the original. Writing that down. Now, the other thing. There's a second matter, but related. How do I change my mailing address? I'm not sure if this bill went to the right place. I moved my mail to a post office box a while back, and I think the car bills may still be going to Marsh Street. Or the other way. I'm confused which one is current."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:37:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so you live at 234 Marsh Street, and you want mail somewhere else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:37:49-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, no. I want it at Marsh Street. I think the box was the old one. Or was it that the bill went to the box? I have it written somewhere. [pause] The envelope says Marsh Street. So it came to the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:05-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then it sounds like the bill came to the right place. The envelope matches where you want it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then why do I have a box listed on my other bill? The real estate one. I'm mixing things up, I apologize."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:21-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No apology needed, it's two systems. Car excise runs off the state registration address. Property tax mailing goes by what the city has on file. To change the property tax one, you'd send us a written request with your name, the property, and the new mailing address. The tax office can tell you if they want a form."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A written request. Signed, I assume."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Signed's a good idea, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the car one, the state one. That I change with the state, not you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:38:54-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the DMV. If the Buick's registration is canceled, though, you may not need to bother with that one anymore."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Yes, that makes sense, if there's no car. Although I do have a different car now. Does that one come from the same place?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same idea. Its registration address is what the state has, and we bill from that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So if I tell the state I'm at Marsh Street, then all the car bills come to Marsh Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the general idea, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:29-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Let me read back what I have. One, bring or mail a copy of the bill of sale to the tax office. Two, show the plates were turned in or the registration canceled. Three, send a signed written request to change the property tax mailing address. Four, tell the state about the car address. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You write better notes than most of my coworkers."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:39:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One more thing, I'm still a little unsure about the plates. If the man never turned them in, can that be fixed now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:40:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The DMV would be the ones to sort that out. Tell them the date you sold it and show them the bill of sale. They deal with that all the time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:40:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. I'll do that this week. Thank you, Mr. Barros. Go finish your own lunch."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:40:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Dolan. Enjoy the sandwich."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:34:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:34:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-08T12:34:08-05:00",
+        "end": "2026-01-08T12:40:26-05:00",
+        "duration_seconds": 378,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:34:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-08T12:34:08-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-08T12:34:08-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-08T12:34:08-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-08T12:34:08-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

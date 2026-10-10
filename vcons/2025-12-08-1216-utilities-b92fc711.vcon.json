@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b92fc711-80ce-8837-b2c9-7e366fec1839",
+  "created_at": "2025-12-08T12:20:32-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Linda Thurston",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-08T12:16:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:16:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, sorry, I'm whispering. Somebody's sleeping in the next room. I have a question about a water bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:16:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all, take your time. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:16:27-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there was a broken pipe, a while back, and I heard there's something called a leak adjustment? I don't really know what that is. I'm not asking you to change anything, I just want it explained."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:16:41-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, happy to. So a leak adjustment is when water went through your meter because of a leak, like a burst pipe, and it never actually got used the normal way. So the bill can be high even though nobody was running taps. In some cases the city looks at the extra usage and may adjust part of it. It usually depends on the leak being repaired and some paperwork showing that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Repaired. So, like, a receipt from the plumber?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the kind of thing they'd ask about, yes. Which address is the bill for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:16-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it's 68 Gidley Street. Well. Wait. Hang on, [pause] I have two places, so I have two bills here and I keep mixing them up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's easy to do. Take a look at the bills. What's the service address printed on the one with the high number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:35-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on. Sorry. One sec. [pause] Okay, the high one says, um, it's not Gidley. It's my other place. I thought the pipe was at Gidley, but I live at Gidley. The pipe was at the other one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So you rent at Gidley, and the other property is the one with the broken pipe?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:17:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, no, wait. I rent Gidley. I, um, own the other. Or, I'm in charge of it. Is that going to matter?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:18:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can matter, because the bill goes with whoever's name is on that account. Whose name is on the bill for the other property?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:18:13-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mine. It says Thurston. Linda Thurston. And the Gidley one says the same, I think. Is that weird?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:18:20-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not weird. Some people have more than one account. Each address just has its own account number. So the leak question is only about the account for the property where the pipe broke."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:18:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So not Gidley. I got that wrong. Sorry. [pause] And the adjustment, that takes the bill down?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:18:39-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can lower the extra charge, if it qualifies. I can't tell you it will before it's reviewed. But since you just want to understand it, the short version is: pipe breaks, you fix it, you show proof, and the city takes a look at the usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:18:56-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the sewer part. Is that separate? There's a line that says sewer and I don't know if that's the same thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:05-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Sewer charges are usually based on how much water came through the meter. So a leak can bump both lines. Whether the sewer part gets adjusted too is something they look at during the review."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:18-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So they're connected but, but different lines."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:22-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, same meter reading driving both."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, hold on. [pause] Out my window there's my neighbor, he's shoveling out his car with a little plastic dustpan. After the storm. It's the funniest thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A dustpan? Well, that's dedication. Saturday's storm left a fair amount, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Anyway. Sorry. So if I wanted to ask about the adjustment, I'd call about the right account, not Gidley."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:48-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Have the account number from the other property's bill handy, and the repair paperwork. You can call back here or stop in at City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:19:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the account number is the one near the top?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually top right on the bill, yes. It's labeled account number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:08-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I have it. I'm still a little mixed up which is which, but I'll put sticky notes on them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:16-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good plan. If you want, call back with both bills in front of you and we'll go through them one at a time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:25-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Tony. I'll let you go. She's stirring."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. Take care, Linda."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:16:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:16:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-08T12:16:11-05:00",
+        "end": "2025-12-08T12:20:32-05:00",
+        "duration_seconds": 261,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:16:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-08T12:16:11-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-08T12:16:11-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-08T12:16:11-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-08T12:16:11-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

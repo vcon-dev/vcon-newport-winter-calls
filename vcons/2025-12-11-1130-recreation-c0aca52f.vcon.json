@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c0aca52f-aa62-80d6-a17a-78ed0d75db2f",
+  "created_at": "2025-12-11T11:31:38-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Helena M. Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T11:30:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation Department, this is Beth, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:30:29-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Beth. I want to report a broken swing at one of the playgrounds. I should tell you I'm sitting in a drive-through line, so if I cut out, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:30:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, go ahead. Which playground is it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:30:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The one down at the beach park, the little one by the parking lot. The seat on the far swing is cracked right through and one chain is hanging loose."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:30:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the far swing, cracked seat, loose chain. Is it a baby swing or a regular one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:30:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Regular one. The kind with the flat seat. A kid could get hurt on it, I'd say."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:31:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll send that to the parks crew today and they'll get it taken out of use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:31:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Oh, I'm moving up, hold on. [pause] Okay. Is there a web page where I can see the same information, like about the beach parks and who to report things to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:31:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the city website has a recreation section with the parks and beaches listed. You can find the contact info there too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:31:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, I'll look it up when I get home. Thanks, Beth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T11:31:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling it in. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T11:30:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T11:30:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T11:30:25-05:00",
+        "end": "2025-12-11T11:31:38-05:00",
+        "duration_seconds": 73,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T11:30:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T11:30:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T11:30:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T11:30:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T11:30:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

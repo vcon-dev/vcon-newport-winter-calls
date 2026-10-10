@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8a70f364-e771-871b-b274-0b80d188d223",
+  "created_at": "2026-02-04T13:09:10-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Rachel Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-04T13:04:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:04:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Hi. I want to ask what time City Hall is open. The hours, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:04:59-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Are you looking for a particular office, or just the building in general?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:05:08-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I need to drop off one form. Signed form. I need to bring it tomorrow, so I want to be sure somebody is there to take it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:05:24-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Tomorrow is Thursday. City Hall is generally open during regular weekday business hours, opening in the morning and closing late afternoon. What kind of form is it? That decides which counter you go to."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:05:44-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is a permit form, for work on the house. Already filled out, and the owner signed already. I am the owner. I just need to hand it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:06:01-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. If it's a building permit application, that comes to us. Do you know if it's for building, electrical, or plumbing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:06:14-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Building. Inside work only, the kitchen wall. Building."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:06:19-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's us. So you'd bring it to the inspections counter and the staff there will take it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:06:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what time does it close? I am sorry, I want to make sure the exact time. I will come in the afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:06:44-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The doors are open until five on a regular weekday. I'd try to get here a little before that, say by four, so nobody's rushing you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:06:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before five. By four. Okay, I will come by four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:07:06-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Do you have the whole packet together? Sometimes people drop off just the signed page and then we're missing the plans or the contractor info."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:07:21-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check. I have the form, the signed page, and the sketch of the wall. And contractor paper, yes. I think it is complete."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:07:36-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, one more. Is there parking? I am coming from work, from the church office. I do the administrative work in the rectory, so I will be coming on my break, short time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:07:55-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's some street parking around the building and a lot nearby. Mid-afternoon on a weekday it's usually not bad. Just check the signs so you don't get a ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:12-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, check the signs. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:16-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And if you want, ask for the inspections counter when you walk in. If it's not in the right place, they'll point you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:30-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Inspections counter. Okay. Do I need an appointment? Or I just walk in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:38-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just walk in for dropping off paperwork. You don't need an appointment for that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. So tomorrow, Thursday, before five, by four. Walk in, inspections counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:55-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You've got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:08:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. That is all I need. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T13:09:07-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T13:04:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T13:04:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-04T13:04:45-05:00",
+        "end": "2026-02-04T13:09:10-05:00",
+        "duration_seconds": 265,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T13:04:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-04T13:04:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-04T13:04:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-04T13:04:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-04T13:04:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

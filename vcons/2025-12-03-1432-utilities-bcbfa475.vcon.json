@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bcbfa475-5944-8b03-a884-ff145518fe17",
+  "created_at": "2025-12-03T14:39:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Gerard Cullen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T14:32:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:33:05-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. Gerard Cullen. I rent at 335 Eustis Avenue, up on the Hill. So, last Tuesday, the 25th, my landlord forwarded me the water and sewer bill, because we split it, and the number on it is higher than it's ever been. That's what I'm calling about."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:33:29-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Cullen. Let me pull up that account. Eustis Avenue, 335. Give me a moment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:33:38-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Take your time. Then Wednesday I looked at the previous ones he had in a folder, and they were all lower. Nothing changed at the house. Same people, same everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:33:54-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it. The most recent bill is forty-eight dollars and fifty cents. Is that the figure you're looking at?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:34:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Forty-eight fifty. It was like thirty-something before. So I'm annoyed, honestly. I want it looked at."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:34:15-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can see the readings. The usage for this period is higher than the prior one, but it's not an estimate. It's an actual meter read."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:34:29-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but what I really need is a breakdown by month. I'm trying to do a budget, and I've got one bill and no history. Can you give me usage month by month?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:34:46-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can give you the billing history for the account, each period with the read dates and the usage. Bills here go out on a billing cycle, so it's by period rather than strictly calendar month, but it lines up closely."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:35:07-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. And on the bill there's this word, consumption. Consumption, with a number next to it. What does that actually mean? Is that what I owe, or what?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:35:22-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Consumption is just the amount of water the meter recorded going through the house during that period. It's a volume, not a dollar amount. The charges are calculated from that volume, and then the sewer portion is based on it too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:35:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the consumption is the gallons, or whatever the unit is, and the money comes after."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:35:53-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The unit on your bill is hundreds of cubic feet, so a small number there can still be a meaningful amount of water. If consumption went up, the charge goes up with it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:36:10-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it's saying we used more. Which I doubt, but fine. Could you put that in writing? The explanation and the history. I don't want to be relying on my memory of this call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:36:28-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. I'll send a printed history with a short note explaining the consumption line. Should that go to the service address, or to your landlord's billing address on file?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:36:43-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send it to me at the house. 335 Eustis. Put my name on it, Cullen."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:36:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Done. It should arrive within several business days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:36:56-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, one more thing. I'm going to pay this forty-eight fifty today so it's off the table, even if I think it's high. Is this call being recorded?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:11-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Calls to this office may be recorded, yes, for accuracy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's fine. Just wanted to know. Okay, you ready for the card?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:24-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:27-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 6011 1111 1111 1117, expiration 07/28."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:31-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back. 6011, 1111, 1111, 1117, expiring July 2028, for forty-eight dollars and fifty cents. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do you want to give me the security code as well? It's the three or four digits on the card."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 123."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:37:57-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while it processes. [pause] It went through. You'll get a confirmation number now. It's the payment confirmation for the account. Would you like me to note it on the history I'm sending?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:38:15-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, put it on there. And if the history shows the usage jumped for no reason, I'll be calling back. I'm not saying there's a leak, I'm saying I want to see it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:38:32-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. If the numbers look off to you, call back and we can have the meter re-read or schedule a check. Is there a good number for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:38:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0177. That's the landline."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:38:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0177. Anything else today, Mr. Cullen?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:38:55-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks for explaining the consumption thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:39:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:39:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T14:32:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T14:32:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T14:32:59-05:00",
+        "end": "2025-12-03T14:39:06-05:00",
+        "duration_seconds": 367,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T14:32:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T14:32:59-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T14:32:59-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T14:32:59-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T14:32:59-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f3d8f196-57c1-8233-ba79-63debadc4d50",
+  "created_at": "2026-02-04T14:19:21-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Carol Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-04T14:16:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Um, I'm on speakerphone, I hope you can hear me all right. I have my hands full at the moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:07-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:10-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'm looking for some old records. Genealogy, for my family. Birth and marriage records from the 1930s. Does your office keep those?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We do keep older vital records for births, marriages and deaths that happened here in Newport. Was the event in Newport itself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, [pause] yes. Both of them, I believe. A birth in nineteen thirty-four and a marriage in nineteen thirty-one. Well, I think thirty-one. I'm not completely sure of the year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's okay, a lot of folks aren't. If you give us a range of years we can search it. Do you have the full names?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the names written down here. I'll, um, I'll have to find the page. [pause] One moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, I'm not going anywhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now, what I'd like to know is how long does it take? From when I ask to when I get the copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:17:58-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you come in or mail a request, it's usually a matter of days, but older books can take a bit longer to pull. Genealogy copies are a little different from certified ones, so I'd tell you when you submit the request. Is this for research only?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:12-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Research only. Family tree. I don't need anything certified."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:16-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Then you can fill out a request form. I can email it, or mail it to you, whichever is easier."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:23-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail would be better. I'm not good with the email. [line breaks up] Sorry, I'm still here. I'm just waiting on a friend who's picking me up. She's always late, so I have the time to call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that works out then. What's the best number to reach you if we have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's four, zero, one. [pause] Five, five, five. [pause] Zero, one, eight, four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-four. Got it. And the mailing address for the form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:49-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'd rather not give that over the phone. Could you just send it with the number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:18:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd need an address to mail it. Or you can stop by the office and pick one up. Whichever you prefer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:19:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'll stop by. What are your hours, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:19:06-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open weekdays during the regular business day. Come by any weekday and we'll have the form ready at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:19:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. That's clear. Thank you, Sandra. I think my friend just pulled up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:19:18-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good timing. You take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T14:16:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T14:16:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-04T14:16:55-05:00",
+        "end": "2026-02-04T14:19:21-05:00",
+        "duration_seconds": 146,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T14:16:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-04T14:16:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-04T14:16:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-04T14:16:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-04T14:16:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

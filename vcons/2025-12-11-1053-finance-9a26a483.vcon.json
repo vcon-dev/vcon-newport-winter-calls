@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9a26a483-b461-853e-9510-736a27b8bb33",
+  "created_at": "2025-12-11T10:56:56-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Conceicao Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T10:53:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:53:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Um, my name is Conceicao Correia, and I got a tax bill in the mail, a property tax bill, for my house on Bellevue Avenue. But my mortgage company is supposed to pay that from escrow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Supposed to pay it from escrow. And the bill came to you anyway."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:11-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, to me. Came to me anyway. That's what I don't understand. Why would I get a bill if they pay it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:18-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the city usually mails a bill to the owner of record no matter what, so sometimes it's just your copy. Whether the mortgage company actually paid is the real question. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "302 Bellevue Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "302 Bellevue. Give me a second, let me pull that up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure. Sorry, I'm just pouring my tea here, hold on. [pause] Okay, the kettle just clicked off. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, tea is important. Okay, I'm looking at the account. The December installment shows as still open. I don't see a payment posted from a mortgage servicer yet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Still open. So that means they didn't pay it? Or they didn't pay it yet?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:54:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be either. Sometimes servicers pay close to the due date, and it takes a few days to post. I can't see what's going on inside your escrow account, that's on their side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On their side. Okay. So I should call them. But what if they don't pay and I'm late? I thought the bill with the slip, that was the one that, um, I pay with."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:12-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The slip is for if you're paying yourself. If the servicer pays, you can ignore it. But I'd call them and ask them to confirm the date they're sending it. If they say they're not, then you pay it and sort it out with them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pay it and sort it out. Okay. And if I do pay it myself, I work during the day. Is there a phone line, like a payment line, that works at night? Where I can pay the installment without coming in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:37-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's an online payment option on the city website, that works any hour. There's also a drop box outside City Hall for checks. As for an automated phone line, I'm not certain we have one, so I'd rather not tell you yes and have you dialing into the void. The website is the safest after hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website. Okay. I'm not so good with the website, but my nephew, no, never mind. I'll try it. Drop box for checks, website at night."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And if the servicer pays, you don't have to do any of it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:05-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. Could you maybe send me an email confirming what you told me? That the December one is still open on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send you a note that the installment shows open as of today. What email address do you want it to go to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Um, can I give it to you, or you have one on file?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check. [pause] I don't have one on file for this account. So go ahead and give it to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:30-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's c-correia, the number two, at, um, a mail dot com. Wait, is that right? I said it fast. C, then Correia, then two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "c-correia-2 at a-mail dot com. Is that what you want?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A mail, yes. A-M-A-I-L. Okay. Open as of today. Good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll send that over this afternoon. Anything else, Ms. Correia?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:49-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Call the mortgage people. Thank you, Luis."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Enjoy the tea before it gets cold."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:53:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:53:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T10:53:51-05:00",
+        "end": "2025-12-11T10:56:56-05:00",
+        "duration_seconds": 185,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:53:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T10:53:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T10:53:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T10:53:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T10:53:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

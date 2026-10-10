@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8cd1f6f4-5141-8ae8-8edb-3ff80e109aa5",
+  "created_at": "2026-01-05T14:52:24-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Holly Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T14:46:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:46:59-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony. Yeah, so, I'll start from last week, because it makes more sense that way. Last Monday I come home and there's water running under the kitchen sink, a pipe split right at the joint. I shut off the valve, my landlord got a plumber in on Tuesday, and it's all fixed now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:47:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good that it's fixed. Sorry about the mess."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:47:25-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. So then Friday the mail comes and there's a water and sewer bill, and it's way higher than usual. Like, nearly triple. And I'm thinking, that's the pipe. So I want to know if there's a leak adjustment or something like that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:47:42-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, there can be. Generally what that means is, if a leak made your usage jump, the city can look at the bill and possibly adjust the part of the charge tied to the extra water. You'd usually need to show it was repaired, so a plumber's invoice or receipt helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:48:02-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the invoice. My landlord emailed me a copy. But, um, here's the thing. The bill says it's an estimated reading. I looked at it twice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:48:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Where's your meter, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:48:17-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's in the crawlspace under the building. Nobody goes down there. I've lived here three years and I've never seen anybody go in. The landlord doesn't go in either, he says the hatch is painted shut or something."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:48:32-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, that explains it. If it's an estimate, it may not be reflecting what actually went through the meter. Do you know if there's a remote reader on it, like a little device on the outside wall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:48:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have no idea. I've never seen one. I'm not going crawling around under there, no thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:48:55-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, nobody's asking you to. What I'd do is note your account that the meter's hard to access and ask for someone to check it. That way the next reading is real and not a guess. Then the adjustment request can go with that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Because honestly, I'm annoyed. I get an estimate, it's triple, and it's because of a pipe that wasn't even running the whole time. It was one night, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:25-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, and that's useful to say in the request. How long the leak went on, and the repair date. Can I get your name for the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Holly Tillinghast. T-I-L-L-I-N-G-H-A-S-T."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And the best number, in case we need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0198. It's my cell, so if it goes to voicemail it's because I'm asleep or at work."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I have that. When's a good time to call you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:49:57-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I'm a pastry chef. I start at four in the morning, so I'm up and gone before anybody's even awake. I'm usually done by early afternoon, so, like, two, three o'clock is best. Like now, actually. That's why I'm calling now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:50:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, then afternoons it is. I'll put that in the notes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:50:19-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And one more thing. If the adjustment doesn't come through before this is due, do I have to pay the whole thing? Can I pay it at a bank? My bank's right on the corner, it'd be easier than going all the way down to City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:50:39-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I don't want to send you to the wrong place. Let me check what's accepted. Hang on one second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:50:48-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:50:49-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. So, as far as I know, banks aren't set up to take the city water bill generally. Payments are accepted at the collections window at City Hall, or you can mail a check in with your stub. If you want to ask about other places, I can have the collections office call you and confirm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:51:12-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. So not the bank. Okay. I'll probably mail it then. I just don't love the idea of paying triple for something that isn't right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:51:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Ask in the adjustment request that the amount be reviewed, and mention the due date. They look at those pretty quickly when it's a documented repair."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:51:34-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how do I get the plumber's invoice to you? Do I mail that too?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:51:41-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can mail it or drop it at the window with a note that has your account number. The account number's on the top right of the bill. Include the date of the repair and a line about the meter being in the crawlspace."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:51:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, top right, got it. I'll write all that down. So the order is: you note the meter, someone checks it, and I send the invoice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:52:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Meter note and the check request go in today. The invoice is your part."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:52:17-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Fine. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:52:20-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Holly. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T14:46:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T14:46:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T14:46:54-05:00",
+        "end": "2026-01-05T14:52:24-05:00",
+        "duration_seconds": 330,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T14:46:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T14:46:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T14:46:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T14:46:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T14:46:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f1035723-ef4e-8ead-b8d2-e96633f8ab0a",
+  "created_at": "2026-02-27T14:49:38-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Mike Donovan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-27T14:46:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, City of Newport, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:46:53-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. Um, this is Mike Donovan. I'm calling about, uh, my property tax. [pause] I think there's a payment coming up. I'm not sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:01-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Mr. Donovan. Property tax is paid in installments over the year. Do you have your most recent bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:08-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. I had it. [pause] I had it on the kitchen table, and now I don't know where it went. Sorry, you're on the speaker, I've got the phone on the counter here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:19-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's quite all right. I can hear you. I can have a duplicate bill mailed to you. May I have the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Donovan. Michael Donovan. D-O-N-O... [line breaks up] ...V-A-N. Is that, uh, is that what you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:32-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, thank you. I have the spelling. I'll request the duplicate. It should arrive in the mail within several business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Good. Now, the next one. When is the next one due? [pause] I thought it was, I don't know, April maybe. Or was that, no. Hm."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:48-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The installments follow a quarterly schedule. The next one would fall in the spring, and the exact date will be printed on the duplicate bill. I would rely on that rather than memory."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:47:58-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And do you mail a reminder? Before it's due? Because I don't remember getting one last time. Or maybe I did. [pause] I put things in a pile."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally the city mails a bill for each installment, so you should receive one. I would not count on it as a substitute for the due date on your schedule, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:17-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. So the bill is the reminder. Okay. [pause] It's just, it feels like it's been a long week already, and it's only, what is it, Friday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is Friday afternoon. Is there anything else I can help with on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:31-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one more. Um. If I wanted to pay it, could I do that on a Saturday? Because you're closed Saturday, I'd think. Or, uh, is there some other way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:40-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall is closed on Saturdays, that's correct. There is a payment drop box at City Hall that you can use outside business hours, and payments can also be made online through the city's website. The duplicate bill will have instructions."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. So I could just, I'd put a check in. In the box. On a Saturday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:48:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, with your account information and the payment stub if you have it. The bill you're getting will include that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:49:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the online, is that, you just look it up? By name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:49:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You would use the account or bill number from the bill, so it's best to wait for the duplicate to arrive."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:49:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. Okay. The bill again. Yes. I'm a little, I'm still not sure I have it straight, but I'll wait for the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:49:24-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. If you have trouble, call us back. Is the number you gave a good one to reach you at, 401-555-0167?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:49:31-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's, that's it. Thank you, Miss Whitcomb. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T14:49:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Donovan. Have a good weekend."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T14:46:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T14:46:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-27T14:46:48-05:00",
+        "end": "2026-02-27T14:49:38-05:00",
+        "duration_seconds": 170,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T14:46:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-27T14:46:48-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-27T14:46:48-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-27T14:46:48-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-27T14:46:48-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

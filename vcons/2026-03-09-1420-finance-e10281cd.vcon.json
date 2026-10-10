@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e10281cd-971d-81ff-9e20-f70252856526",
+  "created_at": "2026-03-09T14:25:12-04:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Priya Rahman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T14:20:12-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance, parking tickets, this is Luis."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:20:16-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes. Um, my name is Priya Rahman. I'm calling about a ticket. It's, it's for my mother's car. I'm her daughter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:20:27-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Rahman. What's the ticket for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:20:31-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says the registration sticker is expired. [pause] But she renewed it. The day before. Sunday, no, Saturday... no. The day before the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:20:43-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So renewed the day before the ticket was written. Do you have the ticket in front of you? There should be a number on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:20:56-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it here. Let me find my glasses. [pause] Okay. It starts with a letter, P, and then, um, four, four, one, seven, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:10-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "P four four one seven zero two. Give me a second to pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:18-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:21-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I've got it. Expired registration, written Thursday morning. Plate on it matches the one you're calling about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:30-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so. The plate is... [line breaks up] ...sorry, I'm on my cell. Can you hear me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:39-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I lost you for a second. Say that last part again."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:45-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I said the plate is on the ticket. I don't have the car with me. It's at my mother's. But the ticket is hers, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:21:58-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, the ticket number is enough. Now, the renewal. Do you have the paperwork or the new sticker receipt?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:22:08-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The receipt, it's from the registry. It has the date. She did it online the day before. And then the sticker came... [pause] no, wait. The sticker hadn't come yet. It came in the mail after."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:22:26-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. That's pretty common, the renewal's done but the sticker's still in the mail. So the receipt is what matters here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:22:38-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. So, what do I do? Do I, do I pay it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:22:45-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd hold off on paying. You'd want to contest it. You send in the receipt showing the renewal date and ask for a review. I can note the ticket as being disputed."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:01-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. And, um, I would like to see the photo. The officer took a photo, I think. Can you send it? To my email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:14-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can request the violation photo be emailed to you. What email address should it go to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:23-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's... oh. Let me think how to say it. Priya, P-R-I-Y-A, then dot, Rahman, R-A-H-M-A-N, the number fifty-two, at, um, a mail provider. Gmail. G-M-A-I-L dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:37-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Priya dot Rahman fifty-two at gmail dot com. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:44-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:46-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. It might take a day or two. Sometimes longer if the officer hasn't uploaded it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:23:54-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. [pause] I'm sorry, I lost where I was. Oh. The receipt. Where do I send it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:24:03-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can email it back to the same thread once you get the photo, or bring it by the finance window at City Hall. Either works. Put the ticket number on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:24:19-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll write that down. P four four one seven zero two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:24:26-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And don't worry about a late fee while it's under review. The dispute stops the clock."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:24:35-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That is good. Thank you. I have to go soon, I drive a school bus. My route starts in an hour. I need to get ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:24:49-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'll let you get to your kids. Anything else on this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:24:56-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's all. The photo, and the receipt, and the number. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:25:04-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You've got it. Have a good route, Ms. Rahman."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T14:25:09-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Barros. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T14:20:12-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T14:20:12-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T14:20:12-04:00",
+        "end": "2026-03-09T14:25:12-04:00",
+        "duration_seconds": 300,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T14:20:12-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T14:20:12-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T14:20:12-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T14:20:12-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T14:20:12-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

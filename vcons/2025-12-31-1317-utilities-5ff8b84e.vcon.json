@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5ff8b84e-6f5b-8394-bfdd-39c2d5cf34a6",
+  "created_at": "2025-12-31T13:19:12-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Gloria Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-31T13:17:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy New Year's Eve almost. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:17:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. I have three things. First, I just bought my house. Second, the first water and sewer bill came and it's in the former owner's name. Third, the amount is way too high for a month."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:18:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that happens a lot with a new sale. The bill follows the account until the transfer goes through. Does the amount include usage from before you closed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:18:16-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. First, I wasn't even living here. Second, I had a plumber out last week, and third, I kept the receipt. He said a toilet was running. So now they want me to pay for it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:18:28-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, a running toilet can run up the usage fast. A plumber's receipt is good to have. It's the kind of thing a supervisor looks at when they review a charge."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:18:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Then I want a supervisor to review it. And let me ask you, so I get it right. You said the bill cannot be adjusted until the account is changed over? Was it cannot or can?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:18:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I said it can be reviewed. The adjustment is a separate step. Nothing's final until someone looks at it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:18:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Can they call me back at 401-555-0192? I'm not paying a bill with the wrong name on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:19:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 0192. I'll put the note in with your plumber receipt mentioned and have a supervisor call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T13:19:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T13:17:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T13:17:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-31T13:17:50-05:00",
+        "end": "2025-12-31T13:19:12-05:00",
+        "duration_seconds": 82,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T13:17:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-31T13:17:50-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-31T13:17:50-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-31T13:17:50-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-31T13:17:50-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

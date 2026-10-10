@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "62d3a534-9e6f-832b-b4f2-dc016d87e339",
+  "created_at": "2026-03-04T10:57:08-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Antonio Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-04T10:55:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:55:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Antonio Costa. I am calling about a trash pickup that was missed. Bulk waste, on the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:55:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, bulk waste. Go ahead, what's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:55:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "169 Admiral Kalbfus Road. North End. I rent there, and the landlord had a move-out last week. He left a mattress, a chair, and some boxes at the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mattress, chair, boxes. Got it. And when was the pickup supposed to happen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:12-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yesterday was the regular day. They took the regular trash, but not the bulk. And this is the second miss in a row. The week before, the same pile was left."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:23-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Second week in a row, okay. I'm writing that down. Was it tagged or anything, a sticker on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No sticker. Nothing on it. One moment, please. [pause] Sorry, I am at the hardware store, at the paint counter. I am waiting for them to mix a color. Okay, I can talk."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I'll put in a request for a bulk pickup at 169 Admiral Kalbfus and note it's been missed twice. Crew supervisor will see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:52-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Should I leave the items where they are?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:56:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, leave them at the curb, just keep them out of the road."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:57:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Thank you. That is all."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T10:57:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You bet, Mr. Costa. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T10:55:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T10:55:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-04T10:55:42-05:00",
+        "end": "2026-03-04T10:57:08-05:00",
+        "duration_seconds": 86,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T10:55:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-04T10:55:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-04T10:55:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-04T10:55:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-04T10:55:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

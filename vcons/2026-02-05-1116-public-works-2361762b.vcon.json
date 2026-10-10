@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2361762b-9799-846b-b0e9-86128c3648bf",
+  "created_at": "2026-02-05T11:17:18-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Nelson Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:09-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:12-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Nelson Costa. Calling about a streetlight out by a crosswalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Where's the crosswalk?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-nine Rhode Island Avenue. Right in front, on Historic Hill. Whole crosswalk is dark at night. Don't feel safe crossing there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:28-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So the light's out over the crosswalk at 409 Rhode Island Avenue. Do you know if it's the pole in front or the one next to it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Pole in front, I think. Closest one to the crosswalk. Can you send a crew to check the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:45-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, I'll put in the request for a crew to look at it. Is it totally out or flickering?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:52-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Totally out. Been dark a few nights now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:16:56-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, writing that down. Totally out, few nights, crosswalk. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:17:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just, today's trash day on the street. Truck just went by, so crew won't be blocked by cans or anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:17:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good to know, thanks. Want a callback number on this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:17:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Four-oh-one, five-five-five, oh-one-nine-six."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:17:13-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-six. All set, Nelson."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:17:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:16:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:16:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T11:16:09-05:00",
+        "end": "2026-02-05T11:17:18-05:00",
+        "duration_seconds": 69,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:16:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T11:16:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T11:16:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T11:16:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T11:16:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "12955288-7a48-8ce0-a6cc-2262a3e09535",
+  "created_at": "2026-03-09T11:17:02-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Paula Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T11:15:20-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:15:24-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Is it all right if I ask about a marriage license? It's for my son, I'm calling for him. He's at work."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:15:33-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I can tell you what's needed. Now, both people getting married usually need to come in together, so he would want to plan on that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:15:42-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is it all right if I ask what they should bring with them?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:15:47-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Each of them should bring a photo ID, and if either one was married before, they'll need the information on how that ended, the date and so on. Also bring a form of payment for the fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:00-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A photo ID, the information if married before, and payment. Let me write that down. [pause] Okay, I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:07-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:09-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And is it all right if I ask how long it takes? Do they get it the same day, or does it come in the mail?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:18-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally it's handled in person at the counter, so they shouldn't be waiting long. I'd say call again just before they come in, in case anything is different."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:28-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Oh, one more thing, if that's all right. He's going to have to ask for time off, because his employer just changed the break schedule and none of us understand it. He used to have a set lunch, and now it's something different every day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:43-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Well, that one's between him and his employer. We're open weekday business hours, so he'd want to find a time that works within those."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:52-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll tell him. That's what I needed. Thank you very much, Mr. Haskell."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:16:57-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:17:00-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:15:20-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:15:20-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T11:15:20-04:00",
+        "end": "2026-03-09T11:17:02-04:00",
+        "duration_seconds": 102,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:15:20-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T11:15:20-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T11:15:20-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T11:15:20-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T11:15:20-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

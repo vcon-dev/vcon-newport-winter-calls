@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3ce692e7-a9aa-8631-ad81-5f5a9196861a",
+  "created_at": "2026-01-29T15:03:10-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Beverly Chase",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T15:01:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:01:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Um, yes. I would like to order a pizza, a large one, for pickup. Is this the... the place on Thames Street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:03-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, honey, no, this is the City Clerk at Newport City Hall. No pizza here, I wish. We'd all be in line."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall. [pause] Oh. I am sorry. I think I dialed one number wrong. I have it on a piece of paper, and I read it fast."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:21-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happens all the time. Do you have the restaurant's name? I can't look up the number for you, but a quick search on your phone should turn it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:31-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I will do that. The name is the same as the street, almost. Anyway, I am sorry again to bother you. I am at work and my hands are busy, so I did not look at the screen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, what kind of work do you do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I cut hair, at a barbershop. You can maybe hear the clippers behind me. My coworker is doing a fade, very loud."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:02:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I thought that was my line buzzing! Well, no bother at all. Hope you get your pizza."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:03:03-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I will check the number again, slowly this time. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T15:03:08-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now, take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T15:01:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T15:01:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T15:01:50-05:00",
+        "end": "2026-01-29T15:03:10-05:00",
+        "duration_seconds": 80,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T15:01:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T15:01:50-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T15:01:50-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T15:01:50-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T15:01:50-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

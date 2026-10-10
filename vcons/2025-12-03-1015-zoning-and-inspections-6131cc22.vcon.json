@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6131cc22-9081-88e9-9dad-61e31a8be717",
+  "created_at": "2025-12-03T10:19:08-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Marisa Duarte",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T10:15:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. My name is Marisa Duarte, that's D-U-A-R-T-E. I'm calling at, um, ten-fifteen on a Wednesday, so I know you're open. I'm trying to find out whether I need a permit for a fence."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. Can I get the address where the fence would go?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:20-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "243 Callender Avenue, in the North End. I'm the homeowner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. What kind of fence are you thinking about, and what's it for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:30-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a privacy fence. A neighbor built a new deck this fall, I think it was finished the second week of November, and it looks straight down into our backyard. So I want vinyl, and about four and a half feet tall. Well, four and a half is what I'd like. I haven't ordered anything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Vinyl, around four and a half feet. Is this along the side of the yard or the back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:16:57-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The side, the side facing that deck. Sorry, I should say, it would run along most of that side. Now, is there a height where a fence stops needing a permit? Someone told me under four feet you don't need one, but somebody else said six. I honestly don't know which is right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:17:16-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I can see why that's confusing. In general, a fence does need a permit here, and the height is one of the things we look at. I wouldn't count on a cutoff where you can skip it. It's safer to assume you need to apply."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:17:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, just to be sure I have this right, four and a half feet needs a permit, and the under-four or six-foot thing might not apply?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:17:42-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, don't rely on either number. Plan on applying, and the office will tell you if anything is exempt for your lot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:17:50-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how close to the property line can it go? Can it sit right on the line, or does it have to be set back? I'd rather not start a dispute with the neighbor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:18:03-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good thing to check. Usually there's a setback or placement rule, and it's best to know exactly where your line is. Do you have a survey of the property?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:18:14-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe so. My parents just moved in with us from Florida, about three weeks ago, and there are still boxes everywhere. The survey is in one of them, I think, from the closing in 2019. Or 2018. I'll find it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:18:29-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Bring the survey, a simple sketch of where the fence would run, and the material and height. You can come to the counter at City Hall, or I can have someone call you with the details on the setback."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:18:44-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A call back would be great. My number is 401-555-0156."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:18:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0156, Marisa Duarte, 243 Callender, vinyl fence about four and a half feet. Someone from the inspections side will call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:18:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So I'll wait before ordering anything, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:19:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, definitely hold off until you hear back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:19:05-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Anita. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T10:15:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T10:15:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T10:15:56-05:00",
+        "end": "2025-12-03T10:19:08-05:00",
+        "duration_seconds": 192,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T10:15:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T10:15:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T10:15:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T10:15:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T10:15:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

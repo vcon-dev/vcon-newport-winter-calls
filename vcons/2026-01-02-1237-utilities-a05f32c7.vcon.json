@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a05f32c7-61e4-8fc5-b94d-cce193a11279",
+  "created_at": "2026-01-02T12:44:56-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rocco Lombardozzi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-02T12:37:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:37:44-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Um, hold on, let me put this down. Okay. I'm calling about my water bill. It came in and it's about double what it normally is. Double."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:37:59-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry about that, let's take a look. Can I get the service address and the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:38:10-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rocco Lombardozzi. Two seventy-seven Kay Street. Up on the Hill. I rent, but the bill comes to me, it's in my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:38:22-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Lombardozzi. Give me a moment to pull that up. [pause] Okay, I have it. Can you tell me what you usually pay, roughly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:38:36-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually, I don't know, it's right around the same every quarter, never a surprise. This one, it's like twice that. And I can't figure it out. Nothing changed. Same me, same apartment, no guests, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:38:54-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see the current reading is quite a bit higher than the previous period. The usage jumped, so the amount follows from that. Has anything in the home been running more than usual? Any leaks, a dripping faucet, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:39:15-05:00",
+      "duration": 26,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. I mean, no leaks. Wait. The toilet. The toilet was running constantly last month. Like it would not stop. I jiggled the handle, the whole thing. [pause] Sorry, I'm, hang on, I'm trying to get the TV to switch inputs, the remote is, it keeps going to the wrong thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:39:41-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:39:45-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's still on the cable box screen. Anyway. I can't get it to go to the other input, I'll deal with it later. The toilet, yeah. It ran for probably two, three weeks before I got the flapper thing fixed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:40:06-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would very likely explain it. A running toilet can use a surprising amount of water, and it adds up over a billing period without making any obvious noise or mess. If it ran for a few weeks, that could account for the increase."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:40:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's my fault, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:40:33-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't put it that way. The meter records what went through, so the bill reflects that. But now that it's repaired, your next reading should come back down. If you like, I can note on the account that you had a fixture leak and it's been fixed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:40:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, note it. Is there any, like, adjustment? Or no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:41:04-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise an adjustment on this call. That's reviewed separately. I can send your note along to the billing supervisor and they can tell you if anything applies. Do you have a receipt or something showing the repair?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:41:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The part was like eight bucks. I probably have the receipt in a bag somewhere. [crosstalk] Sorry, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:41:34-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was just saying, if you can find it, that helps. You can bring it in or send a copy with a note."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:41:46-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, what about paying it. I work during the week, I get off late. Can I pay on a Saturday? Is somebody there Saturdays?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:41:59-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall isn't open on Saturdays, no. But you don't need the counter. You can pay online through the city's website at any hour, and there's a payment drop box at City Hall that's available outside of business hours. You can also mail a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:42:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The drop box, so I put a check in it Saturday and that's good?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:42:30-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, put your check in the box with the payment stub or at least your account number written on it. It's collected on the next business day, which would be Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:42:46-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Monday. Okay. So it's not stamped Saturday or anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:42:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It'd be processed Monday when it's collected. When is your due date? I can look at it with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:43:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I got the bill here somewhere. [pause] It's under the, ugh, the pizza coupons. Okay. Due the, it says the fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:43:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fifteenth is a Thursday, so you have plenty of time. Saturday or Monday, either way you're well ahead of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:43:25-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Okay. That I can do. I'm still annoyed about the amount, honestly. It's a lot for an eight-dollar part."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:43:36-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I'll put the note on the account about the toilet repair so the supervisor sees it. Can I confirm a good callback number in case they want to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:43:53-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Four zero one, five five five, zero one nine two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:43:59-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four zero one, five five five, zero one nine two. Got it. Someone should get back to you, and if you find that receipt, bring it in or mail it with your account number on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:44:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And the next bill, it'll go back to normal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:44:24-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should, if nothing else is running. If it stays high after the toilet repair, call us back, because then it could be something else, and we can look at the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:44:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. Thanks. I gotta go figure out this TV."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:44:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good luck with it. Have a good afternoon, Mr. Lombardozzi."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T12:44:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T12:37:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T12:37:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-02T12:37:38-05:00",
+        "end": "2026-01-02T12:44:56-05:00",
+        "duration_seconds": 438,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T12:37:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-02T12:37:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-02T12:37:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-02T12:37:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-02T12:37:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

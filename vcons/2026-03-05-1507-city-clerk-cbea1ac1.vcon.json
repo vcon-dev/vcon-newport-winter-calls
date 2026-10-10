@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cbea1ac1-6202-8d67-90fd-592261c220ba",
+  "created_at": "2026-03-05T15:09:33-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Omar Tran",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-05T15:07:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:07:42-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. Um, I think I might have the wrong number? I'm trying to reach, I think it's the, the parking ticket office, or whoever does the resident stickers. Is this that? Is it okay that I called here?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:07:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's okay. No harm done. This is the City Clerk. We handle records, licenses, that sort of thing. Parking stickers aren't us. May I ask where you got the number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:08:05-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's off an old flyer. It was stuck on my fridge, from, I don't know, a while ago. I figured the number was still good. Is that a problem, that it's old?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:08:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not a problem at all. Numbers do change, and flyers hang around. Let me point you to the right place. Parking is handled through the city's parking office, and I can transfer you from here if you'd like."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:08:28-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, you can transfer me? Okay. Wait, do I need to dial a different area code or something? The flyer had a different one, I think. Or it didn't have one. I couldn't tell. Is that why I got you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:08:41-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the area code isn't the issue. You reached Newport, so the code worked fine. The flyer probably just listed a department that has since moved or been renumbered. Calling from your cell, you don't need to add anything extra."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:08:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. Good. I just didn't want to keep calling the wrong place. I'm the guy who reads the whole menu, you know? Every option, all the way to the end, and then I still pick wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:09:06-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Well, you got a person this time, so that's something. Hold on one moment and I'll connect you. If it drops, the main city line will get you to the same office."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:09:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And it's fine that I'm bothering you with this? Sorry. I just didn't want to mess it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:09:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're not bothering anyone. Stay on the line, Mr. Tran, and I'll send you over now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T15:09:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks. Thank you very much."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T15:07:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T15:07:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-05T15:07:38-05:00",
+        "end": "2026-03-05T15:09:33-05:00",
+        "duration_seconds": 115,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T15:07:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-05T15:07:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-05T15:07:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-05T15:07:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-05T15:07:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

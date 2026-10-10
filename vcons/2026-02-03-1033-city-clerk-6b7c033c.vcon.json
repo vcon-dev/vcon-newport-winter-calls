@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6b7c033c-9ae2-85cc-83fa-9b627e5936f0",
+  "created_at": "2026-02-03T10:35:01-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Esteban Quintero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-03T10:33:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra, good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:33:29-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi hon, good morning. Um, I think I called the wrong place maybe, I got a raccoon in my garage and I don't know who handles that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:33:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh no, okay. You're actually not too far off, we can point you the right way. Is it in there right now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:33:47-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah, it's in there now. I opened the door to grab my bike and it just kind of stared at me. Big guy, like maybe a small dog big, gray and brownish with the black mask, really fat tail with the rings."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mm, sounds like a healthy one. Did it act sick at all? Stumbling, foaming, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:08-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, it just looked at me, then went behind the boxes. But I'm kind of nervous, hon, I got my roommate's cat in the house and I don't want anything getting into it. Wicked nervous, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:21-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understandable. Keep the door to the house shut, leave the garage door open if you can so it can walk out on its own, and stay back. I'll transfer you to animal control so they can log it and advise you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, perfect. Oh, and random, but you wouldn't know where to find Guldens mustard, would you? The spicy brown. I love that stuff on everything and I've been to like four stores, nobody has it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:47-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ha, I don't, hon. Try asking at the deli counters, they sometimes order it in for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:54-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good idea, I will. Thanks, Sandra."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:34:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on one second, I'm sending you over now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T10:33:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T10:33:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-03T10:33:26-05:00",
+        "end": "2026-02-03T10:35:01-05:00",
+        "duration_seconds": 95,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T10:33:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-03T10:33:26-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-03T10:33:26-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-03T10:33:26-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-03T10:33:26-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

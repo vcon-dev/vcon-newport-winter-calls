@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "74195d50-762d-8fa2-9d1e-e4450aa9e40a",
+  "created_at": "2025-12-03T14:27:12-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Jorge Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T14:25:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:25:56-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, hello, good afternoon. Um, I am looking for the housing office, for the Naval base. The housing, you know? Is this the one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:26:05-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, no, this is the City Clerk at Newport City Hall. The Navy housing office is a separate place, it's on the base, not with the city."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:26:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay, okay. So I have the wrong number. [pause] I am sorry, I think my list is very old. I wrote these numbers down, like, years ago. Maybe the list is older than me, no? Ha."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:26:28-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It happens all the time. Numbers change. Your best bet is to call the base directly and ask for the housing office, or look on the Navy's website for the current line. They'll get you to the right desk."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:26:42-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I will do that. Thank you, that is very kind. Sorry, one second, I am on the porch, I am shaking the rug, and the dust, it is everywhere. [pause] Okay. I was making noise, sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:26:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine. Sounds like you're getting a good cleaning in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:27:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a little bit. Okay, thank you for your help, and for your patience with me. Have a very good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T14:27:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Take care, and good luck with the housing office."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T14:25:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T14:25:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T14:25:51-05:00",
+        "end": "2025-12-03T14:27:12-05:00",
+        "duration_seconds": 81,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T14:25:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T14:25:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T14:25:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T14:25:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T14:25:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

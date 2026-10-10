@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2b07d5d1-bac0-8c05-bacf-30324be5282c",
+  "created_at": "2026-02-20T13:13:42-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Yusuf Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T13:12:14-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:12:16-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Kevin. My name is Yusuf Goldberg. I'm calling about a crosswalk near my house, at 253 Callender Avenue. The paint has faded, almost gone, and cars do not stop for people crossing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:12:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 253 Callender, North End. So the crosswalk lines are worn off and drivers aren't yielding. Is it right in front of your place or down the street a bit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:12:37-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right in front, or, to be exact, about twenty feet to the left of my driveway as you face the street. I noticed it getting bad in November, so about three months now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:12:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll put in a request for repainting and have someone take a look."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:12:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And a second question. If a car gets damaged on a bad road, does the city reimburse the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's usually a claim process, and it depends on the situation. I can give you the office that handles claims if you need it. For a crosswalk, though, that's not really a car damage thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, that's a general question. Not for this. And how long do repairs usually take?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly it varies. Winter slows paint work down, since it needs warmer, dry weather. Could be a few weeks, could be spring."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:24-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Forgive me if I'm hard to understand. My accent gets heavier when I'm tired."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine, I got everything. Callender Avenue, faded crosswalk, twenty feet left of your driveway. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all. Thank you, Kevin. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T13:13:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Goldberg. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T13:12:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T13:12:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T13:12:14-05:00",
+        "end": "2026-02-20T13:13:42-05:00",
+        "duration_seconds": 88,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T13:12:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T13:12:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T13:12:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T13:12:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T13:12:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

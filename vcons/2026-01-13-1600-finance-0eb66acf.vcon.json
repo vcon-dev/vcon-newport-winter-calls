@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0eb66acf-4fed-8df0-a430-1d6c24ae4971",
+  "created_at": "2026-01-13T16:03:36-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Thomas Sherman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T16:00:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:00:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, before anything else, can I get your name again? Luis, and how do you spell the last name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:00-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "B-A-R-R-O-S. Luis Barros."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:02-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thanks. Okay, Thomas Sherman. I got a parking ticket on one of my rental properties' cars, well, my car, and it says expired registration sticker. That's wrong. I renewed it the day before."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The day before the ticket, okay. Did you put the new sticker on the plate already?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:22-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet, no. It came in the mail and it was sitting on the passenger seat. I put it on after I found the ticket. So technically the old one was still showing. But the renewal was done, I have the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. So the registration was valid, the sticker just hadn't made it to the plate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Which seems like a pretty thin reason to write someone a ticket. Hang on, let me write this down. [pause] Okay, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:01:52-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I can't dismiss it from here, but there's an appeal process through the ticket review. You'd want to send in your renewal receipt and the date it was issued. That's the proof they'll look at."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:05-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Receipt, date of renewal. And is that a form, or do I just write a letter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a request for review form. I can have it sent to you, or you can grab it from the city website. Either way, attach the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:22-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Also, I want the photo of the violation. The officer took one, I assume. Can that be emailed to me? I'd like to see what the sticker looked like."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:33-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, they usually attach a photo to the ticket record. Give me the ticket number and an email and I'll put in the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ticket number is, hold on, I've got it here. [pause] Sorry, my neighbor just brought over a plate of cookies and I'm juggling things. Okay, the number is 4471026."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "4471026. Nice neighbor. And the email address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:02:56-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's thomas dot sherman at, ah, can I just give you my phone number instead? 401-555-0181. Somebody can call and get the email."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:03:05-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Phone is fine, I'll note it. I'll mark that you want the photo emailed, and someone will call to confirm the address. Might take a day or two, the office is still catching up after the coastal storm Friday and Saturday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:03:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So to recap: send the review form, attach the receipt, photo request goes in under that ticket number, and somebody calls me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:03:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You wrote it all down?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:03:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Every step. Thanks, Luis."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T16:03:34-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Enjoy the cookies."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T16:00:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T16:00:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T16:00:48-05:00",
+        "end": "2026-01-13T16:03:36-05:00",
+        "duration_seconds": 168,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T16:00:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T16:00:48-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T16:00:48-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T16:00:48-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T16:00:48-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

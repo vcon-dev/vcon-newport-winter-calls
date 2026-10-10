@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c19264c5-4051-86d1-b4e1-a1dc6cd495da",
+  "created_at": "2025-12-04T13:20:51-05:00",
+  "subject": "Inbound call, Canvassing",
+  "parties": [
+    {
+      "name": "Raj F. Abdi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Walter Tavares",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-04T13:19:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Canvassing office, Walter speaking. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:19:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. I want to change my party. Um, my party affiliation. Is that something you do here?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:19:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is. You'd fill out a voter registration form with the new party marked and send it in or bring it by."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:19:45-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Marked and send it in. Okay. Sorry, I'm in a parking lot, loading groceries into the trunk, so give me one second. [pause] Okay. So I just write a new party on the form? I don't cancel the old one first?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:19:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no need to cancel anything. The new form replaces your existing registration. You'd check the box for the party you want."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Replaces the existing one. Okay. And what ID do I need? To turn it in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On the form you give your driver's license number, or the last four digits of your Social Security number if you don't have a license. You don't have to show a card at the counter to submit it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:20-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Last four digits. Not show a card. So it's a number on the form, not a copy of the license."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, just the number written on the form."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:29-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the form, where do I get it? Sorry, the trunk is, [line breaks up] stuck."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pick one up at City Hall at the canvassing counter, or I can mail one to you if you give me your address."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail one. Um, let me think. I'll just come by. Thank you, I think I've got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T13:20:48-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Have a nice afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T13:19:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "canvassing"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T13:19:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-04T13:19:29-05:00",
+        "end": "2025-12-04T13:20:51-05:00",
+        "duration_seconds": 82,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T13:19:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-04T13:19:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-04T13:19:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-04T13:19:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-04T13:19:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

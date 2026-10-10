@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "78ba724e-ac5a-878e-bc5b-d2775e5fd37b",
+  "created_at": "2026-03-03T10:18:48-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sean Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T10:17:06-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:17:09-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, Sean Hanlon, 383 Bellevue Avenue, I got my water and sewer bill in the mail and I'm looking at it and the sewer line is way higher than the water line, which makes no sense to me, I mean I only pay for the water I use, how is the sewer more than the water, and I'm leaving on a trip Thursday so I'd like this taken care of before I go."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:17:29-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Hanlon, let me pull up the account. Bear with me a moment. Alright, I have it. The sewer charge is usually figured from the water you use, but it carries its own rate, and that rate can be higher than the water rate. So it isn't unusual for that line to be larger."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:17:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it seems backwards to me. Seems like a lot for sewer. [pause] Anyway, can you send me a duplicate copy by email? This one's printed so small I had to use a magnifier app on my phone just to read the line items."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:17:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can send a duplicate to the email on file. Would you like me to read it back to you so you can confirm it's right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:06-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll send it to the address ending in the one we have listed on the account. If that's wrong, tell me now and I'll update it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:14-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's the right one. Now, how do I pay it before I leave? I don't want to come down to City Hall, and I'm not going to be around when you're open Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You have a few choices. You can pay online through the city's website with the account number on the bill. There's also a drop box at City Hall for checks that's available outside of regular hours, and you can mail a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online's fine then. I'll do that tonight when I get the email."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. The duplicate should reach you within the hour. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:18:46-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a safe trip."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:17:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:17:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T10:17:06-05:00",
+        "end": "2026-03-03T10:18:48-05:00",
+        "duration_seconds": 102,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:17:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T10:17:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T10:17:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T10:17:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T10:17:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

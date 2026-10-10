@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "13177fa0-fd95-8250-bad3-77ace395f6e8",
+  "created_at": "2026-02-25T11:53:35-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sofia Cabral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-25T11:51:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:51:18-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. This is Sofia Cabral, I'm at 203 Gidley Street, in the Fifth Ward. Now, last week I got my water and sewer bill, Tuesday it came, and it was almost double what it always is."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:51:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Double the usual amount. Let me pull up the account. Do you rent at that address, Ms. Cabral?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:51:38-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I rent, yes. Then Saturday the storm started, and I thought, well, maybe somebody made a mistake and I'll wait and see. But it's Wednesday now and nobody has fixed anything, and I'm not paying that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:51:51-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I'm seeing the account now. The last reading is much higher than the previous ones. I can't tell from here why that is."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'd like a supervisor to review the charge. I don't use that much water. I'm one person."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's reasonable. I can send this to a supervisor for review. They'll look at the meter reading and the history. Can I take a phone number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0167. And I have a long drive ahead of me today, so I'd like to get through this quickly, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Is there anything else you need on this call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, two things. I want to change my mailing address, and I want to go paperless. The paper bills go to my landlord's old address, which is why I got this one late, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:40-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What's the new mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just send it to 203 Gidley Street, where I live. Apartment is the back one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:49-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, mailing address changed to 203 Gidley Street. For paperless, I'll need an email on file. Do you have one you'd like to use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:52:58-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, but my granddaughter set it up and I don't have it memorized. Can you just use whatever is on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:53:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's one on file, yes. I'll switch the account to paperless using that one. Would you like a duplicate of this bill sent there too?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:53:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a copy by email, please. That way I have it when the supervisor calls."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:53:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Done. The copy should arrive shortly, and the supervisor will call you about the review."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:53:27-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you, dear. I'll be going now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T11:53:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling, Ms. Cabral. Drive safely."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T11:51:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T11:51:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-25T11:51:14-05:00",
+        "end": "2026-02-25T11:53:35-05:00",
+        "duration_seconds": 141,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T11:51:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-25T11:51:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-25T11:51:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-25T11:51:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-25T11:51:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

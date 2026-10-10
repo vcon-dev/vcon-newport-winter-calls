@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b64b1cde-59f9-899b-ba25-9e0e81722d67",
+  "created_at": "2025-12-12T12:30:25-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Marco Cardillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-12T12:24:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:24:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi, good afternoon. I got a noise problem and I'm not sure if I'm calling the right office. It's a neighbor, a generator."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:24:48-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A generator. Okay. Let me make sure I have that right. Your neighbor is running a generator, and it's bothering you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:24:56-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All night long. Every night. Runs from about nine, ten at night till six, seven in the morning. It's like a lawn mower sitting outside my bedroom window."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:25:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a hard thing to live next to. How long has this been going on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:25:14-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since before the holidays. Before Thanksgiving, even. I figured, okay, maybe the power's out over there, they'll fix it. No. It's still going. I'm not a complainer, but I got to sleep."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:25:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. And do you know why they're running it? Is it for the house, or something like a workshop or a business?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:25:35-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. I'm not going over there to ask. Last time I went over about a fence, I got an earful. The lights are on, the house has power, I can see the lights. So it's not an outage. I think they got it hooked to something in the garage, I couldn't tell you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:25:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm just writing that down. Lights on, so probably not an outage. Let me ask you, are you in the city of Newport, not Middletown or Portsmouth?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:26:06-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport, yeah. Born and raised. I'd rather not give the address on the phone, if that's all right. I just want to know where I go with this."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:26:17-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I can take a general complaint for now. Though at some point whoever follows up will need the address to act on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:26:27-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah, I figured. So, my question is, should I be calling the police on the non-emergency line instead? Is that the way? Because I don't want to bounce around. I've been bounced around enough with other things."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:26:41-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question. For a noise happening at night, right while it's going on, the police non-emergency line is usually the one people use, because an officer can come and actually hear it. What our office can do is log your complaint and point it to the right department for the longer-term issue."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:27:01-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So both, basically."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:27:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both can help, yes. The police for the moment it's happening, and a record with the city so it isn't just one night's call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:27:12-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Because here's my thing. I work nights. I stock shelves overnight at a grocery store, so I'm not even home for part of it. But I come home at seven in the morning, and I want to sleep during the day, and that thing is still going. So I'm getting hit both ends."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:27:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, so you're sleeping in the daytime and it's still running when you get home."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:27:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Not every morning, but a lot. And my days off, forget it. I'm up at all hours. It's not fair."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:27:46-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I can see why that's wearing on you. Let me say what I know. I don't have a list in front of me of the exact rules on generators, so I don't want to tell you the wrong thing about what's allowed. I can take your complaint and send it to the department that handles noise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:28:07-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Which is who? Code enforcement? I called a cabinet, sorry, I mean the, uh, the milkshake place, you know, what do they call it, the cabinet. Never mind. Anyway. Who's it go to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:28:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think you're saying a cabinet, like a milkshake?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:28:23-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, a cabinet is a milkshake, up here. Coffee cabinet. Anyway, I was thinking out loud, I was gonna go get one and calm down. Who does it go to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:28:34-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thank you for explaining. It would most likely go to code enforcement or the inspections side, and they would decide if police need to be involved. I'll be honest, I'm not sure which one takes it first, so I'll send it to both and have them sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:28:53-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Just so somebody calls me back. I got a number, you want it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:28:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Go slow for me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-five-nine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-five-nine. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:07-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And if it's a day I'm at work, leave a message. I'll call back. I'm on the machine, I don't pick up if I'm asleep."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, leave a message, and you may be asleep during the day. I'll note that. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:24-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Marco Cardillo. Cardillo, C-A-R-D-I-L-L-O."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Cardillo. And when they call, they'll ask for the address, so you may want to be ready to give it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I'll give it to them. I just wanted to know first who I was dealing with. You can't be too careful, you know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. One more thing. If it's going tonight, you can try the police non-emergency line and tell them it's ongoing. Writing down the times each night can help too, if you're able."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:29:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I been writing them on the calendar in the kitchen. Since the week before Thanksgiving. So I got it all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:30:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's very helpful. Keep that calendar. It'll matter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:30:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I call the police tonight, and you put in the complaint. That's the plan."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:30:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the plan. I'll get it sent over this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:30:18-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Thanks for your time, Owen. Enjoy the weekend."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T12:30:22-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Cardillo. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T12:24:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T12:24:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-12T12:24:34-05:00",
+        "end": "2025-12-12T12:30:25-05:00",
+        "duration_seconds": 351,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T12:24:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-12T12:24:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-12T12:24:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-12T12:24:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-12T12:24:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0a40a2f6-534a-8d8a-bcbe-cc58100c7478",
+  "created_at": "2026-01-29T12:03:24-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Kevin Lynch",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T12:00:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:00:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, Kevin Lynch. I've got a question on a water and sewer bill. They put a new meter in last month and the bill looks off to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:01:00-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Off how, higher than usual?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:01:03-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Higher, yeah. About a third higher than what I normally see for the shop. And there's a line on here that says consumption, and then a number. I want to make sure I'm reading it right. What does consumption mean exactly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:01:17-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Consumption is just the amount of water that went through your meter during the billing period. Usually it's measured in units, so that number is how much you used, and the charges are figured off of that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:01:31-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not a charge, it's the usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:01:35-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it's the usage. The dollar amounts come after, the water charge and the sewer charge based on it. With a new meter, the first bill can also cover a stretch on the old reading and a stretch on the new one, so it can look a little different."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:01:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That could be it. The install was around the first week of December. I'd like somebody to look at the reading, though, just to be sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:02-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can put in a request for the meter reading to be checked. Can I get the account name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:10-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Lynch, under the business name, Lynch Marine Supply."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:14-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll note that. Someone will call you back, is this the best number, the cell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, 401-555-0151."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, I have that down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One more thing. Can I pay this online? I'm at work all day and City Hall hours don't really line up with me. I'd want to do it on my lunch break, like right now, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:39-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an online payment option through the city website. You can use it anytime, nights and weekends too. There's also a drop box outside City Hall if you'd rather pay by check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:51-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, online works. I'll hold off until somebody checks the reading, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:02:56-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Just keep an eye on the due date so you don't get a late notice. If the reading gets corrected, they'll adjust it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:03:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. And hey, I'll say it, everybody I deal with at the city on this island is friendly. I appreciate it. Not like that everywhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:03:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, thank you, Kevin. I'll pass that along. Anything else today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:03:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T12:03:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T12:00:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T12:00:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T12:00:46-05:00",
+        "end": "2026-01-29T12:03:24-05:00",
+        "duration_seconds": 158,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T12:00:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T12:00:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T12:00:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T12:00:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T12:00:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ebb8a72d-3b55-82e2-87ed-041aecd435ab",
+  "created_at": "2025-12-17T14:27:37-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Stephen Almy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-17T14:26:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:26:41-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Owen, and God bless you on this wet day. I hope you are warm and dry in there. My name is Stephen Almy. I am calling, I think, the school department?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:26:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. This is the City Clerk. The school department is a separate office. Let me see what I can do for you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:26:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I am so sorry. I wrote the number on my paper, and I dialed it carefully. Is this not the same area code? I thought all of Newport was the same, four-oh-one, and then another."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:27:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The area code is right, it's four-oh-one. It's the last seven digits that were off, I'd guess. Maybe two numbers got swapped."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:27:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, maybe so. My eyes are not so good. Well, since I have you, you are kind, maybe you can tell me. The apartment next door, they keep getting packages for someone else. They leave them at my door, and the name is not ours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:27:25-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. That one's really for the carrier, or whoever shipped it. But for the school department, I can give you their main line. Do you have a pen?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T14:27:33-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment, please, I am finding it. Yes, go ahead, Owen. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T14:26:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T14:26:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-17T14:26:37-05:00",
+        "end": "2025-12-17T14:27:37-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T14:26:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-17T14:26:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-17T14:26:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-17T14:26:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-17T14:26:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

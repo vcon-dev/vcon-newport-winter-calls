@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8660df45-ab3c-8269-9c92-54f92d0add17",
+  "created_at": "2026-01-09T12:03:33-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rosa Salazar",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-09T11:57:06-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:57:13-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Yes, my name is Rosa Salazar. I am calling about a parking ticket. I have it here in my hand, and, um, it is not right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:57:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Mrs. Salazar. I'm sorry to hear that. Can you tell me what appears to be incorrect?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:57:35-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plate. The plate on the ticket, it is not my plate. The letters are different, and one number also. My car, it is a small blue Corolla, and the plate is not this one at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:57:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you have the ticket number in front of you? It should be near the top of the notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:58:01-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, one moment. I am putting the bag down, it is potting soil, I am carrying it to the front steps, it is heavy. [pause] Okay. The number is, um, four, four, one, eight, zero, seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:58:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back: four-four-one-eight-zero-seven. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:58:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is it. You hear me okay? I have you on the speaker, because my hands, they are busy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:58:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're coming through, though there is a little echo. Now, what plate number is printed on the ticket, and what is your actual plate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:58:43-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On the ticket it says, uh, three, seven, K, L, nine, two. But mine is three, seven, K, I, nine, two. The letter, it is I, not L. I think. Let me look at the registration. [pause] No, wait. Mine is the L. The ticket has an I. Sorry, I am reading too fast."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:59:07-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right, take your time. So the ticket lists the letter I, and your registration has the letter L. Is everything else the same?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:59:18-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Everything else, the same. And the street, it says I was on a street downtown on Tuesday, at two in the afternoon. But Tuesday I was at home all day, with my garden things, planning. The car did not move."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:59:36-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Because the plate on the notice doesn't match your registration, it's possible the officer made a transcription error. However, I can't dismiss it over the phone. The matter has to be submitted as a written appeal."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T11:59:52-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Written. Okay. This is what I want to know. Where do I send it? To what address? I do not want to send it to the wrong place, and then they say I am late."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:00:08-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The appeal should go to the Finance Department at City Hall, attention Parking Violations. The street address is on the back of your ticket, in the section about contesting a violation. Would you like me to confirm what it says?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:00:26-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm, the back. [line breaks up] Oh, yes, there is small writing. So small. You say it, please, so I know I am reading right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:00:37-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. It's City Hall, on Broadway, in Newport, Rhode Island, Finance Department, Parking Violations. Does the back of your notice say the same?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:00:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I see Broadway now. Good. So I write a letter, and I put the ticket number, and I say the plate is wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:00:59-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Include the ticket number, your name, mailing address, and a phone number. State that the plate listed is not yours, and enclose a copy of your registration. Keep the original for your records."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:01:14-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy of the registration. Okay. And the photo, I can send a photo of my car with the real plate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:01:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A photograph showing your actual plate could certainly be included as supporting material. Please send copies, not originals."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:01:32-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Copies, yes. I am a little annoyed, you know. I pay my things always on time, and now a letter, and the stamps, and the copying. For something that is not my mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:01:47-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand the inconvenience, Mrs. Salazar. The written appeal is the required process, and it creates a record that the plate was disputed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:01:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And while I wait, do they add the extra money? The late money?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:02:04-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't speak to how the timing applies to your particular notice. The back of the ticket lists the deadline for contesting, so I'd recommend mailing the appeal well before that date. If you like, I can note on the account that you called today about this ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:02:25-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, put the note. Today is Friday, and I will write the letter this weekend. With this storm coming today, I will stay inside anyway. The wind is already starting."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:02:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds sensible. Mail does tend to be slow during weather, so you may want to send it Monday. Shall I note a callback number in case someone has questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:02:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is four-oh-one, five-five-five, zero-one-nine-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:02:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-nine-four. I've added that, along with the ticket number and your reason for calling."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:03:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. You are very kind, I am sorry I am complaining. It is not at you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:03:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. Is there anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:03:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, that is all. I take the soil to the steps now. Have a good day, Miss Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:03:27-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You as well, Mrs. Salazar. Stay safe in the weather. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T11:57:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T11:57:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-09T11:57:06-05:00",
+        "end": "2026-01-09T12:03:33-05:00",
+        "duration_seconds": 387,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T11:57:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-09T11:57:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-09T11:57:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-09T11:57:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-09T11:57:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

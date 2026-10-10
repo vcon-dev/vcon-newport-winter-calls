@@ -1,0 +1,619 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "03a17d67-0931-8e01-8344-42c466ce9142",
+  "created_at": "2026-02-19T14:51:16-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Dulce Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-19T14:39:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:39:33-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Greg, good afternoon. My name's Dulce Brito. I'm calling about a driveway thing, a curb cut, and I'm not sure I'm even in the right department."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:39:50-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Curb cuts, you're probably in the right place to start. Tell me what you're looking to do."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:40:01-05:00",
+      "duration": 31,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I got a driveway already, there's one cut in the curb now. But there's a garage out back, and the idea is a second curb cut so a car can get to the garage from the other side of the lot. Is that a thing? Can you even have two?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:40:32-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be a thing, but it's not automatic. A second curb cut gets looked at more closely than the first one. They look at the frontage, how far it is from the existing one, sight lines, any poles or trees or hydrants in the way. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:41:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "454 Dean Avenue. Fifth Ward, over by the, well, it's just a regular residential street."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:41:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 454 Dean. And you're the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:41:16-05:00",
+      "duration": 32,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, here's where it gets a little muddy. I'm the homeowner, yes. But I'm not doing the paperwork alone. I'm helping with a permission form, and somebody told me it needs two signatures. I don't know whose. Mine and who? The contractor? I thought it'd be me and my, I don't know, the city?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:41:48-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually it's the property owner signing, and if there's more than one owner on the deed, then every owner. If a contractor's pulling the permit for you, there may be a spot for them too. So when you say two signatures, is there anybody else on the deed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:42:17-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, just me on the deed. So then what's the second one? The form I've got says owner and then something like applicant."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:42:31-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the thing. If you're both owner and applicant, you'd sign in both places. It looks like two signatures but it's the same person. If somebody else is doing the application for you, they sign as applicant and you sign as owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:42:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So I sign twice. That's kind of dumb, no offense."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:43:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "None taken. It's the same form for everybody, so it covers every situation."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:43:13-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. But wait, I said I'm helping with the form. I'm helping, like, filling it out, and the contractor wants to handle the rest. Does that change who signs applicant?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:43:31-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If he's the one applying on your behalf, he'd be the applicant and you're the owner. Then it's two different people. If you're just helping fill it in but you're the one submitting, it's you on both lines. Who's submitting it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:43:56-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. I honestly don't know yet. I'll have to ask him. He said he'd drop it off but he says a lot of things."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:44:11-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what decides it. Find out who's submitting and sign accordingly. Don't sign a blank one, though. Make sure it's filled in first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:44:26-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good tip. Okay, so what about the fee? Is there a fee for a curb cut permit? And is it the same for a second one as the first?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:44:44-05:00",
+      "duration": 33,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a fee, yes. I don't have the exact figure in front of me and I don't want to throw out a number that's off. It's on the fee schedule, and the permit counter can tell you what it is for your situation. Whether a second cut is charged differently, I'd want them to confirm."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:45:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so who do I ask? You're not the permit counter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:45:24-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm in the same office, but the fee schedule's kept up at the front. If you come by, they can show you the sheet. Or I can have someone call you back with the number. You at 401-555-0173?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:45:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's me, that's my cell. Yeah, call that. Do you need the, what, the house number again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:45:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got 454 Dean Avenue. Dulce Brito, right? B-R-I-T-O?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:46:04-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "B-R-I-T-O, yes. Dulce is D-U-L-C-E, like the candy, sort of."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:46:11-05:00",
+      "duration": 32,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Now, one more thing on the process, since you're getting into it. A curb cut is on city property, the stretch between the street and your lot. So besides zoning, public services usually weighs in on it. That might add a step, and I'd ask about that when you come in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:46:43-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, the curb is the city's? I thought the sidewalk was mine to deal with. Everybody on my street shovels it like it's theirs."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:46:58-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Shoveling's on you. Owning is a different matter. The curb and the apron there are generally in the public right of way. That's why they review it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:47:15-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I shovel it but it's not mine. That's Newport for you. So the review, how long's that take? Weeks? Days?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:47:29-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on how busy things are. Winter's usually a little slower for construction, but I couldn't promise you a timeline. Ask at the counter when you bring the form in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:47:48-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And do I need a drawing? Like a plan of where it goes? I can't draw a straight line."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:48:00-05:00",
+      "duration": 30,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A simple sketch of the lot usually helps. Where the house is, the garage, the existing driveway, where you want the new cut, and about how wide. It doesn't need to be fancy. A copy of your plot plan, if you have one from when you bought, is even better."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:48:30-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I might have that in a folder somewhere. It's got a coffee ring on it, I'll warn you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:48:41-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, as long as we can read it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:48:47-05:00",
+      "duration": 32,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me say it back so I don't mess it up. I figure out who's submitting. If it's the contractor, he's applicant and I'm owner. If it's me, I sign both. I bring a sketch or the plot plan. Somebody calls me with the fee. And public services might look at it too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:49:19-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. And I'd say don't let the contractor start any work before the permit's in hand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:49:30-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, he's not touching anything till then, I'll make sure. Actually, can I ask, the two signatures. You said same person can sign twice. Does the city care if the signatures look the same?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:49:51-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] No, that's fine. It's your signature, it'll look like your signature. Just print your name next to each one so it's clear."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:50:05-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Print and sign. Okay. I'm still a little fuzzy on the owner and applicant business, but I think if I just ask him who's turning it in, I'll be okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:50:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one question that sorts it out. And if you're still unsure when you come in, the counter can look at the form with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:50:39-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Do they have hours today? It's what, almost three?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:50:46-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're here until the end of the afternoon today. Tomorrow too. But the callback on the fee should come sooner than you'd get down here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:51:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Greg. You were patient with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:51:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Ms. Brito. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T14:51:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T14:39:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T14:39:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-19T14:39:29-05:00",
+        "end": "2026-02-19T14:51:16-05:00",
+        "duration_seconds": 707,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T14:39:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-19T14:39:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-19T14:39:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-19T14:39:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-19T14:39:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

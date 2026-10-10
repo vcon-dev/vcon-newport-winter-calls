@@ -1,0 +1,979 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3773bfc1-5e9d-89c3-a5de-237a6acf8212",
+  "created_at": "2026-01-07T10:42:39-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rui Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T10:30:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:30:58-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hello, good morning. Is this the tax office? I'm calling about a property tax thing. Name is Rui Raposo."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:31:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Mr. Raposo. This is Finance, and I can help with property tax questions. Could you tell me the address of the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:31:17-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three thirty-one Pelham Street, up the Hill. You know, when I was a kid we lived down by the harbor, and every winter my father used to say the Hill people paid for the view. Ha. Anyway, now I'm up here myself. I'm a renter, but my landlord sent me this paper and I don't understand it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:31:40-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Thank you. Just so I understand, you rent at 331 Pelham Street, and your landlord forwarded you a notice. Can you tell me what the notice says at the top?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:31:53-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, I got it here on the table. I'm on the speaker because I need both hands for the paper. It says, um, assessment. Notice of assessment, something like that. And there's a line about appeal."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:32:08-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. That would be the notice of the property's assessed value. Because you are the tenant, the appeal rights generally belong to the property owner. Still, I can give you the general information. What would you like to know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:32:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, my landlord says if I want to fight the number, I got to do it. Is that right? And what's the deadline? I don't want to miss it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:32:36-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, it is the owner who files an appeal of an assessment, not the tenant. The deadline is printed on the notice itself, and it is usually a set number of days after the notice is mailed. Does your paper show a date near the appeal paragraph?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:32:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] There's a date here, it says, uh, the something of January. And then another date for the tax bill. I get them mixed up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:33:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please read me the line that mentions appeal, exactly as it is written."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:33:13-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It says, appeals must be filed in writing with the, the assessor's office, no later than, and then the date. Is that a date, or the day it was mailed? Because there's two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:33:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The phrase 'no later than' introduces the deadline. The mailing date is usually shown separately, near the top. Which date follows those words?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:33:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The one after. Okay, I think it's the, [line breaks up] of January. Wait, is that the, I can't tell."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:33:46-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I lost part of that, Mr. Raposo. The line broke up. Could you repeat the date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:33:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The twenty-first? Or is it the twenty-seventh? I got my glasses on and it's still small."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:34:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. If you can, hold the paper closer to the light. And if you have the speaker phone on, it may be the speaker causing the crackle. Is it possible to pick up the handset?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:34:15-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nah, it's a cordless and the battery is dead on the handset, that's why I'm on speaker. Okay. It says the twenty-first. Two, one. I'm pretty sure now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:34:27-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So the notice indicates January twenty-first. I would still recommend that your landlord confirm the filing requirements with the assessor's office directly, since that office handles the appeals and I handle billing and collections."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:34:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The assessor, that's a different office than you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:34:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because I figured tax is tax."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:34:49-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is a common assumption. The assessor determines the value of the property. Finance, which is this department, bills and collects the tax based on that value. So the appeal goes to the assessor, and payment comes to us."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:35:05-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. That makes sense, kind of. So the appeal is the assessor. And I pay you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:35:12-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, with one clarification. If you are a tenant, the tax bill is ordinarily sent to the owner. Do you pay the tax directly, or does it go through your rent?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:35:25-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. My landlord, he's older, and he says I should pay the tax part now and he'll take it off the rent. So he gave me the bill. Is that allowed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:35:39-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is an arrangement between you and your landlord. The city will accept a payment toward the account from anyone who presents it. I would only suggest you keep a written record of any amount you pay on his behalf."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:35:55-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So then I want to know how much it is. He said get a payoff figure, through, uh, the end of the month. Is that how you say it? Payoff?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can certainly provide the balance due through a specific date. Which date did you want the figure through?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:16-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "January thirty-first. The last day of January."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:20-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. One moment while I pull up the account. Do you have the parcel or account number on your bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a bunch of numbers. There's one, it's up at the top right. Do you want me to read it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:38-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, but I can also search by street address. Let me try the address first. 331 Pelham Street. [pause] Yes, I have it here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, good. You see the whole thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:36:52-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see the account. The balance includes the third quarter installment, which was due in December, and the fourth quarter installment, due in the spring. Which one does your bill show?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:37:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says third quarter. And there's a, a sticker or something that says past due. Oh boy. Is that bad?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:37:13-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It means the installment due date has passed and interest is accruing on the unpaid amount. That is why the payoff figure depends on the date you pay. Through January thirty-first, the amount is, let me confirm. [pause] The tax due is one thousand, eight hundred and forty dollars, and the interest through that date is, [line breaks up] dollars and twelve cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:37:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, the line crackled. The tax is one thousand eight hundred and, did you say fourteen? Eighteen forty? I heard fifteen forty at first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:37:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One thousand, eight hundred forty dollars. Eight, four, zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:37:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eight forty. Okay. And the interest, I missed it. Was it like, sixty? Sixteen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:37:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will repeat it slowly. The interest through January thirty-first is thirty-six dollars and twelve cents. Three, six, point one, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:07-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thirty-six twelve. Okay. So is that thirteen... no. Wait. So what do I owe in total? I'm bad with adding on the phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The total through January thirty-first is one thousand, eight hundred seventy-six dollars and twelve cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eighteen seventy-six twelve. Let me write it. [pause] One, eight, seven, six, and twelve cents. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:31-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. Please note that if payment is received after that date, the interest will be higher, so the figure would need to be recalculated."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And that number, is it for the whole year, or just the one bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the one installment that is past due, plus interest. The remaining installment is not yet due and is not part of that figure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:38:59-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, so I got it wrong. I thought it was the whole year. So there's another one coming in the spring."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That would be billed separately."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, about the appeal. If my landlord appeals and wins, do I still pay this now? Or do I wait?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:20-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The installment is due regardless, as a rule. If an appeal results in a reduction, an adjustment would be applied afterward, usually as a credit or refund. Again, the assessor's office can explain how that works in detail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So pay now and maybe get it back. My father used to say that about everything. Pay now, argue later. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is generally the order of things with tax matters."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the appeal deadline, it's the twenty-first, you said? Of this month?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:39:54-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is the date you read to me from the notice. I would encourage you to verify it with the assessor's office, because I am relying on what you read, not on a document in front of me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Right. But it was the twenty-first and not the twenty-seventh. I think. I'll look again. The two and the seven look alike in this print."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is an excellent reason to double-check. If you are unsure, please have your landlord confirm it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get a phone number for the assessor?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can transfer you to that office directly, if you would like, rather than giving you a number to write down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:41-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's better. Yeah. But wait, before you do, so the payoff, the eighteen seventy-six twelve, that's good through the thirty-first only?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Through January thirty-first. After that, it needs to be recalculated."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:40:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll talk to my landlord about it tonight. He's gonna want to know. Do you send something in writing with that number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can have a written payoff statement prepared if you give me a mailing address or an email. Otherwise, the figure I gave you is accurate as of today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it to the Pelham Street address. Three thirty-one. It's my landlord's property but I get the mail there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will note that. Could you spell your last name for the request?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:31-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "R-A-P-O-S-O. Raposo. Rui is R-U-I."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Raposo, R-A-P-O-S-O. And a callback number in case there is a question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:40-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-four. Thank you. The statement will go out with the figure through January thirty-first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:41:49-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And so just to make sure I got this. Appeal goes to the assessor, deadline is on the paper, maybe the twenty-first. Payment comes to you, eighteen seventy-six twelve through the end of the month. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:42:04-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is a fair summary. The only caution is to confirm the appeal date with the assessor, and note that the amount owed changes after January thirty-first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:42:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm still a little mixed up about whether I'm even allowed to appeal, being a renter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:42:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The assessor's office is the right place to ask that. I will transfer you now. Please stay on the line."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:42:30-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you, Miss Whitcomb. I appreciate your patience with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T10:42:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You are welcome, Mr. Raposo. Transferring you now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T10:30:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T10:30:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T10:30:51-05:00",
+        "end": "2026-01-07T10:42:39-05:00",
+        "duration_seconds": 708,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T10:30:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T10:30:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T10:30:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T10:30:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T10:30:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

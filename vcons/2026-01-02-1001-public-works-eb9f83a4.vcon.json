@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "eb9f83a4-40dc-8847-8ed9-2c18fea5cc1d",
+  "created_at": "2026-01-02T10:03:50-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Luis Resendes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Happy New Year, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Yes, happy New Year. I am calling about a couch. I need to put it out for the trash, and I want to know the correct procedure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:27-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a couch, sure. Bulk item. Can I get the address where it would be picked up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:33-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 169 Memorial Boulevard. That is on the Easton's Beach side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "169 Memorial Boulevard, got it. And is that a house or an apartment building?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:43-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is an apartment. I rent. The couch is in my unit now, and I will carry it down to the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So you're asking when the next pickup is for that address, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:01:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly. When is the next pickup, and does the couch go out on the same day as the regular trash?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:02-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull that up. [pause] Okay, so for Memorial Boulevard your regular trash day is Tuesday, so the next one would be this coming Tuesday. Bulk items like a couch usually go out the same morning as your regular trash, but you may need to call to get it put on the list first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I need to call to be on the list. Is that you, or another number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can do it through this office. I can take the request right now if you'd like, with your name and the item."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment. [pause] My sibling asked me to find out the information and call back with an answer. So I am not ready to schedule today. I only need the rules."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. So just so I have it right, you're gathering information for your sibling, and the couch is at 169 Memorial?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The couch is at my address. My sibling will decide how to handle it. I need to report to them what you say."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:02:57-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Here's what to tell them. Next pickup is Tuesday. The couch goes at the curb that morning, not the night before if you can help it, and it has to be requested ahead of time. If it's a couch with a fabric or a mattress-type piece, just say so when you call."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:03:14-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not the night before. Requested ahead of time. Tuesday morning. I am writing this down. How early should it be at the curb?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:03:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Early, by about seven is the usual advice, since the trucks start out in the morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:03:28-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "By seven in the morning. Thank you. That is clear."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:03:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. When your sibling is ready, they or you can call back and we'll put it on the schedule. Want me to leave a note on the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:03:42-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, thank you. I will call back with the answer. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:03:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Resendes. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T10:01:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T10:01:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-02T10:01:12-05:00",
+        "end": "2026-01-02T10:03:50-05:00",
+        "duration_seconds": 158,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T10:01:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-02T10:01:12-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-02T10:01:12-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-02T10:01:12-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-02T10:01:12-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

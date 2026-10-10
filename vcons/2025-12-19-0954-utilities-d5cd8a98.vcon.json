@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d5cd8a98-94c3-897b-8559-be1c9b6e2813",
+  "created_at": "2025-12-19T09:58:42-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Beatriz Ortiz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-19T09:54:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:54:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. I'm calling about my water and sewer bill. I got it in the mail yesterday and, I mean, something's off."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:54:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What are you seeing on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:54:41-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's a line for water and a line for sewer, and the sewer one is higher than the water. Way higher. Why would sewer cost more than the water I actually use? I don't get that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:54:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look at that. Can I get the account holder's name and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Beatriz Ortiz. And I'd rather not give the address on the phone, I've got the account number here though, if that works."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Go ahead with the account number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's, um, hang on, I'm in the car. It's 4471, dash, 20. Then 913."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. [pause] Okay, I have it. I see the bill dated this week. Water charge and sewer charge, and you're right, the sewer line is the larger one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So why?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:40-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The sewer charge is calculated from the water consumption on the account, but it's billed at its own rate, and that rate is typically higher than the water rate. So the two lines don't match even though they're based on the same usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:55:58-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Okay, but last year my winter bills were much lower. Like, noticeably. This one's almost double what I'm used to, and I haven't changed anything. Same house, same people, same everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:56:11-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check the readings. [pause] The previous bill was based on an estimated read, and this one is an actual read, so part of what you're seeing may be catching up. I can see the consumption for this period is higher than the same period last year."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:56:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's my fault, basically."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:56:33-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily. A higher read can come from a running toilet or a small leak, or it can be the estimate catching up. If you want, I can put in a request for a meter re-read and someone can check it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:56:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, do that. I'm not paying double without somebody looking at it. I don't know, I just think it's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:56:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll enter the re-read request now. Do you want a callback number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:57:06-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0188."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:57:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0188. They'll call that number to set it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:57:13-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And another thing, I'm usually working till past five, and you guys close at 4:30, right? Is there a way to pay by phone after that? Or online, whatever. I don't want to be late on this while we sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:57:30-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. You can pay online through the city's website at any hour, and there's also an automated phone payment line that runs outside office hours. There's a drop box at City Hall too, for a check. The payment instructions are printed on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:57:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Where on the bill? I'm looking at it and I see like four boxes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:57:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Along the bottom, on the stub you tear off. It should say ways to pay, with the website and the phone line listed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:58:04-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, there. Okay, I see it. Fine. Sorry, I'm pulling into the lot by where the bank used to be, on the corner, I've got to run in. I'm picking up flowers for my friend's anniversary and the shop closes early today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:58:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, that sounds nice. So you have the re-read request in, and the payment options. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:58:29-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. I just want somebody to explain why it jumped. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:58:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day, Ms. Ortiz."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T09:58:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, you too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T09:54:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T09:54:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-19T09:54:22-05:00",
+        "end": "2025-12-19T09:58:42-05:00",
+        "duration_seconds": 260,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T09:54:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-19T09:54:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-19T09:54:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-19T09:54:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-19T09:54:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

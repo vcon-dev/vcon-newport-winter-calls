@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8b1fe9a6-c6c9-8a59-b58c-5409e87e1464",
+  "created_at": "2025-12-05T10:59:00-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Frank Lombardozzi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-05T10:55:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Utilities, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:55:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Frank Lombardozzi. I'm calling about my water and sewer bill. It's, um, it's wrong. Wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:55:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Lombardozzi, let's take a look. What looks wrong about it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:55:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says estimated. Right at the top, estimated read. Now, I have been home all quarter, and nobody, nobody, came to read my meter. I think it was never read."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:55:55-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Estimated bills do happen when a reading isn't obtained, sometimes because the meter is hard to access or the reading didn't transmit. Can I get your account number or the service address to pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:56:08-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't want to give the address over the phone, I've got the account number here. Hold on. [pause] It's four, four, seven, dash, one, one, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:56:17-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me find that. [pause] Yes, I see it. The last bill is flagged as an estimated reading, and the amount is higher than your previous quarter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:56:27-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Higher. Yes. A lot higher. And here's the thing, I just had a plumber out, a few weeks ago. He replaced a valve under the kitchen sink and checked everything else. I kept the receipt. Kept it. He said there were no leaks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:56:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good to have that. So you're saying the usage shouldn't have gone up, and the estimate is probably overstating it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:56:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Exactly that. So what do I do? I'm not paying for water I didn't use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:56:54-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What I can do is note your account that you're disputing the estimate and request an actual meter reading. Once that's done, the bill gets adjusted to the real usage. It may take a few days to schedule."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:06-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few days. Fine. Do they need to come in the house?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:11-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on where your meter is. If it's inside, someone will call you to set a time. I'll put your callback number on the request. Is it the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's four-oh-one, five-five-five, oh-one-nine-six."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four-oh-one, five-five-five, zero-one-nine-six. And should I note the plumber's receipt on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:30-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, note it. I can send a copy or bring it down. Whichever."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bringing it to the office is fine, or the crew can look at it when they come. I'll note that you have it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, another thing. The due date is coming up and I work during the day. Is there a, a drop box at City Hall? For payments, after closing time?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:57:53-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a payment drop box at City Hall that you can use outside office hours. Put a check in with your payment stub or your account number written on it. You can also pay online through the city's website anytime."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online. I'd rather do the box. Checks I trust."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Since there's a dispute on file, I'd suggest writing a note on the check or stub saying the bill is under review for an estimated reading."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:19-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll do that. And while I've got you, since I'm coming down there, I have a parking sticker, a resident one, and it keeps peeling off the glass. Keeps peeling. Third time I've stuck it back on."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:31-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be a different office, but I can transfer you, or you can bring the sticker in and they can tell you whether it can be replaced."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:40-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll bring it in with the receipt. One trip. Fine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:44-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Is there anything else on the water bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it. Thank you, Priya. And hey, stay dry today, with that nor'easter coming in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T10:58:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, you too. Someone will be in touch about the meter reading. Have a good day, Mr. Lombardozzi."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T10:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T10:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-05T10:55:29-05:00",
+        "end": "2025-12-05T10:59:00-05:00",
+        "duration_seconds": 211,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T10:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-05T10:55:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-05T10:55:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-05T10:55:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-05T10:55:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

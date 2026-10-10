@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "beaf2f8b-53ed-8123-b735-df35878d6da0",
+  "created_at": "2026-02-02T12:50:54-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Jorge Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T12:47:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:47:08-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good afternoon. I have a problem with a catch basin, a storm drain, on the corner by my building. It's clogged up with leaves and the water just sits there. It's been like this since the weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:47:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a clogged catch basin. Let me grab some details. What's the address, or what's the nearest one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:47:31-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fifty-three Ayrault Street. Up the Historic Hill, you know? The drain is right on the corner next to my building. I'm the landlord there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:47:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fifty-three Ayrault, got it. And you said it's been since the weekend. Was there any rain, or is this just sitting?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:47:50-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no rain. That's the thing, it's dry. No storm, nothing. But the puddle, it never goes down. It's just leaves all over the grate and the water stays there, day and night."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:48:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's not draining even without rain. That tells me it's blocked pretty good."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:48:09-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly. I went out yesterday and I clean the leaves off the grate with my hands, you know, pull them all out. And it work, a little. The water go down for maybe ten minutes. Then more leaves come and it's the same again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:48:26-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, so you cleared the top but whatever's underneath is still plugged, or it's filling right back up. Hang on, let me write this down. Catch basin, corner at fifty-three Ayrault, clogged with leaves since Saturday or Sunday, standing water, no rain involved."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:48:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since Saturday, yes. Saturday night I notice it first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:48:47-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Saturday, got it. Any water getting toward your building or the sidewalk, or is it just in the street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:48:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For now is just the street and a little on the sidewalk. Not in the building. But people have to walk around, and my tenants, they complain. And it's cold, so I worry about ice, too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:09-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that'll freeze up overnight. Okay, that's worth noting. I'll put it in as a drainage request so a crew can go look at it and clean it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:21-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. So, who do I call to get it checked? Is this the right place, or I need to call somebody else? Because I don't want to wait and nobody comes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:34-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're in the right place. Public Works handles the catch basins. I'm putting in the work order right now, so you don't need to call anyone else. Can I get a number in case the crew needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, sure. Is four-oh-one, five-five-five, oh-one-six-five."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-five. And it's Mr.?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:56-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Teixeira. Jorge Teixeira. T-E-I-X-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:49:58-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, Jorge. Got it all down. Crews should get out there in the next few days, and they'll vac or rake out the basin. If it gets worse or the ice builds up, call back and we'll bump the note."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:50:14-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, one second. [pause] Not you, my son. He's here with me, he have a spelling test Friday, so we practice the words in the car. He say, how you spell, um, neighbor. I tell him, ask your teacher, no, I'm joking."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:50:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a tricky one. N-E-I-G-H-B-O-R. Good luck to him Friday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:50:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I think I spell it wrong, too, so he's ahead of me. Okay, so I wait for the crew, and you have my number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:50:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Thanks for calling, Jorge. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:50:51-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thank you, bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T12:47:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T12:47:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T12:47:03-05:00",
+        "end": "2026-02-02T12:50:54-05:00",
+        "duration_seconds": 231,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T12:47:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T12:47:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T12:47:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T12:47:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T12:47:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

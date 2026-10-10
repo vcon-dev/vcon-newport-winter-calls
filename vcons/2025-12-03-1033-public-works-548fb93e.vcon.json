@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "548fb93e-6a88-8054-8a56-3a255a148269",
+  "created_at": "2025-12-03T10:34:44-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Min-jun Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T10:33:44-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:33:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. My recycling bin got damaged by the truck this morning. The lid's snapped clean off, which honestly shouldn't happen with a bin that new."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:33:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'm sorry about that. Can I get the address where the bin is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "378 Kay Street. Up on the Hill. I rent there, so it's not even my bin to replace, which is a hassle."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 378 Kay Street, the recycling bin, lid broken off by the truck. I'll note that for the crew and get a replacement request in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:16-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. And when's the next pickup? I never remember which week we're on, the schedule is confusing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. For Kay Street, your next pickup would be this coming Wednesday, December tenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, next Wednesday. Good. A friend told me to call the representative line instead of using the website, said the site is useless for this stuff. She was right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, glad you called. Is 401-555-0193 the best number for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:39-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T10:34:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Min-jun. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T10:33:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T10:33:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T10:33:44-05:00",
+        "end": "2025-12-03T10:34:44-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T10:33:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T10:33:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T10:33:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T10:33:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T10:33:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

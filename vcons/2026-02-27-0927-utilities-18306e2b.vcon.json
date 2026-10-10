@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "18306e2b-babd-8fb5-b87d-97bfde1e73d6",
+  "created_at": "2026-02-27T09:38:02-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Timothy Brownell",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-27T09:27:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:27:34-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Morning, Tony. Timothy Brownell, I'm over at 309 Bridge Street, down the Point. I got my water and sewer bill yesterday and I've got a couple of questions about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:27:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing, Mr. Brownell. Let me pull up the account. 309 Bridge Street, you said?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:28:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one. Three-oh-nine. Bridge Street, not the other Bridge, there's only the one, but you know how people get."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:28:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, I have it here. What's your question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:28:20-05:00",
+      "duration": 35,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, first thing. The bill covers three months. A quarter, it says. Now why on earth is it a quarter? Every other utility I pay does it monthly. Gas, electric, monthly. It's a lot of money to land all at once, in my opinion. And the dates on it, I can't make heads or tails. How do you count them?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:28:55-05:00",
+      "duration": 34,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a fair question. The city bills water and sewer quarterly, so every three months, based on meter readings. It's not calendar quarters necessarily. It's the period between one meter read and the next. So what's on yours, let me look. The service period runs from a read in early November to a read in early February."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:29:29-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's what I see. November fourth to February third, something like that. But the bill date is later than that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:29:42-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The service period is the days between the two readings. Then the bill gets generated after the last read, so there's a few days gap before it goes in the mail. The due date counts from the bill date, not from the end of the service period."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:30:10-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the days that count for the water are the read dates, and the days that count for me paying are the bill date. Two different clocks. Which seems backwards to me, but fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:30:30-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good way to put it. Two different clocks. The usage is read to read, and the due date runs from when it was issued."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:30:46-05:00",
+      "duration": 39,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, second thing. The usage on this one is higher than the last. Quite a bit higher. And I think I know why. The toilet was running constantly last month. The flapper, I guess. I didn't catch it for I don't know how long. You hear it and you tell yourself you'll get to it, and then you don't. My own fault, I'll say that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:31:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, that'll do it. A running toilet can use a surprising amount over a few weeks. Did you get it fixed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:31:38-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fixed it the same weekend I noticed. Eight dollar part and ten minutes. Which tells you how long I put it off for no reason. So it's fixed now, the next bill should come down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:31:59-05:00",
+      "duration": 33,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should. Once the leak's gone, your next reading should drop back to where you normally are. Since the repair was last month, part of that is in this bill and the rest will be in the next one. Nothing else you need to do on that unless you want to ask about an adjustment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:32:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there an adjustment? I'm not asking for a handout, I'm just asking if it exists."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:32:42-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There can be a review process for leaks, but I'd have to have the billing supervisor look at it, and I can't tell you how that comes out. I can put a note on the account and have someone get back to you. Would you like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:33:10-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, put the note in. No harm in it. Same number I'm calling from, it's 401-555-0188."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:33:20-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0188. I've got that on the note, with the toilet repair last month. Somebody from billing will call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:33:33-05:00",
+      "duration": 35,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now the last thing. I work during the day and by the time I'm home you folks are closed. City Hall closes, what, four-thirty? So is there a way to pay by phone after four-thirty? Because mailing a check is fine, but I'd rather not wait on the post office either, in my opinion they've gotten slower every year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:08-05:00",
+      "duration": 41,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, there are a few ways. You can pay online through the city's website anytime, day or night, with a card or bank account. There's also a payment drop box outside City Hall for checks, so you can drop it on your way home. As for paying by phone after hours, I don't believe there's a live line after we close. Let me double check that with the front office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, I'll hold."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:52-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, one moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause]"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:57-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. So there is an automated payment option by phone that runs outside office hours, and the number to use is printed on the bill, near the payment stub at the bottom. You'd need your account number, which is on the same page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:24-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Near the stub at the bottom. Let me look. Yep, I see a number down there in small print. They always make the important part small, don't they."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[crosstalk] Ha, it does look that way. That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:48-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Then I'll use that tonight, or the website. Either way I won't be standing outside City Hall at five o'clock with a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:36:03-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And the due date's on the top right of the bill, so you've got some time. The review request won't hold up the due date, though, so if you'd rather not risk a late charge, go ahead and pay and any adjustment would show as a credit afterward."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:36:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's sensible. Pay it, and if they give some back, they give some back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:36:41-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:36:46-05:00",
+      "duration": 35,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, well, one small thing, and it's not even your department. I was downtown yesterday, walked by where the old movie theater used to be, and I remembered the floor in there was so sticky your shoes would practically come off. Every Saturday. Anyway, it made me think they ought to put something decent in that spot. That's my editorial."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:37:21-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know what you mean. I'll pass that along to nobody, since I don't think anyone takes those requests, but it's a good thought."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:37:36-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Okay, Tony, I appreciate the help. So that's the note on the account, the call back from billing, and the automated line on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:37:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Have a good weekend, Mr. Brownell."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:37:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thanks. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:27:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:27:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-27T09:27:27-05:00",
+        "end": "2026-02-27T09:38:02-05:00",
+        "duration_seconds": 635,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:27:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-27T09:27:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-27T09:27:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-27T09:27:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-27T09:27:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

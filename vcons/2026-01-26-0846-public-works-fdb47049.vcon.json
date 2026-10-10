@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fdb47049-2534-8856-afc2-35d5f85da405",
+  "created_at": "2026-01-26T08:47:49-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Deirdre Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T08:46:49-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:46:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Kevin. My name is Deirdre Dolan. I have an old washing machine in my garage, and I want to know how I can get the city to haul it away."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a washing machine. And where are you located, Deirdre?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "304 Ruggles Avenue, on the Historic Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 304 Ruggles. So, large appliance pickup, I'm jotting that down. Is it out at the curb now, or still in the garage?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Still in the garage. With the snow and the rain today, I did not want to put it outside to get wet."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Smart. Honestly, I'm not sure of the exact steps for appliances, so I'd rather have a supervisor go over it with you. Want a call back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, I would like that. A supervisor can call me at 401-555-0168."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:33-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one six eight, perfect. I'll put that in with the washer."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. A friend told me this office is very good with helping people, so I called you first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's nice to hear. Somebody will call you back today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T08:47:47-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you, Kevin. Bye-bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T08:46:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T08:46:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T08:46:49-05:00",
+        "end": "2026-01-26T08:47:49-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T08:46:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T08:46:49-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T08:46:49-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T08:46:49-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T08:46:49-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

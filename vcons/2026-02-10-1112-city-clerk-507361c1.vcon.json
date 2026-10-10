@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "507361c1-4e10-870f-a253-206d045c2f07",
+  "created_at": "2026-02-10T11:13:18-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Lucille Iannuccilli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T11:12:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. Buenos días, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:12:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I think I got the wrong number. I was trying to reach the fire department, the regular line, not the emergency one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:12:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, no problem. This is the City Clerk at City Hall. You want the fire department's non-emergency line."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:12:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. I looked it up on my phone and I'm on speaker here, sorry, I'm in a waiting room at the dealership. They've got my car in for service."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:12:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Do you remember what number you dialed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:12:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I put in the seven digits, and then it wouldn't go through, so I added a 508 in front. Is that not right? Is it 401 or 508? I never know anymore."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:13:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport is 401. You don't want the 508, that's Massachusetts. [pause] Hang on, I can transfer you over to the fire department right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:13:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, wicked, totally, that'd be great. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:13:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Stay on the line, it'll ring through. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T11:13:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T11:12:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T11:12:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T11:12:18-05:00",
+        "end": "2026-02-10T11:13:18-05:00",
+        "duration_seconds": 60,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T11:12:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T11:12:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T11:12:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T11:12:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T11:12:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

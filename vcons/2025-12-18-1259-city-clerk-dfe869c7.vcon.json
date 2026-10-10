@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "dfe869c7-6f72-8478-8a94-e357a94204ef",
+  "created_at": "2025-12-18T13:00:14-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Anh Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. [pause] Um. I think... maybe I have the wrong office."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. Tell me what you're calling about and we'll see where it should go."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a tree. [pause] City tree, in front of my house. The branches are low. I want to ask about trimming it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the tree down, or has anything fallen from it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. Nothing fell. [pause] It's standing fine. Just the branches. After the rain, they hang lower."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:59:45-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So it's a trimming question, not an emergency. That wouldn't be us here at the clerk's office. Tree work on city trees goes through Public Services. Let me transfer you, and if it cuts off, call back and ask for them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:00:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. [pause] I can't talk long. I'm a line cook. Split schedule today. I go back in soon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:00:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I'll be quick. Hold on just a moment, Anh."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:00:12-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:59:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:59:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T12:59:10-05:00",
+        "end": "2025-12-18T13:00:14-05:00",
+        "duration_seconds": 64,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:59:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T12:59:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T12:59:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T12:59:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T12:59:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

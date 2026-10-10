@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "43b0d4d5-d777-888f-9133-44cf9c156efa",
+  "created_at": "2026-02-06T11:51:21-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ileana Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Ileana Mejia. Sorry, my phone's going off in my hand, the grandkids' picture lights up every time it rings. Anyway. I'm at 32 Kay Street, up the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Mejia, what can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:19-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The parking ban. When does it lift? We got that dusting overnight, hardly anything, and it's freezing out, but the signs are still up and my street's still got the ban on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so the ban stays in effect until it's officially lifted. Usually that's announced once the plows have finished their runs. I don't have a lift time for you yet this morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:41-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nobody's been down Kay Street. Not once. It's a dusting and it's already ice in front of my steps. When's it getting cleared?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Side streets on the Hill are usually later in the rotation, especially the narrow ones. With the cold, they're treating the main roads first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:50:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same story every time. We're last, that's the way it goes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:51:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. I'll note that Kay Street hasn't been touched and has icy spots, and pass it to the crew supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:51:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Appreciate that. I'm not moving my car till I hear something."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:51:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's smart. Check the city's alerts for the ban lifting. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T11:51:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T11:50:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T11:50:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-06T11:50:02-05:00",
+        "end": "2026-02-06T11:51:21-05:00",
+        "duration_seconds": 79,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T11:50:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-06T11:50:02-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-06T11:50:02-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-06T11:50:02-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-06T11:50:02-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

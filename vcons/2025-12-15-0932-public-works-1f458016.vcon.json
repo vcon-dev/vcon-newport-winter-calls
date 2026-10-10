@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1f458016-ddab-8246-8b32-e4a6df8679ff",
+  "created_at": "2025-12-15T09:33:35-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Peter Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-15T09:32:13-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:32:16-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey Kevin, Peter Wilcox. I'm calling for my mother, her trash didn't get picked up again. That's two in a row now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:32:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two weeks running, okay. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:32:29-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "432 Old Beach Road, over by Easton's Beach. Sorry, I'm bouncing around here, my baby's teething and the only thing that works is walking and bouncing, so if I sound like I'm on a boat, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:32:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. Got it, 432 Old Beach Road, missed pickup two weeks in a row. Was the barrel out at the curb by the usual time?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:32:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Out the night before, both times. Also, while I have you, she's got an old washing machine in the garage. How do I get that hauled off? Does it go out with the regular trash?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:33:09-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually appliances don't go in with the regular pickup. There's typically a separate bulky item arrangement. I'll put in the missed pickup now and have the bulky item folks call you about the washer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:33:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Best number is 401-555-0150."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:33:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one five zero, got it. Somebody will get back to you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T09:33:31-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Appreciate it, Kevin. Okay, buddy, shh, almost done. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T09:32:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T09:32:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-15T09:32:13-05:00",
+        "end": "2025-12-15T09:33:35-05:00",
+        "duration_seconds": 82,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T09:32:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-15T09:32:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-15T09:32:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-15T09:32:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-15T09:32:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

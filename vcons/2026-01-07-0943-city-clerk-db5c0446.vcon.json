@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "db5c0446-6e3c-8811-9091-cd920ac749d3",
+  "created_at": "2026-01-07T09:48:09-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Raj Tran",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T09:43:17-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:43:22-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. My name is Raj Tran. I am calling about a noise problem, and I am not sure if this is the right office for it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:43:34-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me hear what's going on, and we'll see where it belongs. Is it a business, or a neighbor, or something else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:43:44-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A neighbor. Loud music, every weekend. It has been going on for about a week now. Well, one weekend, I should say, but it started Friday and it did not stop until Sunday. On the other hand, it is Wednesday, so maybe it is only two days of the week, but those two days are very bad."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:44:06-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mm-hm. So Friday through Sunday. And you said this is the neighbor right next to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:44:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Next door, yes. The bass comes through my wall like somebody is knocking with a hammer. I rent the upstairs unit, so I hear it in the floor also."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:44:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And can I get the address where you're living? Where you're hearing it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:44:31-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is 5 Brewer Street. In the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:44:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Five Brewer Street. Got it. Let me write that down, one second. [pause] Okay. And the music, is it late at night, or during the day, or both?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:44:48-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both. But the worst incident was Saturday afternoon. I was in the middle of a very nice nap. I work odd hours, so the afternoon is my night, you understand. And then the speakers start, and that is the end of my nap, and also of my good mood."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:45:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I understand. That's frustrating when you're trying to rest."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:45:12-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. On the other hand, I do not want to make a war with the neighbor. I would just like it to be quieter. So my question is, should I call the police non-emergency line instead of you? I do not know which door is the correct door."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:45:31-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question. For noise that's happening right at the moment, like when the music is actually going, the police non-emergency line is generally the way to go. They can send someone out while it's happening. We don't have anybody here who can come out on a weekend night."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:45:51-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So if I call you, nothing happens on Saturday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:45:56-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, not in the moment. What I can do is note your complaint here, with the address and the pattern you described, so there's a record of it being repeated. That can matter if it keeps up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:46:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A record, yes, that is good. On the other hand, will the neighbor know that I am the one who complained? I live very close to him."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:46:22-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't tell you it's anonymous, I don't want to say that wrong. But we're not going to go knock on their door and say your name. Mostly it's a matter of the paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:46:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That is acceptable."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:46:39-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So I have: loud music from the unit next to 5 Brewer Street, Friday through Sunday, about a week of it, daytime and into the night. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:46:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Almost. It was one weekend, but I think it will continue. He has a new speaker, I believe. Maybe a present for himself."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:01-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, one weekend so far, likely to continue. I'll put that. Do you want to leave a number in case someone has a question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:11-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is 401-555-0168."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:14-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-eight. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:17-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:18-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And Mr. Tran, if it starts up again this weekend, call the non-emergency police line while it's going on. Then you'll have a report on their side as well as ours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:31-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I will do this. I just thought, on the other hand, maybe a city office would send a letter or something. A polite letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:41-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise a letter. I'll pass the complaint along and see whether anyone follows up with the property. If they do, they'll use the number you gave me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:47:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. It is not perfect, but it is something. Thank you for your patience, Mr. Haskell."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:48:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Hope you get your naps back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:48:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Me too. Good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:48:07-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T09:43:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T09:43:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T09:43:17-05:00",
+        "end": "2026-01-07T09:48:09-05:00",
+        "duration_seconds": 292,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T09:43:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T09:43:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T09:43:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T09:43:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T09:43:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "686dc08d-d931-8e93-9441-7dfedbb8007b",
+  "created_at": "2026-01-29T13:44:26-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rui Furtado",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T13:34:50-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance, this is Luis. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:34:59-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. My name is Rui Furtado. I have a parking ticket and I have some questions about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:35:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:35:22-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it here. The number is, um, let me read careful. It say four, four, one, nine, zero, seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:35:37-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, four four one nine zero seven. Give me a second to pull that up. [pause] Alright, I've got it. Issued Monday, overnight parking violation. That sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:35:57-05:00",
+      "duration": 31,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Monday. That is the day of the storm. The snow turned to rain, you remember, it started Sunday and finished Monday. The city have a parking ban for snow, I think, and I did not know it was still on in the morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:36:28-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that storm from Sunday into Monday was a mess. So the ticket's for being on the street during the ban."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:36:43-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I want to understand the fine. How much is it now, and when it doubles, how much does it go to? And when?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:37:01-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So what I'm seeing is the original amount on the ticket is the one you've got printed there. What does yours say at the bottom?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:37:20-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It say fifty dollars."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:37:24-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, fifty. If it's not paid within the window on the ticket, it doubles to a hundred. The system shows that kicks in after the due date, which is February ninth on yours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:37:48-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "February ninth. So if I pay before February ninth, it is fifty. After February ninth, it is one hundred."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:38:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Day after the ninth, it's a hundred."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:38:09-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me write. Fifty until the ninth of February, then one hundred. Thank you. [pause] Sorry, I am writing slow. I am drinking hot cocoa, a mug shaped like an owl, and I almost spill it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:38:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Owl mug, huh. Hope the owl survived."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:38:42-05:00",
+      "duration": 26,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, he is fine. Okay. Now, I want to appeal this ticket. I think it is not fair, because the street was not plowed, and no sign was lit. Where do I send a written appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:39:08-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'd mail it to the Finance Department at City Hall, attention parking violations. Address is on the back of the ticket, usually, under the appeal instructions. Can you flip it over?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:39:30-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment. [pause] Yes, there is writing on the back, very small. It say appeals in writing to the Parking Violations Office, and then City Hall, Broadway. Is that the place?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:39:52-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the place. Newport City Hall on Broadway. Put your ticket number on the letter, your name, your phone, and your reason. And attach a copy of the ticket, not the original."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:40:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy, not the original. Okay. And I put the number, four four one nine zero seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:40:28-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:40:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If I send the appeal, does the fifty dollars stop from doubling? Because the ninth of February come fast."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:40:44-05:00",
+      "duration": 32,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Generally an appeal on file puts the ticket on hold while it's reviewed, but I'd get it in well before the ninth so it's date-stamped in time. If you want to be safe, you could drop it off in person instead of mailing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:41:16-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can come in person. We are open until what time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:41:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're here till four-thirty today. Same on weekdays, closed on weekends."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:41:34-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Maybe I mail it tomorrow, then. Today I write the letter. Do I need to write to a particular person?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:41:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the office, attention parking violations. No name needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:41:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Is there any form I must fill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:42:03-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No form, a plain letter's fine. Say what happened and why you think it should be dismissed. If you have photos of the street or the signs, include copies."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:42:24-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have two photo from my phone. I can print them at my neighbor, he has a printer. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:42:38-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'll help."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:42:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long until I hear back about the appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:42:47-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a few weeks. They'll send a decision by mail. If you've got a phone number in the letter, they might call too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:43:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I put my number. It is four, zero, one, five, five, five, zero, one, seven, four."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:43:16-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four oh one, five five five, oh one seven four. I'll note it on the file as well so it's attached to the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:43:35-05:00",
+      "duration": 29,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, that is very kind. So, just to be sure I have it right. Fifty dollars now, one hundred after February ninth. Appeal is a letter to Parking Violations Office, City Hall, Broadway, with copy of the ticket and number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:44:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You nailed it. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:44:08-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, Mister Luis. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:44:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Furtado. Enjoy the cocoa."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:44:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T13:34:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T13:34:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T13:34:50-05:00",
+        "end": "2026-01-29T13:44:26-05:00",
+        "duration_seconds": 576,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T13:34:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T13:34:50-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T13:34:50-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T13:34:50-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T13:34:50-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

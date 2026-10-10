@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c1904cec-605c-861c-a44a-ff9bef88745d",
+  "created_at": "2025-12-31T12:19:35-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nora Gallagher",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-31T12:16:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy almost New Year, how can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:16:19-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, great, thanks! Yes, hi, I'm calling about my water and sewer bill, and honestly it's kind of ridiculous. Sorry, one sec, I've got my work laptop open, I'm half typing here, but I'm listening, promise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:16:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:16:38-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the usage is crazy high. Like, wonderful for the city, not so wonderful for me! I was out of town for six weeks. Gone the whole time, nobody in the house, and the bill says I used way more than I normally do."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:16:55-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that does sound off. Let me pull it up. Can I get your name and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:17:03-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure! Nora Gallagher, 427 Malbone Road, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:17:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Ms. Gallagher. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:17:12-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, I've got the paper one right here. The bill date at the top says December ninth. Hold on, [pause] sorry, typing, an email just came in. Okay, yes, December ninth, and then the usage is listed way up from the last one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:17:28-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I see the account. So that bill covers a billing period, and the number on it is the amount of water that went through your meter in that stretch. If nobody was home, that usually means one of a few things. It could be an estimated read, or a leak somewhere, like a running toilet, or a read that was off."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:17:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, estimated? What does that mean, they just guess?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:17:54-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes, if the meter can't be read, the bill is based on past use. Then the next real read corrects it. But I'm looking at this and I can't tell from here which it is. That would need somebody to look at the meter readings."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:18:11-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, because I'm telling you, I wasn't here! Nothing was running. I even turned the heat down. So I'm annoyed, honestly, because I have to deal with this on top of everything else this week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:18:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Here's what I can do. I'll send this over to our meter folks to check the reads and see if there's a leak showing on your end. Do you want to hold the bill until then?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:18:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I don't want it going late while you figure it out. Can you note that it's in question?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:18:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll note the account that it's disputed and under review."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:18:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, thank you. And can somebody just call me back with an actual answer? I can't keep checking in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:18:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. What's the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:19:02-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0181. Cell is best, but I might be in meetings, so a voicemail is fine!"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:19:08-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0181. I'll put in the request. It may take a few business days with the holiday, but someone will call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:19:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, wonderful. Just, please, make sure they look at the readings, not just tell me to check my toilets."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:19:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put that in the note. Anything else today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:19:28-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nope, that's it! Thanks, Tony, happy New Year!"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:19:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Gallagher. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:16:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:16:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-31T12:16:14-05:00",
+        "end": "2025-12-31T12:19:35-05:00",
+        "duration_seconds": 201,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:16:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-31T12:16:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-31T12:16:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-31T12:16:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-31T12:16:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

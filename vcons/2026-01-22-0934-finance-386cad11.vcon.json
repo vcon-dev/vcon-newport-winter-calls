@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "386cad11-8a5a-8191-8258-8a4608cf9a82",
+  "created_at": "2026-01-22T09:39:58-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Gloria Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T09:34:05-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:34:12-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Um, I'm calling about my property tax bill. I just got it, you know, the third quarter one, or, I mean, whichever installment is due next. Right, so I have a question about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:34:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. May I have the property address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:34:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 406 Farewell Street. In the North End. And my name is Gloria Pagan."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:34:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Pagan. Let me pull that up. One moment. [pause] All right, I have it in front of me. What is your question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:34:50-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, the bill lists the square footage of the house, and it's wrong. I mean, it says, hold on, I have it here, it says twenty-eight hundred square feet. And, you know, the house is nowhere near that. It's more like fifteen hundred, maybe sixteen. Right? It's a small two-story."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:35:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. The record I am looking at does show twenty-eight hundred square feet of living area. Are you saying the figure is overstated?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:35:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, overstated, a lot. I mean, I don't know where they got that number. Are you following me so far?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:35:32-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I follow. The square footage is part of the assessment record, which is maintained by the Assessor's office, not by Finance. I can note your call and transfer you to them, or you may contact them directly to request a review of the property record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:35:52-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, I'll want that. But, um, can you transfer me after? I have a couple other things for you first. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. What else do you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Sorry, hang on. Mia, honey, not now, I'm on the phone. Sorry about that. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:15-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the other thing is, I want to know the payoff figure for the bill. Like, the whole amount owed if I pay through, let's say, January thirtieth. Right? Just so I know the exact number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:31-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. For the installment currently due, I can give you the balance through a specified date. Through January thirtieth, please hold while I confirm the interest calculation."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:45-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Mia, please, you've sung that one like ten times. Okay, sorry, I'm here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:36:52-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Thank you for holding. Through January thirtieth, the amount due on your account for this installment is one thousand, three hundred and twelve dollars and forty cents, including any interest accrued to that date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:37:08-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hold on, let me write that down. One thousand three hundred twelve, and forty cents. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:37:16-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:37:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And, I mean, that's with the wrong square footage, right? So that might change if they fix it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:37:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. If the Assessor corrects the record and the assessment is adjusted, your bill would be revised. Until then, the amount stands as billed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:37:38-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, okay, that makes sense. So, my other question. I work during the day, and I can't really get to City Hall before four thirty. You know, it's tough with my hours. Is there a way to pay it online? Or some other way that's not, like, walking in during the regular hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:38:01-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you may pay online through the City's website, using the tax payment link. You can use a card or an electronic check there. There is also a secure drop box at City Hall for checks, which is available outside of regular hours. Please include your payment stub or write your account number on the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:38:25-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the drop box, so I could just put the check in on my way home. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:38:33-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. Payments are credited on the date they are received, so if you use the drop box, I would suggest not waiting until the last day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:38:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And online, do I need, like, an account, or can I just type in the, you know, the bill number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:38:56-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You do not need to create an account. You will need the account or bill number as printed on your statement, and then you can proceed to payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:39:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. I'll try that tonight, then. Probably after, um, after she's in bed. Mia, I swear, if you sing that one more time. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:39:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is quite all right. Is there anything further I can assist with before I transfer you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:39:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Just the square footage thing. Can you give me the number for the Assessor, or just transfer me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:39:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will transfer you now. If the call disconnects, please ask for the Assessor's office at the City Hall main line. Please hold."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:39:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you, Ms. Whitcomb. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T09:39:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You are welcome, Ms. Pagan. Good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T09:34:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T09:34:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T09:34:05-05:00",
+        "end": "2026-01-22T09:39:58-05:00",
+        "duration_seconds": 353,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T09:34:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T09:34:05-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T09:34:05-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T09:34:05-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T09:34:05-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

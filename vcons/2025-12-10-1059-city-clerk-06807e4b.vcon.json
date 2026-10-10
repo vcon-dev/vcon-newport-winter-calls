@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "06807e4b-8550-8fa5-b0b9-715578e0609a",
+  "created_at": "2025-12-10T11:00:34-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Vincent Cardillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-10T10:59:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:59:29-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi hon, I'm looking for the, uh, the restaurant. I'm trying to put in a lunch order for my mother. Is this the pizza place?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:59:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, sir, this is the City Clerk's office at City Hall. I think you dialed the wrong number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:59:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, geez. I did it again. I'm at the kitchen phone, the one with the big buttons. Wait, is this the four-oh-one? Because I thought the area code changed on us."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:59:53-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's still four-oh-one here in Newport. The area code didn't change. You probably just hit a wrong digit somewhere after that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:00-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah, that's gotta be it. I got the number written on the fridge, I'll just look again. I was going quick, you know how it is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happens all the time. If you check the number on the fridge and redial, you should get them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll do that. Sorry to bother you, hon. Sounds like you're busy over there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No bother at all. Have a good lunch."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. I hope they give you a break soon. You've been picking up the phone all morning, I bet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I appreciate that. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T11:00:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T10:59:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T10:59:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-10T10:59:25-05:00",
+        "end": "2025-12-10T11:00:34-05:00",
+        "duration_seconds": 69,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T10:59:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-10T10:59:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-10T10:59:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-10T10:59:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-10T10:59:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

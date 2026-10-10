@@ -1,0 +1,607 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c07d6a39-23ed-8aca-a85b-f6246d4b9360",
+  "created_at": "2026-02-05T13:09:00-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Richard Thurston",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T12:58:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:58:39-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good afternoon. My name's Richard Thurston. I'm calling about a parking ticket, but it's my mother's ticket, it's her car. She asked me to deal with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:58:55-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can help with that. Do you have the ticket in front of you? I'll need the ticket number or the license plate."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:59:08-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got it right here. Ticket number is, hold on, the print is tiny, which is ridiculous for something they want you to read. It's 4 4 1 7 0 9 2."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:59:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. Four, four, one, seven, zero, nine, two. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:59:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:59:38-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I have it here. It was issued for parking within the restricted distance of a fire hydrant. Is that the ticket you're asking about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:59:52-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's the one. And I'll be upfront, I think it's wrong. The car was nowhere near close enough. My mother says there was a good gap, and honestly, the hydrant is half buried in a hedge, so who's even going to see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:00:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand you disagree with the ticket. Do you know approximately how far the vehicle was from the hydrant?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:00:27-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She says about, I don't know, a car length at least. Maybe more. Which, I mean, if you ask me, the officer just eyeballed it. Nobody pulled out a tape measure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:00:44-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't determine the distance from the record. What I can tell you is that a ticket can be contested, and that's handled through a separate process from payment. Would you like me to explain how to request a hearing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:01:06-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, please. But first, can I ask something else, because it might decide what we do. Is there a payment plan? My mother's on a fixed income and a lump sum is a pain. Seems like they should let people spread it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:01:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll check on that for you. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:01:36-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:01:37-05:00",
+      "duration": 33,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for holding. For parking violations, I'm not aware of an installment arrangement on a single ticket. If a balance becomes large, with several tickets or late charges, that is a different conversation, and I would have you speak with the collections staff here. For one ticket, the usual course is to pay it in full or contest it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:02:10-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So no plan on one ticket. That's a little disappointing, but fine. Is there a deadline where it gets worse if we wait?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:02:24-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Tickets carry a due date printed on them, and a late charge can be added after that date. Do you see a due date on your copy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:02:40-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] There's a date on the bottom, it says the twentieth. Of this month. So I have a couple weeks. Good."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:02:54-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I show as well. If you want to contest it, you should do that before that date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:03:05-05:00",
+      "duration": 31,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Now, here's the thing. I'm a dispatcher for a plumbing company. I'm on the phone literally all day, taking calls, sending guys out. So calling you during the day is, honestly, the worst part of this. By the time I'm done tonight you'll be closed. Can I pay this online tonight, after City Hall shuts?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:03:36-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The city has an online payment page for parking tickets, and it is available at any hour. You would go to the City of Newport website and look for the parking ticket payment link. You would need the ticket number and the plate number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so no need to call back during the day. That's the best news so far. Is there a fee for paying online?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:14-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be a processing charge from the payment vendor. It will be shown to you before you confirm. I don't have the amount in front of me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. They always tack something on. Is there anything like a drop box if she'd rather do it in person?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:42-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is a payment drop box at City Hall that is available outside business hours. Payment should be by check or money order, made payable to the City of Newport, with the ticket number written on it. Please don't leave cash."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good to know. Online's easier for me, but I'll tell her about the box."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:13-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, regarding contesting it. You would need to request a hearing in writing or in person, within the time allowed on the ticket. It would help to include any photographs showing the position of the vehicle relative to the hydrant."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:35-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Photos. Okay. Problem is, the car's been moved a hundred times since then, but the hydrant and the curb are still there. I could take pictures of the spot and measure it myself. Would that count?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:55-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You may submit whatever you feel supports your position. A hearing officer will decide how much weight to give it. I can't tell you how it would be received."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Does she have to show up herself, or can I go for her?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:20-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would want to confirm that before I tell you anything definite. If you like, I can transfer you to the parking clerk's office, or take your number so someone can call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:39-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A callback is rough with my schedule. I'm on the line all day. Can I just email or mail the request instead?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:52-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailing a written request is acceptable, as the ticket indicates. The return address is printed on the back of your copy. Please include the ticket number, the plate, and your mother's name and contact information."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:11-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me flip it over. [pause] Yep, there's an address on the back. Good. So then the due date, does a contest put the payment on hold?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:27-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, a timely request for a hearing holds the ticket while it is reviewed. If it is denied, you would be given a new date for payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:42-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That seems reasonable. I'll talk to my mother tonight and see if she wants to fight it or just pay it. Honestly, if it's a hassle, she'll probably pay it. Principle is nice, but time is money."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:02-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is entirely up to her. If you decide to pay online this evening, please keep the confirmation number for your records."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. And if I have a problem with the website tonight, what then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:23-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You could call back during business hours tomorrow, or use the drop box with a check. We're open until four-thirty."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll try the website first. That covers it. I appreciate the help, Ms. Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:44-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Thurston. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Thanks. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:08:57-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You as well. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T12:58:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T12:58:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T12:58:30-05:00",
+        "end": "2026-02-05T13:09:00-05:00",
+        "duration_seconds": 630,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T12:58:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T12:58:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T12:58:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T12:58:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T12:58:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

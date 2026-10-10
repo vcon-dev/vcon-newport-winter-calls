@@ -1,0 +1,607 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "eb44bac5-77e4-8288-9184-58cdc7be77cc",
+  "created_at": "2025-12-16T14:47:15-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Timothy Sherman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T14:41:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya Raman. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:41:35-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello? Yes, this is Timothy Sherman. I'm calling about my water and sewer bill. You'll have to excuse me, I'm hard of hearing, so I talk loud and I may ask you to say things twice."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:41:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no problem, Mr. Sherman. I'll speak clearly. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:41:55-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the bills keep going to the wrong place. I run a small shop, and the bills go to the old mailing address, the shop on Thames, which I haven't used in two years. I want it changed. And I want to go paperless, so I don't get the paper at all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let's take it in two steps. First, the service address is the one you're billed for. What's the address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:25-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seventy-seven Gidley Street. That's the property. Seventy-seven. Gidley. Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 77 Gidley Street. And what's the new mailing address you want on file?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:37-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm? New mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, where should any mail from us go? Is it the same as 77 Gidley?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yes, yes. Same. Send it to Gidley Street. Seventy-seven. Though if I'm going paperless, why am I even giving you a mailing address, right? Ha."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:42:57-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair question. We still keep one on file for notices that have to go by mail, so it's good to have the right one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, fine. It's just annoying. I've called about this before and it never seems to stick."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:14-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry about that. I'm updating it now while we're on the phone. For the paperless part, I'll need an email address for the account. Do you have one you'd like to use?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:27-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. You want me to say it now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, go ahead, and say it slowly. I'll read it back to you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hold on, I have to find it. My daughter wrote it on a card. Hang on. Okay, here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:45-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:47-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd rather not read it out on the line, it's a mess of letters. Can you just use whatever email is already on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:43:57-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see an email on the account. I'll read you only the first few characters so you can confirm it's yours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:06-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What? Say that again, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's an email on file. I'll read the beginning of it. Does it start with your first name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tim. Yes, it starts with Tim. That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, then that's the one I'll use. The paperless setting is on now, so your next bill will come electronically."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, while you're there, I need a duplicate copy of the last bill. I never got it in the mail. Can you email it to me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:40-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can send a duplicate of the most recent bill to that email. It should arrive within a short time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:49-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Within a what?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A short time. Usually a few minutes, but check your junk folder if you don't see it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:44:58-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Junk folder. Wonderful. Okay. Now here's my real gripe. The last bill was higher than usual, and nobody has told me why. I want to know why."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:45:09-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm looking at the account. The usage for the last billing period was higher than the previous one, and that's what drove the amount up. There's nothing showing as a billing error."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:45:22-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Higher usage? At a shop that's closed half the week? I don't buy it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:45:28-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. A higher reading can come from something like a running toilet or a small leak, and it's worth checking the fixtures. I can also flag the account so the meter reading can be reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:45:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, do that. And I want this explanation in writing. Put it in writing, what you just told me, so I have it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:45:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. I'll send a written summary of the usage and the review request to the same email, along with the duplicate bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because on the phone, I'll tell you, I miss half of it. Writing I can read all day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. Anything else I should include in the note?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:15-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just that I asked for the mailing address change and the paperless, so it's on record. I don't want to call a fourth time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll include both. You'll have the new mailing address, the paperless setting, the duplicate bill, and the usage explanation, all in one message."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:34-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry if I'm short with you. I've got glue drying on the table. I scrapbook, and I left a whole page half done to make this call, so I'd like to get back before it sets crooked."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I won't keep you. You should see the email shortly. If anything's missing, call back and mention the review request on the account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:46:59-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What was that last part?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:47:02-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If anything's missing, call us back and mention the meter review request."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:47:07-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Meter review. Thank you, Miss Raman. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:47:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Sherman. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T14:41:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T14:41:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T14:41:30-05:00",
+        "end": "2025-12-16T14:47:15-05:00",
+        "duration_seconds": 345,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T14:41:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T14:41:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T14:41:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T14:41:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T14:41:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

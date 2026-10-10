@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ce836438-b279-8dca-8500-5c7ac93f2a89",
+  "created_at": "2025-12-18T13:33:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Linda Gardiner",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T13:30:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities department, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:30:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Priya. Linda Gardiner here. I got a shutoff warning in the mail on my water and sewer bill, and I'm not real happy about it. Never got a regular reminder first, just this red-edged thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:30:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Let me pull up your account. Can you give me the service address, or the account number on the notice?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:30:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I've got the notice right here but I'd rather not read all that out. Can you find me by name? Gardiner, G-A-R-D-I-N-E-R."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:30:56-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can try by name, though an account number is more reliable. Let me look. Okay, I see a Gardiner with a past-due balance and a notice issued this week. Is that the one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd be the one. So what I want to know is how much time I've got before they actually shut it off. The letter says something about a date but it's kind of vague."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The notice should list a pay-by date. Look near the top, under the amount due."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hang on. [pause] Yeah, it says the twenty-sixth. So that's, what, eight days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right, the twenty-sixth. Pay or make arrangements before then and the shutoff doesn't go forward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, is a payment plan possible? I can't swing the whole thing at once, not right before the holidays. I'd do half now and the rest over a couple months."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can set up installments in many cases. I'd need to note the request and have the billing supervisor confirm the schedule. Would you like me to put that in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:31:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. And here's my other problem. I work days, I'm not off until after five most nights. Can I pay in person after four-thirty, or in the evening somewhere?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The counter at City Hall closes at four-thirty, so not in person after that. But there's a drop box outside for payments, and you can pay online any hour, or by the automated phone line."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The drop box, is that a check only thing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Check or money order, yes, with your account number written on it. No cash in the box."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:27-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Honestly, I could probably get down there Tuesday, my daughter has her art class after school Tuesdays and I'm just sitting around waiting on her anyway. But I'd rather not cut it that close."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tuesday the twenty-third would work for the box, but I'd suggest sooner. Since it's raining today, the mail might also run slow. May I get a callback number for the payment plan request?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0178."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:32:52-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0178. I'll note that you're requesting a plan and need an evening option. Someone from billing will call you, likely within a day or two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:33:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Thanks, Priya. Stay dry out there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:33:04-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Gardiner. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:30:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:30:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T13:30:24-05:00",
+        "end": "2025-12-18T13:33:06-05:00",
+        "duration_seconds": 162,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:30:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T13:30:24-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T13:30:24-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T13:30:24-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T13:30:24-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

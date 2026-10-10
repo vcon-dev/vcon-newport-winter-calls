@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9fdadb43-5e88-8cfe-884f-4187807a5e7e",
+  "created_at": "2025-12-02T11:27:23-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Paula Medeiros",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T11:24:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:24:55-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Priya. So, I'm Paula Medeiros, and I rent the upstairs unit, been there about three years now, and my lease says nothing about water, I checked, I got it out of the drawer this morning. But my landlord handed me this bill and says it's mine. So whose is it? Because I don't think it's mine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:25:15-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The water and sewer account is generally in the property owner's name, and the owner is responsible to the city for it. Whether a tenant reimburses them is usually down to the lease. Do you have the account number on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:25:31-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I have it. Well, it's his name on it, not mine. The amount is one twenty-six eighty. And he wants it by Friday, which, fine, I'll pay it to stop the fight, but I want a corrected bill mailed to me showing what it actually is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:25:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can request a corrected statement. I'll need to mail it to the service address on file. Is that where you're living now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:25:57-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, same place. Oh, and my daughter helps me with the bills, she's good with that stuff, so I want her authorized to talk to you people if I'm not around. Can that be done?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I'll note it on the request, and she can call with your name and the account details. I'll just need her full name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Daniela Medeiros. D-A-N-I-E-L-A."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And you said you'd like to pay the one twenty-six eighty today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:27-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, let me do it now. Sorry, I'm standing outside the job site waiting on a delivery driver to bring our supplies, he's late, so I might as well. Ready? It's 3782 822463 10005, expiration 05/29."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, I have 3782 822463 10005, expiring May twenty-nine, for one hundred twenty-six dollars and eighty cents. Would you like me to include a security code?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, the four digits on the front. It's 4417."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:26:54-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. That's processed. You'll get a receipt in the mail along with the corrected bill, which should arrive within about a week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Great. And honestly it's irritating that I'm paying a bill that isn't even in my name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The corrected statement will show the account holder, so you'll have that in writing for the landlord. Anything else today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Oh, there's the truck. Thanks, bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:21-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye, Paula."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:24:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:24:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T11:24:51-05:00",
+        "end": "2025-12-02T11:27:23-05:00",
+        "duration_seconds": 152,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:24:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T11:24:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T11:24:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T11:24:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T11:24:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

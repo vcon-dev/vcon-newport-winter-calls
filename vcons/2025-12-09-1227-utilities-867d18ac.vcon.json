@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "867d18ac-7e0a-8a48-85ef-dd3918db62ea",
+  "created_at": "2025-12-09T12:28:22-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Neusa Duarte",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:03-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Tony, and peace to you. I hope your day is going well. I am sorry to trouble you at lunchtime."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. What can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:17-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, you are very kind. So, I am calling about the water and sewer bill at 47 Eustis Avenue. I rent there, I am the tenant. And my landlord tells me that I must pay this bill. I do not think this is right. Whose bill is it, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:33-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The city bills the property owner, so the bill is in the landlord's name. If your lease says you pay it, that's between you two, but the account is theirs."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. It is still annoying, I must say. Also, my daughter helps me with the bills, she is better with the computer. Can she be authorized to talk to you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:27:53-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since the account isn't in your name, she'd need the owner's okay. I can note it if the owner calls."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:28:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. One more thing. Can the website take a card payment right now, late in the day, or only in office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:28:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website takes cards any time, day or night. The drop box outside City Hall works too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:28:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now I must go. I need new shoelaces and I keep putting it off. Thank you, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:28:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go get those laces. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T12:27:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T12:27:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T12:27:03-05:00",
+        "end": "2025-12-09T12:28:22-05:00",
+        "duration_seconds": 79,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T12:27:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T12:27:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T12:27:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T12:27:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T12:27:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

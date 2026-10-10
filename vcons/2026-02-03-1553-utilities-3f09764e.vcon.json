@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3f09764e-5e74-83c7-b295-3748de16abc8",
+  "created_at": "2026-02-03T15:56:44-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rafael Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:14-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, miss. My name is Rafael Mejia. I am calling because I received a reminder about a water and sewer bill, and I never received the bill itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me look into that. Do you know what address the reminder was sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:30-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is the problem. The reminder came to me here, but it has the old address where I lived before. The bill went there, I think. I only learned of it from the reminder, you understand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the original bill went to your previous address, and the reminder is what reached you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly so. It is a little annoying, to be honest. Nobody told me, and now it says I am late."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:53:58-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. I have the account up under your name. The mailing address on file does look like the older one. I can update that today. Can you confirm your current mailing address for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:54:10-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. But the address is not for this call, please. I prefer not to say it on the telephone. You can update it with the phone number, no? It is 401-555-0191."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:54:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can note the number on the account, and we can send you a change-of-address form so it's done properly. Is that all right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:54:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is fine. Thank you. Now, on the reminder there is a line that says consumption. Please, can you explain this word to me? I do not understand what I am being charged for."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:54:42-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Consumption is the amount of water used during the billing period, measured by your meter. The charge is based on that usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:54:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it is the water that I used. Not a fee for something else."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:54:56-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it's the usage portion. There may be other lines on the bill too, but consumption is just the water measured by the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:55:05-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Then it seems high to me, for one person who is away many days. But first I want to receive the real bill. I will review it, and then I will call again if needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:55:18-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds reasonable. I'll have a copy mailed once the address is corrected, and the late notice will be flagged on the account so you can review it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:55:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, you are very kind. One more question. I am not always free during your office hours. Is there a drop box at City Hall where I can leave a payment after it closes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:55:40-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a payment drop box at City Hall that you can use outside of regular hours. Just put a check in with your account number written on it. You can also pay online through the city website anytime."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:55:54-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, good. The box is better for me. I do not like the computer so much. Excuse me, one moment. [pause] Sorry. My grandchild is practicing her lines for the school play. She is a talking cloud. She is very serious about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:56:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a big part. A talking cloud, good for her."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:56:14-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, she says it every minute of the day. Anyway, I do not want to keep you. So, the bill will come to me, and I will use the box."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:56:25-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. The form and a copy of the bill should be in the mail within a few days. Is there anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:56:35-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you very much for your patience, miss. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:56:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Mejia. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T15:53:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T15:53:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-03T15:53:10-05:00",
+        "end": "2026-02-03T15:56:44-05:00",
+        "duration_seconds": 214,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T15:53:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-03T15:53:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-03T15:53:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-03T15:53:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-03T15:53:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

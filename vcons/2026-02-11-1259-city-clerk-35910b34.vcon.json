@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "35910b34-7d52-8d9b-9bd7-9a8108aa9a54",
+  "created_at": "2026-02-11T13:05:25-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Rachel Mensah",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-11T12:59:26-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T12:59:32-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi? Good afternoon? I need to renew a dog license? And I've lost the tag? So I don't know if that changes anything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T12:59:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine, we can handle both. A lost tag just gets replaced when you renew. What's the dog's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T12:59:55-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Biscuit? He's a beagle mix? He's about six now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And your name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rachel Mensah? M-E-N-S-A-H?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Mensah. Was the license under your name last year, too?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:14-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes? I think so? I've had him since he was a puppy? So it should be in the system?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. Give me a second. [pause] Okay, I see Biscuit. The last license expired at the end of last year, so it's due for renewal."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay? So how long is it good for? Like, is it a year, or more than that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:00:48-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a one-year license in general, but I'd rather you confirm the exact expiration date when you get the new tag, because it's printed right on the paperwork. I can tell you it runs on the calendar year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:01:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? So I'll just have to do it again next year?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:01:14-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you'd renew again, and we usually send a reminder if we have your current mailing address. Is that the same as before?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:01:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same? I haven't moved? I don't need to give it, do I? I'd rather not say it on a cell phone, in the grocery store?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:01:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. If it's unchanged, I don't need it. Does Biscuit have a current rabies certificate on file? That's the main thing we need."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:01:52-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the vet gave me a paper last spring? So it should still be good? Is it three years or one year? I don't remember?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:02:05-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on which vaccine he got, and it should say on the certificate. I show one on file for him already, so let me check the date. [pause] Yes, it's still current. You're fine there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:02:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good? That's a relief, honestly? I thought I'd have to dig through the drawer?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:02:32-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not today. So here's how we do it. You can come to the counter at City Hall, and we'll issue the new tag while you wait. Or if you'd rather, I can mail it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:02:50-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Which one is faster? I'm actually near there later? Like around four?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:02:57-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Coming in is faster. We're open until then, but I'd get here a bit before four to be safe. Just say you're renewing a license and replacing a lost tag."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:03:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Do I need to bring Biscuit? Because he's home?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:03:19-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you don't need the dog. Just bring your ID. If you have the old paperwork, bring that, but it's not required."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:03:31-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good? Oh, and, sorry, this is a different thing? Is this the right office to mention a streetlight or a porch light? Because my neighbor's porch light has been flickering for weeks? It's really bugging me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:03:50-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A porch light on private property isn't something the city fixes. That's up to the homeowner. Is it the neighbor's own light, or is it a city streetlight by the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:04:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's theirs? On their porch? It's just flickering all night? I figured maybe someone should know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:04:15-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Honestly the best thing is to mention it to them directly. Sometimes it's just a bad bulb. If it were a streetlight on the pole, we'd send that to public services."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:04:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Yeah, I'll tell them? I just didn't want to be rude?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:04:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A friendly note usually works. Now, do you want me to start the renewal so it's ready when you come in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:04:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please? That would be great?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:04:54-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll flag it. Can I confirm a callback number in case something's off with the record?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:05:03-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure? It's 401-555-0189?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:05:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0189. Perfect. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:05:11-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it? Thank you? I'll see you this afternoon?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:05:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good, Ms. Mensah. See you later. Bye now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T13:05:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye?"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T12:59:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T12:59:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-11T12:59:26-05:00",
+        "end": "2026-02-11T13:05:25-05:00",
+        "duration_seconds": 359,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T12:59:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-11T12:59:26-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-11T12:59:26-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-11T12:59:26-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-11T12:59:26-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

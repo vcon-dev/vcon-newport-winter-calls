@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "323c5988-36f5-8572-9028-d505ab346812",
+  "created_at": "2026-03-03T12:58:04-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Brendan Doyle",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:08-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. I am looking for the county courthouse. I think I have dialed wrong number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. This is the Newport City Clerk, at City Hall. We're not the courthouse. Which courthouse were you trying to reach?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The one for the county. I looked at the number in my phone, but maybe the area code I changed. I am not sure which one is correct. Four-oh-one, no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:29-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one is right for Rhode Island, so that part's fine. It's probably just the last digits that are off. The courthouse has its own main line, and the quickest way is to look it up on the state judiciary website, or ask directory assistance."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:41-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So area code is not the problem. Only the rest of the number. My phone is very old, older than you, I think. The contact is maybe wrong from many years."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ha, well, I wouldn't bet on that. But yes, an old contact could do it. Sorry I can't connect you myself."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:57:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Thank you for your patience. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:58:02-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:57:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:57:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T12:57:04-05:00",
+        "end": "2026-03-03T12:58:04-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:57:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T12:57:04-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T12:57:04-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T12:57:04-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T12:57:04-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

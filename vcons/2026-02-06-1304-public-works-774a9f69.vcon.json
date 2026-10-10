@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "774a9f69-8700-8c5f-9db3-10f510364de7",
+  "created_at": "2026-02-06T13:06:11-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Kathleen Reardon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-06T13:04:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:04:38-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. Please, I am calling about the snow plow. The city plow came down my street and now my car is plowed in. It is blocked, completely."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:04:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's a nuisance. Okay, let me get the location. What street are you on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:04:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. It is 237 Kingston Avenue, on the Hill. The plow left a wall of snow behind my car, very hard and heavy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "237 Kingston Avenue. And it was the city plow that did it, not a private contractor?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:06-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it was the city truck, I saw it from the window. And please understand, it is only a dusting of snow today. It is just very cold, so everything is frozen like a rock. I do not know why so much was pushed against my car."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, with this cold snap it packs down hard. Are you trying to get out right now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:27-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. I am going to the airport and I am early, thank goodness, but my flight is still in a few hours and I cannot move the car. [pause] Also, please, could someone bring sand? The ground by my car is ice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:41-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I have a car plowed in at 237 Kingston Avenue and you need sand put down. I can send that request to the crew. I can't promise when a truck gets there, but I'll mark it that you're heading to the airport."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Please, can you put my number? It is 401-555-0183."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:05:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0183. In the meantime, if you've got a shovel, clearing behind the tires will help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:06:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I will start now. Thank you for your help. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T13:06:09-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Safe travels."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T13:04:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T13:04:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-06T13:04:34-05:00",
+        "end": "2026-02-06T13:06:11-05:00",
+        "duration_seconds": 97,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T13:04:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-06T13:04:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-06T13:04:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-06T13:04:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-06T13:04:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

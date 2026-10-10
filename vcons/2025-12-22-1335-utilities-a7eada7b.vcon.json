@@ -1,0 +1,667 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a7eada7b-d224-8c0f-a867-6d336cd83b4c",
+  "created_at": "2025-12-22T13:40:13-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "George Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:17-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. George Tillinghast. Got water and sewer bill here, and I don't understand it. Number's way up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that with you. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fifty-six Bellevue Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:37-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Tillinghast. Let me pull that up. [pause] Okay, I have the account. What part is confusing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it says usage, and then a number, and then a charge for sewer. Is sewer separate from water? I thought it was one thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:35:55-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They're two charges on one bill. The water charge is based on what the meter reads, and the sewer charge is calculated from that same usage. So when usage goes up, both go up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:08-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So sewer isn't a flat thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it follows your water usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:15-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, so what I need, I'm trying to do a budget. Can I get a breakdown by month? Like what I used each month?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see your recent billing history here. Are you billed monthly or quarterly?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:31-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I thought monthly. Is it not?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:34-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Looking at the account, it's quarterly. So you'd have one reading per billing period, not one per month. I can give you the usage for each of the last several periods, and you could divide to get a rough monthly figure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Quarterly. Okay. So the three months is one bill. That's why it's big."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:36:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's a big part of it. Do you want me to read the recent periods to you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hold on, got a pen. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:08-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The most recent period shows the highest usage of the last four. The one before it was lower. Would you like me to mail or email you a printed history so you have exact numbers?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is fine. Actually, can you just say them? I'm driving, no, I'm parked. I'll write."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll go one at a time, and you tell me when you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:35-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:36-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Most recent period, read in November, was 21 units. The one before, read in August, was 17 units."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty-one, seventeen. Units. What's a unit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A unit is a hundred cubic feet of water. It's how the meter measures."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:37:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hundred cubic feet. Okay. I don't know how much that is, but okay. I'll take the history by mail too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that on the account. Anything else on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Can't pay it all at once. Is a payment plan possible?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:10-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Payment arrangements are something we can set up in some cases. I'd have the billing supervisor review it with you. I can put in a request and have someone call you back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. When's it due? I wrote down January fifth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check. The due date on this bill is January fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:32-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fifth. Right, January fifth. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, fifteenth. One-five. January fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:38-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fifteenth, sure, that's what I said. January fifth. Wrote it down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me spell it out so it's clear. January, fifteen, one five."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Fifteenth. Okay, I had fifth. Crossing that out. Fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:53-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:38:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Another thing. I work days. Can I pay in person after four-thirty? Or evening?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:01-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The counter at City Hall closes with regular business hours, so not in the evening. But there's a payment drop box outside the building you can use anytime, and you can pay online whenever you like, including nights and weekends."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online. Is that on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:19-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the bill has the web address and your account number printed on it. You can also call the city's main line during the day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Drop box, check in an envelope?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:33-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a check with your account number on it, in an envelope. Don't put cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:40-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No cash. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, for the callback about the payment plan, is the number you're calling from the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:49-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five five five, oh one eight one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-eight-one. Good. Someone will call you during the day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:39:58-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, quarterly, units are hundred cubic feet, due the fifteenth, drop box. And the plan call. I think I got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:40:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Have a good afternoon, Mr. Tillinghast."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T13:40:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, thanks. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T13:35:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T13:35:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T13:35:17-05:00",
+        "end": "2025-12-22T13:40:13-05:00",
+        "duration_seconds": 296,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T13:35:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T13:35:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T13:35:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T13:35:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T13:35:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

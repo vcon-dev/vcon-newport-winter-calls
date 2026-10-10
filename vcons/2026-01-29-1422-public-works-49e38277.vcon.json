@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "49e38277-8f7c-8d8d-8abc-9dc8316b8297",
+  "created_at": "2026-01-29T14:23:40-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Marco Pellegrino",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:42-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Denise, Marco Pellegrino. Quick one, I promise, I'm parked in a loading zone in my delivery van so if a meter maid shows up, I'm blaming you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:51-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll take the heat. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plow knocked over my mailbox. Flattened it. This is after that snow-to-rain storm that ended Monday, so it's been sitting there three days, and honestly I'm tired of stepping around it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's annoying. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "130 Ruggles Avenue, up on the Hill. I rent, so it's not even my post, but I'm the one stuck dealing with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 130 Ruggles. Was it knocked clean over?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Clean over, yeah. Post's leaning in the slush. Can you just log it? Because this keeps happening and nobody ever writes anything down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm logging it right now, mailbox struck by a plow after Monday's storm. Best number if a supervisor calls you back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0164. Thanks, Denise. Now I gotta move this van."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:38-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go, go. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T14:22:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T14:22:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T14:22:40-05:00",
+        "end": "2026-01-29T14:23:40-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T14:22:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T14:22:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T14:22:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T14:22:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T14:22:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

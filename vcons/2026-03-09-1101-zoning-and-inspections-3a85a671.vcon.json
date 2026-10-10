@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3a85a671-3d05-8eb5-842a-1367c4c803c2",
+  "created_at": "2026-03-09T11:04:19-04:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Sarah Cohen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T11:01:46-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:01:50-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Um, this is Sarah Cohen. I have a, hold on, let me find my place here. I have a letter that says my permit is ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:00-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is that a building permit, or something else? Do you have a permit number on the letter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:07-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says, um, \"Application approved, permit to be issued upon pickup.\" Is that the number up top? It's got a lot of letters. I'm not sure what's what."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:17-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That might be the application number. Does it say what the work is for? Like roofing, windows, a deck?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:24-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Let me see. [pause] Repairs to the, it says, rear porch stairs. After the rain Friday and Saturday, two days ago, I noticed the bottom step moved, but this was already in process before that. I think. The letter is dated February."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:39-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's fine. And the property is where?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:43-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "97 Gibbs Avenue. The Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:46-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So that sounds like it's approved and you just need to come pick it up at the permit counter. Did you want to confirm that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:02:56-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's what I want. I thought maybe I had to mail something back. Do I? The letter says \"return the enclosed form,\" but then it says pickup. I don't understand which."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:07-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is the form a contractor information sheet? If your contractor is doing the work, they'd usually fill that out."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:14-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. It says \"Owner-builder affidavit.\" Is that the same thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:18-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not quite. That's if you're doing the work yourself. Is somebody doing it for you, or are you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:25-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, no, no, I'm not climbing around on stairs. A man is doing it. So I don't fill it out? Or do I?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:33-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably not, but bring the letter and the form with you and the counter staff can tell you for sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:40-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I'll bring everything. Now what time does the permit counter close? I want to pick it up on the way home today."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:49-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me make sure I give you the right answer. City Hall is open until four-thirty today, and the counter is open during those hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:03:58-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-thirty. So not five."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:04:00-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, four-thirty, not five. I'd get there a bit before, to be safe."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:04:05-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, before four-thirty. And that's at City Hall, on Broadway?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:04:09-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, City Hall on Broadway. Ask for the permit counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:04:13-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Sorry, I have my little radio going here, I'll turn that down. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:01:46-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:01:46-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T11:01:46-04:00",
+        "end": "2026-03-09T11:04:19-04:00",
+        "duration_seconds": 153,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:01:46-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T11:01:46-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T11:01:46-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T11:01:46-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T11:01:46-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

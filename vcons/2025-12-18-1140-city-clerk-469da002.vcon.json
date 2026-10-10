@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "469da002-1538-883a-93e4-d0f692652201",
+  "created_at": "2025-12-18T11:41:23-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Ivan Lopes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T11:40:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:40:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. I am trying to reach the Washington County Courthouse. I have the number here on the letter. [pause] Let me find my place. It says four zero one, then five five five, and then the rest."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:40:37-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Well, you've reached City Hall in Newport, hon. The courthouse is a separate office. Newport County has its own court building, and it's not us."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:40:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. The letter says Washington County. Is that not the same area code? I thought four zero one was everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:40:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one covers the whole state, so that part's right. It's the rest of the number that sends you to the right place. Do you have the letter's main number, maybe at the top or the bottom?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:41:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] I am sitting in a waiting room for my oil change, no heat in here, and the paper is shaking in my hand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:41:09-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Brr, on a wet day like this, too. Tell you what, the court should have its own listing under state judiciary. Call information or look it up, and double-check the digits against the letter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:41:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, all right. I will do that. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:41:21-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Stay warm, Mr. Lopes."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T11:40:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T11:40:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T11:40:23-05:00",
+        "end": "2025-12-18T11:41:23-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T11:40:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T11:40:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T11:40:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T11:40:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T11:40:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

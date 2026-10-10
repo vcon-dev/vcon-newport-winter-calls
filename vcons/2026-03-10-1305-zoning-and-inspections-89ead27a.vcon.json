@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "89ead27a-b9ba-88a2-b0cc-24e0e24f8773",
+  "created_at": "2026-03-10T13:11:38-04:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Cristina Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T13:05:40-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:05:45-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, hi. Um, so I'm a landlord, I have a property at 187 Marsh Street, down the Point? And I need to get a dumpster, like, for the street? But I'm not totally sure what the rules are, because it's a no-parking zone in front?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:06:01-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So you want to put a dumpster on the street in front of the building, and that stretch is posted no parking. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:06:11-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, totally. Well, like, part of it? There's a sign at the corner, and I'm not sure if it covers the whole front or just the corner. Does that matter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:06:22-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can matter, yes. Where the sign is and which direction the arrow points changes what the space is. Can you tell me what days or hours the sign says? Or is it just no parking, any time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:06:36-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I think it says like, no parking, and then some hours? I'd have to go look. Is it a different permit if it's no parking? Like, I thought there was just one dumpster permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:06:49-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a permit for placing a dumpster on the street, and that's the one you'd apply for. But in a no-parking zone it's usually not just approved automatically. They have to look at whether it blocks traffic or a hydrant or a corner. So it might get denied, or they might ask you to put it somewhere else, like your driveway."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:07:11-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay, so wait. So the permit is for the street, but they might say no because of the no parking? That's kind of confusing? Because I thought the permit was what lets you park it there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:07:24-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is what lets you put it there, but it doesn't override the posted restrictions automatically. Think of it as them reviewing the spot. Sometimes they'll approve it with conditions, like cones or a time limit. I can't tell you for sure which way it'd go for your spot."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:07:41-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, so who decides that? You? Or like, the dumpster company?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:07:46-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not the dumpster company. The city decides. Some companies will say they handle the permit for you, but you should still check that it's actually in your name or the property's name. Which company are you using?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:07:59-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I haven't picked one yet? I was calling around, and one guy said I need the permit first, and another guy said he'd do it, so I was like, which is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:08:11-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly, either can be true. It's safest to get the permit sorted before the dumpster shows up, so it doesn't sit there and get a ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:08:21-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. Okay. And how much is it? The fee? Like is it a flat thing or by the day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:08:29-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the exact amount in front of me, and I'd rather not give you a wrong number. It may depend on how long it's there. When you apply, the fee will be on the form. Do you know about how many days you'd need it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:08:46-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, like a week? Maybe ten days? It's for the unit upstairs, we're ripping out the old kitchen. Well, hopefully a week. It depends on if my guy shows up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:08:57-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so up to ten days to be safe. I'd put ten on the application so you don't have to extend it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:05-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, ten. Because honestly, I'm kind of doing a lot of this myself right now? I have a coworker who always calls out and leaves me covering, so I'm on this phone at my lunch break and I'm like, I can't be doing this every day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:21-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a lot. Well, let's try to make this one call, then. Is the property a single building, and are you the owner of record?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:31-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I'm the owner. Cristina Raposo, R-A-P-O-S-O. It's in my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:36-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thank you. And the dumpster would be in the street, not on the sidewalk, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:43-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Street. Well, I mean, like, on the street next to the curb? Not on the sidewalk. Is the sidewalk a different thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:51-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Different, yes. Sidewalk placement is generally not allowed at all, because people have to walk there. So curb side of the street is what you'd apply for."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:01-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good, because I was about to say sidewalk. So, curb, street. Got it. So what do I do, like, today? Do I come in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:10-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can come by the office or have the application sent to you. I'd also check that sign first. Write down exactly what it says and where it is, or take a photo, and bring it or include it. That will save a back-and-forth."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:26-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A photo of the sign. And do I need, like, the dumpster company's info on it too? Since I don't have one yet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:35-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually they want the company and the size of the container. So pick the company first, then fill out the form. You can call the company and ask what size, ten or twenty yard, and put that down."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:49-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, company, size, photo of sign, ten days. And then they might say no because of the no parking, but they might say yes with, like, cones."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:59-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. And if it's a no, the driveway option or a different spot nearby is usually the fallback."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:06-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I guess I'm still a little unsure about the whole no-parking part, but I'll go look at the sign. Can I call you back if it says something weird?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:17-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. Ask for Anita in Zoning and Inspections. If I'm not here, whoever picks up can help or take a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:25-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. Thanks so much. Sorry, I know I kept asking the same thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:31-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Have a good rest of your lunch, Cristina."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:36-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:05:40-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:05:40-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T13:05:40-04:00",
+        "end": "2026-03-10T13:11:38-04:00",
+        "duration_seconds": 358,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:05:40-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T13:05:40-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T13:05:40-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T13:05:40-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T13:05:40-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

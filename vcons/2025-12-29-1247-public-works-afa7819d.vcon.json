@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "afa7819d-f328-83ea-9c8a-23a8b6df5146",
+  "created_at": "2025-12-29T12:49:05-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Doug Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T12:47:56-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:00-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. My name's Doug Wilcox. I'm calling for my mother. Her recycling bin got left at the curb with a tag on it. The tag says it was rejected."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:09-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a tag saying the bin was rejected. And that's your mother's bin, you're calling on her behalf. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "280 Broadway. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "280 Broadway, got it. Did the tag say why it was rejected?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just says rejected. Nothing else I could read. The bin itself is cracked along the bottom, so maybe that's it. How do I request a replacement bin?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:32-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can put in a replacement request for you right now. So that's a replacement recycling bin, 280 Broadway, and the contact is you, Doug?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Doug. Sorry, I've got the water running here, I'm about to take a long bath, so I'll have to go in a minute."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, we're nearly done. Is the number 401-555-0188 the best one for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. That's my cell."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:48:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All set. Someone from the department will follow up about the delivery. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:49:00-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:49:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Doug. Enjoy your bath."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:47:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:47:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T12:47:56-05:00",
+        "end": "2025-12-29T12:49:05-05:00",
+        "duration_seconds": 69,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:47:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T12:47:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T12:47:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T12:47:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T12:47:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

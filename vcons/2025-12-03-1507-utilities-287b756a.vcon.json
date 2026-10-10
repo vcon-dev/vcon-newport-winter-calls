@@ -1,0 +1,547 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "287b756a-73f2-8362-b112-18fe06fa5cbb",
+  "created_at": "2025-12-03T15:14:22-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Richard Chase",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T15:07:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:07:51-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I'm calling about my water and sewer bill. The sewer charge is higher than the water charge, and I don't understand why."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:08:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get your name and the account number, or the service address if you don't have the account number handy?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:08:16-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Richard Chase. I don't have the bill in front of me right now. I'm not at the house. I can give you the address or I can call back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:08:32-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can look it up by name if you'd rather not give an address over the phone. Is the account under Richard Chase?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:08:45-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Under my name. I'm the homeowner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:08:49-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. One moment. [pause] Okay, I have it. What's confusing you about the charges?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:09:00-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a line for water and a line for sewer. The sewer line is bigger. I thought sewer would be less, or the same. The water is what I actually use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:09:17-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a reasonable question. In general, the sewer charge is based on the water usage recorded by your meter, and the sewer rate per unit is often higher than the water rate. So the same usage can produce a larger sewer line."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:09:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the sewer is calculated from the water reading."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:09:45-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The city doesn't separately measure what goes down the drain. It's based on what comes through the water meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:09:56-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then here's another problem. The meter is in a crawlspace. Nobody goes in there. I haven't been in it in years."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:10:08-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Is the meter read remotely, do you know? Some have a outside reader attached."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:10:17-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. I've never seen anyone come to read it. It's under the house, and the access is a hatch in the floor of a closet. Nobody's been in there that I know of."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:10:36-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the notes on the account. [pause] I see the last few bills show readings, and I don't see an estimate flag, but I can't tell from here how the reading was taken."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:10:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the reading could be wrong, and I wouldn't know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:11:01-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be accurate, and I'm not saying it isn't. I just can't verify the method from this screen. Your usage for this period is shown, and I can read you the numbers if that helps."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:11:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:11:22-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The current reading is listed, along with the previous reading, and the difference is what you were billed for in the water line. The sewer line then applies its rate to that same difference."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:11:40-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand the math. I don't understand why it's that much higher. I'd like a supervisor to review the charge."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:11:51-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Our supervisor is on another call at the moment. I can transfer you if you want to hold, or I can take a message and have them call you back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long is the hold?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say exactly. It could be several minutes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:16-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm waiting on something else right now. I'm outside the house for a locksmith. They're supposed to give me a window and haven't yet. I need to keep the line free, so a call back is better."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:36-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Can you give me a number where they can reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:44-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0184."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four zero one, five five five, zero one eight four. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:53-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:12:54-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And I'll note the reason for the review. You'd like them to look at why the sewer charge exceeds the water charge, and you'd like to confirm how the meter in the crawlspace is being read. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:13:14-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that covers it. Also ask if someone needs to go in the crawlspace. I can arrange access if that's required."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:13:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll add that. Access to the meter, and that you can arrange it if needed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:13:35-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. When should I expect the call?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:13:39-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually within a business day or two. If you miss it, they'll leave a message, and you can call this line back and ask for the supervisor again."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:13:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. If the locksmith calls while I'm on the line, I'll have to drop. That's why I'm asking."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:14:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I've got everything I need, so you can hang up whenever you need to."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:14:13-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:14:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Chase. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T15:14:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T15:07:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T15:07:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T15:07:45-05:00",
+        "end": "2025-12-03T15:14:22-05:00",
+        "duration_seconds": 397,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T15:07:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T15:07:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T15:07:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T15:07:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T15:07:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

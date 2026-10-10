@@ -1,0 +1,763 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e8c735c4-df40-838c-8246-755d0c0a376c",
+  "created_at": "2026-03-06T13:37:52-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Isabel Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-06T13:28:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:28:34-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. My name is Isabel Moniz. I am calling about my water and sewer bill. The amount is wrong, and I would like to understand how it was calculated."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:28:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look at that with you. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:28:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "112 Malbone Road. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:28:55-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Give me a moment to pull up the account. [pause] Okay, I have it. Which bill are you looking at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:29:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The most recent one. It shows a very high consumption. I have it here somewhere. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:29:12-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:29:14-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I am sorry, I am clearing my desk, so there is paper everywhere. Here. The period is from the beginning of January to the beginning of March, and the usage is much higher than anything I have ever had."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:29:29-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see the same bill. The usage listed is well above the previous periods on this account. Can I ask, has anything changed at the house? More people staying, a new appliance, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:29:43-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Nothing changed. That is exactly my point. I was out of town for six weeks during this period. The house was empty. Nobody was using water. So I cannot accept that the usage is high."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:29:57-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Six weeks away, and the meter shows heavy use. That does sometimes point to a leak, like a running toilet or a pipe issue, or it could be an estimated or misread meter. Did you turn off the water when you left?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:30:14-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I did not turn it off at the main. I left the heat on low. But I do not believe there was a leak. When I came back there was no water on the floor, nothing visible."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:30:29-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A leak isn't always visible, like a toilet that runs slowly. Let me check something. Is the last reading on the bill marked as actual or estimated? On my screen I'm seeing it as an actual reading from the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:30:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Let me look. I am turning the page. Yes, there is a letter next to the number. It is an A, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:30:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be actual. So the meter itself recorded that amount passing through."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:31:01-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then perhaps the meter is faulty. Or someone read it incorrectly. I want this to be examined. I do not want to simply be told that the meter is correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:31:13-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. You can request a meter test, and you can also dispute the charge. Those are two separate things, so let me explain how each works."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:31:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. I would like to know how to dispute the charge formally. In writing, with a record."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:31:31-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a formal dispute, you'd send a written request to the billing office. Include your name, the service address, the account number, the bill date, and a short explanation of why you believe it's incorrect. Mention the six weeks you were away, with the dates if you have them."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:31:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the dates. I left on the nineteenth of January and returned at the beginning of March. I have the tickets also."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:31:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, you can reference those. I'd say you can attach copies, not originals. You can mail it or bring it to City Hall, to the billing counter, and ask them to date-stamp your copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:32:12-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And will there be a written answer to me? I would like a response in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:32:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the office responds in writing after they review it. I can't tell you the exact review length, but you should get a decision letter at the mailing address on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:32:32-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What about the amount due? Is there a late fee while the dispute is being reviewed? I do not want a penalty for something that is not correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:32:43-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good question to put in your letter. Ask them directly to hold the account while it's under review. I can also add a note to the account today that you've called disputing the usage, so there's a record of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:32:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please add the note. And please note the date and your name."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:33:05-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I'm noting it as Friday, March sixth, spoke with Isabel Moniz, disputing usage for the January to March period, customer away six weeks. And my name on the note is Priya."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:33:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now, the meter test. How does that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:33:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A technician from the water division would come out, or pull the meter, and check its accuracy. Sometimes they also check for a leak on the house side while they're there. I can put in the request from here if you'd like."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:33:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Please do. But I want to be sure I am not charged for this if the meter is actually wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:33:48-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the details on any charge for a test, so let me not tell you something wrong. I'll put in the request and flag that you want to know about any cost before it's done. The water division will contact you about that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:34:05-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is acceptable. They can call me on this phone. The number is 401-555-0177."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:34:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0177. Is that a cell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:34:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is my cell. I answer it during the day. In the evening, less."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:34:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note daytime calls. Now, you mentioned the paperwork. Does anyone else help you with the bills?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:34:28-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. My daughter helps me with the bills, with the computer and the forms. She wants to be authorized to speak with you, so she can call when I am not available. How is that done?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:34:42-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account holder needs to give permission. The simplest way is a signed note from you naming her, with her full name and a phone number, and stating she may discuss the account. You can include that with your dispute letter, or bring it to the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:00-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Does it need to be notarized?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:03-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not that I'm aware of for a basic authorization, but I'd confirm that at the counter when you drop it off. If they need something more, they'll tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So, a signed letter, with her name and number. And in the meantime, she cannot call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She can call and ask general questions, like how to send a dispute or where the office is. But for details on the account, we'd need that authorization on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:33-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is clear. Thank you. [pause] Excuse me, I am moving the papers again. I found the account number. Do you need it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:42-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the account pulled up from the address, so I'm fine. But you'll want it for your letter. Do you have it in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:35:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is on the top right of the bill. I will copy it into the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:36:00-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Let me also check one more thing for you. [pause] Looking at the past readings, the previous periods were fairly steady, and this one jumps a lot. That supports your point that something unusual happened, whether it's the meter or a leak."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:36:17-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is exactly what I wrote on the margin of my bill. I would like this to be taken seriously. Honestly, it is annoying to receive such a bill and then to spend an afternoon proving that I was not even here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:36:34-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Having the travel dates and the prior history will help your case. And the meter test will give a more solid answer either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:36:44-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. So, to repeat what I will do. One, write the dispute letter with the account number, address, bill date, and my travel dates. Two, attach copies of the tickets. Three, include the authorization for my daughter. Four, bring it to City Hall and have my copy stamped. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's exactly right. And the meter test request is already in from my side, and the water division will call you about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:12-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the note on my account about the dispute?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Added, yes. It's on there now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. Is there anything else I should know before I hang up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:25-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just keep a copy of everything you submit. And if the water division hasn't reached you in a few days, call us back and we'll check on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Thank you for your help, Priya. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Moniz. Stay dry out there, it looks like the rain's picking up today."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T13:37:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can hear it on the window. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T13:28:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T13:28:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-06T13:28:29-05:00",
+        "end": "2026-03-06T13:37:52-05:00",
+        "duration_seconds": 563,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T13:28:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-06T13:28:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-06T13:28:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-06T13:28:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-06T13:28:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "591d90fa-b1dc-83b9-bada-6e1cd66a378e",
+  "created_at": "2025-12-04T12:03:44-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Colin Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-04T12:02:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:02:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, it's Colin Quinn. Sorry, I'm in the truck, engine's running, so if I cut out [line breaks up] bear with me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:02:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I can hear you okay. What can I do for you, Colin?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:02:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My recycling bin got left at the curb this morning with a tag on it. Rejected. Says rejected, that's all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:02:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What's the address where the bin is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:02:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty-five Brewer Street. It's the shop, the business side. Well, it's both, but the bin's out front."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Did the tag say why it was rejected? There's usually a box checked."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:09-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Uh, Thursday, I mean, yes, it's Thursday, that's my day. [inaudible] I didn't read the little boxes. Hang on. Something about contamination, I think."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:17-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's usually things like bags inside the bin, greasy cardboard, or food containers that weren't rinsed. Crews leave it so you can pull those out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:25-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Is there a fee for that? Because I'm not paying to get my own trash looked at."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:31-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's no charge for a rejected tag that I know of. Take the items out and put it out for the next pickup."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's all I wanted. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T12:03:42-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Drive safe."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T12:02:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T12:02:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-04T12:02:32-05:00",
+        "end": "2025-12-04T12:03:44-05:00",
+        "duration_seconds": 72,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T12:02:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-04T12:02:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-04T12:02:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-04T12:02:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-04T12:02:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

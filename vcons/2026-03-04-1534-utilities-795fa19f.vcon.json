@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "795fa19f-fbe5-8df6-8925-2b8aa18a3ffe",
+  "created_at": "2026-03-04T15:38:57-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Tony Iannuccilli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-04T15:34:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:34:28-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony. Yeah, my name's Tony too, Tony Iannuccilli. So, um, I got a water and sewer bill last week, Thursday I think, in the mail. And I opened it up, and it's for a whole quarter. Which, okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:34:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, two Tonys. Sure, go ahead. What's the question on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:34:49-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So first thing, I look at the dates, and it says the service period starts in early December and goes to early March. And I'm thinking, why am I getting a bill for three months at once? My old landlord, my brother-in-law, he gets one every month or whatever. So that's what I want to know. Why a quarter, and how do you count the dates?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:35:16-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good question. Newport bills water and sewer quarterly, so every three months, that's just the cycle. The dates on the bill are the dates of the meter readings. The start date is when the last reading was taken, the end date is the most recent reading, and the usage is the difference between the two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:35:39-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. But see, that's the other thing. The meter's in the crawlspace. Under the house. Nobody goes in there. I haven't been in there in, I don't know, years. So who's reading it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:35:53-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Most likely it's a remote reader. A lot of the meters have a little transmitter on them or a unit mounted outside, so nobody has to go into your crawlspace. The meter sends the reading and we pull it on the read date. If there's no signal, the bill gets marked as an estimate. Does yours say estimated anywhere?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:36:17-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, let me look. [pause] It's got a letter next to the reading, an A, I think. Or maybe it's an R. It's small."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:36:28-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you read me the line around it? The reading numbers and whatever's printed next to them."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:36:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Present reading, previous reading, and then usage. And the letter's by the present one. I'm gonna say it's an R. Yeah, R."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:36:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "R usually means a regular reading, so that's a real read, not an estimate. An estimate would be an E."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:36:54-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it's a real number then. Good. Because I'll be honest, I figured somebody was just guessing, you know, making up a number for a house they never go in."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:37:07-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that makes sense to wonder. Since it's a read from the transmitter, it's the actual meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:37:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And the days. It says ninety-one days, or something like that. How do you get that? December to March, I count, what, ninety, give or take."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:37:26-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's just the number of days between the two read dates. Count from the previous read date up to the new one. Depending on which months are in there, a quarter can run anywhere from about eighty-nine to ninety-three days. Ninety-one is right in the normal range."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:37:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it's not a thing where you pick the day. It just falls where it falls."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:37:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it follows the reading schedule, not the calendar quarter exactly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:37:58-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Look, I'm not saying the bill's wrong. I don't want it changed or anything. I just wanted somebody to explain it so I understand what I'm paying for. I'll tell you, I was nervous to even make this call. I figured I'd get bounced around, or somebody'd get short with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:38:19-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nope, happy to walk through it. That's what we're here for. Anything else on the bill that looks off to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:38:28-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just one more. There's a line, sewer, that's about the same as the water. Is that normal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:38:35-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, sewer is generally based on the water you use, so the two lines tend to track each other pretty closely. It's common."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:38:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that I can live with. Alright, that's all I had. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:38:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Tony. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T15:38:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T15:34:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T15:34:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-04T15:34:23-05:00",
+        "end": "2026-03-04T15:38:57-05:00",
+        "duration_seconds": 274,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T15:34:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-04T15:34:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-04T15:34:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-04T15:34:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-04T15:34:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

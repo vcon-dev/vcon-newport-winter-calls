@@ -1,0 +1,631 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c22d84d1-c852-812d-8d03-efca3510733a",
+  "created_at": "2026-02-09T12:51:21-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Kwame Okafor",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:43-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. I got a reminder notice in the mail about a water and sewer bill, and I never got the original bill. Not once. So I'm trying to figure out what's going on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:56-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure, we can look at that. Do you have the notice in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:03-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. I've got the paper bill right here too, the one that came with it. Well, it's the copy, I guess. It says the bill date is January fourteenth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "January fourteenth, okay. And what name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okafor. Kwame Okafor. K-W-A-M-E, O-K-A-F-O-R."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:23-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, give me a second here. [pause] Okay, I see the account. Looks like the bill was mailed out to a different mailing address than where you are now. Does that ring a bell, like a previous place?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's my old place. I moved a few months back. So why is it still going there? I didn't change it, but how was I supposed to know it needed changing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:50-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair question. The mailing address on a utility account doesn't update on its own, even if you change it with the post office. Forwarding usually runs out after a while, and bulk mail like bills sometimes doesn't get forwarded at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:46:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but how do I know that's what happened? Because the reminder found me. The reminder came to the right place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:46:15-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that one probably went through because it was sent a different way, or somebody at the old place forwarded it. I can't see exactly which from here. What I can see is the bill went to the old mailing address on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:46:31-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not that you guys sent it wrong. It's that nobody told you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:46:37-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the way it looks, yeah. But I can fix it going forward. Do you want to give me the correct mailing address now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:46:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, but hold on. Is there a late fee on this now? Because I'm only finding out because of a reminder, so that's not really on me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:46:58-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see a reminder notice went out, so the account is showing past due. I can't waive anything myself from this desk, but I can note on the account that you never received the original bill, and you can ask for a review of any late charge. That goes to the billing supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And how do I know that note actually goes anywhere? Are you putting it in the system right now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm typing it in while we're talking. It'll be attached to your account with today's date, so anybody who opens it will see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. Let me give you the address then."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:42-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a P.O. box. Box two-one-four, Newport, Rhode Island, oh-two-eight-four-oh."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Box two-one-four, Newport, oh-two-eight-four-oh. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it. Read the zip again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, two, eight, four, zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:47:56-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, the amount. What do I actually owe? The bill I've got says one number, and the reminder says something a little different."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:48:06-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] The bill itself is the usage charge for that period. The reminder usually shows the same balance plus whatever has been added since, if there's anything. Read me the total on the bill and I'll compare it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:48:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill says one hundred eighty-six dollars and forty cents. The reminder says one hundred eighty-six forty also. Oh. Wait. They're the same. I misread it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:48:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so same on both. And right now I don't see a late charge posted yet, just the past due status."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:48:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're sure about that? No charge added?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:48:44-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nothing posted on my screen. If something shows up on the next bill, call back and we'll get the review going."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:48:53-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So here's my problem. I work overnight. I'm a security guard at an office park, so I'm asleep when you're open and at work when everybody else is awake. Is there a phone payment line that works at night? Like an automated one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:49:10-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an automated payment option by phone, and there's also online payment through the city website, and both of those work around the clock. You'd need your account number, which is on the bill you're holding."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:49:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Around the clock, meaning like three in the morning, it works?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:49:29-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, three in the morning is fine. It's not tied to our office hours. There's also a drop box at City Hall if you'd rather leave a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:49:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd rather do the phone. How do I get the number for that line? Is it on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:49:48-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be printed on the bill, usually near the payment stub at the bottom. Take a look, see if there's a line about paying by phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:49:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, yeah. There's a number and a thing that says pay by phone, twenty-four hours. Alright. I see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:50:07-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one. And the website payment info is on there too, I believe, if you'd rather skip the call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:50:15-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if the address change hasn't gone through by then, will the payment still go to my account? Because I don't want it landing on the old address or something."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:50:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The payment goes by account number, not by mailing address, so it'll post to your account either way. The address is just where the paper bill gets sent."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:50:38-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, that makes sense. So just to repeat it back. Mailing address is updated to the P.O. box, you put a note that I never got the bill, and I can pay by phone at night with the account number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:50:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's exactly it. And if you want, call back in a week or so and ask whether the new address shows on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:51:03-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I might. I just don't like finding out about a bill from a reminder. That's all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:51:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Sorry about the hassle. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:51:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:51:18-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Okafor. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:44:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:44:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T12:44:38-05:00",
+        "end": "2026-02-09T12:51:21-05:00",
+        "duration_seconds": 403,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:44:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T12:44:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T12:44:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T12:44:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T12:44:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

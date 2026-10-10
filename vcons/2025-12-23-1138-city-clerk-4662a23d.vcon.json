@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4662a23d-0fdd-89ca-a35a-09a189f53258",
+  "created_at": "2025-12-23T11:41:47-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Paulo Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T11:38:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa Delgado. Buenos días, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:38:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Is it all right if I ask something? I'm trying to reach a restaurant. Is this the, uh, the place on Thames Street?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:38:47-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, sir, this is the City Clerk at City Hall in Newport. Which restaurant were you trying to call?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:38:56-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay. So I dialed wrong. It's a seafood place, I'm supposed to put in a big order for the holiday. I have the number written down here on a receipt, it's just my handwriting is not so good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:39:14-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens. Do you know the name of it? I can't look up a business for you from here, but you could search the name on your phone, or check the receipt for the full number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:39:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is it all right if I read you what I dialed? Maybe you can tell me where I went wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:39:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:39:42-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I put four-oh-one, and then five-five-five, and the rest. But now I'm looking at the receipt and I think it says four-one-three, not four-oh-one. Is that a different area code? Is it all right if I ask where that is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:40:01-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-one-three isn't Rhode Island. That's western Massachusetts. Rhode Island is four-oh-one. So if the restaurant is here in Newport, it'd be four-oh-one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:40:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. So then which one is right? I'm not sure now. The seven could be a one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:40:19-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't tell you from here, I'm sorry. If the place is in Newport, I'd try four-oh-one first. If that doesn't connect, try the other. Or look the restaurant up online, the listing will have the right number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:40:36-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. That makes sense. I'll try four-oh-one with the digits again. I just thought, because my phone is from out of town originally, maybe I needed the different code."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:40:50-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your phone number's area code doesn't matter for local calls, you just dial the number you want. Usually you'd include the area code anyway on a cell."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. Is it all right if I say one more thing? Sorry to take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:11-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gas dropped a few cents this morning at the station by me. Made my morning, honestly. Small thing, but I noticed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'll take any good news before Christmas. Hopefully it holds."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:29-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Okay. So I will try the number again. Thank you for being patient with me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. If you need anything from City Hall, we're here. Feliz Navidad."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T11:41:44-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Merry Christmas to you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T11:38:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T11:38:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T11:38:28-05:00",
+        "end": "2025-12-23T11:41:47-05:00",
+        "duration_seconds": 199,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T11:38:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T11:38:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T11:38:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T11:38:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T11:38:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

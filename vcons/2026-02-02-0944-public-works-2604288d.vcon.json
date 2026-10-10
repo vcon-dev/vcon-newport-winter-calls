@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2604288d-ef5d-8426-81b1-a0d24ebdbfa0",
+  "created_at": "2026-02-02T09:45:46-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Marisa Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T09:44:46-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:44:49-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, it's Marisa Andrade. I'm on speaker, I've got my hands full. So my Christmas tree is still sitting at the curb. It's been out there since, what, last week? Nobody took it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Christmas tree, still at the curb. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "25 Bridge Street, down the Point. Oh, and by the way, I can't be on long, I do the phones at my kid's school office on Tuesdays, so I need to get things done today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:17-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 25 Bridge. Let me check the schedule for trees."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I mean, every other thing got picked up. Just the tree. Anyway, when's the next pickup? Is it this week or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Your regular trash day is this week, so I'll note it for the crew to grab the tree then. Leave it where it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:39-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Just so it's not out there till March. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T09:45:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Marisa. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T09:44:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T09:44:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T09:44:46-05:00",
+        "end": "2026-02-02T09:45:46-05:00",
+        "duration_seconds": 60,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T09:44:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T09:44:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T09:44:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T09:44:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T09:44:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

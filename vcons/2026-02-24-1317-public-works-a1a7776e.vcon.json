@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a1a7776e-eabe-80b7-98df-2322bd91c943",
+  "created_at": "2026-02-24T13:18:37-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Bridget Cullen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T13:17:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:17:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. I want to report a streetlight. It stays on all day, the daylight too. I see it on now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:17:48-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Where is the light, ma'am?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:17:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "At 1 Wellington Avenue. It's the pole right at the corner there. It started after last weekend's nor'easter, Saturday into Sunday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:17:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 1 Wellington Avenue. Is it the whole time, morning and afternoon?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:04-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, all day. I walk to work every morning and I pass the row of shop windows, and it is shining there bright, even at noon. [pause] Mãe, ka bu ta tende? Sorry, my sister is asking me something. Okay, I'm back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Do you want a crew to check the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, send somebody to check the pole."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in the request. Can I have your name and a number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:30-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bridget Cullen. 401-555-0183."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Cullen. It's logged."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:18:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T13:17:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T13:17:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T13:17:37-05:00",
+        "end": "2026-02-24T13:18:37-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T13:17:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T13:17:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T13:17:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T13:17:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T13:17:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4b47d843-be60-8787-bdd7-6c6b255d6e21",
+  "created_at": "2026-01-08T12:11:33-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Luz Castillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-08T12:09:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:10:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I'm calling about the water and sewer bill at 284 Dixon Street. I rent there, I'm the tenant, and my landlord says I owe it, but the account, um, it's not even in my name. [pause]"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:10:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Whose name is it under? I can look at the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:10:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's under Hector Castillo. That was my husband. He passed, and the bill never got switched over, so now the landlord is saying, hold on, honey, put that down, I'm on the phone. Sorry. So, he says it's mine to pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:10:32-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry for your loss. I'm seeing the account still listed under that name, and the bill is addressed to the property. Generally the water account belongs to whoever is responsible to the city for the property, which is normally the owner, and what you and the landlord agreed in your lease decides whether you reimburse him. That part is between the two of you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:10:53-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the city doesn't care who pays, just that somebody does? I'm not trying to change anything, I just wanted to understand whose it is. I was on my lunch hour, I usually walk down Thames Street to that little bookstore, I'm stuck on the phone instead, ha. Anyway, [crosstalk] no, wait, that's the—"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:11:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the city bills the account holder on file. Your lease is what tells you who owes the landlord. I'd check what it says about utilities."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:11:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that makes sense. So the lease. I'll look at that tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:11:24-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the place to start. If you want the account updated later, call us back and we'll walk through it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:11:31-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:09:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:09:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-08T12:09:57-05:00",
+        "end": "2026-01-08T12:11:33-05:00",
+        "duration_seconds": 96,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:09:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-08T12:09:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-08T12:09:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-08T12:09:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-08T12:09:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

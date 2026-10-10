@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1b718c30-aafe-8d5f-b2dc-f4f2d166c480",
+  "created_at": "2025-12-17T13:42:46-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Vincent Mancini",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-17T13:40:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, City of Newport Finance Department, Janet Whitcomb speaking. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:40:40-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Janet. Vincent Mancini. You know, I grew up down by the harbor, and my father used to say the only thing you could count on in Newport was weather and tickets. Well, he was right on both counts today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:40:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Are you calling about a parking ticket, Mr. Mancini?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:40:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I got one for an expired registration sticker. But I renewed the registration the day before. Tuesday. The new sticker just hadn't come in the mail yet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Do you have the ticket in front of you? I'll need the ticket number and your plate number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:14-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I got it right here. Hold on. [pause] Ticket number is four, four, seven, one, nine, two. Plate is Rhode Island, one, one, seven, Q, T."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back. Four-four-seven-one-nine-two, plate one-one-seven-Q-T. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. You may contest the ticket by submitting a written appeal. You would include a copy of your renewal receipt showing the date it was processed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:39-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the receipt, it's dated Tuesday. How long does the appeal take, once I send it in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:46-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally a couple of weeks for review, sometimes longer when the office is busy. You'll receive a written decision by mail. In the meantime, the ticket is noted as under appeal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:41:56-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I don't have to pay it while I wait."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:00-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, as long as your appeal is submitted within the deadline printed on the ticket. Please check that date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. Yeah, it's got a date on the back. I've got time. Sorry, my granddaughter's here, she just came in from school with a backpack so heavy it tips her sideways. I told her to put it down before she falls over."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Would you like me to take down a mailing address for the appeal, or do you have the one printed on the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's printed on the ticket, I see it. Good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:38-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all. Thank you, Janet. Stay dry out there with this rain."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:42:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Mancini. Good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T13:40:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T13:40:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-17T13:40:34-05:00",
+        "end": "2025-12-17T13:42:46-05:00",
+        "duration_seconds": 132,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T13:40:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-17T13:40:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-17T13:40:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-17T13:40:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-17T13:40:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

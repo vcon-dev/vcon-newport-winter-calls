@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2a651ba8-e52f-8ea7-8b00-2a83301cbc35",
+  "created_at": "2026-03-06T10:30:15-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Ana Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-06T10:27:36-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:27:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, yeah, I'm calling about a water and sewer bill. I manage a few units and I'm looking at one of the statements and it's not making any sense to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:27:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, happy to walk through it. What's confusing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:27:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The sewer charge. It's higher than the water charge. How is that possible? The sewer is just what goes down the drain, right? We use the water first. So why would the sewer be more?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:02-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question, a lot of people ask that. The sewer line is billed based on the water that comes through the meter, but the sewer rate is usually set higher than the water rate, because it covers treatment and the pipes that carry it away. So same gallons, different rate per unit, and the sewer side can come out bigger."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So it's not that they measured something else."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, same usage number. Just a different rate applied to it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Oh, and by the way, I just switched jobs a couple weeks ago, so I'm still figuring out where everything is with these accounts. Nobody left me any notes. So bear with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all, that's what we're here for."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Okay, so back to the sewer thing, I still don't love it, but fine. Can you send me a duplicate copy of the bill? By email? The paper one went to the old office, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can do that. What's the account name or the service location so I can pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:28:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the account is under the property company, hold on, I've got a folder here. [pause] Okay, it's under Silva Property Management. And the email, do you have it on file or do I give you one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:06-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see an old one on the account. Let's give me the one you want to use, and I'll update it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll spell it out for you, but wait, can I ask one more thing first? Oh, this rain is just pouring out here, sorry, I'm in the car."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, it's coming down today. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, the office closes at four thirty, right? Is there a way to pay by phone after four thirty? Because I never get out of the other building before then."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is. You can pay online anytime through the city's website, and there's also an automated phone payment line that works after hours. There's a drop box at City Hall too for checks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The phone line, okay, that's what I want. Is that on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:46-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be printed on the statement, and I'll make sure the emailed copy has it. Go ahead with that email address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:29:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, ready? It's ana dot silva, then the word properties, at a mail dot com, spelled with a g, m, a, i, l. Sorry, gmail."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:30:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, ana dot silva properties at gmail dot com. I'll send it over in a few minutes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:30:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks, Tony. I still think that sewer number is crazy, but at least I get it now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T10:30:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Have a good weekend, stay dry."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T10:27:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T10:27:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-06T10:27:36-05:00",
+        "end": "2026-03-06T10:30:15-05:00",
+        "duration_seconds": 159,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T10:27:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-06T10:27:36-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-06T10:27:36-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-06T10:27:36-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-06T10:27:36-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

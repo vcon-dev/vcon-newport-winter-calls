@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "28373179-91bc-8f22-b882-287437a42724",
+  "created_at": "2025-12-02T14:38:11-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Patrick Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good afternoon. Um, I'm calling about my property tax, you know, the bill. I'm not sure I understand where I stand on it. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. May I have the property address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:39-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 75 Broadway. Up the North End. Seventy-five, yeah."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:46-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Patrick Quinn. Q-U-I-N-N. I mean, it's under my name, I believe, I've been there a long time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:33:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Quinn. One moment while I pull up the account. [pause] All right, I have it in front of me. What would you like to know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:34:02-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, what I want to know is when the next installment is due. Because I paid, I think it was the one in the fall, and now I'm looking at this paper and I can't tell if that's the next one or the one I already paid. You follow me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:34:19-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. The property tax is billed in quarterly installments. The first quarter was due in the summer, the second in the fall, and the third is due in the winter, in the new year. Your account shows the second installment as paid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:34:34-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So the winter one. When in the winter? Like, is it January?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:34:39-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The third installment is due in early February, I'm afraid I'd want you to check the due date printed on your bill, which will show the exact day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:34:49-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, but that's the thing, I mean, I don't have the bill. Or I have the one, but I think it's the old one, the one I paid. I can't find the new one. You know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:35:01-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Then the bill you have is most likely the second-quarter notice. The third-quarter bill is typically mailed out ahead of the due date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:35:10-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's mailed. Okay. And do you send a reminder? Like if I don't pay, do I get a, a reminder in the mail? Because I don't want to miss it, right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:35:21-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The installment bill itself is the notice. A bill is mailed to the owner of record for each quarter. If a payment is past due, a delinquency notice may follow, but I would not rely on that in place of the bill. It is the owner's responsibility to make the payment by the due date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:35:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So no separate reminder, just the bill. Right. I mean, that's what I thought, but my daughter-in-law, no, never mind. So just the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:35:48-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:35:50-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so can you send me a duplicate? Of the bill? Because if the new one doesn't come, or I lose it, you know, I'd like to have one in my hand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:01-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can request a duplicate copy of the current bill. It will be mailed to the address on file. Is 75 Broadway the mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:10-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Same. 75 Broadway. Right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Would you like a callback number noted on the request in case there is a problem with it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure. It's 401-555-0195."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, 401-555-0195. The duplicate should arrive within about a week to ten days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:27-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week to ten days. Okay. And that one will say the due date, the February one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:33-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It will show the installment due and the due date, yes. If it shows an amount you do not expect, call us back and we will review it with you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, wait, I want to make sure. The one I paid, that's the, the second, the fall one. And this next one is the third. Not the fourth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, Mr. Quinn. Second paid, third is next. The fourth comes in the spring."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:36:59-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Good. I get mixed up, you know, with the numbers. Hey, can I say something? My friend, he told me there's a trick to calling here so you don't wait forever on the phone. Like a certain time, or a certain button. Do you know what he means?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:37:16-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am not aware of a particular trick. Generally the lines are busiest right after the offices open and around the due dates, so mid-morning or mid-afternoon on a weekday tends to be quieter. You did not have a long wait today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:37:30-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I didn't. Maybe that's it, then, the afternoon. Right. He said something about pressing zero, I don't know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:37:37-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't speak to that. If you reach the main line, the operator can direct you. Is there anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:37:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. So the duplicate in the mail, a week, ten days, and the next one is February, and no reminder. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:37:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is right. Please check the date on the bill when it arrives."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:38:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you very much, Miss Whitcomb. I think I've got it. More or less."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:38:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Quinn. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:33:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:33:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T14:33:20-05:00",
+        "end": "2025-12-02T14:38:11-05:00",
+        "duration_seconds": 291,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:33:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T14:33:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T14:33:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T14:33:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T14:33:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

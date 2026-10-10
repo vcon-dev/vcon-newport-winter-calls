@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "973d5535-90a4-87f3-806e-fe7f5c82f19b",
+  "created_at": "2026-01-09T09:37:27-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Gerard Brennan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-09T09:32:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:32:58-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi, good morning. Gerard Brennan. I got a shutoff warning in the mail, a pink notice, and I need to know how much time I have before they actually shut it off. Because that's not okay, I've never been late."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:33:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Let me pull up your account. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:33:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "216 Malbone Road. North End. Brennan, B-R-E-N-N-A-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:33:25-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Brennan. I have it here. The last bill is flagged as past due, and the notice you have should list a date. Can you read me the date on the notice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:33:39-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I got it right here. Um, my niece was over and she asked me to read her homework aloud first, her spelling words, so I had the mail all mixed in. Okay. It says January twenty-third."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:33:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matches what I see. So you have until the twenty-third, which is two weeks from today, before the account is eligible for shutoff."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:34:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two weeks. Okay. So they're not coming Monday or anything. That's okay? I can count on that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:34:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, nothing happens before that date. Now, the bill itself is quite high compared with your usual. Do you know why?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:34:22-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's why I'm calling! It's wrong. Last month the toilet was running constantly, running and running, I didn't catch it for weeks. I fixed it, the flapper thing, it's fine now. But the bill is huge, three times what I normally pay. For water I never used on purpose."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:34:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would explain the spike. A running toilet can use a great deal of water, and the meter registers all of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:34:52-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, but it went down the drain, it's sewer too, right? They charge sewer on it? That doesn't seem fair, it's not okay to charge me for sewer when it's just leaking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:35:06-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sewer is billed on the water that passes through the meter, so yes, it's included. What I can do is note the repair on the account and send it to the billing supervisor for review of an adjustment. I can't promise the outcome, but a documented repair helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:35:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So you'll flag it. And the shutoff, that's held while they look?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:35:32-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put a note requesting a hold on the shutoff while the review is pending. If you can, send or bring in the plumber's receipt or a repair receipt for the part. Did you buy the part at a store?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:35:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did it myself. I have the receipt from the hardware store somewhere. I'll find it, I'll find it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:35:58-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Keep it, and a photo of it is fine too if you have a way to send it. Otherwise bring it to City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:36:09-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll bring it. Now, I want a corrected bill mailed to me. A new one, in writing, so I have it. Not just a phone call. Can you do that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:36:22-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once the review is done and an adjustment is made, a corrected bill will be generated and mailed to the address on file. Is 216 Malbone Road still your mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:36:35-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, same. Same address. And if they need to reach me, it's 401-555-0191."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:36:41-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0191. I'll put that in the note."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:36:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the twenty-third, you're sure. Because I'd hate to find the water off. With the storm coming in today and all."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:36:56-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sure about the date on the notice, Mr. Brennan. And the hold request will be on the account today. If anything changes, you'll hear from us."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:37:08-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, good. That's okay then. Thank you, Priya, I appreciate it, even if I'm still annoyed about the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:37:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Stay safe out there today, and bring that receipt in when you can."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T09:37:24-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T09:32:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T09:32:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-09T09:32:53-05:00",
+        "end": "2026-01-09T09:37:27-05:00",
+        "duration_seconds": 274,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T09:32:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-09T09:32:53-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-09T09:32:53-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-09T09:32:53-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-09T09:32:53-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

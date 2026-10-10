@@ -1,0 +1,547 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5c1d41a3-2581-81f5-baae-1b07581e22e8",
+  "created_at": "2026-01-06T12:29:15-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Timothy Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T12:23:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:23:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Hi. My name is Timothy Wilcox. I want to ask about a fence. I get a quote from a fence company and I want to check before I sign."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:23:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. Are you still there? You cut out a little at the start."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I am here. Cell phone is not so good in my kitchen. Can you hear me now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you. So, a fence. Tell me about what you're planning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:14-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I plan composite fence. Whatever is allowed tall. The company say six feet is okay, but I think maybe they just say that to sell me. So I ask you. Do I need to pull a permit before the guy starts? Before the guy starts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, yes, a fence usually needs a permit here, and you'd want that in hand before any work begins. Can I get the address so I can look at the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Three oh one Mill Street. Three zero one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three oh one Mill Street, that's up on the Historic Hill. Okay. Is the fence going along the side, the back, or the front of the lot?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:24:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sides and back. Not the front. Maybe one small [line breaks up] near the side gate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you broke up on the last part. Maybe one small what near the side gate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:07-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One small section, near the side gate. Gate part, a little different."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:12-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So sides and back, with a gate. Because you're in the Historic Hill area, there can be extra review depending on what's visible from the street. Since you're staying off the front, that helps, but I'd want the zoning office to look at your plan."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:28-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Extra review. What is this, extra review? I need to fill another form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:33-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Possibly. It depends on the location of the fence and the district. What I'd suggest is you submit the permit application with a simple sketch of the lot showing where the fence goes, and the staff will tell you if anything else is needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sketch. Okay. I draw it myself? Or the fence company draw it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:25:53-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one is fine. Many fence companies will do it as part of the job. Just make sure it shows your property lines and the fence run, and the height and material."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:26:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, height and material. Six feet, composite. Now I ask another thing. Do I need a survey? A survey, for the lot?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:26:12-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good question. A survey isn't always required, but it helps a lot, because the fence has to sit on your side of the line. If you already have a survey from when you bought the house, bring that. If not, the office can tell you whether they'd want one for your lot."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:26:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think I have paper from the closing. Maybe it is a survey, maybe not. I do not know the difference. Is it a drawing with the numbers?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:26:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually yes, it's a drawing of the lot with measurements along each boundary, and it's often stamped by a surveyor. Look through your closing papers for that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:26:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, the drawing with numbers, and stamp. I look. And the fence company, they can start if I sign the quote?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:26:58-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd hold off on starting any work until the permit is approved. You can sign the quote, but I'd ask the company to put in the contract that the work begins after the permit. Does that make sense?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:27:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, sorry, say again. I sign, but work begin after permit. Not before."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:27:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Sign if you like, but nothing gets built until the permit's approved."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:27:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. Now I understand a little. Who pulls the permit, me or the company?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:27:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either can, but since you're the owner, the permit is tied to you. Some companies handle the paperwork for you. Ask them whether that's included in the quote."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:27:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, so maybe they do it. I ask. Because honestly I think six feet, maybe the rule is lower. Is six feet okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:27:45-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For side and back yards, six feet is commonly the limit, but I don't want you to rely on me for the exact number on your lot. The zoning staff will confirm it when they review your application. I can give you the zoning office's direct line if you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:28:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes please, or you can send somebody to call me? My number is four zero one, five five five, zero one seven six. Zero one seven six."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:28:12-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, four zero one, five five five, zero one seven six. I'll leave a note for the zoning officer to call you about the height and the review question. Is there a good time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:28:24-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Afternoon is better. Morning I am out in the yard, even in winter, I am cleaning things. In summer I keep bees, so the fence also, I want it for the hives. Dreaming of honey, you know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:28:37-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, nice. Well, afternoon it is. Just so I have it right, you're at three oh one Mill Street, six-foot composite fence on the sides and back with a gate, and you want to know about height, historic review, and whether you need a survey."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:28:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, correct. Height, review, survey. And permit first, then the guy starts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:28:58-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Permit first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:29:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I still am a little not sure about the survey, but the zoning person will tell me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:29:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They will. Thanks for calling, Mr. Wilcox. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:29:13-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Bye bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:23:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:23:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T12:23:39-05:00",
+        "end": "2026-01-06T12:29:15-05:00",
+        "duration_seconds": 336,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:23:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T12:23:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T12:23:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T12:23:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T12:23:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

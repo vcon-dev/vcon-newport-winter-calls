@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cd8af429-ae54-8612-bc2a-30aa98bb207c",
+  "created_at": "2025-12-18T12:03:32-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Peter Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:20-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I'm calling about a streetlight? It's like, flickering on and off. It did it all night, through the whole rain."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, all night flickering. Can you tell me where the light is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's at 212 Malbone Road, in the North End. The pole's right out front by the curb, totally visible from the street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:41-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "212 Malbone Road. And it's the pole at the curb in front of the house, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's the one. Could you send a crew to check the pole? Like, make sure it's not a wiring thing with all the wet?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:02:55-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in a request for a crew to look at it. With the rain wrapping up today they may be busy, but it'll be logged. Is there a number on the pole, a little tag or sticker?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:07-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I'd have to go look. I can't see it from here. I walk around town photographing old doorways, so I'm out there a lot, I can check on my way out? But the address should do it, right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The address is fine. If you do see a number, call back and we'll add it. Can I confirm your number as 401-555-0195?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:26-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it. Thanks so much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Tillinghast. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:02:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:02:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T12:02:20-05:00",
+        "end": "2025-12-18T12:03:32-05:00",
+        "duration_seconds": 72,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:02:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T12:02:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T12:02:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T12:02:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T12:02:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

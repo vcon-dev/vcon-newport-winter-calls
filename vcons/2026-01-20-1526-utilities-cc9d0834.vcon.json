@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cc9d0834-3e55-8f03-9385-064bd5cf7e98",
+  "created_at": "2026-01-20T15:30:59-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Hector Rivera",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-20T15:26:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:26:34-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Priya, Hector Rivera. I'm on speakerphone, I'm in the shop, so bear with me if there's noise. I'm calling about my water and sewer bill at 288 Kingston Avenue. It came in about double what I normally pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:26:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. Can you give me the address again, just the number and street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:26:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "288 Kingston Avenue. Up on the Hill. It's a commercial account, the shop is on the ground floor."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:27:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I see the account. What were you expecting to see, and what did the bill say?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:27:13-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually it's right around, um, a hundred and eighty, maybe a hundred and ninety. This one is, let me look, three hundred and seventy-one. Dated January ninth, I received it the thirteenth. Sorry, the twelfth. It was a Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:27:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I'm looking at the statement now. The usage line shows a higher reading than the previous period."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:27:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the thing. It says consumption, and then a number. I don't know what that means exactly. Can you explain consumption to me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:27:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Consumption is just the amount of water that went through your meter during the billing period. It's measured in units, and the charge is based on how many units were used."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:27:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's not a fee, that's the actual amount of water."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:28:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, it's the amount the meter recorded. The sewer part is calculated from that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:28:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Well, I didn't use double the water. Nothing changed in the shop. Same hours, same two employees, same sink and one restroom. Is there a way it was misread?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:28:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can happen. Was the reading on this bill an actual reading or an estimate? Let me check. [pause] It shows as an actual reading from the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:28:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not estimated. Okay, so that's no, it wasn't a bad estimate. Wait, you said it is an actual reading, yes. I'm sorry, I thought you said it was estimated. The speaker cuts out sometimes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:28:46-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Actual reading, not an estimate. If you think the meter is off or there's a leak, I can put in a request for someone to recheck the meter. It's also worth checking toilets and faucets for running water."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:01-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did check the toilet already, Sunday night. Dye tablet, nothing. I'd like the meter rechecked. I think that's reasonable for double."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can submit that. I'll need a good callback number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:15-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0181."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one eight one, thank you. I'll note it's the commercial account at 288 Kingston and that you're requesting a meter recheck because the usage doubled."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. And does the bill still come due while that's pending? It's due the, uh, the second of February I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] The due date is February second, yes. I'd suggest paying what you can, or ask when the recheck is scheduled, and any correction would be adjusted afterward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:29:47-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Another thing, I'm at the shop till six most days and I'm never able to get to City Hall before it closes. Is there a drop box at City Hall where I can leave a payment after closing time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:02-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a payment drop box at City Hall. You can leave a check in it with your account number on it. You can also pay online through the city's website at any hour."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a check in the box with the account number. Is the box outside, by the front door?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's outside, so you can use it when the building is closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'm annoyed about all this, honestly. Double for no reason, and now I have to pay it before anyone looks at the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:38-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I've put the recheck request in, and someone from the meter side should call you at that number. If you don't hear back within a few days, call us and reference the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:52-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thanks, Priya. I'll watch for the call."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T15:30:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Rivera. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T15:26:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T15:26:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-20T15:26:29-05:00",
+        "end": "2026-01-20T15:30:59-05:00",
+        "duration_seconds": 270,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T15:26:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-20T15:26:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-20T15:26:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-20T15:26:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-20T15:26:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

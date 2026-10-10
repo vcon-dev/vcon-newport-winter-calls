@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "398b4337-6ed4-8a3a-a534-78d8f1c8da32",
+  "created_at": "2026-01-06T09:37:12-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Tito Varela",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T09:32:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax office, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:32:50-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. I got my tax bill in the mail, and I think, um, the number on it is wrong. Well, not the amount. The, uh, the size of the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Could I have the property address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I been there thirty years. Since the, no, sorry. It's 221 Gidley Street. Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tito Varela. V-A-R-E-L-A. Sorry, hold on, I'm on the speaker here, I'm rinsing out the coffee pot. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you, though there's water running. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. Turning it off. There. So the bill says the house is, let me find it, twenty-eight hundred square feet. My house is not twenty-eight hundred. It's a little house. Maybe half that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mr. Varela, I have your record in front of me. The assessor's card does show the figure you're describing. Where did you get your own number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:33:50-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "From the, well, the bill, that's what I just said. No, wait. You asked where I got mine. From when I bought it. I have the paper from the closing somewhere. It says fourteen hundred something."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fourteen hundred something. Do you have the exact figure?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not in front of me. I could go look. Is that the part that makes the tax go up? The square feet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:15-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The assessed value is based on the property record, and the square footage is one part of that record. I can't tell you from here how much a correction would change your bill. That is determined by the assessor's office."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not you who fixes it. It's somebody else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:33-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. Finance bills the tax, but the assessor maintains the property data. I can note your call and send it over, and you would want to bring in whatever documents you have."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What documents? The closing paper? Or, I got a floor plan from when I did the porch. Is that, would that be the one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:34:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either could be helpful. Whatever shows the measurements of the finished living area. If the porch was enclosed, the assessor may want to know that as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:35:04-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the porch is not enclosed. It's, it has screens. Is that enclosed? I don't think that's enclosed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:35:11-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A screened porch is generally described differently from heated living space. The assessor's office can sort that out when they review it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:35:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And do I pay the bill in the meantime? Or I wait? I don't understand how that works when it's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:35:27-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill remains due by its due date while a question is under review. I would not hold off on that based on this call. If a correction is made, the assessor's office will advise you how it is handled."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:35:41-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So I pay for a house I don't have, and maybe get it back. Okay. I guess I got that. Sorry, I'm just trying to get it straight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:35:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's understandable. I'll document that you dispute the square footage, and I'll forward it to the assessor. Would you like a confirmation of this call sent to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, by email. Can you email it? I don't like when it's only a phone call and then nothing, you know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. What email address would you like to use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:13-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, um. It's, hmm, the one on file, I think? You should have it. I gave it when I signed up for the water thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:22-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see an email on the account. I'll read back the first part only. It begins with the letters T-V-A. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "T-V-A, yes, that's the one. Not the old one. That one I don't use anymore. Okay, good."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:38-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. It will state that you reported the square footage as incorrect and that the matter was referred to the assessor. Please keep your closing papers and floor plan handy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:49-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I send them to who? Or I bring them? I forgot already, sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:36:55-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You may bring them to City Hall, to the assessor's office. The confirmation email will include that instruction as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:37:03-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. Thank you, Miss Whitcomb. I think I got it. Mostly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T09:37:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Varela. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T09:32:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T09:32:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T09:32:44-05:00",
+        "end": "2026-01-06T09:37:12-05:00",
+        "duration_seconds": 268,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T09:32:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T09:32:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T09:32:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T09:32:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T09:32:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

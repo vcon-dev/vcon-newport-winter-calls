@@ -1,0 +1,583 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9f743077-b7ea-842e-87ba-55fdfd6b166e",
+  "created_at": "2026-01-26T13:44:43-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Ellen Hazard",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T13:33:36-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:33:45-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, so the certificate came back and the last name is spelled wrong. It says Hazzard with two Z's, and it's Hazard, one Z. I need that fixed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:34:05-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's back up a second. Which certificate are we talking about? Birth, marriage, death?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:34:16-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sorry. Birth certificate. Mine. I ordered a copy last week, and that's when I saw it. The spelling's wrong on the original, I guess, because the copy matches."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:34:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And you were born here in Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:34:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, at the hospital here. My parents still have the hospital paperwork, and that one spells it right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:34:57-05:00",
+      "duration": 39,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that can help. So what you're asking for is a correction, an amendment to the record. Normally you'd fill out an application for correction, and you'd need supporting documents that show the right spelling, made close to the time of birth if possible. Things like that hospital record, a baptismal record, early school records."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:35:36-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Would my passport work? That one is spelled right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:35:44-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A passport helps as proof of how you use your name now, but for correcting a record from birth they usually want something older. Bring it anyway, along with whatever early documents your parents have."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:36:09-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And what ID do I bring? Just my driver's license?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:36:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I mean, is a license enough, or do you need two things?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:36:27-05:00",
+      "duration": 35,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A current photo ID is the main thing, so your license is fine. If you have the passport, bring that too, since it's another form of ID and it helps with the spelling. If one of your parents comes in on your behalf, they'd need their own ID as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:37:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I'll come myself. I'm over twenty-one, obviously. Do I need an appointment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:37:12-05:00",
+      "duration": 32,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No appointment for this. Just come to the counter during regular hours. Fair warning, with the storm today, the snow turning to rain, the roads are a mess, so you might want to wait a day or two unless you have to come right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:37:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I saw that. It's wet out there. I'll probably come Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:37:53-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Wednesday we're open regular hours. Do you want me to tell you what the application looks like, or would you rather get it when you're here?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:38:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you tell me now? Then I can fill it out ahead of time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:38:24-05:00",
+      "duration": 41,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It asks for your name as it appears on the record, the name as it should read, your date and place of birth, your parents' names, and then a list of the documents you're attaching. It has to be signed, and the signing is done in front of a staff member here, so don't sign it at home."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:39:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, don't sign it. Got it. Is there a way to print it off the website?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:39:17-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe the form is on the city's site under the clerk's page, but it's easier to just pick one up here if you can't find it. Either way, leave the signature line blank."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:39:41-05:00",
+      "duration": 36,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. How long does it take after that? Because the, um, the reason I'm asking is I'm trying to get the name matching with Social Security. My pension check comes on the third of every month, and I don't want anything held up on the third because the names don't match."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:40:17-05:00",
+      "duration": 35,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can't tell you how long the state side will take, because corrections to a birth record go through the state vital records office as well. What I can say is that it's not instant. It won't be done before the third of next month, most likely."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:40:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it could be a few weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:40:58-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be a few weeks, yes. If the pension is paid under the name as it is on file with that agency, it's probably worth calling them separately and asking whether the spelling difference matters to them in the meantime."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:41:27-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll do that. So Wednesday I bring the license, the passport, and whatever the hospital record is. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:41:42-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anything else early with your name on it. A school record, a baptismal certificate, a vaccination card from childhood. The more the better. And bring the certificate that has the wrong spelling too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:42:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The copy I just got?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:42:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that copy. We'll want to see exactly what it says."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:42:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is there a fee for the correction?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:42:24-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be a fee for the application and for new certified copies. I don't have the exact amounts in front of me, so ask when you come in and the counter staff will tell you before you do anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:42:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And what's the hours on Wednesday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:42:58-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open during regular weekday business hours. It's best to come in the morning or early afternoon so you're not rushed, especially if you want to go over the documents with someone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:43:21-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll aim for the morning. Is it the first floor at City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:43:32-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, come in the main entrance and the clerk's counter is right there. Tell them you're there about a correction to a birth record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:43:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Do I need the callback number or anything on the form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:43:59-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's usually a line for a contact number. Do you want me to make a note on my end that you called?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:44:15-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0188."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:44:18-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0188, Ellen Hazard, one Z, birth record correction, coming Wednesday. I'll put that in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:44:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. That's everything. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:44:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Drive carefully today, it's slick out there. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:44:41-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T13:33:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T13:33:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T13:33:36-05:00",
+        "end": "2026-01-26T13:44:43-05:00",
+        "duration_seconds": 667,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T13:33:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T13:33:36-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T13:33:36-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T13:33:36-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T13:33:36-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

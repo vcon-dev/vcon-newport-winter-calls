@@ -1,0 +1,595 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a3125ebd-35fc-8461-a077-1bcbe2bb22a8",
+  "created_at": "2026-01-21T16:08:08-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Gino Barone",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-21T16:00:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:00:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, yeah, good afternoon. My name is Gino Barone. I'm calling for my mother, actually. It's her water and sewer bill. Um, I got it here somewhere. Hold on. [pause] Okay. So she got a late fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:01:09-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a late fee on the water and sewer. Do you have the account number or the service address handy? Either one works."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:01:18-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The address, yeah. It's 241 Old Beach Road. Down by Easton's Beach, you know, near the end there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:01:25-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 241 Old Beach Road. Let me pull that up. And what name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:01:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's under my mother's name. Lucia Barone. And I'm Gino, the son. Is that okay that I'm talking to you? I don't know how this works."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:01:42-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look at the account and tell you what's showing. Let's see here. Okay, I see the last quarterly bill, and I do see a late charge posted on it. What's got you wondering?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:01:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, she mailed the check. On time. She says she put it in the box, the blue one, the mailbox, a good week before it was due. So why is there a late fee? I don't get it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:02:09-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So what I'm seeing is the payment was received after the due date. It's dated the day it came in to us, not the day it was mailed. Do you know roughly when she mailed it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:02:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She said the first week of the month. Or, wait. Was it the second week? [laughs] See, this is why I'm calling. I'm sixty-something and I can't keep track of what I had for lunch."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:02:36-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. Here's how it generally works. The due date is when the payment has to be here at City Hall, not when it goes in the mail. So if the mail was slow, or the check sat somewhere, it can land after the date even if she sent it early."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:02:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So it's not the postmark? I thought the postmark counted. Like with taxes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:03:01-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know, that's what a lot of people think, because of the federal taxes. For the bill, it's the date we receive it. That's the general rule anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:03:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So wait, then she did nothing wrong, but she still owes the fee? Or does she not owe it? I'm confused now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:03:21-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the fee is on the bill right now, so as it stands she'd owe it. But if she wants to ask for it to be looked at, I can put a note on the account and send the request over to the billing supervisor. They're the ones who decide on removing a late charge."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:03:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, you can do that? Yeah, please. Do that. What do I have to say?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:03:47-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just what you told me. She mailed the check early, she's a regular on-time payer, and she'd like the late fee reviewed. If you have the date on the check or the check number from her checkbook, that helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:04:01-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll have my daughter look. She's the one who helps Ma with the bills. Her name is Gina. Gina, Gino. [laughs] Yeah, I know. Everybody gets us mixed up. Anyway, she wants to be, what's the word, authorized. So she can call you and not have me do it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:04:19-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that makes sense. For that, your mother would need to give us permission in writing, naming your daughter. Easiest is a short signed note with the account address, your mother's name, and your daughter's name and phone number. She can mail it or drop it off."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:04:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A note. Okay. Does it have to be a special form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:04:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A plain signed letter is usually fine. If there's a form, the front counter can give you one, but I'd start with the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:04:50-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. And can I ask, how does she pay this? Like, Gina works all day, and I do too, and City Hall's hours, they just don't fit. I was thinking she could pay online, from her desk on her lunch break. Is that a thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:05:07-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, you can pay online. There's a payment page on the city website, under the water and sewer billing. You'd need the account number from the bill and then a card or a bank account. It works any hour, so lunch break is fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:05:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Any hour. Even at night?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:05:26-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Any hour. And there's also a drop box outside City Hall for checks if you'd rather do that on your way by. Just make sure the check gets in well before the due date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:05:39-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that's smart. Not the mailbox. [laughs] I'll tell Ma. She likes her checks though. She doesn't trust the computer."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:05:47-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, the drop box is good for her then. Gina can do the online side once she's authorized."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:05:55-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Now, one more thing, and this is embarrassing. I sent Gina a text this morning about all this, and my phone autocorrected a word. I meant to write, um, that the city was being, what was it, \"reasonable.\" And it came out as something rude. Really rude. She called me right away. [laughs] I'm telling you, I almost died."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:06:17-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh no. Those autocorrects get everybody. I hope she took it well."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:06:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She did, she laughed. But anyway, where was I? The note. The letter. And the check number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:06:29-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So here's what I've got. I'm putting a note on your mother's account to review the late fee because she says she mailed the check early. Supervisor will take a look. And for Gina, a signed letter with the details."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:06:44-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And then somebody calls us back? Or do we get a letter? Or does the bill just change?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:06:51-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably you'd see it on the next bill if they take it off, or someone may call. I can't tell you which. If you want, give me a number and I'll put it on the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0161. That's the house, my mother's line, but I'm there a lot. And Gina's at work during the day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0161. Got it. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. Let me think. Do I have to pay the fee now while it's being reviewed? Or just the bill part?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I'd pay the regular amount so nothing else gets behind, and the fee can be sorted out by the review. If it gets removed, it'll show as a credit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A credit. Okay. That I understand. Sort of. [laughs] So I pay the bill part, and the fee is on hold. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pretty much. The fee stays on the account while they look at it, but you're not holding up the main charge."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:07:53-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Tony. You were real patient. I'll get Gina to write the letter, and I'll find the check number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:08:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good, Mr. Barone. Take care, and have a good evening."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T16:08:06-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T16:00:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T16:00:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-21T16:00:50-05:00",
+        "end": "2026-01-21T16:08:08-05:00",
+        "duration_seconds": 438,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T16:00:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-21T16:00:50-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-21T16:00:50-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-21T16:00:50-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-21T16:00:50-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

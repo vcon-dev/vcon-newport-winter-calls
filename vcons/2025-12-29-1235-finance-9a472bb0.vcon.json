@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9a472bb0-a1b4-8675-87b8-45e796e8d7cb",
+  "created_at": "2025-12-29T12:37:39-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Nadia Cohen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T12:35:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, parking violations, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:35:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes. I got a parking ticket on my car. I want to ask about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:35:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Do you have the ticket in front of you? I'll need the ticket number or your license plate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:03-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it. The plate is... one moment. [pause] Okay. It is a ticket for the snow. I parked on the street, and it says no parking in the snow emergency."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:13-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Thank you. I have it here. It was issued last Thursday. The fine is listed on the notice."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:19-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I see the amount. But on the paper, it says the fine will go up. How much does it double to? And when?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:26-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it's not paid within the stated period on the notice, the fine doubles. That period is twenty-one days from the issue date, per what's printed on your ticket. So the amount would be twice the original."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty-one days. Twice. Okay. Can you say again, please? Twice the amount on the paper, after twenty-one days from Thursday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "From the date of issue, yes. That's correct."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:46-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. Another thing. This is my first ticket. Never before. Can the first-time fine be waived? Because I did not know about the snow rule that night."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:36:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is an appeal process. You can submit a written request for review, and a hearing officer decides. I can't tell you the outcome in advance, and I can't waive it over the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:37:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. I am annoyed, because I watch the snow. I write the snowfall totals in a notebook for many years. But that night, nobody told me it was an emergency."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:37:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. If you'd like to appeal, I can mail you the form, or you can pick one up at City Hall during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:37:22-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please mail it. I will give the address. It is..."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:37:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Actually, ma'am, we have the address on file with your registration. I'll send it there. Is the best number for you 401-555-0152?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:37:33-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is my number. Thank you. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:37:36-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:35:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:35:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T12:35:48-05:00",
+        "end": "2025-12-29T12:37:39-05:00",
+        "duration_seconds": 111,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:35:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T12:35:48-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T12:35:48-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T12:35:48-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T12:35:48-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

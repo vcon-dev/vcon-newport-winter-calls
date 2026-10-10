@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "959e7dba-c2a9-8726-be01-3a5aef49400c",
+  "created_at": "2026-02-04T09:53:13-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Timothy Gifford",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-04T09:51:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:51:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Yes, I am calling about the Christmas tree pickup. Mine is still sitting at the curb. It is February already."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:51:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'm sorry about that. So your Christmas tree was put out for pickup and nobody took it. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:05-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct. And this is the second miss in a row. They skipped it the first week, and then again last week. I put it out both times, on the right day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:16-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, second time it's been missed. Did you have it out by the curb, not in a bag?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No bag, no. Just the tree, with the stand taken off. I read the instructions. I am careful about these things."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:29-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds right. Let me put in a request so a crew comes by for it. Can I get your name and the street where it's sitting?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Timothy Gifford. But I do not want to give the address on this phone. You can call me at four-oh-one, five-five-five, zero-one-six-five."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Timothy, four-oh-one, five-five-five, zero-one-six-five. I'll note that and have someone call you back for the location."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:52:52-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. It is a little frustrating, you understand. My parents just moved in with us from Florida, and the house is already full. A tree on the curb does not help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:53:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. We'll get that flagged today and someone will be in touch."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:53:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Lorraine. God bless you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T09:53:11-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Timothy. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T09:51:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T09:51:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-04T09:51:46-05:00",
+        "end": "2026-02-04T09:53:13-05:00",
+        "duration_seconds": 87,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T09:51:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-04T09:51:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-04T09:51:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-04T09:51:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-04T09:51:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

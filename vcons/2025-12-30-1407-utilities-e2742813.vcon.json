@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e2742813-6bdd-8c43-815a-16f62e312c36",
+  "created_at": "2025-12-30T14:12:14-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Peggy Lynch",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T14:07:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Department, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:07:14-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, yes, good afternoon. I am calling about my water and sewer bill. I got it in the mail and something is not right, I think. You can hear me okay? I am on the speaker."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:07:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Go ahead. What's the address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:07:32-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four seventy Chapel Street. Peggy Lynch is the name. Okay, so the bill has two lines, water and sewer. The sewer is more than the water. How is that possible? I use the water, the sewer I don't use, it is just going away. Why I pay more for that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:07:49-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that one trips up a lot of people. The sewer charge isn't based on a separate meter. It's calculated off the water you use, so whatever comes in through the meter is treated as going back out to the sewer. And the sewer rate per unit is higher than the water rate, because of the cost of treating it. So the sewer line can come out bigger even though it's the same usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:08:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same usage, but bigger. [pause] Hm. So it is not a mistake, it is just the rate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:08:21-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it's the rate applied to the same number. If you want, I can look at your last reading and make sure the usage itself looks normal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:08:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, check. Because I think the reading is high. I am only one person in the house most of the time. [crosstalk]"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:08:39-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:08:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you go. I say, I am alone, so why is so much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:08:46-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull it up. Chapel Street, four seventy. [pause] Alright, I see the account. The reading this quarter is a bit above the last one, but not by a crazy amount. Could be a running toilet, could be guests over the holidays. Do you have anybody visiting?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:09:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My nephew was staying two weeks, yes. Okay. That is something. Still, it is a lot of money for me. I don't like it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:09:12-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. If you want, check the toilets for a leak. Put a little food coloring in the tank, and if it shows up in the bowl without flushing, that's your leak. If the next reading is still high, call us back and we can send someone out to look at the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:09:31-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I do that. Now, another thing. I need a copy of the bill again. The paper one, it has coffee on it, I spill. Can you send me one by email? A duplicate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:09:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, we can do that. What email address do you want it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:09:49-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I need to give you? Okay, hold on, I read it from my phone. [pause] It is peggy dot lynch fifty one at, ah, no wait. I don't want to say it wrong on the speaker. Can you put it on the account and send to what you have?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:10:06-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me see what we've got on file. [pause] I don't have an email listed here, just the mailing address and your phone number. I'll make a note to send it once we have one. You can call back with it, or if you'd rather, I can have a paper duplicate mailed out today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:10:25-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it, okay, the paper. And I call back later with the email, when I am home with my glasses."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:10:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Duplicate going out in the mail to Chapel Street. Anything else on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:10:38-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The payment. I want to pay tonight. I am working late and City Hall is closed when I come. If I put the check in the box tonight, the drop box, does it count for on time? Or it counts tomorrow?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:10:53-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The drop box is there for exactly that. Anything that's in the box when we empty it the next business morning is treated as received on the day it went in, as long as it's in before the cutoff. Tomorrow's the thirty-first, so you've got a regular business day. If you put it in tonight, you're fine. Just write your account number on the check so it gets matched."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:11:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so tonight is good. And online I can also pay? Like in the night?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:11:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an online payment page on the city website, and it works any hour. The drop box is just the old-fashioned way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:11:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the box is fine for me. I don't trust the website, always it asks me many things. Okay. Account number is on the bill, the one with the coffee."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:11:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one. It'll be near the top. Do you have a pen handy?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:11:48-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I write it on the check, I know. Okay Tony, I have to go now. I am on the way to get my flu shot, the pharmacy, and I am already late. [pause] Thank you for explaining the sewer. I still don't like it, but now I understand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:12:05-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Good luck with the shot, and call back if the next reading looks off. Take care, Ms. Lynch."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:12:12-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Bye bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T14:07:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T14:07:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T14:07:10-05:00",
+        "end": "2025-12-30T14:12:14-05:00",
+        "duration_seconds": 304,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T14:07:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T14:07:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T14:07:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T14:07:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T14:07:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

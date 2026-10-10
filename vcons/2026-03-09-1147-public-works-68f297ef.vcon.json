@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "68f297ef-6fe8-8a41-8904-9cd620581f1c",
+  "created_at": "2026-03-09T11:49:09-04:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Jorge Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T11:47:26-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:47:28-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Kevin. My name is Jorge Vieira. I am calling about water at the back of my building, and I must speak quickly, because I have a client sitting under a dryer at this moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:47:40-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, no problem, I'll keep up. Where's the building?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:47:44-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 174 Old Beach Road, on the Easton's Beach side. The parking lot behind the building slopes toward the back door, and every time it rains, the water runs straight to the entrance and floods it. After the rain Friday and Saturday, two days ago, I had to put towels across the door."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:48:01-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha, so lot drains toward the back door, water pooling at the entrance. Is there a storm drain in the lot, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:48:09-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is one near the dumpster, I believe, but it does not appear to take anything. My neighbor tells me this happens with every big rain. So this is not new, and I would like someone to look at it. Kindly do not tell me it is the landlord's problem again."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:48:25-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, if it's the drain, we'll want to look at it. Is that a city lot or private, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:48:32-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I rent, so I could not say. I only know the water comes to my door. Do the crews work on weekends? Because it was a weekend when it happened, and nobody came."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:48:43-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right after a storm they're stretched thin, and I can't say who'd be out there. I'll put in a request for someone to check the drain and the lot. Can I get a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:48:54-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is 401-555-0156. Kindly have them call before they come, as I am in the shop all day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:49:01-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0156, call ahead. I'll send it over now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:49:05-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Kevin. I must go. My client is waiting."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:47:26-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:47:26-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T11:47:26-04:00",
+        "end": "2026-03-09T11:49:09-04:00",
+        "duration_seconds": 103,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:47:26-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T11:47:26-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T11:47:26-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T11:47:26-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T11:47:26-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

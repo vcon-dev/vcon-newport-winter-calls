@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d1299287-35e7-8761-8dfb-8593c60bcdea",
+  "created_at": "2025-12-02T10:22:41-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Sarah Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T10:21:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:21:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Kevin. I'm calling because my recycling bin is gone. They came for the pickup this morning and now it's not at the curb."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:21:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gone as in missing, not just tipped over down the road?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:21:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Missing. I looked up and down the street. And this is the second miss in a row, so last week it was the same thing, the bin just vanished."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so second week running. Let me write that down. Do you have an address for me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:07-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, hang on, my phone's being difficult. The touchscreen on this old thing ignores half my taps. [pause] Okay. Actually, can I just give you my callback number instead? It's four oh one, five five five, oh one five eight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one five eight. Got it. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sarah Goldberg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Sarah. I'll put in a request for a replacement bin and flag it as a repeat so the crew knows. Somebody will call you back at that number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, that works. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T10:22:38-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T10:21:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T10:21:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T10:21:37-05:00",
+        "end": "2025-12-02T10:22:41-05:00",
+        "duration_seconds": 64,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T10:21:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T10:21:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T10:21:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T10:21:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T10:21:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

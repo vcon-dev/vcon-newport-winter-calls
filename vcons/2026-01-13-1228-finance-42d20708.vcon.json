@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "42d20708-07d1-8917-bbd8-0bb40f01036e",
+  "created_at": "2026-01-13T12:33:29-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rocco Cardillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T12:28:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:28:29-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. I got a bill in the mail, it says motor vehicle excise, for a car. Problem is I sold that car last year. So why am I getting billed for it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:28:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can look into that. Can I have your full name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:28:47-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rocco Cardillo. C-A-R-D-I-L-L-O."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:28:49-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Cardillo. Do you have the bill in front of you? I'll need the bill number or the vehicle's plate number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:28:58-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, I got it here somewhere. Okay, I'm kind of in the middle of hanging a picture, so bear with me. I'm holding the level against the frame and the bubble keeps drifting. Alright, it's good, I think. Sorry. The bill. The plate is on here, it says... one-seven-four-two-two-one, no wait, let me read it again."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:20-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:22-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, plate is the one on the bill, and the bill's for the year 2024 vehicle registration thing. I sold the car in the spring last year. To a guy from Middletown. Gave him the plates, or he took them, I don't remember."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:39-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matters, actually. Excise tax is tied to the registration with the state, not only to who owns the car. When a vehicle is sold, the registration generally has to be transferred or cancelled through the Registry of Motor Vehicles. If the city still shows it registered to you, the bill goes out in your name."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:01-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So how do I know it's not just a mistake on your end? Because I'm not paying for a car I don't have."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:10-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can't say whether it's a mistake until I see what the record shows. If you can show proof of sale, or that the plates were returned or cancelled, the bill can usually be adjusted. A bill of sale or a registration cancellation receipt would be the kind of documentation."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I got a bill of sale, I think. It's in a folder. Is that enough? Or does it need to be something from the state?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A bill of sale is a good start. The Registry's cancellation or transfer paperwork is stronger. I'd bring or send both if you have them."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:50-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And send where? Like mail it, email it, bring it in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it to the tax collector's counter at City Hall, or mail it to the Finance Department at City Hall. Include a copy, not your original."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Copy, not original. Got it. Wait, is it the tax collector or the assessor? Those are two different offices, right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, they are separate. The tax collector handles the billing and payment. The assessor handles valuation. For this, you want the tax collector."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:23-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, tax collector. Now, while I got you. How do I change my mailing address? Because I moved, and this bill went to my old place, and a neighbor there dropped it off to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:37-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For the city's tax records, you would submit the change in writing, with your name, the old address, the new address, and your signature. But the excise bills pull the address from your motor vehicle registration, so the address on file with the Registry should also be updated."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:56-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So two places. The city and the Registry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right. Otherwise the city may continue to receive the old address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And how do I know the city one went through? Do I get something back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily a confirmation. You can call after a week or two and we can verify what's on the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:21-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And the due date on this thing, it says it's due soon. If I'm sending proof, do I have to pay first, or does it get put on hold?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:33-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise it will be held. I would advise getting the documentation in before the due date and noting on it that you contest the bill. I can add a note to the account that you called today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, add the note. Today's the thirteenth, Tuesday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, January thirteenth. Noted. Is the best callback number the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0164."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:00-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-six-four. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Anything else today, Mr. Cardillo?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:09-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Just to double-check: copy of the bill of sale, plus the Registry paperwork if I have it, to the tax collector, and a written address change. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:22-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:24-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:28:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:28:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T12:28:23-05:00",
+        "end": "2026-01-13T12:33:29-05:00",
+        "duration_seconds": 306,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:28:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T12:28:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T12:28:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T12:28:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T12:28:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ecd65916-2979-8e3b-b95c-ca5b73a1002d",
+  "created_at": "2026-03-10T10:14:56-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Carol Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T10:12:40-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:12:45-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, so I got the notice about the hearing date moving, and it says the second floor, but I was there last time and the guard told me it was changed. So which window do I go to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:00-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm going to slow you down just a little. Which hearing is this? Is it something with the City of Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:09-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the jury thing. The summons. It came in the mail, I have it right here. It says Garrahy Judicial Complex, I think, and a clerk's number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:20-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. Yeah, that's going to be the state courts, not City Hall. This is the city clerk's office, so we handle things like city licenses and council records. We wouldn't have your jury information here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:34-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Oh, dear. I thought I dialed the county courthouse. I'm sorry, I'm so sorry about that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:41-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Rhode Island doesn't really run its courts by county the way some states do, so it can be confusing. The number to call should be printed right on the summons, usually near the top or the bottom of the page."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:58-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] Yes, there's a number at the bottom under, um, juror information. I must have called the one from my phone's list instead. I'm sorry again, I know you're busy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:11-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're all set, really. If you call the number on that paper, they can tell you the right floor and the right window. And if you get a recording, it's worth listening to the whole thing, since they often give the date changes there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:28-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. I have to be quick, my boss doesn't care for personal calls on the floor, and I'm on a break and it's nearly over."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:38-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Go ahead and give them a call. Anything else I can help with here?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:44-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thank you, Mr. Haskell, is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:48-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Haskell, yes. You have a good day, ma'am, and good luck with the summons."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:54-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:12:40-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:12:40-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T10:12:40-04:00",
+        "end": "2026-03-10T10:14:56-04:00",
+        "duration_seconds": 136,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:12:40-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T10:12:40-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T10:12:40-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T10:12:40-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T10:12:40-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

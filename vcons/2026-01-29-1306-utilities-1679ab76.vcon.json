@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1679ab76-4a2c-8ee0-a495-dcd46c71388e",
+  "created_at": "2026-01-29T13:10:58-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Paula Furtado",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T13:06:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and Sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:06:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Priya. This is Paula Furtado. I'm calling about a water and sewer bill. Basically, I got a past-due reminder in the mail yesterday, and I never got the original bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:06:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get the service address so I can pull up the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:07:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 225 Ruggles Avenue, up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:07:04-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I find it. [pause] All right, I have it. The account is under Furtado. Can you confirm the mailing address you have for yourself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:07:15-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. I'm at 225 Ruggles, and that's where I've been. But the reminder was addressed to my old place. Basically, the bill went there and I only found out because the reminder got forwarded."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:07:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. The billing address on file is different from the service address. It looks like it still has the previous mailing address. Is that the one the reminder was forwarded from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:07:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's the one. I'd have thought the forwarding would catch the bill too, but I guess not."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:07:49-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Forwarding can be hit or miss with bulk mail. I can update the mailing address on the account right now so future bills come to Ruggles Avenue. Do you want me to do that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:08:02-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. 225 Ruggles Avenue, Newport."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:08:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I've changed it. You'll see the next bill at that address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:08:11-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now, the other thing, the amount on the reminder is way higher than I expected. Last year my winter bills were much lower. Basically about half of this."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:08:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the history. [pause] The current bill covers the most recent billing period, and the usage is higher than the same period last year. I can see the meter readings, but I can't tell from here what caused the increase."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:08:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is that something I should have checked? Like a leak?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:08:44-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A running toilet or a dripping fixture is the usual culprit. You can check by turning off everything and watching whether the meter dial still moves. If it does, there's a leak somewhere. If you want the reading verified, I can send a request to the meter division and they'll follow up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:09:04-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check the meter first, and then I'll call back if it's moving. Basically I don't want to open a request for nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:09:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Just call this line and mention the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:09:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, about paying it. It's after one now, but I'm usually not done with things until late. Can the website take a card payment right now, or is it only during office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:09:32-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The online payment page is available around the clock. You can pay by card any time, including evenings and weekends. You'll need your account number, which is on the reminder notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:09:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, I have the notice right here. So I could do it at, say, nine at night and it would go through?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:09:53-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it takes the payment when you submit it. You'll get a confirmation on the screen, and you can print that or save it as a PDF. If you'd like, there's also a drop box at City Hall for checks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website's fine. Will the late notice add something extra, or is that already on there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:15-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Whatever's due is shown on the account, and the payment page will show the same total. If something looks different from the notice, call me back and we'll go through it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:27-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Sorry if I sound a little scratchy, by the way. I sing in a community chorus and I've been warming up my voice before rehearsal tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all, you sound fine. Is there anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:44-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. The address is updated, I'll check the meter, and I'll pay online tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Thanks for calling, Ms. Furtado."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T13:10:55-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Priya. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T13:06:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T13:06:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T13:06:37-05:00",
+        "end": "2026-01-29T13:10:58-05:00",
+        "duration_seconds": 261,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T13:06:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T13:06:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T13:06:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T13:06:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T13:06:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e3036899-aad8-8f6c-ab7e-ba99abdbbbf1",
+  "created_at": "2025-12-30T12:24:43-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Lucia Pacheco",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T12:22:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:22:22-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, sorry to bother you. I just got a water and sewer bill with a late fee on it, and I mailed that check on time. So I'm kind of annoyed, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:22:33-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Do you have the account number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:22:39-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one second. It's 4030280078. Is that the right way to give it? Should I say it in pairs or something?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:22:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, just as you said it. Let me pull it up. Four, zero, three, zero, two, eight, zero, zero, seven, eight. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:22:55-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. Wait, actually, hang on. I have two properties, and I think I grabbed the bill for the other one. Sorry. The late fee is on this one, though, the one on Dean Avenue. Three nineteen Dean."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:23:08-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. The account you gave me is tied to 319 Dean Avenue, so that's the right one. I see the last bill and I see a payment posted after the due date, with the late charge added."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:23:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But I mailed it a good week before. I put it in the box myself. So it should have been there in plenty of time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:23:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "When would you say you mailed it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:23:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The week before the due date, I'm pretty sure. And the other property, the one I mixed up, that one was paid fine, so I don't think I got them crossed. Unless I did? Sorry, I'm checking twice."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:23:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're okay. I see the other account is separate and it's current. Nothing from this payment landed on it. The Dean Avenue payment was just received late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:23:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So can somebody look at that again? Like re-check the date it was received? It feels wrong to pay a fee when I did my part."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:24:03-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I'll put in a request to have the posting date reviewed against the mail receipt, and flag the late charge as disputed so it doesn't carry forward. Is the number ending in 0175 still the best one for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:24:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's the cell. Okay. How long will that take? I figured I'd be on hold forever, honestly. I'm glad I was wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:24:24-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Someone should get back to you within a few business days. If the review shows it was on time, the fee comes off the account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:24:33-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, great. Thank you. Sorry again for the mix-up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:24:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Happy New Year, Ms. Pacheco."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:24:41-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:22:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:22:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T12:22:18-05:00",
+        "end": "2025-12-30T12:24:43-05:00",
+        "duration_seconds": 145,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:22:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T12:22:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T12:22:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T12:22:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T12:22:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

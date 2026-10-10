@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bbebc948-8478-8ab2-8bc3-58d3a3bbcf86",
+  "created_at": "2026-02-04T15:55:15-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Linh Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-04T15:51:28-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:51:33-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, um, so I just bought a house? And the first water and sewer bill came, and it's in the name of the guy who owned it before. Like, not mine at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:51:47-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's common after a sale. The account often stays in the previous owner's name until we're told about the change. Have you closed already?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:51:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, totally, we closed like two weeks ago. Sorry, hang on, I just paused my audiobook, I listen on the drive home. Okay, I'm back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Can I get your name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:11-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Linh Nguyen. L-I-N-H, and Nguyen, N-G-U-Y-E-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Nguyen. What's the address of the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:19-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'd rather not say it on here? I mean, I have the bill in front of me, it's got an account number on it. Can you work from that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can. Go ahead and read me the account number from the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:37-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it's pretty long and the print is tiny. Honestly I'm kind of annoyed, because I already sent the deed stuff to the title company, so shouldn't you guys have this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:52:50-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes the transfer information reaches us late, or not at all. The simplest fix is for you to send us a copy of the closing documents showing the sale date, and we'll move the account into your name. I can note on this call that you're the new owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:53:09-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. Can you do that, like, right now, the note thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:53:15-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll put a note on it. Is there anything else on the bill you wanted to ask about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:53:23-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, so my daughter helps me with the bills? She does the paperwork stuff. Can she be authorized to talk to you guys about the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:53:34-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can add an authorized contact once the account is in your name. You'd need to give us her name and a way to reach her, and you'd confirm it with us. Once the ownership change goes through, call or send it in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:53:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so ownership first, then her. Got it. Ugh, that's two steps."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:53:58-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:54:00-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, one more. It's almost four now and I'm driving, so, can I pay on the website right now with a card? Or does it only work during office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:54:12-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website payment page is generally available around the clock, so you can pay with a card in the evening or on a weekend. Office hours only matter if you want to speak to someone. There's also a drop box if you'd rather pay by check."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:54:30-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh nice, okay. So I don't have to wait till tomorrow. I'll do it tonight when I'm parked."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:54:38-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Just make sure you enter the account number exactly as it appears on the bill, even though it's in the previous owner's name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:54:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, okay. And the closing papers, where do I send them?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:54:53-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can mail them to the utilities billing office at City Hall, or bring them in during the day. Put the account number on the first page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:55:04-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, cool. I'll scan them tonight and drop them off tomorrow. Thanks, Priya."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:55:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Nguyen. Drive safely."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T15:55:13-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T15:51:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T15:51:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-04T15:51:28-05:00",
+        "end": "2026-02-04T15:55:15-05:00",
+        "duration_seconds": 227,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T15:51:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-04T15:51:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-04T15:51:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-04T15:51:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-04T15:51:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

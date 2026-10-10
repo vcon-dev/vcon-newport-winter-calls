@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "692b4965-6282-8307-b5c1-71af0c62dbff",
+  "created_at": "2026-01-22T11:51:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Diogo Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T11:49:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:49:27-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, Tony, Diogo Silva here, I got a late fee on my water and sewer bill and I mailed that check two weeks ago, the Friday before the bill was due, I know because I put it in the box myself, and now they want me to pay extra, and I got two houses, so I'm looking at the paper here and I don't even know which one this is, there's the one on Rhode Island Avenue and the other one, and I think this might be the wrong account, but it says late either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:49:54-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, slow down a second, Mr. Silva. Let's sort out which house. What's the service address on the bill you're holding?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, I'm in a parking lot, I'm loading groceries in the trunk. [pause] Okay. It says 228 Rhode Island Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that's your Historic Hill house. Let me pull it up. Okay, I see the late charge. I don't see a payment posted yet. Is it possible the check you mailed was for the other property's account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Well, I wrote the account number off the other bill, maybe. Could be. Annoying, I'll tell you that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:25-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens a lot with two properties. If it landed on the other account it'll show as a credit there. I can make a note that you mailed it on time, and someone can look at the late fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, do that. And I want to pay this one before the weekend. How do I do it when your office is closed? I'm not driving down there tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:46-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay online through the city website any hour, or there's a drop box outside City Hall for checks. Just write the right account number this time, the one for Rhode Island Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:50:56-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah, I'll copy it careful. My number's 401-555-0152 if they got questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:51:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Someone will call you back. Take care, Mr. Silva."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:51:05-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:49:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:49:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T11:49:23-05:00",
+        "end": "2026-01-22T11:51:06-05:00",
+        "duration_seconds": 103,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:49:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T11:49:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T11:49:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T11:49:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T11:49:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

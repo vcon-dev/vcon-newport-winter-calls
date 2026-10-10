@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0f8ec217-2831-8121-bb40-2569ca780529",
+  "created_at": "2025-12-24T09:09:57-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Diego Rivera",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T09:04:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning, and happy Christmas Eve."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:04:35-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Sorry, what was your name again? I like to write it down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:04:42-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lorraine. L-O-R-R-A-I-N-E."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:04:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lorraine, thank you. My name is Diego Rivera. I'm calling about trash and recycling. I have a missed pickup."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:04:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that. What's the address where it was missed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:04:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "43 Brewer Street, in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:05:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "43 Brewer Street. Got it. And which pickup did they miss, trash or recycling?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:05:08-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recycling. And it's the second miss in a row. Last time and this time, the bin was out at the curb before seven, same as always. It's still sitting there full."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:05:21-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two in a row, okay. So the bin's been out at the curb and it wasn't emptied. Was there a tag or a sticker left on it, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:05:34-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check my notes. No, I looked this morning. No tag, no sticker, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:05:41-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Then I'll put in a report for a missed recycling pickup at 43 Brewer Street, second one in a row. I can't promise exactly when they'll come back, with the holiday schedule and all, but it gets logged for the crew."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:05:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Can you tell me what I should expect? Is it going to be tomorrow, or does the holiday push it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:06:08-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The holiday usually shifts things by a day, and tomorrow's Christmas, so I'd expect a delay. Leave the bin out and I'll note that it's out. If nobody's come by the end of the week, call back and we'll follow up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:06:25-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Leave it out, call back by end of week. Writing that down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:06:31-05:00",
+      "duration": 1,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:06:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "While I have you, I have a question about what's allowed in recycling now. I've heard the rules changed. Pizza boxes, for one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:06:42-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pizza boxes, sure. Generally, if the box is clean, you can recycle it. If it's got a lot of grease or cheese stuck on, that part should go in the trash. A lot of people tear off the clean lid and recycle that and trash the greasy bottom."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:07:02-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Clean lid in, greasy bottom out. Okay. What about glass?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:07:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Glass bottles and jars are accepted. Empty them and give them a quick rinse. Lids you can put back on."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:07:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rinse, lids on. And clamshells? The plastic ones from takeout or from berries."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:07:22-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Those are the tricky ones. The clear plastic containers with a number on the bottom are usually fine if they're clean and empty. Anything with food residue goes in the trash. If you're not sure, the safest thing is to check the number and keep it clean."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:07:41-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So clean, empty, check the number. Alright. I own a small business, so I go through a lot of takeout containers. I want to get it right so they don't skip me again."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:07:55-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good idea. Honestly, a bin with the wrong things in it is one reason a crew might pass it, but a tag would normally be left in that case, and you said there wasn't one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:10-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, there was no tag. So it sounds like they just missed it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:16-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds that way. I'll note it so the supervisor sees there was no tag."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you. Now, can I ask for the report number or a reference of some kind?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a number to read you on this one, but I'll put it in under your name and the address. Is Rivera spelled R-I-V-E-R-A?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, R-I-V-E-R-A. Diego, D-I-E-G-O."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:44-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Diego Rivera, 43 Brewer Street. And what's the best number if the crew supervisor needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:52-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0176."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-seven-six. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:56-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:08:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Anything else I can help with this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:03-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One small thing. Pickup matters to me a little more this week because I bowl in a Thursday league and I'm trying to keep my schedule clear. My average is dropping, so I'm not missing a night. I'd rather not be home waiting on a truck."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:22-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Then I'd say leave the bin out and let them come when they come. If it's still there after the holiday, call us and we'll push it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That works. Leave it out, call back if it's not done by Friday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. I'll make sure the note says the bin is out and there was no tag."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Lorraine. I appreciate your help. Have a good holiday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Diego. Merry Christmas."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T09:09:56-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T09:04:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T09:04:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T09:04:30-05:00",
+        "end": "2025-12-24T09:09:57-05:00",
+        "duration_seconds": 327,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T09:04:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T09:04:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T09:04:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T09:04:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T09:04:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

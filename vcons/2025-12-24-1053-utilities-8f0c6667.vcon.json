@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8f0c6667-fedc-8542-974a-bfb7b6e5bd2a",
+  "created_at": "2025-12-24T10:59:27-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nilza Lopes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T10:53:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and Sewer billing, this is Tony. Merry Christmas Eve, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:54:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, um, yes, hello. Merry Christmas to you. Well, I'm calling about my water bill. It came in the mail and it's, um, it's very high. Much higher than it should be."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:54:17-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can take a look at that with you. Can I get your name and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:54:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Nilza Lopes. L-O-P-E-S. Um, well, I'd rather not give the address on the phone, I'm on a cell. Can you find it by name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:54:35-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can try by name, but there might be a few Lopes accounts. Is there an account number on the top of the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:54:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, let me get my glasses. [pause] Okay, I have it. It says account number, well, it's seven, seven, four, one, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:54:53-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven seven four one zero two. Got it, thank you. And I see the name Nilza Lopes on it. Alright, I'm looking at the last billing period now. It shows a usage quite a bit above the previous quarters."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:55:08-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's what I'm saying. And that doesn't make sense, because I was out of town for six weeks. I was away, nobody was in the apartment the whole time. So how can there be high usage?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:55:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Six weeks, okay. Do you know roughly which weeks you were gone? Was it all within this billing period?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:55:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, um, most of it, yes. I left at the start of October and came back the middle of November. So almost all of it was inside."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:55:40-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So if nobody was home, high usage usually means water was running somewhere. A toilet that keeps filling, a leaking pipe, something like that. Has anything like that come up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:55:52-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, yes, actually, I had a plumber out. After I got back I heard the toilet running and running, so I had a plumber come, um, and I kept the receipt. He said it was the flapper, I think, inside the tank, and some other part."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:56:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's good, that could easily explain it. A flapper that doesn't seal can run all day and all night, and that adds up fast over six weeks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:56:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I see. So that could be it. Well, I wondered, because I'm not a person who wastes water."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:56:28-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, and it's nobody's fault, it happens quietly. What I'd suggest is you send us a copy of that plumber receipt along with a note about the dates you were away. The billing office can review it and see whether any adjustment applies. I can't promise the outcome from here, but that's the way to get it looked at."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:56:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, can I send it by mail? Or do I have to bring it in? I don't, well, I don't get around so easily."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:56:59-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is fine. You can also drop it in the box at City Hall, or if somebody helps you with email we can give you the billing address for that. Just put your account number on the receipt copy so it lands on the right file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:57:16-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll write the number on it. Um, and one more thing. The bill has a due date and I don't want to be late. Can I pay on a Saturday or a Sunday? Or is it only when the office is open?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:57:32-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The counter is only open on weekdays, but you don't have to come in on the weekend. You can pay online any time, day or night, Saturday and Sunday included. And there's a drop box outside City Hall for checks that's always available."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:57:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, um, well, I don't really do that. The drop box, that I could do. Is it safe to leave a check there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:57:58-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's what it's for. Put the check in an envelope, write your account number on the check, and it gets collected on the next business day. Just keep in mind with the holiday, it may be a day or two before it's processed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:58:14-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And if I send the receipt, do I still pay the bill? Or wait?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:58:20-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you can, I'd pay what you're comfortable with by the due date, and let the review go on alongside. If an adjustment is made, it would show as a credit on a later bill. If you're worried about timing, call after the holiday and billing can tell you where it stands."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:58:39-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that's clear. Um, I'll do the drop box then. It's, well, it's a nice day, I'll walk out. I was by the water yesterday, the beach parking lot has a few walkers and nobody else."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:58:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, this time of year it's quiet down there. Good day for a walk though. Is there anything else on the bill I can explain?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:59:03-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's all. Um, the number you have for me is four oh one, five five five, zero one five six, in case billing needs to call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:59:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one five six. I've noted it on the account. Thanks for calling, Ms. Lopes, and have a good Christmas."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:59:24-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony. You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:53:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:53:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T10:53:59-05:00",
+        "end": "2025-12-24T10:59:27-05:00",
+        "duration_seconds": 328,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:53:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T10:53:59-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T10:53:59-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T10:53:59-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T10:53:59-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

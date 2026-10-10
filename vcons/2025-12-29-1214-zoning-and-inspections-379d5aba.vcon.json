@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "379d5aba-3745-8983-8c7a-213a2c29fba9",
+  "created_at": "2025-12-29T12:16:53-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Samir Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T12:14:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:14:45-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, this is Samir Goldberg. I want to put up a fence around the side yard at my house, and I need to know if that requires a permit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:14:56-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:14:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "480 Ayrault Street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Historic Hill, got it. What are you looking to do, how long a run, how tall?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:06-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I want to enclose the side yard for my grandson, he's a toddler. I'm planning composite, and I'd go as tall as is allowed. Is there a height where a fence stops needing a permit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:18-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, a fence does need a permit here, and there's a maximum height on top of that. But because you're in the Historic Hill area, there may be a review on the style and materials too. Composite isn't automatically a problem, but somebody has to look at it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:35-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's no height under which I can skip the permit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't count on one. Plan on applying. If you want the exact height limit for your lot, I can have the zoning officer confirm that when you submit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Do I need a survey?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:15:53-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually they want to see a plan showing where the fence sits relative to the property lines. If you have an existing plot plan or survey from when you bought, bring that. If not, we can talk about what's acceptable. A sketch might do for a simple run, but the officer makes that call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:16:12-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the survey from the closing, somewhere. I'll find it. We're in the middle of deciding where to hold the holiday dinner, so I'd like to get this sorted out and see what's possible."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:16:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. The application's at the counter here or on the city website. Fill that out, attach the plan and a description of the fence, and it goes to review. Since it's the Hill, it might take a bit longer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:16:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the office open this week?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:16:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open regular hours Tuesday through Thursday, and we're closed New Year's Day. Anytime in between is fine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:16:48-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That's what I needed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:16:51-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:14:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:14:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T12:14:42-05:00",
+        "end": "2025-12-29T12:16:53-05:00",
+        "duration_seconds": 131,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:14:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T12:14:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T12:14:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T12:14:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T12:14:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

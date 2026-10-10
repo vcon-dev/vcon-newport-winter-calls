@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "54f7b5f5-83e4-800c-94ee-c391544b8b48",
+  "created_at": "2025-12-23T14:06:02-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nancy Lawton",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T14:03:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:03:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, sorry, I have to whisper. Somebody's sleeping in the next room. It's Nancy Lawton, 53 Annandale Road."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:03:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Ms. Lawton, I can hear you fine. What can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:03:42-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two things. I want to change my mailing address on the water and sewer account. And go paperless. No more paper bills."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:03:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What address would you like us to use for the mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:03:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on. It's a P.O. box. Let me, um, I've got it written down. Give me a second."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:02-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, wait. Actually, before that. I'm not changing the bill itself. I just want somebody to explain it. This last one is way higher than usual and I don't get it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, you're not disputing it, you want to know what's in it. Let me pull up the account. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:26-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. It says usage, and the number's almost double. I had a plumber out a few weeks ago. I kept the receipt, it's right here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:36-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could matter. What did the plumber work on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A running toilet, and a leaky valve under the sink. So if anything it should've gone down, not up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:04:47-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Here's what I see. The reading covers the period before the plumber came. A toilet that runs constantly can use a lot of water without you noticing. So the high number likely reflects the leak, and the repair would show up on the next bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:03-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So it's the old leak, not the new fix."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's how it looks. If next month's usage is still high, call me back and we'll look at it again. The receipt is worth keeping."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:17-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. I'm annoyed, but at least it makes sense. Oh, and I'm late for pickleball, I was supposed to be there at two-thirty."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:26-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let's finish quickly then. What's the new mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "P.O. Box 214, Newport. Zip is 02840."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:33-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, P.O. Box 214, Newport, 02840. For paperless, I'll note the account for it. Do you have an email you'd like on file?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:42-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but I'd have to spell it and I can't do that whispering. Can I do the email another time?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Call back when it's convenient and we'll finish setting it up. The mailing address is updated now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thanks. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:05:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye, Ms. Lawton. Happy holidays."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T14:03:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T14:03:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T14:03:25-05:00",
+        "end": "2025-12-23T14:06:02-05:00",
+        "duration_seconds": 157,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T14:03:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T14:03:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T14:03:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T14:03:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T14:03:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

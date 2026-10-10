@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3419ca27-7fd2-87f2-b7cc-338c8a33b6f3",
+  "created_at": "2025-12-19T12:45:01-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Conceicao Pacheco",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-19T12:43:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. Buenas tardes, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:43:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is this the post office? I want the post office on Thames Street, I need to know about a package."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:43:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ma'am, this is the City Clerk at City Hall. The post office is a separate office, it's federal, not us."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:43:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Well, as I said before, I dialed the number on my list. I don't understand why it would be here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:43:55-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be an old list, numbers change. I don't have the post office number in front of me, but if you look it up in the phone book or online, or ask the operator, they'll connect you. Do you have somebody who can look it up for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:44:12-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a list, I just said. It is from years ago, I suppose. [sighs] Maybe I should throw it out. It is older than my grandchildren's cars, that list."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:44:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maybe a new one is a good idea. Directory assistance can help you right now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:44:28-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I have to go out anyway. The used bookstore gave me store credit for a box of paperbacks, so I am going there after. Then I will go to the post office on foot if I cannot get them on the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:44:43-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a plan. The post office window should be able to tell you about your package in person, too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:44:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. All right. Thank you. Sorry for the bother."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:44:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No bother at all. Have a good afternoon, and stay warm out there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T12:45:00-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T12:43:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T12:43:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-19T12:43:27-05:00",
+        "end": "2025-12-19T12:45:01-05:00",
+        "duration_seconds": 94,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T12:43:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-19T12:43:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-19T12:43:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-19T12:43:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-19T12:43:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

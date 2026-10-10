@@ -1,0 +1,631 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2a213f48-16eb-8032-a475-a32f9ff080ba",
+  "created_at": "2025-12-30T11:06:42-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Maureen Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T10:55:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Newport Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:55:41-05:00",
+      "duration": 32,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. My name is Maureen Dolan, and I'm calling about my water bill, it came in and it's about double what it normally is, and I just, I can't figure out why. We haven't changed anything, we're the same people in the house, same everything, so, um, honey, hang on one second, I'm on the phone. Sorry. Hello?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:56:13-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm here, no rush. Let's take a look. Can I get the account number from the top of the bill, or the service address if that's easier?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:56:28-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the account number, let me find it, it's on the, hold on. It's right up in the corner. Zero, zero, four, seven, one, nine, two. Is that, does that seem like enough digits? There's a dash after that and then a two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:56:51-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero zero four seven one nine two, dash two. That's what I need, thank you. And can I confirm the name on the account is Maureen Dolan?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:57:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's me. I'm the homeowner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:57:10-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, I have it pulled up. So your usual bill, what would you say you normally pay?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:57:20-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually it's around, I want to say a hundred and, no, it's less than that, it's like ninety-something for the quarter. And this one came in at almost two hundred. I looked at it twice. I thought maybe I read it wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:57:42-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm looking at the readings on the account. The last bill shows a consumption figure that's quite a bit higher than your previous periods, roughly twice what you've been using. So the bill isn't a mistake in the math, it reflects more water going through the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:58:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But how, we didn't, I mean, nobody's been, Declan, put that down, please, we don't, sorry. We haven't been filling a pool or anything, it's December."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:58:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Has anything been different at the house over the last couple of months? A leak, a dripping faucet, anything that runs?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:58:33-05:00",
+      "duration": 32,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, now that you say it, the toilet. The toilet was running constantly last month. Like all the time, you'd hear it going in the middle of the night. I jiggled the handle and it'd stop for a while and then start again. My husband finally changed the little flapper thing in it, I think, near the end of the month."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:59:05-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could very well be the cause. A running toilet can use a surprising amount of water, hundreds of gallons a day in some cases, and it wouldn't be obvious on a quiet day. Is it stopped running now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:59:26-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's quiet now. It's been quiet since he fixed it. So you think that's all it was?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:59:36-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the most likely explanation given what you're describing. If the next bill comes back down to normal, that will confirm it. If it stays high even though the toilet is fixed, then I'd suggest we have someone check the meter and look for another leak."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:00:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that makes sense. So I still have to pay this one though."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:00:08-05:00",
+      "duration": 32,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill is based on the meter reading, so yes, it's still owed. Some customers ask about an adjustment for a leak that was repaired. I can note the account with what you told me, the toilet and the repair date, and I can have someone from the billing office follow up with you on whether anything can be done."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:00:40-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, do that. I'd appreciate it. The repair was around the twenty-eighth, I think, of November, or maybe the twenty-ninth. Somewhere in there. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:00:55-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I'll write end of November. Do you still have the old part, by any chance, or a receipt for it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:01:07-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think he threw out the part. And I don't think there was a receipt, it was one of those, he had it in the garage. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:01:22-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right, I'll note that too. They'll tell you if they need anything further. Is the phone number on the account the best one to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:01:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's, let me give you this one, it's four-oh-one, five-five-five, zero-one-eight-four. That's the landline."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:01:45-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one eight four. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:01:52-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Oh, and I wanted to ask, um, the bill, can I pay it online? Tonight maybe, after City Hall is closed? I'm never able to get out during the day, and by the time everyone is down for the night I'm just, so can I do it on the computer?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:02:19-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an online payment option for water and sewer bills, and it's available around the clock. You'd go to the city's website and look for the utility payment page. You'll need that same account number you gave me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:02:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The same one, with the dash two?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:02:45-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the whole thing, including the dash and the two at the end. Some people leave off the last part and the system won't find them, so type it in just as it's printed on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:03:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. And if the computer gives me trouble, is there anywhere else I can, like, drop something off at night?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:03:17-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a payment drop box at City Hall that's available when the building is closed. You can put a check in with your account number written on it. Just don't put cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:03:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I'd do a check. Okay. That's good to know. I'll try the computer first. Mikey, no, wait, sorry. One second."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:03:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:03:50-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm back. Sorry about that. My son just came running in, he lost his tooth, his first one, the bottom one, it's been wiggly for two weeks. So that's the biggest news of the day around here, honestly, more than the water bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:04:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's good to hear. I hope the tooth fairy has the right change on hand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:04:22-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, she'll figure it out. So, okay. Just so I have it right, you're putting a note on the account about the toilet, someone from billing will call me, and in the meantime I should just pay the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:04:43-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. If you want to avoid a late charge, paying by the due date is the safest approach. If an adjustment gets approved afterward, it would normally show up as a credit on a later bill rather than a refund of what you paid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:05:06-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A credit. Okay, so it wouldn't be lost."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:05:11-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it would be applied to the account. And I'd keep an eye on the next bill. If it's back near ninety or so for the quarter, you'll know the toilet was the cause."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:05:29-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I will. When would they, how long before somebody calls, do you think?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:05:37-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise a specific day, but billing generally gets back to people within a few business days. With the holiday this week it might take a little longer, so don't be surprised if it's early next week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:05:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. That's totally fine. I just wanted to make sure somebody knew."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:06:05-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's noted now. Is there anything else I can help you with today, Mrs. Dolan?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:06:14-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's everything. Thank you so much, you were very helpful. I feel better knowing it's probably just the toilet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:06:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good rest of your day, and congratulations to your son on the tooth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:06:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll tell him. Thanks again. Bye-bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:06:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:55:33-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:55:33-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T10:55:33-05:00",
+        "end": "2025-12-30T11:06:42-05:00",
+        "duration_seconds": 669,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:55:33-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T10:55:33-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T10:55:33-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T10:55:33-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T10:55:33-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "963576df-c00d-8f49-9a6d-3b897daa42b0",
+  "created_at": "2026-01-09T13:39:59-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Ellen Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-09T13:35:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:35:43-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, honey. Yes, my name is Ellen Sisson. I'm calling from my cell, so if the wind picks up and I drop out, bear with me. We've got that coastal storm coming in today and it's already rattling my windows."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:35:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's picking up here too. What can I do for you, Ms. Sisson?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:36:04-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I rent my place. Been there a good while. And my landlord stopped me on the stairs Wednesday and said I owe the water and sewer bill. Now, dear, I've never gotten one of those in my life. So I'd like to know whose bill it is. I'm a little tired of being told things on the stairs."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:36:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I can look at the account. Do you have the service address, or the name the account is under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:36:34-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account, if there is one, would be under my husband's name. Walter Sisson. He passed a few years back and everything stayed in his name. I never changed it, and nobody ever told me I had to."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:36:48-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry for your loss. I'll need the service address to pull it up. Can you give me that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:36:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'd rather not say it over this phone. Can you look it up by his name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:37:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can try by name, but there may be several accounts and I'd want to be sure I have the right one. Is there a bill or a notice you could read from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:37:15-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The landlord waved a paper at me but he kept it. All I know is he says it's two quarters behind and it's mine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:37:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me search. [pause] I do see an account under Walter Sisson, still active. The bill has been going to a mailing address that isn't a tenant unit, so it may be going to the owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:37:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what I figured. So it's the owner's bill and he's trying to hand it to me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:37:45-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say who owes it between you and the landlord. That depends on your lease. What I can tell you is whose name is on the city account and what's been billed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:37:57-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, fine. And what's it billed? Because it seems high to me. I'm one person. I run the dishwasher maybe twice a week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:38:06-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The last two readings show a good deal more usage than a single person would typically have. Is there anyone else in the building on the same meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:38:17-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's the upstairs, and I suppose the downstairs too. So I don't know. That's why I want the read checked again, honey. I think somebody got it wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:38:28-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can put in a request to have the meter re-read and checked. Someone would go out and compare the dial to what was billed. Is there a way to get inside, or is the meter outside?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:38:42-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not sure where it sits. I'd have to ask the landlord, and he's not exactly helpful. Can they just go look?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:38:51-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it's in a basement they'd need access, and the crew would call you first. The request will list this number. Is it okay to use the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:03-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's 401-555-0180. But try to call after supper, dear. I look in on an elderly neighbor every evening, a little before six, to make sure she's had her meal and taken her pills. I'm not much use on the phone then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:19-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that evenings are best. Could you give me the number once more, slowly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:25-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0180."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:26-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll also add a note that the account is still in your late husband's name and that the tenant is questioning responsibility. If you want to change the name, that's a separate step, and the owner of the property would need to be part of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:44-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, wonderful, one more thing to chase him about. Well, thank you. At least somebody's checking the read."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. The re-read may take several days with the storm. Stay safe out there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T13:39:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, honey. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T13:35:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T13:35:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-09T13:35:39-05:00",
+        "end": "2026-01-09T13:39:59-05:00",
+        "duration_seconds": 260,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T13:35:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-09T13:35:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-09T13:35:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-09T13:35:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-09T13:35:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

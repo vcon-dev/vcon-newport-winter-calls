@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ab407816-25cc-8b3b-b90f-26ebb6cbeca6",
+  "created_at": "2025-12-02T14:02:13-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "David Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T14:00:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:00:47-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. I need a marriage license. What I need to bring to you, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:00:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Both of you need to come in together, and each of you should bring a photo ID, like a driver's license or a passport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both people, same time. Okay. And the fee, how much it is? I want to bring the correct money."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:09-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't want to quote you a wrong number, so please check with the office before you come, or look on the city website. It's a set fee, and I can tell you we take cash or check at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, cash or check. Understood. So I bring cash, and I leave the ID at home, because I pay with the cash."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, no, no, the opposite. Bring the ID, definitely. You need the ID and the payment both."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, sorry. I was already writing it wrong. Bring the ID, and bring the payment also. Both things."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. If either of you was married before, bring the paperwork showing how that ended, too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I was married before. So I bring the divorce paper. This is correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:01:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the divorce papers, that's right. We're open weekdays, and you can walk right in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:02:02-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. If I have a question, I call again. Thank you very much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:02:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Have a nice afternoon, and congratulations."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:02:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:00:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:00:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T14:00:42-05:00",
+        "end": "2025-12-02T14:02:13-05:00",
+        "duration_seconds": 91,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:00:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T14:00:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T14:00:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T14:00:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T14:00:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

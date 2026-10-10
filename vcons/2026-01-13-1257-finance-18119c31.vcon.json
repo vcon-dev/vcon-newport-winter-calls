@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "18119c31-a9f1-8892-b080-f34cd5d07fdd",
+  "created_at": "2026-01-13T13:01:20-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Mike Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T12:57:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:57:24-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good afternoon. I got a parking ticket this morning, and I want to ask about it. It was in front of my own house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:57:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What was the ticket for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:57:38-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Overnight parking. It says no parking overnight, but I live there. I rent the apartment, and my car is always on the street because there is no driveway. After the storm, the coastal storm that ended Saturday, I left the car there because the back lot was icy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:57:57-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So you want to contest it, or you want to know about a permit going forward?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:58:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both. First I want a resident permit so this does not happen again. Is that possible for a renter? I have the lease and my license with the same address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:58:17-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Renters can usually apply, yes. You'd bring proof of residency, like the lease or a utility bill, plus your registration. Registration needs to show the Newport address too, or it gets complicated."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:58:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The registration is the old address, in Providence. So I need to change it first, and then the permit. Did I understand correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:58:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You've got it. Fix the registration first, then come in with everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:58:46-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the ticket, I want to appeal it in writing. Where do I send the written appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:58:54-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That goes to the parking violations office. Let me get you the right person. Hang on, I'll give you the extension, because they're the ones who handle appeals."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:06-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, so you can reach them at extension two two four."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:14-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two two four, okay. So that is the address? Two twenty-four, what street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:20-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, not an address. It's an extension. You call the main City Hall number and dial two two four when the menu comes on."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay, sorry. An extension, like a phone number. I thought it was a house number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:38-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easy mistake. Two two four is a phone thing. For the mailing address, they can give it to you when you reach them, so the appeal goes to the right desk."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:51-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I call, press two two four, and they tell me where to mail the letter. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:59:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. And write the ticket number on the letter, plus your name, plate, and why you're appealing. Keep a copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Should I put in the letter that I rent and that I am applying for the permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, mention it. Say you live at that address and you're getting the permit. Include a copy of the lease if you can."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:25-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And there is a deadline for the appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:29-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is, and it should be printed on the ticket. Look for it on the back or near the bottom. Don't wait on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will check. Do I pay the ticket now, or wait for the appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The parking office can tell you how that works while an appeal is pending. Ask them when you call two two four."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:00:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, summary: change registration, bring lease and registration for permit, call extension two two four for the appeal address, send letter with ticket number. Is that all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:01:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the whole list. You could've done my job."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:01:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. Thank you for your help, Luis. I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:01:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T13:01:18-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:57:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:57:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T12:57:19-05:00",
+        "end": "2026-01-13T13:01:20-05:00",
+        "duration_seconds": 241,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:57:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T12:57:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T12:57:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T12:57:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T12:57:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

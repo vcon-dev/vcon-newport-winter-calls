@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5c268a79-1c5c-8876-b8d4-473f150638a7",
+  "created_at": "2026-02-25T13:43:47-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carlos Semedo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. I am calling about my property tax bill. I am on the speaker, so please tell me if you cannot hear me well."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you fine. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:47-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it went up. This year the number is higher than the last one, and I do not understand why. On the other hand, I did not do any work on the house, so I am asking myself what changed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Did you add anything, like an addition or a finished basement? Anything that needed a permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. Nothing. I only painted the porch. On the other hand, maybe the painting counts? [pause] I am joking, but I do not know how this works."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:16-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Paint won't do it, don't worry. Usually it's one of a few things. The tax rate changed, the assessed value of the property changed, or an exemption dropped off. Do you remember if you had any exemption on the old bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:30-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exemption. This is the word for a discount, yes? I do not think so. Or maybe the old bill had a line like that, I cannot say. I do not have the paper in front of me. On the other hand, that is another problem, because I lost it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:46-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that explains why you can't check it yourself. I can look at the account with you. I'd need the name on the bill and the property address or the plot number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:57-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name is Carlos Semedo. S-E-M-E-D-O. About the address, I would prefer not to say it on this line, I am sorry. Is it possible to do it with the name only?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:08-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name alone is tough, there could be a few of you. Tell you what, I can't go into the details of the account without it, but I can explain the general part. The assessed value is set by the assessor's office, and the rate is set by the council. If either went up, your bill goes up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:27-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the assessor is a different office. On the other hand, you are finance, and you send the bill. This is correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:35-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. We bill and collect, the assessor sets the value. So if you want to know why your value changed, that's the assessor's office. I can transfer you if you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, maybe later. First I need a new bill. A duplicate, you say? Can you mail one to me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, we can mail a duplicate. I'll need the address to find the account, though. Otherwise I'd be mailing you somebody else's tax bill, and that makes for a bad week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:03-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, yes, of course. You are right. [pause] Okay, I will say it then. Wait, I have a question first. Is it the same address that you mail to, or the address of the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be different. Give me the property address, and I'll see where the bill goes. If your mailing address is different, tell me that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The same, I think. But now I am not sure. On the other hand, if the first one went wrong, I would not have received it, and I did receive it. So it is the same."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:36-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That logic holds up. Go ahead, then."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm, the line is... [line breaks up] ...sorry, can you repeat? The speaker is making noise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I said go ahead with the property address, whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:49-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Actually, I think I should call back with the paper from the mailbox. Can you send the duplicate to my number, I mean, to my name? My phone is 401-555-0179, in case you need it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:43:01-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't send it by phone number, unfortunately. Mail needs an address. Call back when you have the envelope in front of you, or give me the address now, either one works. And ask the assessor about the value while you're at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:43:15-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. I will do this. I am sorry to take your time. It is a busy week for me, we have a birthday party on Saturday for my grandson, he turns seven. On the other hand, the house is a mess after the storm last weekend, so I have many things in the head."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:43:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven, nice. Good luck with that. Call us back once you've found the envelope and we'll get the duplicate out to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:43:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. I will call tomorrow, maybe. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:43:45-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take care, Mr. Semedo."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T13:39:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T13:39:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-25T13:39:30-05:00",
+        "end": "2026-02-25T13:43:47-05:00",
+        "duration_seconds": 257,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T13:39:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

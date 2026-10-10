@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a01dc8a2-3339-8434-9126-be0f345f291e",
+  "created_at": "2026-02-26T12:00:10-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Lucille Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Department, water and sewer billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:37-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello Tony. My name is Lucille Cirelli. I am calling about my water bill, because it says estimated and I don't like it. No way they read my meter. Nobody came to my house, I would see."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:50-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mrs. Cirelli, I can look at that. What's the service address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:54:56-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I don't give the address on the phone. You can find me with the name, no? Cirelli, Lucille. And I can give you the account number, it's on the top of the bill, I have it right here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:55:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works fine. Go ahead with the account number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:55:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is, um, four, four, one, zero, dash, seven, seven, two. That's what it says."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:55:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, bear with me a second while it pulls up. [pause] Okay, I've got you. Yes, I see the last billing period shows an estimated reading, so you're right about that. It wasn't an actual meter read."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:55:32-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "See? I knew it. So the meter was never read. Nobody came. And the bill is higher than always, no way I used so much water. I am one person in the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:55:43-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it might have been that the reader couldn't get to the meter, or the remote reading didn't come through. I can't tell you exactly which from here, but the system fills in a number based on your past use when that happens."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:55:58-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Based on what? Because I use the same, always the same. Now here on the bill it says consumption, consumption, and a number. What is this consumption? I don't understand this word on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:56:10-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's just the billing word for how much water you used. It's measured in units on the meter, so consumption is the number of units you were charged for in that period. Then the rate gets applied to those units."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:56:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So consumption is the water I used. Then why they say I consumed so much if they didn't even read? They guess and I pay for the guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:56:34-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I get why that's annoying. With an estimate, the consumption figure is the guess, yes. The good part is that when an actual read happens, the next bill is adjusted up or down to match what you really used."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:56:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Adjusted. Okay. But I don't want to wait for next bill. I want to fight this one now. How do I dispute the charge, formally? Like on paper, with a stamp."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:56:58-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can put it in writing, that's the formal way. Send a letter to the Utilities billing office at City Hall with your name, the account number, the bill date, and a short explanation that you're disputing the estimated read. Ask for an actual meter reading too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:57:14-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter. I can do a letter. And I can ask you to send somebody to read the meter, now, this week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:57:22-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can put in a request for a meter read right now, yes. Let me do that while we're talking. Is the meter inside the house or outside?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:57:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Inside, in the basement, by the stairs. Somebody has to call me first. I'm not home all the time, and I don't open the door for nobody."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:57:41-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, I'll note that they should call first. Is the number ending in zero one seven nine the best one to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:57:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right, four zero one, five five five, zero one seven nine. It's the landline. I always pick up, if I'm here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:57:57-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, it's in the request. Now, for the letter, hang on to a copy for yourself, and keep the bill with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:58:05-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, the copy. Wait. I had a paper, from the last time, when I got a different bill with the same problem. I lost this file. Today I spent one hour looking, in the closet, in the kitchen drawers, everywhere. No way I find it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:58:20-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a pain, I'm sorry. Don't worry about the old paper too much. The billing history is in our system, so I can see the earlier readings from here and whoever handles your letter can too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:58:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the old bills are there, in the computer. Good. Because one hour, Tony, one hour I lost for nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:58:39-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I hear you. If you want, I can tell you the last few actual reads on the account right now, so you can mention them in the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:58:49-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, tell me. I write them down. Wait, I take a pen. [pause] Okay, go."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:58:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The last actual read was in the fall. After that, this latest one and the one before it were both estimates. So that's two in a row without a real reading."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two in a row! You see? So nobody read my meter for months. I write this in the letter, two estimates, no actual reading since fall."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:15-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's accurate, and it's a good point to include. Also ask them to recalculate the charge once the real read is in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recalculate, okay. And while the dispute is going, do I have to pay the whole bill? Because I don't like to pay for a guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a question for the billing office to answer in writing, since it depends on how they handle the dispute. I'd mention it in your letter so they address it directly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I put it in the letter. Fine. Then I'm waiting for the call about the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes ma'am, someone should call you before they come out. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:59:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all. Thank you, Tony. You explained good, the consumption thing. Next time they should read the meter, no? It's their job."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:00:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll pass that along with the request. You have a good afternoon, Mrs. Cirelli."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:00:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye-bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:54:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:54:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T11:54:32-05:00",
+        "end": "2026-02-26T12:00:10-05:00",
+        "duration_seconds": 338,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:54:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T11:54:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

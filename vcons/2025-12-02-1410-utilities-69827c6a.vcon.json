@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "69827c6a-1b4d-8b08-915c-4016af3801d4",
+  "created_at": "2025-12-02T14:16:03-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Aisha Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T14:10:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:10:42-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Tony. Is it all right if I ask about a water and sewer bill? My name is Aisha Nguyen."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:10:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead, Ms. Nguyen. What's going on with it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:10:55-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I got a bill in the mail and the name on it is my husband's. He passed, and the account was always in his name. Is it all right if I ask whether that needs to be changed over to me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:11:12-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's a common thing. We'd want to update the account holder so the bills come to you. Are you the owner of the property now, or are you renting?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:11:24-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm the owner. The house is in both names, or it was. I would have to look at the papers again. I have them somewhere, I've been cleaning out the garage all week and everything is in boxes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:11:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know how that goes. No rush on the papers. Usually we just need something showing you're the owner now, like a deed or a death certificate copy, and then we can switch the name over."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:11:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy of the death certificate. All right. Is it all right if I ask if I send it in or bring it in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:12:03-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one works. You can bring it to the counter at City Hall during the day, or mail it to the utilities office. Whichever is easier."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:12:14-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And is it all right if I ask about the amount? It's higher than I expected. There's a line that says sewer use and another that says a base charge, and I don't know what the difference is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:12:30-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. So the base charge is a flat amount you pay just for being connected, whether you use a lot of water or none. The usage part is based on what the meter says you used over the billing period. The sewer use is figured off the water you used, because what comes in generally goes out down the drain."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:12:53-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the sewer part goes up when the water part goes up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:12:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, they move together. If your usage was high this period, both lines go up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:13:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's only me in the house now, so I don't think I used more. Could the meter be wrong?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:13:14-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be a high read, or a leak somewhere, like a toilet that runs. If you want, I can have someone check the meter reading against the last one. Let me look at the account. What's the account number on the top of the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:13:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, let me find my glasses. [pause] All right. It says account number four four seven, then dash, one one two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:13:41-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Okay, I see the previous reads. Usage did go up a bit compared to last time, but not a huge jump. Have you been running water more than usual, maybe washing things in the garage?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:13:56-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Yes, actually, I have been hosing down things from the garage and rinsing out buckets. Is it all right if I say that's probably most of it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:14:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could easily explain it. Outdoor use still counts on the meter and it still gets the sewer charge on top."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:14:16-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I didn't know that. All right. Tony, is it all right if I ask something else? Is there any discount for low-income or elderly households? I'm on a fixed income now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:14:29-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I don't have a specific program in front of me that I can promise you. I'd rather get that answered properly, so let me put a note on the account asking the billing supervisor to check what's available for seniors, and someone will get back to you. Is this number you're calling from the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:14:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's four oh one, five five five, zero one eight nine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:14:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one eight nine. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:03-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And is it all right if I ask you to put the explanation in writing? About the name change and what papers I need, and the charges. I like to have it in front of me, I don't remember things on the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:21-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. I'll send out a short letter explaining the account holder change, the documents you need, and what the base charge and the usage lines mean. It'll go to the mailing address on the account. Is that still right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the same mailing address, that's fine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:41-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. It should be in the mail in the next couple of days. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's everything. Thank you for being patient with me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all, Ms. Nguyen. Good luck with the garage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:15:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T14:16:01-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:10:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:10:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T14:10:37-05:00",
+        "end": "2025-12-02T14:16:03-05:00",
+        "duration_seconds": 326,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T14:10:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T14:10:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T14:10:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T14:10:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T14:10:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

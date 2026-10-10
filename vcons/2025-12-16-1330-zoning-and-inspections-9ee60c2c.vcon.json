@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9ee60c2c-6842-8f53-ae88-1412aae03a21",
+  "created_at": "2025-12-16T13:38:23-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Lucille DeLuca",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T13:30:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:30:42-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. Um, I'm hoping you're the right place. I want to rent out part of my house on weekends and somebody told me there's a short-term rental license. I'm not sure that's the actual name of it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:31:01-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's close enough, I know what you mean. Let me ask a few things first so I point you the right way. What kind of space are we talking about?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:31:16-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's an in-law apartment. Attached, but it has its own door. Nobody lives in it right now. My mother-in-law used to, and, well. Anyway. It's empty during the week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:31:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And you'd rent it just Friday through Sunday, or just some weekends?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:31:38-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Weekends. Maybe not every one. I figured, I don't know, Friday to Sunday night. Is that, is that a thing? Does it matter if it's only weekends versus the whole week?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:31:54-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can matter for how things are categorized, but I'd rather confirm than guess on that. Are you the owner, and do you live in the main house?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:32:08-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I own it. I live there. Sorry, hold on one second. [pause] Sorry, I'm in a bank lobby. Waiting on the line. They keep calling numbers and it's not mine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:32:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. Can you give me the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:32:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "119 Pelham Street. Up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:32:34-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 119 Pelham. Okay, so since it's owner-occupied with a separate unit, that's the kind of situation the short-term rental license is meant for. You'd apply for the license, and there are usually zoning and safety questions that come along with it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:32:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Safety questions. Like what? Because I have to say, I thought it was one form. I thought you fill it out and that's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:07-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's an application, yes, but they generally want to know the unit is safe and legal as a dwelling. Things like smoke and carbon monoxide detectors, a second way out, that sort of thing. And whether the apartment itself was ever properly recorded as a second unit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:30-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recorded. Hm. I don't know if it was. It's been there since before we bought. The listing called it an in-law, so I assumed that was, you know, official."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:33:45-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a common assumption. It's worth checking. We can look up the property file and see how it's listed. Do you have the closing paperwork from when you bought it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:00-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Somewhere. In a folder. Probably a very large folder. Is that what I bring? The closing papers?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:09-05:00",
+      "duration": 30,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would help, yes. Let me go through what to bring. Proof you own it, so the deed or the closing documents. A photo ID. A floor plan or a simple sketch of the apartment showing the rooms and the exits. And if you have anything showing the unit was approved before, like an earlier permit or certificate, bring that too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:39-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hang on, I'm writing this on the back of a deposit slip. Deed. ID. Sketch. What was the last one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:34:50-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Any earlier approvals for the apartment. Old permits, a certificate, whatever you've got. If you don't have any, that's fine, just tell us and we'll see what's in the file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:35:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the sketch, does it need to be, like, to scale? Because I can draw a rectangle. I can draw several rectangles."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:35:17-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Neat and labeled is plenty. Rooms, doors, windows, where the smoke detectors are or will be."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:35:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will be. Right. So I don't have to have the detectors in before I apply?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:35:34-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd have them in before anyone inspects, honestly. I'd just bring the sketch showing where they go. Let me not tell you the exact order the inspection happens in, because that can depend on what the file shows. Would you like me to put a note on your address so whoever you talk to in person knows you called?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:36:03-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Yes. That'd be good. So wait. Do I come to you, or do I go to the, the license people? Is that a different counter?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:36:16-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The inspection and zoning side is here in our office. The license itself, the clerk's side may handle the actual issuing. I'd start here with the documents, and we'll tell you if you need to go over there afterward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:36:36-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So two stops. Maybe. Okay. And I'm sorry, is it a different thing if I'm only doing it a few weekends? Like, a few weekends in the summer?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:36:50-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the part I'd want one of our inspectors to answer, because the number of nights can change things. Bring that question with you. When you come, tell them you'd start small, a few weekends, and ask how it's treated."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:37:10-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm just going to say it back. Deed or closing papers, ID, sketch with the rooms and exits, any old approval for the apartment. And ask about how many weekends."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:37:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You've got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:37:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And when should I come? Is there a day that's less crowded? Or does it not matter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:37:38-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mid-morning on a weekday is usually calmer than first thing or the lunch hour. We're open regular weekday hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:37:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Oh, they just called my number. Sorry. Is it Pelham with two L's, or one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:37:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pelham, P-E-L-H-A-M. One L. I've got it on the note under 119."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:38:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One L. Wonderful. I've been spelling it wrong in my head for years. Okay, thank you, I have to go to the window."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:38:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead. Good luck with the folder."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:38:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. I'll need it. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:30:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:30:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T13:30:36-05:00",
+        "end": "2025-12-16T13:38:23-05:00",
+        "duration_seconds": 467,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:30:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T13:30:36-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T13:30:36-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T13:30:36-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T13:30:36-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

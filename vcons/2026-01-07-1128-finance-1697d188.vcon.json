@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1697d188-f5df-88dc-beb3-502f46b8a8f2",
+  "created_at": "2026-01-07T11:33:01-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Paulo Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T11:28:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:28:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Paulo Vieira. I am calling about my property tax bill, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:28:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Mr. Vieira. What is your question about the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:29:03-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the bill here in front of me. The amount is more than I can pay at one time right now. So I want to ask, is a partial payment allowed? Can I pay a part of it and the rest later?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:29:23-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the city does accept partial payments toward a tax bill. Whatever you pay is applied to the account, and the remaining balance stays due by the date on the bill. Interest can accrue on any amount that is past due after that date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:29:43-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So I pay a part now, and the rest is still due on the same date. The date that is printed on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:29:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. Each quarterly installment has its own due date, and those dates are printed on the bill itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:30:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Quarterly. Yes, I see the four parts now. Thank you. I was reading it as one amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:30:13-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The total is shown, but it is divided into installments. Look for the line that shows the amount due for the current quarter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:30:24-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I found it. Good. Now I have another question. My neighbor said the value of my house may be wrong on the bill. Who looks at this? Is it your office or a different office?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:30:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Assessments are handled by the Assessor's Office, which is separate from Finance. I can give you their hours, or I can transfer you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:30:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The hours, please. I would like to go in person, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:30:57-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment, let me pull that up. [pause] The Assessor's Office is open Monday through Friday, eight thirty to four thirty, at City Hall. Hours can change around holidays, so it is worth confirming if you are going on a holiday week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:31:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Monday through Friday, eight thirty until four thirty. Okay. I will write it down. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:31:24-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Is there anything else I can help you with today, Mr. Vieira?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:31:31-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Only one more thing. I am thinking about refinancing my car loan, and the bank may ask for proof that my taxes are in order. Is a copy of the bill enough, or do I need a paper from you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:31:49-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy of the bill would show what is owed, but a statement of what has been paid would come from our office. If the bank asks for something specific, you can call back or stop in and we can print an account statement for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:32:10-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "An account statement. Good. I will wait and see what the bank says first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:32:17-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds fine. Do you need me to note anything on your account about the partial payment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:32:25-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. I will make the payment first, then I will see. If I need to call again, my number is four zero one, five five five, zero one five seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:32:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, I have four-zero-one, five-five-five, zero-one-five-seven. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:32:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. You were very clear. Thank you for your help. God bless you, and may He give you a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:32:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Vieira. You have a good day as well. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T11:28:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T11:28:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T11:28:42-05:00",
+        "end": "2026-01-07T11:33:01-05:00",
+        "duration_seconds": 259,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T11:28:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T11:28:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T11:28:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T11:28:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T11:28:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

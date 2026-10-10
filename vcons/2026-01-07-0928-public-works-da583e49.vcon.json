@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "da583e49-7edf-818b-94a2-75aeee6acf79",
+  "created_at": "2026-01-07T09:33:05-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Sofia Souza",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T09:28:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:29:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Kevin, hon, it's Sofia Souza. I'm calling about a pothole, a bad one, on Memorial Boulevard."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:29:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure, let me grab a few details. Whereabouts on Memorial?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:29:19-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's right in front of 412 Memorial Boulevard, on the Easton's Beach side. You can't miss it, it's in the travel lane, right by the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:29:33-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "412 Memorial Boulevard, beach side. Got it. How big are we talking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:29:40-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Big. It's deep enough to swallow a tire, hon. I'm not exaggerating. I watched a little sedan drop right in it yesterday and it made this awful bang."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:29:55-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ouch. Okay, so deep, in the lane, near the curb. Is it a single hole or more of a broken-up patch?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:30:07-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mostly one big hole, with the edges crumbling around it. The asphalt's all chewed up on one side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:30:17-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, writing that down. Crumbling edges, one main hole. Anything else I should know about the spot?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:30:27-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's on a bus route. The bus goes right over it, and it has to swerve into the other lane to miss it, which isn't great with traffic coming."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:30:43-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good to know, that definitely matters. I'll flag it as a bus route so it gets noted. [pause] Okay, and the crew will want to see it, so I'll put it in as a road repair request."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:31:03-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Can I get a reference number for it? So I can check back if nobody shows up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:31:13-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. Let me get it entered... okay, it's coming up now. Your reference number is request 4471-B. Want me to read that again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:31:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, say it slow, I'm writing it on my hand. I'm in the car, hon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:31:35-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Four, four, seven, one, and then the letter B."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:31:42-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four seven one B. Got it. Okay, thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:31:48-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do you want a call back when it's been looked at? I've got a number here ending in oh one seven three, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:32:02-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's me, 401-555-0173."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:32:05-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, that's what I have. Somebody from the street crew should be out to look at it in the next few days, probably sooner since it's on a main road."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:32:21-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Sorry, I have to run, I've got to figure out a ride for my son. He has basketball practice at six and I'm trying to sort out who can pick him up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:32:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing, go ahead. Anything else on the pothole before you go?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:32:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Just the pothole, the bus route, and the number. Thanks, Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:32:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it, Sofia. Drive safe and avoid that hole."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T09:33:01-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, believe me. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T09:28:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T09:28:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T09:28:56-05:00",
+        "end": "2026-01-07T09:33:05-05:00",
+        "duration_seconds": 249,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T09:28:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T09:28:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T09:28:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T09:28:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T09:28:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

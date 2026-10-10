@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c4d23ac2-bcdc-8562-83af-46496840598a",
+  "created_at": "2026-03-09T13:29:36-04:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Mei Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:02-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:07-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. Um, sorry, I'm on my cell, and I'm stopped at a red light, I ride a scooter to work, so I have a minute, maybe less. Is that okay? Can you talk now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:20-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can help you. Please be careful. What do you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:25-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. I need a copy of a past year's property tax bill, the paid one, for a refinance. The lender wants it. Is that something you can send? Can I get that, is that allowed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:38-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can provide copies of prior bills. I'll need the name on the account and the property address or the plot and lot number, and which tax year you need."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:50-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the name is Mei Nguyen, N-G-U-Y-E-N. And the year, last year, the one that's paid. The address, hold on, the light is changing, I'm going. [pause] Okay I'm moving. Can I give you the address after? Or is that a problem?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:05-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please don't give it to me while you're riding. You may call back, or I can take a callback number and have someone follow up. Would you like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:16-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, the number is four-oh-one, five-five-five, oh-one-seven-seven. Is that okay, that you call? I don't want to miss it, with the refinance."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:25-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I have four-oh-one, five-five-five, zero-one-seven-seven. I'll note a request for a paid copy of last year's bill under Nguyen, and we'll confirm the property details when we speak."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:36-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Okay. Another one, can I ask another? Sorry. How do I change the mailing address? Because the bill goes to the old place, and I want it to go to the new one. Is it okay to do by phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:51-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailing address changes need to be in writing. You can send a signed letter with the account information and the new address, or drop it off at City Hall. A phone call alone isn't sufficient."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:04-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter, signed. Okay. So not by phone, a letter. And I mail it to City Hall, or I bring it? Either one is okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:14-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one works. Mail it to the Finance Department at City Hall or bring it in during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:22-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And, um, the installment. The next payment. I work all day, I'm not able to come in during the hours. Is there a way to pay when the office is closed? Like a drop box, is there a drop box? Is it okay to use that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:39-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is a payment drop box at City Hall. You may place a check in it after the office closes. Please write the account or bill number on the check and include the payment stub if you have it. Online payment is also available through the city website."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:57-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A check, with the stub. And the box is outside, so I can go at night? It's okay at night?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:05-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's accessible outside regular hours. Payments placed in the box are processed on the next business day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:12-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Good. So, letter for the address, the box for the payment, and you call me about the copy. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:22-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. We'll call you at the number you gave about the paid bill copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:28-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. I have to go, the light is green. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:33-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Ride safely."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:26:02-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:26:02-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T13:26:02-04:00",
+        "end": "2026-03-09T13:29:36-04:00",
+        "duration_seconds": 214,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:26:02-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T13:26:02-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T13:26:02-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T13:26:02-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T13:26:02-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

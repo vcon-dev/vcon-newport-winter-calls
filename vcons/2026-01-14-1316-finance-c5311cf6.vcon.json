@@ -1,0 +1,931 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c5311cf6-3fe5-8ce1-b394-6af6b1d899f6",
+  "created_at": "2026-01-14T13:28:28-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Declan Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-14T13:16:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance, this is Luis. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:16:32-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, afternoon. I'm calling about a property tax bill. Not paying one, exactly. I need a copy of one that was already paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:16:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, those I can help with. Which year are we talking about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:16:51-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Last year's. Well, the fiscal year that just, uh, the one that covers most of last year. My mother's house. I'm doing a refinance and the bank wants proof it's paid up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:17:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. So it's your mother's property, and you're calling on her behalf?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:17:14-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. I'm her son. She's in her eighties, she doesn't do the phone much, and she definitely doesn't do the bank's portal. So it falls to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:17:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Wait, so the refinance is on her house, or on yours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:17:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hers. Sorry, that was unclear. She's refinancing, I'm just the one with the phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:17:43-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Do you have the property address or the bill number in front of you? Either one works for me to pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:17:56-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the bill. That's sort of the problem. It's somewhere in a pile at her kitchen table and I'm not in her kitchen. I'd rather not give the address on a cell phone in a parking lot, if there's another way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:18:18-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Um, it does make it harder. I'd need something to find the account. The owner's name and the street would do it, or the plat and lot number if you had that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:18:35-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a plat. Is that the lot thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:18:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, plat and lot. It's printed on the bill, top corner usually."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:18:48-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then no. Okay, what if I just get you the name and you tell me if it's there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:18:58-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name alone might bring up a few. Lots of people own things. What I can do is search the name, and then you confirm the street without me saying it. Does that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:19:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Her name is Dolan. Same as mine. Margaret Dolan."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:19:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, give me a second. [pause] Alright, I've got a couple of Dolans. Which street is hers?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:19:30-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I'm trying to think how to say it without saying it. It's a street named for a tree. Not the type you'd guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:19:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I mean, you can just say it. It's a city phone line, not a spy movie."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:19:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair. It's Poplar. She's not on the Dolan list under that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:19:58-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Poplar... no, I've got a Dolan on a different street and one with a different first name. Is it spelled the usual way, Dolan?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:20:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "D-O-L-A-N. Though sometimes it's been typed D-O-L-L-A-N on stuff. The county did that once."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:20:18-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me try that. [pause] There we go. Margaret Dollan. Yeah, that's a different spelling than what I tried. Poplar, there it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:20:30-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be her. Typical. Eighty years of being spelled wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:20:36-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It happens. Okay, so I see the account. Last fiscal year shows as paid in full. All four quarters."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:20:46-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's what I hoped. The bank wants an actual copy, though. Like a paper bill with the paid stamp or a receipt or whatever it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:21:00-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So what I can do is print a duplicate of that year's bill showing the payment history, and mail it. Is that what you're after?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:21:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. A duplicate bill, mailed. Can it come to me instead of her? I'd rather it didn't sit in her mailbox for a week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:21:25-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. Usually it goes to the address on file, the owner's mailing address. I can take a note, but I'd have to check whether we can send it somewhere else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:21:40-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. If it has to go to her, it has to go to her. I can pick it up from her. She's not hiding it, she's just got a system."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:21:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A system, I like that. Let me ask the tax collector's office real quick, hold on a minute. [pause]"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:22:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'm not going anywhere. Just sitting here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:22:10-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. So they said that for a copy of a bill, the mailing can go to a different address if the request comes from the owner or someone with her authorization. As her son, calling without her, they'd rather send it to the address on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:22:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That seems reasonable. It's her bill. Fine, to her house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:22:40-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And I'll flag it as a duplicate, paid. It usually takes a few business days to arrive, depending on the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:22:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few business days. The bank said they need it by the end of next week. Is that realistic?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:23:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If I send the request today, probably. Mail around here is mostly reliable. Not always scenic, but reliable."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:23:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And is there any way to get something faster? Like an email of it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:23:20-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me think. I can't promise email on my end. What the office told me is that a bill history can usually be printed at the counter if someone comes in, and the bank may take that. But if nobody's coming in, mail is it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:23:43-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not going to get down there this week. Work. Mail is fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:23:50-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, mail it is. One other thing, since you mentioned a pile on the kitchen table. Has your mom gotten any other mail from us lately? Like a notice about the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:24:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A novice? Like, a novice about what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:24:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A notice. N-O-T-I-C-E. Like a letter saying something's due or there's a change."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:24:17-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Notice. Sorry, I heard novice. Like she's been enrolled in some beginner program. Maybe it's the cell. No, I don't think she has. I haven't seen one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:24:31-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, I'm not putting her in any programs. There's nothing flagged on the account that I can see. No delinquency, nothing like that. I was just asking because sometimes people think a bill is missing when it's really a notice they set aside."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:24:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's possible. She does set things aside. Anyway. So nothing flagged, last year's paid, duplicate on its way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:25:03-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And before I submit it, let me read back. Margaret Dollan, spelled D-O-L-L-A-N in our system, Poplar Street, duplicate bill for last fiscal year, paid, mailed to the address on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:25:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. I'm sure she'll love being a double L."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:25:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd give her the choice, but I can't edit the spelling from here. If she wants it fixed, that's a separate thing, usually a form."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:25:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eighty years, I'm not going to start that fight now. Leave it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:25:45-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine by me. Do you want me to put your number on the request, in case they have a question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:25:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. It's four oh one, five five five, oh one six two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:03-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one six two. And the name for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Declan Dolan. Two L's if you want. Doesn't matter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:16-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll go with one L for you. Declan, D-E-C-L-A-N. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:24-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, a thought. If the bank needs proof by next week, and the mail is slow, you might also ask them whether they can pull it themselves. Sometimes the lender or the title company has its own way of verifying with us."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They did mention a title company. I'll ask. That might be easier than me chasing the mailbox."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:26:54-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Worth a question. And if the paper shows up and it's not what they want, call back and ask for the tax collector's office directly. They can tell you what else exists."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:27:10-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is there a direct line, or do I come through you again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:27:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can come through here again. Any of us can put you through."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:27:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I'll do that if I have to."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:27:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anything else on the account I can look at while I have it open?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:27:37-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the one thing. Actually, one question. The bill that was paid. Does the copy show the date it was paid? The bank people like dates."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:27:50-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The history on it should show the payment dates for each quarter, yes. That's what the paid status is built from."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:28:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's what they want, I think. Dates and amounts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:28:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It'll have both. Okay, request is in. You should see it in a few days, at your mother's."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:28:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Thanks, Luis. Appreciate the help."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:28:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Declan. Good luck with the refinance."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T13:28:26-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T13:16:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T13:16:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-14T13:16:28-05:00",
+        "end": "2026-01-14T13:28:28-05:00",
+        "duration_seconds": 720,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T13:16:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-14T13:16:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-14T13:16:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-14T13:16:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-14T13:16:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

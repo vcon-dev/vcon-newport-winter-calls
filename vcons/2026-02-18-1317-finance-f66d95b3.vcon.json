@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f66d95b3-fd2c-8105-87f5-156bbd7babed",
+  "created_at": "2026-02-18T13:20:09-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Linda Brownell",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:23-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I got a parking ticket yesterday and it's wrong. Basically I park in a resident-permit spot, and I have the sticker. It's on the windshield. It's been on there since fall."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:35-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that. Do you have the ticket in front of you? I'll need the ticket number, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:42-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, hold on, I'm literally holding it. Okay, it's, um, the number is 4 4 1 0 7 2 8. Issued around eight-forty in the morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back to you. Four, four, one, zero, seven, two, eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. That's it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:17:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And may I have your name and the plate number on the vehicle?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:18:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Linda Brownell. Plate is, uh, Rhode Island, 7 7 4 K Q. Sorry, that's the whole thing, 774KQ. It's a gray Subaru."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:18:12-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Brownell. I see the citation here. It's listed as parking in a resident-permit zone without a valid permit displayed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:18:20-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Basically that's the problem. It is displayed. Bottom corner, driver's side, you can't miss it. The officer either didn't look or the sticker got read wrong. I'm kind of irritated, honestly, because this is a hassle I didn't need."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:18:34-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. In that case, you'll want to file an appeal of the citation. You can do that in writing, and I'd suggest including a photo showing the permit on the windshield, along with a copy of your permit registration."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:18:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can do the photo. I'll take it after this call. So how long does the appeal take? Like, basically, do I have to pay it first while I wait?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:18:59-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Review times vary depending on how many appeals are in the queue. Typically you'd hear back in a couple of weeks, but I can't give you a firm date. As for payment, the notice on the back of your ticket explains the deadline and what happens with an appeal pending. Please read that section carefully."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:19:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple weeks. Great. And if I miss the deadline because they're slow?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:19:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Filing your appeal within the stated window is what matters. Get it in promptly, keep a copy, and note the date you submitted it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:19:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Sorry, one sec, I'm stacking firewood by the back door and I just dropped a log. Okay. Where do I send it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:19:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can mail it to the Finance Department at City Hall, attention parking violations, or bring it to the counter during business hours. Please put the ticket number on every page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:19:51-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, ticket number on every page, photo, permit copy. Got it. I'll bring it by this week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:19:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Is there anything else I can help you with today, Ms. Brownell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:20:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:20:06-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:17:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:17:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T13:17:17-05:00",
+        "end": "2026-02-18T13:20:09-05:00",
+        "duration_seconds": 172,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:17:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T13:17:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T13:17:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T13:17:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T13:17:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "87f9c0d7-8663-836f-a9ea-e81fcc6e5ca0",
+  "created_at": "2026-02-05T11:57:07-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Terrence Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T11:48:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, water and sewer billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:48:56-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. My name is Terrence Flynn. I am property manager for a small building, and I have received a notice in the mail. It says shutoff. Shutoff of water service. I am very unhappy about this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:49:13-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that, Mr. Flynn. Let's take a look. Do you have the notice in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:49:23-05:00",
+      "duration": 26,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it here. It came yesterday, Wednesday. It says my account is past due and service will be discontinued if payment is not made. But it does not say clearly how many days I have. There is a date, but I do not understand if this is the date of the letter or the date of shutoff."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:49:49-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question, and those can be confusing. Can you read me what it says near the top, the account number and any dates you see?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:50:01-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number is... one moment. I need my glasses. [pause] Yes. It is account ending in four, four, one, seven. And there is a date, February the twelfth, next to the words, final date to pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:50:18-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I found it. So that February twelfth is the deadline on the notice. That's next Thursday, a week from today. The date at the top of the letter is just when it was printed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:50:34-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I have one week. Only one week. But this is not the first time I have had trouble with this account. Last quarter the bill came late, and now again I get a warning before I even see the regular bill. This is not right. Nobody sends me the bill on time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:50:58-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Let me see what we have on file for where the bills have been going. Is the mailing address on the account the building itself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:51:11-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it goes to the building. But I do not live there. I manage, and the mail sits in the box for days sometimes. So I would like a duplicate copy of the bill sent to me by email, so I can see exactly what is owed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:51:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can do that. I'll need an email address to send it to. Go ahead and spell it slowly for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:51:42-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Actually, may I ask, can you use the one on file? I gave it once before, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:51:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check. [pause] Hmm, I'm not seeing an email on this account. There's just the phone number and the mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I will give it to you. It is T, F, L, Y, N, N, property, all one word, at a mail service. I will say the whole thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, go ahead with the whole address, and I'll read it back to you so we get it right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "T-F-L-Y-N-N, then the word property, then the at sign, then the word postbox, and dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:31-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so T F L Y N N property, at postbox dot com. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:39-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:43-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I'll put that on the account and send a copy of the current bill over right now. It should land in a few minutes. Check spam too, sometimes city mail ends up there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:52:58-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will check. Now, I want to pay this before the weekend. Tomorrow is Friday, and I have many errands. But I may not reach City Hall before you close. If the office is closed, how can I pay? Is there any way to do it at night or on Saturday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:53:21-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you've got a few options. You can pay online through the city's website anytime, day or night, with a card or a bank account. There's also a drop box outside City Hall for checks, so if you come after we close, you can leave it there. Just write the account number on the check and don't put cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:53:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The drop box, is it checked every day? If I leave it Friday evening, will it be counted for Friday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:53:57-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally it's collected the next business day, so something dropped Friday night would get processed Monday. But your deadline is next Thursday, so you're fine either way. The online payment would show up faster though, if you want it recorded right away."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:54:16-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Online is maybe better. But I am not good with websites. They ask many things. What do I need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:54:26-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'll want your account number and either the bill or the notice handy. The email copy I'm sending has everything on it, so you can follow along from that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:54:39-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because I do not wish to make a mistake and then have the water shut off for a tenant. That would be terrible. People have children in that building."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:54:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Once the payment goes through, the shutoff is cancelled. If you pay by the deadline you shouldn't have any problem."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:55:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the amount, it is the whole amount on the notice? Or only the regular bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:55:11-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] The past due balance is what's listed on the notice, and that's what you'd want to pay to clear it. The current bill that comes next is separate. If you're not sure, the email copy will show both lines."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:55:30-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I will pay the past due. It is still a shame that I must chase the bill. In my country, we would receive a paper in the hand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:55:43-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I get it. Now that we've got your email on the account, you'll at least have another way to see things. And I'll note on the account that you asked about the late notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:55:59-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That is helpful. Excuse me, one moment. I am in a shop now, and it is a little loud. I am looking for a present, a gift for a coworker's baby shower. [pause] Sorry. I am standing in the aisle with the blankets."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:56:19-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all, take your time. Did you want me to go over anything else while you're there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:56:28-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Only to confirm. The date is the twelfth, I can pay online anytime, or drop a check in the box outside City Hall. And the email will arrive in a few minutes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:56:43-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all correct. And if anything looks off on the bill when you open it, call back and ask for billing. We're here weekdays during regular business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:56:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. I will call if there is a problem. Thank you, Mr. Ferreira. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:57:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Flynn. Take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:48:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:48:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T11:48:49-05:00",
+        "end": "2026-02-05T11:57:07-05:00",
+        "duration_seconds": 498,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:48:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T11:48:49-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T11:48:49-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T11:48:49-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T11:48:49-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "955c84bf-66ca-8817-afc2-ac282addbcbc",
+  "created_at": "2026-01-26T11:11:14-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carlos Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T11:08:19-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:08:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. My name is Carlos Vieira. I am calling about a parking ticket, and I must say I am not happy about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:08:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that, Mr. Vieira. Do you have the ticket number or the license plate in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:08:42-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This is the problem. It is not my car. I rented a car in December, for my sister's visit, and now the rental company sends me a letter. They forward the ticket from Newport, and they add their own fees on top. Administrative fee, they call it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:08:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the original citation was issued by the city, and the rental company has billed you separately for their charges."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:07-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly so. The letter has the ticket number. It begins with the letters N, P, and then, um, 4, 4, 1, 7, 0."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] All right, I have it. It's an expired meter violation, issued in December on Thames Street. The citation amount is showing as unpaid."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:32-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, so. The city amount I accept. I park, the meter runs out, fine. But the rental company fees, this I do not understand why I pay them to the company and also the city. Is the city charging this too?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:47-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, sir. Any administrative fee from the rental company is between you and them. The city only collects what's on the citation itself, plus any late penalty that has been applied."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:09:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Late penalty. Okay. So it has become more because the letter came so slowly to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:10:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That may be the case. The notice went to the registered owner first, which would be the rental company, so the delay is understandable."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:10:13-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. I am, excuse me, I am at a garden center now, looking at houseplants, so I cannot see everything. But I want to ask, is there a payment plan? Because total amount is more than I expected, and I would like to pay in parts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:10:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can tell you that for parking citations, the standard expectation is payment in full. I'm not certain whether installments are available. I can transfer you to our collections desk, and they can answer that definitively."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:10:42-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, yes. That is better. Because I do not want another penalty, another letter, another fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:10:48-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Let me give you my direct reference: tell them you're calling about citation NP4 4170, and that you're requesting a payment arrangement. If the line is busy, they'll take your number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:11:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four, four, one, seven, zero. Yes. And my number is 401-555-0155, if they need to call."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:11:06-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Vieira. I'll note that on the account. Please hold while I transfer you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:11:12-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I hold."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:08:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:08:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T11:08:19-05:00",
+        "end": "2026-01-26T11:11:14-05:00",
+        "duration_seconds": 175,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:08:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T11:08:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T11:08:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T11:08:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T11:08:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

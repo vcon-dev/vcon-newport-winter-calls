@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "543f97b7-cb86-8137-84fd-d492af9133fd",
+  "created_at": "2026-01-13T14:59:58-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Richard Gardiner",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T14:57:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:57:59-05:00",
+      "duration": 37,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello, this is Richard Gardiner, and I need a new recycling bin because mine blew off down the street in that coastal storm Friday into Saturday and I found the lid up by the corner but the bin itself is gone, somebody probably took it or it's in the harbor by now, and I put the trash out this morning like I'm supposed to and the recycling had nothing to go in so I had it all in a paper bag, which the fella left sitting there, and I'm eighty-some years old and I'm not going to go hunting around the neighborhood for a plastic bin, so what do I do about getting another one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:58:36-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Gardiner, sorry about that. Lots of bins went flying Friday. We can get you a replacement. Is the lid the only piece you have left?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:58:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the lid, yes. Hold on, I've got my grandson here on the speaker, he's helping me with the phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:58:53-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Stop that. He's giggling, never mind him, he thinks the bin is in the ocean."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:58:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right, hi there. So, to request one, I'll take your name and the address where it gets delivered and put in the request. Or you can pick one up at the Public Works yard during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:59:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not driving over there. You can bring it. What address do you need, it's where I live, I rent, I don't own the place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:59:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll need the service address, though. Go ahead and give me the street number and name."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:59:27-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'd rather not say it on this phone with the boy listening, he's got a mouth. Can I just come by and tell you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:59:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mr. Gardiner, I can't process it without the address. Tell you what, have your grandson write it down, and call me back, or stop in at City Hall and they'll take it down at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:59:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, fine. That's a hassle for a bin. I'll call back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T14:59:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know, I'm sorry. Ask for Public Works and we'll get it going. Stay warm."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T14:57:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T14:57:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T14:57:56-05:00",
+        "end": "2026-01-13T14:59:58-05:00",
+        "duration_seconds": 122,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T14:57:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T14:57:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T14:57:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T14:57:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T14:57:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1d3ba326-32f5-895c-a09a-252f7da9dbe9",
+  "created_at": "2026-01-26T12:25:59-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Judith Brownell",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T12:24:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:24:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello? Yes, hello, this is Judith Brownell. I'm calling for my mother. You'll have to forgive me, I'm a little hard of hearing, so I may talk loud."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:24:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no trouble at all, Judith. What's going on with your mother?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:24:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Her recycling bin got left at the curb with a tag on it. It says rejected. Rejected! I don't know what was wrong with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:24:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a rejected tag on the recycling bin. Did the tag say a reason? Usually there's a box checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What was that? A reason? Hold on, I have it here. It's got a checkmark by something about wrong items. Plastic bags, I think. Bags inside."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Plastic bags inside the bin. That's a common one. Bags have to stay out of the recycling, and everything goes in loose."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:22-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Loose. All right. Is there a fee for that? For being rejected?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, there's no fee for a rejected tag. You just take the bags out and put it back out on the next pickup day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. That's a relief. I have to run, I take my grandchildren to library story time and we're headed out in a bit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:43-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds nice. So, no bags, loose items only, and set it out on the next collection day. With the snow and rain today, pickup may run a bit behind."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:53-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Behind, yes, I figured. Thank you very much, dear. Goodbye now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:25:57-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Judith. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:24:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:24:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T12:24:31-05:00",
+        "end": "2026-01-26T12:25:59-05:00",
+        "duration_seconds": 88,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:24:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T12:24:31-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T12:24:31-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T12:24:31-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T12:24:31-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e6ea4bd8-5f95-8eaf-b5da-e9bf983e1b7e",
+  "created_at": "2026-01-14T11:25:03-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Erin Gallagher",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-14T11:20:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, parking tickets, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:04-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Yes, I have a ticket here, and I think it is a mistake. They say my registration sticker is expired."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I can look that up. Do you have the ticket number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:22-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, one moment. [pause] Sorry, I am cooking, I have the pot on. The number is, um, it is on top, P as in Paul, then 4, 4, 0, 7, 1, 9."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:36-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. P, 4, 4, 0, 7, 1, 9. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct. And the name is Erin Gallagher. G-A-L-L-A-G-H-E-R."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:47-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Gallagher. I have it here. It was issued yesterday morning for an expired registration sticker. The fine is one hundred dollars."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:21:57-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. But I renewed the registration the day before. Monday, I did it, at the registry. The sticker on the car, it was still the old one because the new one, I did not put it yet. So the ticket, it is not fair. I am a little bit angry, honestly, for a hundred dollars."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:22:20-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. You do have the option to appeal the ticket. You would submit your renewal receipt showing the date of renewal, and the matter would be reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:22:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long the appeal takes? Because I do not want to wait many weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:22:38-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally it is a few weeks for a decision once the paperwork is received. While it is pending, the ticket can stay open, though late penalties may apply if the deadline passes, so you will want to check the date on the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:22:56-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few weeks. Hmm. [pause] The deadline, it says fourteen days, I think. I do not want extra money on top. So maybe I pay now, and then I appeal, and they give back if I am right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is possible. If the appeal is granted, a refund would be issued. Would you like to pay the one hundred dollars today by card?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, okay. I pay. One second, I need to put the spoon down. [pause] Okay. The card, I go slowly, okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, go ahead whenever you are ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four one one one, one one one one, one one one one, one one one one. Expiration is zero seven, thirty."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:45-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back. 4111, 1111, 1111, 1111, expiration 07/30. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:52-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the amount is one hundred dollars, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:23:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one hundred. That is the amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:02-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment while I process it. [pause] The payment has gone through. You will receive a receipt. For the appeal, please bring or send your registration renewal receipt along with a copy of the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Send to where? Because it is easier for me to send than to come."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:24-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The appeal can be mailed to the Finance Department at City Hall, attention parking appeals. I would write the ticket number on everything you send."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, ticket number on everything. Parking appeals, City Hall. I write it down now. [pause] Sorry, the pot, I must stir it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you for your help, Ms. Whitcomb. I hope the appeal, it works."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:24:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Gallagher. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T11:20:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T11:20:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-14T11:20:58-05:00",
+        "end": "2026-01-14T11:25:03-05:00",
+        "duration_seconds": 245,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T11:20:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-14T11:20:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-14T11:20:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-14T11:20:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-14T11:20:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

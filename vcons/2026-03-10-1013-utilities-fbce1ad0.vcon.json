@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fbce1ad0-fa8d-8c54-b5f4-7082b4e479d5",
+  "created_at": "2026-03-10T10:19:47-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Esteban Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:12-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Utilities, Tony speaking."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:17-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Morning. Esteban Pagan calling. I've got a water and sewer bill here in front of me and I can't make sense of one line."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:29-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, happy to walk through it with you. Which line is giving you trouble?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:37-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The sewer charge. It's higher than the water charge. Now I'm not running a sewer plant over here. I use the water, so how does the sewer come out bigger?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:52-04:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a common one. The sewer charge is generally figured off how much water comes through your meter, but the sewer rate per unit is usually higher than the water rate, because it covers collecting and treating what goes down the drain. So the same usage can give you a bigger sewer line."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:18-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not a second meter or anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:23-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no second meter. One meter, two charges figured from it. Water on one line, sewer on the next."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:33-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Okay. I did three years in the Navy and nobody ever explained that to me, and I've been paying it forty years."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:45-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, now you know. Is there anything else on the bill that looks off?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:53-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the name. The bill still comes in my wife's name. The account was hers. She's gone now, and I never changed it over."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:05-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that. That's okay for paying, a payment will go through on the account either way. If you want the name updated to yours, we can do that, though I'd have to send you what we need for it. Do you want that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:27-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send it, sure. I'll look at it. Is it a form I mail in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:35-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be mailed or dropped off. I'll make a note to get it out to you. Is the mailing address the same one on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:48-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same one, yes. Just use what's on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:53-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:56-04:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I want to pay this before the weekend. Thing is, I don't drive much anymore and I don't want to be down there when you're closed and find a locked door. How do I pay when the office is shut? Nights, Saturday, whatever."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:16:17-04:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. There's a payment drop box at City Hall you can use any time, just put in a check with your account number or the bill stub. You can also pay online through the city's website, that works around the clock. And you can mail a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:16:40-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail wouldn't beat the weekend. I don't have the computer. My grandson set it up once but he's not around. Is there a phone option?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:16:53-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is an automated payment line that takes cards, and I can also take a payment right now over the phone if you'd like to get it done today."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:08-04:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me think. I'm out on the porch, in a lawn chair with a blanket, and the bill's on my knee. The card's inside. I don't want to get up and wander around the house on the cold floor."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:27-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No rush at all. Take your time, or call back whenever it suits you. The line's open during business hours and the automated one is there afterward."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:41-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What are your hours again, so I know when to call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:47-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open weekdays, regular business hours, closed weekends. So if you call back today or tomorrow or Thursday, you'll get a person. After that, the automated line or the drop box."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:02-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then I'll probably do it tomorrow morning. Will it show up as paid right away?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:10-04:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Phone and online payments usually post pretty quickly. A check in the drop box takes a little longer since someone has to collect it and enter it. If the due date is close, the phone is the safer bet."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:29-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Now, we had that rain Friday and Saturday, three days ago. Does that affect my bill? More water through the meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:40-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, rain doesn't run through your meter unless you were filling something from the house. Rain on the roof or yard isn't billed as water use. Your bill is just what registered on the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:57-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Just checking. Then it's the same as always."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:02-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes sir. So, I'll send out that name-change paperwork, and you'll call back to pay, tomorrow likely?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:11-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the plan. My number's 401-555-0151 in case you need to reach me about the form."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:19-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0151. I'll note it on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:24-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. That clears it up. Sewer's a higher rate off the same meter. Water line, sewer line. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:34-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:36-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony. I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:40-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Mr. Pagan. Stay warm out there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:44-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:13:12-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:13:12-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T10:13:12-04:00",
+        "end": "2026-03-10T10:19:47-04:00",
+        "duration_seconds": 395,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:13:12-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:12-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:12-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:12-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:12-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

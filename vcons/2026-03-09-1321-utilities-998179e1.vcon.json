@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "998179e1-bd6f-8ab6-8111-a735f596b549",
+  "created_at": "2026-03-09T13:29:48-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Odete Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T13:21:43-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:21:47-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good afternoon. My name is Odete Monteiro. I'm calling about a water bill, and I think maybe I got two of my accounts mixed up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:22:00-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, no problem, we can sort that out. You have two accounts with us?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:22:08-04:00",
+      "duration": 30,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I have two properties. I live at 361 Harrison Avenue, that's the Fort Adams side, and I rent that one. Then I have a little place I own over on the other side of town that I rent out. The bill I got in the mail has a big number on it and I can't tell which house it's for."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:22:38-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Do you have the bill in front of you? There should be an account number near the top right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:22:49-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, let me find my glasses. [pause] Okay. It says account, um, it starts with a seven. Then a bunch of numbers."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:23:01-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead and read me the whole thing when you're ready, and the service address if it's printed there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:23:11-04:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The service address on it says Harrison Avenue. Oh. So that's the one I live in. Wicked, I thought it was the other one. I had the pipe break at the other house, that's why I was looking at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:23:31-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so let's back up. The bill you're holding is for 361 Harrison. Is the broken pipe at the other property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:23:42-04:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the other one. The pipe broke in the basement a few weeks ago, in the cold. I got it fixed by a plumber. But I figured the water bill for that one is going to be huge, so I wanted to ask about a leak adjustment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:24:05-04:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. So some places will adjust the bill when there's a documented leak that was repaired, and the usage was from the leak rather than regular use. The first thing I need is to pull up the right account for the other property. Do you have that address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:24:29-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, but I don't have that bill in front of me. I only grabbed the one. I can give you the address though."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:24:41-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Give me the address and I'll look it up by that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:24:48-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 48 Bellevue, no wait. Hmm. [pause] No, I'm mixing that up too. It's the one on Third Street. I always say Bellevue because my sister lived up Bellevue. It's 112 Third Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:25:04-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 112 Third Street. Let me pull that up. [pause] Alright, I've got an account under your name there. The last reading shows a higher usage than the previous quarters, so that matches what you're saying."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:25:22-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wicked high, right? I figured."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:25:25-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's up quite a bit, yeah. For the adjustment, they'll want to see the plumber's invoice or a receipt showing the pipe repair, with the date. Do you have that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:25:40-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the invoice, yeah. It's in the kitchen drawer. Do I mail it, or bring it somewhere?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:25:49-04:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it by the billing office or mail it in, and put your account number on it. I can't say right now what the adjustment would come out to, because that gets reviewed. I'd want someone in the billing office to look at the reading and the repair date and tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:15-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Could somebody call me back with an answer on that? I don't want to just send it in and then hear nothing for a month."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:28-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. I'll put a note on the account for a callback. What's the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:36-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0187. That's my landline. I'm usually home in the afternoons, mornings I'm out and about."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:45-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0187, afternoons. I'll note that it's regarding a leak adjustment on Third Street, repaired pipe, invoice to follow."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:26:55-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Now, the bill I have in my hand, the Harrison Avenue one. That one's just my regular usage, right? That's not the leak one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:08-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check that one too. What's the account number again, the one starting with seven?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:17-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven, zero, four, one, nine, two. And then I think there's a dash and a three."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:25-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's coming up. [pause] Yeah, that one looks like normal usage, in line with the last few bills. The amount due is a hundred and one dollars and twenty-five cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:41-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's about what I expected. Good. So the big scare was just me reading the wrong house. I can pay that one now, if that's okay. I have my card right here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:27:57-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can take that over the phone. Go ahead whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:04-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's 4012 8888 8888 1881. Expiration is 10 27."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:10-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So that's 4012 8888 8888 1881, expiring October of 2027, for a hundred and one twenty-five. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:21-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:23-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I'll run that through. [pause] It went through okay. You'll get a confirmation on your account, and the Harrison Avenue bill will show as paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:36-04:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful. Thank you. Oh, by the way, I found a jacket at a thrift store Saturday that fits me perfectly. Wicked rare for me. Anyway, I was in a good mood about it and then I opened the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:28:55-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, glad the jacket worked out. And hopefully the bill news is a little better now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:03-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is. So just to be sure, you're going to have someone call me about the Third Street adjustment, and I send in the plumber's invoice."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:16-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Send the invoice with the Third Street account number on it, and the note on the account will have your number for the callback. Someone should call you in the afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:32-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. I'll drop the invoice off tomorrow, I think. Thanks very much, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:40-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mrs. Monteiro. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:29:45-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:21:43-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:21:43-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T13:21:43-04:00",
+        "end": "2026-03-09T13:29:48-04:00",
+        "duration_seconds": 485,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:21:43-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T13:21:43-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T13:21:43-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T13:21:43-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T13:21:43-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

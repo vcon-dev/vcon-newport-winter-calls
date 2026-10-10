@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d7e865dd-0a2b-8b73-bd00-b87c1a6ff52a",
+  "created_at": "2025-12-31T12:41:12-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Esteban Morales",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-31T12:39:51-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:39:53-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Kevin, and I hope you are having a good day. Happy almost New Year to you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:39:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same to you. What can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:03-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, you are very kind. My name is Esteban Morales. I am calling about the trash. Today is the usual day for my house, Wednesday, and the truck did not come. The bin is still at the curb."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so no pickup today. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:18-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is 366 Admiral Kalbfus Road, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:22-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "366 Admiral Kalbfus. Got it. Let me look at the route for you. [pause] Okay, sometimes the holiday week pushes things around a day or so, and trucks can run late too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand, of course. Then may I ask when the next pickup will be for my street?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm showing it'll be picked up Thursday, so tomorrow. Leave the bin out where it is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thursday, tomorrow. Very good. Thank you. If there is a problem, you can call me back, the number is 401-555-0151. But my voicemail is full, I am sorry. I have not figured out how to clear it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:40:56-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. If it comes to that, I'll note that we couldn't leave a message. Hopefully they just come tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:41:03-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I hope so. Thank you very much for your help, Kevin. God bless you, and have a good evening."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:41:10-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:39:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:39:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-31T12:39:51-05:00",
+        "end": "2025-12-31T12:41:12-05:00",
+        "duration_seconds": 81,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:39:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-31T12:39:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-31T12:39:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-31T12:39:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-31T12:39:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

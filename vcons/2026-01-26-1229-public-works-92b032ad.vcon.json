@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "92b032ad-ce4a-8348-b8ae-8929bff7d607",
+  "created_at": "2026-01-26T12:30:29-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Maria Amaral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. Please excuse me, I am calling about the potholes on my street. Spring Street, I am at 439 Spring Street, in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 439 Spring. Potholes, got it. What's it looking like out there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:27-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, listen, after this storm it is worse. The snow turned to rain today and now the holes are full of water, you cannot see how deep. I hit one this morning going to my shop. Also, the paint on the crosswalk is so faded, and the cars do not stop for people. Nobody stops."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that'll happen with the plows scraping through. Faded crosswalk, noting that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Excuse me, one question. Does the city pay for the damage to the car? My tire is bent, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:29:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't tell you it's covered, but there's a claim process you can file with the city. I can have someone send you the info. Is this a good number, the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:30:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is my kitchen phone, with the long cord, I am stretching it across the room. It is 401-555-0151."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:30:13-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0151. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:30:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, can you add Spring Street to the repair list? It should be on the list already."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:30:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in the request for Spring Street today. Crews will be busy after this one, but it's in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:30:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:29:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:29:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T12:29:12-05:00",
+        "end": "2026-01-26T12:30:29-05:00",
+        "duration_seconds": 77,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:29:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T12:29:12-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T12:29:12-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T12:29:12-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T12:29:12-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

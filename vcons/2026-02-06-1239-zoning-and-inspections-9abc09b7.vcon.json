@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9abc09b7-76c6-82c1-ad0d-abac4d50a61f",
+  "created_at": "2026-02-06T12:42:55-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Nilza Gomes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-06T12:39:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:39:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I need to know how a short-term rental license gets renewed and what the inspection involves."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:39:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Is this a license you already hold, or are you thinking of applying for the first time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:39:38-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I already have one. Well, I think I do. It's for the unit at 303 Gidley Street. I'm the renter there, but the owner set it up, I think. So I'm not sure whose name it's under."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:39:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, that's a good thing to sort out first. You said you rent the place. Are you the one renting it out to guests, or is the landlord?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:40:02-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I rent it from the owner. And then I put guests in the upstairs room sometimes. Is that the same thing? I thought the license was for the whole building."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:40:13-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can matter. Usually the license is tied to the property and the owner, so a tenant renting out a room generally needs the owner's okay and may not be the license holder at all. Do you have a copy of the license, or a number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:40:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a paper from last year. It says Gidley Street and a number. [pause] Hold on. It's not under my name. It's the owner's name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:40:40-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then the renewal would most likely have to come from the owner, since the license is in their name. I can look the address up, but I'd want to confirm with you that I'm reading the right record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:40:54-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. But how does the renewal actually work? Is it a form? Do I mail it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:41:00-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a renewal application that goes in before the license expires, and the license holder submits it. Then an inspection is scheduled. The inspector walks through the unit and looks at things like smoke and carbon monoxide detectors, exits, and that the rooms being rented are safe and set up as described."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:41:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the inspector goes in the whole house? Or just the room?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:41:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Typically the areas used for the rental and the way in and out of them, plus the safety equipment. I'd have the inspection office confirm the exact scope for your setup, so I'll note that for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:41:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And does a licensed contractor have to apply? Like, does it have to be a contractor who files it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:41:46-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's not a contractor application. The owner can file it themselves. A contractor only comes into it if there's work to fix, say electrical or something an inspector flags."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:41:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. I thought the contractor did the paperwork. I got that from somebody. So it's the owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the owner. If you like, I can have someone in the office call you back once I've pulled the record, so you know the expiration date and whether the renewal is already in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. My number is 401-555-0187."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0187, Nilza Gomes, 303 Gidley Street, short-term rental license renewal. Is Gomes spelled the usual way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:26-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "G-O-M-E-S. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Someone should reach you in the next business day or so. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:34-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. I'm still a little mixed up about whose job it is, but I'll talk to the owner. I'm going to bed early tonight, so if the call comes late, I'll miss it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:46-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, we're only open daytime anyway, so it would come during business hours. Have a good weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:42:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T12:39:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T12:39:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-06T12:39:19-05:00",
+        "end": "2026-02-06T12:42:55-05:00",
+        "duration_seconds": 216,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T12:39:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-06T12:39:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-06T12:39:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-06T12:39:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-06T12:39:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

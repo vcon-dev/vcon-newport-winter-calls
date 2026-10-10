@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ed6eca3a-7166-8fcc-85a3-8b66dc52020d",
+  "created_at": "2025-12-08T11:22:12-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Ileana Herrera",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-08T11:18:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:18:46-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Janet. So, I have a parking ticket that I did not exactly earn, and I'm hoping you can tell me I'm not losing my mind. Or at least that I'm losing it in an orderly fashion."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:18:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll do my best. May I have your name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ileana Herrera."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Herrera. What is the situation with the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:09-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I rented a car back in October, a few days, and the rental company just sent me a letter. They forwarded me a Newport parking ticket. And it's not just the ticket, they tacked on their own fees. An administrative fee, a handling fee, I don't even know what else. It's more than the ticket itself, which is just lovely."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:28-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The rental company's fees are separate from anything the City charges. Do you have the citation number from the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:36-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the letter, and it's got a number on it. Hold on, my reading glasses are somewhere, probably on my head. Okay. It starts with an N, then the digits, four, four, seven, one, nine, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:48-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me look that up. [pause] I do see a citation with that number, issued in October for an expired meter. The fine is showing as unpaid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:19:58-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, and here's my issue. I was parked at a meter that I paid. I have the receipt from the app. So I'd like to contest it. And I'd like the City's part held while I do that, because I'm not paying the rental company's little surcharge party for something I'm disputing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:20:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. The City cannot waive or adjust what the rental company charges you. That is between you and them. As for the citation, you may submit a written appeal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:20:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that's what I want. So where do I send it? Is it an address, an email, a person? I'd like to put it in front of a real human."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:20:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be sent in writing to the Finance Department at City Hall, attention parking violations. Please include the citation number, your contact information, and a copy of your receipt. Please do not send the original."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:20:47-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Copy, not original. Got it. I've learned that lesson the hard way. Do you need the rental agreement too, since the car wasn't in my name originally?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:20:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would include it, yes. It shows you were the driver on that date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. You know, my cousin used to have your job, believe it or not. Sat right where you're sitting. She always said people never read the back of the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:11-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it is worth reading the back. The instructions for appeals are generally printed there, though yours came through the rental company, so you may not have the original."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:21-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, all I got was a letter and a photocopy. Pretty sure the photocopy was made on a machine from the nineties."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you wish, I can note on the citation that an appeal is forthcoming. You should still mail it promptly, as there are deadlines."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please note it. And what's the deadline, roughly? Am I already late? It's been a few weeks since October."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:44-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't confirm a deadline from this screen. I will have someone from the parking office call you back to confirm. Is 401-555-0190 the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it, the landline. Mornings are best, though I'll take whatever I can get."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:21:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will pass that along. Is there anything else, Ms. Herrera?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:22:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thank you, Janet. I'll get the letter in the mail today, before I find another surprise fee."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T11:22:09-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T11:18:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T11:18:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-08T11:18:40-05:00",
+        "end": "2025-12-08T11:22:12-05:00",
+        "duration_seconds": 212,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T11:18:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-08T11:18:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-08T11:18:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-08T11:18:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-08T11:18:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

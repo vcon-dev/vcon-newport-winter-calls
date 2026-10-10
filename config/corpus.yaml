@@ -1,0 +1,139 @@
+# Newport winter 2026 synthetic call corpus: frozen design constants.
+# Every planted count in truth/manifest.json is derived from this file via
+# scripts/plan_corpus.py. Change counts here, never in the manifest.
+
+seed: 20260224
+timezone: America/New_York
+window:
+  start: 2025-12-01
+  end: 2026-03-15        # inclusive
+
+total_calls: 2000
+
+# City Hall hours. Most calls fall inside; Public Works takes some storm-day
+# calls on evenings and weekends.
+hours:
+  weekday_open: "08:30"
+  weekday_close: "16:30"
+  public_works_storm_line: {weekday_until: "20:00", weekend: ["08:00", "18:00"]}
+
+departments:
+  - public-works
+  - utilities
+  - finance
+  - city-clerk
+  - zoning-and-inspections
+  - recreation
+  - canvassing
+
+# Topic volumes. Rank 1-5 must come out in this order with this dominant tone.
+# Long tail topics each stay below the rank 5 count.
+topics:
+  storm-drain-flooding:   {count: 420, department: public-works, tone: {frustrated: 0.70, annoyed: 0.12, neutral: 0.10, worried: 0.08}}
+  water-sewer-billing:    {count: 330, department: utilities,    tone: {annoyed: 0.65, neutral: 0.20, confused: 0.10, frustrated: 0.05}}
+  trash-recycling:        {count: 250, department: public-works, tone: {neutral: 0.75, annoyed: 0.13, confused: 0.07, friendly: 0.05}}
+  permits-licensing:      {count: 190, department: zoning-and-inspections, tone: {confused: 0.65, neutral: 0.25, annoyed: 0.10}}
+  potholes-roads:         {count: 140, department: public-works, tone: {neutral: 0.70, annoyed: 0.22, frustrated: 0.08}}
+  # long tail (670)
+  snow-plowing:           {count: 110, department: public-works, tone: {annoyed: 0.45, neutral: 0.40, frustrated: 0.15}}
+  parking-tickets:        {count: 90,  department: finance,      tone: {annoyed: 0.50, neutral: 0.35, confused: 0.15}}
+  property-tax:           {count: 80,  department: finance,      tone: {neutral: 0.55, confused: 0.30, annoyed: 0.15}}
+  misc-wrong-number:      {count: 75,  department: city-clerk,   tone: {neutral: 0.60, confused: 0.30, friendly: 0.10}}
+  streetlights:           {count: 60,  department: public-works, tone: {neutral: 0.70, annoyed: 0.30}}
+  noise-complaints:       {count: 45,  department: city-clerk,   tone: {annoyed: 0.60, frustrated: 0.25, neutral: 0.15}}
+  vital-records:          {count: 45,  department: city-clerk,   tone: {neutral: 0.70, confused: 0.30}}
+  animal-control:         {count: 40,  department: city-clerk,   tone: {worried: 0.40, neutral: 0.40, annoyed: 0.20}}
+  recreation-programs:    {count: 35,  department: recreation,   tone: {friendly: 0.40, neutral: 0.50, confused: 0.10}}
+  downed-trees:           {count: 35,  department: public-works, tone: {worried: 0.40, neutral: 0.45, annoyed: 0.15}}
+  beach-parks:            {count: 30,  department: recreation,   tone: {neutral: 0.70, friendly: 0.30}}
+  elections:              {count: 25,  department: canvassing,   tone: {neutral: 0.70, confused: 0.30}}
+# permits-licensing: 150 calls routed to zoning-and-inspections (permits),
+# 40 to city-clerk (business and dog licenses).
+permits_licensing_split: {zoning-and-inspections: 150, city-clerk: 40}
+
+# Six fictional rain events. Dates are illustrative, not the weather record.
+# "Within 3 days after" means call date in [end, end + 3 days].
+storms:
+  - {id: s1, name: "early-December nor'easter", start: 2025-12-05, end: 2025-12-06, wind: true}
+  - {id: s2, name: "mid-December soaker",       start: 2025-12-17, end: 2025-12-18, wind: false}
+  - {id: s3, name: "January coastal storm",     start: 2026-01-09, end: 2026-01-10, wind: true}
+  - {id: s4, name: "snow-to-rain storm",        start: 2026-01-25, end: 2026-01-26, wind: false, snow: true}
+  - {id: s5, name: "late-February nor'easter",  start: 2026-02-21, end: 2026-02-22, wind: true}
+  - {id: s6, name: "early-March rain",          start: 2026-03-06, end: 2026-03-07, wind: false}
+
+cluster:
+  location: "lower Thames Street, Fifth Ward"
+  low_corner: "Thames Street at Wellington Avenue"
+  calls: 41
+  addresses:          # house numbers invented
+    - {id: a01, number: 688, street: Thames Street}
+    - {id: a02, number: 694, street: Thames Street}
+    - {id: a03, number: 701, street: Thames Street}     # Eleanor Pucci
+    - {id: a04, number: 3,   street: Wellington Avenue}
+    - {id: a05, number: 9,   street: Wellington Avenue}
+    - {id: a06, number: 14,  street: Wellington Avenue}
+    - {id: a07, number: 6,   street: Brewer Street}
+    - {id: a08, number: 12,  street: Brewer Street}
+    - {id: a09, number: 18,  street: Howard Street}
+    - {id: a10, number: 25,  street: Howard Street}
+    - {id: a11, number: 31,  street: Howard Street}
+  # 9 addresses report a basement flooded a second time this winter.
+  repeat_flood_addresses: [a01, a03, a04, a05, a06, a07, a09, a10, a11]
+  # Eleanor's first flood of the winter is s3; her s5 call is the second.
+  # Every repeat address has an earlier first-flood call in the corpus.
+  eleanor_first_flood_storm: s3
+  # Cluster storms: heavier after s3 to s5.
+  storm_weights: {s1: 0.08, s2: 0.10, s3: 0.22, s4: 0.20, s5: 0.28, s6: 0.12}
+  # No storm-drain-flooding calls from these four streets other than the 41.
+  cluster_street_decoys: 30   # same streets, other topics, any date
+
+eleanor:
+  address: a03
+  caller: "Eleanor Pucci"
+  clerk: "Denise Arruda"
+  department: public-works
+  start: "2026-02-24T09:14:00"
+  end: "2026-02-24T09:21:00"
+  storm: s5
+  balance_usd: 90
+  card: "4111 1111 1111 1111"
+  crew_day: "Thursday"   # 2026-02-26
+  transcript: config/eleanor-pucci.json
+
+planted:
+  lawyer:            {count: 2, where: cluster}     # word "lawyer" said by caller; nobody else says it
+  card_full_read:    {count: 22, split: {eleanor: 1, water-sewer-billing: 15, parking-tickets: 3, property-tax: 3}}
+  after_hours_pay:   {count: 200, split: {water-sewer-billing: 170, property-tax: 15, parking-tickets: 15}}
+  fence_permit:      {count: 80, topic: permits-licensing,
+                      question: "Do I need a permit to put up a fence?"}
+  downed_tree_where: {count: 35, topic: downed-trees, storms_weight: {s1: 0.35, s3: 0.30, s5: 0.35}}
+
+# Published test card numbers only.
+test_cards:
+  - "4111 1111 1111 1111"
+  - "4012 8888 8888 1881"
+  - "5555 5555 5555 4444"
+  - "5105 1051 0510 5100"
+  - "3782 822463 10005"
+  - "6011 1111 1111 1117"
+
+# Every planted count has near misses that only a careful read separates out.
+decoys:
+  attorney_benign: 5           # "attorney" in a harmless context (estate, house closing, city solicitor's office); never "lawyer"
+  legal_adjacent_angry: 4      # angry flooding callers outside the cluster who threaten the news, the council, small claims; never "lawyer"
+  card_partial: 10             # last four only, or clerk stops the caller mid-number
+  account_number_read: 6       # caller reads a long utility account or bank routing number aloud, not a card
+  cluster_adjacent_flooding: 8 # flooding calls on other Fifth Ward streets near the corner, outside the four streets
+  cluster_out_of_window: 0     # none: every cluster-street flooding call is one of the 41
+  repeat_flood_near_miss: 8    # outside cluster: "street flooded again", "basement flooded back in 2018", "water came close this time"
+  hours_not_payment: 12        # asks City Hall hours for a non-payment errand (drop off a form, pick up a permit)
+  fence_near_miss: 6           # fence knocked down by a storm, neighbor's fence dispute; no permit question
+  tree_near_miss: 8            # leaning tree, tree on wires (sent to the utility), branch pickup; not "where do I report a downed tree"
+  flooding_elsewhere_max_per_address: 2
+  flooding_storm_window_share: 0.70   # non-cluster flooding calls inside storm windows
+  billing_no_after_hours: 160         # water-sewer-billing calls without the after-hours ask
+  other_permit_questions: [deck, shed, short-term rental license, driveway curb cut, dumpster on street, sign]
+  tree_decoys: [branch pickup with yard waste, tree on wires reported to the utility, tree trimming request]
+  second_flood_elsewhere: 0           # nobody outside the cluster reports a second basement flood
+
+call_length_minutes: {min: 1, max: 12}

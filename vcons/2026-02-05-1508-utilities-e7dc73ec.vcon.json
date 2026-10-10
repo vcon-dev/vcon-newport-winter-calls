@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e7dc73ec-c593-8551-8f6d-0c32397e43f6",
+  "created_at": "2026-02-05T15:12:27-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rosemarie Mancini",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T15:08:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and Sewer billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:08:34-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. Good afternoon. I am calling about my bill. The water bill. It is, um, too much. Wrong, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:08:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:08:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two hundred thirteen Marsh Street. In the Point."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:08:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And whose name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:08:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is, um, my husband. Salvatore Mancini. He is gone now, so the bill, it still comes with his name. I am Rosemarie. I pay it always."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:09:05-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, Mrs. Mancini, I've got the account up. We can talk to you about it, and we can get the name switched over to yours down the line if you want. So what looks off to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:09:18-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Last month, they put a new meter. A man came, he changed it in the basement. And now this bill, it is double. More than double. Before, never like this. Nothing is different in my house. I am one person."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:09:33-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see the meter change here, early January. Let me look at the reading. Hang on one second."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:09:40-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. Wait, I have the bill here, I want to read you the number. Oh. My glasses. I dropped them, they are, um, on the floor somewhere. Let me feel. [pause] Here, no, that is the slipper."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:09:54-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, no rush at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:09:57-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I have them. Okay. The reading, it says, ah, the new one, it starts from zero, but then the first line, it is the old meter, also a big number. I don't understand why they charge both."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:10:11-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so here's what's likely going on. When a meter gets swapped, the last bill covers the final reading off the old meter, and then the new one starts counting. Sometimes the old meter's last reading was an estimate, and then it catches up. So that bill can look bigger than usual because it's squeezing a longer stretch into one period."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:10:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But it is not fair. I did not use so much water. Nobody used it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:10:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. I'm going to flag it for a recheck on the readings, and we'll have someone verify the new meter is registering right. Could be a number got keyed wrong. I'll put a note on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:10:53-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Yes. Please. I want that somebody checks. And my number, you want it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:10:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, so they can reach you with the result."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:03-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one seven two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one seven two. Perfect."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:12-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, another thing. I am not always, um, free in the day to go to City Hall. Is there a, a telephone line to pay? One that works at night? Where you push the buttons?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:25-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is an automated pay-by-phone option, and yes, it runs around the clock, so night is fine. You'd need your account number from the bill. There's also the online payment page and a drop box at City Hall for checks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The box, I know. But I like the telephone. Is the number on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be printed on the stub or near the payment instructions. If you can't find it, call back and I'll read it to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:11:54-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I will look. With my glasses, now I find them, so I can see."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:12:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And I'd hold off paying the disputed part until the recheck comes back, if you can. I'll note that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:12:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Thank you. You are very nice. When they call me, how many days?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:12:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually within a week or so. If you haven't heard by next Friday, call me back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:12:20-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, next Friday. Thank you, Tony. Good bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T15:12:24-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mrs. Mancini. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T15:08:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T15:08:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T15:08:30-05:00",
+        "end": "2026-02-05T15:12:27-05:00",
+        "duration_seconds": 237,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T15:08:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T15:08:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T15:08:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T15:08:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T15:08:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

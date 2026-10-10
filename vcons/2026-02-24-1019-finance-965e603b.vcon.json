@@ -1,0 +1,835 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "965e603b-3294-8d69-b30a-500f1db9f619",
+  "created_at": "2026-02-24T10:31:01-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Peter Almy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T10:19:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, Janet Whitcomb speaking. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:19:09-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Morning. Peter Almy. I'm calling about property tax. I paid the first installment and I want to confirm it posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:19:24-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Mr. Almy. I'll need the bill number or the property location to pull up the account. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:19:43-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. Hold on. It's, um, the bill number is on the top right. Four, four, one, seven, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:19:58-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Four four one seven two. Let me bring that up. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:20:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:20:12-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Sorry. Background noise. Kids."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:20:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's quite all right. I have the account now. May I have the name on the bill, to verify?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:20:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Almy. Peter Almy. Rental property, I'm the owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:20:39-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that matches. I'm showing the first installment received and posted. Do you know approximately when you paid it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:20:54-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Around the first week of the due month. Online."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:21:01-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then that is consistent with what I see. The payment is posted and the first installment shows as satisfied. The next installment remains open."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:21:19-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's what I needed. Is there a balance showing on the first one at all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:21:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the first installment balance is zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:21:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Next question. What are the assessor's office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:21:44-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The assessor's office keeps regular City Hall hours, Monday through Friday, during the business day. I would recommend calling ahead if you plan to come in, in case staff are out of the office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:22:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nine to five? Or earlier close?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:22:14-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't want to misstate the closing time. The office generally closes in the late afternoon. I can transfer you to the assessor's line and they can give you the exact hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:22:38-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine. I'll check the website. Another thing. The second installment. I can't get to City Hall during the day. I work. Can I pay online from work, on my lunch break?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:23:02-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the city accepts online payments through the tax payment page. It is available at any hour, so a lunch break would work. You would need your bill number, which you already have."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:23:26-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Any cutoff time in the day? Like, does a payment at noon count that day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:23:38-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, a payment submitted online by the end of the day is recorded for that date. I'd suggest keeping the confirmation page or email as your record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:23:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if I wanted to drop something off outside hours? A check?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:24:08-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a payment drop box at City Hall. Checks may be placed there when the building is closed. Please include your bill number on the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:24:28-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Online's easier. Fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:24:32-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hang on. Girls, stop. It's the same bowl. Use the other one. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:24:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. Do you need a moment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:24:50-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Twins. They're fighting over a cereal bowl. Home today. They'll sort it out. Go on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:25:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Was there anything else regarding the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:25:09-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. A refund. I got a refund on a different bill, an overpayment. I want to confirm it went back to the right card."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:25:27-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can look at that. Is the refund on the same account, bill number four four one seven two?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:25:41-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same owner, same property. It was an overpayment on the prior year, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:25:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the history. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:25:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:26:01-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see a refund issued to a card. For security, I can only confirm the last four digits of the card. Could you tell me the last four of the card you expect?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:26:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Last four are four, eight, one, six."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:26:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four eight one six. That matches the card the refund was issued to."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:26:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. So it went back to the same card I paid with."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:26:52-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it was returned to the original method of payment. Depending on your card issuer, it may take several business days to appear on your statement."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:27:11-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How many days? Roughly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:27:15-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Typically a few business days to a couple of weeks, depending on the bank. If it hasn't appeared after that, call us back and we'll look at it again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:27:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "When was it issued?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:27:41-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The record shows it was issued earlier this month. If you've already passed a couple of weeks, I'd suggest checking your statement closely, and then calling back if you don't see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:28:05-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Not yet two weeks. I'll wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:28:11-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds reasonable."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:28:14-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One more on the installment. Do I get a reminder for the second one? Or I just have to track the date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:28:31-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The due date is printed on your bill. We do not guarantee a separate reminder, so I would recommend noting the date. Is the bill a paper copy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:28:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Paper. Yes. I'll put it on the calendar."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:28:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be wise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:29:03-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Also, since there was that nor'easter last weekend, Saturday into Sunday. Does the city move any due dates because of storms?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:29:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, storms do not change the tax due dates. The installment schedule on your bill still applies."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:29:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Figured. Just checking. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:29:36-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there anything further I can assist with today, Mr. Almy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:29:45-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me make sure. First installment posted. Online payment works anytime. Drop box for checks. Refund went to the card ending four eight one six. Assessor hours, I'll check the website."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct on all points."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Do you need my number in case anything changes on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you'd like to leave one, I can note it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:31-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's four-oh-one, five-five-five, oh-one-nine-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one nine four. I've noted it on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. That's all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling, Mr. Almy. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:30:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:19:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:19:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T10:19:01-05:00",
+        "end": "2026-02-24T10:31:01-05:00",
+        "duration_seconds": 720,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:19:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T10:19:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T10:19:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T10:19:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T10:19:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

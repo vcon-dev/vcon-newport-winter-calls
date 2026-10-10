@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4fd6df85-e363-82ed-94b7-f7ad52fefc92",
+  "created_at": "2026-03-03T10:03:15-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Raj Singh",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. Sorry to bother you. Is this the right place for a water and sewer bill? I want to make sure I'm doing this right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, this is the right place. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:25-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I just got a reminder notice in the mail saying I'm past due. But I never got the original bill. Turns out it went to my old address. I moved my mailing address last year, so, that's annoying."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Can I get your name and the account number, if you have the notice in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Raj Singh. And the account number is, um, hold on. Sorry. I have two properties, so I have two notices here. Let me see. Okay, the one on top says... no, that's the other one. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, take your time. Read me the number from whichever notice is the past-due one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:01:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The reminder is the one with the red stamp. Yes, that's it. It ends in 4471. Is that enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. I'm pulling it up. Okay, I see the account, and the mailing address on it is indeed the old one. I can update that now. What's the correct mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, it's, hmm, wait. Is that the account for my shop or the rental? Sorry, I mix them up. The notice I have is the rental, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This one is the rental property account. Do you want the shop account updated as well?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:26-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, both. I should have checked that first. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I'll update both. Anything else on this one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:34-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one more thing. If I drop a payment in the box outside City Hall tonight, after you close, does that count as on time? Or does it have to be in before five?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:44-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anything in the drop box is collected the next business day, but it's credited as received when it's deposited in the box, so tonight's would count. You can also pay online anytime."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:02:53-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. I'll do the box. Sorry, I know you probably hear this all day. I sell insurance, and I know all the tricks to get past the phone menu, so I apologize for skipping ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:03:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. You got to the right desk. Your addresses are updated, Mr. Singh."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:03:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And that's both accounts, right? Just checking."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:03:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both accounts. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:01:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:01:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T10:01:09-05:00",
+        "end": "2026-03-03T10:03:15-05:00",
+        "duration_seconds": 126,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:01:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T10:01:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T10:01:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T10:01:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T10:01:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

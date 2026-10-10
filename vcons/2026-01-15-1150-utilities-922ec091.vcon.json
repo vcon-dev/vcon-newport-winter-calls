@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "922ec091-22aa-8060-9a0f-c339c4cab059",
+  "created_at": "2026-01-15T11:53:44-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Angela Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-15T11:50:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:50:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. [pause] Sorry, I'm whispering, my mother's asleep in the next room. I'm calling about her water and sewer bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 61 Ruggles Avenue. Up on the Hill. The bill came and it's, um, way more than it should be. Honestly it's ridiculous."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can you give me the account number off the bill, or the name it's under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:20-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name is... hold on. [pause] I've got two stacks here. Mine and hers. I own a little place on the other side of town and I keep grabbing the wrong envelope. Okay, this one's mine. Wait, no. That's mine, this one's hers."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:36-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Just read me the service address printed on the one you're holding, and we'll sort out which it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it says 61 Ruggles. So this is hers. The amount due is higher than my own bill and she's one person in that house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:51:55-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. [line breaks up] Let me pull up the account. I see the last two readings. The most recent reading is higher than the previous quarter. Is anything different at the house, a guest, a leak, a running toilet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[inaudible] no, nothing. Same as always. It's just her. I think the reading's wrong, honestly. Can somebody check the meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:18-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can put in a request for a meter re-read and a check for a leak at the meter. Is this number, 401-555-0167, the best one for a callback?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:30-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's mine. Good."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:32-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, I've noted it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and another thing. She's in her eighties, fixed income. Is there any discount for low-income or elderly households? Anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:43-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be a senior or hardship program. I don't have the details in front of me, so I'll have the billing office call you back with the application information and who qualifies."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:52:56-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And, um, can she pay it at a bank? Or where do you even take payments? She doesn't like coming downtown."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:53:05-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay in person at City Hall, or by mail with the stub from the bill. As for banks, it depends on the bank, so I'd confirm with hers. Some accept utility payments and some don't."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:53:19-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll ask them. Sorry, I'm a little scattered. I'm actually rehearsing what I'm going to say to my in-laws at dinner tonight, so my head's somewhere else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:53:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. So to recap: a meter re-read, a callback about the senior discount, and payment by mail or at City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:53:39-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. That's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T11:53:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T11:50:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T11:50:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-15T11:50:46-05:00",
+        "end": "2026-01-15T11:53:44-05:00",
+        "duration_seconds": 178,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T11:50:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-15T11:50:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-15T11:50:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-15T11:50:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-15T11:50:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

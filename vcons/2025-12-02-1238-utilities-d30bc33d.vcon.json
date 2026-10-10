@@ -1,0 +1,619 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d30bc33d-ca84-81c5-ae5a-f7239534141b",
+  "created_at": "2025-12-02T12:44:25-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nilza Duarte",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:23-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I'm calling about my mother's water and sewer bill. A payment from my bank bounced and I want to know the status of it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. What name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Duarte. Her first name is Amelia. I'm her daughter, Nilza. I handle her paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Nilza. And do you have the account number from the bill, or the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the account number here somewhere. Hold on. [pause] Okay, I've got the bill. Do you want the whole thing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:38:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, whatever is printed next to account number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 4471, dash, 0238."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:05-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 4471-0238. One moment while I pull that up. [pause] Okay. I do see a payment that was returned by the bank about two weeks ago, and the balance is showing as unpaid right now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Returned why? The money was there. I checked the account myself."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The record just says returned, it doesn't give me the reason from the bank's side. That usually comes from the bank itself. I can tell you the payment isn't applied, so the full amount is still open."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:38-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And is there a penalty on it now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:42-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a late charge line on the account, yes. I won't quote you the figure off the top of my head, but it's on the statement that was generated after the return."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:39:54-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the thing. The bill itself is wrong. It's way too high. My mother lives alone, she uses almost no water."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:40:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you know if the reading on the bill is an actual reading or an estimate?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:40:09-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says estimated. It's been estimated for months, as far as I can tell. The meter is in a crawlspace under the house and nobody goes in there. Nobody. My mother can't get down there and I'm not sending anyone into it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:40:25-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So the meter isn't being read by hand, and the estimates are what's driving the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:40:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So she's being charged for water that, I assume, she never used, and then the bank payment bounced on top of it, and now there's a late charge. Nobody told us the readings weren't happening."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:40:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair to be upset about. Let me look at the history. [pause] I can see the last several bills are all marked estimated. The most recent actual reading is quite a while back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:40:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How far back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It looks like the spring of last year."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:05-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Spring of last year. So that's what I'm dealing with. Okay. How do I dispute this formally? I don't want to just talk about it on the phone, I want it on record."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:18-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. A formal dispute is done in writing. You would send a letter to the utilities billing office stating the account number, the bills you're disputing, and why. Including that the meter is in a crawlspace and the readings have been estimated would be important."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:35-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Written. Mailed, or can it be emailed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:38-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailed or dropped off at City Hall during business hours is the safest. I can also note on the account right now that a dispute is coming, and that you called today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do that. And does it stop the late charges while it's pending?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:41:56-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know that for certain. That's a decision for the billing supervisor, not something I can promise from this desk. I can send a message to the supervisor asking for a hold while the dispute is reviewed, and have someone call you back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:42:12-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do that. Same number I'm on now. It's 401-555-0169."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:42:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-six-nine. Is that a good number during the day?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:42:21-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's my cell. I pick up if I know it's the city, so tell them to leave a message if I miss it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:42:30-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Now, about the meter. The department can arrange an actual reading, but someone would need access to the crawlspace. Is there any outside access, or a way to put a remote reader on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:42:44-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have no idea. I've never been down there. My mother has lived in that house a long time, and I grew up on the island myself, I barely leave it. And in all those years I couldn't tell you the last time anyone read that meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:01-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll flag that the meter is in a crawlspace with difficult access, and ask the field crew to contact you about options. That may be separate from the billing supervisor calling."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:13-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So two calls, possibly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Possibly, yes. One about the hold and the dispute, one about the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:21-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And the bounced payment. Do I need to do something about that now, or wait?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:28-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The returned payment is not applied, so the balance stands until the dispute is resolved or it's paid. I'd suggest contacting your bank to find out why it was returned, so it doesn't repeat. Whatever you decide on paying, the supervisor can talk through when they call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll call the bank today. I just don't want this to turn into a shutoff notice over an estimate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put that concern in the note as well, so it's in front of them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:43:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I'd like it written down that this has been going on since last year and no one told us."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:44:07-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've noted the estimated readings since last spring and that you weren't notified. Is there anything else I can add?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:44:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That covers it. I'll get the letter out this week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:44:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Thank you for calling, Nilza."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:44:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T12:38:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T12:38:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T12:38:18-05:00",
+        "end": "2025-12-02T12:44:25-05:00",
+        "duration_seconds": 367,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T12:38:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T12:38:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T12:38:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T12:38:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T12:38:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

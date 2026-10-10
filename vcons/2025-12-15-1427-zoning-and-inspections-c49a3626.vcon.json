@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c49a3626-1e2b-8d73-9e7d-9743b2c14409",
+  "created_at": "2025-12-15T14:31:15-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Fernando Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. Pardon me, is this the office for permits? I am not sure I have the right department."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It might be, depending on what you need. What's the permit for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A fence. I would like to put up a fence at my house. Pardon me, I am not sure if I need a permit for it, or if that is something only for a building."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:32-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's a good question to ask before you start. Generally a fence does need a permit here, though it can depend on the height and where it sits. Can I get the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:44-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is 233 Ocean Avenue. On the Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 233 Ocean Avenue. And what kind of fence are you thinking about?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:27:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, first I was thinking a stockade fence. You know, the solid kind, the boards close together. Because the road in front is very busy and the noise, the cars, it is a lot. Pardon me, did you hear me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:28:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did, yes. A stockade for privacy and noise along the road. Is that the plan, or has it changed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:28:17-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, it changed a little. My wife says stockade looks too closed in. So now we are thinking white picket style. Four feet tall. Is that different for the permit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:28:28-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The height and style can matter, so I'll want to note four-foot white picket. Is it going along the front, toward the road?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:28:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, along the front, by the road. And some on the side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:28:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And do you have a contractor doing it, or are you putting it up yourself?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:28:48-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A contractor, I think. I have not hired yet, I am getting prices. Pardon me, my question is, does the contractor handle the permit, or does the owner have to do it? I do not know how it works."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:29:02-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either can work. Many contractors will pull the permit for you, but the property owner is ultimately responsible, so ask each one up front whether the permit is included in their price. And get it in writing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:29:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. So I ask them. Yes. And the permit, I still need it, no? For the picket also?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:29:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Plan on yes. Fences usually need one, and I'd rather you check than build it and be told to take it down. When you apply, we'll look at the details."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:29:34-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Pardon me, another question. How close to the property line can the fence go? I do not want to build on my neighbor's side by mistake."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:29:44-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good thing to think about. There are setback rules, and they can differ by zone and by the road frontage. I don't want to hand you a distance that's wrong for your lot, so I'll have an inspector confirm for 233 Ocean. Do you have a survey or plot plan?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:30:02-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A survey, I think so. Somewhere in the papers from when we bought. [pause] Pardon me, I am looking at the desk and there is a letter here. It is a rebate, from the mail. I got a rebate in the mail and I forgot what it was for. Is that from you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:30:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, not from this office, as far as I know. What does it say on it? Who's it from?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:30:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says... a check, a small one. I cannot find the reason. Maybe it is the electric, or the water. I will look again later. Sorry, that is not your question."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:30:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. Check the return address and any account number on it. Back to the fence: find that survey, and I'll have the inspector call you about the distance from the line. Is this a good number, 401-555-0187?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:30:53-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is right, 401-555-0187. Pardon me, so, the inspector calls me, and I ask the contractor about the permit. And I find the survey."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:31:02-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Hold off on ordering anything until you hear back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:31:07-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I will wait. Thank you very much, Miss Anita. Pardon me, goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T14:31:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Vieira. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T14:27:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T14:27:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-15T14:27:01-05:00",
+        "end": "2025-12-15T14:31:15-05:00",
+        "duration_seconds": 254,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T14:27:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-15T14:27:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-15T14:27:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-15T14:27:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-15T14:27:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

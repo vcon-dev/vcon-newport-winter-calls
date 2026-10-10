@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a8d7804b-5216-8a94-a950-60f3b30936d7",
+  "created_at": "2026-02-06T12:22:29-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Rafael Valdez",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:01-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:04-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Um, yes. Good afternoon. I am... I want to buy a shed. A small one, for the yard. And I am not sure what I, what I need to do first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a shed. Is it a prefab one, or are you building it on site?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:21-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Prefab. It comes in pieces, in a box. From the store. [pause] I am renting, so, I think maybe the landlord also has to say yes. But I wanted to ask you the rules first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Smart. Yeah, you'll want the owner's okay, and sheds generally do need a permit here, depending on size. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "478 Gidley Street. In the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the, the thing I wanted to know is the setback. How far from the line. The lot line. Is it like, one foot? Or ten feet? I do not know what the word means, exactly. Setback."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:19:56-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Setback just means how far the shed has to sit from the property line. It depends on the zoning district and the size of the shed. I can't give you a number off the top without looking up your lot. What size is the shed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eight by ten. I think. Or, no. [pause] Ten by eight. Same thing, yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same thing, yeah. Eighty square feet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Eighty. And that is, is that big? For a shed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:23-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's mid-size. Which is why I'd have you file a shed permit application, and the zoning staff will tell you the exact setback for that lot. Don't set it up before you hear back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay. [pause] And an inspection. Does someone have to come and look at it? After? Or before, I am not sure which."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be one, usually after it's in place, to check it's where the plan says. The permit paperwork will spell out whether yours needs it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:20:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. So the paper says. Good. [pause] Sorry, I, I lost what I was going to say. It is quiet here. I was working on my octopus."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:01-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your octopus?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:03-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I crochet. Small animals. I am halfway through the octopus. Four legs done, four to go. [pause] It is for the shed, kind of. I want a place for the yarn. Anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:14-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Well, good reason for a shed. So here's what to do. Get the permit application, either online on the city website or come by the office at City Hall. You'll want a simple sketch of the yard showing where the shed goes, and the measurements."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:29-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sketch. I can draw. Not so good, but I can. Do I draw the whole house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Or only the yard?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The lot, really. The house, the lot lines, and the shed with distances marked. Doesn't have to be pretty."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:44-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the landlord, he signs the, the form? Or he just tells me yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Application usually needs the owner's signature or written permission, since you're not the owner. So get that part from him first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:21:58-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, owner signs, I draw the yard, I send the shed paper. And then the setback, you tell me. [pause] Is that right? I want to say it back so I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:22:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close. Zoning tells you the setback once they see the sketch and the lot. Otherwise yes, you've got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:22:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you, Mr. Greg. I will call if I am lost again. I probably will be."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:22:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, we're here weekdays. Have a good weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-06T12:22:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T12:19:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T12:19:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-06T12:19:01-05:00",
+        "end": "2026-02-06T12:22:29-05:00",
+        "duration_seconds": 208,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-06T12:19:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-06T12:19:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-06T12:19:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-06T12:19:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-06T12:19:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

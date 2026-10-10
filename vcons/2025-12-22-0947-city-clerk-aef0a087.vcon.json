@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "aef0a087-f1c8-8e97-b2d0-a169d3f3c75a",
+  "created_at": "2025-12-22T09:48:54-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Antonella Mancini",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T09:47:54-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra, good morning."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:47:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Um, I want to report a coyote. I see it this morning near the playground, the one by my house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:05-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh my goodness, a coyote, in the daytime? Where is this, hon?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "413 Ruggles Avenue. Historic Hill. The playground is just down from there. It was walking along the fence, slow, like nothing bothers it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I've got that down. Was anybody at the playground?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:22-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no kids, too early. But I am annoyed, because now I cannot stop looking out the window. I have a big pot of chowder to make for a gathering today, I have no time for this."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that sounds like a good gathering. I'll pass this along to animal control."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So animal control is the one who responds? Or it is police? I want to know who comes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Animal control handles it, and they'll call you if they need more. Can I have a number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:48:51-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, 401-555-0198. Thank you. Okay, bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T09:47:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T09:47:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T09:47:54-05:00",
+        "end": "2025-12-22T09:48:54-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T09:47:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T09:47:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T09:47:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T09:47:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T09:47:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

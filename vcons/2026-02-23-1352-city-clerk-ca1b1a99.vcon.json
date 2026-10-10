@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ca1b1a99-ecf2-8460-8bae-77e0bd14b0bc",
+  "created_at": "2026-02-23T13:53:32-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Theresa Cardillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-23T13:52:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra, good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:52:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Yes, hello. I'm trying to reach the fire department. The non-emergency line, not 911. I have the number written down here on my note."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:52:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, you've reached the City Clerk at City Hall, hon. Fire is a different office. What number did you dial?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:52:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read it. It says area code four-oh-one, and then the number. But my phone put up a different area code on the screen, and I don't understand why. Is that a problem?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:52:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one is us, that's all of Rhode Island. Sounds like a digit got turned around somewhere. Is this a cell phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:53:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's my landline. But, um, the other phone keeps switching to some weaker network, so I thought maybe that did it. I'm not sure what I pressed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:53:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be, those do act up. Tell you what, I'll transfer you right over to the fire department's regular business line. Stay on with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:53:21-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's kind. I wanted to ask about the smoke detector checks after last weekend's nor'easter, Saturday into Sunday. Thank you, dear."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T13:53:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Here you go, one moment."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T13:52:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T13:52:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-23T13:52:28-05:00",
+        "end": "2026-02-23T13:53:32-05:00",
+        "duration_seconds": 64,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T13:52:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-23T13:52:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-23T13:52:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-23T13:52:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-23T13:52:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

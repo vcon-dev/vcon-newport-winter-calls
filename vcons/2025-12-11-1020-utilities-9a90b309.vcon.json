@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9a90b309-65ee-8227-8171-30de4962934b",
+  "created_at": "2025-12-11T10:23:40-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Josephine Santoro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T10:20:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:20:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, and thank you for taking my call. My name is Josephine Santoro. Thank you. I am calling about my water and sewer bill, which I received this week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:20:27-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Ms. Santoro. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:20:30-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 271 Narragansett Avenue. Thank you. And I see here that the bill says \"estimated\" next to the reading. Estimated. I would like to know why."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:20:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull up the account. One moment. Okay, I have it. Yes, the last reading on the account was entered as an estimate, so the usage on this bill was calculated from your past consumption rather than from a fresh read of the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:20:53-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I understood that part from the bill. Thank you. What I do not understand is why. I do not believe anyone has read that meter. I don't think anyone has been to the house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you tell me where the meter is located?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is in the crawlspace under the back of the house. Nobody goes in there. I certainly do not, and I have not seen a person from the city on my property in, well, I could not tell you how long. Thank you for asking."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That could explain it. If the reader can't get to the meter, or there's no remote read on it, the system defaults to an estimate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then it is an estimate on top of an estimate, and I am being charged for it. I do not think that is quite fair, with respect."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:38-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Let me look at the history. [pause] I see the previous two reads were also flagged as estimated. So it has been a few cycles without an actual reading."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two! Well. That is what I suspected. Thank you for confirming it. I would like the reading checked again, please. Properly checked."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:21:55-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can put in a request for a meter re-read. Because it's in a crawlspace, someone will need to arrange access with you. Is there a time of day that works, and is the crawlspace door accessible from outside or inside the house?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:22:09-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a small door on the outside, at the back, by the hatchway. It is not locked, I believe, but it is stiff. Mornings are best for me. Thank you. I am usually at work until about noon on weekdays, so someone would need to come after that, or else a morning when I have said so ahead of time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:22:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, I'll note afternoons after noon, outside access at the back, stiff door. And may I confirm the best number to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:22:35-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. It is 401-555-0199. That is the office line where I am now. I am at the rectory office at the church, doing the administrative work for the parish. I am there most days. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:22:46-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0199, I'll have the meter team call that number to schedule. Now, about the current bill. I can add a note to the account that the reading is under review, so the estimated charge is flagged until the actual read comes in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:23:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be appreciated. Thank you. So I do not need to do anything about the amount at this moment?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:23:07-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once the real reading is in, the account gets adjusted, up or down, based on actual usage. The note just makes sure it's looked at. I can't tell you the outcome until the read is done."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:23:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Yes. Well, I am a little irritated that it has gone this long, but I do thank you for being so clear with me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:23:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand, and I'm sorry for the hassle. The request is in as of now. Someone should call within a few business days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:23:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much, Priya. Thank you. Good day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:23:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Santoro. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:20:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:20:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T10:20:13-05:00",
+        "end": "2025-12-11T10:23:40-05:00",
+        "duration_seconds": 207,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:20:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T10:20:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T10:20:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T10:20:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T10:20:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "286efcf7-0aca-8eeb-9468-acefb56b32e3",
+  "created_at": "2026-02-13T15:18:04-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Patrick Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-13T15:11:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport, Finance Department, Janet Whitcomb speaking. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:11:57-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. My name is Patrick Hanlon. I am calling about the property tax bill. It came in the mail this week and the number is higher than last time. I would like to understand why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:12:13-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Mr. Hanlon. May I ask, do you own the property, or is the bill coming to you through your landlord?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:12:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I rent. But the landlord sends me a copy, and he says the rent may change because of it. So I want to know what happened with the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:12:36-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can speak in general terms. Property tax bills are based on two things, the assessed value of the property and the tax rate that is set for the year. If either one changes, the bill changes. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:12:57-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it here. One moment. [pause] It says the assessed value, and there is the rate, and then a total for the year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:13:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Does it show a different assessed value than the prior year's bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:13:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not have the prior bill. Only this one. The landlord told me by phone that it was about the same as before, but now the total is more."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:13:28-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then the likely explanation is either a revaluation of the property or a change in the rate. The assessor's office handles the values. I can't see from here which of those applied to this particular parcel unless I have the property details."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:13:46-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not want to give the address. It is the landlord's property, I think he should be the one to ask. I only want to know the general reason."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:13:59-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is perfectly fine. In general, then, the City sets the rate each year after the budget is adopted, and values are updated on a schedule. Your landlord, as the owner of record, may contact the assessor's office with specific questions about the value."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:14:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it is the value or the rate. Not something I did."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:14:24-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Nothing a tenant does would change the tax bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:14:29-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, can you send me something by email to confirm what you said? Just a short note, so I can show him."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:14:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send a general summary to an email address if you give it to me. I would need you to spell it slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:14:50-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. Wait, I have to put the phone down, my hands are dirty. [pause] Sorry. I restore old bicycles, and I have grease all over my fingers right now. I am wiping them."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:05-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all, Mr. Hanlon. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It is patrick, p-a-t-r-i-c-k, then the word wheelwork, w-h-e-e-l-w-o-r-k, at the mail place, then dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:18-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back to be sure. Patrick, P-A-T-R-I-C-K, wheelwork, W-H-E-E-L-W-O-R-K, at, and which mail provider, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:26-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sorry. Gmail. g-m-a-i-l dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So that is patrick wheelwork at gmail dot com. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will send the confirmation this afternoon. It may arrive within the hour, though occasionally it takes longer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:15:46-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One more thing. The landlord says there is an installment due soon. If he asks me to help pay it, can it be paid online tonight? After City Hall has closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:16:01-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The City offers online payment through its website, and it is available at any hour. You would need the account or bill number from the bill itself. There is also a drop box at City Hall for checks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:16:18-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online at night, then. That is good. And what is the drop box? You said a drop box, what does that mean exactly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:16:28-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is a locked box, outside the building, where a person may leave a check in an envelope without going inside. Payments left there are processed on the next business day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:16:42-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. Like a mailbox but at the building. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:16:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Precisely. If you pay online, I would suggest keeping the confirmation page or the receipt that is emailed to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:16:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. And does the online one add a fee? A charge, for paying that way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:04-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That depends on the method used. The website will show any processing charge before you complete the payment, so you will see it before you agree to it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. So nothing is hidden. I like that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The screen will state it plainly. Is there anything further I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that is all. You will send the email, and my landlord can call the assessor about the value."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:38-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is right. If you need to reach us again, the main number is on the bill. Do you have a callback number on file you would like me to note?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:52-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is four-oh-one, five-five-five, zero-one-eight-five."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:17:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-zero-one, five-five-five, zero-one-eight-five. Thank you, Mr. Hanlon. Have a good weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:18:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, you too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T15:11:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T15:11:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-13T15:11:51-05:00",
+        "end": "2026-02-13T15:18:04-05:00",
+        "duration_seconds": 373,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T15:11:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-13T15:11:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-13T15:11:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-13T15:11:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-13T15:11:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

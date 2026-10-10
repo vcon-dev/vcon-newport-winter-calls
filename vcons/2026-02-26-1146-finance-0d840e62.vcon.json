@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0d840e62-9ef8-8a7f-92a4-978d8d5725bf",
+  "created_at": "2026-02-26T11:50:45-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rachel Kim",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T11:46:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:46:29-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning? I'm calling about a property tax bill? It came to my place, but it's in someone else's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:46:39-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Can you tell me a little more about the situation? Whose name is on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:46:48-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's the name of the people who sold me the house? I'm the new owner? We closed in January, I think the fifteenth? And the bill just came in the mail with their names on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:47:05-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. That is fairly common, ma'am. Tax bills are generated from the ownership records as of a certain date, so a recent sale may not be reflected yet. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:47:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, yes? It's got a bill number at the top and a long plat and lot thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:47:32-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plat and lot is the identifier for the parcel. I would not need you to read all of it out. What I would like to know is whether the bill is for the current fiscal year and whether you have a copy of your closing documents."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:47:53-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says the fiscal year, um, twenty-five, twenty-six? And yes, I have the deed and all the closing papers? I just wasn't sure if I'm supposed to pay this or send it back or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:48:09-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill remains valid regardless of whose name is printed on it. The tax attaches to the property. So you would not send it back. What needs to happen is that the ownership records get updated, which is handled by the assessor's office once the deed is recorded."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:48:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? So the deed was recorded, I believe? The closing people said they'd done that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:48:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then it is likely in process. The assessor's office can confirm whether the transfer has been entered and can update the mailing name and address for future bills."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:48:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, okay? Do you know the assessor's office hours? Like when I can call or go in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:49:00-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The office is generally open weekdays during regular business hours, morning to late afternoon. I would suggest calling ahead to confirm, as hours can vary around holidays. I can transfer you to them now if you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:49:17-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that would be great? But first, is there a due date on this one? I don't want to get a late charge or anything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:49:29-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The due date is printed on the bill itself. Please look for the installment schedule. Interest applies to payments made after the due date, regardless of the name on the bill, so I would not wait on the records update."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:49:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I see the dates now? The next one is coming up in a few weeks? So I'll keep that in mind?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:49:58-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Also, if your lender is paying the taxes through an escrow account, you may want to check with them so the bill is not paid twice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:50:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's a good point? I do have a mortgage, so I'll call them and ask?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:50:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please do. Now, shall I transfer you to the assessor's office? Please hold, and if the line disconnects, you can call back and ask for them directly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:50:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please? Thank you. And I hope you have a good weekend?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:50:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, and the same to you. One moment while I connect you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:46:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:46:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T11:46:23-05:00",
+        "end": "2026-02-26T11:50:45-05:00",
+        "duration_seconds": 262,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:46:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T11:46:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T11:46:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T11:46:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T11:46:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

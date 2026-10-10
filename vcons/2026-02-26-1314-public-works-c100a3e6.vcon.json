@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c100a3e6-a754-8686-a013-f3da65e9aef7",
+  "created_at": "2026-02-26T13:15:33-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Dominic Mancini",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:27-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello Kevin. Dominic Mancini calling, I'm at 460 Farewell Street, up the North End. Got a mess out front of my house, and it's not from any storm, mind you. It's been dry for days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:40-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, what's going on out there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:43-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plow left a snowbank right on top of the catch basin, and now the water's got nowhere to go. It's pooling clear across the lane. Every time it thaws a little, same thing again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:54-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How deep are we talking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:56-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, about up to the hubcaps on my car. I can't get out of the driveway without a swim."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wow, okay. Blocked basin, 460 Farewell, water across the road. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So who do I call to get it checked? Is that you folks, or somebody else? Because I'm sick of this, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's us. I'll put in a request for a crew to clear it. Is it just your side of the street, or all over Aquidneck, I mean, all through the neighborhood?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Aqua what? Sorry, I thought you said something else there. Aquidneck, right, the island. Apologies, Kevin. No, just our block."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I've got it down. A crew will look at it."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:14:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:14:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T13:14:27-05:00",
+        "end": "2026-02-26T13:15:33-05:00",
+        "duration_seconds": 66,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:14:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T13:14:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T13:14:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T13:14:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T13:14:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

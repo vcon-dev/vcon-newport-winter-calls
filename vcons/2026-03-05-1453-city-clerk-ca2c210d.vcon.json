@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ca2c210d-aa0c-8974-ac84-ebcb95c9a914",
+  "created_at": "2026-03-05T14:54:12-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Elvis Rocha",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey, good afternoon. Well, I was hoping to reach the county courthouse, so either I dialed wrong or you just got promoted."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wish. No, this is the City Clerk at Newport City Hall. The courthouse is a separate office, it's run by the state court system, not us."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, that makes sense. I was working off an old list I had saved in my phone. Probably older than some of my tires."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, those lists get stale fast. If you search for the Washington County or Newport County courthouse, whichever one you need, the main number should come right up on their official page."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, I'll do that. Sorry, one sec. My camera app keeps opening every time I put the phone in my pocket. Hang on, okay, it's closed now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:53:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Phones, right? They have a mind of their own. No worries at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:54:03-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, thanks for pointing me the right way. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:54:07-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Good luck, and have a nice afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T14:54:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T14:53:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T14:53:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-05T14:53:12-05:00",
+        "end": "2026-03-05T14:54:12-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T14:53:12-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-05T14:53:12-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-05T14:53:12-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-05T14:53:12-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-05T14:53:12-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

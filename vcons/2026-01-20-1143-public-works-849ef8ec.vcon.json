@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "849ef8ec-f70a-888e-b845-5fe22a052e96",
+  "created_at": "2026-01-20T11:44:21-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Liam McCarthy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-20T11:43:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:43:24-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Um, I am calling about the, the drain in the street. The catch basin. It is full of sand, all full, from the winter, the road treatment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:43:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's clogged with sand. Is water sitting in the street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:43:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Since Monday the water stays. No rain, nothing, it is dry weather, and still the street holds the water. Again this happens."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:43:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha. Do you have a street address or a cross street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:43:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I, um, I prefer not to say now. A neighbor tells me it happens every big rain. Nobody cleans it. So, do the crews, they work on weekends?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:44:04-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes for emergencies, but a clogged basin usually gets scheduled on a weekday. I'll put in the request for a cleaning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:44:12-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Please, your name again? I want to write it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:44:16-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Denise. D-E-N-I-S-E."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T11:44:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Denise. Thank you. I wait and see."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T11:43:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T11:43:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-20T11:43:21-05:00",
+        "end": "2026-01-20T11:44:21-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T11:43:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-20T11:43:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-20T11:43:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-20T11:43:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-20T11:43:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ab1d5e61-a4b5-85e1-a082-99fd0f6ad1dc",
+  "created_at": "2025-12-01T13:50:36-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sal Fiore",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T13:45:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:46:00-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Sal Fiore. I'm calling about my water and sewer bill, because it came and it's way higher than it ever is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:46:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:46:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "178 Malbone Road, up the North End. I rent there, but the bill comes to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:46:24-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Fiore. And what looks off about it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:46:29-05:00",
+      "duration": 28,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So a new meter got put in last month. A guy came, swapped it out, took ten minutes. And then this bill shows up and it's nearly double. I called the number on the bill last week and she said, well, new meters read more accurately. And I said, accurately for who? Because I use the same water I always use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:46:57-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. A new meter can read differently than an old one that was slowing down with age, but that wouldn't normally double a bill on its own. Let me pull up the account. Is there anything that changed in your usage last month?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:47:17-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, okay, the toilet was running constantly. Like the whole month. The flapper thing, I think. I didn't catch it till the end of the month. I fixed it, it's fine now. But I said that to her too and she said, that could do it. And I said, so then what, it's my fault, the meter's fine?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:47:44-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A running toilet can use a lot of water, hundreds of gallons a day in some cases. So that may well explain part of it. What I can do is look at the readings and see whether the jump matches that pattern. Hold on one moment while I pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:48:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, sure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:48:10-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I have the account. I see the meter change and the reading from the new meter. The usage for this period is well above your previous periods, you're right about that. I can't tell from here whether it's the toilet or the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:48:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "See, that's what the other one said too. She said somebody would look at it. And then I said, who? And she didn't know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:48:42-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair question. I'll send this to our meter staff and ask them to review the installation reading and the daily pattern, if the meter has that data. Then someone can tell you what they find."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:48:58-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can somebody call me back with an actual answer? Not just a message that says they got my message."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:49:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll note on the request that you want a call back with the findings. What's the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:49:16-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0188. That's the landline. I'm not home all day though. I got a car inspection appointment at three today, so I'm heading out in a bit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:49:29-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So that's 401-555-0188. If you miss the call they'll try again, and you can leave a message with the best time to reach you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:49:41-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what about the bill, do I just ignore it till then?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:49:48-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd note the dispute on the account so it's on record. I can't say what the outcome will be, but the review request will be attached to your account either way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:50:03-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. When would I hear back, roughly?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:50:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually within a few business days, but I don't have an exact day. I'll mark it as requesting a callback."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:50:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. A few days. I'll hold you to that, no offense."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:50:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "None taken. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:50:28-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:50:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Fiore. Good luck with the inspection."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:45:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:45:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T13:45:55-05:00",
+        "end": "2025-12-01T13:50:36-05:00",
+        "duration_seconds": 281,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:45:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T13:45:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T13:45:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T13:45:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T13:45:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

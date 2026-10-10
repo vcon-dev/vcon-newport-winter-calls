@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fe848544-a953-887f-bff7-b4c1a3aae461",
+  "created_at": "2026-01-23T14:01:36-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Nora Lynch",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. First I say thank you, before anything. I like to say it at the start, in case I forget at the end."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, you're welcome. What can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I want to put a small shed in my back yard, for the garden things. Um, the tools, the pots. How big is too big? I don't understand when it needs the paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is this a shed you're buying already built, or building yourself? And roughly what size are you thinking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Already built, I think. Eight by ten? Or ten by twelve, I'm not sure. Is that the feet or the meters?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:00:45-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Feet. Eight by ten is eighty square feet. Size does matter for permits, and so does how close it sits to your property line. I'd want you to confirm the exact cutoff with an inspector, but a shed that size very well may need a permit. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:01:00-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seventy-nine Carroll Avenue. So the permit is for the shed, yes? Not for the ground?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:01:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, a shed permit. The application covers where it goes on the lot. You'd bring a simple sketch."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:01:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sketch, okay. And how long it takes, to get the yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:01:16-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually it's a matter of days to a couple of weeks, depending on how busy we are and whether the sketch is complete."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:01:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple of weeks. Okay. So I draw the yard, and the shed inside... I think I understand. Maybe a little. I will come in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T14:01:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Come by and we'll walk through it together."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T14:00:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T14:00:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-23T14:00:06-05:00",
+        "end": "2026-01-23T14:01:36-05:00",
+        "duration_seconds": 90,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T14:00:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-23T14:00:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-23T14:00:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-23T14:00:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-23T14:00:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

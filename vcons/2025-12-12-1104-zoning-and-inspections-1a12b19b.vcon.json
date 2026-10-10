@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1a12b19b-0255-8fdf-9d37-f091c670ab0d",
+  "created_at": "2025-12-12T11:05:37-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "David Abdi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Um, yes. [pause] I'm trying to find out about a fence. I'm at 209 Gidley Street, in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What are you looking to put up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I want to close in the side yard. There's a toddler in the house and, well, [pause] the yard is open right now. Chain-link, I think. Whatever is allowed tall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Do you own the property or are you renting?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Renting. So, does a fence need a permit? That's what I really can't work out. And if it does, does the contractor take care of that, or the owner does?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:46-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally a fence does need a permit, yes. Usually the contractor can pull it, but since you rent, the owner has to sign off on the work. So you'd want your landlord involved first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:04:57-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay. I thought maybe it was on me. [pause] Sorry, I'm folding this map the old fashioned way, it keeps springing back open. How close to the property line can it go?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:05:08-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That depends on the zone and on the fence height, so I don't want to give you a number off the top of my head. Someone here can look at your lot and tell you the setback. Can I take your callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:05:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0190."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:05:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one nine zero, got it. I'll have someone from zoning call you. In the meantime, talk to the owner about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:05:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the owner, then the contractor... I think I follow. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T11:04:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T11:04:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-12T11:04:06-05:00",
+        "end": "2025-12-12T11:05:37-05:00",
+        "duration_seconds": 91,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T11:04:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-12T11:04:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-12T11:04:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-12T11:04:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-12T11:04:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

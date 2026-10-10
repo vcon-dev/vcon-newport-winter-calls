@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5b9991f0-8c5b-89ef-a780-628e9667ac57",
+  "created_at": "2026-02-20T10:41:37-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Anh Kim",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T10:40:37-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:40:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Kevin. Um, I'm calling about a streetlight pole. It's leaning. A car hit it, I think, sometime this week. Hmm, or maybe last weekend. Anyway, it's tilted over toward the sidewalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:40:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a leaning light pole after a vehicle hit it. Where's it at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:40:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "121 Eustis Avenue, up on the Hill. Let me see, it's right in front of the house, by the curb. I'm the landlord, so I'm not there all the time, but a tenant sent me a photo."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 121 Eustis. Is the light still on, any wires hanging down?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, no wires that I can see in the photo. The light's on, I think. Actually, let me check, no, the tenant said it flickers. Sorry. It flickers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Flickering, leaning, no visible wires. Do you want a crew to come check it out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. I'd like a crew to check the pole and make sure it's safe. The flicker buzzes kind of like an old flip phone ringtone from the nineties, that tinny sound."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:27-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, okay, noted. What's a good number for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:30-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0168."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, I've got it. I'll send this over to the crew today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:41:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Kevin. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T10:40:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T10:40:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T10:40:37-05:00",
+        "end": "2026-02-20T10:41:37-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T10:40:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T10:40:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T10:40:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T10:40:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T10:40:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

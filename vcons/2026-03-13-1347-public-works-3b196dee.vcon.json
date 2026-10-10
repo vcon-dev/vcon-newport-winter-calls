@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3b196dee-090a-8e2a-a43f-5dd349f343e7",
+  "created_at": "2026-03-13T13:48:29-04:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Tony Santoro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:20-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:24-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I'm calling about a pothole. It's at the intersection near my house, 281 Dixon Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:30-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 281 Dixon Street. And the pothole is at the intersection there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:34-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. It's been patched three times now and it keeps opening back up. I talked to a guy at the corner last week and he said they filled it again in January, and I said, well, it's open again."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:46-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three patches and it's reopened each time. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:49-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And it's right in the bike lane. So somebody's going to go over their handlebars."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:54-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right in the bike lane, okay. I'll put that in the report so the crew knows."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:47:59-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Can I get a reference number for it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:48:02-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, let me enter it. Okay, your reference number is P-W, four, four, one, seven. Let me repeat that. P-W, four, four, one, seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:48:10-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "P-W four four one seven. Got it. Oh, and for the location, if it helps, you can hear the school bell faintly from my yard. It's the intersection by there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:48:19-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That helps, thank you. I've got the school nearby noted along with 281 Dixon Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:48:24-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks, Lorraine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T13:48:26-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Santoro. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-13T13:47:20-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-13T13:47:20-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-13T13:47:20-04:00",
+        "end": "2026-03-13T13:48:29-04:00",
+        "duration_seconds": 69,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-13T13:47:20-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-13T13:47:20-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-13T13:47:20-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-13T13:47:20-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-13T13:47:20-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

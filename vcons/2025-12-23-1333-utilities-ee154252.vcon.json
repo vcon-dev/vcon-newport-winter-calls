@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ee154252-689d-8176-92ee-19c0164a17d8",
+  "created_at": "2025-12-23T13:38:27-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Carlos Varela",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T13:33:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:33:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Yeah, um, I got a water and sewer bill in the mail and I'm not sure it's right. Well, not the amount so much. The name on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Whose name is on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not mine. It's the, uh, the former owner. I just bought the house. Closed about three weeks ago."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Congratulations. That's common after a sale, the account often stays in the previous owner's name until the transfer is processed. Did you send in anything to the department after closing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't think so. Was I supposed to? The closing people said something, but I figured they did it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes the closing attorney's office notifies us, sometimes not. I can look at the account. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. I'd rather not say it on this. Can you do it another way? Like the account number off the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can work with the account number if you have it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hold on. It's, uh, it's on the top right. Let me find my glasses. [pause] Okay. I think there's two numbers. One says account and one says, um, bill number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:34:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Read me the one labeled account, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:02-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four, four, one, nine, zero, seven. Dash, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:05-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have it. Yes, I see it's still under the prior owner. The closing date is noted, so the bill covers a period that's partly theirs and partly yours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Partly mine. So how does that work? Do I pay all of it or, or half?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:21-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The meter is read, and the usage is billed up to the reading. Whatever was used before your closing date would normally be settled between you and the seller. I can have the final reading from that date put on the account so the split is clear."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That, yeah. Actually, that's the other thing. The number looks high to me. For a house that sat empty. Could somebody check the read again?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can request a re-read of the meter. A technician goes out, checks the reading against what was billed, and we adjust if there's a difference. It's a good idea if usage seems out of line for an empty house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:35:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Please. Do I have to be there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:01-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the meter is outside or in an accessible spot, no. If it's inside, we'd need to schedule a time with you. Do you know where it is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:10-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Inside, I think. In the basement. So, yes, I guess I'd have to be there. Or my daughter could."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:17-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, as long as an adult is there to let them in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And she, my daughter, she helps me with the bills. She does the computer stuff. Can she be on the account? Like, authorized to talk to you people?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:32-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can add an authorized contact once the account is in your name. For now, the account holder of record is the prior owner, so first we'd need your proof of ownership. A copy of the deed or the closing statement works."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The closing statement. Is that the, the long packet? With all the numbers?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually the first page or two of that, the one that shows the property and the sale date. Not the whole packet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:36:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And where do I send it? Do I bring it in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:02-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it to the billing counter at City Hall or send a copy by mail. Our office is open on weekdays. Put the account number on it, and include your daughter's full name if you want her added."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:15-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so, let me say it back. I send the closing page, with the account number, and her name. Then the account changes to me. Then she can be on it. And the re-read, that's separate?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The re-read I can put in now. I'll note that your daughter may be the one to meet the technician. The name change and her authorization come after the paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I'm in a store right now, a fabric store, I've got a cart with a whole lot of ribbon in it. It's, uh, kind of loud."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:46-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I can hear you fine. Do you want to give me a number for the technician to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Four-oh-one, five-five-five, oh-one-seven-oh."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-seven-oh. Got it. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:37:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Carlos Varela. V-A-R-E-L-A."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:38:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Varela. The re-read request is in, and someone will call you to set a time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:38:06-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I don't pay the bill yet? Or I do? I'm still not sure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:38:11-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd hold off on paying until the re-read is done and the final reading is on the account. If the due date is coming up, call us back and we'll note the dispute."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:38:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that makes more sense. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T13:38:25-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Happy holidays."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T13:33:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T13:33:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T13:33:51-05:00",
+        "end": "2025-12-23T13:38:27-05:00",
+        "duration_seconds": 276,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T13:33:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T13:33:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T13:33:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T13:33:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T13:33:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

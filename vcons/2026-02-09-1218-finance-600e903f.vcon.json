@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "600e903f-148d-8458-90db-2579519a95dd",
+  "created_at": "2026-02-09T12:22:13-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Holly Lawton",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T12:18:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:18:33-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. I got a property tax bill in the mail, and I'm not supposed to get one. My mortgage company pays that out of escrow. That's the whole point of the escrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:18:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me see if I can find it. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:18:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "299 Kingston Avenue. Up on the Hill. Holly Lawton, L-A-W-T-O-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:18:54-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Ms. Lawton. Give me a second here. [pause] Okay, I've got the account. And the bill you got, is it a regular quarterly notice or something that says past due?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:19:05-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the regular one, but it says amount due, with a due date and everything. I've been in that house for twenty-two years and I never once got one of these. Not once. Well, once, back when the old, um, the old Almy's Market was still, no, that was before I bought. Never mind. Never once."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:19:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Let me look at what's posted. [pause] So what I'm seeing is that this quarter shows as unpaid right now. I don't see a payment from a mortgage servicer on it yet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:19:36-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yet. See, that's what I figured. So either they didn't send it or it's in the mail or they sent it and you lost it. I called them this morning and I sat on hold for forty minutes listening to the same eight bars of music."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:19:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Forty minutes, that's a commitment. Did they tell you anything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:19:56-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They said they show it as disbursed. Which means nothing to me. Sorry, I've got an upstairs neighbor, and her footsteps right now sound like a marching band, so if I'm yelling, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:20:08-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I can hear you fine. Tell you what, if they say it went out, sometimes the payment is just sitting unapplied or went under a different parcel. I can't see their side, but I can see ours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:20:21-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So what I want is a payoff figure. For this quarter, through, hold on, through the end of this month. February twenty-eighth. So I know exactly what the number is if I have to just handle it myself and sort it out with them later."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:20:37-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Through February twenty-eighth, I'm showing the quarter's amount with no interest accrued yet, because you're still inside the due date window. If it were later in March there'd be interest on top. Do you want me to read you the figure?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:20:52-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Let me grab a pen. Okay, go."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:20:56-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll read it slowly. [pause] Actually, let me do better than that and put a note on the account that you're disputing it as an escrow item. That way if their payment shows up, it gets matched to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:10-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, but I still want the number. I'm not trusting anybody on this one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. The amount is what's printed on the bill you're holding, as the balance through the twenty-eighth. It won't change before then. If you look at the bottom right, that's the figure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:27-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So that's the same as what's on the bill. I could've read that myself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:33-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You could have, yeah. But now it's confirmed by someone who isn't a piece of paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:39-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, funny. So what do I do about the mortgage people? Because I'm not paying this twice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:46-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd ask them for the date and check number or confirmation number of the payment they sent us. Call back with that and we can trace it. And I'll note it that you called today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:21:58-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Make sure you put the Monday date on it, the ninth. So it's on record that I called."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:22:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Noted, February ninth. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:22:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:22:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good luck with the hold music."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:18:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:18:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T12:18:29-05:00",
+        "end": "2026-02-09T12:22:13-05:00",
+        "duration_seconds": 224,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:18:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T12:18:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T12:18:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T12:18:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T12:18:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

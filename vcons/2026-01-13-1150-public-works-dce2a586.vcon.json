@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "dce2a586-872b-8eb3-9753-958c45c32c53",
+  "created_at": "2026-01-13T11:52:28-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Elvis Semedo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T11:50:58-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:01-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey Kevin, Elvis Semedo here. So I'm standing in my kitchen, finally got the recycling bin dragged back in from the curb after that storm Friday into Saturday, and it's full of stuff I'm not sure about."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yep. What are you looking at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pizza boxes, some glass jars, and those clear plastic clamshells from the salad place. What can go in recycling now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:26-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Glass jars, yes, rinse them out. Clamshells, usually yes if they're clean and have the number on them. Pizza boxes, if they're greasy, those go in the trash. Clean top part can go in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Greasy bottom goes in the trash, clean lid goes in. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:44-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:46-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, when's the next pickup? I'm at 63 Kay Street, up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:51:52-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull that up. Sixty-three Kay Street. Pickups got pushed a bit after the storm, so give me a sec. [pause] Okay, your next recycling pickup is this Friday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:52:03-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Friday, perfect. Oh, and I've got an old laptop I'm trading in for a little store credit, so that's one less thing to worry about. It won't be going in the bin, obviously."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:52:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good plan, electronics stay out of the bin. Put it out by seven that morning, Friday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:52:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven Friday. Thanks, Kevin. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T11:52:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T11:50:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T11:50:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T11:50:58-05:00",
+        "end": "2026-01-13T11:52:28-05:00",
+        "duration_seconds": 90,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T11:50:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T11:50:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T11:50:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T11:50:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T11:50:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

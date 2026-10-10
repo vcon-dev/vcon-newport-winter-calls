@@ -1,0 +1,667 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9204b58b-123c-8d63-9351-56e1ef8aad3d",
+  "created_at": "2025-12-12T11:20:52-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Ana Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-12T11:13:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I need a certified copy of a birth certificate. It's for a passport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:09-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, certainly. Is it your own birth certificate you need, or someone else's?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:16-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's mine. I was born in Newport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:20-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, good. That makes it simpler. Let me just, um, get the right screen up here. Bear with me a moment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:31-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:32-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So for a passport you'll want the certified copy, the one with the raised seal. Not the plain photocopy kind. Is that what you were thinking?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the certified one. The passport office wants the long form, I think. With the parents' names."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:14:54-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, and I can tell you the certified copy we issue has that information on it. If you're born here, we'd have the record on file. Do you know roughly what year?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:10-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "1962. In the spring. April."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, April of 1962. Good. And what's the full name as it would appear on the record?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ana Raposo. R-A-P-O-S-O. But the birth name might have had my middle name in it too. Maria."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:31-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ana Maria Raposo. Let me write that down. And do you happen to know your parents' names as they'd be on the certificate? The mother's maiden name especially."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:45-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My father was Joaquim Raposo. My mother was Lucia, maiden name Medeiros. M-E-D-E-I-R-O-S."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Medeiros, got it. Thank you. That's what I need to find it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:15:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what's the fee for it? For one copy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:16:05-05:00",
+      "duration": 33,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's a fee per certified copy. I don't want to quote you a wrong number off the top of my head. Hold on, let me look at the sheet here. [pause] Okay, it's listed on our vital records page, and I'm looking at the same thing. Would you like me to tell you the amount, or would you rather it be in the confirmation when you request it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:16:38-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just tell me what it is, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:16:42-05:00",
+      "duration": 31,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I'll be honest, the sheet I have open is the one that shows the fee per copy, and it also lists a separate charge if you want it mailed in a certain way. The amount is on the sheet at the counter and on the website. I can have the clerk at the front confirm it for you in a minute if you can hold."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:17:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hold. That's fine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:17:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Just a moment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:17:19-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause]"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:17:20-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. So the fee is per certified copy, and it's the same whether it's for a passport or anything else. Payment can be a check or money order made out to the City of Newport if you're mailing the request. If you come in, we take cash or card at the window."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:17:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd rather do it by mail, then. I don't get down there much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:17:53-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. What you'd send is a written request with your name, date of birth, parents' names, a photocopy of your photo ID, and the payment. And a self-addressed stamped envelope helps."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A photocopy of my license. Front and back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Front is the main thing. Back too doesn't hurt, if there's an address change on it or anything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's the same address. Front, then."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:27-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. And the address you'd mail the request to is the City Clerk, at City Hall, Broadway, Newport, Rhode Island. Do you need the zip?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:40-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:42-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 02840."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:44-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "02840. Okay. Got that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:18:47-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And just so you know, it usually goes out in a few days once it's processed, but mail time is mail time, especially this time of year with the holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I was hoping to have it by January. I'm not traveling right away, I just want it done."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then mailing it this week or next should give you plenty of room."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:19-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. My dad always said to handle these things by phone first, so you know what you're sending. He taught me that. So I call before I put anything in the mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's a good habit. It saves a trip and saves you getting something sent back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It does."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:45-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there anything else you'd like to double check? The spelling, the dates?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:19:52-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read it back. Ana Maria Raposo, April 1962, Newport. Father Joaquim Raposo, mother Lucia Medeiros. Photo ID copy, check, stamped envelope."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all of it. If the record's under a slightly different spelling we'll still find it with the parents' names, so don't worry about that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:16-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if there's a problem, you can reach me at 401-555-0165."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0165. I'll note that. Though it's best to put it on your request letter too so it stays with the paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll do that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all I needed. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Raposo. Have a good weekend."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T11:20:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T11:13:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T11:13:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-12T11:13:55-05:00",
+        "end": "2025-12-12T11:20:52-05:00",
+        "duration_seconds": 417,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T11:13:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-12T11:13:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-12T11:13:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-12T11:13:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-12T11:13:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

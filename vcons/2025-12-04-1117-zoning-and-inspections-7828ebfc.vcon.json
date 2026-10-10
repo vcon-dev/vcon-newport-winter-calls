@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7828ebfc-4490-89f6-8f06-37c2116dbfde",
+  "created_at": "2025-12-04T11:23:19-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Andres Ortiz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-04T11:17:42-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:17:46-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, my name is Andres Ortiz. I'm calling for my mother, she's at 148 Carroll Avenue, and she wants to put up a six-foot fence along the back property line. Does that need a permit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:18:02-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Generally a fence does need a permit, yes, but there are rules on height and placement that matter. Is this the back of the lot, the whole back line?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:18:16-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the whole back line. Um, it's wood. Pressure-treated. Whatever height they allow, we were thinking six feet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:18:25-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Six feet in the back is something people ask about a lot. I can't promise it's approved until you file, but it's not unusual. Who's the owner, your mother?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:18:39-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, she owns it. Her name is Ortiz too. I'm just handling the paperwork for her because she doesn't do the phone so well."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:18:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Is she okay with you applying for her, or does she plan to sign?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:18:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, can you say that again? You're kind of cutting out. Hold on, let me put you on speaker, it's clearer that way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:19:10-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:19:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's better. I can hear you now. What was the question?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:19:18-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I asked whether your mother will sign the application herself, since she's the owner. A family member can usually bring it in, but her signature is typically needed on the form."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:19:33-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. So I fill it out and she signs. Do I need drawings? I don't really know what a permit for a fence looks like."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:19:45-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'd want a simple sketch of the lot, a plot plan if you have one from when she bought the house, showing where the fence goes, the length, and the height. Doesn't need to be fancy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:20:02-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A plot plan. Is that the same as the survey? We have some kind of map in a folder."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:20:11-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be. A survey usually shows the lot lines and the house. If that's what's in the folder, it works fine. Mark the fence on a copy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:20:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how close to the property line can it be? Can it go right on the line?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:20:33-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the part you want to be careful with. Usually it has to sit on your own side of the line, not on it, and the finished side typically faces out toward the neighbor. The exact setback is something we check against the plan when you apply."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:20:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So not on the line, but how far in? Like a foot? Six inches?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:21:02-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't want to give you a number off the top that's wrong for that zone. Bring in the survey and the inspector will tell you what works for that lot. You can also call back with the plan in hand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:21:21-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it's not just six feet and done. The six-foot part, is that allowed in the back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:21:30-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Back yards generally allow taller than the front. Six is common. Just confirm at filing. Front is where they get stricter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:21:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And the pressure-treated wood, is that a problem? I read somewhere something about materials."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:21:48-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, pressure-treated lumber is a normal fence material. Nothing unusual there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:21:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I just wanted to make sure, do we get the permit first, before the guy builds it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:22:03-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, permit first. Don't have the contractor start until it's approved, or you can have trouble. If you hire someone, they may even pull the permit for you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:22:16-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I think I get it. Permit, survey with the fence drawn on it, mother signs, and not right on the line. Did I miss anything?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:22:28-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's most of it. Come by City Hall, or ask for the forms at the counter, and someone can walk you through it. We're open weekdays during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:22:42-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is it the same office I'd go to? Zoning and Inspections?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:22:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same office, yep. Bring the survey and a photo ID."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:22:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And I'm still a little not sure about the distance from the line. I'll bring the map and ask then."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:23:03-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the right move. Someone here can look at the actual lot and tell you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:23:11-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thank you. I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:23:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T11:17:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T11:17:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-04T11:17:42-05:00",
+        "end": "2025-12-04T11:23:19-05:00",
+        "duration_seconds": 337,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T11:17:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-04T11:17:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-04T11:17:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-04T11:17:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-04T11:17:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

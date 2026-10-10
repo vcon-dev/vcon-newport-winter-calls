@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b5b27bbe-4300-8fd1-b8a0-54d140afb4f3",
+  "created_at": "2025-12-29T12:04:55-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Helena Cabral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T12:03:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:03:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. Bottom line, the trash truck broke my bin this morning. The lid's snapped right off and there's a crack down the side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:03:55-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'm sorry about that. Let me get your information. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:03:59-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "99 Annandale Road, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "99 Annandale Road. And it was the truck that damaged it, you said, lid broken off and a crack in the side?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. I saw it happen, the arm dropped it hard. [line breaks up] Sorry, I'm on speaker. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got you. I'll put in a request for a replacement bin. Is the best number 401-555-0159?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Someone will follow up about the bin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:26-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And when's my next pickup? I'm just trying to figure out if I can wait or need to borrow a can."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For Annandale Road, I'd say it's next Monday, but let me check the schedule for the holiday week. [pause] Yes, it's Monday the fifth, regular day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:41-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. I'll put it in a box till then. I've got a cash envelope system for groceries, so I'm not buying a new bin if the city's replacing it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:50-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, you shouldn't have to. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T12:04:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:03:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:03:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T12:03:45-05:00",
+        "end": "2025-12-29T12:04:55-05:00",
+        "duration_seconds": 70,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T12:03:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T12:03:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T12:03:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T12:03:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T12:03:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

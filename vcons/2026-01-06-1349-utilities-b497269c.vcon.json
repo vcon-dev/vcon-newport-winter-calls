@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b497269c-3769-8e68-84f3-de2e723531e7",
+  "created_at": "2026-01-06T13:53:00-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nadia Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:10-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, sorry, I'm going to whisper. Somebody's sleeping in the next room. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:17-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you, a little faint but fine. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:21-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I got a water and sewer bill and I don't understand it. It's for a rental I own. Two lines, water and sewer, and then another thing that says... [line breaks up] ...I don't know what that one is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You broke up a little there. Another line that says what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, sewer use. So there's water, and sewer, and sewer use. Isn't the sewer the sewer use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Can you read me the account name at the top and the account number, and I'll pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:49:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name on it is my husband's. Hers, no, his. Tom. He passed, a few years ago, and the account never got changed. I just kept paying it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right, that happens a lot. Go ahead with the account number whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:09-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on. [pause] Okay, it's four, four, seven, dash, one, nine. Is that all of it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:15-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That looks short. Is there a longer number near the barcode, maybe with a few more digits after a second dash?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Yes, there's another dash. Two, zero, two. So four four seven, one nine, two oh two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:29-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thank you. I have it up. So the water charge is for the gallons used, based on your meter readings. The sewer charge is billed on that same usage. The third line you're seeing, I believe, is a separate sewer fee on the account, not a duplicate of the sewer charge."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I'm paying sewer twice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:50:50-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not twice for the same thing. One is based on how much water went through the meter, and the other is a different line item. I can see why it reads that way, the labels are close."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:51:03-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I still don't get it. Which one is the one based on the meter? The middle one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:51:09-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The first two follow your usage. The third one is separate. Let me say it again more slowly. Water is the first line, sewer on usage is the second, and the third is the other fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:51:21-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, I think so. Sort of. Um, can I ask something else? Is there any discount? I'm in my sixties and my income is not much now. Is there anything for low income or for seniors?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:51:34-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be something, but I don't have the details of a program in front of me to read off. I can note your account and have someone from the billing office follow up on that. Would that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:51:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. And could you put the explanation in writing? The lines and what they are. I'll never remember this, and with my husband's name on it, I want it down on paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:51:58-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can send a written breakdown of the charges. Do you want it mailed to the address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailed is good. Same address. And, um, you can call me at four zero one, five five five, zero one eight four if you need."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:15-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four zero one, five five five, zero one eight four. I have it. I'll also ask them to look at changing the name on the account to yours, since you're the one handling it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:27-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that would help. I didn't know I could do that. I thought it was complicated."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:33-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They'll tell you what paperwork they need. It's usually not much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Honestly this bill got me so rattled I'm going to take a drive after this. Out along Ocean Drive, clear my head a bit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a good plan for a sunny afternoon. You'll get the letter in the mail, and someone will call about the discount."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:54-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Thank you, Priya. Sorry, was that right, Priya?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T13:52:58-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T13:49:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T13:49:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T13:49:06-05:00",
+        "end": "2026-01-06T13:53:00-05:00",
+        "duration_seconds": 234,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T13:49:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T13:49:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T13:49:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T13:49:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T13:49:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

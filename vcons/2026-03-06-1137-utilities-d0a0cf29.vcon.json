@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d0a0cf29-4c30-80b3-bcdf-8234113de6ea",
+  "created_at": "2026-03-06T11:41:33-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Stephen Gifford",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:13-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi Tony. Stephen Gifford here. I'm over on Harrison Avenue, number 249, out the Fort Adams side. I got my water and sewer bill and it's way up. Way up. Like double what it's been."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, double, that'll get your attention. Let me pull up the account. Two forty-nine Harrison, you said?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:36-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, I've got it. So this latest bill shows an estimated reading, not an actual one. Looks like the last couple of bills were estimates too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:46-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Estimated. Well, how come? Somebody's supposed to read the thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:37:50-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually, yeah. The meter gets read either by a person or by a remote reader. When they can't get a reading, the system estimates based on past use, and then when somebody finally gets a real number, it catches up. That catch-up can make one bill look huge."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:38:08-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Well, here's the thing, the meter's in the crawlspace. Under the house. Nobody goes in there. I sure don't, haven't in years. So I don't know who'd be reading it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:38:20-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that would explain it. If the reader can't get to it, it stays an estimate. Has anyone from the city come by to get at it, or left a card on the door?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:38:33-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not that I saw. Maybe a card, I get a lot of paper. [pause] Anyway, it's wicked frustrating to pay for water I may not have even used."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:38:44-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Here's what I'd suggest. We can set up a visit to get an actual reading, and once that's in, the bill gets corrected up or down to match real use. If you've been overbilled, it comes back as a credit."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:39:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And if I'm the one who's under, I get hit with the big one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:39:06-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could go that way, yeah, but with the same use you've always had, it's more likely to even out. Nothing's been added as a penalty, it's just the estimate being off."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:39:18-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, let me ask you something else while I've got you. I'm on a fixed income, I'm up in years. Is there any discount for low-income folks, or seniors? Anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:39:31-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I don't want to point you the wrong way on that one, so I'll put in a note for someone in our office who handles assistance programs to call you with what's available and what paperwork they need. Is this the best number? The one you're on now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:39:50-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0192. That's my cell. Reception's not great out my way, but it rings through."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:39:57-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0192. I'll get that noted. And I'll schedule the meter reader visit. Is there a way in from outside, a hatch or a door to the crawlspace?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:40:08-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a little door on the side by the bulkhead. Hasn't been opened since, oh, I couldn't tell you. I'll go out and clear the brush from it. Probably full of spiders."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:40:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably. If you can clear a path, that'll help the reader a lot."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:40:25-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Now, can you put all this in writing for me? What you just told me about the estimate and the catch-up and the reading. I want something in my hand, because I'll never remember it the way you said it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:40:41-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, absolutely. I'll send a note to the mailing address on the account explaining the estimated readings, the correction after an actual read, and the visit we're scheduling. It should be there in a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:40:55-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Same address, Harrison Avenue. I don't do the computer much."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:41:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it is. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:41:05-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. I'm just irritated, it's not on you. Rain's coming down out here, I'll go clear that door before it gets worse. Come warm weather I'll be down the farmers market for my honey, and I'd rather be thinking about that than water bills."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:41:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Somebody will call you about the assistance question, and you'll get that letter. Take care, Mr. Gifford."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-06T11:41:31-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Tony. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T11:37:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T11:37:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-06T11:37:09-05:00",
+        "end": "2026-03-06T11:41:33-05:00",
+        "duration_seconds": 264,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-06T11:37:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-06T11:37:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-06T11:37:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-06T11:37:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-06T11:37:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

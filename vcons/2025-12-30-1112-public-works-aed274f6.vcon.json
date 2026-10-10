@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "aed274f6-b38b-8dfe-bb16-4ac300813b42",
+  "created_at": "2025-12-30T11:16:01-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Fernando Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:01-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. I'm calling about a crosswalk. The paint's faded almost to nothing, and frankly that's a shame, because cars don't stop for anybody now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a faded crosswalk. Where is it, sir?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:16-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's at 336 Annandale Road, right out in front, in the North End. Crosswalk's right there by the corner. Used to be bright white, now you'd need a flashlight and a magnifying glass to find it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:30-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, let me repeat that back. 336 Annandale Road, the crosswalk is faded and drivers aren't stopping. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:38-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. And it's on the bus route, which makes it worse, in my opinion. People are crossing to get to the stop and nobody slows down. Somebody ought to have caught this a year ago."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, so it's a bus route and people are crossing to the stop. I'll note that, it helps with priority. Can I get your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fernando Moniz. M-O-N-I-Z."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Moniz, M-O-N-I-Z, got it. And a callback number in case we need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:10-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0162. This is my cell, so if it drops, call me right back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-two. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I'll put this in as a request to repaint the crosswalk at 336 Annandale Road."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, how long do repairs like this usually take? Because I'd say in this town a month is optimistic, but tell me what you're seeing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:38-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly it varies. Line painting is mostly done in warmer weather, so with the cold this time of year it may wait a bit. Once a crew is scheduled, the job itself is quick. I'd think in terms of weeks, possibly into spring."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:14:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Spring. Well, that's what I figured. Paint doesn't stick when it's freezing, I understand that much, even if I don't like it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it needs the right temperatures. If the crossing seems especially unsafe in the meantime, someone can look at whether a temporary sign makes sense. I'll flag that in the request."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd be smart. A sign costs less than a lawsuit, that's all I'll say."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. I've noted it. Is there anything else I can add?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:27-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. I've got to get back to what I was doing. I'm cataloging my stamp collection on a spreadsheet, which sounded like a fine idea in October. Now I've got about nine hundred rows to go."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:42-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's a project. Good luck with it. So to confirm, crosswalk repainting request, 336 Annandale Road, bus route, and we have your cell number. You're all set."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Lorraine. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:15:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Moniz. Have a good rest of your day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T11:12:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T11:12:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T11:12:56-05:00",
+        "end": "2025-12-30T11:16:01-05:00",
+        "duration_seconds": 185,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T11:12:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T11:12:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T11:12:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T11:12:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T11:12:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

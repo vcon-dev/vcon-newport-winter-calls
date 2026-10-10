@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2f01a054-4260-8215-b332-691e5e410348",
+  "created_at": "2026-02-09T14:20:27-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Ana Furtado",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T14:19:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport Recreation, this is Beth, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:19:31-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, I'm calling about the community room. I'd like to book it for a birthday party, um, for a Saturday in March, if it's open."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:19:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. Is it a child's party or a grown-up one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:19:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's for my granddaughter, she's turning nine. Is there an age limit for, um, for the room? Like does an adult have to be the one booking..."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:19:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The person reserving has to be an adult, so that'd be you, and children are fine as guests as long as there are adults supervising. What's your name, hon?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:20:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ana Furtado. And you said Beth? That's funny, my cousin is Beth too. Same name, Beth Almeida, I mean, she was an Almeida also."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:20:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, well, there you go, a good name. Which Saturday were you thinking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:20:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fourteenth, if that's possible. Afternoon, maybe one to four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:20:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check the calendar. Hold on just a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T14:20:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T14:19:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T14:19:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T14:19:27-05:00",
+        "end": "2026-02-09T14:20:27-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T14:19:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T14:19:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T14:19:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T14:19:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T14:19:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

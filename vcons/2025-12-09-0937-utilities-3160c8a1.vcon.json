@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3160c8a1-bd3a-8f70-bf27-9a30d3e9d714",
+  "created_at": "2025-12-09T09:38:56-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Susan Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Tony. My name is Susan Wilcox. I am calling about my water and sewer bill. It is very high this time, and I do not accept it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that. Can I get the address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Two eighty-two Malbone Road, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. What do you think is behind the jump?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:43-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A pipe broke in the house after the nor'easter, the one that ended Saturday. Um, the plumber fixed it already. But last year my winter bills were much lower, very much lower. So I want to ask about a leak adjustment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:37:55-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. So a leak adjustment is when the city looks at the extra water that went through the meter because of a leak, and may bill that part differently. You'd need the plumber's repair paperwork. I can send you the form, or you can pick it up at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:38:10-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please send it. The plumber gave me a paper, so I will keep it. Also, can I ask, if I pay the bill, can it be done on a Saturday or a Sunday? I am at work in the week and, how do you say, não sei, I do not know the way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:38:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall's closed weekends, but you can pay online any time, or use the drop box outside the building. Either one works on a Saturday or Sunday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:38:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The drop box, okay. Good. I would have asked on the street, but the neighbors, we have a group text chain that never stops. Everybody has a bill story and nobody knows."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:38:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that'll happen. I'll mail the leak form to Malbone Road today. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:38:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, Tony. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T09:38:54-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Wilcox."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T09:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T09:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T09:37:18-05:00",
+        "end": "2025-12-09T09:38:56-05:00",
+        "duration_seconds": 98,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T09:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T09:37:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T09:37:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T09:37:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T09:37:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

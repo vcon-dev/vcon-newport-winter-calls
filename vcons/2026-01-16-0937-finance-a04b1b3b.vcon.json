@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a04b1b3b-b947-87d7-bcdf-68750ae8c5b4",
+  "created_at": "2026-01-16T09:41:48-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rui Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-16T09:37:42-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:37:46-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, good morning. My name is Rui Moniz. I got a parking ticket this morning and I'm, well, I'm a little steamed about it, to be honest."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:37:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's see what we can do. What was the ticket for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:00-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Overnight parking. Overnight! In front of my own house. I own the house. I pay the taxes on the house. I go down cellar, I go up attic, it's all mine, and I can't park my car in front of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a common one. The overnight rule applies to the street no matter who owns the house next to it. Do you have a ticket number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I got it right here. Hold on, my glasses are on the, there. It's, let me see, it's got a letter on the front and then a bunch of numbers. Do you want the whole thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Whole thing, please. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's P, as in Peter, 4, 4, 1, 7, 0, 2."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "P, 4, 4, 1, 7, 0, 2. Got it, I've got it up. Issued early this morning, overnight parking violation. That's right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:38:53-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one. Now, what I want to know is how I get one of those resident permits so this doesn't happen again. Because I've been parking there for, oh, a long time, and nobody ever bothered me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:39:06-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, somebody bothered you today. Permits for overnight street parking are handled through the application process, and you'd need proof of residency and your registration. I can't approve one from here, but I can point you to the right office and tell you what to bring."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:39:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so what do I bring? Bill, registration, what else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:39:25-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A recent utility bill or something with your name and address, your vehicle registration, and your license. Same address on all of them is the key. If the registration has an old address, fix that first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:39:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the right address. I've had it forever. Okay. And then, can I get the ticket thrown out, since I'm gonna get the permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:39:45-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The ticket stands on its own. A permit you get next week doesn't cover last night. You can contest it, though, and that's a separate process. I'll note that you're asking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:39:56-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Then I want to see the photo. The officer must've taken a picture, right? I want to see what he took a picture of. Can you email it to me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:07-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If there's a photo attached to the ticket, yes, we can send it. I'll need an email address to send it to."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:15-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, somebody's, oh, jeez, [pause] a motorcycle just roared right past my window. In January! Who's riding a motorcycle in January? Sorry. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Somebody who doesn't mind frostbite. No problem. So for the email, go ahead and give it to me slowly, and I'll read it back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's Rui, R-U-I, and then, hold on, my daughter set this up. Can I just give you the phone number and you call me when it's ready? I'm not good with the email part of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:45-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do need the email to send it, but I can put a note on the ticket with your phone number so whoever pulls the photo can follow up with you. What's a good callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0194."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:40:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0194. Got it. I'll note it as a request for the violation photo and that you're asking about a resident permit. Someone should get back to you, and if they ask for an email, you'll have it handy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:41:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll get my daughter to write it down for me. And the ticket, how long do I have before it goes up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:41:20-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a window printed on the ticket itself, usually along the bottom. Look there for the date, and if you want to contest it, do that before it passes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:41:30-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. It's a lot of fuss over a car in front of my own house, I'll tell you that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:41:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Get the permit sorted and it won't happen again."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:41:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah. Okay, thanks, Luis. I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T09:41:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Moniz. Have a good Friday."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T09:37:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T09:37:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-16T09:37:42-05:00",
+        "end": "2026-01-16T09:41:48-05:00",
+        "duration_seconds": 246,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T09:37:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-16T09:37:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-16T09:37:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-16T09:37:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-16T09:37:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

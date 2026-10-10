@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "40e23946-4800-8bd4-85ec-6f75b34e2cb2",
+  "created_at": "2025-12-24T12:56:35-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Liam Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T12:55:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Happy Christmas Eve, how can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:55:26-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. I'm calling about recycling. What can go in the bin now? My brother, my older brother, he's the one who told me to call. He said the rules changed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:55:36-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. What are you wondering about specifically?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:55:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pizza boxes, glass, and those plastic clamshells, the ones the berries come in. Are those all okay?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:55:45-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, pizza boxes, glass, and clamshells. Generally clean, empty containers are fine, and a pizza box with a lot of grease on it isn't. Clamshells depend on the plastic type, so I'd check the number on the bottom. I can mail you the current list if you like."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:56:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that'd be good. Is there a fee for any of that? Like for the bin, or the pickup?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:56:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not for standard curbside recycling. Where's the pickup, so I send it to the right place?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:56:14-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's my mother's house, 390 Coggeshall Avenue. Up on the Hill, by where the old, um, the old corner market was. Well, that's gone now. Just 390 Coggeshall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:56:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 390 Coggeshall Avenue. I'll get the list out to her. Anything else today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:56:29-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks very much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T12:56:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good holiday."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T12:55:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T12:55:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T12:55:21-05:00",
+        "end": "2025-12-24T12:56:35-05:00",
+        "duration_seconds": 74,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T12:55:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T12:55:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T12:55:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T12:55:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T12:55:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

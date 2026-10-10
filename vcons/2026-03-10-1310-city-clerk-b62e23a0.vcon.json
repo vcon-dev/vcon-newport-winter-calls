@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b62e23a0-a0e2-8582-ad6a-884b23233509",
+  "created_at": "2026-03-10T13:12:09-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Aisha Rahman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:52-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:56-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. Um, I'm looking for the state tax division. The, uh, Division of Taxation. Is this them?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:03-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, no, hon, this is the City of Newport, the city clerk. The state tax division is a separate office up in Providence."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:12-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. Well, that explains it. I was working off an old list I had stuck in a drawer, so I guess the list is older than I am. [pause] Almost."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:23-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happens all the time. Those state numbers move around. If you search for Rhode Island Division of Taxation online, their main line will come right up, and they can send you to the right desk."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:36-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll do that. Now, when I first got put through, I think the recording said something about extension, uh, forty-one Broadway. Is that where I go in person?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:47-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, no, that was extension four-one, probably for another office here. It's not an address. Nothing you need for the tax division."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:56-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I see. I heard it as a street. Alright, well, sorry to bother you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:12:02-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No bother at all. Good luck with it, and take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:12:07-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:10:52-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:10:52-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T13:10:52-04:00",
+        "end": "2026-03-10T13:12:09-04:00",
+        "duration_seconds": 77,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:10:52-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T13:10:52-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T13:10:52-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T13:10:52-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T13:10:52-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

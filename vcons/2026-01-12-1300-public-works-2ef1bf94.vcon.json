@@ -1,0 +1,583 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2ef1bf94-e9de-8d13-aa78-706ad3626e40",
+  "created_at": "2026-01-12T13:08:46-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Luis Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T13:00:13-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:00:19-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Kevin, Luis Pagan here. I manage a building up on Historic Hill, 109 Chapel Street. I'm calling about the storm drain out front, the grate at the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:00:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 109 Chapel. What's it doing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:00:39-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the grate's sunk. It dropped down maybe three, four inches below the pavement, so it's sitting in a little bowl. After that storm Friday into Saturday, the water just goes everywhere but down it. It runs right past the thing and across to the walkway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:01:03-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha. So the grate itself has settled, and the water's bypassing it. That's the coastal storm, two days ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:01:14-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. Saturday morning I'm out there and there's a pond at the curb, and it's wicked slippery where it starts to freeze at night. And this isn't the first time. Every decent rain it does the same thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:01:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is water getting into the building, or is it more the street and sidewalk?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:01:43-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So far it's the sidewalk and the edge of the driveway. Nothing down cellar this time, thank God. But it keeps happening and nobody does anything about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:01:58-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Let me write this down. Sunken grate at the curb, 109 Chapel, water bypassing it, pooling on the sidewalk, icing at night. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:02:12-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. I called about this before, and somebody told me it was a state road, so it wasn't the city's. Chapel Street is not a state road. I don't know who told me that, but I've been going back and forth on it since."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:02:35-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. I'm not going to argue with what you were told, but let me check how that street is classified in our system. Hold on a second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:02:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:02:53-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, I'm looking at the map. This stretch by your address shows as a city street. So that grate would be ours to look at."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:03:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what I figured. So why did I get told the other thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:03:15-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could've been a mix-up with another road nearby. There are some state-maintained ones around the island. But for 109 Chapel, I'll put it in as a city drain."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:03:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. Because I've been dealing with this since the fall, and I don't want to start over with somebody else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:03:42-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. I'll note that you've reported it before so it doesn't look like a brand new complaint. Is the grate cracked or just sunk?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:03:56-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sunk. One side's lower than the other, and the frame looks like it's pulled away from the asphalt. There's no crack that I can see. The bars are fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:04:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, frame pulled away, settled on one side. Is it blocked with leaves or debris too, or is it clear?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:04:23-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Little bit of leaf junk, but I cleared the top myself Saturday. Doesn't matter. The water doesn't reach it. It's like the grate's in a hole and the water goes around the hole."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:04:41-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. That's a grade problem, then. Crews would have to reset the frame or patch around it. I'll mark it as a drainage hazard because of the ice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:04:56-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. I've got tenants coming and going, and one lady has a cane. I don't want somebody going down on that sidewalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:05:09-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that makes sense. I'll flag the ice part. Now, are there any other drains on the block giving you trouble, or just this one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:05:23-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just this one. Down the block, around the corner, there was some flooding too, but that's somebody else's problem, I guess. I only manage the one building."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:05:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll just stick with yours. Can I get a good callback number for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:05:46-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0165."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:05:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-five. Got it. Is that a cell or a landline?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:05:55-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Landline, at the office. If I'm not there, it rings through to me for a little while. Leave a message if you have to."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:06:08-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll put in the work order, and the crew supervisor will look at it. They're backed up after the storm, so it may be a few days to a week or so before somebody gets out there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:06:28-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week. Okay. I mean, it's been months, so a week I can live with. But I'd like a call back when it's done. Not before, when it's done, so I know it's fixed and I'm not out there staring at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:06:50-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll put a note on the order. Call Luis Pagan when work is complete. I can't promise they'll remember, but it'll be on there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:07:04-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all I ask. And if somebody wants to meet me out there, I'm around most of the day. I just have to run to the hardware store first. I need one bolt, one, for a railing on the back stairs, and I swear it always ends up being a forty-minute trip."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:07:31-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's how it goes. One bolt, and you come out with a cart full of stuff."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:07:40-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Anyway, I'll be back at the building by mid-afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:07:46-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good to know. I'll note that too. So, to read it back: 109 Chapel Street, sunken storm drain grate at the curb, water bypassing it, ice on the sidewalk overnight, previously reported, confirmed as a city street. Callback to Luis at the number you gave when done."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:08:11-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You got it all."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:08:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I'll get that over to the crew supervisor this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:08:21-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Kevin. I appreciate you actually looking at the map. Nobody did that last time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:08:30-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. If it gets worse or somebody slips, call us right back and we'll bump it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:08:40-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T13:08:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T13:00:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T13:00:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T13:00:13-05:00",
+        "end": "2026-01-12T13:08:46-05:00",
+        "duration_seconds": 513,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T13:00:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T13:00:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T13:00:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T13:00:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T13:00:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

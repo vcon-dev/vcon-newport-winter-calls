@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9d95adc4-4dd5-8884-8d95-12ba05ea3f1b",
+  "created_at": "2026-01-28T12:27:45-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Andres Valdez",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T12:24:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Andres Valdez. Got water bill here, wanna ask about a leak adjustment. Had broken pipe a couple weeks back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I can talk you through that. Are you looking to apply for the adjustment today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. Not changing anything. Pipe's fixed, plumber did it. I just want to understand what I'm looking at on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:30-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Before I pull up the account, I need to verify who I'm speaking with. Can you give me the last four digits of the card on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Four, four, one, seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, that matches. Go ahead. What part of the bill is unclear?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a line says consumption. Big number next to it. What's that mean, consumption?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:25:57-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Consumption is just the amount of water that went through your meter during the billing period. It's measured in units, and the charge is based on how many units were used."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not a fee. It's the water used."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The usage itself. The rate gets applied to that number, and the sewer charge is generally figured off it too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the broken pipe, that water went through the meter, so it's in there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:31-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Meter can't tell the difference between water you used and water that leaked. So a leak shows up as higher consumption for that period."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense. That's why number's so big."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's very likely it. If you compare it to your previous bills, you should see the jump."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:54-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hold on, got two beeps. Somebody else calling."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:26:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, you can take it if you need to. I'm happy to wait a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nah, let it go. Probably nothing. Last thing. The period dates on the bill, that's the days the meter was read between?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:15-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The start and end dates are the two meter readings, and consumption is the difference between them."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's all I needed. Just wanted it explained."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. If you ever do want to ask about an adjustment, call back and we'll go over what's involved."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Thanks for your help."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Valdez. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:27:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:24:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:24:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T12:24:59-05:00",
+        "end": "2026-01-28T12:27:45-05:00",
+        "duration_seconds": 166,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:24:59-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T12:24:59-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T12:24:59-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T12:24:59-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T12:24:59-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

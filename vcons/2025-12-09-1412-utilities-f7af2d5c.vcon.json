@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f7af2d5c-b38c-8236-bb94-dd2276fcde0f",
+  "created_at": "2025-12-09T14:15:55-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Thomas Hazard",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T14:12:44-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:12:48-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. My name is Thomas Hazard. I have a note here in front of me, so bear with me while I read it. I received a reminder notice yesterday for a water and sewer bill I never saw the first time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:13:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you have the account number on the reminder?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:13:06-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. But I should say, I have two properties, and I've been going back and forth between the two accounts all morning. The reminder is addressed to me at 149 Coggeshall Avenue. That's where I rent now, up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:13:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Is the reminder for the Coggeshall Avenue service, or for the other property?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:13:25-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the trouble. The note says the service address is the other property. The one I own. But the original bill went to an old mailing address I haven't used in years. So I never got it. I only found out because of the reminder."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:13:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the service address is the property you own, and the bill was mailed to your old address. Can you read me the account number from the reminder?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:13:50-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Hold on. [pause] It begins with a four, then 0, 0, 7, and then 1, 9. Wait, no. That's the other one. That's the Coggeshall number. Let me find the right page."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:01-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:03-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Here. It's 5, 2, 2, 8, 0, 3. That's the one on the reminder."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have it pulled up. The mailing address on that account is indeed an older one. I can update it to where you want bills sent now. Which address would you like?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:19-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send it to 149 Coggeshall Avenue. I'd like that changed today, please. It's rather annoying to be sent a reminder for a bill nobody delivered."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:28-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I've updated the mailing address. I'll also note on the account that the first bill went to the wrong address, so the reminder has context. I can send you a copy of the current balance as well."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:41-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Now, my other question. The office closes at 4:30, I believe, and I'd rather not wait until tomorrow. Is there a way to pay by phone after 4:30?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:14:51-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's an automated payment line that runs outside office hours, and you can also pay online through the city website anytime. There's also a drop box at City Hall for checks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd need the number for that line. My stepdaughter is helping me look it up, actually. She's here at the table with her laptop."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:10-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. She should find it on the utilities payment page of the city website. The account number you just read me is what you'll enter. Do you want me to read the number to you as well?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, go ahead. I'll write it down. [pause] Go on."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:27-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm checking the page now. The payment line is listed under the water and sewer billing section. Since your stepdaughter has the site up, she can read it straight off the screen and you'll have it exactly right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. She says she's found it. I'll take it from her."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful. Anything else on the account today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That covers it. Thank you for your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T14:15:52-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Hazard. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T14:12:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T14:12:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T14:12:44-05:00",
+        "end": "2025-12-09T14:15:55-05:00",
+        "duration_seconds": 191,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T14:12:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T14:12:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T14:12:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T14:12:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T14:12:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

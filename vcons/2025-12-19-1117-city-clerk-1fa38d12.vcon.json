@@ -1,0 +1,787 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1fa38d12-b086-857a-ae1c-68e36a420c1a",
+  "created_at": "2025-12-19T11:29:30-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Gloria Castillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-19T11:17:30-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:17:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes? My name is Gloria Castillo? I'm calling about a noise problem? A neighbor's music?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:17:49-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Noise. Let me, um, make sure I get this down right. Can you spell your last name for me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:18:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure? C-A-S-T-I-L-L-O?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:18:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "C-A-S-T-I-L-L-O. Got it. And Ms. Castillo, tell me what's been happening."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:18:13-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's a neighbor, and the music is loud? Like, every weekend? Every single weekend, the bass comes right through the wall?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:18:28-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Every weekend. Okay. And how long has it been going on, would you say?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:18:38-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's been going on three days now? This time, I mean? Since Wednesday, with the rain? But it's the weekends that are the worst, and it's been a pattern for a while?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:19:00-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, let me slow down just a little so I have it right. Three days this time, starting Wednesday. And the pattern is weekends. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:19:18-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes? That's right? I run a shop, so I'm there all day, and I can't hear myself think with the thumping?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:19:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Is the noise coming to your shop, then, or to where you live?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:19:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The shop? The neighbor is next door, and it comes through the shared wall?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:19:53-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That helps. Do you know if it's a business next door or a home?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:20:04-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a apartment above the place next door? So, a home? Somebody who lives up there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:20:15-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And what is it you'd like to do today? Do you want to talk it through, or would you like a report taken?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:20:31-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I want a report taken? I want it on record? Because I've been patient, and it's just not stopping?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:20:44-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I can take down the details. Give me a moment, I'm pulling up the form. Okay. Can you give me a good phone number in case someone needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:05-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes? It's 401-555-0193?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-nine-three. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it? Yes?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, do you have the neighbor's name, or do you just know the unit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:27-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know the name? I just know it's the upstairs apartment? I've never really talked to them?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:39-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll note it as the upstairs unit next door. What times is the music loudest?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:21:51-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, in the afternoons? And then into the evening? Like, from noon until, I don't know, ten at night sometimes? On the weekends?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:22:07-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Noon to around ten. And you said today it's day three. Is it going right now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:22:18-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is, yes? I can hear it while I'm talking to you? I'm standing in the back by the stockroom and it's rattling the shelf?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:22:35-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay. I'm writing that down. Have you spoken with them or left a note?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:22:45-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I left a note once? On the door? Nothing changed? So I figured, call the city?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:22:56-05:00",
+      "duration": 31,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's reasonable. Alright, I'm putting that in. Now, I want to be clear about what I can do from here. I can take this report and send it along to the people who handle noise complaints. Whether somebody goes out today, I can't tell you from this desk."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:23:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? But it's going to be on file? Because I want it on file?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:23:37-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it'll be on file with today's date, Friday the nineteenth. Let me read it back. Caller reports loud music from the upstairs apartment next to her shop, every weekend, and continuously for three days this time. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:24:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes? Except it's not continuous, it's, like, on and off? But loud, all the time it's on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:24:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, I'll change that. On and off, for three days, and loud whenever it's on. Better?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:24:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Better? Yes?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:24:30-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And can I get the street name of your shop? I'd need that to route it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:24:42-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, um, I'd rather not say the address on the phone? Is that okay? Can I just give it to whoever calls me back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:24:58-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. Let me think. I'd rather have a location so it goes to the right place. Is there a cross street or a landmark you're comfortable with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:25:16-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not really? I'd just feel better giving it to a person who calls? Is that a problem?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:25:28-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's not a problem for me to note it. I'll put that the caller will provide the location on callback. I'll flag it so they ask you first thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:25:47-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Thank you? I appreciate that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:25:52-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Now, one thing I can tell you generally. After hours, if the noise is a late-night issue, there's a non-emergency police line. That's usually how people handle it when it's happening in the evening."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:26:15-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? I just don't want to be the person calling the police on a neighbor? But, I mean, it's been three days?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:26:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. It's your call. The report here is a good first step either way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:26:41-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Good? Honestly, it's a good day to be indoors, with all this rain still around? And I can't even enjoy being inside because of the thumping?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:26:59-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's gray and wet out there. Yesterday's storm left everything soaked. I don't blame you for wanting a quiet day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:27:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right? That's all I want? One quiet day?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:27:19-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me make sure the notes are complete. Time of day, noon to ten. Upstairs unit. A note left on the door, no change. Callback number given. Location to be given on callback. Anything else I should add?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:27:45-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, can you put that I'd like someone to call me today? Not next week? Today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:27:56-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note you'd like a call today. I can't promise the timing, but I'll mark the request."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:28:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? That's fine? As long as it's written down?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:28:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's written down. I'm submitting it now. [pause] There. It went through."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:28:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Is there a number for the report? In case I have to call back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:28:34-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me see if the system gave me one. Hold on a second. [pause] It shows it's been logged, but the reference isn't showing yet. If you call back, just give your name and today's date, and we can find it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:29:01-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Name and today's date? Friday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:29:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Friday the nineteenth. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:29:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright? Thank you, Owen? I know it's slow going, but thanks?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:29:18-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Castillo. I hope it quiets down for you. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:29:27-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too? Bye?"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T11:17:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T11:17:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-19T11:17:30-05:00",
+        "end": "2025-12-19T11:29:30-05:00",
+        "duration_seconds": 720,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T11:17:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-19T11:17:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-19T11:17:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-19T11:17:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-19T11:17:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

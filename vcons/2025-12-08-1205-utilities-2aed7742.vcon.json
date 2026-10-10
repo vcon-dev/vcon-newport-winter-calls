@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2aed7742-dc40-8473-b0cd-d5521bdbe221",
+  "created_at": "2025-12-08T12:07:27-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nancy Gardiner",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-08T12:05:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:05:53-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Tony. This is Nancy Gardiner. Let me explain. I have my water and sewer bill here in front of me, and I'm looking at the sewer charge line. It's quite a bit higher than the water charge, and I don't understand why a sewer would cost more than the water."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's a common one. The sewer charge is usually figured off the water you use, but the rate per unit is higher because it covers treatment and the pipes. So the sewer line being bigger is normal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:19-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Well, I think that's a strange way to do it, but I suppose I'll take your word. It still seems steep to me, and I don't care for it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Nobody loves that line."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, my daughter helps me with the bills these days. She'd like to be able to call about the account herself. How do I get her authorized?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:39-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easiest is a short written note from you naming her, with your signature, and you can send it to us at the office on Newport Avenue, or drop it in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport Avenue. Is that the one out by the beach? Or is it Newport Boulevard, where I used to go for the bank?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:06:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's City Hall, that's on Broadway. Sorry, I mixed you up. Broadway, not Newport Avenue. You can also mail it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:07:02-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, Broadway. Thank you for correcting me. One more thing. It's past noon and I'd like to pay this today. Can the website take a card right now, late in the day, or only during your office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:07:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website works any time, day or night, weekends too. Only the phone and the counter keep office hours. There's also a drop box for checks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:07:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Then my daughter will do it tonight. Thank you, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:07:25-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Nancy. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:05:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:05:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-08T12:05:49-05:00",
+        "end": "2025-12-08T12:07:27-05:00",
+        "duration_seconds": 98,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:05:49-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-08T12:05:49-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-08T12:05:49-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-08T12:05:49-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-08T12:05:49-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

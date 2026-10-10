@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c1e9441d-507f-8fee-8cce-3cfc282a0fde",
+  "created_at": "2026-03-11T11:58:46-04:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Angela Conti",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T11:54:33-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Almost lunchtime, so make it a good one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:54:38-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hello. Hold on, I've got the, um, the paper here somewhere. [pause] Hello? Are you the one for the parking tickets?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:54:46-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can help with that. What's going on with the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:54:51-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I got a ticket, on Eustis Avenue, in front of my building, 400 Eustis. And I don't think it's right. I don't even drive much anymore. So how do I, what's the word, contest it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:55:04-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is it a paper ticket you found on the windshield, or something that came in the mail?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:55:11-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It came in the mail. Hold on, the envelope is, [pause] there's a lot of envelopes. It says, um, notice. Notice of something. Is that the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:55:21-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds like a notice about the ticket, yes. To contest it, you request a hearing. You can do that by the instructions printed on the notice, usually by mail or in person. Then they schedule you with a hearing officer, you bring whatever you've got, photos, receipts, and you tell your side."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:55:39-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A hearing? In a courtroom? With a judge?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:55:43-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not a courtroom like on TV. It's a lot more low-key. A hearing officer, a desk, maybe ten minutes. You explain why you think the ticket is wrong and they decide."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:55:55-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ten minutes. Oh, well. And do I, do I bring the ticket or the notice? I keep mixing those up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:03-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring the notice, and anything that shows your car was where you say. If you have the original ticket, bring that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:11-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't think I have the original. [rustling] Wait, this one's the gas bill. No. Here. Okay. Can you tell me the date of my hearing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:21-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look you up. Have you already requested a hearing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:26-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so. I mailed something. A few weeks ago. Or my neighbor did. Her name is, well, it doesn't matter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:34-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Give me your last name and the plate number, if you have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:40-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Conti. C-O-N-T-I. The plate is on the, um, [pause] I don't have it in front of me. Is the name enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:56:48-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name and address will do. Four hundred Eustis, right? [pause] Okay, I see it. Your hearing is set for the twenty-fifth, that's two weeks from today, a Wednesday, at ten in the morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:00-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The twenty-fifth. Hold on, I'm writing. Twenty-fifth of March? Ten in the morning. Is that the morning or the, the night one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:08-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Morning. Ten a.m. No night hearings."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:11-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Good. Oh, and one more thing. There was a refund. I paid something once before, on a different ticket, and they said they sent me money back. Can you check it went to the right card?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:24-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see a refund on the account. Tell me the last four digits of the card you think it should have gone to, and I'll compare."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:34-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the last four. It's, hold on, my glasses. Four, four, zero, nine. Is that what you have?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:41-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I have. Ending in four-four-zero-nine. Refund went back to that card."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:46-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. Because I've got two cards and I can never remember which one. I'm very careful about money. I check the price of eggs every week out of habit, you know. Every single week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:57:59-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, somebody has to keep an eye on them. They've been all over the place."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:58:05-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They certainly have. So, the twenty-fifth, ten o'clock, bring the notice. And the, the photos. I don't have photos. Do I need photos?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:58:14-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not required. If you can take a picture of where the car was parked, that helps, but you can just tell them what happened."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:58:23-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And I go to City Hall? Or the other place?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:58:28-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall. Just ask at the front desk when you come in and they'll point you the right way."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:58:35-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I have it. The twenty-fifth. Thank you, dear. [rustling] Now where did I put my pen."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T11:58:42-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's probably under the gas bill. Take care, Ms. Conti."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T11:54:33-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T11:54:33-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T11:54:33-04:00",
+        "end": "2026-03-11T11:58:46-04:00",
+        "duration_seconds": 253,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T11:54:33-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T11:54:33-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T11:54:33-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T11:54:33-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T11:54:33-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4acf80ef-4d72-8d32-8caa-2d7bfd5b7f4c",
+  "created_at": "2026-02-25T12:07:53-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Liam Donovan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-25T12:06:40-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:06:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hello, pardon me. Good afternoon. My name is Liam Donovan. I'm calling about the water behind my building, at 55 Broadway, up in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:06:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "55 Broadway. Okay, what's going on there, Mr. Donovan?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:06:56-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the parking lot out back slopes toward the back door, and the drain doesn't take it. After the nor'easter last weekend, Saturday into Sunday, the whole entrance was under water. And it's happened before, pardon me, and nobody has come to fix it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:07:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the lot drains toward the back door and floods the entrance. Is that still standing now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:07:15-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Some of it, yes. And I worry about the kids cutting through, and people walking their dogs along there. It's deep enough to be a problem. Pardon me, can you tell me, is that a city drain or a state one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:07:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Broadway is a city street, but I'd want to check who owns that particular drain. I'll put in a request for a crew to look at it. Can I have a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:07:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's 401-555-0181. Pardon me, one more thing, I found an old cassette tape in a drawer and I don't have anything to play it on. Silly, I know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:07:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens. Okay, 401-555-0181, 55 Broadway, flooding at the back entrance. Someone will call you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T12:07:51-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I appreciate it."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T12:06:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T12:06:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-25T12:06:40-05:00",
+        "end": "2026-02-25T12:07:53-05:00",
+        "duration_seconds": 73,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T12:06:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-25T12:06:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-25T12:06:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-25T12:06:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-25T12:06:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

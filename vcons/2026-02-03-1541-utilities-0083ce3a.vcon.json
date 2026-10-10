@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0083ce3a-aa24-8c52-a6eb-9405650535b7",
+  "created_at": "2026-02-03T15:45:17-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Dominic Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-03T15:41:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:41:10-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Dominic Cirelli. I got a water and sewer bill that's, it's way over what it should be. [pause] As I said before, well, I mean, I'm saying it now, I had a pipe break."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:41:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that, Mr. Cirelli. Where was the break, and has it been repaired?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:41:29-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Line going out to the spigot at the back of the house. Split open in that cold snap. I had a plumber out, it's fixed, I've got the invoice. So what I want to know is, is there a leak adjustment? Because this bill is ridiculous."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:41:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There can be an adjustment review when a leak was repaired. Generally we look at the repair paperwork and compare the usage on the bill to your normal usage. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:41:58-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I got it right here. [sighs] Usage is like four times what we normally use. Four times. There's two of us in the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is that the most recent bill, the one that arrived this past week or so?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that one. Came Saturday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:16-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Can you read me the current reading and the previous reading printed on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:22-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on. Current is, um, it says four eight one two. Previous is four four, no, four three nine seven. Wait, hold on, let me look again. Yeah, four three nine seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:33-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That's a difference of four hundred fifteen units. If your usual is much lower, that's a large jump, and it fits with a leak running for a while."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, but here's the thing. The pipe was outside. Was it really running that much? I want the read re-checked. Somebody should go look at the meter, make sure it's not a bad read."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:42:56-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's reasonable. I can put in a request for a meter re-read. Someone will check the register against what was billed. It isn't instant, but I'll note it on the account. Can I get your account number or the service address to pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:43:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not giving the address on the phone, I'll give you the account number. It's on the top right. Hang on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:43:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, the account number works."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:43:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's seven seven, zero, four, one, nine. Dash two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:43:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, seven seven zero four one nine dash two. I have it up. I do see the higher usage on the last period. I'll enter the re-read request now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:43:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And the other thing. This amount is due, and I can't just drop all that at once. Is a payment plan even possible? Or is it all or nothing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:43:49-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Payment arrangements are sometimes possible. I can't set one up from this desk, though. I'd note your request and have the billing supervisor call you back. Is the number ending oh one eight seven the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:02-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one eight seven. That's the landline. I'm home till about eleven thirty tomorrow, then I have to be at the middle school at noon for a hearing screening, so I'll be out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:16-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll put that in the note, so they try you in the morning, or they can leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And the leak adjustment, what do I need to send? I don't want to send it and have somebody say it's the wrong thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:33-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plumber's invoice showing the date of the repair and what was fixed is the main item. A short written request with your account number helps. Once the re-read is done, they can review the two together."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the re-read first, then the adjustment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that order makes sense. I'll note that you're also asking for the adjustment, so it's tied to the same file."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:44:57-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. How long on the re-read?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:45:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few business days is typical. If the meter crew needs access, they'd call you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:45:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. That's all I needed, I guess. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:45:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Cirelli. Everything's noted on the account. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T15:45:15-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T15:41:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T15:41:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-03T15:41:06-05:00",
+        "end": "2026-02-03T15:45:17-05:00",
+        "duration_seconds": 251,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T15:41:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-03T15:41:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-03T15:41:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-03T15:41:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-03T15:41:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

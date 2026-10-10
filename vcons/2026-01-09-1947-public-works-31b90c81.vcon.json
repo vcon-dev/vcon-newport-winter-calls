@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "31b90c81-1b24-821a-9cd8-e094ff0df796",
+  "created_at": "2026-01-09T19:48:41-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Luz Rivera",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-09T19:47:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:47:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes, thank you. I know City Hall is closed now, it is Friday night, so I call this storm number. Is okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:47:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, you're in the right place. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:47:53-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The streetlight in front of my house, it stays on all day. Even in the morning, the afternoon, it is still on. Today also, with the storm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, light's on around the clock. Where are you located?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:05-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "472 Narragansett Avenue. Four, seven, two. Narragansett Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 472 Narragansett. Anything look damaged on the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:12-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not know. Can you send a crew to check the pole, please? I am sorry, one second, my phone is here, I am looking at the number. My lock screen is a picture of my cousin. I never met him, only the photo."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you want a callback number on this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:29-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Four-oh-one, five-five-five, oh-one-nine-nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-nine. I'll put in the request for a crew to check that pole. With the storm it may take a bit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T19:48:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. Thank you very much. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T19:47:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T19:47:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-09T19:47:39-05:00",
+        "end": "2026-01-09T19:48:41-05:00",
+        "duration_seconds": 62,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T19:47:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-09T19:47:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-09T19:47:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-09T19:47:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-09T19:47:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

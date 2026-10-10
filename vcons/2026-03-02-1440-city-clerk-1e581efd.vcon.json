@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1e581efd-8bbc-8f00-9e7b-1a28384a9ac4",
+  "created_at": "2026-03-02T14:45:36-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Peggy Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T14:40:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:40:43-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, and thank you for taking my call. My name is Peggy Dolan. Thank you. I need to renew a dog license, please, and I believe I have made a mess of it already."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:40:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, you're fine, hon. Renewals are pretty simple. Whose dog is it, yours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:41:01-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I am a property manager, and the dog belongs to a tenant at eighty-four Ayrault Street. Thank you. She is away this week and asked me to handle it. Is that allowed? I was not sure whether I am the right person to do this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:41:18-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, we can work with that. Sounds like you're on speaker, I'm getting a little buzz on my end."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:41:26-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I apologize. The speaker on my phone is cracked, and it buzzes on the high notes. Thank you for your patience. If I am hard to hear, please tell me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:41:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I've got you. So the dog's license from last year, do you have the old tag number or the paperwork?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:41:46-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is the problem, you see. The tag is lost. The tenant said it fell off the collar sometime in January. Thank you. I thought perhaps I needed the tag number to renew, and I do not have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:42:01-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nope, you don't need the tag to renew. We can look her up by the owner's name and address. We'll just issue a new tag. Is it under the tenant's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:42:13-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I believe so. The name is Marguerite Okafor. Is that spelled, um, O-K-A-F-O-R? I wrote it down from her text message. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:42:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's how I'd spell it too. Let me pull it up. [pause] Okay, I see her. Dog's name is Biscuit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:42:30-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Biscuit, yes. Thank you. Now, I have a question, and please forgive me if it is a silly one. The tenant sent me a picture of the rabies certificate. Is a copy of it accepted, or do you need the original?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:42:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy is generally fine. Does it show the vaccination date and when it expires?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:42:51-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] It says, um, given in October of last year. And then a line that says valid three years. Thank you. Is that the expiration, or is that something different?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:43:04-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's probably how long the vaccine is good for. So it should cover this license year. If it's a clear copy, you're all set on that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:43:14-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. Thank you. So I can send the picture. Is it by email, or do I bring it in? I was told once that it must be the paper one with the signature."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:43:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring a printed copy to the counter or send it in, either way. If you print it, make sure the vet's signature and the dates are readable."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:43:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And, forgive me, the license itself. Do I come in to get the new tag, or does it come in the mail? I am a little unsure which."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:43:49-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you come in, you walk out with it. If you send things in, we mail the tag. Mailing takes a few days, naturally."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:43:58-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Then the mailing would go to eighty-four Ayrault Street, to the tenant. Thank you. But I will be the one sending it, so is that a problem, with the name on the form being hers and not mine?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:44:13-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not a problem. Just put her name as the owner and your name as the person submitting. And if I need anything, can I reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:44:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. My number is four-oh-one, five-five-five, oh-one-six-one. Thank you. Did that come through? I know the speaker buzzes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:44:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-one. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:44:34-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So, just to make sure I understand. I do not need the old tag, a copy of the certificate is fine, and I may either come to the counter or send it. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:44:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Bring a clear copy of the certificate and we'll do the rest. Biscuit will be legal in no time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:44:57-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you so much. One more thing, and I am sorry. When you say it is a new tag, will it have the same number as the lost one, or a different number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:45:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be a different number. Don't worry about it, the record will be updated under her name either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:45:18-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. All right. I am still a little unsure, but I think I will understand better when I am standing at the counter. Thank you very much for your help, Sandra."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:45:30-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Peggy. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:45:33-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. You as well. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:40:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:40:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T14:40:37-05:00",
+        "end": "2026-03-02T14:45:36-05:00",
+        "duration_seconds": 299,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:40:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T14:40:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T14:40:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T14:40:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T14:40:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "40da69a3-50cf-825c-a615-5c96a401704f",
+  "created_at": "2026-01-22T14:48:47-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Hector Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T14:46:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, Janet Whitcomb speaking. How may I assist you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:46:36-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, sorry, I know this is probably a silly question. I just got a property tax bill in the mail, and my mortgage company is supposed to pay that out of escrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:46:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. May I have the property address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:46:51-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, yeah. It's 57 Wellington Avenue. Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:46:54-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr.... and your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:46:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Cordero. Hector Cordero. Sorry, I should've said that first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:01-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's quite all right. One moment while I pull up the account. [pause] I do see a bill issued for this parcel. The most recent quarterly installment shows as unpaid at this time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Unpaid. Okay. Sorry, but that's the thing, it should've gone out from the escrow account already. I get a statement every year saying they pay it. So now I've got a bill with my name on it and I'm not thrilled about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Our records show no payment received from a mortgage servicer for this installment. Do you know whether they have a different parcel or account number on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't, sorry. I'd have to dig through the papers. [pause] Sorry, hang on, that's the other phone ringing in the house. Somebody'll get it. Anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:45-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:47-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry. What I need is a payoff figure, like the total owed through the end of this month, January thirty-first. Then I can hand that to the mortgage company and make them deal with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:47:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Through January thirty-first, I can give you the amount due including any interest accrued to that date. One moment. [pause] I can have that figure written up and sent to you, or I can read it to you now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:48:12-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, can you read it? And then maybe send it too, so I've got something in writing for them."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:48:19-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I'll read it now and also send a written statement to the address on file. Do you have a pen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:48:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, go ahead. Sorry, the phone's still ringing back there. Okay, I'm ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:48:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The statement will show the full amount through the thirty-first. Please give me a moment to finalize the interest calculation so that I read you the correct number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T14:48:42-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Sorry for the hassle. I know it's not your fault, it's just annoying."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T14:46:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T14:46:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T14:46:32-05:00",
+        "end": "2026-01-22T14:48:47-05:00",
+        "duration_seconds": 135,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T14:46:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T14:46:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T14:46:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T14:46:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T14:46:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

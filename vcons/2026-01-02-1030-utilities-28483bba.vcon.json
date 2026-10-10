@@ -1,0 +1,583 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "28483bba-1920-8457-b056-a4b0cee46daa",
+  "created_at": "2026-01-02T10:36:55-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Ellen Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-02T10:30:32-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy new year, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:30:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. Before anything else, can I get your name again? Tony, and how do you spell the last name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:30:48-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tony Ferreira. F-E-R-R-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:30:50-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ferreira. Got it. I'm writing everything down. This is Ellen Burdick. I'm calling about my water and sewer bill, and I'm going to apologize in advance, I'm in a tow truck waiting on a customer, so the signal might drop."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:31:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:31:14-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's way too high. Last year's winter bills were much lower, like less than half of this one. I had a pipe break in the house back in November, a supply line, and I got it fixed, but the meter obviously ran. So I want to know about a leak adjustment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:31:36-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can explain that. So when a leak is repaired, the city can sometimes adjust the sewer portion of the bill, because that water went into the ground or the yard and not down the drain. It usually takes paperwork showing the repair, like a plumber's invoice or receipts for the parts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:31:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[line breaks up] ...sorry, you cut out. Said paperwork, what kind of paperwork?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:32:05-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A plumber's invoice or receipts for the repair, plus the date it was fixed. Then someone reviews it against your meter readings."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:32:15-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Invoice, or receipts, and the date. Hang on, let me write that. Invoice, receipts, date fixed. Who reviews it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:32:24-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It goes to our billing supervisor. I can't tell you the outcome myself, but I can put in the request on your account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:32:35-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I have the invoice. It's about two hundred dollars, not cheap, and now this bill on top of it. Honestly it's irritating."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:32:46-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Let me pull up your account. Can you give me the name on it and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:32:56-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ellen Burdick. I'd rather not say the address on a phone in a truck, can you find it by name and the account number? It's on the bill but I don't have it in front of me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:33:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name works, I've got an Ellen Burdick here with a phone number ending in oh-one-eight-seven. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:33:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:33:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I see the latest bill, and you're right, it's a big jump over last winter's quarters. Usage is way up for the period that covers November."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:33:36-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the pipe. So what do I do about the adjustment, send the invoice in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:33:44-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it to the counter or mail it in, with your account number on it. I'll note on the account that you've requested an adjustment for a repaired leak, so it's on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:34:00-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And can somebody call me back with an answer on that? I don't want to send it off and hear nothing for a month."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:34:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. I'll put a callback request in. Is the number I see the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:34:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one eight seven. That's my cell, but the reception is bad in this lot, so if I miss it, leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:34:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four-oh-one, five-five-five, oh-one-eight-seven. I'll note to leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:34:38-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, the bill itself. It's due, and I don't want a late charge while this adjustment is pending. I'd rather pay the amount now. It says one hundred forty-three dollars. Can I pay that over the phone with a card?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:34:56-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can take that. One forty-three even?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One hundred forty-three dollars and zero cents. Hold on, I have the card out. Ready?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:07-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Whenever you are."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, slowly. Four zero one two. Eight eight eight eight. Eight eight eight eight. One eight eight one. And the expiration is zero two, slash, thirty."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. Four-zero-one-two, eight-eight-eight-eight, eight-eight-eight-eight, one-eight-eight-one, expiring oh-two thirty. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I'll run one hundred forty-three dollars on it now. Just a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:35-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. [pause] Sorry, somebody's pulling up. I'm still here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:40-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No rush. [pause] Okay, that went through. You'll get a receipt, and I'll note that the payment was made while the adjustment request is pending."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Can you give me a confirmation number so I can write it down?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:35:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll read it slowly. It's going to be on the receipt as well, but I'll put the confirmation in the account notes too, so the supervisor sees it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:36:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'd still like the number. [line breaks up] ...Hello? You there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:36:18-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm here. The receipt will have it, and I'll make sure the callback includes it too. Does that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:36:27-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I guess so. So to recap: send the invoice with my account number, you've noted the adjustment request, someone calls me back, and the payment's done."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:36:39-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:36:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. My customer's coming out, I've got to go. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T10:36:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ellen. Have a good Friday."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T10:30:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T10:30:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-02T10:30:32-05:00",
+        "end": "2026-01-02T10:36:55-05:00",
+        "duration_seconds": 383,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T10:30:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-02T10:30:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-02T10:30:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-02T10:30:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-02T10:30:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

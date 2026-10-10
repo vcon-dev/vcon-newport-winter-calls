@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "de1fc2fb-d757-8f40-8e24-b6d1eb0fa608",
+  "created_at": "2025-12-01T15:01:06-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Julio Salazar",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T14:58:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:58:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, sir. My name is Julio Salazar. I am calling because I received a paper about my property assessment, and I would like to know about the appeal. Is there a deadline, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:58:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Quick question first, are you the owner? Because the assessment goes to the owner of record."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:58:35-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I am a renter. But my landlord gave me the paper because the rent will go up, he says, because of the taxes. So I want to understand it. This is a little bit annoying, to be honest."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:58:48-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. So here's the deal. The appeal is filed by the property owner, so your landlord would have to be the one to file. The notice he got should have the deadline printed right on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:59:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Printed on it. Okay. But he does not read these things. He told me, quote, you call them. So now I call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:59:08-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Delegation. Well, generally there's a window after the notices go out, and it's not a long one. If you tell him to look for the appeal section on the notice, that'll give him the date. Or he can call us himself and we'll tell him."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:59:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. But, excuse me, can you tell me the date? So I can tell him exactly. Then he cannot say he did not know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:59:32-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd rather you not pass along a date from me and have it be off by a few days. The assessor's office keeps the exact one. Let me put you through to them, or I can have them send you the details."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:59:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, send. I prefer in writing. Can you send the confirmation by email? I do not like to write down numbers on the phone, the signal on my cell is not always good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T14:59:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Go ahead and give me the email address, slowly, and spell out anything unusual."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:03-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is julio, then dot, salazar, the number forty-two, at, mailbox, dot com. Mailbox is M-A-I-L-B-O-X."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Julio dot Salazar forty-two at mailbox dot com. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, correct. Thank you. And if it does not arrive, is there a number I can call you back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can call this same line and ask for Finance. And what's a good number for you, in case we need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:29-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is four-oh-one, five-five-five, zero-one-eight-two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:32-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-two. Perfect. You'll see something in your inbox today or tomorrow, with the appeal information and who to contact."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:40-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. You know, I do not mind so much the call. I like Newport. I like to walk downtown and pass the historic houses, the old ones. They are very beautiful. It is only the rent I do not like."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:00:54-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the houses are the reason the taxes are what they are, probably. Anyway, I hope your landlord comes through. Take care, Mr. Salazar."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T15:01:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You also, sir. Have a good afternoon. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T14:58:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T14:58:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T14:58:15-05:00",
+        "end": "2025-12-01T15:01:06-05:00",
+        "duration_seconds": 171,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T14:58:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T14:58:15-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T14:58:15-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T14:58:15-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T14:58:15-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6dda8a7d-c981-881f-b429-b350cd0c2a40",
+  "created_at": "2026-01-06T15:01:49-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Maria Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T14:59:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T14:59:22-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Tony. Maria Teixeira. I'm looking at my water and sewer bill here and I don't get it. The sewer line is higher than the water line. Water comes in, water goes out, so how is the sewer more? That makes no sense to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T14:59:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy to walk through it, Ms. Teixeira. What's the service address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T14:59:41-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "409 Ruggles Avenue. Well, wait. I've got two properties, so let me make sure I'm holding the right one. Ugh, this is the one on Ruggles, yes. The other bill is a different account, and honestly they send them so close together I mix them up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T14:59:55-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens a lot. Okay, I've got the Ruggles Avenue account up. So the sewer charge is a separate rate from water, and it's usually calculated off the water you use, plus the cost of treating and carrying the wastewater away. That rate can be higher per unit than the water rate itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:00:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Higher per unit. Well, that's a fine thing. I'm paying more to flush it than to drink it. And I'm not even home half the day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:00:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ha, I hear you. It's not about how much goes down the drain, it's that the treatment and the pipes cost more to run. Same usage number drives both lines, just different rates."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:00:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but is the number on this one right? Because I was reading the other bill a minute ago and that one was lower. Or maybe that was the other house's water line. See, now I'm confusing myself. Either way, it seems steep for one person."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:00:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The Ruggles reading looks consistent with the last few bills, nothing jumping out. The other property would be its own account number, so they won't match up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:00:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Then I want this explanation in writing, Tony. Send it to me so I can put it next to both bills and stop guessing. Somebody ought to print it right on the bill, frankly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can put together a short summary of how the sewer charge works and mail it to the address on the account. Is that Ruggles, or the other property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ruggles. That's where I live. The other one's a rental, I don't want it going there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Ruggles Avenue. It should go out in the next few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:27-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And if I come down to City Hall to ask about it, I park by Washington Square when I've got errands downtown. Parking's a joke around there, but that's another department, I know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're right about that one. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thank you, Tony. Send it soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T15:01:46-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Take care, Ms. Teixeira."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T14:59:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T14:59:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T14:59:18-05:00",
+        "end": "2026-01-06T15:01:49-05:00",
+        "duration_seconds": 151,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T14:59:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T14:59:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T14:59:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T14:59:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T14:59:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

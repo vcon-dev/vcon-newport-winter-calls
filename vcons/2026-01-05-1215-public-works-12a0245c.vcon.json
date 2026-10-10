@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "12a0245c-d492-89b1-8e52-2989afbcc703",
+  "created_at": "2026-01-05T12:17:07-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Luis Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T12:15:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:15:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, honey. Um, I've got a question about the Christmas tree. I'm on speaker, I've got my hands full of pine needles here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:15:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, no problem. You want to know about getting the tree picked up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:03-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, dear. Is there a pickup for them still, now that it's the fifth? We kept it up a little long, my stepbrother is crashing on the couch until January and he likes the lights."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Yes, we do collect trees curbside in the first part of January. Do you know whether yours has any tinsel or a stand on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, it's bare. Lights are off, ornaments are in the box. Is there a fee for that, though?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:31-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, there's no charge for the regular tree pickup. Just put it out at the curb, no bag around it. What's the address, so I can note it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 470 Kay Street, up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four seventy Kay Street. Got it. Just set it out by the curb, not in the street, and the crew will get it on their route."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful. And no bag, curbside, no charge. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it exactly right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:02-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, dear. You have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:05-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T12:15:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T12:15:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T12:15:46-05:00",
+        "end": "2026-01-05T12:17:07-05:00",
+        "duration_seconds": 81,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T12:15:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T12:15:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T12:15:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T12:15:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T12:15:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

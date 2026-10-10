@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4563d45b-e4b6-8f3f-9382-c038cfd58db5",
+  "created_at": "2025-12-10T14:38:59-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Luis Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-10T14:37:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you this afternoon?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:37:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes, good afternoon. I need the, uh, Registry. For the license, the motor vehicles. This is the Registry, no?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:04-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, no, sir. This is the City Clerk at Newport City Hall. The Registry of Motor Vehicles is a state office, so it's a different number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The state? But the city, the state, it is not the same thing? I am confuse a little."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The city handles local things, like records and licenses for the city. Driver's licenses and car registrations are the state. You'd want to look up the Rhode Island Registry of Motor Vehicles directly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So the state is separate. Ha, I think I call from an old list, you know? Very old, maybe from before everything change. My fault."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens a lot, no trouble at all. An online search for the Registry should bring up their current number and hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I do that. Oh, and by the way, I just discover a new tea, a new brand. Wow, I love it. Very good, very smooth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's nice to hear. I hope the Registry goes smoothly for you too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, thank you. So I call the state, not the city. I think I understand. Bye-bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T14:38:57-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Take care, sir."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T14:37:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T14:37:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-10T14:37:54-05:00",
+        "end": "2025-12-10T14:38:59-05:00",
+        "duration_seconds": 65,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T14:37:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-10T14:37:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-10T14:37:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-10T14:37:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-10T14:37:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

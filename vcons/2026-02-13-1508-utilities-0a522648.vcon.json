@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0a522648-ee21-848e-a322-379d39ed79b6",
+  "created_at": "2026-02-13T15:10:29-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Peggy McCarthy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:05-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, Peggy McCarthy. I'll keep this short, it sounds like your line's busy today. I'm calling for my mother. She rents, and her landlord's telling her the water bill is hers to pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the bill in the landlord's name or your mother's?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:23-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the thing, it's addressed to the landlord. He sent her a copy and wrote a number on it and said, you owe this. She never signed anything about water, as far as she remembers. So whose is it, really?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:38-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The city bills the property owner on the account. Whether a tenant reimburses the owner depends on the lease between them. We can't settle that part, but I can tell you what the account shows."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the city doesn't care who pays it, just that somebody does."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:08:57-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Basically, yes. The owner is the one responsible to us. What's in the lease is between your mother and the landlord."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:09:06-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Second thing. The bill's wicked high. Last year her winter bills were way lower, like half of this. Nothing changed in the apartment. Same one person living there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:09:17-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's worth looking into. A running toilet or a leak can raise usage a lot. Has anyone checked for that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:09:25-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She says nothing's running. So can you test the meter? Make sure it's reading right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:09:31-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a meter test can be requested. Because the account belongs to the owner, the landlord would need to make the request, or authorize it. I can take down the details and note that a tenant has questioned the usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:09:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course it has to go through him. Okay. Can you put the note on there anyway?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:09:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can. I'll need the service address and the account holder's name, and then I'll send it to the meter team."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:10:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the address in front of me, I'm at my own place. I'll have to call back with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:10:10-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. When you call back, ask for me or whoever answers and mention the meter test. Have the account number from the bill handy too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:10:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Priya. I'll let you go, you've got people waiting."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T15:10:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Have a good weekend."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T15:08:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T15:08:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-13T15:08:00-05:00",
+        "end": "2026-02-13T15:10:29-05:00",
+        "duration_seconds": 149,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T15:08:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-13T15:08:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-13T15:08:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-13T15:08:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-13T15:08:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

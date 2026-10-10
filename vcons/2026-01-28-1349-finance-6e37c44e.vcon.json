@@ -1,0 +1,271 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6e37c44e-4b39-8947-88bd-f600b7cb9c1b",
+  "created_at": "2026-01-28T13:51:19-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Sarah Haddad",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T13:49:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:49:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I need a copy of a paid tax bill from a past year. For a refinance."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:49:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can help with that. Which tax year do you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty twenty-four. The one that's fully paid. Can you hear me okay? [line breaks up] I'm on the porch, reception's bad."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A little choppy, but yes. I'll need the name on the account and the property address, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sarah Haddad. Sorry, the address, I'd rather not give it on this line. Can you do it by name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't pull it reliably by name alone. If you email us the address, we can send the paid bill copy back to you. Or I can note a request now if you give the address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then I'll send it. Can you confirm by email when it's processed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Include your name and the tax year in the message, and you'll receive a reply confirming it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:43-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Also, the next installment. If I can't get there during the day, is there a drop box? After the office closes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:50-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a payment drop box at City Hall. Put in a check or money order with your payment stub or account information. Please don't put cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:50:59-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Check, with the stub. [inaudible] Sorry, say that last part again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:51:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Check or money order, with the stub or your account information. No cash."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:51:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. That's all. I'm sitting out here in a lawn chair under a blanket and the signal's dropping. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T13:51:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Haddad. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T13:49:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T13:49:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T13:49:46-05:00",
+        "end": "2026-01-28T13:51:19-05:00",
+        "duration_seconds": 93,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T13:49:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T13:49:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T13:49:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T13:49:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T13:49:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

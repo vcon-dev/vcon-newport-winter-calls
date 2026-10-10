@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "87afb15a-1d31-8822-8fac-3a355cf9bdb6",
+  "created_at": "2026-01-27T12:26:01-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Conceicao Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T12:24:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:24:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. I am calling about a noise problem. There is a bar near my house and the music, it is very loud. I can hear it many blocks away."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:24:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm sorry, you're on speaker and it's a little faint. Which bar is it, do you know the name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:00-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not know the name, sorry. It is close to where I live. I am at 114 Malbone Road, in the North End. The music, it comes every night, since the weekend. Since Sunday, when the snow turned to rain."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since Sunday. All right, let me write that down. One fourteen Malbone Road. [pause] And what time does it usually go?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Late. Ten, eleven, until after midnight. I cannot, [line breaks up] I cannot do my work in the morning. I am making dumplings last night, my cousin is teaching me her recipe, and I cannot even hear the radio in my kitchen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you broke up a little there. You said you can't hear anything in your kitchen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, only the bass, boom, boom. Very annoying. Please, I want a report taken. I want it written."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll take the report and pass it along so it gets to the right people. Can I have a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is 401-555-0154."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:52-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-five-four. Got it. Your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:55-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Conceicao Raposo. Thank you for your patience, sir."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:25:58-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Raposo. It's logged."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T12:24:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T12:24:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T12:24:40-05:00",
+        "end": "2026-01-27T12:26:01-05:00",
+        "duration_seconds": 81,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T12:24:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T12:24:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T12:24:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T12:24:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T12:24:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

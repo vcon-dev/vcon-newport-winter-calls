@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d8808a76-2d3e-82af-a025-12aa4cc6a6ca",
+  "created_at": "2025-12-23T10:18:26-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Margaret Peckham",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T10:16:55-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:16:59-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I'm calling about a puddle at 443 Old Beach Road, the Easton's Beach side, and it's across half the road and it has not rained since Monday, I mean not a drop, and it's still just sitting there, so something's clearly clogged or not draining, and I've driven through it twice now and I'm sick of swerving around it, I took photos too if you want them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so that's 443 Old Beach Road, a puddle across about half the road, and no rain since Monday. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:26-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly. [line breaks up] ...the drain on the corner, I think."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, you broke up on me there. Which drain did you say?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:35-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The storm drain right by the corner there, near my house. Water just sits. Can I send the photos somewhere?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can give you an address for those, and I'll note that you have them. Let me put the report in first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:49-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Will there be a work order opened? And for what date? Because I'd like an actual date, not just a maybe."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:17:56-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm opening a work order now. I can't see a scheduled date yet, since a crew has to look at it first. Once it's assigned, they'll have a date. What's a good number for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:18:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0181. Sorry, my cell's bad here. I'm also stuck at home sorting stuff out because my passport expired and I haven't renewed it yet, so I'm around."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:18:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0181. I've got the number and the address. Someone from the office will call you with the work order date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:18:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T10:18:24-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Happy holidays."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T10:16:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T10:16:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T10:16:55-05:00",
+        "end": "2025-12-23T10:18:26-05:00",
+        "duration_seconds": 91,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T10:16:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T10:16:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T10:16:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T10:16:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T10:16:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

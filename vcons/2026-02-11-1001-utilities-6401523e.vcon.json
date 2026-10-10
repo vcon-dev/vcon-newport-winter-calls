@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6401523e-8578-89f6-85ca-820b675ef417",
+  "created_at": "2026-02-11T10:08:13-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Theresa Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-11T10:01:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:01:37-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. My name is Theresa Cirelli, and I'm calling about a water and sewer bill. I'm on speaker, I've got my hands full, so I hope you can hear me okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:01:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Go ahead, Ms. Cirelli."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:01:57-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so let me start from last week, because that's when this started for me. Last Tuesday I got an email, a reminder, saying I had an overdue balance on my water account. And I thought, what overdue balance? I never got a bill. Not one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:02:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What's the service address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:02:20-05:00",
+      "duration": 32,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "125 Marsh Street, down in the Point. It's my shop, well, it's my business space. So Wednesday, that was the next day, I dug through everything, and nothing from the city. Thursday I finally logged into the online portal and looked, and the mailing address on the account is my old one. From before I moved the business. So the bill has been going to some address where I haven't been for, I don't know, over a year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:02:52-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the billing address on file is out of date, and the notices have been going there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:03:01-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And nobody told me. I only found out because of the reminder, which, honestly, if that hadn't come I'd still have no idea."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:03:12-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull up the account. Can you give me the account number, or just the service address is fine?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:03:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the address. I don't have the number in front of me, I'm in the back and the paperwork's up front."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:03:31-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, the address will do. [pause] Okay, I have 125 Marsh Street. I do see the mailing address is different from the service address, and there's an open balance. It looks like a couple of billing cycles."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:03:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple. Okay. And is there a penalty on it? Because I'd be annoyed if I'm getting charged late fees on a bill I never saw."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:03:58-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see there's a late charge noted on the older one. I can't tell you what happens with it yet. I can note that the notices went to the wrong address and have that reviewed. Was the address change ever submitted to us?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:04:16-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I thought it was. When I moved I filled out something, I think with the business license people. I figured it all got passed along. Apparently not."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:04:28-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Those are separate offices, so it may not have carried over. I can update the mailing address right now if you give me the correct one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:04:39-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Just send it to the shop. 125 Marsh Street. Same as the service address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:04:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I've changed the mailing address to 125 Marsh Street. You should get the next bill there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:04:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now here's the other thing. Looking at the amount, it says estimated. Estimated reading. Why is it estimated?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:05:03-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at that. [pause] It shows the last few readings as estimates. There's a note that the meter couldn't be accessed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:05:13-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, so, the meter is in a crawlspace under the back part of the building. Nobody goes in there. I haven't been in there in years, it's tight, there's no light. I don't think anyone from the city has been in there either."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:05:31-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would explain it. If the reader can't get to it, the system estimates based on past usage. We can request a visit to access the meter, or look at whether there's an option for a reading device outside. I'd need to send that to the meter team."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:05:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you do that? Put in the request? Because I don't want to keep paying on guesses."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:05:59-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll put in a request. They'll probably want to call you to arrange access, so is the number on the account a good one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:06:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0157. That's my cell. It's the best one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:06:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, I've got that, 401-555-0157. I'll add it to the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:06:21-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, what I want to do is just pay what's due so it stops being overdue. But I'm at the shop till late, and I'm usually here after City Hall closes. Can I pay it online tonight? Like after hours, once you're closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:06:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the online payment portal is available around the clock. You can pay tonight, any time. There's also a drop box at City Hall for checks if you'd rather do that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:06:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online is fine. Will it show right away, though? Because the reminder said something about shutoff."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:06:59-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A payment made online generally posts quickly, and I'm adding a note to the account now that you've contacted us today about the address problem. I can't promise how the late charge will be handled, but the note will be there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:07:16-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. So, just so I have it in order. You changed my mailing address, you're putting in a request about the meter in the crawlspace, you noted the account, and I can pay tonight on the website."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:07:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. You may want to check the portal tomorrow to make sure the payment shows and the address is updated."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:07:41-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I'm a little short, I've just been chasing this all week. I'm in the middle of a project here, I build model trains in the spare room, and I lost half of Thursday to this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:07:57-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. It's frustrating to find out about a bill that way. Is there anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:08:07-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks, Priya."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:08:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T10:01:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T10:01:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-11T10:01:32-05:00",
+        "end": "2026-02-11T10:08:13-05:00",
+        "duration_seconds": 401,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T10:01:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-11T10:01:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-11T10:01:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-11T10:01:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-11T10:01:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

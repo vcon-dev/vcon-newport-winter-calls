@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "590359b4-4364-8bff-b28d-90141ad0491a",
+  "created_at": "2025-12-08T09:14:24-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Rachel Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-08T09:08:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. Morning."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:08:18-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. I'm calling about a storm drain. On my corner. It's full right to the top and it's not draining at all. Not a bit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:08:32-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sorry to hear that. Let me grab a pen. Where's the corner, what's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:08:40-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One sixty-one Kingston Avenue. Up on the Hill. The drain is right at the corner by my house, where the side street comes in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:08:52-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One sixty-one Kingston, Historic Hill, drain at the corner, full to the top. Got it. Is that water just sitting there, or is it moving at all?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:09:06-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sitting. It's been sitting since the storm. That was Friday into Saturday, the nor'easter, two days ago now. I figured it would go down by Sunday. It did not."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:09:20-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that was a messy one. Is the water up in the road, or is it creeping toward your property?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:09:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's out in the road, a big puddle across the corner. Not at my steps yet. But if it rains again I don't know. I don't like it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:09:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Any leaves or debris piled on top of the grate, or does it look clear and just full from underneath?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:09:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's some leaves, sure, but the grate's mostly showing. The water's just standing in it. Looks backed up to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:10:05-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so probably backed up below the grate, not just surface clogging. I'll note that for the crew."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:10:14-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And there's another thing. There's a manhole cover near it. Looks off to me. Sitting maybe an inch different from the pavement. It wasn't like that before."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:10:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm, an inch higher or lower?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:10:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lower on one side, I'd say. Or the road's higher on one side. I can't tell. Something is off. A car's going to hit it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:10:45-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's worth reporting. A cover that's shifted can be a hazard. Is it right in the travel lane or off to the side?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:10:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sort of in the lane. Where the cars turn."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:02-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I'll put both on the same ticket, drain and the manhole cover, same corner. [pause] Do you want me to put a callback number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:16-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you need one. It's four-oh-one, five-five-five, oh-one-seven-nine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-seven-nine. Perfect. And the name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rachel Nguyen. N-G-U-Y-E-N."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Ms. Nguyen. Got it all down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:31-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So when is somebody coming? I assume this is going to take a while. It always does."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:11:40-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, crews have a pile of calls after that storm, so it'll be in the queue. Drains that are fully backed up tend to get looked at before the little stuff, so I'd guess the next few days, but it depends how the rest of the list shakes out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:12:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Do the crews work weekends? Because if it's not done by Friday I'm stuck till Monday again."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:12:13-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They can, if there's an emergency or a big storm response. Routine stuff usually waits for the weekday. But if that water starts coming toward your house, call back right away and tell them it's getting worse. That changes the priority."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:12:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I'll do that. I just don't want to be out there with a bucket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:12:41-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. In the meantime, if you can, keep your distance from that standing water near the manhole. You can't see what's under it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:12:53-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not going near it. I only walk to the car. Actually, I'm supposed to be looking at two used cars this week, trying to decide between them, and now I can't even park on that corner without wading."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:13:12-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no good. Park a little up the street if you can, away from the low spot. Are you picking between them this week?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:13:24-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably. One's a little cheaper, the other has fewer miles. I keep going back and forth. Anyway. That's not your department."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:13:35-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not mine, no, though good luck with it. Okay, let me read it back. Storm drain at the corner by one sixty-one Kingston Avenue, full and not draining since the weekend storm. Manhole cover in the turning lane that looks off by about an inch. Callback at the number you gave."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:14:00-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:14:02-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll send it to the drainage crew now and flag the manhole for the road side. If somebody needs to ask you anything, they'll call that number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:14:15-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thank you. I'll wait and see."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:14:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You do that. Take care, Ms. Nguyen."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T09:14:23-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T09:08:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T09:08:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-08T09:08:14-05:00",
+        "end": "2025-12-08T09:14:24-05:00",
+        "duration_seconds": 370,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T09:08:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-08T09:08:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-08T09:08:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-08T09:08:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-08T09:08:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

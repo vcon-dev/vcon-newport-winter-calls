@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5dd94531-8b5e-8051-9604-d81b179c2078",
+  "created_at": "2026-03-10T12:35:56-04:00",
+  "subject": "Inbound call, Canvassing",
+  "parties": [
+    {
+      "name": "Luis Quintero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Walter Tavares",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T12:33:01-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Canvassing, this is Walter. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:33:05-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, Luis Quintero. I've got a couple questions. First one, where's my polling place? I'm trying to figure out where I vote."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:33:15-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can look that up for you. What's the street address where you're registered?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:33:22-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Uh, I'd rather not say the address on the phone. Can you just tell me how it works? Is it by the neighborhood, or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:33:33-04:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's by where you're registered, yes. Each address is assigned a precinct, and each precinct has a polling place. Without the address I can't tell you which one is yours, but there's a lookup on the Rhode Island Secretary of State's voter site where you can enter your information. Or if you give me your address, I can do it right here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:33:58-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, the online one's fine. I'll do that. I was on a video call all morning, like three hours, and it killed my battery, so I've been playing catch-up. I'll check it from the laptop once it's charged."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:34:14-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Your voter notice or registration card in the mail would also list the polling place, if you have that handy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:34:24-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Might have it somewhere. Okay. Second thing. I've got a form I need to drop off at your office. What hours are you open?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:34:34-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open Monday through Friday, regular City Hall hours, eight thirty to four thirty. Are you bringing in a voter registration form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:34:43-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's a change of address form. Do I need to bring it to the office, or can I mail it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:34:52-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can do either. Mailing it works, and so does dropping it off in person at the canvassing office. If you come in, the counter staff will make sure it's complete."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:05-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And I just come in during those hours, no appointment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:10-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No appointment needed. Just come to the canvassing office on the first floor and tell them you're dropping off a form. Bring a photo ID if you have one, though it's not always required for this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:25-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. First floor, eight thirty to four thirty, weekdays. And parking, is there anything near City Hall? I'd be coming from the avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:35-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's street parking nearby, and some public lots a short walk away. Midday it can be a little tight, so give yourself a few minutes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:46-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. That's all I needed. Thanks, Walter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:50-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Quintero. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:35:54-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T12:33:01-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "canvassing"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T12:33:01-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T12:33:01-04:00",
+        "end": "2026-03-10T12:35:56-04:00",
+        "duration_seconds": 175,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T12:33:01-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T12:33:01-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T12:33:01-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T12:33:01-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T12:33:01-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5a412ea8-dd13-82ff-9fbd-3abeb7927f7b",
+  "created_at": "2026-02-17T13:32:24-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Manuel Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-17T13:26:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport Utilities, water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:26:09-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Miss Priya. My name is Manuel Raposo. I am calling because I would like to change the mailing address for my water bill, please. And also I would like to stop the paper bill and receive it, how do you say, paperless."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:26:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, Mr. Raposo, we can look at both. Are you the account holder for the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:26:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. I am the owner. I am the landlord. The tenants live there, but the bill is in my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:26:47-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can you spell your last name for me, and give me the service address or the account number, whichever you have in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:26:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Raposo, R-A-P-O-S-O. The account number I have here on the bill. One moment please. [pause] It is four, four, one, seven, zero, dash, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:27:11-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. [pause] Okay, I have it. I see the account under Raposo. What new mailing address would you like on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:27:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The new address is a post office box. Box two hundred twelve, Newport, Rhode Island, zero two eight four one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:27:34-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. P.O. Box 212, Newport, Rhode Island, 02841. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:27:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:27:45-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I've updated the mailing address. Your service address stays the same, so only where the bill is mailed changes. Now for paperless, I'll need an email address to attach to the account. Do you have one you'd like to use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:28:04-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but I will ask you something first. My daughter helps me with the bills. She is the one who is good with the computer. She wants to be authorized on the account, so she can see it and speak with you. Is that possible?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:28:24-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be. We'd need your permission added to the account, and she'd need to be listed as an authorized contact. I can note it now if you give me her full name and her phone number. She may also need to confirm her identity when she calls."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:28:46-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Her name is Valentina Raposo. V-A-L-E-N-T-I-N-A. The telephone is the same as mine, four zero one, five five five, zero one nine one. She lives with me, you understand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:29:00-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I've added Valentina Raposo as an authorized contact, using that number. And for the paperless email, would you like it sent to you or to her?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:29:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, to her. I think it is better. Her email I will have to give you slowly, because it is long. [pause] Excuse me one moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:29:25-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:29:27-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, sorry. My virtual assistant, the little speaker on the table, it keeps lighting up. The light, it goes blue, blue, blue. I think it is listening to us."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:29:40-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. If it's bothering you, you can say the wake word to quiet it, or just go on. I can hear you fine. Whenever you're ready with the email."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:29:54-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Okay. It is valentina, then dot, then raposo, the same spelling as before, and then the number twelve. At gmail dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:30:05-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So valentina dot raposo twelve, at gmail dot com. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:30:12-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Perfect."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:30:14-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I've set the account to paperless with that email. She should get a confirmation message in the next day or so, and she'll need to follow the link in it to finish. Until she does, you may still get a paper bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:30:33-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. And one more question, please. If I want to pay the bill, can I pay it online? I cannot arrive to City Hall before four thirty, because of my work, and then it is closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:30:50-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can pay online. The city has an online payment portal for water and sewer bills, and you can use it any time, day or night, with your account number. There's also a drop box at City Hall for checks that you can use after hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:31:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, very good. The drop box, it is outside the building?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:31:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's outside, near the entrance. Just put the check in an envelope, write your account number on the check, and drop it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:31:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the online one, I need to make a user, a password?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:31:34-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You may be able to pay as a guest with just the account number, or you can register to see your history. Your daughter can help you with that. The link is on the city's website, under the utilities page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:31:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I will tell her tonight. She will do it. Thank you, Miss Priya, you are very kind."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:32:01-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. To recap: mailing address changed to the P.O. box, Valentina added as an authorized contact, and paperless set up with her email. Anything else I can do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:32:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is everything. Thank you very much. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T13:32:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Raposo. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T13:26:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T13:26:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-17T13:26:02-05:00",
+        "end": "2026-02-17T13:32:24-05:00",
+        "duration_seconds": 382,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T13:26:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-17T13:26:02-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-17T13:26:02-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-17T13:26:02-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-17T13:26:02-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

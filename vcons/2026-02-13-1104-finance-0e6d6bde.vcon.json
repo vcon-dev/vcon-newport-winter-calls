@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0e6d6bde-36fd-8c29-928a-62b7d7a4e6a9",
+  "created_at": "2026-02-13T11:08:48-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Alan Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:06-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. My name is Alan Sisson. I call about my property tax bill. It is higher than before, and I do not understand why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:18-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Mr. Sisson. I can look at that with you. May I have the property address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:26-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. One sixteen Eustis Avenue. Historic Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:30-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I pull up the account. [pause] All right, I have it. What amount is on the bill you received?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:41-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill say one thousand two hundred seventy-five dollars and forty cents. Last time it was less. I am renter, but landlord send me the bill to pay because it is in the lease, so I want to know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:04:58-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Yes, the current bill for that parcel is twelve seventy-five forty. Property tax is based on the assessed value of the property and on the tax rate. If the assessed value changed, or the rate changed, the bill would change as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:05:17-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the house value go up? Nobody tell me this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:05:22-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see the bill is higher, but the reasons behind the assessment are handled by the assessor's office. They can tell you how the value was determined. I would not want to give you the wrong explanation from here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:05:39-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then what are the hours of the assessor office? I can call them, or maybe go there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:05:47-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The assessor's office is in City Hall, and it keeps regular weekday business hours, generally eight-thirty to four-thirty. Since it's Friday, I would suggest calling this afternoon or early next week. The office can confirm their hours when you reach them."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eight-thirty to four-thirty. Okay, thank you. I write down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Is there anything else on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I want to pay today, on the phone. With card. Is that possible with you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:23-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can take a card payment over the phone. Do you wish to pay the full balance of twelve seventy-five forty?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:33-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, full amount. One thousand two hundred seventy-five dollars forty cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. Please give me the card number whenever you are ready, and take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The card number is five five five five. [pause] five five five five. [pause] five five five five. [pause] four four four four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:06:57-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me read that back to you: five five five five, five five five five, five five five five, four four four four. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:12-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the expiration date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:15-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Expiration is ten, twenty-nine. October, two thousand twenty-nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:19-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Does the card have a three-digit security code on the back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but sorry, I have to find my glasses. One moment. [pause] Okay, I see it now. It is seven, two, one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Sisson. Please hold while I process it. [pause] The payment has gone through for twelve seventy-five forty. Would you like a confirmation number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:47-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes please. I write it down. Also, excuse me, I must hurry after this. I am late for my pickleball game, and the others wait for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:07:59-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, I'll be quick. Your confirmation number is F, F, four, nine, one, seven. I'd recommend keeping that with your records, and the receipt will be mailed to the address on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:08:14-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "F, F, four, nine, one, seven. Okay. Mailed to Eustis Avenue, good, because the landlord also need a copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:08:23-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then you may want to make a copy when it arrives. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:08:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you for your help. I call the assessor this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:08:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon, Mr. Sisson, and enjoy your game."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T11:08:46-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T11:04:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T11:04:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-13T11:04:01-05:00",
+        "end": "2026-02-13T11:08:48-05:00",
+        "duration_seconds": 287,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T11:04:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-13T11:04:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-13T11:04:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-13T11:04:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-13T11:04:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "19d0dd7f-82a6-80ee-b4fa-01691d8683fd",
+  "created_at": "2026-01-20T12:38:04-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Kathleen Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-20T12:34:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:34:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I'm Kathleen Flynn. I live at 425 Old Beach Road. I want to put up a fence. Do I need a permit for that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:34:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a fence is a common one. Usually yes, a fence needs a permit, but it depends on a few things. Can you tell me what you're planning? Where it goes, how tall, what material?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the side yard. I want to enclose it. I have a toddler. Cedar, six feet tall."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:12-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So cedar, six feet, around the side yard. Is that only the side, or does it connect to the front or back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:20-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It connects to the back. Not the front. It would stop at the corner of the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it ties into the house on one end and the back fence line on the other. Is there an existing fence back there now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Nothing there now. Just grass."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:37-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Then yes, plan on applying for a permit. Six feet is on the taller side, and the rules can be different for the front and side areas of a lot, so the review looks at that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:48-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Different how? I thought six feet was normal."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:35:51-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A lot of people do, and in a back yard it's often fine. A side yard can have different limits depending on where it sits relative to the front of the house. I don't want to quote you a number I'm not sure of. The inspector reviewing it will tell you if six feet works or if part has to be lower."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it might not be allowed at six feet."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It might need adjusting in one section. It might be fine as is. That's what the application sorts out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do I need a survey?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:21-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Often they want to see where the property lines are. If you have a plot plan from when you bought the house, that can sometimes work. A new survey is not always required, but it helps if the fence is close to the line."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:35-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have some papers from the closing. I don't know if that's a plot plan."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It might be. Look for a drawing of the lot with the house drawn on it and the measurements along the edges. If you find that, bring it in or send a copy with the application."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:51-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drawing with the house on it. Okay. And if it's not that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:36:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then bring what you have and the inspections office can tell you whether it's enough. They're the ones who decide."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:02-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was at the bakery this morning. I talked to a woman there for a long time. She said you don't need a permit. She said her neighbor never got one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:11-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I'd go by what the office says rather than what a neighbor did. Lots of fences go up without anyone checking, but if it's reported later, you could be asked to take it down or apply after the fact."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So she was wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For most fences, yes, I'd say a permit is the safe answer. So the steps are: find that drawing, fill out the application, and the reviewer will confirm the height."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:34-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait. So I do need the permit, and I might not need the survey. And the height is maybe a problem."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Permit, yes. Survey, maybe, depending on your drawing and how close you build to the line. Height, they'll confirm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I have it. I'm still not sure about the survey."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. Find the papers first, and call back or stop by with them. Someone can look and tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:37:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T12:38:01-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Kathleen. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T12:34:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T12:34:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-20T12:34:43-05:00",
+        "end": "2026-01-20T12:38:04-05:00",
+        "duration_seconds": 201,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T12:34:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-20T12:34:43-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-20T12:34:43-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-20T12:34:43-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-20T12:34:43-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

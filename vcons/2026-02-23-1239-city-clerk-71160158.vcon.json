@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "71160158-a41b-83c8-96dc-eecbd944988b",
+  "created_at": "2026-02-23T12:42:12-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Celeste Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-23T12:39:44-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:39:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello, good afternoon. Thank you for picking up. I am calling about a business license. I want to open a small shop."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:39:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can point you in the right direction. What kind of shop?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pottery. Handmade bowls, cups, a few gifts. Small, just me. I teach a pottery class, so I have clay under my fingernails right now, sorry, I just came from the studio. I am typing nothing, only talking."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:14-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Is the shop going to be a storefront here in Newport, or at your home?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:21-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A storefront. Not at the house. I live at 45 Dean Avenue, but the shop is a different place. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:29-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Generally you'll need a business license application, and depending on the space, there may be other approvals, like zoning or a certificate of occupancy. Do you have a lease yet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lease, not yet. So first the lease, then the form? Let me check. Lease, then application, then zoning. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close. Zoning can come first, actually. You want to be sure the space allows retail before you sign anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:40:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay, zoning first, then lease, then the license form. Thank you. And what is the fee? For the license."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fee depends on the type of license, and I don't have it in front of me. It's listed on the application, and I can have someone confirm it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. I called last week to the other office and they said call here. Now you say it is on the form. So where is the form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pick one up at the counter here at City Hall, or I can email it if you give me an address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Counter is fine. I do not want to give email on the phone. What hours? Today is Monday, yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:36-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Monday. We're open until close of business today, and regular weekday hours the rest of the week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:43-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so today or tomorrow I come. And I ask for the business license application. Not the permit. The license. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, the business license application. Tell them you also have zoning questions and they'll send you to the right desk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:41:58-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, thank you. Sorry for so many questions. It is just a lot of steps for one little shop."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:42:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a fair amount, I know. Good luck with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T12:42:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Bye-bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T12:39:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T12:39:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-23T12:39:44-05:00",
+        "end": "2026-02-23T12:42:12-05:00",
+        "duration_seconds": 148,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T12:39:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-23T12:39:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-23T12:39:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-23T12:39:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-23T12:39:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

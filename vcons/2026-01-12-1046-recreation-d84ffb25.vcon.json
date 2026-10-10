@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d84ffb25-4764-8969-a9d2-ad2ba9252a2a",
+  "created_at": "2026-01-12T10:47:40-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Ana K. Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation Department, this is Beth, good morning!"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:05-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Um, I'm calling about the community room, you know, for booking it. Sorry if there's an echo, I'm standing in an empty parking garage, the reception is better down here, I mean the signal on the landline, uh, cordless, right? Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine, just a little echo. What are you looking to book it for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A birthday party. So, my daughter's turning nine, and I'd like to do it in the community room, you know, on a Saturday afternoon. Is that something people do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, birthday parties are a common use. Do you have a date in mind?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:43-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably the second Saturday in March. I mean, I'm flexible, right? But first, are there age limits? Like, for the kids, or for who has to be there, I'm not sure how it works."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:46:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For the guests there's generally no age limit on a party. The person who signs for the room has to be an adult, though, and kids need adult supervision the whole time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:47:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay, so I'm the adult, I'd be signing. Right. And there'd be a few other parents there, you know, so that's fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:47:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. I'll take your name and number, and our room coordinator will check March availability and call you back with the details and the paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:47:23-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's Ana Silva, S-I-L-V-A, middle initial K. And the number is 401-555-0190."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:47:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Ana Silva, 401-555-0190. Someone will call you back, probably within a day or two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:47:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, thank you. That's all I needed. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T10:47:38-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, bye now!"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T10:46:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T10:46:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T10:46:02-05:00",
+        "end": "2026-01-12T10:47:40-05:00",
+        "duration_seconds": 98,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T10:46:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T10:46:02-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T10:46:02-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T10:46:02-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T10:46:02-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

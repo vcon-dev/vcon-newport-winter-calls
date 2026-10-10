@@ -1,0 +1,535 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "70404fca-f5a0-80f5-b830-4d6e5bf2622c",
+  "created_at": "2026-02-26T13:48:13-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nancy Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T13:42:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:42:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, so I'm calling about my mom's water and sewer bill. It's basically double what it normally is and I'm trying to figure out what to do about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:42:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can help with that. Are you on the account, or are you calling on behalf of your mother?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:42:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On behalf. I'm her daughter, Nancy. I handle her paperwork, basically. She's not great with the bill stuff and she asked me to call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:42:41-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I can talk through general information with you. For anything on the account itself I'll need the account number or the service address. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:42:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, but I'd rather not read the address out on a cell in a parking lot, if that's okay. Can I just give the account number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:43:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, the account number works."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:43:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's, um, give me a sec, it's printed tiny. [pause] Four, four, one, seven, dash, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:43:14-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one seven, dash zero two. Let me pull that up. [pause] Okay, I have it. I see the last bill is considerably higher than the prior few quarters. Is that the one you're asking about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:43:28-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. So basically what happened is a pipe broke in the basement in January. It was a supply line, and the plumber fixed it, I have the invoice. But it was running for a while before anybody noticed. And then on top of that, the toilet was running constantly last month. Like nonstop. So I'm sure that's part of the usage too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:43:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So two things, a broken pipe and a toilet that ran continuously. Was the toilet repaired as well?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:43:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the flapper. Like a fifteen dollar part. I swapped it myself, it's fine now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:44:04-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anyway, my question is, is there a leak adjustment or something? Because it's not like she used that water. It went down the drain, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:44:14-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a process where a customer can request a review of the bill after a leak, and it generally involves showing that the leak was repaired. Usually that means a copy of the plumber's invoice or receipts for the parts, and a short written request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:44:31-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Written, like a letter? Or is there a form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:44:35-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd send a letter or an email with the account number, the dates of the leak, and the repair documents. I can also note on the account right now that a request is coming, so the bill is flagged."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:44:49-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. Because honestly it's annoying, I feel like I'm being asked to pay for something that was already a headache. And the due date is coming up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:45:00-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I'll put the note on it now. Whether the adjustment is approved, and how much, is decided by the billing supervisor after they review the documents, so I can't tell you the outcome. But the note will show that you've started the process."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:45:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And does the plumber invoice need to show the dates? Because his just says the date of the repair, not when it started leaking."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:45:27-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The repair date is the main thing. If you can add a sentence in your letter about when it was noticed, that helps. Photos of the pipe, if you have them, can also be useful."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:45:40-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have photos, yeah. My phone's full of them. [pause] Sorry, one sec, my charging cable only works if it's at one angle, so I'm holding it like this and it keeps cutting out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:45:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. I hear that. Those cables are the worst."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:45:58-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's basically held together with tape. Okay, I'm good. So the other thing is paying. I don't want to miss the due date while this review is happening. Is there a phone line I can call to pay at night? Like an automated one? I work late and I'm never available during your hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:46:18-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is an online payment option on the city website that is available at any hour. As for an automated phone line, I'm not certain of the details of an after-hours one, so let me check with my colleague. Can you hold for a moment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:46:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:46:37-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. [pause] Okay, I'm back. So the phone line that takes payments is staffed during regular hours only. At night, the online portal is the way to pay by card or bank draft. There's also a drop box at City Hall for checks that you can use anytime."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:46:55-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So no night phone line, then."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:46:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not that I can point you to, no. Online or the drop box would be your options."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:47:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's what I figured, but I had to ask. Should I pay the whole thing, or wait on the adjustment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:47:13-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "With the note on the account, you can talk to the billing office about whether to pay part now. I don't want to give you the wrong instruction on that. I can transfer you to them, or take your number so someone calls you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:47:30-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just have them call me back. It's four zero one, five five five, zero one nine zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:47:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four zero one, five five five, zero one nine zero. And the name is Nancy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:47:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nancy Tillinghast. T-I-L-L-I-N-G-H-A-S-T."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:47:45-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll mark it for a callback, and the billing office should reach you within a couple of business days. In the meantime, gather the plumber's invoice, the parts receipt, and the photos, and send them with your letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:48:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sounds like a lot of steps for a pipe that already cost us enough, but fine. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:48:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Thanks for calling, Nancy. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:48:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:42:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:42:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T13:42:09-05:00",
+        "end": "2026-02-26T13:48:13-05:00",
+        "duration_seconds": 364,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:42:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T13:42:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T13:42:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T13:42:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T13:42:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "10318ce7-72f3-8965-a0d0-a0f44e1ad771",
+  "created_at": "2026-03-12T16:14:42-04:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Antonio Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-12T16:12:46-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:12:49-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Afternoon. I need a new recycling bin. Mine's got a crack down the side, and the lid's gone missing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:12:56-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a replacement recycling bin. Is it the blue one with the wheels, or the smaller open-top kind?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:02-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The big one with the wheels. Blue. Or it was blue. Sun's taken most of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:08-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, the large wheeled blue bin, cracked, no lid. Did it get damaged by the truck, or just wear?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:15-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wear, I'd say. Maybe a little help from the truck. Hard to prove either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:20-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll put it down as damaged."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:23-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there a fee for that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:26-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a replacement, I'd have to confirm with the person who handles the bins whether there's a charge. It can depend on the reason. I can have them call you back with the answer. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:38-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. That works. Call me on this number, it's 401-555-0160."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:42-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0160. Got it. And that's a cell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:45-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, cell. Reception's all right today."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:48-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, I'll need the pickup address too, so they can find your account."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:13:53-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I'd rather not give it over the phone. Can they just call me and I'll tell them then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:00-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll note that they should ask you for it when they call. Is there a best time to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:07-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not really. I'm home, but I'm waiting on my cousin to bring my car back, so I'm kind of stuck here. He borrowed it Monday. Said it'd be a day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:17-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, Monday. Well, you'll be around, then. I'll note any time today or tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:22-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's about right. I'm not going anywhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:25-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me read it back. Replacement large recycling bin, cracked, lid missing, you're asking about a fee, callback at 401-555-0160, and they'll get the address from you. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:36-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:38-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Moniz. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T16:14:41-04:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T16:12:46-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T16:12:46-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-12T16:12:46-04:00",
+        "end": "2026-03-12T16:14:42-04:00",
+        "duration_seconds": 116,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T16:12:46-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-12T16:12:46-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-12T16:12:46-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-12T16:12:46-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-12T16:12:46-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

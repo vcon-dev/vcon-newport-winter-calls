@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "71faa30c-88b9-82cd-a8f0-28375cf7428a",
+  "created_at": "2026-01-21T11:57:35-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Edson Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-21T11:54:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Yes. My name is Edson Monteiro. I am calling about my property tax. I have a few questions, I wrote them down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:09-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Mr. Monteiro. Go ahead whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. The first question. I paid the first installment. I paid it in the middle of December. I want to confirm that it posted to the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can look that up. May I have the name on the account, and the parcel or bill number, if you have it in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name is Monteiro, M-O-N-T-E-I-R-O. The bill number, one moment. [pause] I have the bill here, but the number is small. I do not see it well. Is the name enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name will do for a start. Do you rent, or do you own the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am a renter. My landlord gets the bill, but I pay the installment for him, and he gave me the paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:55:53-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Give me a moment, please. [pause] Yes, I see a payment received in December, applied to the first installment. It shows as posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:01-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Posted. Okay. So the first installment is complete, nothing is owed on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:06-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. The next installment is not yet due, and you will see the due date on your bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you. The second question. How do I change the mailing address? I am moving the mail to a different place. A new address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:20-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since the bill is in your landlord's name, the owner of record would need to submit that change in writing. You can send a signed letter to the tax office with the account information and the new mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter. Signed by the landlord, not by me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The owner of record has to make the request. If the address is wrong on your end only, for your own mail, that is a different matter, but for the tax bill it must come from the owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I will tell him. He will write the letter. Is there a form, or only a letter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:56:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter is acceptable. Please include the full name, the parcel information, the old address, and the new address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:00-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name, parcel, old address, new address. I write it down. [pause] Okay. I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Was there anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:08-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One more thing, not about tax. Last week I found an old cassette tape in a box. I have no player. Does the city have something for this, a place to play it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm afraid that isn't something this office handles. The public library may be able to help you, so I would suggest asking there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:25-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The library. Okay. I will ask them. That is all my questions. Thank you for your help, Miss Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Monteiro. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:57:34-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T11:54:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T11:54:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-21T11:54:56-05:00",
+        "end": "2026-01-21T11:57:35-05:00",
+        "duration_seconds": 159,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T11:54:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-21T11:54:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-21T11:54:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-21T11:54:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-21T11:54:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

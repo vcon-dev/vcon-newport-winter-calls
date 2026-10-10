@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b8ab8ac7-b7be-80b8-ae2e-5f4705670bd2",
+  "created_at": "2026-01-14T12:01:37-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Anh Abdi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-14T11:57:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities, water and sewer billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:57:21-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, hi. I got my water bill and it's almost double what it normally is. Like double. And nothing's changed at our house, so I don't get it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:57:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's no fun to open. Let me pull it up. Can I get your name and the account number or the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:57:42-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Anh Abdi, A-N-H, A-B-D-I. I don't have the account number on me, I'm at work. I'm on a ten minute break, actually, so I have to be quick. I'm at a call center, I'm on the phones all day myself, so I know, you're probably..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:57:59-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, we'll go quick. Is the account under your name? I can look it up by name and see what comes up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:58:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, under mine. Homeowner. Sorry, hold on, [pause] no, honey, put that down. Sorry. Okay. I'm back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:58:15-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're fine. Okay, I've got an Abdi here with a recent bill. Looks like the last couple of bills ran around half of this one. This one shows a much higher consumption number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:58:28-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the word on the bill, consumption. What does that actually mean? Is that what I used? Because we didn't use double. We're the same four people. Nobody added a pool or..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:58:41-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, consumption is just the amount of water that went through your meter during the billing period. It's measured in units, and each unit is a set amount of gallons. So the bill takes the meter reading this time, subtracts the last reading, and the difference is your consumption."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:58:59-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's just what the meter says. Not an estimate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:59:04-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be either, actually. The bill should say if the reading was actual or estimated. Mine here shows this one as an actual read."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:59:14-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. So the meter says we used double and I'm supposed to just believe that. We're not leaking anything, I'd see it. I think. Ugh, I don't know. Somebody should check that meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:59:27-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. A jump like this is usually either a leak, like a running toilet, which can burn through a lot quietly, or a meter issue. I can put in a request to have the meter rechecked. And it's worth listening for the toilets and looking at the meter itself when it's all quiet. If the dial is moving with everything off, that's a leak."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T11:59:51-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A running toilet. Okay. My son does leave the upstairs one going sometimes. Fine, I'll check that tonight. But yeah, put in the recheck, please. I don't want to pay double for something that's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:04-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Can I confirm a callback number in case the meter folks need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0170."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:13-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0170. I'll note the request on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:18-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And one more thing, and this is the whole reason I can't just call during the day. If I'm going to pay it anyway, is there a drop box at City Hall? Like if I get there after you close, can I put a payment in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:36-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a payment drop box at City Hall. Checks or money orders in an envelope with your account info on it, don't leave cash. You can also pay online anytime through the city website, or by mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the box works. I'll just write the check. Is it, um, the front door or the side or..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:00:59-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's by the main entrance. You'll see it marked. And if you're disputing the amount, it's still smart to pay at least what you normally owe while the recheck is pending, so you don't pick up late stuff. Hang on to your receipt or a copy of the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:01:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Wait, honey, I'm on the, [crosstalk] sorry, my kid's calling me. Never mind, it's the school. Ugh. I've got to go, my break's over anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:01:27-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, take care of it. We'll get that meter request in today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:01:33-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Tony. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T12:01:35-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T11:57:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T11:57:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-14T11:57:15-05:00",
+        "end": "2026-01-14T12:01:37-05:00",
+        "duration_seconds": 262,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T11:57:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-14T11:57:15-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-14T11:57:15-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-14T11:57:15-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-14T11:57:15-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

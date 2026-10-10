@@ -1,0 +1,259 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "146cc8b7-c7b4-8add-9b66-5a65cd51e194",
+  "created_at": "2026-02-13T10:45:17-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Dulce Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-13T10:43:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:43:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Good morning. I am calling because I need a copy of a property tax bill from a past year. The one that was already paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Which year are you looking for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:04-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] One moment, please. I have it written. It is the bill for last year, the full year. I need it for a refinance of my mortgage. The bank asks for proof."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense, banks love paper. Do you want it emailed, or mailed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:20-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailed, please. A duplicate bill, sent in the mail. I do not have a printer at home."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:26-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I'll need the name on the account and the mailing address where it should go."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name is Dulce Tavares. T-A-V-A-R-E-S. The address for mailing is the same as the property. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:39-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll put in the request. It should go out in the next few days, and you'll get it in the mail after that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Also, if you need to call me, my number is four zero one, five five five, zero one five zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four-oh-one, five-five-five, oh-one-five-oh. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:44:59-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. I am a little rushed because I also have a friend's wedding next month. I am dreading it and I am looking forward to it, both."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:45:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's usually how weddings go. Good luck with the refinance, and enjoy the wedding."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:45:14-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T10:43:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T10:43:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-13T10:43:47-05:00",
+        "end": "2026-02-13T10:45:17-05:00",
+        "duration_seconds": 90,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T10:43:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-13T10:43:47-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-13T10:43:47-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-13T10:43:47-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-13T10:43:47-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

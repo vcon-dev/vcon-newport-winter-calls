@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bdf3aeee-c1aa-80fa-b288-3837278eac11",
+  "created_at": "2026-03-10T14:44:23-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Tony Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:07-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and Sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:12-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes, hello. My name is Tony Cirelli. I am calling about my water bill? I got a late fee, but I mailed the check on time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:23-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can I have the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:28-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three twenty Kay Street. In Historic Hill. Sorry, I am in a stairwell, so the sound is, um, very loud. Can you hear me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:38-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine, just a little echo. Take your time. Three twenty Kay Street, and the name on the account is Cirelli?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:48-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Cirelli. Tony. I am the renter. The water bill comes to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:40:54-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, I have the account up. I see a late charge on the most recent bill. When did you mail the check?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:41:03-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I mailed it on the first week of the month. I think the third? Monday. I put it in the blue box on the corner, before the date on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:41:15-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me look at when we posted the payment. [pause] I'm showing the payment received and posted a few days after the due date. So the system applied the late charge."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:41:27-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But it was mailed before. The rain, the mail was slow? Maybe?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:41:32-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be the mail was slow. What I can do is note your account that you're disputing the charge and send the request for review. Do you still have the check number or the date it cleared your bank?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:41:47-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Check number... one moment. [pause] Sorry, the paper is upstairs. I can call back with it? Or my daughter can."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:41:55-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll put the dispute in now and you can add the check details later. Is your daughter the one who helps with the bills?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:42:05-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. My daughter helps me with the bills. She wants to be, how do you say, authorized? So she can talk to you for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:42:15-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can set that up. We need a written authorization from you with her name and phone number, signed by you as the account holder. You can mail it, drop it off, or she can bring it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:42:30-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter? Just a letter from me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:42:34-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A signed note is generally fine. Say that you authorize her to discuss and manage the water and sewer account for three twenty Kay Street, and include her name and a phone number. I can also note on the account that one is coming."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:42:51-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A signed note. I can do this. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:42:56-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Anything else on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:43:00-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one more question? Sometimes I am not able to come in the day. City Hall closes at four thirty? Is there a way to pay by phone after four thirty?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:43:12-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an automated payment line that works around the clock, and you can also pay online through the city website. There's a drop box at City Hall too, for checks, if you'd rather not mail them."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:43:26-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The drop box. That is good. Then it is not late in the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:43:32-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, and it's usually collected the next business day. The phone line or the website will show the payment right away. The account number is on your bill, at the top."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:43:44-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Account number at the top. I will tell my daughter, she will show me the website."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:43:51-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. So to recap, I've entered the late fee dispute. You'll send a signed note for your daughter, and the check number can come whenever you or she have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:44:03-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is right. Do I get a letter about the fee?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:44:08-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'll see the result on your next bill. If it's not removed, your daughter can call once she's authorized."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:44:16-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you very much. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T14:44:19-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye, Mr. Cirelli. Take care on those stairs."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T14:40:07-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T14:40:07-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T14:40:07-04:00",
+        "end": "2026-03-10T14:44:23-04:00",
+        "duration_seconds": 256,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T14:40:07-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T14:40:07-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T14:40:07-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T14:40:07-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T14:40:07-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

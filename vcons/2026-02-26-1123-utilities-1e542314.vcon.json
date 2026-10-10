@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1e542314-ad61-88ed-acf6-92eb83953673",
+  "created_at": "2026-02-26T11:26:37-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Thomas Gifford",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T11:23:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:23:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. My name is Thomas Gifford. I have question about my water and sewer bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Mr. Gifford. What would you like to know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill cover three months, one quarter. I think before I get bill every month. Why it is quarter? And how you count the dates? I see start date and end date, but I not understand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:18-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Water and sewer here are billed quarterly, so each bill covers about three months of use. The meter is read near the end of the period, and the bill covers from the previous reading date to the latest reading date. So the dates on the bill are reading dates, not the first and last day of a calendar month."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:36-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, reading date. So the start date is the last reading, not the first day of month."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. The start date is the day of the previous reading, and the end date is the day of the most recent one. That's why the periods don't line up with the calendar exactly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand now. Thank you. Another thing, I need duplicate copy of this bill. Can you send by email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can do that. Can I have the name on the account and the service address, or the account number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account name is Thomas Gifford. I have account number, but I do not want to say address on the phone. Is okay with only number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number is fine. Go ahead when you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:17-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, one moment. [pause] Sorry, I look for the paper. The number is on top right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:22-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:24-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I find it. I give you the number now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, and read it slowly please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:31-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, the line is not good. [line breaks up] You hear me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I lost you for a second, but I'm back. I have the number pulled up. What email address would you like the copy sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please send to the email you have on file. Is the same one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll send it to the email on file today. It should arrive within a short time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One more question. If I want to pay, but City Hall is closed, I work and I cannot come in the office time. Is there drop box for payment after office close?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:03-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is a payment drop box at City Hall. You can put a check in it after hours. Make sure your account number is written on the check, and don't put cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:14-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, check with account number. Good. My commute to Providence is almost one hour each way, so I leave early and come home late."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a long day. The drop box should work well for you then."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I think so. Okay, that is all I need. Thank you very much for your help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Gifford. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:23:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:23:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T11:23:54-05:00",
+        "end": "2026-02-26T11:26:37-05:00",
+        "duration_seconds": 163,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:23:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

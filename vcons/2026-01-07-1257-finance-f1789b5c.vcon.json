@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f1789b5c-26f8-81f0-a640-c01d85c9bbe0",
+  "created_at": "2026-01-07T13:02:07-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Sal Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T12:57:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:57:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Luis. Yes. My name is Sal Cirelli. I am calling about a parking ticket. I got it for the snow parking ban."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:57:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you have the ticket in front of you? There should be a number on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:57:56-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it. One moment. [pause] The number is, um, it is on the top, but the paper is wet. I can read the last part. Four, four, one, eight, seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:58:08-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one eight seven. Let me pull that up. Okay, I've got it. Issued Monday morning, parking ban violation. Is that the one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:58:18-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is the one. But I do not think it is fair. The street was never plowed. Nobody plow it. And there was no sign. No sign on my street that say the ban."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:58:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mm-hm. So you're saying it wasn't posted and the street didn't get plowed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:58:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Not plowed, not posted. I look at the whole street. I am homeowner here many years. I know where the signs are. There is none."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:58:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. I can note your dispute. Is there something you'd like from me on it right now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:58:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The officer, he take a photo, I think. Can you send me the photo of the violation? By email. I want to see what he is showing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see there's a photo attached to the record. Let me get an email address from you and I'll have it sent over."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Please, can you say again? You will send the photo to my email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I'll send the photo from the ticket record to your email. Go ahead with the address whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:30-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It is S, A, L, then the dot, then Cirelli, C, I, R, E, L, L, I, at gmail dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:39-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Sal dot Cirelli, C-I-R-E-L-L-I, at gmail dot com. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:45-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:47-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. It might take a little while to come through, so check your spam folder too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:59:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, spam folder. I will look. [pause] Sorry, I have the television on. A documentary about bridges. The sound is low, but you can maybe hear."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:00:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear a little something in the background. Sounds like a very calm bridge."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:00:10-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. Very calm. Okay. Luis, one more question. If I decide to pay the ticket, and not fight it. Is there a way to pay by phone after four thirty? When you are closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:00:24-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. There's an online payment option on the city website, and that works any hour. There's also a drop box at City Hall for checks if you'd rather do it that way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:00:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But by phone? I do not like the computer so much. After four thirty, I can call and pay with a person or a machine?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:00:47-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have an after-hours phone line I can promise you. During the day, you can call here and pay with me. After four thirty, it's the website or the drop box."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:00:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So after four thirty, no phone. Only the website or the box. I want to repeat to be sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Phone with a person during business hours, website anytime, drop box anytime."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That is a little bit annoying, but okay. I understand."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:18-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. If you dispute it, you may not need to pay at all, so look at that photo first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:27-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I will look at the photo first. And I want it written that the street was not posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:35-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've put that in the notes. Street not plowed, no signs posted, photo requested by email. Do you want me to use the number you're calling from, four-oh-one, five-five-five, zero-one-six-two, in case someone needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is my number. Zero, one, six, two. Correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. You should see the email later today. Anything else, Mr. Cirelli?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:01:59-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, Luis. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:02:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Enjoy the bridges."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:57:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:57:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T12:57:35-05:00",
+        "end": "2026-01-07T13:02:07-05:00",
+        "duration_seconds": 272,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:57:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T12:57:35-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T12:57:35-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T12:57:35-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T12:57:35-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

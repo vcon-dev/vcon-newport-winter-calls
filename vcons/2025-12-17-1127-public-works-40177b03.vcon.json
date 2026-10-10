@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "40177b03-5ca6-838d-8f57-c351e076e891",
+  "created_at": "2025-12-17T11:28:29-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Diego Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-17T11:27:29-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:27:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Is it all right if I ask about a crosswalk? The paint has faded and cars don't stop."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:27:38-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead. Where is it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:27:41-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "378 Farewell Street, in the North End. Is it all right if I give you the cross street too? It's right by the corner, the crosswalk there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:27:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Farewell Street, 378, faded crosswalk, cars not stopping. Got it. Has anyone else had trouble there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:27:54-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a neighbor got hit there too. Um, sorry, is it all right if I pause a second? I have the baby in a carrier on my chest and she's fussing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:28:03-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:28:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. Is it all right if I ask how long repairs usually take?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:28:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually it depends on the crews, and with the rain today they're stretched. Painting generally needs dry weather, so it'll likely be a bit. I'll put the request in now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:28:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Is it all right if I leave my number? It's 401-555-0175."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:28:24-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0175. Thanks, Mr. Cordero."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:28:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T11:27:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T11:27:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-17T11:27:29-05:00",
+        "end": "2025-12-17T11:28:29-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T11:27:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-17T11:27:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-17T11:27:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-17T11:27:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-17T11:27:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

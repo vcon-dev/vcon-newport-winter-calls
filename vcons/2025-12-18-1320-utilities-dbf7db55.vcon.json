@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "dbf7db55-da8f-8c49-a374-7c4150bf6152",
+  "created_at": "2025-12-18T13:25:01-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Peter Sherman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. My name is Peter Sherman. I am calling about a, um, water and sewer bill. For the property on Chapel Street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Mr. Sherman. What's the street number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two twenty-eight. Two twenty-eight Chapel Street. I manage the building, for the owner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:42-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:46-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a late fee on it. A late charge. But I mailed the check on time. I mailed it, um, one week before the due date. So I do not understand why they charge me late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:20:59-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Let me pull up the account. Give me one second here. [pause] Okay, I see the account. I see the late charge on the last bill. Do you remember about what day you put the check in the mail?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:21:13-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It was the, the first week of the month. Monday, I think. I put it in the box on the corner, the blue box."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:21:22-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what I'm showing is the payment posted a few days after the due date. So it looks like it got here late, even if it went out early. Mail can be slow this time of year, with the holiday volume."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:21:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. So the, the date that counts is when you receive it. Not when I mail it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:21:43-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's usually how it works, yes. The payment has to be received and posted by the due date. The postmark doesn't always count the way people expect."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:21:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Okay. I did not know this. Always before it was fine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:21:58-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, if you want to dispute the late fee, I can make a note on the account and send it over for review. I can't promise what they'll decide, but it's worth asking, especially if you've paid on time before."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Please make the note. Also, um, I should say, last month the toilet was running. Running all the time, in one of the apartments. So the bill is higher than normal. The water, it was a lot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. That would do it. A running toilet can use a surprising amount of water. Has it been fixed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. The plumber fixed it already. Last week. It was the, the part inside the tank."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll put that in the note too, that there was a leak from a running toilet and it's been repaired. They may want the repair receipt, so hang on to that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the receipt. Okay. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. So the note is going on for the late fee and the high usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:22:59-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, I want to pay the bill before the weekend. Today is Thursday. Tomorrow I am busy, and I do not want another late charge. So how do I pay if the office is closed? After you close, or Saturday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:23:13-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. A few ways. You can pay online through the city's website, any time of day, that works at night and on weekends. There's also a drop box at City Hall for checks, so you could put it in there tonight or tomorrow and it gets picked up. And you can always pay by phone with a card during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:23:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The drop box. Where is it, exactly? At City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:23:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's out front by the main entrance, on Broadway. It's a slot, with a sign on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:23:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the, the check, if I put it there today, it counts as today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:23:51-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It gets collected the next business day, but it's logged as received when it's picked up, so tonight into the box means it's in by Friday morning. Just don't leave it for Saturday, because then it waits until Monday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Friday morning. Good. I will do it today then. Excuse me, one moment. [pause] I am in a store, looking at the paint, the little color cards. Paint swatches. Very many colors."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No rush. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I am okay. Now I am back. So the amount, what is the amount I should write on the check? With or without the late fee?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:30-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since the dispute is pending, I'd pay the full amount shown, including the fee, so nothing else goes past due. If they take the fee off, it'll show as a credit on your next bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That makes sense. Thank you very much, Mr. Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Sherman. I've got the note in. If anyone has questions, they'll call you back at the number we have on file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is the same number. Okay. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:24:59-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take care now. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:20:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:20:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T13:20:22-05:00",
+        "end": "2025-12-18T13:25:01-05:00",
+        "duration_seconds": 279,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:20:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T13:20:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T13:20:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T13:20:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T13:20:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

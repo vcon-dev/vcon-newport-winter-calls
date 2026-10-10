@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f80d3ebd-3e5f-8009-bb3f-f131f44f47c1",
+  "created_at": "2025-12-18T13:59:29-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Miguel Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T13:55:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:55:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi Tony. Miguel Mejia, I'm over at 71 Coggeshall Avenue, up on the Hill. I got my water and sewer bill and it's wicked high. Totally out of line with what I normally pay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:55:26-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. Mejia, 71 Coggeshall. Bear with me one second. Alright, I've got it. Yeah, this last quarter is quite a bit higher than the one before. Do you know of anything that would've used extra water?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:55:42-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, yeah, honestly. The toilet was running constantly last month. Just ran and ran. I didn't catch it for a while, and then I jiggled the thing and it kept going. Landlord finally sent a guy and he swapped the part."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:55:58-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'll do it. A running toilet can use a lot of water, hundreds of gallons a day sometimes, and you never really notice because it's quiet. So the meter just kept counting."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:56:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's what I figured. It's fixed now, so I'm just annoyed it's on me. I'm the one paying the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:56:20-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So the way it works, the bill's based on what the meter read, and the sewer charge follows the water used. So the extra water pushed both up. I can see the reading here, and it's consistent with a leak that started and then stopped. Your usage drops back down at the end of the period."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:56:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's no taking it off, basically."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:56:46-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't adjust it from this desk on my own. What I can do is note the account that the repair was done, and send your request to the billing supervisor to see if anything can be reviewed. Do you have the receipt or anything from the landlord showing the repair?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:57:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a receipt. The guy just came and did it. I could ask the landlord for something in writing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:57:15-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd help. If you get a note with the date of the repair, you can send it in or drop it off, and reference your account number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:57:26-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Also, is there any kind of discount? I'm in my sixties, fixed income, you know. Is there anything for low-income or elderly households?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:57:36-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I know there are some assistance programs that go through the city, and I don't have the details of the eligibility in front of me. Let me put you down for a call back from the billing office on that, or I can have them mail you the information. Which would you rather?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:57:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is fine. Well, call too, I guess. My number's 401-555-0182."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:58:02-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0182. And I'll make a note it's about the senior discount and the leak adjustment both."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:58:10-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. And one more thing. I work odd hours and by the time I'm home you're closed. Is there a phone payment line that works at night? Like somewhere I can call and pay without talking to a person?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:58:25-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is an automated option and the online payment page, both are available around the clock. The phone number for the automated line is printed on the bill, usually near the payment stub. There's also a drop box outside City Hall if you'd rather leave a check."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:58:43-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's on the bill. I'll look for it. I'll probably do it tonight, honestly, because this rain has me stuck inside anyway. Wednesday into today, it just wouldn't quit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:58:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that soaker was a long one. Looks like it's finally letting up out there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:59:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finally. And I'll tell you, being stuck inside is no picnic. The neighbor's teenager is learning trumpet, badly. Wicked badly. Same three notes all afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:59:11-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, hopefully he gets to a fourth note soon. Alright, Mr. Mejia, I've got your notes in. Get that repair letter from your landlord and the supervisor can look at it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:59:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Thanks, Tony. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T13:59:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:55:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:55:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T13:55:07-05:00",
+        "end": "2025-12-18T13:59:29-05:00",
+        "duration_seconds": 262,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T13:55:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T13:55:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T13:55:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T13:55:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T13:55:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

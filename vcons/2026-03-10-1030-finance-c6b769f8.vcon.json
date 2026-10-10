@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c6b769f8-1a6a-8fd5-b2c1-493c55ea363d",
+  "created_at": "2026-03-10T10:35:31-04:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Fatima Pacheco",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T10:30:11-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:30:17-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, um, I got a tax bill in the mail and it's not in my name. It's got somebody else's name on it. I don't really get it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:30:28-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Can you tell me a little more? Is this a real estate tax bill for a property you own?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:30:36-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, so, I bought the place. Closed in, um, January I think. Well, I'm the new owner, but the bill says the seller's name, the guy I bought it from. Is that a mistake? Did I do something wrong?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:30:50-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is not unusual. Tax bills are generated from the assessment records, and the bill is issued to the owner of record as of the assessment date. If the sale happened after that date, the previous owner's name can still appear."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:31:05-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the assessment date. Is that like the day it closed? Because it closed in January."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:31:12-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's a set date for the whole city, not tied to your closing. It's the same for every property. The bill still is a lien on the property regardless of whose name is printed on it, so it does need to be paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:31:28-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So I pay it even though it's his name. Wait, but why would I pay his bill? Isn't that between him and the, the city?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:31:38-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The tax follows the property, ma'am, not the person. Now, typically at a closing the taxes are prorated between buyer and seller. You may want to look at your closing statement to see how that was handled. That is between you and the seller, or your closing agent."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:31:55-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The closing paper. I think I have that somewhere in a folder. I'll look. It's a lot of pages, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:32:03-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's common. Look for a section about tax adjustments or prorations."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:32:07-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, prorations. Got it. Um, and the other thing, the bill went to the old address, I mean, not the old address, it went to where he lives now. No wait. It went to the house. But I want it coming somewhere else. How do I change the mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:32:25-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me make sure I understand. The bill was mailed to the property, and you would like future bills sent to a different mailing address. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:32:35-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Yes, that. Because I don't, I mean I do live there, but I get a lot of mail mixed up. It's a, it used to be the, the old bakery building on the corner, well, no, that's next door. Anyway, I want a P.O. box, maybe."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:32:52-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. The mailing address is updated through our office with a written request. It would need the property description, the owner's name as it appears on the deed, and the new mailing address, signed by the owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:05-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Signed. Okay. Does it have to be a form? Is there a form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:10-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A signed letter is generally acceptable. You may mail it or bring it to City Hall. I would also recommend including a phone number in case we have questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:21-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And that changes it for the, um, the name too? Like the seller's name goes away?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:28-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's a separate matter. The name on the bill depends on the ownership records, which are updated when your deed is recorded and processed. The mailing address is only where the bill is sent."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:41-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. So two different things. I thought it was one thing. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:46-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's quite all right. Many people do."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:33:49-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, one sec. [pause] My daughter just started driving lessons and she's in the car with me right now, I'm parked, and she's, she keeps saying I'm gripping the wheel. She's the one learning and I'm the nervous one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:03-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Well, I'll let you go in a moment. Do you have a pen to write down a few things?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:11-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah, go ahead. I have my phone notes open."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:15-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your letter should go to the Finance Department, tax collection, at City Hall. Include the property description, your name as owner, your new mailing address, your signature, and your phone number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:26-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, property description, name, new address, signature, phone. Is the property description the street address? Because I don't want to say the wrong thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:35-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The street address is fine, along with the plat and lot if it appears on your bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:42-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Plat and lot, it's on there, I see it, a couple numbers. Okay. And the closing thing, if the proration wasn't done, who do I talk to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:34:52-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be your closing attorney's office or the title company, or the seller directly. We can only speak to the city's records."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:35:01-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, okay. The title company. I think I get it. Mostly. The bill is still mine to pay, the name is a different thing, and the mailing address is a letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:35:12-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. If you have any other questions once you've reviewed your paperwork, you are welcome to call back."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:35:19-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. Sorry, I'm still kind of mixed up on the assessment date part, but I'll look at the papers. Thanks, Ms. Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:35:28-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:30:11-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:30:11-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T10:30:11-04:00",
+        "end": "2026-03-10T10:35:31-04:00",
+        "duration_seconds": 320,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:30:11-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T10:30:11-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T10:30:11-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T10:30:11-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T10:30:11-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

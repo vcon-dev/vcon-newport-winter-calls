@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cf38768e-a587-822e-b00d-984de5548b13",
+  "created_at": "2026-02-11T09:25:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Odete Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:26-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. I got a reminder notice in the mail yesterday for a water and sewer bill I never received. Past due, it says. I never saw the original."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Do you have the account number handy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a business account, a shop on Gibbs Avenue. Twenty-seven Gibbs. Oh, sorry, you asked for the account number. It's 22629968913."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:52-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two two six two nine nine six eight nine one three. Got it, thanks. Give me a second to pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:01-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I see it. The original bill was mailed about two months ago, and it went to a different mailing address than Gibbs Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:12-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's what I figured. That's the old address, where I was before I moved the shop. I changed everything else over, the license, the insurance, and nobody told me this one was still going there. So I find out from a reminder. That's annoying, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I can see why. The mailing address on the account never got updated, so it kept going to the old place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:39-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, somebody should have caught that. Anyway, the reminder has a line that says consumption and a number next to it. What does consumption mean? Is that, like, what I owe?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:51-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Consumption is just the amount of water your meter recorded being used during the billing period. It's the usage, not the dollars. The dollar amount comes from that usage plus the sewer charge that's based on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:23:06-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's the water I used. Well, it's way higher than I'd think for a shop that size. Oh, and it's mostly a retail space, so, no, wait, that's not what you asked."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:23:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine. So you think the usage looks too high?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:23:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. And I want to dispute it. How do I do that formally? Not just over the phone, I want it on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:23:35-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. The formal way is a written request to the water division. Put your account number, the service address, the bill date, and why you think it's wrong. You can mail it or bring it to the office, and they'll review it, and may schedule a meter check."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:23:54-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring it in. I know where it is. I actually came to that office once when I was a kid, with my mother, to sort out something about a bill. I remember the counter being really tall."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:24:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the counter's still pretty tall. You can drop it off here at City Hall during the day, and ask for a date-stamped copy so you have proof."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:24:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good idea. And in the meantime, does the past due thing keep going up? Late charges, I mean."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:24:28-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can put a note on the account that the bill is under review and that the mailing address was the issue. I can't promise what happens with late charges, that's up to the division once they see your letter. So get that in soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:24:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can you change the mailing address now too? Twenty-seven Gibbs Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:24:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, I'll do that right now. Twenty-seven Gibbs Avenue for mail from now on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:24:57-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That's all I needed. I'll get the letter in this week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:25:03-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good, Ms. Brito. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T09:21:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T09:21:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-11T09:21:21-05:00",
+        "end": "2026-02-11T09:25:06-05:00",
+        "duration_seconds": 225,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T09:21:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-11T09:21:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-11T09:21:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-11T09:21:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-11T09:21:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

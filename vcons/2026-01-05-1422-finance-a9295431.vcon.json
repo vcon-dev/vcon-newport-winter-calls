@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a9295431-9537-88f6-83dc-4d5d9f970b56",
+  "created_at": "2026-01-05T14:25:22-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carlos Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T14:22:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:23:03-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. My name is Carlos Moniz. I got a car tax bill in the mail today, the excise, and I sold that car last year. Last March. So why am I getting a bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:23:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry for the trouble, Mr. Moniz. Do you have the bill in front of you? I'll need the registration plate number or the bill number listed at the top."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:23:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on. [pause] Okay, it's a Honda, the plate is, uh, hang on, the glasses. Wait. Ma, cadê meus óculos? Não, na mesa. Okay, sorry. I got them."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:23:33-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, sir."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:23:35-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Plate is four, one, seven, nine, two, K. Rhode Island plate. And I turned that plate in at the registry when I sold it, I have the paper somewhere. So this is a mistake, no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:23:46-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I see the bill under your name. Typically these are generated from registry records. If the registration was canceled and the vehicle transferred, you would want to send us a copy of the plate return receipt and the bill of sale so the account can be reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:24:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send it where? I don't want to drive down there for this. And my earbuds, I'm sorry, the earbuds keep falling out of my ear, I'm on the phone with these things. Hold on. Okay. Where do I send it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:24:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You may mail it to the Finance Department at City Hall, attention Motor Vehicle Excise, and include the bill number and a phone number. You can also bring it to the counter during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:24:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And another thing. The bill went to my old address, my daughter's place, I got it from her. I live on Carroll Avenue now, one forty-nine Carroll. How do I change the mailing address so this stops?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:24:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Is the address on file different from one forty-nine Carroll Avenue?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:24:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it has the old one. That's why I'm annoyed, I moved over two years ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:24:47-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The change request needs to be made in writing with your name, the old and new addresses, and your signature. Send it along with the receipt. The registry also keeps its own address record, so you'll want to update it there as well, since our bills follow that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:25:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two places. Great. Fine. I'll write it all in one letter. Mrs. Whitcomb, you have my number if somebody needs me? It's four-oh-one, five-five-five, zero-one-six-one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:25:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have that noted. Please write the bill number clearly on the letter. Is there anything else today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:25:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thank you. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T14:25:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling, Mr. Moniz. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T14:22:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T14:22:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T14:22:57-05:00",
+        "end": "2026-01-05T14:25:22-05:00",
+        "duration_seconds": 145,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T14:22:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T14:22:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T14:22:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T14:22:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T14:22:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

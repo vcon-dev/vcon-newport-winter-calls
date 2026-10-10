@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fdbc3802-0c47-8d22-bb8d-78b298ef71c4",
+  "created_at": "2025-12-26T11:08:29-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Kevin Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-26T11:05:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy day after Christmas. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:05:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Kevin Quinn. I got a problem with a water bill and I don't even know if it's mine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:05:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's see what we can figure out. Whose name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:05:50-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the thing. I rent. My landlord says I owe it. Says it's in the lease, tenant pays water. But the bill comes with his name on it, so which is it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:06:01-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha. So generally the city bills the property owner, and the owner is the one on the account with us. What's between you and the landlord, like whether you reimburse him, that's your lease. We just send the bill to the owner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:06:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So he's on the hook with you, but he can pass it to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:06:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If your lease says so, that's a matter between the two of you. We don't see the lease on our end."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:06:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Well, that's the way it goes. Anyway, he's saying I owe three hundred and something and it looks like a lot. There's a line on here that says consumption. What the heck is that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:06:40-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's just the amount of water used. Consumption is the usage measured by the meter between two readings. So you read it at the start, read it at the end, and the difference is what got used. Then the charge is based on that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:06:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So if the number's high, it means the meter says we used a lot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:01-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, or the meter was read wrong, or there's a leak somewhere, like a running toilet. Those are the usual suspects."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:08-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's two of us in there. No way we used that. I've been after him about a toilet, honestly, and he never fixed it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that could explain it. A running toilet can add up fast."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So how do I dispute it? Formally, I mean. Not just yelling at him."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:26-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since the owner is the account holder, the dispute would normally come from him. But you can put your concerns in writing to us, with the address, dates and what you think is wrong, and we can have the meter checked or the reading reviewed. I can take down your number and have someone call you back about the right form."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0184. Ask for Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Kevin, 401-555-0184. I'll pass that along."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:07:52-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. I texted him last night too, said the bill was a joke, and my phone changed a word and made it something real rude. I didn't catch it till after it sent. Great timing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:08:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh no. Happens to everybody. Maybe send a quick follow-up so he knows what you meant."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:08:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, probably. He won't care anyway. He's got his mind made up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:08:15-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, get your request in writing and we'll look at the meter side of it. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:08:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T11:08:26-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You bet. Take care, Kevin."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T11:05:33-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T11:05:33-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-26T11:05:33-05:00",
+        "end": "2025-12-26T11:08:29-05:00",
+        "duration_seconds": 176,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T11:05:33-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-26T11:05:33-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-26T11:05:33-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-26T11:05:33-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-26T11:05:33-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

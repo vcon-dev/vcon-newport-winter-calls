@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "15358673-c751-8f98-82ae-69ba564f312f",
+  "created_at": "2026-01-13T18:20:48-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ellen Thurston",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T18:17:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:17:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello Kevin, this is Ellen Thurston. I realize it's after hours, it's past six, City Hall is closed, which is why I'm using this line. I was told it's the number for drainage problems."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:17:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right, this is the one for storm stuff in the evenings. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:17:53-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a huge puddle, and I won't call it a puddle, it's a pond, sitting across the crosswalk by the school bus stop. It's been like this since that coastal storm Friday and Saturday. Three days now and it has not drained."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:18:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so standing water at a crosswalk near a bus stop. How deep are we talking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:18:13-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Up to the hubcaps on a car. I watched one go through. And the kids are waiting for the bus, and they can't stand on the curb, so they're stepping out into the road to get around it. Somebody is going to get clipped."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:18:28-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's not great. Let me get that down. Standing water, crosswalk, bus stop, hubcap deep, kids stepping into the street. Do you have a cross street or a landmark so the crew finds the right spot?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:18:41-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not going to give my house number, I'm not at it, I'm a landlord and I was just driving past my tenants' street. But it's the corner right by the school stop, you can't miss it, it's the only water on the block."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:18:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Do you know which school stop? Even the name of the school helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I don't have the school's name in front of me. The stop has the yellow sign and the bench. Wait, I'm going to correct you, it isn't a bench, it's a shelter. A little one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A shelter, got it. I'll note that. Someone can match it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:19-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, can I ask you something. Is that a city drain or a state one? Because I called about this before and got bounced around, and I'm tired of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:29-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair question. If it's a state road, the state handles the drain, but if it's a city street, it's ours. From what you're describing I can't say for sure which it is, so I'll flag it as urgent and if it's the state's, we'll pass it along ourselves so you're not chasing it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:47-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, because I'd like somebody to actually do it. It's been three days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Sorry it's dragged on. Do you want a call back when someone's looked at it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:19:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It's 401-555-0160."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one six zero, got it. Ellen Thurston, right? T-H-U-R-S-T-O-N?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:04-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Two T's, no, one T. Thurston. Yes, that's right, I'm sorry. I'm a little distracted, I'm in the kitchen, well, I'm home now, and I'm making dumplings. My aunt always made them and she's handing the whole thing over to me, so I'm picking it up. My hands are covered in flour, I'm on speaker."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. Sounds like a good project. Okay, I've got the report in as urgent for the morning crew to look at."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:31-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The morning. Not tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tonight it's mostly emergencies, so first thing tomorrow is the realistic one. If the water's rising into the road itself, call 911."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I'll hold you to the morning. Thank you, Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T18:20:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. Have a good night."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T18:17:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T18:17:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T18:17:32-05:00",
+        "end": "2026-01-13T18:20:48-05:00",
+        "duration_seconds": 196,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T18:17:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T18:17:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T18:17:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T18:17:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T18:17:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

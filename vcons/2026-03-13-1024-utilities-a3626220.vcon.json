@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a3626220-e189-8130-88ce-f25aa8490d45",
+  "created_at": "2026-03-13T10:28:29-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Antonio Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:19-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and sewer billing, this is Tony. How can I help you this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:25-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, yes, good morning. Sure, thanks for picking up. I'm calling about my water bill. It's way too high, and I had a pipe break, so I wanted to ask about a leak adjustment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:39-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. A broken pipe, that'll do it. Let me get your account up. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:46-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, it's 217 Carroll Avenue. Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:50-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 217 Carroll. And your name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:55-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Antonio Correia. Yep, that's right, sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:24:58-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Mr. Correia. So tell me what happened with the pipe."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:25:03-04:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. So the line going to the washing machine, it split inside the wall. Ran for I don't know how long before we saw it. I got the plumber in, he fixed it, I have the invoice and everything. And then this bill shows up, and it's, like, triple. I mean, come on."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:25:24-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a lot of water going through a meter. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:25:32-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, I've got the paper bill right here in my hand. Hold on. It says, uh, billing date February twenty-seventh. And the due date is, um, March twenty-eighth. I think. Yeah, March twenty-eighth."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:25:45-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. So that's the bill we're looking at. What I see is your usage jumped on that reading compared to your normal quarter. That fits with a leak."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:25:56-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, sure, exactly. So is there an adjustment? Because it's not like I was using it. The water went into the wall and down the drain, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:26:07-04:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a leak adjustment process, yes. Generally, when the leak is from a broken pipe and it's been repaired, the city can look at reducing the part of the bill that's the extra usage. You'd send in the plumber's invoice or a receipt showing the repair, and the account gets reviewed. I can't tell you the amount over the phone, that's decided on review."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:26:31-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, sure. So I just need the invoice. Do I email it, or bring it in, or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:26:39-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it to City Hall or mail it in. Put your account number and the address on it. If you want, I can note on the account that you called and a repair is documented."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:26:53-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, absolutely. That'd be great. And, um, one more thing. Do I have to pay the whole bill while it's under review? Because honestly I'd rather not pay triple for water I never used."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:27:07-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd recommend paying at least what you normally owe, and I'll put a note on it so the review is flagged. Once the adjustment is processed, any difference gets credited."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:27:19-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, okay. Alright. Now, I'm at work till late today, so I won't make it to City Hall before you close. If I drop a payment in the box tonight, does that count as on time? Like, is it counted as paid today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:27:36-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we have a payment drop box outside City Hall. Anything in there gets picked up the next business day, but it's counted as received by the date you put it in, so you're fine. Just put a check in with your account number on it, no cash. You can also pay online with the account number, any hour."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:27:58-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure, perfect. The box tonight then. Of course. Honestly, I'm annoyed about the bill, but I love how friendly everyone is on the island. Every time I call somebody's nice."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:28:10-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, thanks, I appreciate that. We try. So I've put the note on 217 Carroll. Send that invoice in when you can and we'll get it in front of the reviewer."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:28:22-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. Will do. Thanks, Tony. Have a good one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-13T10:28:26-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Correia. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-13T10:24:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-13T10:24:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-13T10:24:19-04:00",
+        "end": "2026-03-13T10:28:29-04:00",
+        "duration_seconds": 250,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-13T10:24:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-13T10:24:19-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-13T10:24:19-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-13T10:24:19-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-13T10:24:19-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

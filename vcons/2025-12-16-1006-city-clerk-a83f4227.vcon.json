@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a83f4227-1a56-8095-91cb-b70b121d053b",
+  "created_at": "2025-12-16T10:09:44-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Moira Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T10:06:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:06:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, and thank you for taking my call. My name is Moira Flynn. I would like to open a small shop, and I am not certain what I need. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:06:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, how exciting! Okay, so a shop. What kind of shop are you thinking, Ms. Flynn?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:06:52-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, thank you. Well, it would be a little shop selling secondhand linens and some china. Is that a business license, or is it a permit? I am afraid I do not know the difference. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:07:04-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question, a lot of people mix those up. For a retail shop you'd generally be looking at a business license through our office, and there may be a separate sign-off depending on the location, like zoning or inspections. Do you have a storefront picked out?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:07:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet, no. I thought I should do the license first, and then find the place. Is that the correct order? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:07:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, honestly, most folks get the space lined up first, because the license usually goes with a specific address. But I can walk you through the forms now so you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:07:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. I see. I had it backwards, then. Thank you. And what forms would those be? I had understood there was one form, but my neighbor said two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:07:46-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your neighbor may be right. There's the application itself, and sometimes a second form for the type of business. I'd have you pick them up here so you get the right set. They're also at the counter at City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:07:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the fee, please? Is that paid when I hand in the form, or after they approve it? I am sorry, I am not sure how it works."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:08:08-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fee depends on the kind of license, so I don't want to give you a number that's wrong. When you come in, the counter staff will tell you the exact amount, and you normally pay when you submit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:08:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So, the fee is at the counter. Thank you. And what should I bring with me, in person? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:08:27-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring a photo ID, the address of the shop if you have it, and a lease or something showing you can use the space. If you have a name for the business, bring that too. A checkbook or card for the fee is smart."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:08:41-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A lease. Yes. Thank you. Now, I should say that I do not drive much, only my old minivan, and the sliding door sticks terribly. So I may need to take a bus. Is it a long walk from the stop? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:08:54-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, those sliding doors, they love to stick in the cold! The bus can get you pretty close to City Hall, and it's only a short walk from there. Take your time, we're open weekdays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:09:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is very kind. Thank you. So, to repeat it: the license comes after I have the space, and I bring identification and the lease. And the second form, is that the one for the zoning? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:09:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close. The zoning piece isn't always a form you fill out, it can be a check on the address. The counter will tell you if you need it. Don't worry, you'll be walked through it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:09:28-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Then I am still a little unsure, but I will go in and ask. Thank you very much, Sandra. I appreciate your patience. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:09:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Ms. Flynn. Good luck with the shop, and have a lovely day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T10:09:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You as well. Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T10:06:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T10:06:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T10:06:32-05:00",
+        "end": "2025-12-16T10:09:44-05:00",
+        "duration_seconds": 192,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T10:06:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T10:06:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T10:06:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T10:06:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T10:06:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

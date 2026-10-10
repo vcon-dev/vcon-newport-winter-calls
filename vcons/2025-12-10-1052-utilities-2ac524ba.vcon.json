@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2ac524ba-3909-86eb-ba04-7efb592bd986",
+  "created_at": "2025-12-10T10:56:35-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Mei Singh",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-10T10:52:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:52:07-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. This is Mei Singh. I'm calling about my water and sewer bill, because it came and it's for three months, a whole quarter, and I don't understand why it's a quarter. I thought it was monthly. Is that okay? Is it supposed to be like that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:52:25-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Ms. Singh, water and sewer accounts here are billed quarterly, so each bill covers roughly three months of usage. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:52:36-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, I do, I have it right here. And it's a big number. Bigger than I expected, honestly. So the dates on it, how do you count them? Because it says, um, September something through December something, and I want to know how that's counted. Like where does it start and where does it stop?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:52:56-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The period runs from the date of the previous meter reading to the date of the most recent reading. So it's not calendar quarters exactly. Can you read me the two dates printed under service period?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:53:10-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it says September ninth to December eighth. So that's, what, ninety days? Ninety-one? I counted it twice and I keep getting a different number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:53:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "September ninth to December eighth is ninety days. The consumption is the difference between the two meter readings across that span."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:53:28-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. But see, that's the thing. The usage looks high to me. I'm one person. I'm just me in the apartment. And I had a plumber out in, um, early November, for a leak under the kitchen sink. So I'm thinking, is that in there? Could that be why? I kept the receipt, by the way, I have it, it's in the folder."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:53:51-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's good that you kept it. A leak before the meter would show up as usage, yes, so a repair in that window could be part of it, or a running toilet, anything like that. Do you know if the leak was constant?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:54:07-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It was dripping all the time, yeah. Slow, but all the time. So it's probably in there. But I don't think it's fair to charge the whole thing, you know? I fixed it right away. It's okay to ask about that, right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:54:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's absolutely fine to ask. I can note the account with the repair date and the receipt, and the billing supervisor can review whether an adjustment applies. I can't tell you the outcome myself, but I can get the request in front of them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:54:39-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good, because honestly I'm a little irritated. A quarter, and nobody explains it, and then it's this much. Can you put all of that in writing? The explanation, the dates, how they're counted? I want something I can keep."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:54:54-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can send a written explanation of the billing period and the reading dates. I'll need a mailing address on file to confirm. Is it the same as the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:55:06-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, same one. It's on the account already. I just, I don't want to give it out over the phone on a cell, if that's okay, since you have it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:55:17-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I can see it on the account. And should I use this number for a callback if the supervisor has questions?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:55:26-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's four oh one, five five five, zero one six eight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:55:31-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four oh one, five five five, zero one six eight. I'll also mention in the notes that you have the plumber's receipt. When you get a response, you can send a copy or bring it by."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:55:45-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll make a copy. Honestly I've been meaning to go through all my paperwork anyway. My New Year's plan is to finally clean out the closet, the one where everything goes, so this will be the first thing in the neat pile."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:56:01-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a good start. So to recap, I'm sending a written explanation of the quarterly billing and the September ninth to December eighth period, and I'm requesting a review for the leak repair."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:56:14-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. And the writing part, you're sure that's going to happen? Because I really want it on paper."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:56:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'm entering it now. You should see it in the mail within a week or so."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:56:29-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Priya. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-10T10:56:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Singh. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T10:52:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T10:52:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-10T10:52:03-05:00",
+        "end": "2025-12-10T10:56:35-05:00",
+        "duration_seconds": 272,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-10T10:52:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-10T10:52:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-10T10:52:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-10T10:52:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-10T10:52:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

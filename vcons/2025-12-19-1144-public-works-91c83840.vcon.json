@@ -1,0 +1,703 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "91c83840-6e41-8e8b-b00a-76fc06e91a06",
+  "created_at": "2025-12-19T11:54:22-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Carmen Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-19T11:44:29-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:44:35-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. I'm calling about the storm drain in front of my house. It's been, I don't know, it's just not right. It's gurgling, and there's this sewer smell coming up out of it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:44:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that. Let me get some details. What's the address where the drain is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:44:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "151 Dixon Street. In the North End. It's the drain right at the curb in front of my place, a little toward the corner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:45:10-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "151 Dixon Street, North End, drain at the curb in front of the house. And you said it's gurgling and smells like sewage?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:45:21-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Gurgling like something's stuck down there, and then the smell comes up in waves. Yesterday after the rain ended it was bad, and it's worse this morning. This is after that soaker that ended Thursday, yesterday. It rained for two days straight and the thing never drained right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:45:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that rain started Wednesday and went into Thursday. Is there water standing in the street right now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:45:52-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's water coming up and running down the street, and it's heading toward my neighbor's garage. The Dixon side, the one down the hill from me. It's moving along the curb and there's a low spot at their driveway. I walked down and looked, and it's collecting right at the garage door."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:46:15-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So water is coming out of the drain, running downhill, and pooling at your neighbor's garage door. Is it getting inside the garage, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:46:27-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet that I can see. It's right up against the door though. I knocked, nobody answered, so I don't know if they're at work. I don't want to see it go in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:46:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'm going to note that as urgent because of the garage. Now, has this drain given you trouble before?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:46:51-05:00",
+      "duration": 26,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, it backs up every time we get a real rain. Every time. I've been here a while and it's the same story. Somebody comes, maybe, and then it's the same thing a few weeks later. Which is why I want to know when they last came by. When was the last time anyone from the city cleaned that drain?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:47:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question. Let me look at the records for Dixon Street. Can you hold on a minute while I pull that up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:47:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll hold."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:47:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks for waiting. I'm looking at the system now. Give me one second more, it's slow this morning."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:47:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. It's been slow for years, I'm used to it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:47:45-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm not finding a clear cleaning entry for that exact drain. I see some general work noted on that stretch, but nothing I can tie to the one in front of 151. So I can't tell you a date for that drain, I'm sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:48:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that means nobody's been, or nobody wrote it down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:48:10-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be either one, honestly. What I can do is put in a work order for the crew to go out and look at it and clean it, and I'll ask that they note the date in the record when they do."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:48:29-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Because I'm telling you, it's not just the water. The smell is awful. You open the front door and it's right there. I've got the kitchen window cracked in December and I had to shut it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:48:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds miserable. When you say the smell, is it more like sewage, or more like a swampy, damp smell?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:48:55-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sewage. No question. It's not swamp."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:48:58-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll put sewer odor on the order, because that may mean a different crew needs to look. Let me read back what I have. 151 Dixon Street, North End, storm drain at the curb in front of the house. Gurgling, sewage smell, water coming up and running downhill toward the neighbor's garage. After the rain that ended yesterday. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:49:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. And put that it happens every time it rains hard. That it's not a one-time thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:49:34-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Recurring, every heavy rain. And a question for you, is the water clear, or does it look dirty?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:49:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's brownish. Some leaves and, you know, grit coming up with it. And a little bit of a film on top."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:49:53-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Brown water with leaves and debris. I'll add that. Can I get a callback number in case the crew needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:50:04-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0169. That's the house line. I'm here most of the day today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:50:11-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-nine. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:50:14-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Carmen Mejia. M-E-J-I-A."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:50:16-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Carmen Mejia, M-E-J-I-A. Thank you. So, as for timing, since it's Friday and there's water heading for a garage, I'm flagging it for the first crew available. Realistically that could be today, or it could slide to early next week if they're tied up with other drains from the storm."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:50:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Early next week. That's what I'm worried about. By Monday it could be in that garage. And then who do I call?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:50:48-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If water actually gets into the garage, or if it turns into a safety problem, call us right back and tell whoever answers that you already have an order open. I'll put my notes on it so they can see it's been escalated."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:51:07-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I appreciate that. I'm sorry if I sound short with you. I'm not mad at you. I'm mad at the drain, and the city for not dealing with it. It's the same thing every time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:51:23-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I understand. You've been dealing with it a long time and nobody can tell you when it was last cleaned. That's frustrating, and you're entitled to a straight answer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:51:37-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I'll be honest, I'm trying to get some writing done today and I can't concentrate. I write short stories, just for me, and I've been stuck on an ending for a week. I sit at the kitchen table and the smell comes in and I think, forget it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:51:59-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, well, that's no way to work. Hopefully we can clear the air, literally, and you can get back to it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:52:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "From your mouth. Honestly, I could use the ending. The characters are all standing around and I don't know how to get them out of the room."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:52:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maybe have them go look at a storm drain. [pause] Sorry, that was a bad joke."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:52:29-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's not bad. That's about where I am."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:52:34-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me finish up here. I have the work order in for the Dixon Street drain with the notes about the sewer smell, the water running to the neighbor's garage, and the recurring problem. I've also put in a request that the crew record when they clean it, and that someone call you with that information."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:52:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because I do want that date. If it was two years ago, I want to know. If it's never, I want to know that too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:53:11-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note that you're asking for the last service date specifically, so it doesn't get lost."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:53:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the neighbor. Should I try to tell them, or will the city?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:53:25-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd go ahead and leave them a note or try again later, if you don't mind. The crew will be focused on the drain. If they happen to be home, they might want to move anything stored near the garage door."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:53:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll put a note in their door. They've got boxes in there, I think, along the wall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:53:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good idea. Anything else I can help you with today, Ms. Mejia?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:53:59-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Just please get somebody out there. I don't want to call again about the same drain."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:54:08-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. It's in, and I've marked it urgent. Take care, and I hope the story gets its ending."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:54:17-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Lorraine. Bye now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-19T11:54:20-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T11:44:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T11:44:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-19T11:44:29-05:00",
+        "end": "2025-12-19T11:54:22-05:00",
+        "duration_seconds": 593,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-19T11:44:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-19T11:44:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-19T11:44:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-19T11:44:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-19T11:44:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

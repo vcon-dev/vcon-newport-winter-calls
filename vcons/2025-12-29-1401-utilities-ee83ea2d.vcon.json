@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ee83ea2d-8491-8529-b2fa-417a43a3de53",
+  "created_at": "2025-12-29T14:09:24-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rachel Patel",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T14:01:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and Sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:01:36-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. Rachel Patel. I'm calling about the water bill at 351 Dean Avenue. I'm renting there, but the bill comes to me, and this one is higher than it's ever been. Honestly I'm kind of sick of getting these."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:01:59-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry about that. Let me pull up the account. Can you confirm the service address once more and spell your last name for me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:02:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "351 Dean Avenue, that's up in the Fifth Ward, off the boulevard. Patel, P-A-T-E-L."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:02:21-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have it here. Give me a moment to look at the billing history."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:02:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Take your time. I've got nowhere to be, apparently, besides the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:02:39-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I see the most recent bill, and it does cover a longer stretch than the previous one. Did you receive a paper bill in the mail?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:02:55-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did, but it got wet. It was in the mailbox out there, the lid doesn't shut right, and the whole thing is a mess. I can't read half of it. So can you just email me a duplicate copy?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:03:18-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can send a duplicate by email. What address would you like it sent to? Please spell it slowly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:03:30-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it's rachel dot patel dot newport, all one word after the dot, at a mail dot com. Wait, no. Just patel newport, no first name. Sorry. Rachel is not in it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:03:48-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's P-A-T-E-L, then N-E-W-P-O-R-T, at a mail dot com?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:03:54-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. That's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:03:57-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll send that today, and it should arrive within the hour or so. It will show the meter readings and the dates of the billing period."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:04:13-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because I want to see what they're charging me for. I'm one person in the apartment half the week. My daughter's with her dad Tuesday through Thursday. How does that run up so high?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:04:33-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The readings will tell us. If the usage looks unusual, a leak is the most common cause. Toilets that run, or a dripping faucet. Have you noticed any of that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:04:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The toilet runs sometimes. You jiggle the handle. I told the landlord once, maybe twice."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:04:59-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could account for it. A running toilet can use a surprising amount of water over a month. I'd suggest asking the landlord to have it repaired, and I can note on the account that you've questioned this bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:05:21-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Note it. And while I've got you, is there any kind of discount? For low income, or seniors? I'm in my fifties, so not quite, but my mother lives with us sometimes and she's past seventy, and money's tight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:05:44-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a discount program I can confirm for you on this line. I can transfer you to the customer service supervisor, or take your name and number so someone can call you back about assistance options."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:06:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just have somebody call me back. Four oh one, five five five, zero one seven four."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:06:15-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one seven four, got it. I'll put in the request and mention both the elderly household member and the income concern."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:06:28-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Now, the other thing. I work during the week, and I can't get here to City Hall in the daytime. Can I pay on a Saturday? Is anybody there? Or is there some way to do it when you're closed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:06:51-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The office isn't open on Saturdays. But there are other ways. You can pay online at any hour, and there's a drop box outside City Hall for checks that you can use anytime."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:07:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. Like, I just put the check in and that's it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:07:18-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Write your account number on the check and include the stub from the bill if you have it. Since yours got wet, the duplicate I'm sending will have the account number on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:07:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And online, I need to make an account or something?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:07:44-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The payment page will ask for your account number and the service address. The emailed bill will have what you need, so you can pay on Saturday, Sunday, whenever it suits you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:08:02-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. That I can do. Sorry, I'm a little short with you. It's not you. It's the bill. And I've got to be somewhere at four. My kid's got a school play, she's a talking cloud. She has two lines and a costume the size of a refrigerator."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:08:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds wonderful. I hope it goes well. Before you go, is there anything else on the account I can look at?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:08:42-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. You're sending the copy, you're putting in the call back, and I'll look at the toilet thing. Oh, and when is it due?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:08:58-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The due date will be printed on the duplicate. I'd rather you read it from the bill than have me say it wrong. If you have trouble finding it, call me back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:09:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Priya. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T14:09:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Patel. Enjoy the play."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T14:01:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T14:01:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T14:01:29-05:00",
+        "end": "2025-12-29T14:09:24-05:00",
+        "duration_seconds": 475,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T14:01:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T14:01:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T14:01:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T14:01:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T14:01:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

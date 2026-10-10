@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a613f083-d0f7-8e31-908a-32ab667f2ef7",
+  "created_at": "2026-02-10T12:08:03-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Joao Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T12:04:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:04:56-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. My name is Joao Correia. I have a water and sewer bill here and I have some questions written down, so bear with me. I'm on speakerphone, I hope you can hear me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:05:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you fine, Mr. Correia. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:05:12-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. First, the bill covers a quarter. Ninety-some days. Why is it a quarter, and how are the dates counted? The service period starts on one date and the reading is on another, and they don't line up with the calendar months. I would like that explained."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:05:28-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. So the city bills quarterly, every three months or so. The service period runs from the last meter reading to the current one. Readings don't always happen on the first of the month, they go by route, so the dates can shift a few days either way. That's why it doesn't match the calendar exactly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:05:47-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the number of days can change from bill to bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:05:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A little, yes. Eighty-nine one time, ninety-three the next. It's the same meter, just when the reader got to it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:05:59-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Well, here is my real problem. Last year my winter bills were much lower. I have the numbers here. Same quarter last year, it was well under what I'm being charged now. Nothing changed in my house. Same people, same habits. I think this is high."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:06:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Do you know what the usage reading says on this one compared to last year's? It should show the consumption in units."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:06:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it right here. It is up, quite a bit. That is why I am calling. Something is off with that reading, in my opinion."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:06:33-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What I can do is put in a request for a meter re-read, and someone can check it against the number on your bill. If there's a leak on your side, like a running toilet, that can do it too, and that wouldn't show up at the meter as a mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:06:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A toilet, I checked already. Fine. Put in the re-read, please. You have my number? It's 401-555-0162."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:06:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0162. I'll note that. Someone will call you to set it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:01-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. One more thing. [pause] Sorry, that beeping, that is the dryer, it finished. I'll get it after. My other question is paying. If I can't get to City Hall during the day, is there a drop box there for payments after closing time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a drop box at City Hall for payments. Check or money order with your bill stub, and put your account number on the check. You can also pay online anytime, if that's easier."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:28-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I prefer the box. Is it emptied every day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's collected on business days, so anything you drop Friday night gets picked up Monday morning. It still counts as received when it's collected, so don't leave it to the last minute."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I will wait on paying until the re-read, then, but I will pay whatever is correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds reasonable. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all on my list. Thank you, Mr. Ferreira."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:07:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon, and go save your dryer."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:04:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:04:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T12:04:52-05:00",
+        "end": "2026-02-10T12:08:03-05:00",
+        "duration_seconds": 191,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:04:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T12:04:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T12:04:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T12:04:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T12:04:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

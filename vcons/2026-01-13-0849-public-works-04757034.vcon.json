@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "04757034-7567-8d82-8ba2-bcc9127471cb",
+  "created_at": "2026-01-13T08:50:54-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Peter Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T08:49:54-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:49:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Morning. My mother's recycling bin got left with a tag on it saying it was rejected, and I need to know when the next pickup is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can help with that. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:09-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "340 Pelham Street. [line breaks up] up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, you broke up on me. Was that 340 Pelham Street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:17-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, 340 Pelham. Sorry, my reception's bad in here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. The tag usually says why it was rejected, like the wrong items mixed in or a bag inside the bin. Does it give a reason?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's got a box checked, [inaudible] plastic bags, I think. Not sure. I'll take it a look again."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:34-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the common one. Loose items only, no bagged recycling. And with the storm Friday into Saturday, schedules got pushed a bit. Let me check your route. [pause] Your next recycling pickup is this Friday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:44-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This Friday. Okay. I'll pull the bags out and put it back out Thursday night."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, by Thursday night or early Friday morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T08:50:52-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T08:49:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T08:49:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T08:49:54-05:00",
+        "end": "2026-01-13T08:50:54-05:00",
+        "duration_seconds": 60,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T08:49:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T08:49:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T08:49:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T08:49:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T08:49:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

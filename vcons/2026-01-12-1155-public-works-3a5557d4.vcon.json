@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3a5557d4-a654-8917-a7cb-b82db1fe1e3c",
+  "created_at": "2026-01-12T11:56:01-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Carlos Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:01-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:04-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. I have a, um, a thing to report. I wrote it down, so I read it. Okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:10-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, take your time. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The sidewalk is broken. It has heaved up, like a hill. I tripped on it on Sunday. The location is 398 Gidley Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "398 Gidley Street. Okay. Are you all right? Did you get hurt?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am okay, thank you. Only my knee, a little. Also, there is a hole next to it. After the storm that ended Saturday, it is full of water. You cannot see it. It is hard to see."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:32-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So a heaved sidewalk and a hole beside it, filled with water, at 398 Gidley. I'll put that in as a hazard so a crew looks at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:40-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, that is right. Could I have a reference number, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Hold on one second while it generates. [pause] Okay, it's coming up. Do you have a pen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have the pen. Oh, it is almost noon already. On the phone the time goes so fast."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T11:55:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It really does. Okay, I'll read it slowly, and I'll repeat it back to you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T11:55:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T11:55:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T11:55:01-05:00",
+        "end": "2026-01-12T11:56:01-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T11:55:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T11:55:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T11:55:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T11:55:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T11:55:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

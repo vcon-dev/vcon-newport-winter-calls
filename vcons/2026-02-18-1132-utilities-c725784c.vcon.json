@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c725784c-22c4-8972-b6bf-e3c428abf679",
+  "created_at": "2026-02-18T11:35:10-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Gerard Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T11:32:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities, water and sewer billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, Tony, Gerard Dolan. I'm calling about a water bill that came to me and I don't think it's mine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, what's the service address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three-sixty Van Zandt Avenue. That's where I live, I rent there. Well, the landlord says I owe the water. He says the tenant pays it. Is that right? Whose is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull it up. The bill goes out under the property owner's name usually, and what the tenant pays is between you and the landlord, unless your lease says you pay it. Do you have a lease?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:33-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I got a lease somewhere. Oh, and by the way, I own a two-family over on the other side too, so I get bills there. That's where I'm mixing it up. I had the two envelopes on the table and I may have paid the wrong one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:48-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. So you've got two accounts. Which address did the payment go toward, do you remember?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:33:54-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If I knew that I wouldn't be calling. I wrote the check, sent it, and now this one says past due. Wicked annoying."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:02-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Give me a second, I'll look at both. [pause] Okay, the Van Zandt account is in the owner's name, not yours, and it shows a balance. Your payment landed on the account for your own property. So nothing's lost, it just got applied to the wrong place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the landlord owes it, then. Not me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The city bills the owner. If your lease makes you responsible, that's a separate conversation with him. I'd check the lease wording."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:29-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I'll look. Now, can I pay on a Saturday or Sunday? I'm not running down there on a weekday, I've got a family reunion to organize for next summer and my days are shot."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall's closed weekends, but there's a drop box outside for payments, and you can pay online any time, Saturday, Sunday, middle of the night."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online. Okay. I'll have my daughter-in-law, never mind. I'll figure it out. And you'll fix the misapplied payment?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:34:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put a note on both accounts and send it to the billing team to move it over. Can I get a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:04-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0180."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Have a good afternoon, Mr. Dolan."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:35:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, thanks, Tony."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:32:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:32:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T11:32:55-05:00",
+        "end": "2026-02-18T11:35:10-05:00",
+        "duration_seconds": 135,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:32:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T11:32:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T11:32:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T11:32:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T11:32:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

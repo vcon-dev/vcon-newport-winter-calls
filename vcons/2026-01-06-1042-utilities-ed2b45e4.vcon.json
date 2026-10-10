@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ed2b45e4-46a5-8bde-88c2-cc58ce6982a0",
+  "created_at": "2026-01-06T10:46:28-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Brendan Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T10:42:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:42:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, good morning. Brendan Flynn. I got a water and sewer bill that's wrong. The usage is way too high."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:42:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that. Do you have the account number in front of you, or the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:42:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got the bill here. Hold on. [pause] Okay. Account ends in 4417."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:42:54-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Give me a moment to pull that up. And what's the concern with it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:01-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was out of town six weeks. Nobody was in the unit. Water should be close to nothing. The bill shows a big number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:10-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Let me look at the reads. I'm showing the current read at, um, a fairly high number compared to the previous quarter. Was anyone staying there while you were away?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Empty. Well, hang on. Let me check the name on this. [pause] This might be the other property."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You have more than one account with us?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two. I own two buildings. I picked up the wrong bill, I think. The one I was away from is the other one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Which one are you looking at right now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The one ending 4417. That one has tenants. They were home the whole time. So that high usage might be right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:43:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the account you were concerned about, the vacant one, would be a different number. Do you have that bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not in front of me. It's in the truck. Hang on, I'm on the road, I'm not at the house. Hold on. There's a school bus stopped ahead of me. Flashing lights."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, take your time. Stay put until it's moving."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Not going anywhere. [pause] Okay. Still stopped. Can you look it up by name instead?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can search by the owner name. Flynn, F-L-Y-N-N?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:31-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two Ns. That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:33-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, I have two accounts under that name. One ends in 4417, and the other ends in 2096. Does 2096 sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. 2096. That's the one I was away from."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:46-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me look. For 2096, the last read shows usage that is much higher than the quarter before. That's a lot for an empty unit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:44:56-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I'm saying. Six weeks nobody there. It should be low."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:01-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. A few things could cause that, like a running toilet or a leak, or the read could simply be wrong. I can't tell from here which it is. I'll flag the account for a re-read of the meter and ask that the bill be reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And I want a corrected bill mailed to me if it's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Once the review is done, if there's an adjustment, a corrected bill will be mailed to the address on the account. Is the mailing address the same as the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:36-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Mail goes to my house. It's what you have on file. Don't change it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:42-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll leave it as is. In the meantime, should somebody check for a leak on your end? A quick look at the meter with everything off would tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:53-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll have somebody go look at it this week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:45:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. If the meter is moving with everything off, call us back and note that on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:46:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The bus is moving now. I got to go."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:46:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Is 401-555-0183 still the best number for you, in case the meter reader has questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:46:15-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:46:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I've noted the review on 2096 and the corrected bill by mail. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:46:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:46:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Flynn. Drive safely."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T10:42:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T10:42:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T10:42:27-05:00",
+        "end": "2026-01-06T10:46:28-05:00",
+        "duration_seconds": 241,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T10:42:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T10:42:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T10:42:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T10:42:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T10:42:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

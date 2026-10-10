@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e1e986ba-3909-815a-9d03-8a2a1a61c810",
+  "created_at": "2026-02-05T12:23:55-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Helena Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T12:19:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:19:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes. My name is Helena Correia. I need to renew a victualler license. The food one. I have had it for some years."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:19:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Correia, a victualler license renewal. I can help with that. Let me just, um, pull up what we have. Can you tell me the address where you operate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:19:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 116 Gidley Street. In the Fifth Ward. I do the baking there, in the kitchen at the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:20:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. One-sixteen Gidley Street. Got it. And you're looking to renew for this year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:20:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The paper came in the mail, I think. Or I put it somewhere. I do not know if the form is the same one as last year. Did the form change this year?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:20:21-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Let me look at that. [pause] So I see a renewal application here, and I believe there are a couple of updated lines on it, mostly about the contact information and the type of food service. If you have last year's copy it will look a little different. Best to use the new one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:20:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A different form. So I cannot use the old one that I filled out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:20:47-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, I'd go with the new one. I can email it to you, or mail it, or you can pick one up here at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:20:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not have the email. Well, my daughter has it. I do not use it. You can mail it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can mail it. Is the mailing address the same as Gidley Street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:10-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The same. Gidley Street. One-sixteen."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:13-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I've got that noted."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:16-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What is the fee? For the renewal. Is it the same as last year? I wrote down a number but I do not know if it is the right number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:27-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the fee is listed right on the renewal form, and I don't want to read you the wrong figure off the screen, because it can depend on the type of license. Once the form gets to you it'll be printed there. If you want, I can have someone in the office call you back with the exact amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:48-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The amount depends on the type. I have the one for a home kitchen. Is that a type?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:21:55-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Home kitchen, yes, I think that would be noted on your existing record. So the form will have the line for it. Let me just check your record, one moment. [pause] Yes, it shows you as a current holder, so it'll be a renewal and not a new application."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:22:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A renewal. Good. I thought maybe it was new because the form is new."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:22:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, you're still a renewal. The form just got updated."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:22:23-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Then I will wait for the mail. I have to say, I am busy Wednesdays. My ex lives nearby, a few streets over, and the kids switch houses on Wednesdays. So I am not able to come in on that day. If I need to bring it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:22:41-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, Wednesday won't matter. You can bring it in any other weekday during office hours, or mail it back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:22:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it back. With a check?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:22:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a check with the form is fine. Just make it out as the form instructs. It'll say right on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:00-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It will say on it. And the fee will be on it too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. And if the amount isn't clear when it arrives, call us back and we'll go through it with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Should I give you my phone number for the callback, for the amount?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:19-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 401-555-0174."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-seven-four. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:26-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:28-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll put the note in. Someone will call you with the fee, and the new form goes out in the mail to Gidley Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the form is new, I am a renewal, and the fee you will tell me. I think I have it now. A little."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Thank you. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T12:23:52-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Correia. Take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T12:19:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T12:19:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T12:19:30-05:00",
+        "end": "2026-02-05T12:23:55-05:00",
+        "duration_seconds": 265,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T12:19:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T12:19:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T12:19:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T12:19:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T12:19:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

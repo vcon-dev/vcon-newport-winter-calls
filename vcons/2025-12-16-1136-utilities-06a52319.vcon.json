@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "06a52319-1a93-88b6-91f7-96b2542206d1",
+  "created_at": "2025-12-16T11:38:05-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rosa Ortiz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T11:36:57-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:36:59-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, Rosa Ortiz. So last Tuesday a water bill came in the mail, and I'm at 111 Spring Street, and it's for three months. A whole quarter. I'm used to monthly where I lived before."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, we bill quarterly here. What's the question on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I looked at it Wednesday, and the dates run from like September to early December, and I'm trying to figure out how you count those days. Is it the day you read the meter, or the day you mail it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the meter reading dates. The period starts at the last read and ends at the new one. The mailing date comes after that, so it's always a little behind."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:34-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And there's this word on it, consumption. Honestly, what does that mean? I'm standing here at the paint counter at the hardware store waiting on a mix, so I've got a minute."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:44-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Consumption is just the amount of water you used between those two readings. The difference between the old number and the new number on the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:52-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not a charge, it's the amount."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the amount. The charges get figured off of it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:37:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I don't want anything changed, I just wanted it explained. Fine. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:38:03-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Enjoy the paint."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:36:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:36:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T11:36:57-05:00",
+        "end": "2025-12-16T11:38:05-05:00",
+        "duration_seconds": 68,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:36:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T11:36:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T11:36:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T11:36:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T11:36:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

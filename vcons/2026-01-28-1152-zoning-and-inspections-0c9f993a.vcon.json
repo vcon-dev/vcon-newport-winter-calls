@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0c9f993a-780b-85ea-918e-237f3b519123",
+  "created_at": "2026-01-28T11:56:40-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Luz Salazar",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T11:52:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:52:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Yes, my name is Luz Salazar. I am calling about a permit for a deck. Is this the right office?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:53:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is, yes. Deck permits come through us. Tell me a little about what you're planning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:53:10-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. I want to build a second-story deck on the back of the house. Off the upstairs, so it is up high. And I want to ask about the railing. How high the railing must be."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:53:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. And just so I have it right, this is a deck attached to the house, on the second floor, not a ground-level patio?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:53:31-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, attached to the house, second floor. Not on the ground. So, a deck, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:53:37-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. For a raised deck like that, the code sets a minimum guard height, and it also limits how far apart the balusters can be. The exact numbers are in the residential code, and the plans reviewer will go over them with you when you apply. I'd rather you get them from the code book or the reviewer than from me over the phone, since they matter for the design."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:54:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So the height is in the code, and the reviewer will tell me. Where can I look at the code, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:54:08-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can come to the counter here at City Hall and look at it, or when you submit your drawings the reviewer will mark anything that needs to change. Do you have drawings yet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:54:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet. Not yet. I only have an idea and some measurements. Can I ask another thing? Must a licensed contractor apply for the permit? Or can I apply myself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:54:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Are you the owner of the property, and would you be living there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:54:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I am the owner. The address is 393 Mill Street, on the Historic Hill. We live there, and I also have a business, but this is for the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:54:46-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 393 Mill Street. Generally an owner who lives in the house can apply for their own permit and do certain work themselves, but if you hire a contractor, that contractor needs to be properly licensed and registered in the state. And because you're in the Historic Hill area, there may be an extra review for anything visible from the street. A rear deck might not be, but it's worth checking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:55:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I can apply myself if I live there. If I hire someone, then the contractor must have the license. And the Hill may have another review. Did I say that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:55:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. I'd let the zoning side tell you about the historic review once they see where the deck sits."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:55:27-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. And how long does it take, the permit? I am asking because my husband's parents are staying this weekend, so the house is full, and I am not able to come in until maybe next week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:55:40-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, there's no rush on coming in. Timing depends on how complete your drawings are. If they're complete it moves along, if the reviewer has questions it takes longer. Bring a site sketch showing the deck size, how high it is off the ground, how it attaches to the house, and the railing details."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:55:58-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Site sketch, size, height from the ground, how it attaches, railing details. Okay. I write it down. Is there a form I bring?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pick up the building permit application at the counter, or I can have it ready for you. Are you coming in next week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:15-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, maybe Tuesday or Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'll leave an application at the front desk with your name. Luz Salazar, is that Luz with an L?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:25-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, L-U-Z. Salazar, S-A-L-A-Z-A-R. Thank you very much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:33-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, thank you for explaining. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T11:56:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T11:52:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T11:52:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T11:52:52-05:00",
+        "end": "2026-01-28T11:56:40-05:00",
+        "duration_seconds": 228,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T11:52:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T11:52:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T11:52:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T11:52:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T11:52:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

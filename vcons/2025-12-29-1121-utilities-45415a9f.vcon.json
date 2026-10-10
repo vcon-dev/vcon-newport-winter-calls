@@ -1,0 +1,631 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "45415a9f-31e3-81bf-aa1c-301631fa3fa6",
+  "created_at": "2025-12-29T11:26:42-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Daniela Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, hi. Sorry, give me one second, I'm, um, walking on the treadmill and I'm a little out of breath. I'm calling about my water and sewer bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:25-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it says right here, hold on, let me find it. [pause] Okay. Next to the usage it says, 'E'. And at the bottom, 'E indicates estimated read.' Estimated. I don't think anybody ever came to read my meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:39-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get your service address so I can pull up the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:45-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One sixty-two Ayrault Street. That's up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Daniela Pagan. P-A-G-A-N."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:21:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, one moment while I bring it up. [pause] Okay, I see the account. You're right, the most recent bill does show an estimated reading."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:22:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "See, that's what I thought. Because nobody has been by. I'd have noticed. Nobody's come in the basement, nobody's left a card on the door, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:22:15-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes the meter has a outside reading device, so they don't need to come inside. But the system flagged this period as estimated, which usually means the reading didn't come through."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:22:27-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's not a small number either. It's, hold on, [pause] it's higher than the last two. So I'm paying for a guess."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:22:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. An estimate is typically based on past usage, and the next actual read adjusts it. If the next one comes in actual, the difference gets corrected on that bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:22:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it evens out. Fine. But can somebody actually read it next time? Can you put a note or something?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:22:56-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can add a note asking that the meter be checked and read on the next cycle. I can also send a request to have it looked at in case there's an equipment problem."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please do both. That'd be good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Done, I've noted the account. Anything else on the bill itself?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:17-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. I need a duplicate copy. I'm looking at the paper one, but I want a copy emailed to me so I have it on my computer. Can you do that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Is there an email address on file, or would you like to give me a new one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:35-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I don't know what you have. Can you read it to me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:40-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can tell you it ends in a common mail provider, but I'd rather you just give me the one you want it sent to."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:23:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Hang on, I'm slowing this down. [pause] Okay. It's daniela dot pagan, at, um, the usual, gmail dot com. I think. Wait, no. Let me just say it simple, it's just my name, no dot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so your first name, then last name together, no dot, at gmail dot com?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:08-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Daniela, P-A-G-A-N. No, sorry, Daniela Pagan all one word. Yes. That."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll send the duplicate to that address. It may take a few minutes to arrive, so check spam if you don't see it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:22-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks. Now, other thing. I work during the day. I'm not home, I'm not at a desk where I can sit on the phone. If I want to pay this, can I pay in person at City Hall after four-thirty? Or in the evening?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The office counter closes at the regular close of business, so there wouldn't be anyone at the window after four-thirty."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I figured. Ugh. So what do I do, just take a lunch break and stand in line?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:24:53-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You have a couple of options. There's a payment drop box at City Hall that you can use outside of office hours. Just put in a check with your account number on it. And you can also pay online anytime, any hour, through the city's website."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:10-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, like at night? Like ten o'clock?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the online payment page is available around the clock. You'd need your account number from the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the drop box, is that, like, outside? Where is it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's outside the main entrance, so you can reach it in the evening or on a weekend. Just don't leave cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I'd do a check. Okay. And if I pay the estimated amount, and then the real read comes in lower, I get it back?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It would show as a credit on the account, applied to the following bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A credit. Not a refund."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, a credit toward your next charges, unless you ask for something different."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:25:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. It's just annoying. I'm paying for a number somebody made up. [pause] Sorry, I'm not mad at you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:04-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. I'll make sure the note about the meter read is clear so it gets looked at."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:11-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the email, you said a few minutes?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you should have it shortly. If it doesn't show up today, call back and we'll resend it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:22-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. My number's four-oh-one, five-five-five, oh-one-six-five, if somebody needs to reach me about the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-five. I've added it to the account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks, Priya. I'm going to stop and catch my breath now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-29T11:26:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take care, Ms. Pagan. Have a good rest of your day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T11:21:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T11:21:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-29T11:21:05-05:00",
+        "end": "2025-12-29T11:26:42-05:00",
+        "duration_seconds": 337,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-29T11:21:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-29T11:21:05-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-29T11:21:05-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-29T11:21:05-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-29T11:21:05-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

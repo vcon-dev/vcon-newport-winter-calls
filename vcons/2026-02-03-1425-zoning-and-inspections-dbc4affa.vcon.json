@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "dbc4affa-f730-8ece-8626-7512d3bdcf7a",
+  "created_at": "2026-02-03T14:26:41-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Doug Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-03T14:25:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:25:28-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes. I want to build a shed. Small one. In the back yard."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:25:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. You're looking to put up a storage shed, you need to know about a permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:25:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Permit for shed. How big is too big? [line breaks up] Sorry. How big, before I need the paper?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:25:44-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you broke up on me. There's a size where a small shed doesn't need the same permit as a bigger one. The exact cutoff depends on the type of lot and the zone, so I'd want to look at that with you. Do you know roughly how big you're thinking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:25:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eight feet, ten feet. [pause] Is that... big? One moment, I ask my cousin. [crosstalk] He says, ten by ten?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:26:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ten by ten, okay. That's something I'd want to confirm for your address. Can you hear me alright?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:26:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, little bit. Another question. Must a licensed contractor apply? Or I can apply, the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:26:16-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a homeowner can apply for their own permit. A contractor is only needed if you hire one to build it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:26:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I hire no one. I build. Wait, I am sorry, I cook for a potluck. I am late. The food is on the stove."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:26:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead and tend to it. Call back with your address and we'll go over the size. Or stop by the office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T14:26:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I call again."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T14:25:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T14:25:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-03T14:25:25-05:00",
+        "end": "2026-02-03T14:26:41-05:00",
+        "duration_seconds": 76,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T14:25:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-03T14:25:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-03T14:25:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-03T14:25:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-03T14:25:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

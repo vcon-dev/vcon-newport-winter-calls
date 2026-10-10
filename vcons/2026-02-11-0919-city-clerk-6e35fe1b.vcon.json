@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6e35fe1b-a54e-8406-b18f-5994c01ed012",
+  "created_at": "2026-02-11T09:22:29-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Priya Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-11T09:19:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. Buenos días, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:19:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Morning. Yeah, I'm trying to reach the electric company, I wanna report that the power's out. Is this them?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:02-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, this is the City Clerk at Newport City Hall. We're not the electric utility. You've got the wrong number, I'm sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:10-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Huh. I looked it up on my phone and just hit the number. Maybe I got the area code wrong. Isn't it four-oh-one for all of us out here?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:20-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one is right for Rhode Island, so the area code isn't the problem. It's more likely you tapped a city listing instead of the utility's outage line. Happens a lot."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:30-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so what would the area code be for them then? Same one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:35-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same one, yes. Four-oh-one, or sometimes they have an eight-hundred number. I'd look at the front of your electric bill or on the utility's website for the outage line. It'll say report an outage right at the top."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My bill's inside the house and it's dark in there, honestly. I'm standing out on the porch for the signal. I'm down the Point."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:20:57-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, then your phone is your best bet. Search the name of the electric company plus the words report outage, and pick the one that says outage. Hold on one second, let me see if I can pull something up for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:11-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:12-05:00",
+      "duration": 1,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause]"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello? Oh, I guess she's finished. Well, thanks anyway, I'll figure it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I'm still here, I was just checking. Sorry, I should've said. Are you there, ma'am?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh! Yes, I'm here. I thought you were done with me and hung up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:29-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet. So I can't give you the outage line from this desk, because it's a private company and not us. But if you search for it, the outage page usually lets you report by text too, which is handy if you've got no power and low signal."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:45-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "By text, okay. That's good, I can do that out here. So it's not a city thing, the power."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:21:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not the electric itself, no. If you see a wire down in the street, that's different, you'd call emergency services. But an outage in your house, that's the utility."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No wires down that I can see. Just the house is dark, and the neighbor's too, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then report it to the utility and they'll take it from there. Anything else I can help you with while you're on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:17-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all. Thank you for your time, and sorry for the mix-up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Hope your lights come back soon. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T09:22:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T09:19:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T09:19:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-11T09:19:50-05:00",
+        "end": "2026-02-11T09:22:29-05:00",
+        "duration_seconds": 159,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T09:19:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-11T09:19:50-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-11T09:19:50-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-11T09:19:50-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-11T09:19:50-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

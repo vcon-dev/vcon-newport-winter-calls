@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ce5de381-0e8b-8a2b-ac0d-df382d442608",
+  "created_at": "2026-01-19T12:28:45-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Declan Donovan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-19T12:27:45-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:27:47-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Denise. Declan Donovan. I'm on Malbone Road, 365, up the North End. It's the dead end, past where the bank used to be, you turn in there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:27:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 365 Malbone. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:27:59-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We got a dusting overnight, and with this cold it's just sitting there, packed down. Nobody's been down the street. I know a dead end gets plowed last, that's always how it goes. I just want to know when it'll get cleared."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:28:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're right, dead ends are last on the route. With only a dusting they're doing the main roads first. Figure sometime this afternoon, maybe into the evening."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:28:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Sorry if I sound like I'm out of breath. I switched to a standing desk and I'm pacing the whole call."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:28:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Want me to note it on the list for the crew?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:28:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. 365 Malbone Road. My number's 401-555-0161 if they need it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:28:41-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0161. It's noted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-19T12:28:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thanks. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-19T12:27:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-19T12:27:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-19T12:27:45-05:00",
+        "end": "2026-01-19T12:28:45-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-19T12:27:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-19T12:27:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-19T12:27:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-19T12:27:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-19T12:27:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

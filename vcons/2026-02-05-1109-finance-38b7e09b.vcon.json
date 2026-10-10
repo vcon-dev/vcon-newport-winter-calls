@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "38b7e09b-2aca-8edc-a36e-d709eca4474b",
+  "created_at": "2026-02-05T11:12:42-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Tony Mancini",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance, property tax, this is Luis."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Is it all right if I ask a question about a tax bill? I manage a property and I'm a little lost on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's what I'm here for. What's the question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I paid the first installment. I think it was back in the fall, or, no, maybe the bill said September. Is it all right if I ask you to check that it actually posted?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can look. I'll need the owner name or the parcel number off the bill, whichever you've got."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I have the bill here. It says plat and then a lot number. Is it okay if I read the whole thing? Plat twenty-one, lot one forty-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:09:57-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, plat twenty-one, lot one forty-four. Give me a second. [pause] Alright, I see a payment on the first quarter. It's posted, and it's marked paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay. So the first one is done. But the bill says there's four of them? I thought it was two payments."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:13-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's quarterly. Four installments. So you're through the first, and the second is the one that's coming up or already due, depending on the date on your bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so the one I paid was the first quarter, not the first half. Sorry. Is it all right if I ask what's due now, then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:31-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Second quarter is showing as due in early February, and there's a grace period. Let me see if it's been paid. [pause] Not yet. It's still open."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:40-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, so that's why there's a different number on the second page. I thought that was a mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nope, that's the second installment. Page two is usually the stub you'd send back with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:10:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So, can I ask for a payoff figure? Like, if I wanted to pay everything left through the end of February, what would that number be?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You mean the remaining three quarters, all of it, with a payment date of the end of February?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:07-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Wait, three? So it's not the second and then done?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:11-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three left. Second, third and fourth. Hang on, let me pull the balance. [pause] Okay, if you pay by February twenty-eighth, with the second quarter's interest handled as of that date, the total remaining comes to what I'm showing on screen. I can read it to you if you've got a pen."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, sorry, one sec, my stepbrother's on the couch right now, he's crashing here till January, and he keeps moving my pens. Okay. Is it all right, can you say it slow?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Till January. It's February, so he's running over. Anyway, ready when you are. Twelve thousand, four hundred, eighteen dollars and sixty cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I meant, he said January, then... never mind. Twelve thousand four hundred eighteen sixty. Is that for all three, or just the second?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All three remaining quarters, paid in full through the end of the month."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:11:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And that's different than what I'd pay if I just did the second one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Just the second would be a lot smaller. I can give you that number too, if you want both on paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:09-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is it all right if you do that? I think I should show the owner both."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:15-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Second quarter alone is a quarter of the annual, roughly, plus anything owed from being late, if applicable. It's not late yet, so it's just the quarter, which is the amount on your page two stub."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, so the stub already tells me. Okay. I think I get it. Mostly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mostly is a good start. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:35-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Thank you, I really appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:12:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:09:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:09:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T11:09:15-05:00",
+        "end": "2026-02-05T11:12:42-05:00",
+        "duration_seconds": 207,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:09:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T11:09:15-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T11:09:15-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T11:09:15-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T11:09:15-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7e3c12ea-cc70-87d6-ad9e-3ba187af8c19",
+  "created_at": "2025-12-31T12:51:03-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Joel Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-31T12:46:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy almost New Year, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:46:46-05:00",
+      "duration": 40,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah hi, Tony, my name is Joel Brito, I'm calling for my mother, she's at 330 Kingston Avenue up on the Hill, and she got this water and sewer bill in the mail and she can't make heads or tails of it and she asked me to call because I'm the one who handles her mail, and I've got it right here in front of me, and the thing says it's dated November 28th, and then there's a bunch of numbers, a previous reading and a current reading and some kind of charge for sewer that's a different number than the water, and I just don't get why there's two of them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:47:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can walk you through it. Nothing's wrong that I know of, you just want it explained, right? Not changed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:47:34-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right, I don't want it changed, I just want to understand it. She's not disputing anything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:47:41-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, and I've got the whole house full this weekend, relatives all over, so I wanted to get this squared away before it gets crazy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:47:51-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, no problem. So, okay, the date you read, November 28th, that's the bill date, when it was generated. Down the page you'll see the previous reading and the current reading. Do you see those?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, previous is 4812 and current is 4839."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:08-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That difference, 27, is how many units of water she used between the two readings. The water charge is based on that number. Now the sewer charge is separate because it's billed for carrying the used water away and treating it. Usually it's figured off the water use, so you get two lines, but it's one bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:29-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So the sewer isn't a second bill, it's the same bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same bill, two charges. Add them together and that's your total due."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:39-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so which number is the total, is that the one at the bottom or the one over on the right that says amount due?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Which one's on the right, what's it say next to it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:54-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says balance forward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:48:56-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, that's different. Balance forward is anything left over from before. If it's zero, she's all paid up through the last bill. If there's a number there, that gets added in. What's the figure?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:09-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's zero. Zero point zero zero."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, then the amount due is just this period's water plus sewer. She's in good shape."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:19-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, so wait, then what's this line that says usage period, is that the same as the dates up top or is that something else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:29-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Something a little different. The usage period is the span the meter readings cover, so it's earlier than the bill date. The bill date is when we printed it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:40-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ahh, so they're not supposed to match."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:44-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, they won't match."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:49:46-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, one more thing, and I don't know if there is such a thing, but is there any kind of discount for older folks or low income households? She's in her nineties and it's just her on a fixed income."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:50:01-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be something like that, but I don't have the details of it in front of me here. I can transfer you to the person in the billing office who handles assistance programs, or take your name and number and have them call back. Which would you rather?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:50:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, take the number, I'm on the landline and it's 401-555-0163. That's Joel."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:50:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0163, Joel Brito, for 330 Kingston Avenue, asking about senior or income-based assistance. I'll pass it along. With the holiday it might be after the weekend before they get back to you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:50:38-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, that's fine. So just to make sure I've got it, the water and the sewer are two lines on one bill, the dates don't match on purpose, and the zero means she owes nothing extra."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:50:52-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You've got it exactly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:50:54-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you, Tony, I appreciate it. I think I get it now, mostly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-31T12:51:00-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Have a good New Year, Joel."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:46:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:46:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-31T12:46:40-05:00",
+        "end": "2025-12-31T12:51:03-05:00",
+        "duration_seconds": 263,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-31T12:46:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-31T12:46:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-31T12:46:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-31T12:46:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-31T12:46:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1f29ff04-e116-8882-8ccc-60a4c4898205",
+  "created_at": "2026-02-24T10:17:49-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ana Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T10:10:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:10:23-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning? Um, I'm calling about a storm drain on my street? It's, the grate at the curb has sunk, like it dropped down below the pavement? And the water goes everywhere but down it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:10:40-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a sunken grate at the curb. Let me get some details from you. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:10:49-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 168 Dixon Street? In the North End? It's right in front of my house, basically at the edge of my walkway?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:11:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "168 Dixon Street, North End. Got it. And this is from the storm over the weekend?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:11:08-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, from last weekend's nor'easter? Saturday into Sunday? The water just sat there and then it ran down the side and across the sidewalk instead of going in the drain? And honestly it's been like this a while, it just got way worse with this storm?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:11:29-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry about that. So the grate has sunk below the level of the street, and the water is bypassing it. Is there water standing there now, or has it drained off?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:11:44-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's gone down now, but the sidewalk is a sheet of mud and grit? Like it's all silt and sand and, I don't know, gravel? You can't walk on it without slipping? I had to sweep a path just to get to my car?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:12:04-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's no good. The silt gets carried out of the road and left behind when the water runs off. Did any of it get into your house, or your yard?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:12:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The yard got some? But not the house, thank goodness? It's just, the whole thing is a mess, and I feel like nobody is looking at it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:12:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Before I go on, is the grate still in place, or is it broken or missing pieces?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:12:41-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's in place? It's just sunk, like the ground around it caved in a bit and the grate is lower than the street? So the water flows right past it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:12:55-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's helpful. Let me read back what I have. 168 Dixon Street, a catch basin grate at the curb has settled lower than the pavement, water running past it, and mud and debris left across the sidewalk after the weekend storm. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:13:16-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right? Um, can I ask, is it okay if I take a quick note while you talk? So I remember what you tell me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:13:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, go ahead. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:13:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you? Sorry, I'm just grabbing a pen. Okay, I'm ready?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:13:39-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I'm going to put this in as a work request for the drainage crew to inspect the basin and the settling around it. Once they look at it, they decide if it's a repair to the grate and the surrounding pavement, or something bigger underneath."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:14:00-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so, inspect first? And then repair? Do you know how long that takes? Because I feel like I've been waiting on this one forever?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:14:12-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The inspection is usually the quicker part. After a big storm the crews have a long list, so I'd say it could be several days to a week or so before somebody gets out there. The repair itself depends on what they find."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:14:32-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Do the crews work on weekends? Because if it rains again, like, this coming weekend, I don't want it to be the same thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:14:44-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They do respond on weekends for emergencies, like a road flooded so people can't get through, or a basin that's completely blocked. A sunken grate with the water running around it would probably be handled on a regular work day, unless it turns into a bigger flooding problem."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:15:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? So if it floods the street, I call again, and that's the emergency one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:15:14-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. If water is up over the road or heading toward houses, call right away and tell them it's the same location as this request, so they can connect the two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:15:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm writing that down? Same location, call right away if the street floods?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:15:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. And I'll note on this request that the sidewalk is covered in mud and grit, so the crew sees that when they go out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:15:48-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you? Will somebody clean the sidewalk, though? Or is that on me? Because I already swept it once, and it'll just come back if the drain doesn't work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:02-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly, I'd hold off on more sweeping until the drain is looked at, since it'll keep washing in. Whether the crew clears the sidewalk, I'd need to check with the supervisor. I'll add the question to the request so someone gets back to you about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? That's fair, I guess? I just, it's frustrating, because it's the same thing every time it rains hard? And nothing gets done until I call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. That's why I want it written down clearly with your address and your number. Is the best number the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:48-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's my cell? 401-555-0180?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0180. And that's Ana Costa, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:56-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Ana, A-N-A, Costa, C-O-S-T-A?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:16:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Ana Costa, 168 Dixon Street, sunken catch basin grate, silt on the sidewalk, callback at 401-555-0180. I'll send it over to the drainage crew this morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:17:12-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you? So I should hear from somebody in, like, a week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:17:19-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You should see a crew or get a call within about a week. If you haven't heard anything by then, call us back and mention today's request, and we'll look it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:17:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll do that? Thank you for writing it all down, Lorraine?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:17:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ana. Take care, and watch your step out there on that sidewalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T10:17:47-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will? Bye?"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:10:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:10:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T10:10:17-05:00",
+        "end": "2026-02-24T10:17:49-05:00",
+        "duration_seconds": 452,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T10:10:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T10:10:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T10:10:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T10:10:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T10:10:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

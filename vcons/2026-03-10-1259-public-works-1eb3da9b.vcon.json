@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1eb3da9b-b2be-870c-90d3-093acb2a43db",
+  "created_at": "2026-03-10T13:00:23-04:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Amara Abdi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:19-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:21-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, sorry, I know this is probably silly, but I'm calling about the water on Callender Avenue. It's been three days since the rain Friday and Saturday and it's still bad."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:31-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, not silly. Where exactly on Callender?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:34-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, 231 Callender Avenue, in the North End. The water comes right over the curb and across the sidewalk. A delivery truck got stuck in it this morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:43-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Stuck, okay. Writing that down. Water over the curb, sidewalk, truck stuck."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:47-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. And sorry, there was a long line of cars just sitting there waiting for a road crew guy to wave them through. It was a mess. My neighbor says it happens every big rain."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T12:59:58-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Every big rain, got it. That sounds like the drain's not keeping up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:00:03-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I guess, sorry, who do I call to get it checked? Is it you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:00:08-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's us. I'll put in a request for a crew to look at the drain at 231 Callender. Is this number on my screen good for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:00:16-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, 401-555-0194."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:00:18-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Somebody will follow up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:00:20-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry for the bother. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T12:59:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T12:59:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T12:59:19-04:00",
+        "end": "2026-03-10T13:00:23-04:00",
+        "duration_seconds": 64,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T12:59:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T12:59:19-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T12:59:19-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T12:59:19-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T12:59:19-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

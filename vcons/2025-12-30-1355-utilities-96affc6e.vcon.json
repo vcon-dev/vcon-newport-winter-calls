@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "96affc6e-a26f-8187-93e6-3887724f2e53",
+  "created_at": "2025-12-30T14:02:23-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Helena Furtado",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T13:55:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, this is Priya Raman. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:55:57-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, miss. My name is Helena Furtado. I am calling about my water and sewer bill, because I think the amount is not correct."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:56:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, Ms. Furtado. I can look into that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:56:15-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is 291 Gibbs Avenue, on the Ocean Drive side. The bill came last week and it is higher than before. I do not understand why I pay so much, I am only one person in the house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:56:32-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull up the account. One moment. [pause] I have it. I see the most recent bill, and the usage is higher than the previous quarter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:56:45-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is what I say. And on the bill there is a word, consumption. Please, can you explain to me what is consumption? I read this word many times and the bill still looks wrong to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:57:02-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Consumption is just the amount of water the meter recorded going into your home during the billing period. It's measured in units off the meter, so the number is the current reading minus the last reading. Your charges are based on that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:57:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it is not money, it is the water that I use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:57:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. It's the volume. The money comes after, when that volume is multiplied by the rate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:57:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then the volume is too big. I do not wash so much, I do not have a garden in winter. Excuse me one moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:57:47-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:57:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Sorry, I am sharpening my pencils, I am doing my papers at the table. The grinder is very loud. I stop now. Where was I? Yes, the volume."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:58:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Do you know if anything changed at the house this quarter? A running toilet, a leaky faucet, guests staying?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:58:12-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No guests. Nothing. Maybe the toilet, sometimes it makes a noise after, but I did not think it is a big thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:58:22-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could actually be it. A toilet that keeps running can use a surprising amount of water. A quick test is to put a few drops of food coloring in the tank, don't flush, and see if color shows up in the bowl after fifteen minutes or so."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:58:43-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. I will do this today. But the bill, I still must pay it, no? Even if the water went to the toilet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:58:55-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The meter reads what passed through it, so the bill would stand as billed. But if you find a leak and fix it, the next bill should come down. I can also note on the account that you questioned the reading, and ask for the meter to be rechecked."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:59:17-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, I would like that. Check the meter. I think it is a mistake from the city."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:59:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in the request. Is the best number for you the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:59:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but I give you the number to be sure. It is 401-555-0171."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:59:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0171. Someone from the division will call you to set up the recheck."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T13:59:47-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now another question, if you permit. Is there any discount for people with low income, or for elderly people? I am sixty-some years old and I live on a small pension. These bills are a lot every time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:00:05-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a discount program to point you to for the water and sewer bill itself. What I can do is transfer you to someone who can tell you if the city has any assistance for seniors, or I can have the office check and include it when they call you back. Which would you prefer?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:00:30-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please, have them tell me when they call. I do not want to wait on the phone more today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:00:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll add that to the note."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:00:43-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And one more thing. The bill has a due date, and it is already late in the day. Can I pay on the website with a card right now, at this hour, or only when the office is open?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:01:01-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website payment page is available around the clock, so you can pay with a card in the evening or on a weekend. It isn't tied to office hours. The only difference is that a payment made after hours may post the next business day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:01:21-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, good. So I can do it tonight, after dinner. And if I do not want the computer, the office, it is closed at night?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:01:33-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the counter closes at the end of the business day. There's a drop box at City Hall for checks if you'd rather not use the computer. Just put your account number on the check."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:01:49-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. That is good, I can ask my neighbor to take me. Okay. I still think the bill is too high, you understand. I am not happy, but you were polite."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:02:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Hopefully the meter check and the toilet test turn up something. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:02:13-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you very much, Miss Raman. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T14:02:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Furtado. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T13:55:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T13:55:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T13:55:51-05:00",
+        "end": "2025-12-30T14:02:23-05:00",
+        "duration_seconds": 392,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T13:55:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T13:55:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T13:55:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T13:55:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T13:55:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

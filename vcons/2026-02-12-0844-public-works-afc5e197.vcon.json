@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "afc5e197-d884-8390-ba0d-50497c2743ed",
+  "created_at": "2026-02-12T08:46:06-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Tariq Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-12T08:44:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:44:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. I am calling about a pothole. The cold patch from last week, it washed out already."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. So a spot that was patched last week has come apart. Where is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is at 88 Harrison Avenue, on the Fort Adams side. Right in front of the house, and it is right in the bike lane."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eighty-eight Harrison Avenue, in the bike lane. Got it. Is the hole open again, or just loose gravel?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The hole is open again. Gravel is all over the lane. [pause] Excuse me, can you hear me? I am on speakerphone."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you fine. I'll put in a request to have it looked at again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. How long do repairs usually take, to come back to a spot like this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on the crew's list and the weather. Cold patch is a quick job once they get there, but it's been a rough stretch for roads, so it could be several days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:51-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Okay. You have a very calm voice, by the way. It is nice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:45:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, thank you. Do you want me to keep your number, 401-555-0199, on the request?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:46:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. Thank you, goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T08:46:04-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T08:44:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T08:44:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-12T08:44:55-05:00",
+        "end": "2026-02-12T08:46:06-05:00",
+        "duration_seconds": 71,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T08:44:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-12T08:44:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-12T08:44:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-12T08:44:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-12T08:44:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

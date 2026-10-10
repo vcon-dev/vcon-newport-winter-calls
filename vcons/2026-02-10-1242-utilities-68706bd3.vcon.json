@@ -1,0 +1,595 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "68706bd3-b213-8555-a2aa-322cbfb650ff",
+  "created_at": "2026-02-10T12:49:07-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Joao Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T12:42:42-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:42:46-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. Before anything else, can I get your name again? Tony, and the last name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:42:52-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tony Ferreira. F-E-R-R-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:42:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Tony Ferreira. Let me write that down. And I'm Joao Silva, J-O-A-O, Silva with an S. I'm calling about my water and sewer bill, and honestly I'm pretty irritated about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:43:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, Mr. Silva. Tell me what's going on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:43:10-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, a couple months ago a pipe broke in my house. Burst, down in the utility area. I got it fixed, plumber came, done. Now the bill comes and it's huge. Like four times what I normally pay. For water that went into the ground, not through anything I used."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:43:28-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that happens. A broken pipe can run a lot of water before you catch it, and the meter just counts what passes through. Did the plumber give you a receipt or a note on the repair?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:43:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have the invoice. Hold on, let me ask this the right way. Is there a leak adjustment? Is that a thing? I want to ask for one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:43:53-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is, generally. When a customer has a documented leak that's been repaired, they can request a review of the bill for the extra usage. Usually it means filling out a form and sending in the plumber's invoice. It doesn't always wipe out the whole thing, but it can bring the sewer part down, since that water never went down the drain."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:44:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, wait, slow down, I'm writing. Form. Plumber's invoice. Sewer part reduced. Where do I get the form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:44:22-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pick one up at the counter here at City Hall, or I can have one mailed to you. Probably the quickest is I note your account and you drop the invoice off with a short written request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:44:36-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it, please. Actually, wait. How long does the review take? Because the bill has a due date and it's coming up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:44:44-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can take a few weeks. I can't tell you an exact number of days. What I'd say is don't just sit on the bill, get the request in as soon as you can and note on it that you're disputing the usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:00-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So that leads to my next question. If I can't pay the whole thing by the due date, is a payment plan possible? I'm a substitute teacher. No assignment today, so I'm home, which is why I'm calling in the middle of the day. The work comes and goes. This bill is a lot to swing at once."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:21-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I understand. Payment arrangements are something people ask about. You'd talk with one of our billing staff about splitting it up. I can put a note on your account that you're asking, and have someone call you back, or you can come in and sit down with them."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Call me back is fine. Let me give you my number. It's 401-555-0179."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0179. And that's a cell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:47-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, cell. If I don't pick up, leave a message. I'm in and out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Can I get your account number, or the service address, to pull you up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:45:59-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the account number on the bill, but I'd rather not read out the address on this call. Is the account number enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number works fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hold on, let me find the bill. [pause] Here. It's 4471-0928."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:16-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. 4471-0928. Okay, I've got it up. I see the bill you're talking about, and yeah, that usage is way above your usual."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's what I said. Four times."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note the leak and that you want the adjustment form mailed, plus a call about a payment arrangement."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:35-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. One more thing, and I want to get this right. Say I decide to pay some of it right away. Is there a way to pay by phone after 4:30? Because I know the office closes then and I'm not always done with my day before that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:46:52-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a couple ways. You can pay online through the city's website anytime, day or night. And there's a drop box outside City Hall for checks if you'd rather do it that way. Just put your account number on the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, okay. But I asked about by phone. After hours, is there a phone line where I can pay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:14-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not certain there's a staffed line after we close. The automated option, if there is one, I'd want to confirm so I don't send you the wrong way. I can have the billing person include that when they call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. So write that down too: pay by phone after hours. And online is on the city website, and the drop box is for checks. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it exactly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the form is coming in the mail. Do I need to attach anything besides the plumber's invoice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy of the invoice is the main thing. If the plumber wrote what was repaired and the date, that helps. Keep the original for yourself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:47:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Copy, not original. Writing it. Look, I don't mind paying for what I used. I just don't think I should pay sewer rates on water that went into a crawlspace."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:48:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's exactly the kind of thing the adjustment looks at. Make sure you say that in your written request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:48:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. And the bill due date, if the plan thing isn't settled by then, what happens?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:48:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you've got a request in and someone's been in touch about arrangements, that's a lot better than silence. I'd say call back before the due date if you haven't heard from anyone, so it's on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:48:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, to repeat: form mailed, invoice copy, billing calls me back about a plan and the phone payment question, and I call again before the due date if nobody does. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:48:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That covers it. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:48:55-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks, Tony. Ferreira, two Rs, I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:49:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two Rs, you got it. Have a good afternoon, Mr. Silva."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:49:05-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:42:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:42:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T12:42:42-05:00",
+        "end": "2026-02-10T12:49:07-05:00",
+        "duration_seconds": 385,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:42:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T12:42:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T12:42:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T12:42:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T12:42:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

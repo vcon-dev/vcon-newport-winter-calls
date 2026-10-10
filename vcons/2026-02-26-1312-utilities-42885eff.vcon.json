@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "42885eff-1d6f-895d-9405-0a6533b6b833",
+  "created_at": "2026-02-26T13:15:22-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Luis Furtado",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:27-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Tony. Yes, good afternoon. My name is Luis Furtado. I am calling about my water and sewer bill. I think something is wrong with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:35-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Can you give me the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, 467 Dixon Street. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 467 Dixon. Let me pull that up. Okay, what's got you concerned on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill is higher than usual. And I see on it, it says estimated. I think nobody read the meter. Nobody came to my house, I did not see anyone."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:12:57-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I see the little E there next to the reading. So that means the reading was estimated, based on your past usage, instead of an actual read of the meter. That happens when the meter can't be read for some reason, like the reader couldn't get access or the remote signal didn't come through."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:13:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So they did not read it. This is what I thought. Is it possible to have it read now, for real?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:13:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can set up a read. Or if you want, you can go to the meter and read the numbers off for me and I can note it on the account. Do you know where the meter is?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:13:33-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is in the basement, near the stairs. I can go look. But also, I should say, I had a plumber here, um, two weeks ago maybe. He fixed a leak under the kitchen sink. I kept the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:13:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, hang on to that. A leak could affect usage, and if there was a repair it helps to have it documented. Once we get an actual read, we can see what the real usage looks like and compare it to the estimate."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:13:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that is good. Should I send the receipt to you? Or bring it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:03-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it by the office or send a copy in. I'd note on the account that you called, too. Let me put that in right now. So, a meter read request for 467 Dixon, and a note about the plumber repair."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:16-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, thank you. One more question. I work during the day, and your office, it closes at 4:30, yes? Is there a way to pay by phone after 4:30? Or some other way when it is closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:27-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, we close at 4:30. You can pay online through the city's website anytime, and there's also a drop box outside City Hall for checks. If you want to pay by card over the phone, that's during office hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:39-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, online, I will look. I am still getting used to this, my pay is bigger now. I got a raise last month, so I am still learning to watch the bills. Before I just paid quick, now I check more."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:14:52-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, congratulations on that. And checking is smart. Don't pay the estimated amount in a rush if you're disputing it, but do keep an eye on the due date. After we get the actual read, the bill gets adjusted."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I read the meter today, I call back with the number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, call back with it, or we'll schedule someone to come out. Either way works."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:14-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony. I will go look this evening. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T13:15:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Furtado. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:12:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:12:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T13:12:23-05:00",
+        "end": "2026-02-26T13:15:22-05:00",
+        "duration_seconds": 179,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T13:12:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T13:12:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T13:12:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T13:12:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T13:12:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

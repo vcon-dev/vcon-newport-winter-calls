@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0ddaba7e-959d-86f2-9904-2840b11137e9",
+  "created_at": "2026-02-20T12:42:13-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Manuel Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T12:36:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:36:52-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good afternoon. Um, sorry, I'm outside and I've got the phone kind of stuffed up against my scarf, so I might sound like I'm in a closet. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A little muffled, but I can understand you. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. So I got a letter, a shutoff warning for the water, and I want to know how much time I have. That's the main thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Let me pull up the account. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:27-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 35 Bacheller Street. Fifth Ward. And the name is Manuel Vieira. V-I-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Vieira. Give me a moment to find it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:38-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure. Take your time. I'm just standing here freezing, no rush. [pause] Ha, that sounded like a rush, sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:47-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I have the account. I see a past-due balance and a notice dated earlier this month. Do you have the notice with you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:37:58-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, it's in my pocket, hang on. Okay, it says... um, I lost my place. It's got a date on top, February the 6th, I think. And then something about fourteen days?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:38:12-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matches what I see. The notice gives a window to pay or contact us before service is scheduled for shutoff. Counting from the notice date, that window is close to ending, so you'd want to act on it soon rather than wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:38:30-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So like, are we talking days? Or is it already past?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:38:35-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's not past on my screen, but it's a matter of days, not weeks. If you tell us you're disputing the bill, though, that can be noted on the account, and I'll explain how."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:38:49-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, that's the other thing. So the bill is way higher than it should be. Last year my winter bills were much lower. Like, I'm talking maybe half of this. And nothing changed. Same business, same, um... what was I saying? [pause] Sorry, I lost it. Ha. Same usage, I mean."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:39:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. You're saying the usage is the same but the charges are much higher than last winter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:39:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, exactly. Way higher."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:39:21-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see the readings over the last several billing periods. There is a noticeable jump in the last two. Do you know if there were any leaks, a running toilet, anything like that at the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:39:36-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not that I know of. I mean, I'm not a plumber, so who knows. But nothing I noticed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:39:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's worth having someone check, because a hidden leak would show up this way. But if you want to dispute it regardless, you'd do that formally in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:39:56-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so how do I do that? Is there a form or do I just write a letter? I want it formal, like on the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:40:07-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A written letter works. Include your name, the service address, the account number from the top of your bill, the billing period you're disputing, and why. You can mail it or bring it to the utilities office at City Hall. I can also note on the account right now that a dispute is coming."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:40:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, please do that. Does that stop the shutoff?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:40:33-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Noting it helps, and a dispute under review is treated differently from an ignored notice. But I can't tell you the shutoff is automatically paused. I'll flag it and ask the billing supervisor to confirm how it's handled, and someone will call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:40:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that works. My number is 401-555-0167."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:40:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0167. And that's the best number to reach you at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, the cell. I'll pick up unless I'm in the walk-in, then it goes to voicemail. Ha, sorry, that's more than you needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:11-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. I'll note voicemail is okay too. Would you like a meter re-read requested as well? That's separate from the dispute, but it can confirm the numbers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yes, definitely. Please do that. If the meter's wrong, then great, case closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in the request. Someone from the field crew would come to the property, and the call-back should tell you when. Keep your letter short and specific, and keep a copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:42-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So letter, account number, address, billing period, reason. Meter re-read. And you'll flag the account. Did I miss anything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's everything. Also keep the shutoff notice with your records, and mention its date in the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:41:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. The February 6th one. Okay, thank you very much, Priya. Sorry again about the scarf."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:42:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Stay warm, Mr. Vieira. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:42:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T12:36:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T12:36:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T12:36:47-05:00",
+        "end": "2026-02-20T12:42:13-05:00",
+        "duration_seconds": 326,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T12:36:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T12:36:47-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T12:36:47-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T12:36:47-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T12:36:47-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

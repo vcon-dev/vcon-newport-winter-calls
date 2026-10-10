@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a9308710-92b1-8b3d-b662-62002d29fb08",
+  "created_at": "2026-02-10T10:10:52-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Paulo Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T10:05:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:05:44-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, hello. I know this is silly, but I'm looking at my tax bill here and something's wrong with it. Can you hear me okay? I've got you on the speakerphone, my hands aren't so good holding the phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:05:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Speakerphone's no problem. What's wrong with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:03-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry. The square footage. It says the house is, hold on, twenty-eight hundred square feet. It's not twenty-eight hundred. It's not even close. That's a big number for that little house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Twenty-eight hundred on the bill. And what do you think it actually is?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:21-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I know this is silly, but it's around, um, fourteen hundred. Maybe fourteen-fifty with the back porch they closed in. My wife and I, we've had it since, well, a long time, and it's never been twenty-eight hundred. It's two bedrooms."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's quite a gap. Let me pull it up. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thirty Farewell Street. Up the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:44-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thirty Farewell. Okay, give me a second here. [pause] Alright, I've got the record. And you're right, it's showing twenty-eight hundred and some on the building."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:06:54-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "See, that's what I said. Sorry. It's been like that on the last couple of bills, too, and I only noticed because I finally put my glasses on. Ha. I'm not happy about it, I'll tell you. I got this in the mail and almost choked."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:07:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe it. Is this the first bill with that number, or did it change recently?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:07:18-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I couldn't tell you. I never looked that close before. My brother, my older brother, he's the one who told me to call. He looks at all his paperwork. He said, Paulo, check the square feet, they get it wrong all the time. So I checked and, sure enough."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:07:36-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Smart brother. Okay, so here's the thing. Square footage is a property record, and that's kept by the assessor's office, not us in finance. We just send the bills based on what they have. I can't change it from my desk."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:07:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sorry. So I called the wrong place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:07:55-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not wrong, just the first stop. I can flag it and send a note over to the assessor's office, and I can transfer you if you want to talk to someone there right now. They're the ones who'd want to know what's different, maybe look at the house or your records."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:08:14-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I don't want to be transferred and wait on hold with the music. Last time I did that I lost the call. Can you just send them the note?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:08:25-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. I'll put in what you told me: thirty Farewell, bill shows about twenty-eight hundred, you say it's closer to fourteen-fifty. Anything else they should know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:08:36-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, just that I don't want to pay on a house that's twice as big as mine. Is the bill due soon? I know this is silly, but I don't want a late thing on it while they sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:08:51-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The due date's printed on the bill. I'd say hold onto it and ask the assessor's office what to do about the amount. I can't promise how they'll handle it, but I'll note in the message that you're disputing the square footage so it's on record that you called."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:09:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that's something. Sorry. And could you email me that it's been noted? Something in writing. My brother will ask me, and he won't believe me otherwise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:09:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll need an email address to send it to. Go ahead and spell it for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:09:27-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I don't want to say it wrong. Hold on, my granddaughter wrote it on a sticky. [pause] Okay. It's, um, I'd rather give it slowly. Is that alright?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:09:38-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:09:40-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry. P, A, U, L, O, then the number, hold on, the number is, it's a nine... no, I'm reading it upside down. Can I give it to you another way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:09:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tell you what. You've got a phone number on the account here ending in oh-one-nine-six. Is that still you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:00-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's me. Four-oh-one, five-five-five, oh-one-nine-six."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:03-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. We also have an email on file from a previous payment. I'll send the confirmation there. If it bounces back, I'll call you. Does that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I guess that works. I know this is silly. I don't even remember which email I used. Ha. Well, if it doesn't come, I'll call back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:23-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. You should see it today. Subject line will say property record question, thirty Farewell Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Property record, Farewell Street. Sorry for all the trouble."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:34-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble. You caught a real error, probably. Somebody over there will be in touch, or call them yourself if you don't hear back in a week or so."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:45-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thank you, Luis. Sorry again. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T10:10:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Moniz. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T10:05:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T10:05:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T10:05:40-05:00",
+        "end": "2026-02-10T10:10:52-05:00",
+        "duration_seconds": 312,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T10:05:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T10:05:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T10:05:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T10:05:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T10:05:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ede1cf81-272f-8831-a3b7-9637eb8c1a32",
+  "created_at": "2026-01-05T13:45:24-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Gino K. Grasso",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T13:44:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation Department, this is Beth. Happy new year, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:44:21-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Miss Almeida. Happy new year to you as well. I would like to inquire whether the skating area is open at the moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:44:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, nice question. Let me pull up the status sheet. Which one did you have in mind, the outdoor rink?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:44:36-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the outdoor one, near the park by the water. I was hoping to drive down this afternoon and see it, if it is operating. I am in a rental car this week, you see, as mine is in the shop, so I would prefer not to make a wasted trip."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:44:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Totally understand. [pause] Okay, it's showing open today, but the hours get adjusted with the weather, so it could close early if it warms up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:45:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is very helpful, thank you. Would I need to call you back to confirm before I leave, or is that sufficient?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:45:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd call again right before you head out, just to be safe. We're here until the end of the afternoon, and the status can change."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:45:16-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Splendid. I shall do exactly that. You have been most kind, Miss Almeida."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:45:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Mr. Grasso! Enjoy the ice."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T13:44:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T13:44:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T13:44:16-05:00",
+        "end": "2026-01-05T13:45:24-05:00",
+        "duration_seconds": 68,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T13:44:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T13:44:16-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T13:44:16-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T13:44:16-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T13:44:16-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

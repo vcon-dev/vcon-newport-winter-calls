@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "48852649-1e0a-8a13-8824-edf9604d0a4c",
+  "created_at": "2025-12-16T13:26:21-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Helena Moniz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T13:19:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, City of Newport, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:19:50-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. I am calling about a parking ticket. I think it is a mistake, but I am not sure how this works, so I want to understand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:20:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. I can look into that for you. What is the ticket for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:20:08-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says the registration sticker is expired. But I renew it the day before. Yesterday I renew, and the ticket is from, um, the same morning I think. Or the day after? I don't remember. So the sticker, it was still the old one on the plate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:20:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you have the ticket in front of you? I'll need the ticket number and the date it was issued."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:20:37-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it here. One moment. [pause] The number is, it starts with a letter, P, then four, four, one, eight, zero, seven. Is that the whole number? There is another little number under, but that is maybe the code of the street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:20:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. P, four, four, one, eight, zero, seven. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:21:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:21:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I pull that up. [pause] I have it. The violation is listed as an expired registration, issued yesterday morning, Monday, the fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:21:16-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yesterday, Monday. So I renew on Sunday? No, wait. Sunday the registry is closed. I renew on Friday, then. The day before the ticket, I thought. So Friday is not the day before Monday, right? I am confusing myself."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:21:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, Friday would be three days before. When did you complete the renewal? Do you have a receipt or confirmation?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:21:41-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the paper from the registry. It says the Sunday, but maybe it is the online one, I did it on the computer. So the sticker comes in the mail after. The sticker did not arrive yet, so I understand it was still the old one on the car. Is this a problem for the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:22:04-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be something to bring up when you contest it. Proof that the registration was renewed before the ticket was issued is what matters. The date on your confirmation would be the key item."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:22:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I contest, I say it was renewed. And what do I send? The paper from the registry?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:22:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy of the confirmation, yes. Please keep your original. The ticket itself should list how to submit a contest, by mail or in person."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:22:38-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it has something on the back, but the writing is very small. Another thing, please. I would like to see the photo of the violation. The officer, he took a photo of the plate, I think. Can you send it to me by email?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:22:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can note a request for the photograph on the ticket. May I have an email address for that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:23:04-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. It is a long one. Maybe I can give you the phone number first, and you call me? It is four-oh-one, five-five-five, zero-one-seven-zero."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:23:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-seven-zero. Thank you. I'll put the request in and someone will contact you to confirm the email address and send the photo."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:23:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. So someone calls me, and then I say the email, and then they send. I understand correctly?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:23:32-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:23:34-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Now, another question. If I decide to just pay the ticket, not contest, can I pay when the office is closed? I work all day, and I leave early in the morning. I heard there is a box, a drop box, for the payments? Where City Hall is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:23:54-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is a payment drop box at City Hall that is available outside of regular office hours. You would place a check or money order in it, made out to the City of Newport, with the ticket number written on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:24:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A check, not cash. Okay. And the ticket, I put the ticket paper inside also, or just the number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:24:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd recommend including the ticket stub or at least the ticket number clearly written, so the payment is applied to the correct violation. Please don't put cash in the box."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:24:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No cash, okay, I understand. But if I pay, then I cannot contest anymore, right? It is one or the other?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:24:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, paying the ticket resolves it, so you would not be disputing it afterward. If you intend to contest, you should do that first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:24:51-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So first I decide. I think first I contest, with the paper from the registry, and the photo I look at. Then if they say no, I pay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:25:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a reasonable approach. Please be mindful of the date on the ticket, as there is a window for responding. It should be printed on the front."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:25:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I see a date here, in the corner. I will look. Sorry, I am very bad with these papers. In my country the tickets are different."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:25:26-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's quite all right. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:25:32-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that is all. Oh, wait, one small thing. After this I go to drop some clothes, a donation, at the thrift shop on the way home, so I am happy if the office is not far. Is the City Hall close to the, how you say, the main street?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:25:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall is on Broadway, a bit up from the downtown waterfront area. Whichever way you're headed, it should be easy to find."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:26:03-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Broadway. Thank you. So, to repeat, I contest first, I bring the paper, someone calls for the email, and the drop box is only check. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:26:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Thank you for calling, Ms. Moniz."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T13:26:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Janet. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:19:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:19:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T13:19:44-05:00",
+        "end": "2025-12-16T13:26:21-05:00",
+        "duration_seconds": 397,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T13:19:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T13:19:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T13:19:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T13:19:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T13:19:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "93b8f24b-6729-8396-940c-089308711953",
+  "created_at": "2026-02-08T12:35:45-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Amara Mensah",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:03-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:06-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I know it's Sunday and City Hall's closed, that's why I'm calling this line. Um, it's Amara Mensah. We got that dusting overnight and it's so cold everything's just ice underneath."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:17-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is bitter out there. What can I help you with, Amara?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:22-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My neighbor, she's elderly, she lives alone, and she can't get out. Her walkway and the bit of street in front of her house are just a sheet of ice. Nobody's come by, and I've been calling around since, honestly, since last night, and, hang on. No, honey, not now, I'm on the phone. Sorry. Where was I."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Her walkway and the street. Is it the sidewalk, or the road itself that's icy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both, really. The road's the worst part. Can somebody bring sand? Even just a truck going down and throwing some sand, that'd be, I mean, that's all I'm asking."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:34:54-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can put in a request for sand. I'll need the street and the nearest cross street so the crew can find it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:35:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and I'd tell you, but I'm, um, I'd rather not give the address on this line. Can you just note it's a request for sanding and an elderly resident?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:35:12-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Without a location the crew can't act on it, I'm afraid. Do you want to call back with it, or is there a landmark you're comfortable with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:35:21-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ugh. Let me think. I'm also waiting on somebody, I've got a ham radio and I'm waiting on a contact to come back to me about the roads up that way, so I might know more in a bit. Can I call you back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:35:35-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. We're here on this line all day. Call back with the street and I'll get it in right away."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-08T12:35:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Thanks. Okay, I'm coming, I'm coming. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-08T12:34:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-08T12:34:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-08T12:34:03-05:00",
+        "end": "2026-02-08T12:35:45-05:00",
+        "duration_seconds": 102,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-08T12:34:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-08T12:34:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-08T12:34:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-08T12:34:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-08T12:34:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

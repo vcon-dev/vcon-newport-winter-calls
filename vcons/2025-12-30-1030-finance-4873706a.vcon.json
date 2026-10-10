@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4873706a-3f77-813f-8e26-99a91d496f7a",
+  "created_at": "2025-12-30T10:34:20-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Joao Amaral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T10:30:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:30:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Is it all right if I ask a question about a property tax bill? And I apologize ahead of time if any of my questions are silly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:30:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Questions about property tax bills are what this office handles. What is the concern?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:30:44-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I got a bill in the mail for the property tax. But the mortgage company is supposed to pay it out of escrow. That's what I was told anyway. Is it all right if I explain a little?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:31:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. First, may I ask whether you are the owner of the property, or are you renting?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:31:08-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm renting. Um, the landlord's mortgage, I mean. The landlord told me the mortgage company handles the taxes. But the bill came addressed to me, at the apartment. So I don't know why it came to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:31:23-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Tax bills are issued to the owner of record as of the assessment date. If it reached you at the rental address, it may be that the mailing address on file is the property itself. May I have the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:31:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's 118 Van Zandt Avenue. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:31:45-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I pull that up. [pause] Alright. I can see the account. The mailing address on record is the same as the property address, so the bill would go to the building, not to a separate owner address."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:32:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And is it all right if I ask, does that mean the mortgage company didn't pay it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:32:10-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily. Mortgage companies often pay from escrow on a schedule, and the bill is still mailed out to the owner of record regardless. I cannot see your landlord's escrow arrangements from here. The owner would need to confirm with the lender that the payment is being made."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:32:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, okay. So I shouldn't pay it myself."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:32:33-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would not advise you to pay anything until the owner has confirmed with the lender. If you like, you can forward the bill to the landlord. Do you have a way to reach them?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:32:47-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have their number. I'll send them a picture of it today. Sorry, one more, is it all right if I ask how the mailing address gets changed? So it doesn't come to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:01-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is a reasonable question. The change has to come from the owner of record, not from a tenant. The owner submits a written request with the property address and the new mailing address to the Assessor's office or this department. I can note on the account that a tenant called, but that does not change the address."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So my landlord has to send it in writing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Writing, with the owner's name and signature. They can mail it or bring it to City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Thank you. And is it all right if I leave my number in case someone needs to reach me about it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:47-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:49-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0182. And the name is Joao Amaral. J-O-A-O."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:33:53-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Amaral. I have the number as 401-555-0182. I will add a note to the account that a tenant at that address called about a bill received despite an escrow arrangement."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:34:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. That's all I had. Thanks for your time, and sorry again if those were silly questions."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:34:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They were not silly. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T10:34:18-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:30:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:30:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T10:30:18-05:00",
+        "end": "2025-12-30T10:34:20-05:00",
+        "duration_seconds": 242,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T10:30:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T10:30:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T10:30:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T10:30:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T10:30:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9775a127-d81c-8f38-8431-6f388abd676b",
+  "created_at": "2026-01-09T12:55:31-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Paula Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. My name is Paula Costa. I am calling about my water bill, because the number is very high and I do not understand it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:19-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can help you look at that. What is it about the bill that looks off to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was out of town for six weeks. Nobody was in the house. But the bill says we used a lot of water, a lot. How is this possible if nobody is there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That does sound odd. Was it the most recent bill that covers those six weeks?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:40-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I think so. The one that came this week. And last year the winter bills were much lower, much, much lower. So I am confused. Is it the meter, or is it me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:53:51-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be a few things. An estimated reading, a meter that was read wrong, or a leak inside the house, like a running toilet. A leak would use water even when no one is home."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:54:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A leak. So the water runs, and I am not there, and I pay for it? I do not understand if the reading is real or the estimate. Can you explain again, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:54:12-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Some bills are based on an actual meter reading, and some are estimated from past use. If this one was estimated, it may be corrected. If it was actual, then the water really went through the meter. I can't tell which until I pull your account and have someone check the reading. Can I put in a request for a meter re-read?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:54:30-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. A re-read. And you will call me at this number, four oh one, five five five, zero one six four?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:54:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one six four, got it. Someone will call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:54:41-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One more question. I am calling in a break, we have a long meeting at home today, so I have only a few minutes. If I do not pay the bill now, and I put the payment in the box tonight, it counts on time? Even if City Hall is closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:54:57-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a payment drop box at City Hall, and payments left there go in with the next business day's processing. The bill's due date is printed on it, so check that. You can also pay online anytime."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:55:09-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the box is for after hours, and online is also for after hours. But the box, they count it tonight or Monday? I am a little not sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:55:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's collected on the next business day, which would be Monday. If your due date is close, online is the safer choice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:55:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. Online, then. Thank you very much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-09T12:55:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Stay safe with the storm today."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T12:53:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T12:53:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-09T12:53:07-05:00",
+        "end": "2026-01-09T12:55:31-05:00",
+        "duration_seconds": 144,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-09T12:53:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-09T12:53:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-09T12:53:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-09T12:53:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-09T12:53:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

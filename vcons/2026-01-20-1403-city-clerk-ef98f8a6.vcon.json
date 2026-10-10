@@ -1,0 +1,799 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ef98f8a6-f57a-848e-b644-152624ff3189",
+  "created_at": "2026-01-20T14:13:42-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Paulo Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-20T14:03:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:03:12-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey, hi Owen. Um, so I'm calling for my mother, actually. She's got a dog, a new dog, and I think she needs a license for it? And I'm trying to figure out what paperwork, like, what you need from us. Her, I mean. From her."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:03:32-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Yes, dogs in the city do need to be licensed. Let me ask you a couple of things first. Is this a puppy, or an adult dog she just adopted?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:03:46-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Adult. Wicked sweet one, about three years old. She got him from a rescue up in Massachusetts, like, a month ago. Totally fine, healthy, all that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:03:58-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Alright. So the main thing we ask for is proof that the dog is current on its rabies vaccination. That's usually a rabies certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:04:09-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so a rabies certificate. And what counts as that? Because she has a bunch of papers from the rescue, and I think one of them says vaccinated, but it's kind of like a, a checklist thing. Is that it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:04:26-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Let me think how to say this. A checklist from the rescue that just says vaccinated is probably not going to be enough by itself. What we want is the actual certificate, which is normally signed by a veterinarian and shows the date of the vaccine and when it expires. Sometimes it's got a tag number or a vaccine lot on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:04:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So it has to be signed by a vet. Not the rescue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:04:58-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, if the rescue's vet signed it, that can work. It's the signature of a licensed veterinarian that matters, and the dates. If it's just a line on an adoption form, I'd call the rescue or the vet and ask them for the certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:05:17-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. Totally. Because I think there's a paper in the folder with a stamp on it, like a clinic stamp, but I haven't seen it, I'm going off what my mom told me over the phone. She said it's, um, a yellow one? Is yellow a thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:05:37-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yellow could be it. A lot of vets use a colored carbon copy. If it's got the clinic name, the dog's description, the vaccine date and a signature, that's what we're looking for."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:05:51-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Wicked. And does the date matter? Like if he got it a month ago, or if it was before that, at the rescue?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:06:02-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The date matters in that it needs to still be in effect. So it can't be expired. A vaccine given a month ago or even several months ago would normally be fine, as long as the certificate shows it's good through today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:06:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so not expired. Got it. Sorry, I'm writing this down, hold on. Rabies certificate, vet signed, dates. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:06:29-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:06:31-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And then do we, like, come in? Can she just mail it? She's, um, she's not great with the computer stuff."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:06:41-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She can come in. That's probably easiest, especially with her first license for this dog. We're at City Hall, and the clerk's office is open during regular weekday hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:06:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so what do we bring? Like, in person. What should she have with her, so we don't make a trip for nothing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:07:04-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. So, bring the rabies certificate, the original or a clear copy. Bring something with her name and address on it, like an ID or a piece of mail. And if the dog is spayed or neutered, bring that paperwork too, because it can matter for the license type."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:07:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay, so the spay thing, he's neutered, I think. Is that, like, on the same paper? The yellow one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:07:34-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It might not be. Usually that's a separate line or a separate letter from the vet or the rescue. If it's not on the yellow certificate, look in the rest of the folder for something that says neutered."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:07:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it might be the checklist one. The one that says vaccinated. Maybe it says neutered too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:07:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could. That one might work for the neuter part, just not as the rabies proof."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:08:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. That makes more sense. So two different things. Wait, so then do I need the dog there? Do we bring him?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:08:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you don't need to bring the dog. Just the papers."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:08:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good, because he's kind of a lot in a car. Totally nice, just, you know. Enthusiastic."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:08:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Understood. Do you have a sense of when she'd come in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:08:34-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably this week? I'd take her. She lives on Pelham Street, three ninety, up on the Hill, so it's not far. Is that something you need? The address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:08:46-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, you can tell me, that's fine. Three ninety Pelham Street. That's in the city, so yes, she'd be licensed with us. I'm not filling out anything right now, I just want to be sure she's in the right place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:09:03-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Yeah. Right. Sorry, I thought maybe I was supposed to give that up front."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:09:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, you're fine. It's good to know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:09:14-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, um, one more thing, kind of a different thing. Sorry. This is dumb. I ordered a space heater for her, like one of those cheap ones, off the internet, like two weeks ago, and it hasn't shown up. And she's been, she's cold in that kitchen. Is that something you guys would know about? Like, deliveries?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:09:38-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. No, I'm afraid that's not something the city handles. A package like that would be with whoever you ordered from, and the shipping company. Do you have a tracking number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:09:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so. It says, like, shipped, but then nothing. It just says in transit, and it's been saying that for a week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:10:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens. I'd contact the seller first, and then the carrier. We don't have any way to look at that from here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:10:12-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, no, I figured. I just, I don't know who else to ask. Okay. I'll try the seller again. Sorry, that was random."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:10:22-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's alright. If it's cold, though, I'd maybe not count on a cheap heater arriving. Is there a way she can stay warm in the meantime?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:10:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, she's got blankets, and I'm gonna bring over a little one of mine tonight. Totally fine. It's just annoying."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:10:43-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Okay. Let me go back to the license, then, just to make sure I gave you everything. Rabies certificate, signed by a vet, not expired. Proof of her name and address. Neuter paperwork if there is any."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:10:59-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Rabies, signed by a vet, not expired. ID or mail. And the neutered thing. And not the dog."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Not the dog."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what if the yellow paper doesn't have all of it? Like, if it's missing the expiration date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:20-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'd call the vet's office and ask for a corrected copy or a letter. Some of them will just email it. If you're not sure, you can bring it in and the clerk at the counter can look it over."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. So we can just show up and they'll tell us if it's good."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. They can tell you right there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wicked. Okay. And is it the same window, like the clerk's window, for everything? Or is there a dog window?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:11:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the clerk's office, same counter. There's no separate dog window. Just tell them you're there for a dog license."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:12:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Dog license. Same counter. Alright. I think I got it. Um, actually, wait. Sorry. The certificate. Does it have to be the original, or can she bring a picture on her phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:12:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A clear paper copy is safest. A phone picture might be accepted, but I couldn't promise that, so I'd print it or bring the paper itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:12:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, paper. She doesn't have a printer anyway, so the actual one. I'll make sure she keeps it in the folder."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:12:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. And if you'd like, I can note that you're coming in on her behalf. It doesn't hurt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:12:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sure, yeah, that'd be good. I'm Paulo. Paulo Costa. My mom's the one with the dog, but I'll be with her."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Paulo Costa, coming with your mother for a dog license. I've got that. Is there a number if someone needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's four oh one, five five five, oh one six oh."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one six oh. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:23-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Thanks, Owen. That was helpful. I was kind of lost when I called."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Glad to help. Hope the heater turns up, and that the yellow paper does the job."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:37-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, me too. Okay. Thanks. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-20T14:13:40-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T14:03:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T14:03:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-20T14:03:07-05:00",
+        "end": "2026-01-20T14:13:42-05:00",
+        "duration_seconds": 635,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-20T14:03:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-20T14:03:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-20T14:03:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-20T14:03:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-20T14:03:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

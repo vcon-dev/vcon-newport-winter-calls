@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3f09231e-f474-8317-b561-cda1c45f21b9",
+  "created_at": "2026-03-11T14:16:27-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Erin Dolan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T14:12:45-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good afternoon, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:12:51-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Sandra. My name is Erin Dolan. I need a certified copy of a birth certificate, please. For a passport."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:01-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. Is it your own birth certificate, or someone else's?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:08-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is mine. I was born here in Newport, at the hospital. I am sixty-something now, so is very old record."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:18-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no problem, we keep those. Born in Newport, good. Do you have your full name as it was on the certificate? Sometimes it's different from what people use now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:31-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Same name, Erin Dolan. Erin, E-R-I-N. Dolan, D-O-L-A-N. My mother's maiden name I can give also if you need."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:40-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We may ask for that on the form, yes. Let me just write down what you've told me. And your date of birth?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:50-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fourteenth of August, nineteen sixty-one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:54-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fourteenth of August, nineteen sixty-one. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:58-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what ID should I bring when I come? I want to bring the right thing, so I don't make a second trip."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:09-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good thinking. Bring a current photo ID, like your driver's license or a state ID. If you don't have one of those, your passport, if you still have an old one, would work too. If anything is expired, bring a second form of ID with your name on it, like a bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:31-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A license I have, and it is not expired. Is good until two years more. So the license is enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:40-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For yourself, that should do it. And the address on it doesn't have to match anything, but if you've moved, it helps to bring one piece of mail too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:53-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I write that down. License, and one letter. Is the office open now, today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:00-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're here until the end of the afternoon today. You can come any time during the regular weekday hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:09-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I can come tomorrow, I think. Oh, excuse me, one moment, my feet are happy today. I got a new pair of slippers yesterday, and I am very pleased with them. So soft."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:24-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's nice, there's nothing like new slippers. Well, enjoy them."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:30-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Yes. So, I come to the window, and I fill the form there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:37-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. You'll fill out a short application at the counter, and we'll print the certified copy while you wait, usually. If we can't find it right away, we'll tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:51-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if I forget something, I can call you again, same number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:15:57-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Just ask for the City Clerk's office. Do you want to leave a number in case we need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:16:07-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Is four-oh-one, five-five-five, zero-one-eight-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:16:10-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-four. Perfect, I have that with your name."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:16:15-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Sandra. You are very kind. I see you tomorrow, maybe."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:16:21-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We'll see you then, Ms. Dolan. Take care now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:16:26-04:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:12:45-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:12:45-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T14:12:45-04:00",
+        "end": "2026-03-11T14:16:27-04:00",
+        "duration_seconds": 222,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:12:45-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T14:12:45-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T14:12:45-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T14:12:45-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T14:12:45-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

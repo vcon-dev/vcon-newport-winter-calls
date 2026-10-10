@@ -1,0 +1,607 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "72bf751f-43bb-85ef-b3de-9f28d7097234",
+  "created_at": "2026-02-04T14:33:30-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Terrence Kearney",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-04T14:25:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:25:53-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. Terrence Kearney. I'm calling about a parking ticket, and I'm going to tell you how it went from the start, because it's a little bit of a saga."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:26:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead. I've got time and coffee."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:26:07-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So last Wednesday, a week ago today, I park downtown, on one of the metered spots, around lunchtime. I had a meeting. I go to the meter and it's one of the ones where you put in coins. I put in four quarters. Nothing. The display stays dark, no time on it. So I put in four more. Still nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:26:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So eight quarters, no time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:26:32-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eight quarters, two dollars, gone. Screen blank the whole time. I figured, okay, it's broken, what am I supposed to do, I'm late. So I went to my meeting. I came back an hour and a half later and there's a ticket on my windshield. For an expired meter. On a meter that was dead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:26:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that'll do it. Did you take any pictures of the meter, or write down the number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:27:00-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did not. I know, I know. I should have. I was in a hurry. But I remember it was the one right in front of the building, and the display was just blank. I'm not making it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:27:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe you. I just want to know what we can put on the record. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:27:24-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, it's in my truck. Let me, hold on. [pause] Okay, I'm looking at it. Ticket number starts with a, uh, a nine, then four, one, seven, two, six."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:27:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nine four one seven two six. Okay, give me a second to pull that up. [pause] Alright, I see it. Issued last Wednesday, expired meter violation. It's showing as unpaid right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:27:47-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So that's the thing. Then on Friday I called the parking office, or I think I called them, and got a voicemail, and I left a message. Nobody called back. And then this Monday I got a notice in the mail, which is dumb because the ticket was just last week. It said something about a late amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:28:09-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Let me look at that. The notice you got in the mail, is that a separate piece of paper from the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:28:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's a separate letter. It came Monday. I'd have to find it. It basically says pay up or it goes up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:28:27-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Here's what I'm seeing. The ticket's still in the regular window, it hasn't been bumped to the higher amount yet. That letter may just be a reminder that went out. So you're not in trouble yet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:28:41-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's something. Because I'm annoyed, honestly. I'm paying twice. I paid two dollars to a machine that ate it, and now they want me to pay for the ticket on top of that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:28:54-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I get it. So there's a couple of ways this can go. You can contest the ticket, which means you'd explain what happened and someone reviews it. Without a photo it's your word, but a broken meter report is something they can check against. If other people reported that meter, or if it was already on a repair list, that helps you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:29:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how do I do that? Is that something you can do or is that a different office?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:29:25-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Contesting goes through the parking violations side. I can't decide it from here, but I can tell you what to send. A short written explanation, the ticket number, where you parked, the time, and that the meter showed nothing after you put in coins. If you've got anything, even a bank statement doesn't help with coins, but a calendar entry for your meeting showing you were there can help with the timeline."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:29:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the meeting invite. That I can send."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:29:55-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Send that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:29:57-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, let me ask you something else. If I contest it and they say no, then what? Because money's a little tight this month. I just had to deal with a heating oil delivery, and I'd rather not hand over a big lump if it comes to that. Is there a payment plan? Do you guys do those?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:30:18-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a way to ask about arrangements on unpaid balances, yes. But for a single ticket, honestly, most of the time the amount is small enough that it's pay it or contest it. If it grows with late charges, or you've got several, that's when a plan comes up more. I'd say ask for one if it comes to that, and it's easier to do before it's late than after."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:30:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I shouldn't wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:30:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't wait on the contest part, no. Get that in while it's still in the regular window. Then if it's denied you'd still have a bit of time to deal with the payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:30:59-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I'm in the grocery store right now, I'm in the cereal aisle. I'm hunting for a specific brand of oats, the steel cut ones in the tin, and they've moved everything around. I'm standing here looking at a wall of instant packets."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:31:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the trouble with grocery stores. They rearrange it so you walk past more stuff."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:31:21-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Anyway. Sorry. Where was I. So I send in the explanation. Where does it go? Email, mail, drop it off?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:31:29-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The ticket itself should have instructions on the back, and the website for the city has the parking violation page with the form. I don't want to read you the wrong address off the top of my head. If you want, I can have the parking violations clerk call you back and walk you through it. Is the number you're on now the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:31:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's four oh one, five five five, zero one nine two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:31:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one nine two. Got it. And it's Terrence Kearney, K-E-A-R-N-E-Y?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:05-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:07-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note on the ticket that you're disputing it because of a nonworking meter, so the late notice doesn't get ahead of you. I can't promise how the review goes, but the note will be there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that helps. And the Friday voicemail, do you know if anyone got that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:27-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't see anything logged on my end. Voicemails can get buried. Don't count on it. The note I'm putting in now is the one that counts."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Wonderful. So I leave a voicemail, get a letter, and the letter's the only thing that shows up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Welcome to municipal government. We do try to be faster than that. Somebody should call you in the next day or two, probably tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:32:54-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Hold on, I think I found them. Top shelf, of course. Okay. Yes. Got the oats."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:33:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Congratulations. That's the best news of the call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:33:05-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is, actually. Alright. So to recap, I send the explanation and the meeting invite, you note the file, parking violations calls me back, and if it's denied I ask about a payment plan."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:33:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And if you do find that letter from Monday, keep it with the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:33:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Thanks, Luis."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-04T14:33:27-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Terrence. Enjoy the oats."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T14:25:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T14:25:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-04T14:25:48-05:00",
+        "end": "2026-02-04T14:33:30-05:00",
+        "duration_seconds": 462,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-04T14:25:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-04T14:25:48-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-04T14:25:48-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-04T14:25:48-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-04T14:25:48-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

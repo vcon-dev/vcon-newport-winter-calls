@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cca9f075-f835-8f9c-b956-48f9b74800ef",
+  "created_at": "2025-12-22T10:20:59-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Declan Doyle",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T10:16:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:16:19-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. This is Declan Doyle. I have my water and sewer bill here in front of me, and I have a question about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:16:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Mr. Doyle. What's the question?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:16:32-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well. There are two lines. One says water charge, and one says sewer charge. The sewer is higher than the water. Almost double. [pause] I do not understand this. I use the water, I do not use the sewer for anything different."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:16:48-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a common question. The sewer charge is usually figured from the same water you use, since what goes into the house generally goes down the drain. The sewer rate per unit is higher than the water rate, so the line comes out bigger."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:17:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it is the same water, but I pay twice. Once for coming in, and then again, more, for going out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:17:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Roughly, yes. They're two separate services. One is treating and delivering the water, the other is collecting and treating the wastewater. Each has its own rate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:17:24-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. I think this is a little unfair, but all right. Now, there is another word here. It says consumption. Consumption, and then a number, and then a date range. What is consumption? In Poland we would say a different word, and I am not sure it is the same."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:17:43-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Consumption is just the amount of water your household used during the billing period. It's what the meter measured between the previous reading and the current one. The number next to it is the units used."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:17:57-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The units. What is a unit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:18:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends how the bill is set up, but it's a set volume of water, and the bill should list the unit type near that number. Both the water and sewer charges are calculated off that consumption figure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:18:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see it. Small print, there. Hundred cubic feet. So consumption is what the meter says, and then they multiply."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:18:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Consumption times the rate, for each of the two lines."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:18:28-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That I understand. The sewer still annoys me, but I understand. [pause] Now, second thing. I am home most days, but I do not like to wait until the last minute. If I want to pay, can I do it on a Saturday or a Sunday? City Hall is closed then, I think."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:18:49-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall is closed on weekends, that's right. But you can still pay. There's an online payment option you can use any time, including weekends and evenings. There's also a drop box outside City Hall for checks, and you can use it whenever you like."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:19:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. Outside, so I can come Sunday and put the check in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:19:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Just put the check in an envelope with your payment stub or write your account number on the check. It'll be processed the next business day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:19:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the computer, I would rather not. I will use the box. Is there a phone line also, for the weekend?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:19:32-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's an automated payment line on some accounts, but I'd point you to the drop box or the website. The bill itself should list the options on the back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:19:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The back. Let me turn it over. [pause] Yes. There is a paragraph. I did not read the back. I only read the front, very carefully, but not the back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:19:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens a lot. The back usually has the payment methods and the office hours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:02-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Sorry, one moment. I am moving the bags, they are on the chair by the door, the reusable bags. I keep a pile, and then I put things on top of the pile. My wife says it is a system. It is not a system."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha. No worries, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I am back. So, the sewer is higher because the rate is higher. Consumption is the meter reading. And the drop box is open on Sunday. That is everything I wrote down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:36-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Is there anything else on the bill you'd like me to go over?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. I will pay the bill this week and I will complain about the sewer to my wife, not to you. Thank you for explaining."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Doyle. Happy holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T10:20:56-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you also. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T10:16:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T10:16:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T10:16:14-05:00",
+        "end": "2025-12-22T10:20:59-05:00",
+        "duration_seconds": 285,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T10:16:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T10:16:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T10:16:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T10:16:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T10:16:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

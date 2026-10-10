@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "707ce403-190a-8d0a-b5e6-a83527512de4",
+  "created_at": "2025-12-15T12:58:30-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Ivan Varela",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-15T12:57:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:57:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, sure. Ivan Varela, I'm at 267 Dixon Street, up the North End. My water and sewer bill came and it's way higher than normal. They put in a new meter last month, so, I mean, that's gotta be it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:57:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A new meter can change the reading, so I'll note that on the account. Do you know what the bill usually runs?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:57:46-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, it's about double. Which, great, thanks. Sorry, hang on, my coworker's pulling in, he always honks twice. [pause] Okay. Anyway, is a payment plan possible? Of course I'll pay it, I just can't do it all at once."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:57:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can look at that. I'd put in a request for a review of the meter reading first, and someone will call you about the plan."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:58:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure. And I want to pay something before the weekend. How do I do that once you're closed? Online, or a drop box or something?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:58:15-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay online anytime through the city website, and there's a payment drop box at City Hall. Your bill has the account number you'll need."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:58:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, got it. Okay, thanks. The number's 401-555-0188 if they call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-15T12:58:27-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Thank you, Mr. Varela."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T12:57:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T12:57:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-15T12:57:22-05:00",
+        "end": "2025-12-15T12:58:30-05:00",
+        "duration_seconds": 68,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-15T12:57:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-15T12:57:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-15T12:57:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-15T12:57:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-15T12:57:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

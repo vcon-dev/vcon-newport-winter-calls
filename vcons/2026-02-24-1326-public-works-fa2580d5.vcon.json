@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fa2580d5-4620-8388-a6e8-22931d06af26",
+  "created_at": "2026-02-24T13:27:47-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Stephen Brownell",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T13:26:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:26:10-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. I'm calling about a storm drain. It's at 137 Eustis Avenue, up on the Hill. It's been gurgling since last weekend's nor'easter, Saturday into Sunday, and now there's a sewer smell coming right up out of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:26:24-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 137 Eustis. Gurgling and a sewer smell. Sorry, is that running water I hear on your end?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:26:31-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's me rinsing out a coffee pot. You're on speaker. Hang on. Okay, I'm here. Anyway, the water's coming up out of the drain and it's running downhill toward my neighbor's garage. Another hour and it's going in under the door."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:26:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, so water's moving toward the neighbor's garage. Let me jot that down. Is it a steady flow or just when it's wet out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:26:55-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's steady today. And it's been two days since the storm ended, so it's not like it's still raining. Something's clogged. What I want to know is when somebody last came by and cleaned it. Because it sure doesn't look like anyone has."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:27:10-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly I can't see the cleaning log from my desk. I'll put in the request and flag the garage, and I'll ask the crew supervisor to check when that drain was last serviced."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:27:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And it's a storm drain, not a sewer drain, just so your notes are right. It just smells like a sewer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:27:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Storm drain, noted. Can I get a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:27:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0176. Stephen Brownell. Two L's in Brownell, not one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:27:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Brownell, two L's, 401-555-0176. Got it. Somebody will get back to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T13:27:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks. Hopefully before the garage floods."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T13:26:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T13:26:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T13:26:06-05:00",
+        "end": "2026-02-24T13:27:47-05:00",
+        "duration_seconds": 101,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T13:26:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T13:26:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T13:26:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T13:26:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T13:26:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

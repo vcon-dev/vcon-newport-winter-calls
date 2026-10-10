@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5b892e06-7977-8fee-b737-60f40b197672",
+  "created_at": "2025-12-03T11:27:31-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Erin Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-03T11:23:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:23:31-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, this is Erin Hanlon. I got my water and sewer bill and it's an estimate again. Estimated reading. I'm not happy about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:23:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry about that, Ms. Hanlon. Can I get the service address so I can pull up the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:23:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, they told me to have my address handy, I've got it right here. It's 410 Ocean Avenue. Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:24:02-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Okay, I have it. I see the last few readings were estimated. Do you know why the meter isn't being read?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:24:13-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because the meter's in the crawlspace. Nobody goes in there. I don't go in there, my husband doesn't go in there. The reader comes, looks at the door, and leaves. Then I get a number somebody made up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:24:31-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would explain it. If they can't get to the meter, they have to estimate. Usually there's an outside reading device or a self-read card option, and I can note the account so someone follows up on access."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:24:49-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, note it. Oh, and by the way, is there any kind of discount? For seniors, or low income? I'm not quite there yet but my mother-in-law's place is, and she asks me everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:25:05-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is she a city water customer as well?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:25:10-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, wait, she lives with us half the time. Never mind, just tell me if there's a discount."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:25:19-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be assistance programs for elderly or low-income households. I don't have the eligibility details in front of me, so I'll put a note for someone to send you the information with your bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:25:35-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. Now, back to the bill. It's way too high. I want a corrected one mailed to me. Not emailed, mailed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:25:46-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I can request a corrected bill once the reading is verified, and it will be mailed to the address on the account. Would you like to pay the current amount in the meantime, or wait for the correction?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:04-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'll pay what I owe. I just did the math and it's a hundred twenty-six eighty. That's what it should be, I think. Can I do the card right now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can take that. Go ahead whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:24-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hang on, let me get my glasses. Card number is six zero one one. One one one one. One one one one. One one one seven."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the expiration date?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero four, thirty. April of 2030."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So that's a payment of one hundred twenty-six dollars and eighty cents on the card ending in one one one seven. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:26:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:27:00-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it went through. You'll get a confirmation, and I've noted the account for the access problem, the corrected bill by mail, and the assistance information."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:27:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you. Honestly I just wanted a real number for once."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:27:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:27:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-03T11:27:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Hanlon. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T11:23:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T11:23:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-03T11:23:26-05:00",
+        "end": "2025-12-03T11:27:31-05:00",
+        "duration_seconds": 245,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-03T11:23:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-03T11:23:26-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-03T11:23:26-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-03T11:23:26-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-03T11:23:26-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

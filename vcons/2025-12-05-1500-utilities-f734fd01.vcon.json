@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f734fd01-691e-8a35-b1f6-8b52a4a1ceca",
+  "created_at": "2025-12-05T15:02:56-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Brendan Kearney",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-05T15:00:26-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:00:30-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Brendan Kearney. I've got three things. First, I just bought the house at 301 Bridge Street, down the Point, and the first water and sewer bill came and it's in the former owner's name. Second, the reading on it looks estimated, and third, I need to know how to pay it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:00:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Congratulations on the house. Let's take them in order. When did you close?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:00:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Closed three weeks ago. [pause] Sorry, hang on, I'm cleaning off this desk, there's paper everywhere."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:00:58-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Is the bill showing a final reading from the seller, or is it just the old name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:06-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the old name. First, it shouldn't be addressed to him. Second, it's got an estimated read, and I'm not paying for water I didn't use. Third, nobody could have read it, because the meter's in a crawlspace and nobody goes in there. I sure don't."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:21-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would explain the estimate. If the meter isn't accessible, we usually bill on an estimate until someone can get a reading. I can note the account for a transfer into your name, and we can set up a meter check so the next bill reflects actual use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. But the estimate on this one, can that be fixed? I'm not covering the previous owner's usage either."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:44-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll flag it for review with the transfer date. I'll need your phone number so someone can reach you about the meter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:52-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0187."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0187. And the closing date, if you have it handy?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:01:59-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on. [pause] Papers again. Okay, it was the fourteenth of November."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:04-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I've noted that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:06-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, third. I'm leaving on a trip tomorrow morning, early. So how do I pay this without coming down to City Hall? Is there a way to do it online, or a drop box, or a phone line, something that works when you're closed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:20-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. You can pay on the city's website, and there's also a payment drop box at City Hall that's available outside office hours. Since the account is changing names, I'd hold off a day or two until the review is noted, unless you want to pay the estimate now to be safe."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll pay it online tonight, then. And you'll fix the amount after?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Any correction would show as a credit on your next bill. I've put the notes on the account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:48-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That works. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T15:02:50-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Kearney. Stay safe out there with the storm, and have a good trip."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T15:00:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T15:00:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-05T15:00:26-05:00",
+        "end": "2025-12-05T15:02:56-05:00",
+        "duration_seconds": 150,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T15:00:26-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-05T15:00:26-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-05T15:00:26-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-05T15:00:26-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-05T15:00:26-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

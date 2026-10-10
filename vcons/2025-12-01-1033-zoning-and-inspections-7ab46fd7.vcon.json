@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7ab46fd7-b98f-8c88-ade9-dd1905fd2dbc",
+  "created_at": "2025-12-01T10:34:54-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Marisol Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T10:33:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:33:22-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Um, I'm trying to figure out something about my driveway. I want to widen it, like a few feet on one side, and somebody told me I need a curb cut permit? But I don't totally get what that even is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:33:36-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A curb cut is where the driveway meets the street, where the curb drops down. If you're widening the opening at the curb, yes, you'd need a permit for that. If you're only widening on your own property and not touching the curb, that can be different."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:33:51-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So wait, is it the driveway permit or the curb one? Because I thought those were the same thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:33:58-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not quite. The one you'd want is the driveway curb cut permit. That's the one for changing the curb opening. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "386 Bacheller Street. Fifth Ward. So it's wicked narrow right now, totally can't fit two cars side by side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:12-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Bring a sketch or survey of the lot showing the current driveway and how wide you want it, plus your proof of ownership and a photo of the frontage. Someone will tell you if anything else is needed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, a survey? Like the plot plan thing from when I bought the house? Or a drawing I do myself?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plot plan works if you have it. Mark your changes on it by hand. That's fine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. I'll dig through my papers. I've got this whole stack of unread magazines on the table I'm working through, it's probably in there somewhere, ha. So plot plan, ownership, photo?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Come by the office whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T10:34:51-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thanks. I think I got it. Mostly."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T10:33:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T10:33:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T10:33:19-05:00",
+        "end": "2025-12-01T10:34:54-05:00",
+        "duration_seconds": 95,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T10:33:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T10:33:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T10:33:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T10:33:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T10:33:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fa2d4b01-42cb-8747-970b-cb1a90e678f1",
+  "created_at": "2026-03-10T10:19:41-04:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Lucia Cabral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:39-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:44-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, um, I'm calling about a storm drain. On my corner. It's totally full, like right up to the top, and it's not draining at all, it's just sitting there..."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:13:58-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry to hear that. Let me get the location. What's the address, or the nearest address to that corner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:08-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's twenty Annandale Road. In the North End. The drain's right at the corner there, by our building."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:16-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty Annandale Road, North End. And you said the drain is full to the top. Is the water just sitting in it, or is it spilling out into the road?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:29-04:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's, um, it's spilling a little into the street, a big puddle all along the curb. And it's been like this since the rain. Friday into Saturday. That's three days now and nothing's gone down..."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:14:45-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So since the rain from Friday into Saturday, and it hasn't gone down at all in three days. Got it. Has anyone from the city come out to look at it that you know of?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:01-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Nobody. I've walked past it every day and nobody's been there, no truck, no cone, nothing. It's honestly kind of ridiculous, like how long is it supposed to sit there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:15-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Three days is too long for a drain to stay backed up. Is there debris on top of it, leaves or trash, or does it look clear and just full of water?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:30-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Some leaves on the grate, but mostly it's just water, right to the top. Like it's blocked underneath, I think. I don't know, I'm not a drain person..."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:43-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, you're describing it well. Blocked below the grate, water to the top, leaves on it, puddle spreading into the street. Let me make sure I've got all that in the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:15:58-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And, um, I'm worried too because there's kids that go by there, for the bus, and people walk their dogs right along that corner. The water's deep enough at the curb, a little kid could step in it and, you know..."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:16:16-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's an important detail. I'll note it as a safety concern, kids and dog walkers close to standing water at the corner. That helps get it looked at sooner."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:16:29-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Sorry, I'm a little scattered, I work nights, I'm a nurse's aide, and I just got off and haven't slept yet. I came home and saw it still there and I just thought, okay, I have to call."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:16:47-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize, you're doing me a favor by calling. Go get some rest after this. Is it just the one drain on that corner, or are there others nearby that are backed up too?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:03-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the one on our corner, I think. The one down the street looks okay. I didn't really check past that..."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:13-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, just the one at the corner of Annandale. Do you know which side of the street it's on, or is it right at the intersection?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:25-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's, um, on our side, the building side, right where the curb turns. Right at the corner."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:33-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Our side, at the curve of the curb. Perfect. Now, so the crew can reach you, may I have a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:43-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's four oh one, five five five, oh one seven four."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:49-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one seven four. Is that a cell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:17:56-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's my cell. If I don't pick up, I might be sleeping, so just leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:04-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. And your name for the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:08-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lucia Cabral. C-A-B-R-A-L."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:10-04:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lucia Cabral. Thank you. So I've got twenty Annandale Road, the corner storm drain full and not draining since Friday and Saturday's rain, water spilling into the street, with kids and dog walkers nearby. I'll send that to the drain crew as a priority."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:29-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you know when somebody might come? Because honestly it's been three days and I feel like I'm the only one who's noticed..."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:40-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "After a storm like that, the crews have a long list, but a standing-water drain with a safety note usually gets moved up. I'd expect somebody out there within a day or two, and I'll flag it today."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:18:57-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Could someone call me back when it's done? Just so I know it's actually fixed, and not that they looked and left."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:08-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. I'll put a note on the ticket to call you back once the work is finished. Same number, four oh one, five five five, oh one seven four."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:21-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:24-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Lucia. If it gets worse before they get there, or the water starts coming toward the building, call us right back."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:35-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I will. Thanks. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T10:19:38-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now. Get some sleep."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:13:39-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:13:39-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T10:13:39-04:00",
+        "end": "2026-03-10T10:19:41-04:00",
+        "duration_seconds": 362,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T10:13:39-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:39-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:39-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:39-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T10:13:39-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d23c82ec-5dfb-87c9-8367-89ce4c16d328",
+  "created_at": "2025-12-17T11:38:59-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Joao Furtado",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-17T11:35:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:35:47-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. My recycling bin is gone. They came for the pickup this morning and now the bin's not there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:35:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that. The bin is missing after the pickup today. Can I get the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:36:04-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ninety Annandale Road. North End, up past where the old Navy housing used to be, well, not that close, but you know what I mean."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:36:14-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ninety Annandale Road. Got it. And is it the recycling bin or the trash one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:36:21-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recycling. The blue one. The trash barrel is still sitting right where I left it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:36:28-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the blue recycling bin. Did you check up and down the street? With the wind and rain today, they sometimes get blown a ways off."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:36:39-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I walked down to the corner and back. Nothing. The neighbor's is still out front, so it's not like the whole street got missed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:36:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on one second. [pause] Sorry, there's an alarm going off somewhere in the house. I think it's the smoke detector in the hall, the battery thing. Let me deal with it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay. Okay, it stopped. Sorry about that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:09-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. So, for the replacement, I can put in a request with our office. Do you want me to send out a new bin to Ninety Annandale?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:21-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. That's what I was calling to ask, how do I request one. Is there a form or do I just do it with you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:32-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can do it with me right now. I'll take down the request and it goes to the crew that delivers bins. Let me read it back. Replacement blue recycling bin, Ninety Annandale Road, reported missing after Wednesday's pickup. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Wednesday, today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:52-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And do you want a callback number in case we need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:37:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0169."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:00-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-six-nine. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:02-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:03-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bins usually go out within a few days to a week, and with this storm today it may lean toward the longer side. Until then, if you have recycling, you can keep it in a box or a bag in the garage, just keep it dry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And I don't need to be home when they drop it off?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, they just leave it at the curb or by the driveway. Is there a spot you'd like noted?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "By the driveway, left side, where the old, uh, the old mailbox post was. Well, it's the new mailbox now, same spot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "By the driveway on the left, near the mailbox. I've got that noted."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. That's all I needed. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Furtado. Stay dry out there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T11:38:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T11:35:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T11:35:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-17T11:35:42-05:00",
+        "end": "2025-12-17T11:38:59-05:00",
+        "duration_seconds": 197,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T11:35:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-17T11:35:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-17T11:35:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-17T11:35:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-17T11:35:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

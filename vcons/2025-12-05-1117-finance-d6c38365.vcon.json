@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d6c38365-3061-8133-9e42-7958143e3bb8",
+  "created_at": "2025-12-05T11:20:55-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Nancy Almy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-05T11:17:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, Luis speaking. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:17:47-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. My name is Nancy Almy. I'm calling about a property tax bill, and I'll tell you right now, I don't understand it, and I don't think the bill does either."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:17:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, let's see if we can make one of you understand. What's going on with it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:18:04-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I bought the place, I'm the new owner, at 267 Farewell Street, up in the North End. And the bill came in the seller's name. Not mine. Which seems sloppy to me, the sale was months ago."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:18:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens a lot, actually. The bill goes to whoever was the owner of record when the tax roll was set. Does the bill have the right property address on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:18:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The address is right, yes. Just the wrong name. So do I pay it anyway? Or does it go back to him? I thought that was what the closing was for."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:18:38-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill follows the property, so it's still owed no matter whose name is printed on it. You'd pay it, and if the seller owed you a share, that's something settled between the two of you from the closing papers."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:18:51-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Well, that's a silly system, but all right. Now, somebody told me there's an exemption I might qualify for. I don't remember what the form was called. Is there a form number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:19:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Depends which exemption. Is it for age, veteran status, something like that? I'd rather not hand you the wrong form."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:19:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I thought it was just one form. Isn't there just the one? I'm in my sixties, if that matters."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:19:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's more than one, so I can't give you a single number off the top. I can have the assessor's office send you the list. Do you want that mailed or emailed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:19:27-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailed, please. I don't trust the email. Same address, Farewell Street. And the person I spoke to earlier, the representative, said to call back Tuesday or Thursday about it. Did she say Tuesday or Thursday? You'd think you'd know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:19:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wasn't on that call, so I can't tell you which one she said. The assessor's office is open weekdays though, so either day works, and so does Monday for that matter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:19:51-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's not very helpful, but fine. Now the installment. I work until after you close, and I need to know, is there a way to pay by phone after four thirty?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:02-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's an online payment option on the city website that works any hour. There's also a drop box outside City Hall for checks. The phone with a person on it, that's during office hours only."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:14-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. In this weather? It's supposed to be a terrible storm today, you know. I'd rather not stand outside with a check."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair. Online's the dry option. You'll want the bill in front of you for the account number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number is on the bill, in the seller's name. Of course it is. All right. So, mail the exemption list, and pay online or the drop box. Did I get that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And the list will come from the assessor's office, so if it doesn't show up in a week or so, call them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:47-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tuesday or Thursday, I'll just pick one. Thank you, Luis. Stay warm."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T11:20:52-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Almy. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T11:17:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T11:17:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-05T11:17:44-05:00",
+        "end": "2025-12-05T11:20:55-05:00",
+        "duration_seconds": 191,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T11:17:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-05T11:17:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-05T11:17:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-05T11:17:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-05T11:17:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

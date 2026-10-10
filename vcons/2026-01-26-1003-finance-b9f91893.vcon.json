@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b9f91893-8957-8f2d-82ee-b45b9f1c86e5",
+  "created_at": "2026-01-26T10:07:26-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Elvis Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T10:03:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:03:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning? My name is Elvis Tavares? I just bought a house on Eustis Avenue, and I got a property tax bill, but it's in the seller's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:03:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Good morning, Mr. Tavares. Can you give me the street address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:03:51-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 52 Eustis Avenue? Up on the Hill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:03:56-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I pull up the parcel. [pause] All right, I have it. The tax bills are generated from the assessment roll, and that lists the owner of record as of the assessment date. So it is common for the first bill to carry the previous owner's name."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:04:19-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? So I don't need to do anything to, like, get it changed? I just wasn't sure if it was a mistake? Or if I'm still going to be responsible for it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:04:34-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill follows the property. Once the deed is recorded, the ownership information is updated, and you remain responsible for the taxes on the parcel regardless of the name printed. I would suggest you keep the bill and not disregard it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:04:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it? Because the closing was, uh, just a couple weeks ago? So the deed should be recorded already, I think?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:05:03-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it was recorded with the city clerk's office, it may simply not have reached the tax roll yet. Would you like me to note the account with your name and mailing address so future correspondence reaches you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:05:21-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please? That would be great? The mailing address is the same, 52 Eustis. I'm still not really living there full time, we're kind of in the middle of stuff?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:05:35-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I will add a note to the account. Is there a different mailing address you would prefer?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:05:44-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the house is fine? The mail's going there? Um, we have the place pretty empty right now, I do yoga on a mat in the living room, so there's room, ha, but yeah, it's fine?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:06:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. I have noted the mailing address as the property address. Is there anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:06:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, one more thing? I heard there might be an exemption I could apply for? Do you know the form number for that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:06:20-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are several exemptions, depending on the circumstances. Which one are you asking about? Homestead, veteran, elderly, or something else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:06:30-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the one for, like, owner-occupied? Where it's my main home?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:06:36-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not have a form number I can state with certainty from this desk, and I would not want you to file the wrong one. The assessor's office handles exemption applications. I can transfer you, or I can take your number and have them call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:06:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay? Can you transfer me? Or, actually, if they don't pick up, can they call my cell? It's 401-555-0163?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:07:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. That is 401-555-0163. I will transfer you now, and I will add the number to my note as well. Please hold."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:07:19-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you? Appreciate it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T10:07:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Tavares. Good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T10:03:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T10:03:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T10:03:22-05:00",
+        "end": "2026-01-26T10:07:26-05:00",
+        "duration_seconds": 244,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T10:03:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T10:03:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T10:03:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T10:03:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T10:03:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

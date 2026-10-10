@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ec13c3be-d6d6-809c-8f57-f2bbb3bbee41",
+  "created_at": "2026-01-05T13:17:35-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ivan Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T13:15:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:15:51-05:00",
+      "duration": 30,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I've got an old couch in my garage that I need gone, it's a sleeper sofa, pretty heavy, and I don't know if I can just put it out with the regular trash on my pickup day or if there's a special way to do it, and I'm at 19 Farewell Street, up in the North End, and I also want to know if there's a fee for it because I don't want to put it out and then get a notice or something."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:16:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so a couch, and you're at 19 Farewell Street. Let me make sure I have that right, Farewell, like saying goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:16:29-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:16:31-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Bulk items like a couch usually can't just go out with the regular trash. They normally need to be scheduled for a special pickup first, and there can be a charge for that. Let me pull up the details for your area."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:16:46-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, one second, I'm just going over something while I drive. A speech for a retirement dinner. Where was I. Okay, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:16:55-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. So, I'm showing that for bulk pickup you'd call to set up a date, and they'll tell you the fee when you book it. I don't want to quote you the wrong amount. Do you want me to transfer you to the person who schedules those?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:17:12-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that works. Should I leave it at the curb now or wait?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:17:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait until it's scheduled. Once you have a date, they'll tell you when to put it out. So I'll transfer you now. If it drops, they can reach you at 401-555-0157?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:17:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's my cell."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:17:30-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Hold on just a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T13:17:33-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T13:15:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T13:15:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T13:15:47-05:00",
+        "end": "2026-01-05T13:17:35-05:00",
+        "duration_seconds": 108,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T13:15:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T13:15:47-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T13:15:47-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T13:15:47-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T13:15:47-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

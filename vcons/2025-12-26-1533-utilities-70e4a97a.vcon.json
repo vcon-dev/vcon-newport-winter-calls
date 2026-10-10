@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "70e4a97a-c4ec-87e8-b78d-46a26357988c",
+  "created_at": "2025-12-26T15:38:59-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Peggy Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-26T15:33:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:33:16-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Priya. Peggy Flynn. I'm calling about my water and sewer bill. I got a notice that a payment from my bank bounced, and I want to know where that stands."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:33:28-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look into that. Can you give me the service address or the account number on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:33:36-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd rather not give the address over a cell line. Do you have the account number option? It's on the top right of the bill, I've got it here. Zero four, seven, seven, one, nine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:33:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Is there anything after that? Most of our account numbers have a dash and a few more digits."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:33:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sorry, yep. Dash zero two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Peggy Flynn, homeowner. Give me a moment to pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:07-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:08-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I see the payment that was attempted on the second of December. It was returned by the bank, and the return shows as insufficient funds. The balance is back on the account as unpaid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's a mismatch on my end, probably. I had a transfer pending that day. Is there a returned payment fee on there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:31-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see a returned item charge posted to the account, yes. It's listed as a separate line from the water and sewer usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:41-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And the usage itself, that's the bigger issue. The bill's way higher than normal. We had the toilet running constantly last month. Flapper was shot. My husband's deployed, so I didn't catch it for a couple weeks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:34:56-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Let me compare. Your usual quarterly consumption is around the same range for the last several bills, and this billing period is quite a bit above that. That fits with a leak like you're describing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:35:10-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. It's fixed now, I replaced the part myself. So what I want to know is how I dispute the charge formally. Is there a form, or do I write a letter?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:35:22-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a written request for review. You'd send it to the utilities billing office with your account number, the billing period you're questioning, and a short explanation of what happened and when it was repaired. Receipts for the part help, or a plumber's invoice if you had one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:35:40-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the receipt for the flapper from the hardware store. No plumber."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:35:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine to include. Photos of the repair or a date on the receipt can be useful too. I can't promise what the review will decide, but it does get looked at by a supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:35:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Can that be emailed, or does it have to be mailed in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:05-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can do either. I can give you the billing office mailing address now, and the email is also on the back of your bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:15-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mailing address is good. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:18-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the City of Newport Utilities Division, billing, at City Hall, 43 Broadway, Newport, Rhode Island 02840. Mark it attention billing review."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Forty-three Broadway, zero two eight four zero, attention billing review. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:32-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Also, the returned payment is separate from the dispute. The unpaid balance stays on the account while the review is open, so the due date still applies for now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:44-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the late stuff keeps running even if I'm disputing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:36:49-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The dispute doesn't automatically pause the due date. It's worth putting in your letter that you're requesting a hold while it's reviewed. The supervisor would be the one to decide on that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:01-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll put that in. I'll also settle the part that isn't in question. Can you tell me what the usage portion would normally run, so I know what's the undisputed amount?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:13-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can tell you what your last three bills were. Do you want those?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:21-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The previous three quarterly bills were each in the same general range, within about ten or fifteen dollars of one another. I'd read you the exact figures, but it may be easier if I note on the account that you've called and I'll mention the history in my note. Then the reviewer sees it too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:42-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works, but I'd still like the numbers. Can you read them?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:47-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. One hundred eighteen dollars, one hundred twenty-four, and one hundred twenty-one. The current one is much higher than any of those."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:37:56-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Okay, so about one twenty is normal. Good to have that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:01-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've added a note that you called today about the returned payment and that you plan to submit a written dispute for a leak. Do you want a callback number on the note?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:14-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's four-oh-one, five-five-five, zero-one-five-nine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-five-nine. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:20-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One more thing, unrelated. I'm planning a yard sale sometime in the spring. I don't need anything from you on that today, just thinking out loud, I guess. I'm cleaning out the garage and I found the old flapper box, which is how I ended up with the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'm glad you kept it. That receipt could help. Is there anything else on the account I can check?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that covers it. I'll get the letter out this week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Thanks for calling, Peggy, and have a good rest of your Friday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T15:38:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thanks, Priya."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T15:33:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T15:33:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-26T15:33:11-05:00",
+        "end": "2025-12-26T15:38:59-05:00",
+        "duration_seconds": 348,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T15:33:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-26T15:33:11-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-26T15:33:11-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-26T15:33:11-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-26T15:33:11-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6882cd50-092b-816e-8f79-4d6857ae5f75",
+  "created_at": "2026-01-02T11:43:01-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Mei Abdi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-02T11:40:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy New Year, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:40:19-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hi, sorry, happy New Year to you too. I know this is silly, but I'm looking at my water bill and it's almost double what it normally is, and I just don't understand it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:40:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not silly at all. Double is a big jump. Is this for a home or a business?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:40:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, it's the business. I have a little shop. Same number of people, same everything. I've been getting about the same bill for years, and this one is way up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:40:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can you give me the account name or the service address so I can pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:40:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I'd rather not give the address over the phone, if that's all right. The account is under Mei Abdi. I can read you the account number off the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:00-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead with the account number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:03-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, one second, my glasses. [pause] Okay, it's the one ending in four four seven two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:08-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, I have it here. So the last reading shows a lot more usage than the one before. Roughly twice, like you said. Has anything changed there? A leak, a running toilet, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. I had a plumber out about two weeks ago. He fixed a fitting under the back sink. I kept the receipt, I'm holding it right now. But he said it wasn't a big leak. I don't see how that doubles the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:32-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A slow leak can do it, actually, because it runs all day and night. But if the repair was two weeks ago, the bill might cover some of the time before the fix. The bill covers a whole billing period, so it can lag behind what you've done."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:46-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I know that's possible, but I've called about the bill before and it feels like I always get told it's my fault. I just want it looked at properly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:41:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. I'll flag the account for a review of the reading and the usage. If the meter read was off, they'll fix it. If it's real usage, the plumber receipt helps show the leak is repaired."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, so would I need to take this to the city council? Or the, um, counsel? I always mix those up. The one that votes, I mean."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The council, with the c-i-l. No, you don't need to go there for this. This is just a billing review here in our office."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sorry. Council. Got it. Then can you just mail me a corrected bill if it comes out wrong? I'd like something on paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:30-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, if there's an adjustment, a corrected bill goes out in the mail. Do you want to send or drop off a copy of the plumber receipt?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, yes, I'll bring it by. And I'm at this number if anyone needs me. It's four oh one, five five five, oh one five nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four oh one, five five five, oh one five nine. Someone will be in touch once it's reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, sorry for taking your time. It's just a lot of money for the shop."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T11:42:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Have a good weekend, Ms. Abdi."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T11:40:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T11:40:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-02T11:40:14-05:00",
+        "end": "2026-01-02T11:43:01-05:00",
+        "duration_seconds": 167,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T11:40:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-02T11:40:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-02T11:40:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-02T11:40:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-02T11:40:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "adbf32d1-49d0-80f8-b757-88705127a144",
+  "created_at": "2026-02-20T10:02:33-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Patrick Gallagher",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T10:00:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:00:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, so I got a reminder in the mail about the water and sewer bill, and I never got the original. It went to my old address. I'm at 359 Van Zandt Avenue, North End. Patrick Gallagher."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:00:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Gallagher, let me pull that up. Van Zandt, 359. Give me a second."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:00:59-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, I see the account. The last bill did go out to a different mailing address, and now there's a late notice on it. So the reminder is the first you saw of it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. And the amount looks high to me. I think it's an estimate, because the meter's down in a crawlspace. Nobody goes in there. Nobody's been in there in years."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would explain it. When the meter can't be read, we bill an estimate based on past usage, and then it gets adjusted when there's an actual reading. So yes, that's probably what you're looking at."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So how do I dispute it formally? I don't want to just call and have it be a conversation. I want it on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:40-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. You'd put it in writing to the billing office. Your name, the service address, the account number, the bill in question, and why you're disputing it. Mention the old mailing address and the meter location too. You can also bring it by in person."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:54-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In person, okay. What time do you close today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:01:58-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open until four-thirty this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:02:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I've got to drop off dry cleaning before they close anyway, so I'll be out. I can come by after that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:02:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Also, while you're here, we can update your mailing address so the next bill goes to the right place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:02:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, do that. I'll give you the number too in case you need to reach me. It's 401-555-0154."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:02:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0154. I'll note the account that you're disputing and that a meter reading is needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:02:27-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I'll see you this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T10:02:30-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good, Mr. Gallagher. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T10:00:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T10:00:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T10:00:38-05:00",
+        "end": "2026-02-20T10:02:33-05:00",
+        "duration_seconds": 115,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T10:00:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T10:00:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T10:00:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T10:00:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T10:00:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

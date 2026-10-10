@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7df490f3-6153-8749-8e7d-aec2d85ce537",
+  "created_at": "2026-03-12T11:50:48-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Diane Lombardozzi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-12T11:49:33-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:49:38-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. I'm calling about a dog. There's a stray dog roaming my street, it's been out there two days now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:49:46-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you know if it has a collar or tags?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:49:50-04:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I couldn't tell you, it won't let me get close. Medium size, brownish. Oh, and by the way, my father keeps a paper phone book and swears by it, he said look up animal control in there, but the number he found was disconnected. So I figured I'd call here. Anyway, who actually responds to this kind of thing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:09-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be animal control. They're dispatched through the city. I can take the details and pass it along. What's the location?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:17-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's at 139 Gidley Street. In the Fifth Ward. It keeps going up and down the block."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:23-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 139 Gidley. And a name and callback number, in case the officer needs more information?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:29-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Diane Lombardozzi. 401-555-0151."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:31-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Diane. I'll send that over to animal control right now. Is the dog acting aggressive at all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:38-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, just wandering. Not aggressive."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:41-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll note that. Someone will follow up with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T11:50:45-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, thank you. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T11:49:33-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T11:49:33-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-12T11:49:33-04:00",
+        "end": "2026-03-12T11:50:48-04:00",
+        "duration_seconds": 75,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T11:49:33-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-12T11:49:33-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-12T11:49:33-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-12T11:49:33-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-12T11:49:33-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

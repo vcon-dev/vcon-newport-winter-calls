@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cecaa91d-0514-8beb-85de-5768f74d3e88",
+  "created_at": "2026-01-27T13:47:01-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Bruce Almy",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T13:41:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:41:50-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Kevin. Yeah, I want to report a manhole cover that's sunk down in the road. Every time a car goes over it, it rings, this loud clank. Bang, bang."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:42:05-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a sunken manhole cover, clanking when cars go over. Got it. Where is it exactly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:42:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's right in front of 102 Annandale Road. Up in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:42:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "102 Annandale Road. And is it in the travel lane or off to the side?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:42:29-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Travel lane, right where the cars come through. It's, um, down past where the old market used to be. Well, not the market, that's a, it's a dentist now. Anyway, it's right out front of my place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:42:47-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, I've got the address, that's what matters. How far down would you say it's sunk? Inch, a couple inches?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:42:58-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd say two inches, maybe a bit more on the one side. The pavement around it looks like it dropped. It got worse after that storm, the snow-to-rain one, Sunday into Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:43:14-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that freeze and thaw and the rain will do it. Writing that down: sunk about two inches, pavement settled around it, worse since the weekend storm. Anything else about it? Is it a hazard to cars, have you seen anybody swerve?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:43:35-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A neighbor hit it too. He told me yesterday he went over it pretty fast and it jolted the whole car. He said he was checking his tire after."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:43:50-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so a neighbor's hit it as well. I'll put that in the notes. That helps us prioritize it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:44:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Can I ask how long repairs usually take on something like this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:44:07-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on the backlog. After a storm like this we've got a lot of potholes and cave-ins on the list. A manhole casting might get looked at in a few days, and the actual fix could be a week or a few weeks. If it's judged a real hazard it moves up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:44:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A few days to a few weeks. That's fine, I just wanted an idea."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:44:41-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Is this a city street, by the way? Annandale, I'm pretty sure, but I'll flag it for the crew to confirm who owns the cover. Sometimes it's the utility's."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:44:56-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I figured it might be. I don't know whose it is. It just says something on the lid but I can't read it from the window."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, the crew will check it. If it's the utility's, we pass it along to them. Can I get your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bruce Almy. A-L-M-Y."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bruce Almy. And a callback number in case somebody needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:29-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0172."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "555-0172, got it. Are you the owner there or renting?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Renting. The landlord doesn't deal with the street, so I figured I'd call."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:44-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense. Okay, you caught me on a quiet moment. You sound like you're outside, or in a car?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:45:54-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm outside the warehouse. I'm on a short break, I work nights there. I'm only got about ten minutes, so I wanted to get this in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:46:07-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha, then let me wrap up quick. So I've got: 102 Annandale Road, sunken manhole cover in the travel lane, about two inches, rings when cars cross, a neighbor hit it, worse since Monday's storm. Name Bruce Almy, number 555-0172. Anything to add?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:46:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all of it. Oh, the noise is worst at night, when it's quiet. But that's just for the notes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:46:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Added. Worse at night. I'll get it to the street crew today, and if the utility owns it they'll hear from us."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:46:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, appreciate it. Thanks, Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:46:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Bruce. Have a good rest of your shift."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T13:46:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T13:41:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T13:41:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T13:41:44-05:00",
+        "end": "2026-01-27T13:47:01-05:00",
+        "duration_seconds": 317,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T13:41:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T13:41:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T13:41:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T13:41:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T13:41:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

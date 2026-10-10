@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d4302c56-133e-872f-9117-7d52fef4e86a",
+  "created_at": "2026-01-28T09:24:44-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Beverly Brownell",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T09:20:55-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:20:59-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I have an old appliance I need to get rid of, a washing machine, and I don't know if the trash guys will take it or if I have to do something else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:21:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a washing machine. Is it a regular household washer, like a top loader?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:21:18-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, top loader, white, it's maybe fifteen years old. It died, so, um, it's been sitting in the garage since, hold on. No, sweetie, put that down, I'm on the phone. Sorry. Hi."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:21:30-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. So a top-loading washer. Large appliances like that usually can't just go out with the regular trash. They tend to need a separate bulk pickup or a drop-off, so I'd want to point you the right way. Is it going to be at the curb, or is it inside?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:21:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's inside the garage right now. I can move it out if I have to, but it's heavy, so I'd rather know first before I drag it anywhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:21:59-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's smart. Don't move it yet. Let me make sure I have this right, a fifteen-year-old white top-loading washer, in the garage, and you want to know how to get it hauled away."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:22:11-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, exactly. And, um, also, when's my next pickup? Regular trash and recycling. I think it got thrown off by the storm last weekend, the snow turning to rain, Sunday into Monday. I didn't put anything out Monday and I can't remember if..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:22:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can look that up. What's your street address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:22:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'd rather not give it on the phone. Is there a way to just tell me how the schedule works?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:22:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's fine. In general, pickup runs on the same weekday every week, and after a storm the collection gets pushed back a day or so for that week. Do you remember what day your trash normally goes out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:22:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mondays. It's usually Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:22:55-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so Monday is your regular day. With the storm Sunday into Monday, a Monday route may have been delayed. If it was delayed, it would have come Tuesday or today. If you didn't put it out, you'd just wait for next Monday, which is the fifth. Or if it's still out at the curb now, leave it, because they may still be catching up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:23:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So next Monday, the second, no wait, you said the fifth?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:23:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fifth of February. Today is Wednesday the twenty-eighth of January, so Monday is the second of February. I'm sorry, let me fix that. Next Monday is February second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:23:34-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, February second. Got it. Thank you. Sorry, I'm a little distracted, I came straight from teaching swim lessons and my hair is still soaking wet, so I'm dripping on everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:23:46-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'll do it. Okay, so for the washer. I'm going to put you through to the bulk item line here at Public Works, because they schedule those pickups and can tell you what's needed. Or if you'd like, I can take your name and number and have them call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:04-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Call me back is better, I'm in and out of the pool all day. My number is 401-555-0195."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:11-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0195. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:14-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Beverly Brownell. B-R-O-W-N-E-L-L."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Beverly Brownell. And the message is, old white top-loading washer in the garage, needs a bulk pickup, and you'd like a callback about how to set it up. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. And if they need the address, I'll give it to them then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that. They should reach you today or tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks so much. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T09:24:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Beverly. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T09:20:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T09:20:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T09:20:55-05:00",
+        "end": "2026-01-28T09:24:44-05:00",
+        "duration_seconds": 229,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T09:20:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T09:20:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T09:20:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T09:20:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T09:20:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ff17be53-e080-8a04-8730-a4232619222f",
+  "created_at": "2025-12-02T11:46:46-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Helena Souza",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T11:41:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:42:03-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Helena Souza. I got a notice in the mail that says my water payment was returned. From my bank. Which is news to me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:42:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Do you have the account number, or the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:42:20-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The address is 432 Bellevue Avenue. Although, um, I have two properties, so I might be reading you the wrong one. The notice is in front of me, give me a second."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:42:33-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:42:35-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. The notice says Bellevue, but the account number on it ends in 4-1-7. And the check I think I wrote was for the other house, the one on the other side of town. So that's a fun start."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:42:50-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the returned payment may have been applied to a different account than you expected. Let me pull up 432 Bellevue first and see what's there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll just sit here and be organized."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:04-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] All right. On the Bellevue Avenue account, I see a payment posted about two weeks ago that was reversed a few days later as returned. So the balance is back to what it was before, plus the quarter's charges."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it did bounce. On this one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, on this account. Is the other property on a separate account with us?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:29-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is. And I think that's the one I meant to pay from that bank account. I may have put the wrong stub in the wrong envelope. It's been a week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:41-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens. I can't see the other account unless you give me its address or number, so if you want to check it too, I can look."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:43:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me hold off on that. Let me deal with this one first. Is there a fee because it bounced?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:44:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There can be a returned payment charge. I'm not seeing one posted yet on this account, but it may show up on the next statement. I'd call the bank too, since I can only see our side of it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:44:15-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The bank says insufficient funds, which is a bold claim, but I think I moved money late. Anyway, my fault, mostly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:44:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So the balance is due again, and you'd want to pay it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:44:30-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Here's my actual question. I'm at work and I can't get to City Hall before it closes. If I drop a payment in the box tonight, does that count as on time? Or does it count when somebody opens the box tomorrow?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:44:46-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a drop box outside City Hall that's available after hours. Generally, payments are processed when the box is collected the next business day, so I'd get it in before the due date with a bit of room. Is the due date on your notice?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:45:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says the fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:45:06-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then tonight is well ahead of that. You're fine. You can also pay online through the city website at any hour, if you'd rather not drive over."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:45:17-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, at night, no human required. That sounds nice. I might do that, I just don't trust myself with the account numbers right now. I'll write the right one on the check, or on the screen."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:45:31-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A good idea. The one for Bellevue ends in 4-1-7, as you said. Put that on the check, and your name and the service address on the memo line, just to be safe."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:45:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, memo line. See, this is why I make soap. Nobody bounces on soap. I do small batches, give them out as gifts, it's the one thing that behaves."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:45:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I hope the next batch is better than the paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:00-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It usually is. So, to be clear, I owe the regular amount again, and possibly a returned payment fee later, and the drop box is fine tonight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:11-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. If a fee does appear, call us and we can look at it with you. Do you want me to note on the account that you called today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:22-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, note it. And if you need to reach me, it's 401-555-0199."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0199. I've added a note that you called about the returned payment and plan to pay by the drop box."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks. I'll go find the right envelope."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good luck with it. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:46:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:41:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:41:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T11:41:58-05:00",
+        "end": "2025-12-02T11:46:46-05:00",
+        "duration_seconds": 288,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:41:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T11:41:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T11:41:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T11:41:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T11:41:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

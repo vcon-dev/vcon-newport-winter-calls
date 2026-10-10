@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "515dcee3-d06d-8ad9-bc91-0dad7b06ae65",
+  "created_at": "2026-01-25T10:39:51-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Odete Fortes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-25T10:38:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:38:13-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, pardon me, is this the snow line? I know it's Sunday and City Hall's closed, so I wasn't sure anyone would pick up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:38:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You've got the right place. The storm line's open all through this one. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:38:28-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, pardon me, it's my street. I'm at 391 Bliss Road, over on the Easton's Beach side. A plow came through early this morning and then it just, nothing since. It's been hours and it's so heavy and wet now with the rain mixing in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:38:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 391 Bliss Road. So you're asking for a plow to come back down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:38:48-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. That's what I'm asking. The plow left a wall across the end of my driveway, and I did call about this kind of thing before and it seems nobody comes back. Pardon me, I don't mean to be rude. I'm just, it's the second pass I've waited on."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:39:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine. I'll put in the request for Bliss Road for another pass. With the snow turning to rain, crews are working the main roads first, so I can't give you a time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:39:17-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Pardon me, one more thing. When does the parking ban lift? I do payroll for a small firm and I have to be in tomorrow, so I'm watching the clock on all of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:39:29-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The ban stays on until it's officially lifted once the plowing's done. It's usually announced on the city website and the alert system. Don't move the car back until you see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:39:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I'll watch for it. Thank you, I appreciate you picking up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:39:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Bliss Road's in the system. Stay warm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-25T10:39:49-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-25T10:38:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-25T10:38:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-25T10:38:10-05:00",
+        "end": "2026-01-25T10:39:51-05:00",
+        "duration_seconds": 101,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-25T10:38:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-25T10:38:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-25T10:38:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-25T10:38:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-25T10:38:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

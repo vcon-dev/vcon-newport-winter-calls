@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ac16bba2-547f-8168-81cc-47360060bc25",
+  "created_at": "2025-12-24T11:41:53-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Ivone Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T11:38:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, parking violations, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Ivone Brito. I got a parking ticket in the mail, well, a notice about one, and I'd like to ask about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Do you have the citation number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:15-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. It's, um, hang on. Sorry, I was digging through the drawer for it and I just found an old key. Brass, kind of small. No idea what it opens. Anyway. The number is 4471902."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. Four, four, seven, one, nine, zero, two?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:34-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it. The citation was issued on Tuesday of last week for a vehicle parked in a restricted zone. Can you confirm the location you were parked?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "5 Thames Street. That's my house. I park out front. So that's been a fun surprise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The citation does list the location as 5 Thames Street. The notice you received would indicate a due date. Do you have that in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:39:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says the fifteenth of January. And there's a line that says the fine goes up if I don't pay. It doesn't say to what. How much does it double to, and when does that kick in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:11-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Under the notice, if the fine is not paid by the due date, the amount is doubled. So it would double after January fifteenth. The amount shown on your notice is the original fine, and the increased amount would be twice that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:25-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So if I'm even a day late, it's double. Good to know. I'll try not to be a day late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. Is there anything else on the citation you wished to review?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. I want to see the photo. The notice says there's a photo of the violation, but all I got was paper. Can you email it to me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send that to you. What email address would you like it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing, I'd rather not say it over the phone and have it typed wrong. Do you have one on file from me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:40:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not see an email on file for this citation. I can take one now and read it back to you for accuracy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:07-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. Let's do it that way. It's ibrito, then the number four, then the name of my street, thamesstreet, at a mail service. I'll spell the rest."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please go ahead, one letter at a time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:19-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] G, M, A, I, L, dot com."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have it as I, B, R, I, T, O, 4, T, H, A, M, E, S, S, T, R, E, E, T at gmail dot com. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:33-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will have the photograph sent today. Please allow one business day, as the office will be closed tomorrow for the holiday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, Christmas. Forgot about that. Okay, that's all I needed. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:48-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Brito. Happy holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:41:51-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T11:38:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T11:38:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T11:38:58-05:00",
+        "end": "2025-12-24T11:41:53-05:00",
+        "duration_seconds": 175,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T11:38:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T11:38:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T11:38:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T11:38:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T11:38:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

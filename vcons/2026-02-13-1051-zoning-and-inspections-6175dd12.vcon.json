@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6175dd12-9e2a-8594-9d4b-32d412c4e728",
+  "created_at": "2026-02-13T10:56:40-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Helena Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-13T10:51:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:51:07-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. This is Helena Silva. I would like to inquire about whether a short-term rental license is required in my situation, because I have received conflicting answers already, and frankly I am tired of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:51:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Conflicting from who?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:51:26-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "From the front desk at another office, and then from a website that I could not make heads or tails of. Both told me something different. So I am calling you directly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:51:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Tell me what you're doing. You own the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:51:45-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am the homeowner, yes. I intend to rent the house out for two months this winter. Only two months, from the first of March through the end of April. A couple has asked to take it while they are in the area for work."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:52:04-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So that's a two-month stay by one party. Is it one booking, one lease, or are you listing it on one of the vacation sites?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:52:15-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One arrangement, one couple. It was not advertised on any of those sites. A friend of a friend, if you want to know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:52:25-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that matters. Generally the short-term rental rules are aimed at stays of shorter duration, a few days, a week, that kind of thing. A two-month stay by a single party is closer to a regular tenancy. But how the city counts the cutoff is something I want to confirm before I tell you you're in the clear."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:52:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is precisely the answer I have been unable to get. Is a license needed, yes or no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:52:57-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Based on what you've told me, probably not a short-term rental license. But I'd rather you hear it confirmed than rely on me saying probably. Let me pull up the licensing page. Hang on a second."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:53:12-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:53:13-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, I'm back. So the license is for stays under a certain number of consecutive days. Two months is over that line. So you would not need the short-term license for this one booking. You'd want a written lease, though, and your insurance should know you've got a tenant."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:53:34-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Then I would like to know why the other office told me that I needed one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:53:42-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't speak for them. They may have assumed it was nightly or weekly rentals. People call and don't say how long, and the answer goes sideways."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:53:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did say two months. I said it twice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:53:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, you've said it to me now, and that's the answer I've got."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:54:05-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. In the event that I do need to apply for something, what documents should I bring? I would prefer to have everything in hand rather than make a second trip."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:54:19-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good thinking. If it ever came to an application, you'd want proof of ownership, like your deed or a tax bill. A photo ID. Your insurance declaration page. And the details of the rental, dates and the guest names if you have them. Smoke and carbon monoxide detector compliance usually comes up too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:54:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could you repeat the last item? Smoke and what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:54:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Smoke detectors and carbon monoxide detectors. Working ones, in the right spots. An inspector may want to see that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:54:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I will write that down. Deed or tax bill, identification, insurance page, rental details, and the detectors."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:55:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And bring copies, not originals, if you can."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:55:08-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I will say, I have spent a good part of my morning on this, and I had to step away from other matters. The school nurse called me about a mild cough, and I have had to arrange to get over there, so I am a bit short on time today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:55:30-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry to hear that. Hopefully it's nothing. Listen, if you want, I can put a note on this call that you asked about a two-month stay and that I told you no short-term license was needed. Then if someone else says otherwise, they can see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:55:49-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would appreciate that. It would save me from explaining this a third time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:55:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I get a number in case someone needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:02-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is 401-555-0174."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0174. And it's under Silva?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:09-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Silva, S-I-L-V-A. Helena."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:11-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. I've got the note in. If anything changes, like the couple wants to cut it short and rebook, or you decide to do shorter stays, call us back before you start."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will do that. Thank you, Mr. Lombardi. I only wish the answer had been this clear the first time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, understood. Have a good one, Ms. Silva."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-13T10:56:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T10:51:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T10:51:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-13T10:51:04-05:00",
+        "end": "2026-02-13T10:56:40-05:00",
+        "duration_seconds": 336,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-13T10:51:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-13T10:51:04-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-13T10:51:04-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-13T10:51:04-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-13T10:51:04-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "32abd3d4-20cf-8c48-9c63-f8899c7a99f5",
+  "created_at": "2026-01-27T10:36:07-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Richard Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T10:28:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. Good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:28:26-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, good morning. My name's Richard Wilcox. I'm calling about my recycling bin. It's gone. I put it out for pickup and after the truck came through, it just wasn't there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:28:41-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gone as in the truck took it, or somebody walked off with it, or the wind got it? Let me get a few details. Where are you located?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:28:54-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "134 Malbone Road. That's up the North End, not far from the, uh, the main stretch. I rent the place, I'm not the owner, if that matters."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:29:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 134 Malbone Road. That's fine, renters call about this all the time. And what day was your pickup?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:29:16-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it was this week. Um, with the storm, the snow-to-rain thing last weekend, Sunday into Monday, they pushed things back a day. So I put it out last night, and the truck came this morning, early. I left the bin at the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:29:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so you set it out Monday evening, and the truck came Tuesday. That's today. Okay, so this is just a couple hours ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:29:48-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. It was there at, I don't know, quarter to seven when I went to work out the window. Then I come back out a little after nine and there's nothing. No bin, no lid, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:30:05-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Did you check up and down the street? Sometimes the truck tips it and it rolls, or the wind with all that rain pushes it into a neighbor's yard or a snowbank."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:30:20-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did. I walked down to the corner and back. Looked behind the hedges next door. There's a few of those big banks of plowed snow still sitting, I poked around some of those. [pause] Nothing. Neighbors' bins are all where they belong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:30:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What color was it, and was it the city one, with the lid?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:30:47-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Blue, the city one. It's the regular size, the big rolling kind with the wheels. Had the lid on it. I never wrote my address on it or anything, so there's no marking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:31:02-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Blue, city-issued, wheeled, no markings. I'm writing that down. So, one thing I should ask, is it possible the truck crew took it by mistake, or left it down the street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:31:17-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be. I figured that was possible. Honestly I'd just like to know where it went. I don't want to go hunting all over the neighborhood."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:31:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll note that so the crew can look. Sometimes they find them at the end of the route, or one gets thrown in the back by accident."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:31:42-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now, is there a fee for a replacement? I rent, so I'm not sure how that works. I didn't want to get a bill for something that I didn't lose, you know, on my end."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:31:59-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. In general, if one's damaged or taken by the truck, they replace it. If it just disappears, it can depend on the situation. I don't want to tell you a flat yes or no on the charge. I'll put in the request and a supervisor can tell you whether there's a fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:32:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. That's all I'm asking. I just want to know before I say yes to anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:32:32-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll write that you asked about the fee up front. Can I get a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:32:40-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0195."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:32:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0195. And you said it's Richard Wilcox?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:32:47-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. W-I-L-C-O-X."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:32:49-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wilcox, got it. Hang on one second, I'm going to pull up the route for your street. [pause] Okay. I'm seeing the Malbone Road route did run this morning, a little behind because of the weather. That fits with what you saw."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:33:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that fits. I heard the truck probably around seven, seven-fifteen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:33:14-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The roads were wet but pretty clear by then. Not much snow left on the street. It's more the slush piles at the edges."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:33:26-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that stuff hangs around. Have you got any kind of cart for the meantime? Because I can't promise a new one today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:33:37-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got a plastic tub I can use. Nothing big. I'm not generating a lot, it's just me in there. It'll hold a week or so."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:33:49-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Just keep the recycling clean and dry, and if you need to, set it out in the tub with a note and the crew will generally take it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:34:03-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can do that. So, should I do anything else on my end, like file something with the police, or is that overkill for a bin?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:34:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't bother the police for a recycling bin, no. Just this report. If it turns up, great. If not, we handle the replacement."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:34:27-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Oh, one more thing, since I'm talking to you. I went down to the beach parking lot this morning, just to get some air before the day got going. It's pretty empty down there. A few walkers and nobody else. Not a car in half the lot."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:34:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, this time of year, it's quiet. Is there something you wanted to report about the lot, or just mentioning it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:34:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, just saying. Nothing wrong with it as far as I could see. Figured I'd mention it since I was out that way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:10-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, noted. Nothing to report there. Back to your bin, I'll flag this as a missing blue recycling bin, 134 Malbone Road, after Tuesday morning pickup, and mark the question about the fee."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:27-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And I'll ask the crew supervisor to check whether it got picked up with the truck. Someone should call you back at that number, probably in a day or two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:41-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A day or two is fine. I'm not in a rush. I've got the tub."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Anything else I can help with today, Mr. Wilcox?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all of it. Thanks for your help, Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:35:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Have a good one, and good luck with the bin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T10:36:05-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T10:28:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T10:28:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T10:28:22-05:00",
+        "end": "2026-01-27T10:36:07-05:00",
+        "duration_seconds": 465,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T10:28:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T10:28:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T10:28:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T10:28:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T10:28:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

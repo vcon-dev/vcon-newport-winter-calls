@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "26df8ce0-f343-816b-b867-2433501ada1e",
+  "created_at": "2025-12-12T13:04:19-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Colleen Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh hello, Tony. This is Colleen Quinn, I'm over at 30 Ayrault Street. I'm calling about my water and sewer bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Ms. Quinn. What's going on with it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, a payment from my bank bounced. The bank sent me a notice that it came back. So I'd like to know where that stands, whether you've got it as paid or not paid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull up the account. Ayrault Street, number 30, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:42-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Thirty. The house has the green door, you can't miss it. Oh, my mother used to say you could always find us by that door, even when the whole street was... well. Sorry. Where was I?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:01:56-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble. I'm looking at the account now. [pause] I do see a payment that was returned, and the bill shows as still open because of that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Still open. Okay. That's what I figured. And the other thing is, the amount is awfully high. Last year my winter bills were much lower. Much, much lower."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:18-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So the winter bills are usually based on your metered usage, and the bill covers water and sewer together. When the amount jumps, it's often either an estimated reading or actual higher use. Let me look at the last few readings."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:34-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Hold on, I'm just waiting on my toast here, so if you hear a noise that's what it is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:42-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the latest bill was based on an estimated read, not an actual one. That could explain why it's so far above what you had last winter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Estimated. Now what does that mean, that someone just guessed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:02:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Basically yes, they estimate from past usage when the meter isn't read. Once there's an actual reading, the bill gets adjusted."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:07-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'd like a corrected bill, then. Can you mail me a corrected one? I'd rather have it on paper in my hand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. I'll flag the account for a review of the reading and have a corrected bill mailed to the address on file. That's 30 Ayrault?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:26-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, same place. [pause] Oh, there's the toaster. Ding. Sorry, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead and grab it, I'll wait."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:34-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. It's a little dark but it'll do. Now, about the bounced one, do I need to do anything about that right now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold off on anything until the corrected bill comes. It should show the right balance and whether the returned payment is still counted. If there's a fee, it'll be listed there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:03:56-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's all I needed. How long for the mail, do you think?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:04:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Give it about a week, maybe a little longer with the holiday mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:04:08-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week. All right. Thank you, Tony, you've been very clear."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:04:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Quinn. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T13:04:17-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T13:01:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T13:01:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-12T13:01:06-05:00",
+        "end": "2025-12-12T13:04:19-05:00",
+        "duration_seconds": 193,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T13:01:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-12T13:01:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-12T13:01:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-12T13:01:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-12T13:01:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

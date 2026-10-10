@@ -1,0 +1,631 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2cf5aeda-7fc0-8d45-8ba8-6ffff0aaaf76",
+  "created_at": "2025-12-09T12:10:24-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Tito Spencer",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T12:04:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:04:23-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Janet. Yeah, so, I got a property tax bill here, or I think it's a property tax bill, and I'm not sure I'm even the one who's supposed to be paying it. Tito Spencer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:04:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Mr. Spencer. Can you give me the property address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:04:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "308 Washington Street, down the Point. That's the house I'm buying. Well, I'm not in it yet. I'm in the middle of the closing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:04:48-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Let me pull that up. Is the bill in your name, or the current owner's?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:04:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's got the seller's name on it. But it came to me, which is what confused me. Somebody forwarded it, I think. Or the seller's cousin handed it to me. I don't know. It's a little muddy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:05:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's not unusual. The bill is issued to the owner of record as of the assessment date. Until the sale is recorded, the seller remains the owner of record."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:05:16-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's not mine yet. But then why would I be calling you? Hang on, I had a reason. Oh, right. The closing attorney. She asked me to get something called a municipal lien certificate. I wrote it down. Did I say that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:05:31-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You did. A municipal lien certificate shows any outstanding taxes or charges against the property. Typically the closing attorney or the title company requests it from our office."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:05:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So she requests it, or I do? She said I should call, but I thought maybe she was just saying that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:05:47-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either can submit the request. It's usually quickest if the attorney's office sends it in writing with the property address and the owner's name. If you'd prefer to do it yourself, I can tell you what we need."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:05:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, tell me. Because I don't want to hold up the closing over some paper."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:05-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We need the property address, the current owner's name, and the name of the person the certificate should be sent to. There is a fee and a processing time, and the tax collector's office can confirm both when you submit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so who do I submit it to? You, or the tax collector? Are those different people?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:24-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They are in the same department area, so you are in the right place. I can take your request details now and route it to the tax collector's staff."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That works. Hold on, let me get my pen. [pause] Sorry, my kid just found the pots cabinet. Toddler. It's like a drum solo in here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:43-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can wait."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, he's got a colander on his head, we're fine. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please give me the owner's name as it appears on the bill, exactly as printed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:06:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I'd have to read it. It's, hang on, it's a long one. Is it okay if I just have the attorney's office send that part? I don't want to spell it wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:07:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be fine. If the name is incorrect, the request may be delayed. Have the attorney's office send it with the address and the name of the recipient."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:07:16-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Now the bill itself. Since I'm not the owner yet, I can't pay it, right? Or can I pay part of it? Like is a partial payment allowed? Because the seller said he'd cover half and I'd cover half, or something. I didn't really follow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:07:31-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Partial payments are generally accepted toward a bill. Anyone may make a payment, but it is credited to the account, not to a person. The balance would remain due. Whatever is arranged between you and the seller should be handled through the closing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:07:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So if I pay half now, does that go on my side, or his side?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:07:50-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It goes on the property account. It does not establish who owes what between the two of you. That is a matter for your closing documents."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:07:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So maybe I just let the attorney sort that out. That seems smarter than me paying random halves."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:06-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is a reasonable approach."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:08-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Another thing. After the closing, the bills come to me, right? Right now it's got some old address on it. How do I change the mailing address? Do I do that with you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once the deed is recorded and the property is in your name, you can notify our office in writing of your mailing address. Include the property address and your name. Many closings also update it, but it is wise to confirm."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In writing, like a letter? Or email? Or a form?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:36-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A signed letter is acceptable. If a form is available, the tax collector's staff can tell you when you submit your request."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So letter, after closing. And before that the attorney does the lien thing, or I do. Am I getting this right? I feel like I'm mixing it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:08:54-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me summarize. First, the attorney's office or you submits the lien certificate request with the address, owner's name, and recipient. Second, any payment before closing is credited to the property account. Third, after the deed is recorded, you send the mailing address change in writing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:09-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the lien certificate, that's before the closing, not after?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before. It is part of preparing for the closing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Okay. Oh, and the storm the other day, Friday into Saturday, the nor'easter, does that change anything on the bill? Like is there a break if the house got hit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the storm does not affect the bill. If there is damage, that would be a separate matter with the assessor's office and your insurance."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's what I figured. I just wanted to ask. So, to be clear, you'll take the request from me if I send it, or I wait for the attorney?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either works. If you want to be certain it moves, I can note on the account that a request is expected. May I have a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. 401-555-0186."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:09:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have 401-555-0186. I will note that a request is anticipated for 308 Washington Street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:10:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I get it. Mostly. I'll call the attorney and ask whether she's sending it or I am. Is that dumb?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:10:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. That is the best first step."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:10:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Janet. Sorry, I think the colander just hit the floor. I gotta go."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T12:10:20-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling, Mr. Spencer. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T12:04:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T12:04:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T12:04:18-05:00",
+        "end": "2025-12-09T12:10:24-05:00",
+        "duration_seconds": 366,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T12:04:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T12:04:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T12:04:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T12:04:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T12:04:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

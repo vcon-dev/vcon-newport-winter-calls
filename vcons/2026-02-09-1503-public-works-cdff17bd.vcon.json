@@ -1,0 +1,187 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cdff17bd-3ff6-824c-bd13-503fa20252f2",
+  "created_at": "2026-02-09T15:04:50-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Janice Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T15:03:50-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:03:52-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Kevin. Please, I am calling about the trash. A neighbor leaves his trash bags at the corner of our street, every week, and the bags are not even in a bin. It is very annoying."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:04:03-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so bags dumped at the corner, not at his house. Got it. Is that something you've seen him do, or just the bags showing up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:04:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see him, yes. Monday morning, he walks over and leaves them. Please, I also need to ask how I request a replacement. My own bin was cracked when the truck came."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:04:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Replacement bin, sure. I'll write that down. I'll put in a request for a new one and a note about the corner pile. Can I get your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:04:30-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, thank you. Janice Burdick. My number is four zero one, five five five, zero one nine two. Sorry, I am a little rushed. My family is deciding where to have the holiday dinner, and everybody is calling me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:04:41-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Burdick, four-oh-one, five-five-five, oh-one-nine-two. Someone will call you back about the bin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:04:46-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much, Kevin. Please have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T15:03:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T15:03:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T15:03:50-05:00",
+        "end": "2026-02-09T15:04:50-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T15:03:50-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T15:03:50-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T15:03:50-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T15:03:50-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T15:03:50-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

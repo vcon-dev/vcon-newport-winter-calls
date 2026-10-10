@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9b0a0e3f-8f22-84b9-bd28-009135746e18",
+  "created_at": "2026-01-06T12:19:10-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Leila Rahman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T12:11:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Utilities, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:11:11-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. Hi. My name is Leila Rahman. I am calling about, um, my water bill. The water and sewer. I got a... a late fee. A late charge. But I mailed the check on time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:11:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Rahman, I can take a look at that. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:11:33-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Four forty-six Broadway. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:11:37-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four forty-six Broadway, got it. Give me a second to pull it up. [pause] Okay, I see the account. And you're saying you sent a check. When did you mail it, roughly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:11:50-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the bill says due, I think, the fifteenth of December. I mailed it... maybe the ninth? Or the tenth. I put it in the blue box, the mailbox, near my house. Because I do not like to wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:12:06-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So what I'm showing is that a payment posted on the twenty-ninth of December, and the late charge went on after the due date passed. That's the date we received and entered it, not the date it was mailed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:12:22-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The twenty-ninth? But that is, um, almost three weeks. Why so long? I do not understand. If I mail it, and it is on time, how is it late?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:12:34-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's confusing. Generally the due date is when we need to have the payment in hand, or at least postmarked by then, depending. Do you still have the check stub or know if it cleared your bank? That'd show when it was cashed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:12:52-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Cleared... the bank. Um. [pause] I do not look at the bank so much. My daughter, she looks. She helps me with all the bills, on the computer. She is better with this."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:13:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's great that she helps. Is she able to check the statement for the check number and the date it was cashed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:13:15-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can ask her tonight. But also, she wants to, um, be... how do you say. Authorized. So she can call you, and talk to you, for me. Is that possible? Because sometimes my English, I am slow, and the words, they go away."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:13:33-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all, you're doing fine. Yes, we can add her as an authorized contact on the account. Usually we need something in writing from you, the account holder, with her name and her phone number, and your signature. I can have that sent to you, or you can send it in or drop it off."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:13:56-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Writing. Okay. So a letter? I write a letter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:14:00-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A short note is fine. Something like, I, Leila Rahman, authorize my daughter, and her full name, to discuss my water and sewer account at four forty-six Broadway. Then sign and date it, and put her phone number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:14:16-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Her name and number, and my... my signature. And I mail it? Or the email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:14:23-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either way. Mail it to the Utilities office at City Hall, or if she wants, she can bring it in. If you like, I can also make a note on the account right now that you've asked for this, so it's on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:14:40-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, that is good. Thank you. [pause] Sorry, one moment. I have a candle burning, it smells like cinnamon, and the smell is a little strong. I am looking, it is okay. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:14:54-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. Cinnamon's not bad this time of year. I'll put that note on the account. Now, about the late fee. What I can do is flag it for review while you and your daughter find the check date. If the check was cashed before the due date or the postmark shows it, we can look at removing the charge."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:15:18-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Flag. So the fee, it stays for now? Or it goes away now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:15:24-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It stays on the bill for now, but with the review note on it, so nobody follows up on it as unpaid while we sort it out. If it gets removed, you'd see a credit on your next bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:15:40-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A credit. On the next bill. I think I understand. Maybe. [pause] And one more question. For the future. I work, um, in the daytime, and City Hall hours, they are the same as my work. I cannot come. Can I pay on the, the internet? From my work, in the lunch, my lunch break?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:16:02-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, absolutely. There's an online payment option on the city website, under the water and sewer billing page. You'd need your account number from the bill. You can pay with a card or from a bank account there. And it works anytime, nights and weekends too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:16:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number. This is the long number at the top, on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:16:27-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it should be labeled account number near the top. If you've got the paper bill in front of you, you can't miss it. There's also a drop box outside City Hall if you'd rather pay by check and not wait for the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:16:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A box outside. So I put the check, and it is the same day? It is received that day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:16:53-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It gets collected on the next business day, so if you drop it on or before the due date, that's generally the safest way to show it's on time. Online is even faster, though. The payment goes through right away."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:17:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Online is better then. I will tell my daughter, she will show me the first time. And then she can do it too, when she is authorized."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:17:21-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Just to be sure we're on the same page, I'm noting a review of the late charge, and the authorization letter is coming from you. Do you want me to repeat the steps?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:17:35-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Slowly. Because, um, I want to say it to her right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:17:41-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. One, find the bank record for the check, the number and the date it was cashed. Two, write the short letter naming your daughter and her phone number, sign and date it. Three, mail or drop that off at City Hall. And then call us back with the check information, or she can once she's authorized."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:18:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One, the bank, the date. Two, the letter. Three, bring to City Hall. Okay. And what number do I call? I think I have it on the bill, but..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:18:16-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be on the bill, yes, the utilities number. Or since you called us today, I have your callback number as four oh one, five five five, oh one eight oh. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:18:30-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that one is right. Oh one eight oh. That is my phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:18:36-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I've got it on the note, too. If we have questions on the review, we'll call that number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:18:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much, Tony. You are very patient. I am still a little, um, not sure about the mail, why it is the twenty-ninth. But my daughter will see the bank."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:18:57-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the right plan. The bank date will tell us a lot. Take care, Ms. Rahman, enjoy the cinnamon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:19:05-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, okay. Thank you. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:19:08-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:11:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:11:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T12:11:05-05:00",
+        "end": "2026-01-06T12:19:10-05:00",
+        "duration_seconds": 485,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:11:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T12:11:05-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T12:11:05-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T12:11:05-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T12:11:05-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

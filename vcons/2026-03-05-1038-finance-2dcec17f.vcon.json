@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2dcec17f-fee1-87fc-bee5-90771850d6ee",
+  "created_at": "2026-03-05T10:40:16-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Ivone Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-05T10:38:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:38:32-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, um, good morning. I'm calling about a tax bill. Well, not mine, I manage a property for someone. Hmm, let me see. Or, no, I guess it is sort of mine to deal with."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:38:44-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Are you the owner of record, or are you acting on the owner's behalf?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:38:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On their behalf. Ivone Monteiro. I do the paperwork. And the bill never came, or it came and got lost, I don't know. Can you mail another copy? A duplicate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:00-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can mail a duplicate bill. I'll need the name on the account and the property location, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the name is, hmm, let me see, I have it here somewhere. Oh, I don't want to give the street, is that okay? I'll just give the owner's name, and it's, uh, no, wait, you'd need the street, wouldn't you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ma'am, we do need the property address or the parcel information to locate the account. You may also call back with it in front of you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:30-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. I'll call back for that part. Can I ask something else though? Is there a senior exemption? Or a veteran one, I think that's a separate thing? How do you even apply?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:41-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are exemptions for qualifying seniors and veterans. Each has its own application and documentation. The assessor's office handles those, so I'd suggest asking them for the forms and the filing deadline."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The assessor. Okay. Is that the same as the tax collector? Hmm, no, it's not, is it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:39:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's a separate office. I can transfer you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:40:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hold on, let me look at the clock. [pause] Sorry, I have to pick someone up at eleven, and that wall clock says ten forty. So I have a little time. Okay, yes, transfer me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T10:40:14-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment, please."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T10:38:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T10:38:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-05T10:38:27-05:00",
+        "end": "2026-03-05T10:40:16-05:00",
+        "duration_seconds": 109,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T10:38:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-05T10:38:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-05T10:38:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-05T10:38:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-05T10:38:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

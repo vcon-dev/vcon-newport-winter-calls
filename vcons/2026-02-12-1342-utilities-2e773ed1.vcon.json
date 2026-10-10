@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2e773ed1-0039-87a9-acd9-a7f5c76de24e",
+  "created_at": "2026-02-12T13:46:14-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Priya Kim",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-12T13:42:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Newport Utilities billing, this is Priya Raman. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:42:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. My name is Priya Kim. I am calling about my water and sewer bill, because it looks very strange to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:42:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Kim, I can take a look. What seems strange about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:42:19-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "First, why is the bill for a quarter? Three months. I am used to monthly bills for everything, so this is, how do you say, a big bite at once. And the dates, they are not the calendar months. It says November ninth to February seventh, or something like that. How are the dates counted?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:42:38-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Water bills here go by meter reading cycles, not calendar quarters. The billing period runs from one meter read to the next, so the start and end dates are the days the meter was actually read, and that can shift a few days either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:42:54-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. On the other hand, a few days is okay, but mine looks like ninety-something days. That is long."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ninety-some days is within a normal quarter. If you read me the dates off the bill, I can count them with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one moment. [pause] It says previous read November eighth, current read February sixth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's November eighth through February sixth, which is ninety-IL days, so ninety-IL... let me say it properly: ninety-resident days, ninety-one in total. That fits a quarterly cycle."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ninety-one. Fine. Now the other thing. There is a line that says consumption. Consumption of what? It sounds like I am eating the water."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:33-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ha, no. Consumption just means the amount of water that went through your meter during the billing period. It's the usage. The number next to it is the difference between the previous meter reading and the current one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it is the current number minus the old number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. And the sewer charge is then based on that same usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:43:56-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. But then, on the other hand, my number is much higher than the last bill. I live alone, mostly I am at work. I do not take baths. I do not have a garden in winter. There is no reason that I use more. So I think the reading is wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:44:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can pull up the account and compare the last few reads. Can I get the service address or your account number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:44:23-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would rather not say the address on this phone, the line is not so private. The account number is on the top right, but I don't have it open now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:44:34-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Then I'll put in a request to have the read re-checked, and someone can verify the meter in person. For that I will need the account number and a callback number. Do you have the number you'd like us to use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:44:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is four zero one, five five five, zero one nine zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:44:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-nine-zero. Got it. When you have the account number handy, call back or give it to whoever phones you, and they'll attach it to the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:45:04-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And while it is being checked, I still have to pay this amount? Because honestly I am a little irritated. It feels like I am being charged for a swimming pool."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:45:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A re-read request is noted on the account, so you won't be penalized while it's reviewed. If the reading turns out to be off, the bill is corrected."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:45:25-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That is the thing I wanted to hear. How long does the checking take?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:45:31-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a few business days to schedule a visit. Sometimes a bit quicker, sometimes the following week, depending on the field schedule."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:45:39-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I can wait. By the way, in winter everything is quiet here. I walk past my favorite ice cream shop and it is closed, it opens again in April. So I think, at least that bill, it should be quiet also."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:45:54-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Fair enough. Hopefully the re-read shows it should be lower. Is there anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:46:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, Ms. Raman. Please make sure the note is written correctly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:46:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Thank you for calling, Ms. Kim. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:46:12-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T13:42:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T13:42:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-12T13:42:00-05:00",
+        "end": "2026-02-12T13:46:14-05:00",
+        "duration_seconds": 254,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T13:42:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-12T13:42:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-12T13:42:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-12T13:42:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-12T13:42:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

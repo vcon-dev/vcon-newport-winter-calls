@@ -1,0 +1,667 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f3cb6438-4575-8173-90a4-a585f4b5218a",
+  "created_at": "2026-01-12T09:17:52-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Odete Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T09:10:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:11:00-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I'm calling about property tax on a place I rent. Well, I rent it, but the refinance is on a different thing, so, let me back up. Sorry. I'm Odete Andrade. I'm the tenant at 250 Narragansett Avenue, in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:11:16-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Ms. Andrade. Let me make sure I understand. Are you the owner of record, or are you calling on behalf of the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:11:25-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, fair question. I'm calling for the owner, my landlord. He asked me to make the call because he's out of state on orders, and I handle a lot of the paperwork for him. He's the one doing the refinance."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:11:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Typically I can provide general billing information on a parcel, since tax records are public. For anything like an official certified copy, the owner may need to make the request himself. What is it you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:11:52-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two things. First, a copy of a past year's paid bill. The lender wants proof that the taxes were paid for the prior year. Second, a payoff figure through a specific date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Which tax year is the paid bill you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:08-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Last year's. The fiscal year that just, um, the one that ran through this past summer. Whatever you'd call the last full year. The lender said just the most recent complete one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:19-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I would want to confirm that against the account. Do you have the owner's name as it appears on the bill, or a plat and lot number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the address. The name is Marcus Delgado. D-E-L-G-A-D-O. I don't have the plat and lot in front of me. I can look, but I'd rather not hold you up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The address and surname should be enough for me to locate it. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:46-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:12:47-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for waiting. I have the account. I can see the prior year's payments posted. I can send a copy of the paid bill or a statement showing payment history. Would you like it by mail or by email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:13:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Email is best. The lender wants it fast. Can I give you the address for that, or does it have to go to the owner's address on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:13:11-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It would ordinarily go to the contact on file for the owner. If he wants it sent elsewhere, he would need to authorize that. Alternatively, you can come to the counter, or he can request it online through the tax portal and download it himself."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:13:27-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then I'll have him pull it from the portal. Is there a paid-bill copy in there, like a PDF?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:13:35-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, prior bills and payment history are generally available there once you look up the parcel. If it doesn't show the year he needs, call us back and we will prepare something."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:13:46-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That works. Now the payoff figure. The closing target is January thirtieth. So I need what's owed through January thirtieth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:13:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the current installment status. [pause] The third quarter installment is the one due now. Is it your understanding that it has not been paid?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:14:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. It's not paid yet. That's the one I want to take care of. We want it cleared before closing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:14:12-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then the figure through January thirtieth would be that installment plus any interest accrued if it runs past the due date. I can read you the current balance, and I can note the daily interest after the due date, but a formal written payoff statement I can generate for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:14:29-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead and read me the balance. And yes, a written one would be great too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:14:35-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The balance for the installment is two thousand, one hundred eighteen dollars and forty cents. If paid by the end of this month, I show no interest added yet. I would still prepare the written statement to confirm that date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:14:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me write that down. Two thousand one eighteen forty. And no interest if it's in before the thirtieth. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:14:57-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, based on what I see today. I will note the account that the statement is requested through January thirtieth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:15:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Can you email that one too, or same deal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:15:09-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same arrangement. I can send it to the contact on file. If you would like it faster, you may pick it up here at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:15:18-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha. Well, then, third thing. I'm leaving on a trip, I fly out Wednesday, and I won't be around to come in to City Hall before then. Is there a way to pay the installment outside regular hours? Like at night, or online, without coming to the window?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:15:35-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. You may pay online through the city's payment portal at any hour, using a card or an electronic check. There is also a secure drop box outside City Hall for checks, which is available when the building is closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:15:49-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the drop box emptied daily? Like if I put a check in tonight, does it count as today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:15:56-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Items are collected on the next business day. Since the due date is not until later this month, that would be fine. Please include the bill stub or write the parcel information on the check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:08-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And online, is there a fee?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There can be a processing fee for card payments, and it is shown before you confirm. An electronic check from a bank account is generally the lower-cost option."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll go with the online e-check then. Does it give a confirmation I can forward to the lender?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you will receive a confirmation number and a receipt by email. Keep that for your records."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:36-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Sorry, one more small thing. Do you need anything on the account in my name, or just his?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the owner's account. As a tenant you are not on the tax record, but you are welcome to make a payment on his behalf."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:16:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. And, uh, just so you know, if I sound muffled, I'm wearing a beanie in the house. No good reason. I just never took it off this morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I had not noticed. You come through clearly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay good. Did the storm give you guys any trouble in the office? We got the wind over on Narragansett, but nothing major."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The office was fine. Thank you for asking. Now, for the written statement, may I confirm the date again? January thirtieth?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, January thirtieth. Same address, Delgado."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:25-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. I will have that prepared today, and it will go to the contact on file. Is there a number where I can reach you if there is a question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0170."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Zero one seven zero. I have that noted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Thanks, Ms. Whitcomb, I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Andrade. Have a safe trip."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T09:17:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T09:10:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T09:10:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T09:10:54-05:00",
+        "end": "2026-01-12T09:17:52-05:00",
+        "duration_seconds": 418,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T09:10:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T09:10:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T09:10:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T09:10:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T09:10:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

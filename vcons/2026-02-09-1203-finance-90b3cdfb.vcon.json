@@ -1,0 +1,715 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "90b3cdfb-2097-81ed-9adc-a5c8fc992d82",
+  "created_at": "2026-02-09T12:08:00-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Amara Nguyen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. I have a tax question."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Is this regarding a real estate property tax bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Property. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And may I have your name, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:45-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Amara Nguyen."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Nguyen. How can I assist you with the property tax?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "When is the next one due?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:03:56-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The next installment. Let me pull up your account. Before I do, I need to verify your identity. Do you have a credit or debit card that is on file with us for payments?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:11-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so. A card."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could you give me the last four digits of the card on file, please? Only the last four."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Which ones?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the final four numbers on the front of the card."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. [pause] Four four one eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:33-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That matches. I have your account here. Your next installment is due in May. Is that what you were asking, the due date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "May. Which day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:04:46-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Quarterly installments in Newport are generally due at the beginning of the month their quarter falls in, so I would look at the bill itself for the exact date. I can tell you it is shown on the stub at the bottom."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The stub."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:06-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The detachable portion at the bottom of the bill, the part you send back with a payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:14-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have it. Maybe I threw it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:18-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all right. I can have a duplicate bill mailed to you. Would you like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:26-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is the mailing address on the account still the current one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:34-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:35-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. I'll send it to the address we have on file. It should arrive within about a week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:46-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Approximately, yes, depending on the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do you send a reminder?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:05:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bills are mailed out for each installment. Is it that you're asking whether a separate reminder notice comes before the due date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. A reminder."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The installment bill itself is what's mailed. A separate reminder is not something I'd count on, so I would mark the date once you receive the duplicate."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So no reminder."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not a separate one that I can promise, no. The bill is the notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then the bill comes. Before May?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:28-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the bill for that installment would be mailed ahead of the due date. And the duplicate will show you the current schedule as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I am confused. Two bills?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:06:42-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me explain it again. The duplicate is a copy of the bill you already received this year, with the dates on it. Then a regular bill comes later for the next installment. So you may get two pieces of mail, but they are not two separate charges."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not two charges."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The duplicate is only a copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:08-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there anything else I can help you with today, Ms. Nguyen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:15-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I got a new couch."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:18-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, a couch?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The old one is on the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. If you have a question about bulk item pickup, that would be handled by a different office. I can transfer you to Public Services, if you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Just saying."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Is there anything else regarding your tax account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:45-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. The bill comes in a week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "About a week, yes. The duplicate will be mailed today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:54-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:07:59-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:03:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:03:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T12:03:22-05:00",
+        "end": "2026-02-09T12:08:00-05:00",
+        "duration_seconds": 278,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:03:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T12:03:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T12:03:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T12:03:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T12:03:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

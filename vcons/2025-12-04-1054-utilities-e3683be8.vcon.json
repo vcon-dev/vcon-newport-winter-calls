@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e3683be8-9c1e-85dc-9937-b98516ffa585",
+  "created_at": "2025-12-04T11:01:31-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rafael Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-04T10:54:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:54:58-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hello, Tony. This is Rafael Cordero. I'm calling about a water and sewer bill, and I gotta tell you I'm at work, so if you hear a beeping, that's a forklift. I'm out on the loading dock."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:55:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I can hear it a little. Take your time. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:55:20-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I got a reminder in the mail yesterday. A reminder, okay? Past due notice kind of thing. But I never got the bill. I didn't know there was a bill. I'm at 13 Old Beach Road, down by Easton's Beach."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:55:36-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. 13 Old Beach Road, Cordero. Give me a second. [pause] Alright, I see the account. And I see the issue, the last bill was mailed to a different address. Looks like an older one on file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:55:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "An old address? I haven't lived there in, oh, a long time. How is it going to the old one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:56:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sometimes the billing address stays separate from the service address. The service address is where the water goes, the billing address is where the paper goes. If nobody updates the billing one, it keeps going to the old place."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:56:15-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So there's two addresses. I thought it was one thing. Okay. And, oh, by the way, the amount on this reminder, it's way high. Last year my winter bills were much lower. Like half of that, maybe less."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:56:30-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Let me look at the usage. [pause] So this one covers a few months, not just one. That's part of it. When a bill gets missed, the next notice can show the balance carried over from the earlier one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:56:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so it's not one bill, it's two bills together? Or is it a bigger bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:56:53-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Let me say it plainly. There's the regular charge for this period, and there's the previous period that never got paid because you never saw it. The reminder adds them together."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:57:06-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. But the first part, the regular one, is that still higher than last year? Because I don't use more water. It's me. Just me in the house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:57:17-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a bit higher than the same period last year, yeah. Could be a meter reading that was estimated before and then caught up. I can't tell from here if there's a leak or anything like that. If you want, I can have someone look at the meter readings."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:57:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Estimated. What's estimated mean, they guess?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:57:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Basically, yes. If the reader can't get a real number off the meter, they estimate based on past use. Then when a real reading comes in, it adjusts, and that can make one bill look big."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:57:53-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So they guessed low and then it jumped. Okay. That I sort of get. [crosstalk] Sorry, the forklift. Hold on, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:58:02-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll wait."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:58:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. He's moved off. So, the paying. I work days, I'm here till about four-thirty, sometimes later. Can I pay in person after four-thirty? Or in the evening?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:58:16-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall closes in the afternoon, so after four-thirty the counter won't be open. But there's a drop box outside you can use for a check, and you can pay online any time of day or night. There's also an automated phone line for payments."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:58:33-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, I don't do much online. My neighbor's grandson set up my email once. The drop box, though, that's outside the building? Anybody can put it in at night?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:58:44-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's outside, you can drop it in whenever. Put your check in an envelope with the account number and your name on it, so it gets matched right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:58:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account number, okay, where do I find that? Is that the long number on the reminder?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:59:02-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should be near the top of the reminder, labeled account number. If you like, I can read it to you now and you can write it down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:59:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hang on, let me find a pen. Oh, by the way, do I have to pay the whole thing? Or can I pay the old part and argue the new part?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:59:25-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Here's the thing, I'd say pay what you're comfortable with and call back so someone can review the usage. I can't tell you the exact rules on partial payments, that goes to the billing supervisor. I can leave a note on your account and have them call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:59:43-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a note. Wait, does a note stop the late thing? The reminder said something about a late charge."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T10:59:51-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A note doesn't stop it by itself. I'll flag that the bill went to the wrong address, though, which is the city's side of it, and I'll ask them to look at that. Just so you know I can't promise what they'll decide."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So the first thing, you change the billing address to the Old Beach Road place."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, let me do that right now. Can you confirm that's 13 Old Beach Road, and you want all mail there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:22-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. 13 Old Beach Road. All mail. Good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Done. Updated. And what's the best number to reach you? Is it the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I'm on the dock phone. Use my home one, 401-555-0180. But I'm not home till after five."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0180. I'll note after five. Now the account number, you ready with the pen?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:47-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ready. Go ahead. Actually, wait. You said drop box and online and phone line. Which one is the easiest for a guy who doesn't like computers?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:00:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Drop box with a check is probably easiest. No computer, no waiting on hold."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:01:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Drop box. Check. Account number on the envelope. And the supervisor calls me about the high part. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:01:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You did. And the billing address is fixed, so the next one comes to the right place."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:01:19-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I still don't totally get the two address thing, but I'll figure it out. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-04T11:01:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Mr. Cordero. Take care out there on the dock."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T10:54:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T10:54:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-04T10:54:53-05:00",
+        "end": "2025-12-04T11:01:31-05:00",
+        "duration_seconds": 398,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-04T10:54:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-04T10:54:53-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-04T10:54:53-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-04T10:54:53-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-04T10:54:53-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

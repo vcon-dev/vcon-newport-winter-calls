@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c3412b88-0417-8641-9e4a-e7106872d099",
+  "created_at": "2026-01-29T14:23:12-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Maureen Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-29T14:17:46-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:17:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi? Um, hi, Greg? My name is Maureen Flynn? I think I'm supposed to be calling you about a driveway thing? A curb cut?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:17:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a curb cut. Tell me what you're trying to do."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:18:03-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I own a house, well, it's a rental, I'm the landlord? It's at 456 Kingston Avenue, up on the Hill? And it already has a driveway with, like, a cut in the curb? But I want to put in a garage in the back? And I was told I'd need a second curb cut for that? Or maybe I don't? I honestly don't know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:18:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So you've got one curb cut now, and you want to add a second one to get to a new garage. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:18:35-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes? Exactly that? But, um, is it the same permit as the garage? Like, is it one permit or two?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:18:43-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually those are separate. The garage is a building matter. The curb cut is its own driveway permit, because you're altering the street edge and the sidewalk. They can be related, but you apply for them separately."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:18:57-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay? So I thought the garage permit would just, like, cover it? Because the contractor said something like that? Or I think he did? [pause] Maybe he said the opposite?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:19:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be he meant they get looked at together. But the curb cut itself needs its own approval. Does the garage plan show where the new driveway would go?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:19:20-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, kind of? There's a sketch? It has the garage in the back corner and then a line going to the street? But I don't think it says how wide?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:19:31-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'll want the width on there. They'll look at how wide the opening is, where it sits relative to the existing one, and whether there's a pole, hydrant, or tree in the way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:19:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, a tree? Like a street tree? There is one, I think? Is that bad?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:19:49-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not automatically bad. It just means it gets reviewed. Might change where they let you put it. Is the new cut right next to the old one or off to the side?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Off to the side? Like maybe, um, twenty feet? I'm not good with measuring? Is that too close? Or too far?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:09-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't tell you that over the phone. Get the measurements on the sketch and they'll tell you. Also, some properties in the Historic Hill area get an extra look depending on what you're changing, so mention that you're up there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh no, is that, like, a whole other thing? A whole other application?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Might be, might not. Depends on what's visible from the street. I'd ask when you submit. Don't assume the worst."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay? Okay. And how long does it take? Like for approval? Is it days? Weeks?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:43-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't give you a promise. Generally figure on weeks, not days, and longer if they need more information from you or if it has to go through another review. Incomplete paperwork is what slows people down most."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:20:57-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Weeks, okay? Because I wanted to get this done before spring? Is that realistic? Or no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:21:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you get a complete application in soon, it's possible. I wouldn't schedule your contractor until you have the approval in hand, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:21:12-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good point? Okay. So, um, do I come in? Or is there a form I can pick up? Or, wait, who do I even give it to? You? Or public works?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:21:24-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Start here at the inspections office at City Hall. We'll point you to the right form, and if the street side needs public works to sign off, that gets routed from there. You don't have to run around to both."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:21:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's good? That's, like, a relief? So I just bring the sketch? And the measurements?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:21:45-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring the sketch, the measurements, and your deed or something showing you own it. And the garage plans if you have them, so we can see how it all connects."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:21:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the deed, the sketch, the plans? Do I need the contractor to come? Or can I just do it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can come yourself as the owner. If the contractor's pulling the permit for you, he'd need your authorization, but since you're asking, just come in yourself and sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:16-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that makes sense? I think? So it's the curb cut, separate from the garage, but I bring both? Sorry, I'm still kind of mixing it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:26-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Two permits, one trip. Bring everything and we'll sort out which goes where."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:32-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, great? Thank you? Oh, and, um, sorry, this is random? But I've been trying to do this on a Sunday? Because I walk the Cliff Walk Sunday mornings when it's not icy? And it's been icy? So I keep not getting around to anything? Anyway?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, we're open weekdays, so Sunday's not going to help you here. Come in Monday through Friday during business hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:22:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right, weekdays? Okay? So maybe tomorrow? Is Friday okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Friday's fine. Earlier in the day is usually quieter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you so much, Greg? I really appreciate it? Bye?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-29T14:23:10-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T14:17:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T14:17:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-29T14:17:46-05:00",
+        "end": "2026-01-29T14:23:12-05:00",
+        "duration_seconds": 326,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-29T14:17:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-29T14:17:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-29T14:17:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-29T14:17:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-29T14:17:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bf39e19b-d5b5-8589-866f-7c62a9ed84d7",
+  "created_at": "2025-12-23T12:24:46-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Nora Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T12:23:46-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:23:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Kevin, it's Nora Hanlon. Listen, a car clipped the streetlight pole on my corner last night and now it's leaning. Not a little, either. It looks drunk."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:23:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a pole leaning after a hit. Is it over the road or the sidewalk, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:03-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sidewalk side, thank goodness. Though my husband and I used to walk that sidewalk every night back in the, oh, I'm wandering. Sorry. My grandson is staying with me and he has a spelling test Friday, so we're doing words at the table, and I keep looking out at that pole."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Did the car stay, or did it drive off?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Drove off. I just want a crew to come check the pole before it comes down on somebody. It's a hassle, honestly, I've got words to quiz."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:32-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'm writing up a leaning streetlight pole, hit by a vehicle, requesting a crew inspection. Best number for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:39-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0187."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, I'll send it over today. Happy holidays, Nora."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T12:24:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, dear. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T12:23:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T12:23:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T12:23:46-05:00",
+        "end": "2025-12-23T12:24:46-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T12:23:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T12:23:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T12:23:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T12:23:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T12:23:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

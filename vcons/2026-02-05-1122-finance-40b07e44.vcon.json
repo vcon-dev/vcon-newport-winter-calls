@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "40b07e44-f4d7-8b48-8c19-bebd5a3cd887",
+  "created_at": "2026-02-05T11:26:10-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Marco Conti",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T11:22:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:01-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Luis, is that L-U-I-S? Let me get that down. Good. Marco Conti. I've got a parking ticket here and it's got the wrong plate on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, wrong plate. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:17-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I'm carrying groceries up to my place, so I'm going to stop on every landing. [pause] Okay, I'm on the first one. Yes, I have it in my coat pocket. Let me put a bag down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. The stairs aren't going anywhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:35-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Funny. Okay. The ticket number starts with a four, and the plate on it is one digit off from mine. The last number is a three, and mine is an eight. I don't own whatever car that is."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Can you read me the whole ticket number and the plate as it's printed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:23:55-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, second landing, let me switch hands. [pause] Okay. Ticket number four, one, seven, seven, zero, two. Plate as printed, I'll spell it, and you tell me if it matches what you see."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:24:08-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:24:10-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the printed one, ending in three. Mine ends in eight. And the car is parked at my shop on Callender, or it would be if I was driving that car, which I'm not. I'm at eighty-seven Callender Avenue, North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:24:25-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, I'm pulling it up. Yep, I see the ticket, and the plate on file for it ends in three. So that's not your registration."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:24:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. That's what I said. So what do I do? I don't want this sitting there as unpaid with my name on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:24:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'd file a dispute, and the wrong plate is a solid reason. Do you want to see what the officer photographed? There should be a photo attached to the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:24:56-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I want that photo. Can you email it to me? Third landing, give me a second. [pause] Sorry. Yes, email the photo of the violation so I can see the car and the plate with my own eyes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send it from here. What's the best email address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:16-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's marco at contiplumbing dot com. Conti, C-O-N-T-I. Did you get that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Marco at contiplumbing dot com, C-O-N-T-I. Good. I'll send the photo today along with the dispute instructions."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and let me write this down. Step one, you email the photo. Step two, I look at it. Step three, I file the dispute. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And I'll put a note on the ticket that you've contacted us about the plate, so it doesn't move along while you're sorting it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'm at my door now, finally. And your name again, last name too?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:56-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Luis Barros, B-A-R-R-O-S."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:25:58-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Barros. Got it. If I don't see the email by tomorrow, I'll call back and ask for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:26:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Enjoy the groceries, Mr. Conti."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:26:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:22:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:22:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T11:22:56-05:00",
+        "end": "2026-02-05T11:26:10-05:00",
+        "duration_seconds": 194,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:22:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T11:22:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T11:22:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T11:22:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T11:22:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

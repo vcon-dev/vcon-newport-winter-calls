@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d35d95cb-2adb-80fe-aaa7-e91ae6385914",
+  "created_at": "2026-02-07T10:57:06-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Raj Abdi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-07T10:55:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:55:23-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hello, is this, um, am I getting the right place? I know City Hall's closed, it's Saturday, but the recording said to call this number for snow."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:55:33-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. The storm line stays open when the office is closed. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:55:39-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My street hasn't been plowed. Not once since the storm. Not one time. [pause] Hold on, I'm putting something down here. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:55:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No rush, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:55:50-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's been days, and it's wicked cold out, everything's frozen solid. We got a little dusting overnight on top of it, so now it's just a sheet of ice with powder on it. Nobody's come down here. Nobody."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:56:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm writing that down. Street not plowed since the storm, ice underneath, light dusting on top. What's the street name and closest cross street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:56:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Um, I'd rather not, I'm just, I want somebody to put it in the log. That it was reported. That I called. You can log it, right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:56:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can log the call, sure. Without a street the crew's not going to know where to go, though. Would you want to give me just the street, no number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:56:34-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hang on, the TV's on, the golf, the replay of the tournament, sound's off, I'm not even watching it, I just, anyway. No. Just log it. I called, it's not plowed. That's what I want on the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:56:48-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. I've got it logged as a Saturday morning call, unplowed street since the storm, caller frustrated. I'll flag it for the crew supervisor first thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:56:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "First thing, okay. Because this is, it's too long already. Fine. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-07T10:57:03-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You bet. Stay warm, Mr. Abdi."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-07T10:55:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-07T10:55:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-07T10:55:20-05:00",
+        "end": "2026-02-07T10:57:06-05:00",
+        "duration_seconds": 106,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-07T10:55:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-07T10:55:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-07T10:55:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-07T10:55:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-07T10:55:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

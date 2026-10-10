@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7ca42318-cbda-8c83-91ad-ae1f1f633b1f",
+  "created_at": "2025-12-22T09:17:52-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Lidia Duarte",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T09:15:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good morning, and happy almost-Christmas."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:15:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Yes, um, I need a birth certificate. But I was not born in Newport. I was born in Warwick. Can you give this record here, or no?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:15:48-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Whose certificate is it, yours?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:15:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, my son. He was born in Warwick. We live in Newport now, so I think maybe I can get it here. Is this right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:00-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, so records are generally kept by the town where the birth happened. So for Warwick, you'd normally ask Warwick. Let me check whether the state can help from our end. Can you hold a minute?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:12-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I hold."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks for waiting. Okay, so the state vital records office can issue certificates for births anywhere in Rhode Island, and Warwick's clerk can too. We here only issue the ones for births in Newport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:25-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I cannot get it from you. But the state, they are in Newport also?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, the state office is up in Providence. Not here. Sorry, I know that's not what you were hoping."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:38-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then I go to Warwick or Providence. What ID I should bring? Passport is okay? Or driver license? I have both."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one should be fine, a current photo ID. And since it's your son's, if your name is on the certificate that helps. I'd check with whichever office you go to, though, because they set their own list."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:16:59-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so I bring passport and license both? Or one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One is usually enough. Bring both if you want to be safe, it won't hurt."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, both. [pause] Sorry, I am little confused with this. In my country is different, one office for everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's understandable, it does seem like a lot of running around. Honestly, calling Warwick first is probably easiest."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Also, I remember when I come downtown first time, I go to old movie theater, and floor was sticky. Every step, shoe stuck. I remember this, very strange."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I know exactly what you mean. Popcorn and soda for thirty years. Well, I hope the rest of your errands go better than that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So, Warwick, I bring ID, passport or license. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Call them first to confirm. Have a good Christmas, Lidia."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T09:17:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thank you, bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T09:15:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T09:15:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T09:15:34-05:00",
+        "end": "2025-12-22T09:17:52-05:00",
+        "duration_seconds": 138,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T09:15:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T09:15:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T09:15:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T09:15:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T09:15:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

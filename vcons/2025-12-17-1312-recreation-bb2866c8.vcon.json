@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bb2866c8-ef3f-8556-9ede-ea5b4b59c9d7",
+  "created_at": "2025-12-17T13:14:13-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Carlos G. Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-17T13:12:03-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation department, this is Beth, good afternoon!"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:12:06-05:00",
+      "duration": 30,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon, this is Carlos Vieira, I walk the path along the shore most days, the one by the beach park, and I went down this morning before the rain really got going and there was a rope across the entrance with a sign on it, and I couldn't tell if it's closed for the day because of the weather or closed for longer, and I'd like to know which, because I don't want to drive over there tomorrow for nothing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:12:36-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sure. So with the soaker we're getting today, they do sometimes close off the walking paths near the water when it's wet or the surf is up. Was the rope at the main entrance by the parking area?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:12:51-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the main entrance, by the parking. Now, while I have you, I'll say this one thing, I love a good spicy brown mustard, the coarse kind, and I cannot find it anywhere in the stores around here, I've been to three. Anyway, that's not your department, I know. Back to the path."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:13:11-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ha, no, not mine, I'm afraid. For the path, I don't have a posted reopening in front of me. Usually it's reopened once the weather clears and they've checked it for washouts or debris. Probably a day or two after the storm ends, but that's general."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:13:28-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A day or two. All right. And if that doesn't work out, if it's still roped off Friday say, what do I do then, who do I call, do I call you again or somebody else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:13:42-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Call us back here Friday and I'll check with the parks crew directly. If it's something more like damage to the path, I can put you through to public services. Can I take your number in case I find out sooner?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:13:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0193."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:13:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0193. I'll make a note for Carlos Vieira, path by the beach park, closed Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:14:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Thank you, Beth, that's all I needed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-17T13:14:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, stay dry out there!"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T13:12:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T13:12:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-17T13:12:03-05:00",
+        "end": "2025-12-17T13:14:13-05:00",
+        "duration_seconds": 130,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-17T13:12:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-17T13:12:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-17T13:12:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-17T13:12:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-17T13:12:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

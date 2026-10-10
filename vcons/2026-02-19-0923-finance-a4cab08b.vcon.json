@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a4cab08b-97ae-83a0-b59f-7b83478f27f8",
+  "created_at": "2026-02-19T09:27:05-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "David Lawton",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-19T09:23:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:23:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is David Lawton. I have a parking ticket, and I would like to ask a couple of questions about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:23:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Mr. Lawton. Do you have the ticket in front of you? I'll need the ticket number or your plate number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:24:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it here. The number is, um, written at the top. Let me read it. It is 4-4-1-0-7-8-2. And the plate I can also give you if you need."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:24:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The ticket number is fine for now. Let me pull that up. [pause] Yes, I see it. It was issued on Monday for an expired meter. Is that the one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:24:26-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is the one. But the meter was not expired. The meter was broken. I put in coins, I think four quarters, and the display did not change. Nothing registered. It stayed blank, with the little error message."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:24:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Did you report the meter at the time, or take a photograph of it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:24:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did not report it. I had a meeting, I was already late. I did take one picture with my phone, of the screen. It is dark, but you can see the error."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:24:54-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. A photograph can be helpful if you contest the ticket. There is a process for that, and it would be reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:25:02-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And I want to ask something else. This is my first ticket in Newport. In all the years I live here, the first. Is it possible that a first-time fine can be waived?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:25:13-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise a waiver over the phone. Each ticket is handled on its own, and a first violation may be noted in the review. The usual route is to submit your explanation along with the photograph."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:25:24-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. So I should send the picture and write what happened."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:25:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, in writing, with the ticket number and your contact information. You can drop it at City Hall or mail it in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:25:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now the payment. If I decide to just pay it, I work days. I am at work until after five, so I cannot come before you close. Can I pay in person after 4:30, or in the evening somewhere?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:25:47-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Our counter closes at the end of the regular business day, so in person after 4:30 would not be possible. But there is a payment drop box outside City Hall that you can use at any hour, and you can also pay online through the city's website."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:01-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. Is it for checks only? Or also money orders?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Checks or money orders, made out to the City of Newport, with the ticket number written on it. Please don't leave cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:13-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no cash. I understand. And online, that is the same website where I look up the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:19-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is linked from the city's main page under parking. You'll enter the ticket number there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:25-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I will look tonight. My family group chat is blowing up about this, you know. Everybody has an opinion. One says pay, one says fight it, one says go to the meter and film it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:36-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, whichever you choose, I'd suggest not letting it go past the due date printed on the ticket, so no additional charges are added."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I see the date here. Okay. I think I will send the photograph and the letter first, and keep the drop box if they say no."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:53-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds reasonable. Is there anything else I can help you with this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:26:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you for the information, Ms. Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T09:27:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Lawton. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T09:23:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T09:23:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-19T09:23:45-05:00",
+        "end": "2026-02-19T09:27:05-05:00",
+        "duration_seconds": 200,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T09:23:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-19T09:23:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-19T09:23:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-19T09:23:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-19T09:23:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

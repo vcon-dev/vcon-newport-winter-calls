@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f098b8c8-d0e4-8c7a-ba03-cd5fda52fe58",
+  "created_at": "2026-02-19T11:54:25-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Bruce Sherman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:04-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, Bruce Sherman here. I'm calling about my mother's water and sewer bill. Hang on, let me turn this down, I'm sitting in my truck with the engine running. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I can hear you fine. Go ahead. What's the address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:23-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "354 Bacheller Street, Fifth Ward. It's in her name, not mine. I'm her son, I handle the paperwork for her. Which, frankly, shouldn't be a full-time job at her age."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:34-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Is she there with you, or are you okay talking about the account on her behalf?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:41-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She's fine with it. She's right there at the house and she told me to call. The thing is, this last bill came in way higher than normal. Nearly double. For one person in a small house, that makes no sense."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:50:56-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull it up. Bacheller Street, three fifty-four. Give me a second. [pause] Yep, I see it. Usage for the last billing period is a good bit higher than the ones before it. Do you know of anything that might have used extra water?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:51:13-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, yeah, one thing. The toilet was running constantly last month. The flapper or whatever it is, it just wouldn't seal. Ran day and night for a couple of weeks before I got over there and fixed it. Cheap part, expensive mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:51:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'll do it. A running toilet can use a lot of water, hundreds of gallons a day sometimes, and you don't notice because it's just a quiet trickle. So that very likely explains the jump."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:51:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I figured, but I want to be sure. Can the city do a meter test? Make sure the meter's reading right and it's not something else going on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:51:53-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can request a meter test, yes. Somebody comes out and checks the meter's accuracy. I'd have to put in the request and the field folks would set it up with you or your mom. I can't tell you the details of the cost from here, but they'll go over that when they schedule it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:52:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Put the request in. I'd rather know than guess. My mother's the one who'd be home, so have them call me first, I'll tell them when."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:52:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Is the number I have on file the best one, or do you want to give me yours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:52:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Use mine. It's 401-555-0157. That's a landline at my place, but I'm usually out in the truck during the day, so if I miss it, leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:52:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0157. I'll note that on the request. And I'll add that you had a running toilet last month, so they have the context."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:52:52-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, one more thing. My mother's on a fixed income, Social Security and a little pension, and these bills add up. Is there any kind of discount for low-income or elderly households? Seems like there ought to be."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:53:06-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There may be some programs, but I don't have a city discount I can apply on the spot from this desk. Let me put a note on the account asking for that to be reviewed, and I can have someone from the office call you back with what's available and what she'd need to bring in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:53:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'd appreciate that. If there's a form, tell them to mail it to her rather than email, she doesn't do email."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:53:35-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Mail to the Bacheller Street address. Now, on the high bill itself, once the meter test is done and if everything checks out, ask when they call whether the leak situation can be looked at for an adjustment. I can note it, but that's a decision for the billing supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:53:54-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense. Somebody's got to sign off on it. So to recap, meter test request, a callback about the discount, and a note about the toilet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:54:04-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Meter test request, discount review with a call back to you, mailed forms if there are any, and the running toilet noted on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:54:14-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Thanks, Tony. I'll keep an eye out for the call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:54:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Sherman. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:54:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T11:50:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T11:50:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-19T11:50:00-05:00",
+        "end": "2026-02-19T11:54:25-05:00",
+        "duration_seconds": 265,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T11:50:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-19T11:50:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-19T11:50:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-19T11:50:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-19T11:50:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a4901606-be65-8459-9539-82d732aa936b",
+  "created_at": "2026-01-06T11:00:53-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Wilson Spencer",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T10:55:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Newport Utilities, water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:55:36-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Good morning. [pause] I got a reminder. In the mail. For a water bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:55:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is it a past due notice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:55:47-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Past due. [pause] But I never got the bill. Not the first one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:55:53-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you have the notice in front of you? There should be an account number near the top."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. [pause] Hold on. It's small print. [pause] It says, uh, zero, zero, four, four, seven, one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero, zero, four, four, seven, one. Let me pull that up. Can I have the name the account is under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's my wife's name. Margaret Spencer. [pause] She's gone now. Never changed it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. And you're the one calling today, Mr. Spencer?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wilson. Wilson Spencer. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:30-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Spencer. Okay, I have the account. The original bill was mailed back in November, and it went to a different address than where you are now. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The old place. [pause] We moved. Two years ago. I told somebody."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:56:48-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It looks like the mailing address on this account was never updated. So the bill went to the old address and came back, or sat there. The reminder must have been forwarded, or sent to a different address on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Forwarded. Yes. [pause] That's the only reason I know. Otherwise. Nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's frustrating, and I'm sorry. I can update the mailing address today so this doesn't happen again. What's the address where you'd like the bills sent?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. [pause] I'd rather not say it. On the phone. Can I send it in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:27-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can. A short note with the account number and your current address, mailed to the utilities office or dropped off at City Hall, will work. Or you can give it to me now, whichever is more comfortable."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll send it. [pause] Fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll put a note on the account that you called."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:50-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. [pause] Now. The amount. How much do I owe."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:57:55-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The balance showing on the account right now is the original quarterly charge plus a late charge that was added when it went past due. I can read you the total if you'd like to write it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead. [pause] Slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Do you have a pen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. [pause] Ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The total due is one hundred eighty-six dollars and forty cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:23-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One eighty-six. Forty. [pause] For a bill I never saw."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:28-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Because the bill went to the old address, I can put in a request to have the late charge looked at. I can't promise the outcome, but I'll note that the notice never reached you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. [pause] That's only fair."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've noted it. Someone in the office will review it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. [pause] Now, can I pay it tonight? Online? City Hall's closed by then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:58:57-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an online payment page on the city website, and it's available at any hour. You'd need the account number you read me and the amount due. You can use a card or a bank account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:59:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A computer. [pause] I don't have one. My nephew's. No. [pause] I have a phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:59:18-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The payment page should work on a phone browser. If that's difficult, there's also a drop box outside City Hall where you can leave a check with the account number written on it. Or you can call back during business hours and pay with me by phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:59:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drop box. [pause] Where."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:59:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's by the main entrance of City Hall, on the Broadway side. It's emptied each business day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:59:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Broadway. Okay. [pause] I'll see."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T10:59:49-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you pay the full amount before the late charge review is done, and the charge is removed, it would come off as a credit on the next bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:01-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. A credit. [pause] I'd rather wait. On the late part."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's your choice. Would you like to pay just the original charge now and wait on the rest? I can tell you that amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:16-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. [pause] I'll wait. I'm waiting on a tax refund. Hoping it comes. Before January's over."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. The account will show the balance until it's paid, but I've put the note on it so the review is on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. [pause] It's irritating. All of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand, Mr. Spencer. Is there anything else I can help with this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. [pause] That's all. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Send in that address note when you can, and take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:00:51-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T10:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T10:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T10:55:29-05:00",
+        "end": "2026-01-06T11:00:53-05:00",
+        "duration_seconds": 324,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T10:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T10:55:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T10:55:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T10:55:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T10:55:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

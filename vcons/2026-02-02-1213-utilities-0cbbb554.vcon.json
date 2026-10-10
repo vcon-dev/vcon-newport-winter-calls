@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0cbbb554-d25b-8d83-a3f7-61eaac2542a5",
+  "created_at": "2026-02-02T12:17:49-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Peggy Kearney",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T12:13:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:13:06-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Tony. Yes. [pause] I'm calling about a water and sewer bill. I'm a tenant at 423 Van Zandt Avenue, up in the North End, and my landlord says it's mine to pay. I just want to know whose it actually is."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:13:22-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Let me see what I can tell you. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:13:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. I've got the paper bill right here. It's, um, dated January fourteenth. And it's in the landlord's name, not mine. That's what's bugging me. Why would I owe something that's got his name on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:13:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so that's pretty normal. The city bills the property owner, because the account is tied to the property. Whoever's name is on the bill is who we look to for payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:13:56-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. [sigh] But he keeps telling me it's mine. He sends me these texts, you owe this, you owe that. And nobody ever told me that when I signed the lease. Or maybe it's in there, I don't know. I've been going back and forth with him for weeks now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:14:15-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Whether you reimburse him is really between you and him, and it depends on what your lease says. From our side, the owner is responsible to the city. If it goes unpaid, it's the owner's account that gets the notices."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:14:31-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the city doesn't care who's paying, as long as it's paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:14:36-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pretty much, yeah. We just need the account paid. What the lease says about splitting it is something you'd want to read over, or sort out with him in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:14:48-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I figured. [sigh] I just get tired of this. Every month it's something. Okay. So, what is the amount on there, is that something you can tell me? I see a number here but there's a past due thing on it too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:15:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can walk you through the lines. Read me what you see under the current charges and then the previous balance."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:15:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it says previous balance, and then current charges, and then a total due. Total is the one at the bottom, and there's a due date next to it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:15:24-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the previous balance is what was left over from the last bill. Current charges are for this billing period. The total is both added together. If the previous balance has a number, that means some of the last bill hasn't been paid yet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:15:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Right. So that's from before. Which, honestly, I had nothing to do with. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:15:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good thing to bring up with your landlord, then."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:15:52-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I will. Believe me. [pause] Can I ask something else? Say I decide to just pay it myself to get it settled, is there a way to pay by phone after four thirty? I work till late and by the time I'm done you're closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:16:09-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, there are a few ways. There's a drop box at City Hall that you can use any time, day or night. And the bill should have an online payment option, so you can pay from your phone or computer whenever. There's also an automated phone payment line that runs after hours, I believe the number's printed on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:16:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me look. [pause] Yes, there's something down at the bottom about paying by phone. Okay. That'll work. I'll need the account number off here, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:16:42-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, you'd use the account number on the bill. Just keep in mind, if you pay it, make sure you get a receipt or a confirmation, so you've got proof for the landlord."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:16:55-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good point. Thank you. [sigh] I do a lot of things on my own time. I put together a monthly newsletter for a neighborhood book swap, and I'm doing that at night, so everything else gets squeezed in around it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:17:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that sounds like a nice thing to be doing. Hopefully this gets sorted out for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:17:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hope so. I'm just tired of being the one chasing everybody. Okay, I think that's what I needed. The drop box, the phone line, and the online thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:17:29-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And if your landlord has questions about the account, he can call us directly and we can go over it with him."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:17:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'll tell him that. Believe me. Alright. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:17:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Peggy. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T12:17:47-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T12:13:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T12:13:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T12:13:01-05:00",
+        "end": "2026-02-02T12:17:49-05:00",
+        "duration_seconds": 288,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T12:13:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T12:13:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T12:13:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T12:13:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T12:13:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "191dbbea-b171-8217-bb30-2c338cfca4a5",
+  "created_at": "2026-02-10T12:31:06-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Colin Lynch",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T12:27:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:27:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. Good afternoon. My name is Colin Lynch. I am calling about a parking ticket. I have, um, some notes here, so I say it correctly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:28:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Mr. Lynch. Take your time. Do you have the ticket number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:28:08-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The ticket number is on the top, right side. It is four, four, one, seven, zero, two. Is this enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:28:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull that up. One moment, please. [pause] All right, I have it. It was issued last week for an expired meter. What is your concern?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:28:26-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The plate is wrong. The ticket shows a plate that is not my plate. Two of the letters are different. My car was not even there that day. I am a little annoyed, because I must now spend my lunch hour to fix somebody else's mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:28:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Can you read me the plate number as it appears on the ticket, and then the plate registered to your vehicle?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:28:51-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On the ticket it says, let me see, the letters are B, K, and then the numbers are four, one, nine. My plate is B, H, then four, one, nine. So the K is wrong. It should be H."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:29:05-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I see the discrepancy. The notice was mailed to you based on that plate lookup, which is why it reached you. Since the citation itself carries the incorrect plate, you would need to file a written appeal, and a hearing officer would review it. I can tell you how to submit that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:29:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A written appeal. Okay. Wait, please, I write this down. [pause] Okay. And while that is happening, do I still pay? Because the notice says there is a late amount if I do not pay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:29:36-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "As a general matter, filing a timely appeal should pause the due date, but please keep the appeal deadline on your notice in mind. Do not let it pass."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:29:47-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I understand. Also, I have one more question. If the appeal does not work, is there a payment plan? Where I pay a little each month? Because this month is expensive for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:29:59-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a payment arrangement may be available for outstanding balances. I would need to have a supervisor confirm the terms for parking citations. Would you like me to have someone contact you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:30:11-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. You can call me at four-zero-one, five-five-five, zero-one-nine-three. It is a very old number. Many years I have it. Everybody says change it, but I refuse. It is the same number from when I first came here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:30:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I have four-zero-one, five-five-five, zero-one-nine-three. Is that a landline?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:30:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, landline. If I do not answer, you leave a message. I check it in the evening."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:30:36-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very well. I'll note the plate error on your account and send the request to the supervisor. For the appeal, you may send a letter with a copy of your registration showing the correct plate, along with the ticket number. The address is printed on the back of the notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:30:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The back of the notice. Okay. I will do it today. Thank you for your help, Miss Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:31:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Lynch. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:31:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You also. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:27:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:27:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T12:27:46-05:00",
+        "end": "2026-02-10T12:31:06-05:00",
+        "duration_seconds": 200,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:27:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T12:27:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T12:27:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T12:27:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T12:27:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

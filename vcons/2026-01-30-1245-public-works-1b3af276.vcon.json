@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1b3af276-0602-84df-ae6f-423cf0f2b01f",
+  "created_at": "2026-01-30T12:47:33-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "David Chase",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-30T12:45:35-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:45:38-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Kevin. I'm calling about a trash pickup. Or a missed one, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:45:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Let me grab some info. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:45:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "178 Eustis Avenue. Up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:45:50-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "178 Eustis. Got it. And what got missed, the regular trash or recycling?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:45:55-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's bulk stuff. The landlord left it out after a tenant moved out. Couch, a mattress, some boxes, a few bags. It's been sitting at the curb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:46:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so a landlord left bulk waste at the curb after a move-out. And did it go out for this week's pickup?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:46:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It went out last week and this week. They skipped it both times. So that's the second miss in a row."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:46:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gotcha, second miss. [pause] Sorry, I'm just typing that in. Did it have any kind of tag or sticker on it, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:46:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I'm on speaker, my phone case has a loose popsocket and it rattles on the table. Let me pick this up. [pause] Okay. I don't see a sticker on it. I can walk out and look closer if you want."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:46:44-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine, I'll note no tag visible. Bulk items sometimes need to be scheduled ahead, so that may be part of it, but I'll put this in as a missed pickup request and have the crew supervisor look at it. Is the pile right at the curb, not in the driveway?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:01-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right at the curb, in front of the house. Nothing in the street."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Let me read it back. 178 Eustis Avenue, bulk waste left by the landlord after a move-out, out two weeks running, nothing tagged, at the curb. Sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do you want a call back when it's sorted out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0164."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "0164, perfect. Someone should be in touch early next week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T12:47:30-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Have a good weekend."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T12:45:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T12:45:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-30T12:45:35-05:00",
+        "end": "2026-01-30T12:47:33-05:00",
+        "duration_seconds": 118,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T12:45:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-30T12:45:35-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-30T12:45:35-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-30T12:45:35-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-30T12:45:35-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

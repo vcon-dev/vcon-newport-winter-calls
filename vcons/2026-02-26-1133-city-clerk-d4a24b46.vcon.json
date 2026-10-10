@@ -1,0 +1,187 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d4a24b46-e852-851e-b065-5be0981e4e3a",
+  "created_at": "2026-02-26T11:34:48-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Carlos Medeiros",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T11:33:36-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:33:40-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, good morning. Carlos Medeiros here. Somebody over at the solicitor's office told me to call this number about an old file, and I'm not sure you're the right place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:33:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What kind of file is it? Can you tell me a little about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:33:57-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a paperwork thing on a rental property I own, down the Point. Goes back a good while. They said somebody here would have it, but I just want to know who actually handles it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:34:09-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mm. Well, we keep council records and certain filings here. If it's a case file, the solicitor's office usually holds that themselves. Do you know if it was a license, or a complaint, or something else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:34:22-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, they didn't say. Just gave me this number. My father says I should've looked in the phone book, he keeps a paper one by the kitchen phone and swears by it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:34:33-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, well, they still come in handy. Tell you what, I'll transfer you to the records desk upstairs, and if it's not theirs they can point you on. Stay on the line, Mr. Medeiros."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:34:45-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, I'll hold. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:33:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:33:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T11:33:36-05:00",
+        "end": "2026-02-26T11:34:48-05:00",
+        "duration_seconds": 72,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:33:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T11:33:36-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T11:33:36-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T11:33:36-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T11:33:36-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

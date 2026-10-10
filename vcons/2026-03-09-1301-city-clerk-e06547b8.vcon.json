@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e06547b8-f827-8350-a66f-0e9b02dad535",
+  "created_at": "2026-03-09T13:04:18-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Jorge Semedo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T13:01:19-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:01:24-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. I'm calling about a noise problem. A delivery truck, it sits there idling at dawn, every morning, right outside my building. [pause] Can you hear me okay? I'm on speaker, I've got my hands full."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:01:38-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Where is this happening, sir?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:01:42-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "278 Bridge Street, down the Point. I run the shop there, and I'm in early. The truck pulls up around five-thirty, maybe quarter to six, and the driver just leaves the engine running. Twenty, thirty minutes sometimes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:01:55-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how long has this been going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:01:59-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since before the holidays. As I said before, and I mean I'm saying it now for, what, the third time to somebody in this city, it has been going on since before Christmas. [sighs] Nobody does anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:02:12-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, I don't have a record in front of me of the earlier calls, but I'll note it. Do you know what company the truck belongs to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:02:22-04:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a white box truck, there's a name on the side but it's a, it's got a long name, I'd have to go look. I haven't been paying attention to the logo, I've been paying attention to the noise. I've been cleaning out the garage all week, so I'm out back with the door open, and that engine is right there. Diesel smell, rattling, the whole thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:02:46-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds miserable, especially with the door open. So, the City Clerk's office takes the complaint and passes it along, but I can't send anybody out to the truck myself."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:02:57-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so what do I do, then? Should I be calling the police non-emergency line instead? Because if that's the answer, just tell me, and I'll call them tomorrow morning when it's happening."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:09-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly, yes, since it's happening live in the morning, the police non-emergency line is the better way to get somebody to the spot while the truck is there. I'll still log your complaint here so there's a written record of it, with the address and the early-morning times."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:26-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Log it. 278 Bridge Street, truck idling five-thirty to six, since before the holidays. Put that down."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:33-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Five-thirty to six, idling, since before the holidays, 278 Bridge Street. Can I get a callback number in case someone has questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:42-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0174."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:44-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-seven-four. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:47-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And if you can get the name off the truck, I mean, I'll get it tomorrow, I'll write it down. Should I call you back with it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:03:58-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, call back or give it to the police when they come. Either one helps. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:04:07-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it. I just want it to stop. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:04:11-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Thanks for calling, and good luck getting the garage finished."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T13:04:16-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:01:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:01:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T13:01:19-04:00",
+        "end": "2026-03-09T13:04:18-04:00",
+        "duration_seconds": 179,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T13:01:19-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T13:01:19-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T13:01:19-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T13:01:19-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T13:01:19-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

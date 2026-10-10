@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9b89f7fb-6280-8a05-ac9c-1c9144a3699f",
+  "created_at": "2026-01-22T11:29:53-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Edson Fortes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T11:26:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:26:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Before anything else, could you give me your name again? I want to write it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:04-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Janet Whitcomb. W-H-I-T-C-O-M-B."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:06-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Janet Whitcomb. Thank you. My name is Edson Fortes. I'm calling for my mother about a parking ticket she got. I'm on my cell, and I'm at work, so I can talk for a few minutes. It's slow right now at the store."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, Mr. Fortes. What is the issue with the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The ticket says expired registration sticker. But she renewed the registration the day before she got ticketed. The new sticker just hadn't come in the mail yet, so the old one was still on the plate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not on me, no. My mother has it. I can get the number tonight. For now I just want to know the process. Does she have to pay it first, or can she appeal it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:27:56-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She may contest it. You would submit a written appeal, and I would recommend including a copy of the renewal receipt showing the date it was completed. The date on that receipt is the important part."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:28:09-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hold on, let me write that down. Written appeal, copy of the renewal receipt, with the date. Where does she send it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:28:17-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be mailed or brought in to the Finance Department at City Hall. The address is printed on the back of the ticket. The ticket number should be on the letter, along with her name and plate number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:28:30-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ticket number, name, plate number. Got it. And does she have to do it by a certain date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:28:37-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is a deadline, and it is printed on the ticket itself. She should not wait too long, because penalties can be added if the ticket goes unpaid past that date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:28:48-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So check the deadline on the ticket first. Now, how long does the appeal usually take? Like, from when she sends it in until she hears back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:28:58-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Typically a couple of weeks, sometimes a bit longer depending on the volume we have. She will receive a decision by mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple weeks, maybe longer, decision by mail. Okay. And during that time, do the penalties stop, or does it keep going?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once a written appeal is received on time, the ticket is placed under review. I would still have her keep a copy of everything she sends."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:23-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Copy of everything. Good. Do you need a phone number for her file in case there's a question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:30-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you would like to include one in the letter, that is fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:35-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'll put mine, 401-555-0180. I'm the one handling it for her."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Is there anything else I can help you with today, Mr. Fortes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that covers it. I have my steps written down. Thank you, Ms. Whitcomb."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:29:50-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:26:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:26:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T11:26:52-05:00",
+        "end": "2026-01-22T11:29:53-05:00",
+        "duration_seconds": 181,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:26:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T11:26:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T11:26:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T11:26:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T11:26:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

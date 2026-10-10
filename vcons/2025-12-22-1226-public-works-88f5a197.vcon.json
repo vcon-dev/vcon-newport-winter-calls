@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "88f5a197-d1d9-8c25-aeea-378ae7e7e944",
+  "created_at": "2025-12-22T12:27:29-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Gino Cardillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:25-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. I'm calling about the streetlights. The whole block lost its lights last night. All of them, dark, from the corner down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:33-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The whole block, okay. Where are you located, sir?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four, seven, three Washington Street. [pause] Down in the Point."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four seventy-three Washington Street. And it was dark last night, Sunday night?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Sunday night. Still off this morning, I didn't check after that. I'd like a crew to come check the pole. It's the one right in front of the house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:26:54-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll put in a request for a crew to look at that pole. Is that a good number for you if they need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:27:03-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Four, zero, one. [pause] Five, five, five. [pause] Zero, one, nine, nine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:27:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-nine. Got it. Anything else going on there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:27:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, just one thing. If you hear banging, I'm defrosting a freezer out front and ice chunks are falling. That's all. I'm out on the sidewalk side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:27:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, thanks for the heads up. Watch your step out there. I'll send the request over now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:27:27-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:26:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:26:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T12:26:21-05:00",
+        "end": "2025-12-22T12:27:29-05:00",
+        "duration_seconds": 68,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:26:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T12:26:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T12:26:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T12:26:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T12:26:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

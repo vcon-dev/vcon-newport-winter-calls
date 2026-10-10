@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3eb43309-9e02-8ad1-91c7-372ec11751a0",
+  "created_at": "2025-12-09T10:23:56-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Paulo Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T10:20:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:20:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, good morning. I need a certified copy of a birth certificate. It's for a passport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Whose birth certificate is it, yours or someone else's?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:08-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My daughter's. She's fifteen. Why does it matter whose it is?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:13-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because we only release certified copies to certain people, like the person on the record or a parent named on it. Are you listed as her father on the certificate?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:24-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'm on it. Paulo Teixeira. T-E-I-X-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thank you. And was she born here in Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport hospital, yeah. How do I know you have it, though? Maybe she's in the state records and not yours."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:40-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If she was born in Newport, the city has the record. If we can't find it, I'd tell you and point you to the state office. Do you have her full name and date of birth?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:21:53-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll give it to you. Do you need it now or when I come in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:00-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either works, but if you come in person you'll need a photo ID, and that's the fastest way to get it. You can also mail in a request, it just takes longer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:12-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so in person. What's the fee? How much is it per copy?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:17-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a fee per certified copy, and I'd rather you hear the exact amount from the counter or the city website so it's right. You'd pay when you pick it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:29-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So you're telling me you don't know the fee? You work there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:34-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm telling you it's a standard per-copy fee and it does get updated, so check the website before you come. It's not a big number. One copy is all you need for the passport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:47-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One copy. Right. And it has to be certified, not a photocopy, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The passport office won't take a photocopy. It needs the raised seal."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:22:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how long, if I walk in? Same day?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:01-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually you wait a few minutes while we pull it, if the record is on file here. Counter hours are weekdays during the day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:10-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, because I need it soon. My kid has a swim meet on Saturday at seven, so I'm tied up then. I'd rather do this before the weekend."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then come in this week. Today or tomorrow is fine. Bring your driver's license."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:27-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Driver's license, her name and birthday, one copy. Anything else? Do I need her passport application?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:33-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, just the ID. The application is separate, you'll bring the certificate with it later."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:39-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Let me repeat it. Walk in, license, one certified copy, check the fee online. That right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T10:23:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Teixeira. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T10:20:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T10:20:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T10:20:52-05:00",
+        "end": "2025-12-09T10:23:56-05:00",
+        "duration_seconds": 184,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T10:20:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T10:20:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T10:20:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T10:20:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T10:20:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

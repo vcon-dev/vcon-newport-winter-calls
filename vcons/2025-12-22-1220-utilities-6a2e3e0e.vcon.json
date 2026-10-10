@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6a2e3e0e-aee0-858d-965c-7557acfd7ade",
+  "created_at": "2025-12-22T12:24:37-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nicholas Santoro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T12:20:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:20:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I got a late fee on my water and sewer bill. I mailed the check on time, so I'm calling to get that looked at."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:20:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can pull that up. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:20:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "149 Kay Street. It's a commercial account, under my business. Nicholas Santoro is the name on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:20:49-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Santoro. Give me a moment. [pause] Okay, I have the account. The last bill was due earlier this month, and there's a late charge posted on it. When did you mail the check?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:21:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "About a week before the due date. I wrote the date in my check register. It was the first week of the month."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:21:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And has the check cleared your bank yet?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:21:16-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It cleared a few days after the due date. So it was slow getting to you, but I didn't mail it late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:21:25-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Our records show the payment received after the due date, which is why the fee was applied. What I can do is note your account with the mailing date and send the late fee for review. I can't promise the outcome from this desk, but it will be flagged."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:21:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Put the note on there. I'd like it reversed since the check was in the mail on time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:21:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'm adding that now. [pause] Done. Is there anything else on the bill you wanted to go over?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I need a duplicate copy of the bill. I can't find the original. Can you email it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can send a copy by email. Do you want it to the address we have on file, or a different one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:16-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A different one. Can I give it to you now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:20-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, and I'll read it back to you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's nick, N-I-C-K, then the word santoro, S-A-N-T-O-R-O, then the word supply, at a mail dot com. Wait, no, it's ee-mail with a G. G-mail dot com."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:34-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me make sure I have it. Nick, Santoro, Supply, at gmail dot com. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:41-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. You should see the copy within the hour. If it doesn't show up, check your spam folder."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Also, I want to set up automatic withdrawal for these bills. So this doesn't happen again. How do I do that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:22:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We do have an automatic withdrawal option from a checking account. It requires an enrollment form with your bank account details. I can email that form to you along with the bill copy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:23:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. Is there anything I need to attach? A voided check or something?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:23:18-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The form lists what's needed, and a voided check is commonly part of it. Read the instructions on the form itself, because I don't want to tell you the wrong thing. Once it's processed, the withdrawal starts with a future billing cycle, so you may still get one more paper bill first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:23:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I should still pay the next one the normal way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:23:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Until you get confirmation that the autopay is active, yes. I'd suggest that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:23:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Hang on, I'm writing that down. [pause] I've got a long to-do list taped to the wall here and I'm adding this to it. Autopay form, send it back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:23:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds like a good place for it. I'll send the form now with the bill copy, in the same email."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:07-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And the late fee review, how long does that take?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have an exact timeframe. Someone should contact you either by phone or mail. I've put your number on the note. Is 401-555-0189 still the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:29-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Santoro. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:24:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:20:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:20:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T12:20:23-05:00",
+        "end": "2025-12-22T12:24:37-05:00",
+        "duration_seconds": 254,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:20:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T12:20:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T12:20:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T12:20:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T12:20:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

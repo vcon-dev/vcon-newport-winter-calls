@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "38fced59-0407-8ea3-8b78-3a02508fdf50",
+  "created_at": "2026-02-02T14:21:40-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Gina Iannuccilli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T14:20:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:20:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. My name is Gina Iannuccilli. I'm a landlord, I've got a place at 25 Kingston Avenue, up Historic Hill. I'm getting a dumpster for a job and I don't understand the rules. It'd sit on the street, and that's a no-parking zone."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:20:57-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so a dumpster on the street. Generally that takes a permit from the city. Is it going in the no-parking stretch, or just near it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:21:05-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In it, I think. Wait, no, next to it. I'm not sure what's the difference. Does it matter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:21:11-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can. I'd have someone look at the exact spot. Do you have a contractor doing the work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:21:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. Does he have to be the one who applies? Does it need a licensed contractor, or can I do it, as the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:21:24-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me get you the right person for that. I'll note the address and..."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:21:29-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hold on, not you, the speaker. This thing in my kitchen keeps answering stuff I never asked it. Wicked annoying. Sorry, where were we?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T14:21:36-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I'll transfer you to the inspector who handles street permits, Mrs. Iannuccilli."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T14:20:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T14:20:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T14:20:40-05:00",
+        "end": "2026-02-02T14:21:40-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T14:20:40-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T14:20:40-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T14:20:40-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T14:20:40-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T14:20:40-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "920bb6d6-4d9e-808f-94a0-a491ccef2aa3",
+  "created_at": "2026-02-11T11:59:33-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Leila Tran",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-11T11:58:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:58:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. Um, I'm trying to reach the Registry. For my license renewal. Is this the Registry?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:58:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ma'am, this is the Newport City Clerk. The Registry of Motor Vehicles is a state office, so it's a different number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:58:47-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. [pause] Sorry, I thought, the number I had said, um, Newport. [crosstalk] Hang on, a truck's going by."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:58:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I can wait. Are you outside?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:58:56-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, at a crosswalk. Waiting to cross. Sorry about the noise. So the city doesn't do licenses? Driver's licenses?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:59:02-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, not driver's licenses. That's all through the state. If you search for the Rhode Island Registry of Motor Vehicles online, or look at the state government listings in the phone book, you'll get their line and the branch hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:59:14-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The state. Okay. So not you, and not City Hall generally."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:59:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. We do records, licenses for businesses, things like that. Not the Registry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:59:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'm sorry to have bothered you. I'll look it up. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:59:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No bother at all. Good luck, and have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T11:59:31-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Sorry again. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T11:58:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T11:58:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-11T11:58:30-05:00",
+        "end": "2026-02-11T11:59:33-05:00",
+        "duration_seconds": 63,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T11:58:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-11T11:58:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-11T11:58:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-11T11:58:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-11T11:58:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

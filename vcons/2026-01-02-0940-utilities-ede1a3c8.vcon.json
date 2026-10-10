@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ede1a3c8-c5f6-83d4-8a75-2926e4fcaec3",
+  "created_at": "2026-01-02T09:45:09-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Manuel Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-02T09:40:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Happy New Year, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:40:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What? Say that again, I'm a little hard of hearing. I'm on my cell, so talk up for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:40:28-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Utilities billing, this is Tony. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:40:33-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good, I got you. Manuel Silva. I'm at 288 Van Zandt Avenue, up the North End. I got a water and sewer bill here and my landlord says I owe it. I rent. So I want to know, whose bill is this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:40:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Silva. Let me pull up the account. Bear with me a second. Two eighty-eight Van Zandt?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:40:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, two eighty-eight. Van Zandt. Like the van, and Zandt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:41:03-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So the account is in the property owner's name, that's your landlord. The city bills the owner. What the owner does with it after that, whether they pass it on to a tenant, that's usually between you and them, per your lease."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:41:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Per my what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:41:22-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your lease. The rental agreement you signed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:41:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, the lease. Yeah, well, I don't remember it saying anything about water. And now he hands me this bill like I'm supposed to just write a check. Wicked annoying, I'll tell you that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:41:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Well, the city can't tell you what your lease says, but the bill itself is the owner's responsibility with us. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:41:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right here. It's got a big number on it. And there's a line that says consumption. What is that? Consumption. Sounds like somebody's got a cough."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:02-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Consumption just means how much water was used. It's the amount the meter measured between the last reading and this one. Then the charge is figured from that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:14-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's what, how much I used?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:18-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's how much the whole property used. If there's more than one unit on that meter, it's everybody together. Do you know if you're sharing a meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:29-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Say again? You're breaking up a little."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there more than one apartment in the building, on the same meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:38-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, there's two of us. Me downstairs and somebody upstairs. One meter, I think. So why am I paying for all of it? That's not right. The number's high too, for one old guy and a kitchen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:42:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the consumption on this one does look higher than I'd expect for the usual quarter. I can see that on my screen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:43:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "See, that's what I'm saying! Somebody's got a leak or the meter's off or something. I'm not paying that until somebody looks at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:43:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. A reading can be checked, and it's really the owner who'd have to request that on the account, but I can note your concern."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:43:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. I want a supervisor to look at this charge. Can you get me a supervisor?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:43:29-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. My supervisor's not at her desk right now, it's the first Friday after the holiday and we're light. I can put in a request for a review and have her call you back. Is this the best number, the cell?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:43:46-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the cell. It's 401-555-0164. But I don't always hear it, so let it ring a while. And my phone's no good in the house, I'm out in the car half the time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:43:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0164. I'll note to let it ring. Do you want me to leave a voicemail if you miss it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:44:07-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, leave a message, I'll call back. I'm out driving a lot and the radio in that car only gets the one station. Same station all day. If I want the news, I get the polka. So I'm not exactly informed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:44:23-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's one way to start a Friday. I'll put it all in the note. The consumption looks high, you're a tenant, you want the charge reviewed, and you're asking whose bill it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:44:36-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. And tell her I want it in writing, whose it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:44:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll add that. The account holder is the owner, so she can confirm that part for you. Anything else I can do this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:44:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. You explained the consumption thing, anyway. Better than my landlord did."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:44:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Glad that helped. You should hear back within a few business days. Take care, Mr. Silva."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-02T09:45:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What? Few days? Okay, okay. Thanks, Tony. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T09:40:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T09:40:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-02T09:40:14-05:00",
+        "end": "2026-01-02T09:45:09-05:00",
+        "duration_seconds": 295,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-02T09:40:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-02T09:40:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-02T09:40:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-02T09:40:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-02T09:40:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

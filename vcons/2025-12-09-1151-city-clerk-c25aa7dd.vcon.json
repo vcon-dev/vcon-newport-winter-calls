@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c25aa7dd-8e59-8ac5-9c0f-5c6eb6eb30d8",
+  "created_at": "2025-12-09T11:53:27-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Nancy Sherman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-09T11:51:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:51:56-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Nancy Sherman. I am calling about a stray dog that has been roaming my street for two days now, and I am rather concerned. Kindly tell me whom I should speak with."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:52:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mrs. Sherman, animal control takes those. I can take the details and pass them along. What does the dog look like?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:52:14-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "He is a large dog, I would say about the size of a Labrador, perhaps sixty or seventy pounds. He is a tawny sort of brown, with a white patch on his chest. He has no collar that I could see, and he [pause] I'm sorry, I [inaudible] the water [line breaks up] is that better? I believe my telephone went underwater for a moment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:52:33-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can hear you now. You said no collar?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:52:37-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. No collar. He has been wandering about since the storm ended, the one from Friday into Saturday. He looks thin and frightened, and I worry he will be struck by a car, or that he may frighten someone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:52:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Is he aggressive at all, or just wandering?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:52:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "He has not been aggressive. He keeps his distance when I open the door. But he is hungry, I think, and I do not wish to approach him."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:53:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's smart, don't approach him. Which street are you on? I need a location for the officer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:53:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh dear, I would rather not give it over the telephone just now. Might the officer call me instead? My number is 401-555-0165."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:53:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, 401-555-0165. I'll put in the dog's description and have someone call you back today. If he gets aggressive or goes into traffic, call the police right away."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-09T11:53:23-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you ever so much. Kindly tell them I am worried about him."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T11:51:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T11:51:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-09T11:51:52-05:00",
+        "end": "2025-12-09T11:53:27-05:00",
+        "duration_seconds": 95,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-09T11:51:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-09T11:51:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-09T11:51:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-09T11:51:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-09T11:51:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e5dd51ad-301d-888c-a134-0625fc8aef24",
+  "created_at": "2026-01-06T12:50:20-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Rosemarie Grasso",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T12:43:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:43:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. My name is Rosemarie Grasso. I'm calling about a bulk pickup that didn't happen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:43:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Ms. Grasso, let me help with that. Where was the pickup supposed to be?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:43:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "231 Marsh Street. That's in the Point."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:44:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "231 Marsh Street, in the Point. Got it. And what did you put out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:44:09-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I own the building. I had a tenant move out at the end of the month. They left a mattress, a box spring, a broken dresser, and some bags of junk. I set it all at the curb Sunday night."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:44:30-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A mattress, box spring, dresser, and some bags, at the curb Sunday night. And the regular trash day for that street would be what, do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:44:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tuesday is trash. Today. It's still sitting there. I looked out the window about an hour ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:44:55-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's still there as of this morning. Was this a regular pickup day or did you schedule the bulk items ahead?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:45:08-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I called last time and they said put it out the night before. I did. It is the second miss in a row. The last time, the week before Christmas, they took the bags and left the furniture."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:45:28-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's two weeks now where the bulk pieces were left behind. Did anything get tagged? Sometimes the crew leaves a sticker or a note on the item saying why they skipped it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:45:46-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I didn't see a sticker. I'll go look again, hold on. [pause] No. There is nothing on any of it. Just the way I left it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:46:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, no tag. That helps me know to put it in as a missed pickup rather than a refusal. Is the mattress wrapped or bagged at all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:46:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. It is not wrapped. Does that matter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:46:20-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can. Sometimes they want mattresses covered in plastic, especially in wet weather. I'm not saying that's what happened, but I'll note it was uncovered so the crew supervisor can see that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:46:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I can put plastic on it if that is what they need."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:46:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you've got a big contractor bag or a mattress bag, that's a good idea. And the dresser, is it in one piece?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:46:58-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is in one piece. The drawers are out and stacked next to it. It's heavy but they can lift it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:47:10-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, dresser with drawers stacked beside it. I'm writing all this down. Let me read it back. 231 Marsh Street, bulk items at the curb since Sunday night: mattress, box spring, dresser, plus bags. Missed today, and missed once before the week before Christmas. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:47:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:47:37-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll send this to the collection supervisor as a missed bulk pickup so someone goes back out. Can I get a number in case they need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:47:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is 401-555-0169."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:47:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0169. And that's a landline, you're at home?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:48:01-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I am home all day. I am watching a mystery series. I started it Sunday and I am trying to get through the whole thing without anyone telling me how it ends, so I will pick up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:48:21-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, no spoilers from me. I'll make a note that you're home. Do you want the items to stay where they are, or would you rather move them closer to the sidewalk?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:48:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They are already at the edge of the curb by the pole. I don't want to block the walk."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:48:49-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that's fine. Leave them there. If the supervisor sends a crew, it'll probably be in the next day or two, depending on how their route is running."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:49:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there a charge for the bulk items? Last time I was not sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:49:12-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the pricing in front of me, and I don't want to tell you wrong. If there's a sticker or a fee, the supervisor's office will tell you when they call. For a missed pickup you shouldn't be charged twice for the same items."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:49:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I will wait for the call."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:49:41-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And if nobody has come or called by Thursday, call us back and mention it's the third attempt. I'll put my name on the note so you can ask for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:49:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lorraine, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:50:00-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lorraine, yes. Medeiros."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:50:02-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Lorraine. That is all I needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:50:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Grasso. Enjoy your show, and I hope you find out who did it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:50:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T12:50:18-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:43:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:43:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T12:43:34-05:00",
+        "end": "2026-01-06T12:50:20-05:00",
+        "duration_seconds": 406,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T12:43:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T12:43:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T12:43:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T12:43:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T12:43:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

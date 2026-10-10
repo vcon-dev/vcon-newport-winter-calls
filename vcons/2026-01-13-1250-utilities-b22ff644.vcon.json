@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b22ff644-e00f-8426-bb2e-78bce429fe4b",
+  "created_at": "2026-01-13T12:55:30-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Marisa Gomes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T12:50:27-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:50:31-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, um, hi. So I got a reminder notice in the mail about a water and sewer bill? And like, I never got the actual bill? So I'm kind of confused?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:50:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's see what we have. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:50:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 398 Spring Street. In the Fifth Ward, up from the church there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:50:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:50:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Marisa Gomes. G-O-M-E-S. I rent there, so, like, I'm not the owner, but the water's in my name, I think? I'm not totally sure how that works."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me pull it up. One moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:11-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, take your time. I'm on my lunch break, so, totally fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I see the account. The last bill was mailed to a different address, not Spring Street. It looks like an old mailing address that's still on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:27-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay. So that's why? Because I moved here a while ago, and I thought I changed everything? But I guess not. I only found out because the reminder came to the right place. Wait, is it the reminder that has the new address, or the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:44-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The reminder went to the service address, Spring Street, but the original bill went to the old mailing address. So they were sent to two different places."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Okay. So the first one just went, like, nowhere? Somebody else's mailbox?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:51:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Possibly, yes. It may have been returned or it may be sitting at the old address. I can't tell from here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:07-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So can you send me a copy? Like a duplicate? By email, if that's possible?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I can send a duplicate by email. What email address would you like it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, um, hang on. Do I say it now? Like, out loud?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please say it slowly and I'll read it back to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:30-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's marisa dot gomes, no wait, is that what I gave you before? Is there one already on there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's no email on this account right now, so go ahead with the one you want to use."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:45-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so, marisa dot gomes eighty-one, at, um, mail dot com. Is that right? I said it kind of fast?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:52:53-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read it back. Marisa, dot, Gomes, eight one, at mail dot com. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, perfect. Sorry, I get nervous with this stuff."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll send the duplicate today. It should reach you within the day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:10-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. And then, so, can you also mail me a corrected one? Because the one that went to the wrong place, I don't want it to be, like, the only official one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:22-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can update the mailing address to Spring Street and request a corrected bill be mailed there. It will take a few days to arrive."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:31-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the email copy and then a paper one later. Is that two bills? Do I pay twice? Because that sounds like it would be two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's the same bill, one amount. The email and the mailed copy are just two copies of the same charge. You would pay it once."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:53:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, good. And the reminder, the late thing, do I get charged for that? Since I never even got the first one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:00-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say for certain from here. I'll add a note to the account that the bill went to the wrong address, and the billing supervisor can review it. They'll follow up if anything needs to change."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's fair. Um, can I ask something kind of random? Because I'm not sure it's the same department?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:21-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:23-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So at night on my street, I can hear this bell? Like a buoy bell, way out on the water, ding, ding, really faint? Is that, like, a city thing? I wasn't sure if it was something to report."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:37-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's not something we handle in utilities. Buoys are generally maintained by the Coast Guard, not the city. It's probably just carrying more on the wind after the storm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:48-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay, totally. I just wondered. Yeah, it was louder after the storm that ended Saturday, I think? Okay, never mind then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:54:56-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Let me confirm: duplicate bill emailed today, mailing address changed to 398 Spring Street, corrected bill mailed, and a note on the account. Is that everything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:55:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I think so. Um, if I don't get the email, should I call back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:55:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, and check your spam folder first. If it's not there by tomorrow, call back and we'll resend it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:55:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Thank you so much. Sorry, I was kind of all over the place?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:55:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:55:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:50:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:50:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T12:50:27-05:00",
+        "end": "2026-01-13T12:55:30-05:00",
+        "duration_seconds": 303,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:50:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T12:50:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T12:50:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T12:50:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T12:50:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8a036bf6-7e6c-80d7-8f9a-d1544e867232",
+  "created_at": "2025-12-18T11:54:09-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Diogo Pacheco",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T11:49:28-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:49:33-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Tony. Yes, good morning. My name is Diogo Pacheco. I have a bill from water department, and I do not understand some part."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:49:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Mr. Pacheco, happy to walk you through it. What's the address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:49:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fifteen Callender Avenue. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:49:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Let me pull that up. Bear with me one second. [pause] Alright, I've got your account. What's the part that's confusing you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:50:06-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is line, it say water charge, and then another line, sewer charge. The sewer one is more high than the water. I think this is strange. I use the water, how the sewer is more?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:50:22-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that trips a lot of people up. So the sewer charge isn't a separate thing you're using on top. It's based on the water that comes into the house. The idea is that what goes in mostly goes down the drain, so the sewer line is figured off your water use. And the rate per unit for sewer is just higher than the rate for water."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:50:50-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. So the sewer is not another meter? Only one meter?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:50:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, one meter. Just the water meter. Sewer is calculated from it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:51:01-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. One meter. But then why the rate is more high? I am sorry, I am trying to understand."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:51:10-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. Sewer costs more to run. There's the pipes, the pumping, and the treatment before it goes back out. So that's built into the rate, and it comes out bigger than the water side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:51:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Treatment. Yes. I see. So the sewer, it is for the treatment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:51:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pretty much, the whole system that takes it away and cleans it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:51:38-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Now I have another question. Last year, the winter, my bills was much more low. Much. Maybe half. This one is so big. I did not change nothing. Same house, same me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:51:52-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me look at the usage on here. [pause] So I'm seeing the reading for this period is higher than the same time last year. Has anything been different at home? More people staying, more laundry, anything running?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:52:09-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, only me and my wife. Same. Maybe, um, this month I cook more. Many pot, many washing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:52:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That can add up, sure. Lots of dishes, lots of rinsing. Also, sometimes a toilet that runs or a faucet that drips will bump it up without you noticing. Might be worth a quick check."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:52:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A toilet, running. Okay, I will listen. But I am not asking to change the bill. I only want to know what it mean. If I understand, it is okay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:52:45-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood, you just want it explained. And that's fair. So to sum up, your water charge is what you used, and your sewer charge is figured from that same use at a higher rate. Bigger use this time means both lines went up, and the sewer line went up more."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:06-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both go up together. Yes. And the sewer is bigger always."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:11-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Because of the rate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:14-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Wait, so if I use less water, the sewer is also less."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly, they move together."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:23-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now I understand little more. Sorry, I am still little bit, um, not sure about the last year. But I will check the toilet."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:34-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good plan. And if you check and everything looks normal, you can call back and we can go over the meter readings together, line by line."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:46-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. Ah, I must go now, I am cooking for a potluck, tonight, and I am behind. Too much to do, the rice is not even started."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:53:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, go get started then. Thanks for calling, Mr. Pacheco."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:54:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T11:54:07-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T11:49:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T11:49:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T11:49:28-05:00",
+        "end": "2025-12-18T11:54:09-05:00",
+        "duration_seconds": 281,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T11:49:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T11:49:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T11:49:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T11:49:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T11:49:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

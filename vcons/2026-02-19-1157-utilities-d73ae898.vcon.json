@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d73ae898-a51e-8427-86b6-d3c5920c7717",
+  "created_at": "2026-02-19T12:03:11-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Patrick Flynn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-19T11:57:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:57:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony. Yeah, I'm calling about a water bill. It's my mother's account, over on Mill Street. I'm her son, Patrick Flynn."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:57:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Patrick. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:57:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill is double. Double what it normally is. She's one person in that house, and it's never been anywhere near this number. And I can't figure out why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:57:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, that'll get your attention. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:57:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, I have the paper bill right here. It's dated January twenty-eighth. Billing period runs through the end of the month before that, I think. Anyway, the total is way up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:58:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, January twenty-eighth. Can I get the service address so I can pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:58:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sixty-eight Mill Street. Up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:58:16-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, sixty-eight Mill. Give me a second here. [pause] Okay, I see the account. So the latest bill does show a much higher usage number than the last few. Is that what you're seeing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:58:29-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The usage line is the thing. It jumped. And nothing changed. No guests, no new washer, no hose running, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:58:37-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. So usually when usage doubles like that, it's one of a few things. A leak is the big one, like a toilet that runs, or a leak in the line between the meter and the house. Sometimes it's an estimated read that gets corrected, so one bill is low and the next catches up. Do you know if this one was an actual read or an estimate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. How would I tell that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:06-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There should be a little code or note by the meter reading on the bill. Look near the previous and current reading numbers. An A usually means actual, an E means estimated."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on. [pause] Okay, I see a letter. It's an A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so that was an actual read. That makes an estimate catch-up less likely, so I'd check for a leak. Easy test is to turn off everything in the house, then look at the meter and see if the dial's still moving."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:39-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. My mother's eighty-something, she's not going to be crawling down in the cellar to look at a meter. I'd have to drive over. But fine, I can do that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Totally fair. If you can get over there, that's the quickest way to know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T11:59:57-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. But say it isn't a leak. Say I go over, nothing's moving, and the bill is still double. How do I dispute the charge? Formally, I mean. In writing, on the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:00:10-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. You'd put in a written request for a review of the bill, with the account name, the service address, the bill date, and a short explanation of why you think it's wrong. Then they can have the meter re-read or tested. I'd bring it in or send it to the department so it's attached to the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:00:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there a form? Or do I just write a letter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:00:37-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe a letter works fine, but let me not steer you wrong on whether there's a specific form. I can check with the billing supervisor and have someone call you back. Is this a good number, the one you're on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:00:52-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's the landline. It's four-oh-one, five-five-five, oh-one-seven-seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:00:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one seven seven, got it. And since your mother's the account holder, I'll note that you're calling on her behalf."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:04-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Is that going to be a problem? Me calling, instead of her?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:10-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For general questions like this, no. For changes to the account or a formal dispute, they may want something from her, like her signature on the letter. It depends."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's annoying, but okay. I'll have her sign something."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Probably smart. Does she have the account number? It's on the top right of the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:33-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see it. Do you need it read out?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I've got the account up already. Just keep it handy for the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:43-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And honestly, I should say, I've only ever dealt with the front counter. At City Hall. I go in, I hand them the check, done. I've never done any of this by phone, so I don't really know how the process runs."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:01:59-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no problem. You can still come to the counter and drop off the letter in person, and they'll stamp or log it for you. A lot of folks like that better."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:02:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I prefer that, the counter. Somebody hands you a receipt, you know it exists."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:02:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Get a copy for yourself too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:02:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Meanwhile, do I have to pay the whole thing by the due date? Even though it's wrong?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:02:28-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I'd ask the supervisor that when they call. I don't want to tell you the wrong thing about holds or penalties while a review is pending."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:02:39-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, to sum up. Check the meter, write a letter, get my mother to sign it, bring it to the counter, and wait for a call about the due date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:02:51-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And if the dial's moving with everything off, you'll want a plumber looking at it, and mention that in the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:03:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Thanks, Tony. I appreciate the plain answers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:03:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Patrick. You'll hear from someone. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-19T12:03:09-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T11:57:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T11:57:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-19T11:57:20-05:00",
+        "end": "2026-02-19T12:03:11-05:00",
+        "duration_seconds": 351,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-19T11:57:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-19T11:57:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-19T11:57:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-19T11:57:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-19T11:57:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

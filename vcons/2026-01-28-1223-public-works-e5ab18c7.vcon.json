@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e5ab18c7-33a2-82e6-ae4a-86cc79e2fbcb",
+  "created_at": "2026-01-28T12:24:17-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Dominic Grasso",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T12:23:17-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:23:19-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Kevin, Dominic Grasso. I'm calling about the plow, and I promise I'm not here to yell at anybody. I'm too old to yell, it takes too much out of me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:23:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. What happened with the plow?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:23:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it came down my street after that snow-to-rain storm, Sunday into Monday, and it left a wall of snow across the end of my driveway. Heavy stuff, too, because it got rained on and then froze up. I'm at 77 Marsh Street, in the Point."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:23:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 77 Marsh Street, plow berm at the end of the driveway. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:23:51-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And I'd also like some sand, if you do that. The whole apron is ice. My savings account paid me a little interest this quarter, so I figure I'm rich enough to slip and fall in style, but I'd rather not."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:24:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll put in the sand request for Marsh Street. Best number to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:24:09-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0195."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:24:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, I've got that down. A crew will get to it as they can. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:24:15-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Thanks, Kevin."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:23:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:23:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T12:23:17-05:00",
+        "end": "2026-01-28T12:24:17-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:23:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T12:23:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T12:23:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T12:23:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T12:23:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

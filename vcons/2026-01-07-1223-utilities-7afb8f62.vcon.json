@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7afb8f62-2441-81fb-b92a-a0e0b686bc88",
+  "created_at": "2026-01-07T12:27:18-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Neusa Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T12:23:28-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport, Utilities billing, this is Tony. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:23:33-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Tony. This is Neusa Andrade. I got a shutoff warning in the mail yesterday and I'd like to know how much time I've got before anybody touches my water."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:23:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. What's the service address on the notice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:23:49-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says 98 Ocean Avenue. That's the Ocean Drive side. Well, hold on. Let me look at it again. I got two houses, see, and the papers all look the same."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:24:01-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, take your time. Two properties, that's common. Is Ocean Avenue the one you live in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:24:07-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I live up the Hill. Ocean Avenue is the one I rent out. Or, wait. Is it? [pause] Yeah, I'm sorry, the notice is for Ocean Avenue, but I paid a water bill last month and I thought that was for it. Maybe I paid the one up the Hill twice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:24:26-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could be it. The account numbers are different for each property, so a payment can land on the wrong one if the number's off. Do you have the account number on the notice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:24:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it here somewhere. It's got a lot of zeros. Ends in forty-one, I think. Is that the one you're looking at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:24:48-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got the Ocean Avenue account up. I see a past due balance, and I see a payment posted last month on your other account. So yes, it looks like the payment went to the house up the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:25:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's annoying. Nobody told me. And now I get a shutoff notice like I'm a deadbeat."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:25:09-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. It's an easy mix-up, but I understand it's a hassle. On your notice there should be a date. It's usually a couple of weeks from the notice date. Can you read me what it says?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:25:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says the twenty-third. Of this month. So that's what, two weeks and a bit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:25:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That sounds right. So you've got until the twenty-third on this notice. Past that, the account can be scheduled for shutoff."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:25:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, I don't think I should have to pay for my mistake and the city's mistake both. How do I dispute it? Formally, I mean, on paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:25:47-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. For a formal dispute you'd put it in writing to the billing office. Your name, both account numbers, the service address, what you paid and when, and what you want corrected. You can drop it off here or mail it. They'll review it and respond."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And does the shutoff wait while they look at it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:08-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise that from here. What I'd do is note on your account right now that you're asking for the payment to be moved, and send the letter right away. I'd also tell them in the letter about the notice date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. You can note it. My number's 401-555-0164, if somebody needs to call me back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:29-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0164. I'll put that in the note. And I'll have the billing supervisor look at whether that payment can be transferred over."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:38-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll be quick about the letter. I've got to get going soon anyway. My granddaughter's school concert is tonight, and I'm going to drive over there this afternoon first, just to rehearse the way. I don't like driving in the dark and I don't want to get lost."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's smart. Hope it's a good show."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:26:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So, the twenty-third, and a letter with both account numbers. Is that everything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:27:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Account numbers, the dates, and what you paid. If you don't hear back in a few days, call us again."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:27:13-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:27:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mrs. Andrade. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:23:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:23:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T12:23:28-05:00",
+        "end": "2026-01-07T12:27:18-05:00",
+        "duration_seconds": 230,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:23:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T12:23:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T12:23:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T12:23:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T12:23:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

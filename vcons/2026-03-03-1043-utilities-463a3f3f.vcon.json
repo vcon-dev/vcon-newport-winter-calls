@@ -1,0 +1,691 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "463a3f3f-2ba5-86ee-af43-1aeade089a4f",
+  "created_at": "2026-03-03T10:50:46-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Lidia Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T10:43:45-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:43:50-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello Tony. This is Lidia Monteiro. I'm calling about my water and sewer bill. It came and it's way higher than it should be, and I'm not happy about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that. Let's pull it up. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:10-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "388 Kingston Avenue. Up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 388 Kingston. Give me one second. Okay, I see the latest bill. It's a lot bigger than the one before it, you're right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:25-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Almost double. Nothing changed in my house. Same as always. I look at it and I say, no, this is not right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:35-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. What are you seeing on your end that makes you think it's off?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The line here says consumption. Consumption, and a big number. What is consumption? Is that the water, or the sewer, or both? Because nobody consumes that much."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:44:54-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's just the billing word for how much water went through your meter in the period. It's measured in units, and the sewer part is generally based on that same number. So the higher the consumption, the higher both charges."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:45:12-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's only the meter. Not an estimate."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:45:16-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at that. This one shows as an actual reading, not an estimate. That's what I'm seeing here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:45:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the reading is wrong then. Or somebody read it wrong. I'm not paying for water I didn't use."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:45:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Has anything been different at the house? Any leaky toilet, a running faucet, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:45:42-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No leaks. I checked. My husband checked. Nothing is running. The only thing is I have a houseful of relatives for the long weekend, so okay, maybe a few more showers. But not double. Not like this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:45:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, a full house will bump it up some, but I hear you. That does look like a big jump."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:46:07-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So what can you do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:46:11-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple of things. I can note the dispute on the account. And I can have the meter reading checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:46:20-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before that, I want a breakdown. By month. I need to see how much I used each month, because I do a budget, and I can't budget for a bill like this. I need to see the pattern."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:46:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, I can read it off to you. Do you have a pen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:46:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, go ahead. One second. [pause] Ana, passa-me o papel, o caderno ali. Sim, ali. Okay, I'm here, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:46:52-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. So I'm going from the billing history. The bills here are quarterly, so what I have is by billing period, not strictly by month. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Quarterly? So I can't get every month?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:09-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not from the bills themselves. I can give you each period's total and the days it covers, and you can divide it out to get a monthly average. That's usually good enough for a budget."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. That's annoying, but fine. Give me the periods."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:29-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. The most recent one is the high one. Then going back, the three before it are all fairly close to each other, and they're about half of the latest. I'll read the exact units for each one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, I'm writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Latest period, 61 units. The one before, 33. Before that, 31. And before that, 35."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:47:56-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So 61 against 33. See? That's what I said. It's not me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:02-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a real jump, yeah. That's why I think a meter check makes sense."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I want somebody to review the charge. Is there a supervisor? I would like a supervisor to look at this, not only a note."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:20-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I can send it up to my supervisor for review, and I'll put in the meter check request alongside it. She'll look at the history and decide whether to adjust anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And she will call me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Someone will call you back. Is the number on the account still good?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0196. That's the house phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0196. Okay, I've got that on the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:48:51-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Also, I want to ask something. Last time I paid, I paid with a card, and I want to be sure it went to the right one. My husband has two cards. It should be the one that ends in 4417."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:49:09-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check the payment history. Yes, the last payment shows a card ending in 4417. That went through and posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:49:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. That's the right one. I just wanted to confirm that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:49:25-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, all matched up. So that payment is fine. It's only the new bill in question."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:49:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And meanwhile, do I have to pay this one? It's due soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:49:39-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note the account as disputed, so you're not going to get hit with anything while it's under review. But keep an eye on the due date and let the supervisor know if you don't hear back before then."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:49:56-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. How long does the review take?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:00-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a few business days for the callback. The meter check itself could take a bit longer, depending on the schedule."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:12-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be about that, maybe a little more. I'd say expect to hear something by early next week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I don't love it, but okay. Just make sure it's written down that I said it's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's written down. Disputed, high consumption, review requested, meter check requested, and your callback number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:35-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Monteiro. Enjoy the family, and we'll be in touch."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T10:50:44-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mm-hm. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:43:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:43:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T10:43:45-05:00",
+        "end": "2026-03-03T10:50:46-05:00",
+        "duration_seconds": 421,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T10:43:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T10:43:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T10:43:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T10:43:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T10:43:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

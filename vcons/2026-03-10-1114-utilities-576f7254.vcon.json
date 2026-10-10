@@ -1,0 +1,799 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "576f7254-67c6-8e9b-acdd-06856ce6c202",
+  "created_at": "2026-03-10T11:23:22-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sarah Patel",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T11:14:39-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Division, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:14:43-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. My name is Sarah Patel. I am calling about the water and sewer bill for my house. I have a question about it, and honestly I am a little irritated."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:14:55-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure, let's see what we can do. What's the address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:00-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 259 Ayrault Street, on the Hill. I just bought the house, closed on it about three weeks ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:07-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Congratulations, that's big. So what's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:11-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So, the first bill came in the mail yesterday, and it is not in my name. It is in the name of the former owner. I am the owner now, but the bill says his name only. Why is this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:26-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that happens a lot with a fresh sale. The account usually stays under the previous owner's name until the transfer paperwork gets processed on our end. Let me pull it up. Ayrault, 259, you said?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:39-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Two five nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:41-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I've got it. Give me a second. [pause] Alright, so the account's still showing the prior owner. It doesn't look like the ownership change has been updated in our billing system yet."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:15:53-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But the deed is recorded already. My attorney at the closing said everything was filed. I do not understand why I must chase this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:02-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. The deed gets recorded at the land records side, and billing doesn't always pick it up right away. It's not you doing something wrong. We can update it from here, I just need a few details from you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:16-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What details?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:18-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your full name as it appears on the deed, the closing date, and a mailing address for the bills. Is it the same Ayrault Street address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:27-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, same address. My name is Sarah Patel, P-A-T-E-L. Closing was on the nineteenth of February."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:33-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. February nineteenth. Okay, and do you happen to have a final meter reading from the closing? Sometimes the sellers or the title company get one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:43-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not think so. There was a paper in the folder, maybe. I can look. Why does it matter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:16:50-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the bill gets split correctly. Anything used before the closing date belongs to the seller, and from the closing date on it's yours. Without a reading we'd just estimate based on the billing period."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:02-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I see. So this bill, the one that I have, it covers some time before I owned the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:09-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Likely part of it, yes. Let me look at the dates. [pause] The billing period runs from early December through the middle of February. So that whole bill is actually before your closing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:21-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I should not pay this bill at all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:25-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's the seller's usage, so that part is really between him and the closing. Usually the title company settles the water and sewer balance at the closing. I can see whether there's an open balance on the account. Hold on."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:39-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Yes. Please."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:41-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Alright, so the balance shows as due, nothing's marked paid on this one yet. It's possible the title company is going to send it in, or it's possible it got missed. I can't tell from here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:17:54-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This is exactly what makes me annoyed. Everybody says somebody else does it. I have a paper in my hand that says amount due, and my house, you know, is the address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:18:05-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Totally fair. Here's what I'd do. Check your closing papers for a line about water and sewer, sometimes it's called a utility adjustment or an escrow. If it's there, it was handled, and I can note the account. If not, call the title company and ask."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:18:21-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I will look tonight. But there is another thing. The amount is much higher than I expected. The old owner showed me last year's winter bills, and they were much lower. Maybe half of this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:18:34-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you know roughly what the earlier ones were?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:18:38-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think around, um, one hundred thirty, one hundred forty for the quarter. This one is almost three hundred."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:18:45-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Let me look at the usage on this one. [pause] So the reading shows a higher consumption than the same period last year. Nothing's flagged as an estimate, it's an actual read."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:18:57-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But nobody lived in the house in the winter. The house was empty for a while before I bought. How can it use more?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:19:06-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good question. When a house sits empty and the usage is up, the usual suspects are a running toilet, a dripping fixture, or a leak somewhere, maybe a pipe that was left on. It could also be that someone was doing work in there, like cleaning or renovations."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:19:23-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. A running toilet. I have not checked. I am in the house only two weeks, and I do not know all the sounds yet."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:19:32-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easy test. Put a few drops of food coloring in the toilet tank, don't flush, and wait about fifteen minutes. If the color shows up in the bowl, you've got a leak. Also you can look at the meter itself. If the little dial is moving when everything's off, water's going somewhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:19:50-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the food coloring. I will do it. I have this blue one from baking. Where is the meter usually?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:19:57-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Often in the basement near where the main line comes in, on the street side of the house. Sometimes there's a small remote reader outside too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:06-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, basement. I will look. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:09-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. And since the high usage was before your closing, it's worth telling the title company too, in case the seller needs to deal with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:19-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Okay. Now I want to ask about the future. How can I set up autopay for the bills? Automatic withdrawal from my bank account. Is it possible?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:29-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we do have an automatic withdrawal option. There's a form, you fill in your account and routing information, sign it, and send it back. Once it's processed, each bill comes out of your account on the due date."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:43-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Where do I get this form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:46-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can mail it to you, or email it, or you can pick one up at the counter here. Whichever is easiest."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:20:54-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is fine. But first the account must be in my name, correct? Otherwise it will be the old owner's account."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:02-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly right. Let's get the name transfer done first, then the autopay goes on the proper account. I'll do the transfer request today and note the closing date. Once it's updated you'll see your name on the next bill, and I'll send the form out along with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:18-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. And the withdrawal, does it start immediately, or after one bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:23-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually it kicks in with the first full bill after the form's processed, so you may get one more paper bill before it begins. Keep an eye on that one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:34-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. One more paper bill. Fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:37-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And just so you know, the billing is quarterly, so it won't be hitting your account every month."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:44-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, quarterly. Okay, this I did not realize. That explains why the numbers look big. Four times a year."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:51-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so each one covers about three months of use."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:21:55-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you for explaining, because the bill itself is not so clear. There are many lines, and I do not know what is what."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:22:04-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, they're kind of crowded. Basically you've got water charges based on usage, a sewer charge that's tied to the water used, and then possibly a base fee. If you want, next time you call after you get your own bill and I'll walk through the lines with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:22:21-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will do this. Thank you, Tony. You are very patient."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:22:26-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy to help. Anything else going on with the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:22:30-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, not with the bill. Only, um, a small thing. I am calling from the car. I just parked on Ayrault, and I did it in one try, parallel, between two cars. I am very proud. I never could do this before, I always looked for the big space."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:22:47-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, on the Hill that's a real skill. Nice work."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:22:51-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. It took me many months to learn it. Okay, so, to repeat: you change the name to mine with closing date February nineteenth, you mail me the withdrawal form, and I check the toilet and the meter, and I ask the title company about this old bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:23:08-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. And if the toilet or meter turns something up, call us back and we'll note it on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:23:16-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you again. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T11:23:19-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Sarah. Take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T11:14:39-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T11:14:39-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T11:14:39-04:00",
+        "end": "2026-03-10T11:23:22-04:00",
+        "duration_seconds": 523,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T11:14:39-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T11:14:39-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T11:14:39-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T11:14:39-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T11:14:39-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

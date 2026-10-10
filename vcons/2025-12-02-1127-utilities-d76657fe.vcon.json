@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d76657fe-577d-81a8-a909-595b77ecd99e",
+  "created_at": "2025-12-02T11:31:52-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Brendan Lynch",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. Um, I'm calling about a water and sewer bill. The usage on it looks really high, like way too high, and I don't think it's right. I'm worried something is wrong with it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, happy to look at it. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:41-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "370 Spring Street. In the Fifth Ward. I rent there, it's the, um, the upstairs and downstairs are the same house, but I'm the only one in it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And whose name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's the thing. It's still in my late wife's name. I never changed it over. Is that okay? I mean, is that a problem for talking to you about it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:06-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine, you can talk to me about it. I'm sorry for your loss. We can get that moved into your name too, if you want. Let me pull up the account. What does the bill say for usage?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:19-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thanks. It says, hold on, I had it open. I have like forty tabs open on my browser and I cannot find the right one. Hang on. [pause] Okay, no, that's the wrong one. Sorry. Can you just tell me what you see?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:33-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No rush. I'm showing the latest billing period with a pretty big jump over the prior ones. Way above what that address normally uses."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:41-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right, that's what I'm saying. It's too high. I was out of town for six weeks. I wasn't even there. Nobody was there. So how can the usage be high if nobody was using water? Is that okay, like, can that be fixed?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's worth looking into. When you say six weeks, do you know the dates you were gone?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:02-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, I left around the middle of September and got back the end of October. Roughly. Six weeks, like I said. And nothing was running when I left, I'm pretty sure. I turned stuff off. I think. Is that going to matter?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:16-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It helps to know. High use while someone's away usually means one of a few things. Could be a leak, like a running toilet or a dripping line. Could be an estimated reading that was off. Or the meter reading itself might be wrong. I can see the readings here, and I want to check whether the high number is an actual reading or an estimate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:37-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if it's a leak, am I, like, in trouble? I rent, so the landlord would have to, I don't know, I just don't want to owe a huge amount for water I didn't use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:49-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're not in trouble. Let me look. [pause] Okay, so the last reading was an actual read, not an estimate. So the meter did register it. What I can do is put in a request for a meter check and have someone look for a leak on the property side. Do you have a number where we can reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0186. That's my cell."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:11-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0186. I'll note the dates you were away on the request too. Somebody from the meter crew will call to set up a time. And you may want to tell your landlord, since a leak on the inside plumbing would be on that side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, I'll tell him. So the bill, do I just wait, or do I have to pay it anyway? I don't want it to go late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:35-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once the check is requested I'll flag the account so it's noted as disputed. I'd give it a few days and then call back if you haven't heard from the crew."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:46-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. One other thing, and it's kind of separate. How do I set up autopay? Like automatic withdrawal for the future bills, so I don't have to think about it. Is that something you do?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:58-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We do. There's an automatic payment form that links the account to a checking account. I can have it mailed to you, or you can pick one up at the counter. It's easier to hold off until the account's in your name and this bill's sorted out, so it pulls the right amounts."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that makes sense. So change the name first, then the autopay. Is that the right order?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:21-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the right order. For the name change, bring a copy of your lease and a photo ID, and something showing the account holder passed. I can mail you the forms for both if you give me a mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the same, 370 Spring Street. Just mail it there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Thanks. You were really clear about it. I'll wait for the call from the crew."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good, Mr. Lynch. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:27:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:27:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T11:27:21-05:00",
+        "end": "2025-12-02T11:31:52-05:00",
+        "duration_seconds": 271,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:27:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

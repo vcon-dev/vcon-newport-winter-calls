@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7e2fd5c2-5bbb-88db-b081-d2e9aa842610",
+  "created_at": "2026-03-03T14:17:40-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nilza Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T14:13:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:13:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. This is Nilza Andrade. I just bought a house on Chapel Street. Four thirty-seven. The first water bill came and it's in the old owner's name."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:13:55-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that happens a lot with new purchases. The account stays under the prior owner until the transfer gets processed. Do you have the account number on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it. Hold on. [pause] It's on the top right. I'm not reading it out, it's long. I want to know why it's not my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:18-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Usually the deed has to be recorded and then we get notified, and after that we switch the name. Sometimes there's a lag. When did you close?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three weeks ago. Last week of February."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:34-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's probably just the lag. I can put a note on the account that you're the new owner at that address, and we can update the name. Do you have a closing date handy?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:48-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "February twenty-seventh."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. February twenty-seventh, new owner, Nilza Andrade, four thirty-seven Chapel. Is the spelling A-N-D-R-A-D-E?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:57-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:14:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Anything else on the bill bothering you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:15:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The amount. It's high. Last year's winter bills were much lower. The seller showed me some. They were about half of this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:15:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Does the bill cover a stretch before you owned the house? Look at the service dates and the meter readings, current and previous."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:15:22-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "January first to the end of February. Previous reading, then current reading. The difference is a big number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:15:30-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that period is mostly the seller's usage. Nobody was living there for part of it, right? A running toilet or a leak while the house sat empty can push that number up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:15:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. I wasn't there. The house was empty, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:15:49-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'd check the toilets and faucets for running or dripping once you're in. If the usage stays high next cycle, we can send somebody out to check the meter. For this bill, I'll note it so it's looked at when the name transfers."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:07-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I'll check. I'm moving in this week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:11-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Another thing. Can I pay on the website with a card? Right now it's late in the day. Does it only work in office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:23-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website payment works any time, day or night, weekends too. It's not tied to our office hours. You'll need the account number from the bill. If it's still under the old owner's name, that's okay, it'll still take the payment against the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I don't want a late charge on something that isn't mine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:46-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Do you want to wait on paying until it's reviewed? Or pay now to be safe?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:16:53-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll pay it. Then ask for a correction if it's wrong. I'm busy. I'm making a playlist for a long drive down to Florida, and I have a lot to pack."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Well, a payment on file helps. If the review finds an error, it'll show as a credit on the next bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Do you have my phone number? In case you need me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can add it. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:24-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-eight. All set. I've noted the new owner, the closing date, and the high usage question."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That's all."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T14:17:36-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Andrade. Welcome to Newport."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T14:13:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T14:13:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T14:13:39-05:00",
+        "end": "2026-03-03T14:17:40-05:00",
+        "duration_seconds": 241,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T14:13:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T14:13:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T14:13:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T14:13:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T14:13:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "20d2db56-6524-8e06-a37c-e1048ddcf93f",
+  "created_at": "2026-02-20T12:34:47-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Luis Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T12:33:47-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:33:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Luis Cordero here. I'm calling about a pothole, for my mother. That cold patch they put in last week already washed out. Total waste."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:33:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's annoying. Where is it, Mr. Cordero?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "229 Coggeshall Avenue, up the Hill. Right out front of her place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 229 Coggeshall Avenue. And how big is the hole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:10-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "About two feet across. Deep enough that I'd worry about a tire. Sorry, hang on. [pause] My sister's on the other line, trying to get through to some other office. Anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. So that's a two-foot hole, front of 229 Coggeshall, the earlier patch washed out. I'll put in the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:27-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. How long do repairs usually take? Roughly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on the weather and how many are ahead of it, but crews generally work through them in order. Could be days, could be a couple weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. My number's 401-555-0177 if they need it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0177. Thanks for calling."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T12:34:45-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T12:33:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T12:33:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T12:33:47-05:00",
+        "end": "2026-02-20T12:34:47-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T12:33:47-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T12:33:47-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T12:33:47-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T12:33:47-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T12:33:47-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

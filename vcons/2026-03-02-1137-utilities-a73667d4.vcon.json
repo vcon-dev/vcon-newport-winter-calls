@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a73667d4-6869-8aef-930a-57fd7f5893e3",
+  "created_at": "2026-03-02T11:40:47-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Colin Gallagher",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T11:37:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Newport Utilities, water and sewer billing, this is Priya."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Yes, my name is Colin Gallagher. I am calling about my water bill, and I am not happy with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that, Mr. Gallagher. Let me pull it up. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "306 Spring Street, in the Fifth Ward. Last month, they came and installed a new meter. A man from the city, he was here maybe twenty minutes. And now this bill, it is wrong. It is much too high."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:28-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I see the address. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:33-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have the paper bill in my hand. It is dated February twenty-sixth. Two thousand twenty-six. And my usage is almost double. Double! Nothing changed in my house. Same people, same washing, same everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see it. The new meter reading is showing on this one, and the previous reading was from the old meter. That can sometimes make the first bill look different."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:38:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Different, yes, but not like this. Every month before, it was the same, the same, the same. Now this. I am sorry, one moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:03-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:05-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] It is the doorbell. I will not answer it. It is nobody I am waiting for. Please, continue."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:12-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So the usage on the bill is from the first reading on the new meter, and I can't tell from here whether it's accurate."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This is what I am saying to you. Nobody can tell me. So how do I dispute this charge? Formally. I want it in writing, not only a phone call."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:31-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. You'd submit a written request to the billing office asking for a review of the charge. Include your name, the service address, the account number from the top of the bill, the bill date, and a short explanation. You can also ask them to test the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Test the meter, yes. Good. And where do I send it? To the City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:39:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, mail it or bring it to the billing counter at City Hall, addressed to Utilities Billing. If you bring it in, ask them to stamp a copy for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A stamped copy. Okay. And while I wait for the answer, I must pay this amount?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:07-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a good question for the billing supervisor, since it depends on how the review is handled. I'll put a note on your account that you're disputing it and have someone call you back. Is this number the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is my landline. Four-oh-one, five-five-five, zero-one-five-seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Someone should reach you within a couple of business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:28-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Miss Priya. You have been clear, and I appreciate it. But I am still waiting for somebody to explain why it is so high."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what the review is for. I've noted it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. God bless you and your family. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:40:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Gallagher. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:37:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:37:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T11:37:57-05:00",
+        "end": "2026-03-02T11:40:47-05:00",
+        "duration_seconds": 170,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:37:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T11:37:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T11:37:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T11:37:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T11:37:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

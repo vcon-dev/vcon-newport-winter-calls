@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ec3c7566-a37d-8153-bbda-2559ef1298c9",
+  "created_at": "2025-12-11T10:58:28-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Diego Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Good morning, almost lunchtime."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. [pause] I got a ticket. A parking ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:33-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Happy to look at it with you. What's it for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The snow ban. [pause] They say I parked in the ban."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:41-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Snow parking ban, got it. And you don't think that's right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. The street, it was never plowed. [pause] And no sign. Nothing posted."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:50-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So no signs on your block and no plow came through. That's worth putting in writing. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:55:58-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I have it. [pause] It is yellow. Orange, maybe."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one. Read me the ticket number at the top, whenever you're ready. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. [pause] One moment. My glasses."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No rush. I'm not going anywhere. They don't let me out till lunch."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:16-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] It says four, four, one, seven, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:20-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one seven zero two. Let me pull that up. [pause] Okay, I've got it. Issued earlier this week, snow ban violation. Is that what you've got?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:29-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:31-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So what you want is to appeal it. You'd fill out the appeal form, say what you told me, no plowing, no signs, and send it in. If you have a photo of the street, that helps."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A photo. [pause] My neighbor, maybe. He has the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd do it. A picture of the curb with no sign on it is worth a lot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long? [pause] How long does the appeal take?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:56:56-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a few weeks. Could be a little more if it's busy, and it's busy after snow. You'll get a letter in the mail with the answer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few weeks. [pause] And the fine. I pay now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold off while the appeal is pending, but don't let it sit forever. The letter will tell you what comes next either way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:17-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. [pause] Good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Want me to mail you the appeal form? Easier than hunting for it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:24-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Mail it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:26-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Can you give me your name and mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Diego Mejia. [pause] M, E, J, I, A."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:33-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Mr. Mejia. And the address for the form?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is on the ticket? [pause] The ticket has it. The car registration."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:42-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it's on the registration record here. I'll send it to that one. Does a callback number help if the form gets lost?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:50-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Four oh one. [pause] Five five five. [pause] Zero one nine six."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:57:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four zero one, five five five, zero one nine six. Good. You'll see the form in a few days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. [pause] One more thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:04-05:00",
+      "duration": 1,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bridge. The toll. [pause] It went up again. I do not like it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You and everybody else. That's not something we handle down here, though. I just do tickets and taxes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know. [pause] I only say it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Anything else on the ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That is all. Thank you, young man."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T10:58:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Mejia. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:55:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:55:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T10:55:25-05:00",
+        "end": "2025-12-11T10:58:28-05:00",
+        "duration_seconds": 183,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T10:55:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T10:55:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T10:55:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T10:55:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T10:55:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

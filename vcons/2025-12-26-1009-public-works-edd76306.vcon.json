@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "edd76306-c9d6-899c-84ae-3535945af754",
+  "created_at": "2025-12-26T10:14:04-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Jose Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-26T10:09:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:09:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good morning. Yes, I have a couch I want to put out for the trash. Old couch, very big. I want to know how I do it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:09:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. Is it just the one couch, or do you have other large items too?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:09:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Only the couch. Maybe also a small table, but the table I can break and put in the barrel. The couch, no. Too big."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:01-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So one couch. Bulk items like that usually have to be scheduled with us ahead of time, you can't just set it at the curb with the regular trash. What's the address where it's being picked up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thirty-four Thames Street. Thames, T-H-A-M-E-S, like the river in London, but we say it Thaymz here, no?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:25-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] That's right, Thames Street, most people here say it Thaymz. Thirty-four Thames Street. Let me just write that down. And that's the Fifth Ward side, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, Fifth Ward. I am the homeowner there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. And your name, sir?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:45-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Jose Pagan. P-A-G-A-N. Jose with J."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:48-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Jose Pagan, got it. Now, you said you want to know if there's a fee, is that what you were going to ask?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:10:58-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Is there a fee for the couch? I want to know before I schedule. I do not want a surprise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:11:07-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Bulk pickup can carry a charge depending on the item, and I don't have the exact amount in front of me. What I can do is note your request and have the person who handles the bulk schedule call you with the cost before anything is booked. Would that work?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:11:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so they call me first, and then I decide. I understand correctly?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:11:34-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly right. They call you first, you hear the cost, and then you decide whether to go ahead. Nothing is booked until you say yes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:11:45-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that is good. Sorry, one moment, I am writing this down. I am practicing my handwriting, with a fountain pen. It is slow, so I write slow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:11:57-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, I'm in no rush. Just let me know when you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, ready. So, Lorraine, L-O-R-R-A-I-N-E, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:07-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Lorraine. And the department is Public Works. Now, is the number you're calling from the best one to reach you? I have it showing as four-oh-one, five-five-five, zero-one-eight-four."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:19-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is my cell. Four-oh-one, five-five-five, zero-one-eight-four. It is good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:24-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. And is there anywhere in particular the couch will be, like the curb in front or the side of the house?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In front, by the curb. On the sidewalk side, no, on the street side, next to the barrels. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:43-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The curb in front is fine. Just don't put it out until you've got the date confirmed. They'll tell you which day and what time it should be out by."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:12:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I wait for the date, then I put it out the day before, or the same morning?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:04-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's one of the things they'll tell you when they call, because it depends on the route. I'd rather you hear it from them directly so it's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:16-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And when they call me? Today, or after the weekend?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since it's the day after Christmas and we're running light, I'd expect early next week. It could be sooner, but I wouldn't count on today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I understand. Next week is fine. No hurry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:37-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read it back. Jose Pagan, thirty-four Thames Street, one couch for bulk pickup at the curb, you'd like the cost before scheduling, and we'll call you at four-oh-one, five-five-five, zero-one-eight-four. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:53-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, everything correct. Thank you very much, Lorraine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:13:57-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Pagan. Have a good rest of your Friday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-26T10:14:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T10:09:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T10:09:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-26T10:09:25-05:00",
+        "end": "2025-12-26T10:14:04-05:00",
+        "duration_seconds": 279,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-26T10:09:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-26T10:09:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-26T10:09:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-26T10:09:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-26T10:09:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

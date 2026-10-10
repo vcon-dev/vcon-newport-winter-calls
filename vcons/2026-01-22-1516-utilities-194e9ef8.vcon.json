@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "194e9ef8-f666-863d-a469-471617b63ddb",
+  "created_at": "2026-01-22T15:18:44-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Tony Ricci",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, Tony Ricci. I got a water bill here that's way too high. Way too high."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry about that, Mr. Ricci. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:21-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eighty-one Harrison Avenue. Fort Adams side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have it pulled up. The last bill does show a big jump in usage compared to the prior quarters. Do you know what might have caused it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:36-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. Pipe broke on me in the basement. Had a plumber out, fixed it. So I want to know about a leak adjustment. Is there such a thing or not?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:48-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a leak adjustment process, yes. It usually needs the repair documented, like a plumber's invoice showing what was fixed and the date. When did the pipe break?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:16:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Early in the month. Then last month the toilet was running constantly too. Couldn't get it to quit. Replaced the flapper myself. So maybe that's part of it, I don't know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:17:11-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A running toilet can add up quickly, so that could be part of the usage as well. Did you keep the plumber's receipt for the pipe?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:17:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Somewhere. Kitchen drawer. I'm not home right now, I'm watching my grandson for the afternoon. He's got a cartoon on, so I got a few minutes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:17:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, take your time. When you can, send or bring in the invoice and a copy of the bill, and the request can be reviewed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:17:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Who reviews it? You?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:17:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can take the request and log it, but the adjustment decision is made by a supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:17:51-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I want the supervisor to look at it. The whole charge. I'm not paying that for a pipe that was already fixed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:00-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note on the account that you're requesting supervisor review of the charge, with the broken pipe and the running toilet both mentioned."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. That's the way it goes, I guess. Everything's a form."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know it's a hassle. Would you like the supervisor to call you back? I have a number on file, but I can confirm it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Use this one. Four-oh-one, five-five-five, oh-one-seven-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four-oh-one, five-five-five, zero-one-seven-four. Someone should reach out in a few business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few days. Okay. I'll find that receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Ricci. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T15:18:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T15:16:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T15:16:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T15:16:04-05:00",
+        "end": "2026-01-22T15:18:44-05:00",
+        "duration_seconds": 160,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T15:16:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T15:16:04-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T15:16:04-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T15:16:04-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T15:16:04-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "952e3eba-4126-8b46-b254-a01369f1b111",
+  "created_at": "2025-12-23T14:48:46-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Helena Medeiros",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T14:43:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:43:17-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good afternoon. Um, this is Helena Medeiros. I have a question about a water bill and, honestly, I'm a little aggravated, so bear with me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:43:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, no problem. What's going on with it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:43:32-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I rent an apartment. My landlord, he tells me the water and sewer is mine to pay. He gave me a bill, said you owe this. But I never signed anything saying the water is in my name. So whose is it? Is it the tenant or the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:43:52-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Generally the water account is tied to the property owner, unless the owner has set it up differently with the city. The bill goes out under whoever is on the account. Whether you owe him your share is usually between you and the landlord, and it depends on your lease. Do you have the account number from the bill he gave you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:44:17-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, wait, let me find it. [pause] I have a pile here. Ay, mira, I have two properties myself, so I have two sets of bills. Sorry, I switch languages when I'm flustered."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:44:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize at all. Two properties, so two accounts of your own?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:44:37-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. One I own, and the apartment where I live is the one I rent. And I think I mixed them up. The bill the landlord gave me, I think it might actually be my own house, no? Because the amount looks familiar. Hold on."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:44:55-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. Read me the name at the top of the bill and the service address, but you don't have to say the address if you'd rather not. Just the name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:45:08-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name at the top is Medeiros. Helena Medeiros. [pause] Oh. So that is mine. That's my own house, not the rental. Qué vergüenza. I'm sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:45:19-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens a lot when people have more than one. So this bill is under your name, for the property you own."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:45:28-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So then the landlord's bill is a different paper. I have to look for it. He only showed it to me on his phone, I think. That is the one I'm asking about."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:45:42-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then here's what I'd do. Ask him to show you the actual bill or the account number for the apartment building. If I can look at that account, I can tell you whose name it's under. If it's his name, then the city bills him, and any arrangement with you would be in your lease."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:46:04-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That makes sense. He's always acting like it's obvious. It's annoying, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:46:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. If you call back with that account number, I can walk through it with you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:46:17-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, the other thing. Since I have my own bill in my hand, I should pay it. Can I do it on the website right now with a card? It's almost three in the afternoon. Or does the website only work during office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:46:35-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The website's available around the clock, so you can pay with a card there any time, day or night, weekends too. It's not tied to our office hours. Payments made late in the day or after hours usually post with the next business day's batch, though."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:46:54-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I don't need to wait for you people to be open."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:47:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And if you'd rather pay in person, there's also a drop box at City Hall for payments when we're closed. Just don't put cash in it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:47:11-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I'll do the website. I don't like leaving things in boxes. Está bien. And I need the account number for my own house, that's on this bill, yes? Top right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:47:24-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Should be near the top, labeled account number. Have the bill in front of you when you log in, and it'll ask for it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:47:34-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I'm distracted, I'm in the middle of repotting a cactus. A stubborn one. It will not come out of its pot and I have dirt up to my elbows."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:47:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, sounds like a project. Don't let me keep you from it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:47:53-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it's fine, it can sit. So to repeat, for the landlord question, I get the account number for the apartment from him, and I call you back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:48:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Or have him call us himself, if he's the one on the account. Either way works. Do you want me to note anything on your own account today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:48:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, nothing on mine. Just that I paid, when I pay. It's the other one that bothers me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:48:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:48:30-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all. Gracias, Tony. Thank you. Sorry for the Spanish, I mean the Portuguese, it comes out whichever."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:48:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries at all. Happy holidays, Ms. Medeiros. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T14:48:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T14:43:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T14:43:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T14:43:13-05:00",
+        "end": "2025-12-23T14:48:46-05:00",
+        "duration_seconds": 333,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T14:43:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T14:43:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T14:43:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T14:43:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T14:43:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

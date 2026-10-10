@@ -1,0 +1,535 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b7f55c19-0192-855b-a774-7611d90234b4",
+  "created_at": "2026-01-23T12:06:42-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Anthony Lombardozzi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-23T12:00:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:00:20-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. My name is Anthony Lombardozzi. I have a question about a license, maybe. I am not sure I call the right office."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:00:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, go ahead. What kind of license?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:00:35-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For rent house. Short-term rental license, I think they call. I have a house on Washington Street, number 227, in the Point. I want to rent it for winter. Two months only, January and February, next year."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:00:51-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So you'd be renting out your own house for about two months this coming winter. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:01:00-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. Two month. But my friend say two month is not short-term, is long-term, so no license. Another friend say any rent need the license. So I am confuse. Which one is true?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:01:15-05:00",
+      "duration": 31,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a fair thing to get mixed up on. Generally the city looks at the length of the stay, and anything on the shorter side, rented out to visitors, can fall under the short-term rental rules. Two months is a gray zone in people's minds, so I wouldn't go by what your friends say. What does the arrangement look like? One tenant for the whole two months, or different guests?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:01:46-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One person, maybe one family. They stay whole two month. They sign paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:01:52-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so one party with a written agreement. That's a little different from guests coming and going every weekend. I can't tell you for certain over the phone which category that lands in. The license question depends on how it's defined, and I'd want that confirmed before you advertise anything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:02:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I do not understand. So I need the license or I do not need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:02:21-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me say it plainly. It might not need one if it's a real lease for a fixed term. It might if it's treated as a short-term rental. I'm not going to say no license and have you get a notice later. The best move is to get a determination in writing from our office."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:02:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Determination. Okay. What is this, determination? Is a form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:02:50-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Basically, you tell us the address, the dates, and the arrangement, and staff tells you which rules apply. You can email or bring in a short description. Or I can have the zoning officer call you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I prefer call. My English is better on phone than writing. Writing I make mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Let me get your number. Is the best one the number you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, this is cell. It is 401-555-0189."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-nine. Got it. And the address again is 227 Washington Street?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:31-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Two-two-seven Washington Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I ask also, how long it take? If I need the license, how many day or week for approval?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:03:43-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That I can't give you a firm number on. It depends on the application being complete and whether there's an inspection. I'd say plan on a few weeks rather than a few days, and don't count on it being done overnight. Since you're talking about next winter, you've got time, so starting early is smart."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:04:07-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few week. Okay. Not a few day. That is good, I have time. Next winter is far."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:04:16-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And if it turns out you need the license, they'll tell you what goes with it. Smoke detectors, that sort of thing, and the inspection. They'll walk you through it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:04:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Inspection. Someone come to the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:04:33-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Possibly, yes. An inspector would come look at safety items. They'd schedule it with you ahead of time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:04:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I understand a little. So first the officer call me, tell me license or no license. Then if license, application, then inspection, then approval. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:04:54-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the order, yes. Not every step may apply, but that's the general path."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:05:01-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Sorry, I ask many question. I am just retired, and now I join a walking group. We meet at dawn, very early, by the water. So now I wake up early and have much time to make plan for the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:05:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, good for you. That's a nice way to start the day, even in January."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:05:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but cold. [pause] So, the officer call when? Today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:05:32-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Friday afternoon, so more likely Monday or Tuesday. I'll put in the note right now so they've got your name, the address, and what you're asking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:05:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Monday or Tuesday. Okay. What I say when he call? I say only about the two month?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:05:52-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just explain what you told me. Your own house, one renter, two months, written agreement, and the dates if you have them. They'll ask whatever else they need."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:06:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. One more time, please. The word is, determination?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:06:10-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you're asking for a determination on whether your rental needs a short-term rental license. You don't have to use that word. Just say you want to know if you need the license."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:06:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. I write on paper. Short-term rental license, yes or no. Thank you, Mr. Greg. You are very patient."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:06:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy to help. Have a good weekend, Mr. Lombardozzi."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T12:06:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T12:00:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T12:00:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-23T12:00:17-05:00",
+        "end": "2026-01-23T12:06:42-05:00",
+        "duration_seconds": 385,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T12:00:17-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-23T12:00:17-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-23T12:00:17-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-23T12:00:17-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-23T12:00:17-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

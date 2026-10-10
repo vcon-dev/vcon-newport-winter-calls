@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "440225e1-1caa-8784-939b-0d65d46f7749",
+  "created_at": "2026-01-28T12:41:25-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Diogo Cabral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T12:37:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:37:23-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. My name is Diogo Cabral. I am renting a house on Rhode Island Avenue, and the landlord is renovating the kitchen. We need a dumpster, and it must sit on the street. So I am calling about a permit for this."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:37:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. A dumpster on the street, so not in a driveway. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:37:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. There is no driveway. On the other hand, there is a little yard, but the truck cannot reach it, so the street is the only option."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:37:57-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And what's the address there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:38:00-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "386 Rhode Island Avenue, in the Historic Hill, as they say."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:38:05-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. So generally, yes, if the dumpster is going to sit in the public street or on the right-of-way, you'd need a permit for that. Who's doing the renovation, you or the owner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:38:18-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The landlord pays, but I am the one handling the details, because he lives far away. So I will be the, how do you say, the front man. On the other hand, the contractor is not yet hired. Maybe next week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:38:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you know if it's a licensed contractor you're hiring?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:38:38-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "This is actually my question. Must a licensed contractor be the one who applies? Or can I apply, as the tenant? I read something on the website, but it said the applicant, and I did not understand which person is the applicant."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:38:54-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question. Usually the dumpster company or the contractor pulls it, since they know the size and where it's going. But I'd want to confirm whether a tenant can apply with the owner's okay. Let me ask you this, is the dumpster company already chosen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:39:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no. Not yet. On the other hand, I thought the permit comes first, and then the company. Is it the other way around?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:39:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can go either way, honestly. Most people call the dumpster company first, because they'll tell you the size and how long it stays. Then the permit gets matched to that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:39:33-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. So the company gives me the information, and then I come to you. And the contractor, he does not need to be there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:39:43-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily for the dumpster part. But if the kitchen work itself needs a building permit, that's a separate thing, and that one usually does go through a licensed contractor or the owner. Do you know if they're moving walls, plumbing, electrical?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:39:59-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Plumbing, yes, I think. And new cabinets. Walls, I do not know. On the other hand, I do not want to say something wrong to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:40:09-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's okay. Here's what I'd do. Have the owner or the contractor call us about the building side. And for the dumpster, once you've got a company and dates, call me back or come by the office and we'll walk through the application."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:40:25-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So two permits, possibly. One for the kitchen, one for the dumpster. Did I understand?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:40:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, possibly two. Separate things."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:40:35-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you. You know, I am being careful because I am saving too. I put five dollars a week into a jar for a trip, and this renovation, it is eating my patience more than my money."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:40:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, hopefully the jar stays safe. Do you want me to take your number in case the owner has questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:40:57-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. It is 401-555-0150."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:41:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, 401-555-0150. I'll note it under 386 Rhode Island Avenue. We're here until five today."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:41:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Anita. On the other hand, I am still a little unsure who signs, but I will ask the contractor when I find him."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:41:16-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, bring it up when you call back and we'll sort it out. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T12:41:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T12:37:18-05:00",
+        "end": "2026-01-28T12:41:25-05:00",
+        "duration_seconds": 247,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T12:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T12:37:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T12:37:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T12:37:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T12:37:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

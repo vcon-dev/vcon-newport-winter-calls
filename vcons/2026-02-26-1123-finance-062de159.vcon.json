@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "062de159-9487-8014-b280-5e6b308d3f95",
+  "created_at": "2026-02-26T11:31:09-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Min-jun Cohen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T11:23:21-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:23:28-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. I have a question about my property tax bill. I got the, um, the bill, and I honestly don't understand the second page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:23:41-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. Which part of the second page is giving you trouble?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:23:47-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The installment part. There are four little boxes with dates, and then a total, and the total is not the same as the first box times four. So I'm confused about what I actually owe, and by when."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:05-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill is divided into quarterly installments. Each installment is due on its stated date. If any portion of the bill is a prior balance, that may be included in the first installment, which can make the amounts uneven. Does the first box look larger than the others?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:28-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. No, the last box is larger. The last one. By, like, a hundred dollars or so."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:37-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I would need to look at the account. I can do that, but I need the bill number or the property's parcel identification, which should be printed near the top of the first page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:24:54-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hold on, let me find the page. I'm in the car, so, one second. [pause] Okay, there's a plat and a lot. Plat is, uh, forty-one. Lot one eighteen."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Please give me a moment while I pull that up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:14-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, I have it. The fourth installment includes an adjustment from a supplemental assessment. That is why it is higher than the other three."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A supplemental. What is a supplemental? Is that a penalty? Because I did not get a penalty, I paid everything last year, on time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:40-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, it is not a penalty. It is an additional assessment, usually tied to a change in the property's value, such as completed improvements. It is simply added to the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:25:55-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Improvements. We did the porch. Okay. So the porch is the supplemental. I thought a porch was, you know, a repair, not an improvement."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:07-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That determination is made by the assessor's office. If you wish to dispute it, they would be the ones to speak with. I can transfer you after we finish here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:21-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, maybe. Let me ask the other thing first. Can I pay part of an installment? Like, a partial payment. Because this quarter is tight, and I would rather send half now and half later than send nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:39-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The city does accept partial payments toward a balance. However, interest accrues on any portion that remains unpaid after the due date. So the unpaid part would be charged interest from that date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:26:55-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So half is allowed, but the other half gets interest. Not a penalty, but interest."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:27:03-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. Interest is calculated on the overdue amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:27:08-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That I understand. Mostly. And do they apply it to the oldest box first, or whichever box I want?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:27:18-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Payments are applied to the oldest outstanding amount first. Generally it is not something you can direct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:27:27-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. Next thing. I heard there's an exemption. For, like, certain people. I think maybe the age one, or the veteran one, I really don't know which I fit. Is there a form? What is the form number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:27:45-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are several exemptions, and each has its own application. I cannot tell you which you qualify for without more information. What is the basis you are considering?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:27:59-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'm in my forties, so not the senior one. My neighbor said there's a, a disability one? Or a veteran one. I'm not a veteran. My brother is. Does that count?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:28:14-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, a relative's service would not qualify you. The veteran exemption applies to the veteran or, in certain cases, a surviving spouse. Is there a disability involved for yourself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:28:28-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. No, I don't think so. So maybe none of them. But I still want the form number, in case. The number. Is there just one exemption form?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:28:42-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, there is not a single form. The tax assessor's office handles the exemption applications, and they can give you the correct form number for each category. I do not want to read you a number that belongs to a different exemption."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:29:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So the form number depends on the category, and the category depends on me, and I don't have a category."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:29:12-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In effect, yes. If you tell the assessor's office your circumstances, they can advise whether anything applies. Shall I transfer you there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:29:23-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. But wait, one more. Sorry. If I get an exemption later, does the bill I already paid, the half, does that get refunded?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:29:35-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If an exemption is granted and applied to the period, a credit or refund may result. The assessor's office would also be able to explain the timing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:29:48-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. May result. Okay. I'm sorry, I'm asking a lot. My son has band practice and I'm supposed to be picking up, um, a reed. His clarinet reed broke, the whole thing, and they have a concert, so I'm driving to the music store while I'm doing this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:30:11-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. I hope you find the right reed. Before I transfer you, may I confirm a number where you can be reached if the call is disconnected?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:30:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's four-oh-one, five-five-five, oh-one-nine-five."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:30:28-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-five. Thank you, Mr. Cohen. And your first name for the note, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:30:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Min-jun. M-I-N, dash, J-U-N. Cohen is the usual way."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:30:41-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I have noted that you asked about the fourth installment, the supplemental assessment, and partial payments. I am placing you on hold briefly while I connect you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:30:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. And the supplemental is the fourth box, right? Not the first?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:31:02-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fourth, correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:31:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the fourth. Got it. I think. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:23:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:23:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T11:23:21-05:00",
+        "end": "2026-02-26T11:31:09-05:00",
+        "duration_seconds": 468,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T11:23:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T11:23:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

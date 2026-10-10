@@ -1,0 +1,283 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b8c0b06e-877a-8c19-ab37-321737779845",
+  "created_at": "2026-01-26T14:23:07-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Hector Castillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T14:20:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:20:58-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hello. Um, I'm sorry to bother you. Is this the county courthouse? I was trying to reach the courthouse."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:21:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, hon, this is the City Clerk at Newport City Hall. Courthouse is a different office. What were you looking to do over there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:21:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh dear. I have a paper from them, a notice, and I wanted to ask about the hours. I wrote the number down from the top of the letter. I think I did it right, but maybe not."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:21:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be a digit got switched. Do you have the letter in front of you? Read me the number you dialed and what's on the letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:21:32-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, one moment. [pause] I wrote it with the, what do you call it, the area code, four oh one. But the letter says something different at the top, and I thought maybe I was supposed to dial one first. Is that right? Do I need the one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:21:47-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me see. Here in Rhode Island it's four oh one for everybody, so you don't need to change that. If the letter shows a different area code, it might be a toll-free number, or it might be a printed typo. Read me what it says."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says eight hundred... no, wait. [pause] I'm sorry, that's the number for something else, an insurance paper. I have the pages mixed up. I'm sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:09-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. It happens all the time. The courthouse has its own main line, and I don't have it memorized. If you look at the letterhead on the court notice, the number should be right under the address."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:21-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me write that down. I'm practicing my handwriting, you see, with a fountain pen, so I am slow. The ink is not cooperating today. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:29-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, take your time. That sounds like a nice hobby. Wet weather today though, with the snow turning to rain. Hope your pen's staying dry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:37-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, it's all wet out there. So, I should hang up, find the number on the court letter, and call that one. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:45-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's exactly right. Four oh one is the area code if it's local, and if you can't find it, you can also look up the courthouse online or call us back and we'll point you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:22:56-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you very much. Sorry again. And you said four oh one, correct? Just checking."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:23:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, four oh one. You have a good afternoon, sir."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T14:23:05-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T14:20:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T14:20:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T14:20:54-05:00",
+        "end": "2026-01-26T14:23:07-05:00",
+        "duration_seconds": 133,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T14:20:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T14:20:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T14:20:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T14:20:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T14:20:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

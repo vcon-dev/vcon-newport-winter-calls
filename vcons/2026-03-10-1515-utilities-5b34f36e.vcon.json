@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5b34f36e-d86b-818a-9bcd-4cda2b51558f",
+  "created_at": "2026-03-10T15:20:56-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Yuki Haddad",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T15:15:51-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:15:56-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. This is Yuki Haddad. I'm calling about my water and sewer bill. It came in the mail yesterday and it is [pause] much too high."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:16:08-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can take a look at that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:16:14-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seventy-eight Spring Street. In the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:16:18-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Spring Street. And whose name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:16:23-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that is part of it. The account is still in my late husband's name. Samir Haddad. I never changed it. I rent here, the landlord passes the bill along, and nobody told me I had to do anything about the name."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:16:41-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's okay, it happens a lot. I can see the account. Tell me what looks off about the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:16:50-04:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A new meter was put in last month. A man came, he was in and out, maybe twenty minutes. And now the bill is, um, almost double what it was. Same me. Same one person in the apartment. I am not using double the water."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:17:09-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Let me pull it up. Yeah, I see a meter exchange noted in February. So the bill you've got is the first one with the new meter's reading."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:17:22-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the reading is wrong, then."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:17:25-04:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily wrong. What happens is the old meter gets a final read, the new one starts at zero, and the bill covers both. Sometimes the dates overlap in a way that looks bigger. Can you read me the usage number on your bill? Should be under current reading."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:17:46-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment. I have to get my glasses. [pause] Okay. It says, current reading. Zero. Zero. Four. Two. Seven. And then previous, it says, eight. Nine. One. Three. Zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:17:59-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so that previous number is the old meter's last read. The new one only shows zero-four-two-seven. That's a pretty small number for a new meter in a month, honestly. The old one at eight-nine-one-three-zero is what I'd like to check."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:18:16-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're on the speaker, I'm sorry, I have you on the speaker, the phone is on the table. Can you say that again? [inaudible]"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:18:27-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, no problem. I said the new meter's reading is low, so the high charge probably comes from the final read on the old meter. I think that final read may be off, so I want to have it re-checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:18:44-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is what I want. I want the read checked again. I am not paying this until somebody looks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:18:53-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. I'll put in a request for a re-read and flag the bill so it's under review. Someone from the meter crew will probably go out and look at the new meter and compare."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:19:08-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do I have to be home? Because I would like to know. I only find out things from the radio in the kitchen. That is my news. No computer, no email. So if somebody leaves a message somewhere, I will not see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:19:26-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note that you want a phone call and not an email. Is the number I'd use the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:19:36-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, this is the landline. Use the other. Four. Zero. One. [pause] Five. Five. Five. [pause] Zero. One. Nine. Two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:19:45-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-nine-two. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:19:49-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:19:52-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And about the name, since your husband's still on it, I'd say that's worth fixing too. You can come by City Hall or call back and we'll walk you through what's needed to change it. It wouldn't hold up the re-read though."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:10-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I will do that after this is settled. One thing at a time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:17-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. So just to read it back. Seventy-eight Spring Street, account in the name of Samir Haddad, new meter put in last month, bill looks too high, you'd like the read re-checked, and we'll call you at the number you gave me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:35-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is all correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:38-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The review usually takes a few business days. I'd expect a call back before the end of next week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:47-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Next week. All right. I hope so. Thank you, Mr. Ferreira."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:52-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Haddad. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T15:20:55-04:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T15:15:51-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T15:15:51-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T15:15:51-04:00",
+        "end": "2026-03-10T15:20:56-04:00",
+        "duration_seconds": 305,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T15:15:51-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T15:15:51-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T15:15:51-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T15:15:51-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T15:15:51-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "16354b7a-2789-8ba4-9c15-d9fbb5df5730",
+  "created_at": "2025-12-30T12:41:45-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nelson Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Water bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:41-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:45-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's wrong. Way too high."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get the service address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "332 Malbone Road."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:35:56-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's my wife's name. Was. Marguerite Silva. I'm Nelson."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:07-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Silva. Let me pull up the address and see what comes up. One moment. [pause] All right, I have it. The account is still listed under Marguerite Silva. What looks off on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:26-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The number. Usage."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The usage is higher than you'd expect?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:33-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Double. Maybe more."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:36-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Has anything changed at the house? Anything new, a leak, extra people staying, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:45-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "New meter. Last month."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:36:48-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see a meter exchange on the account from last month. So the first bill with the new meter would be this one. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:37:05-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:37:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you read me the previous reading and the current reading?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:37:13-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on. [pause] Previous is, uh, forty-one eighty. Current says, two... [crosstalk]"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:37:20-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you're on speaker and it broke up a little. Could you say the current reading again?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:37:29-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two thousand, nine hundred something. Hold on. Two nine four oh."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:37:35-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's where the trouble is. The current reading is lower than the previous one, which is normal when a new meter starts over from zero. It looks like the bill may have been calculated against the old meter's starting number instead of the final reading on the old meter and the start of the new one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:38:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:38:07-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It looks that way to me, yes. I'd want the meter group to confirm the final reading on the old meter and the starting reading on the new one, and then we'd reissue the bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:38:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Mail it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:38:28-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can request a corrected bill and have it mailed. Would that go to 332 Malbone Road?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:38:37-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Same."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:38:39-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And since the account is in your wife's name, I'll note that you're the person calling and that the household is still using the account. Down the line you may want to have the name changed over, and I can tell you what that takes, if you'd like."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:04-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:06-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Do you want a callback number on the request in case the meter group has a question?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. 401-555-0191."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one nine one. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Is that a cell phone or a home line? I want to know if I can leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Cell. But I'm not always on it. I'm filling in at the front desk at a gym. Can't answer there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:39:49-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. So I'll leave a message if you miss it rather than expect you to pick up. Is there a better time of day?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:02-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mornings."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:04-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put mornings in the note. Now, about the amount currently due on this bill. Until the corrected one comes, I'll flag the account so the high charge isn't treated as past due."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:21-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'm not paying that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:24-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note the bill is under review. That should hold things until the corrected one is issued."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:36-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Typically the meter group gets back to billing within a week or so, and the corrected bill goes out after that. So I'd expect it in your mailbox within about two weeks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two weeks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:40:55-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Give or take. If you haven't seen it by mid-January, call back and mention the review note, and whoever picks up can see it right away."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:09-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anything else on the account, Mr. Silva?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:15-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. That's it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:18-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I've got the corrected bill requested, mailing to Malbone Road, and a note to leave you a message in the morning if they need anything. Sorry for the hassle with the meter change."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care, and happy new year."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:41:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:35:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:35:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T12:35:32-05:00",
+        "end": "2025-12-30T12:41:45-05:00",
+        "duration_seconds": 373,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:35:32-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T12:35:32-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T12:35:32-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T12:35:32-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T12:35:32-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

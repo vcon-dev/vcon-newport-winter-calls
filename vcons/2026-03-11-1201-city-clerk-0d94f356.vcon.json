@@ -1,0 +1,595 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0d94f356-ea93-88ef-a292-5f3706db6b49",
+  "created_at": "2026-03-11T12:10:27-04:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Ana Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T12:01:32-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:01:38-04:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Owen! Great, thank you for picking up. I found a cat, a lost cat, and I'm not sure who I'm supposed to call. Is this the right place, or is there an animal control line?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:01:56-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Yes, we can start here. Animal control requests come through us, so I can take down the details. Let me just pull up the form. Bear with me a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:02:12-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful, no rush! I'm in no hurry, the cat is sitting in a laundry basket in my garage, so he's pretty comfortable."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:02:24-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Good. So the cat is safe with you right now. First, can I get your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:02:33-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes! Ana Teixeira. T-E-I-X-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:02:36-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "T-E-I-X-E-I-R-A. Got it. And is there a phone number where we can reach you, in case the owner calls in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:02:47-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, it's 401-555-0168. That's my cell, so you can leave a message if I don't pick up. I might have my hands full."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:02:59-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0168. I'll read that back to you. Four oh one, five five five, oh one six eight. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:03:10-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly right! Perfect."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:03:12-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now where did you find the cat? What's the location?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:03:18-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So he showed up right at my place, 238 Bliss Road. It's over on the Easton's Beach side. He was hanging around by my side door this morning, kind of yowling at me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:03:35-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "238 Bliss Road. Let me write that down. And you said this morning. About what time, would you say?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:03:45-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, maybe eight thirty? Eight, eight thirty. I was heading out to the garage. I've got some work going out there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:03:56-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And can you describe the cat for me? Size, color, anything like that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:04:04-04:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes! So he's a big guy, a really solid cat, I'd say maybe twelve, thirteen pounds. He's orange, like a marmalade orange, with some white on his chest and on all four paws. Like little white socks! Super friendly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:04:24-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Orange with a white chest and white paws. Large. Okay. Is it a male? Do you know that for sure?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:04:35-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'm assuming. I haven't looked, honestly! I don't want to bother him. He just seems like a he. Could be a she, I couldn't tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:04:49-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's alright. I'll put down sex unknown. You mentioned a collar earlier, or I think you did. Does he have one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:05:00-04:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I didn't say yet, but yes! He has a collar. It's a blue one, kind of faded, with a little metal buckle. There's no tag on it, though, I checked. No name, no number, nothing. Just the collar."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:05:19-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Blue collar, faded, metal buckle, no tag. Okay. Does it look like he's been out for a while? Is he thin, hurt, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:05:32-04:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, he looks great! He's well fed, his coat is clean. He ate a whole can of tuna like it was nothing. No limp, no injuries that I can see. I think he just wandered off from home."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:05:52-04:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's a good sign, that someone is probably looking for him. Now, you said you were working in the garage. I just want to make sure I have the right idea. Are you handling him with your bare hands? Is he comfortable with that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:06:14-04:00",
+      "duration": 30,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, he's totally fine with me! Ha, I should say, I have grease all over my hands right now. I restore old bicycles, that's what I do out in the garage, so I'm covered. I was in the middle of a chain when I stopped to call you. He's left a couple of orange hairs in the grease, that's his mark!"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:06:44-04:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Well, I'll just note that. Old bicycles. Alright. Um, so here's how this works. I'll send this to the animal control officer, and they'll decide whether to come pick him up or arrange something else. Is it all right if the cat stays with you until they call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:07:08-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, absolutely! I'm happy to keep him. I just don't have anything for him, I don't have a litter box. I made a sort of tray out of a baking sheet and some newspaper."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:07:25-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That should hold him a day or so. Do you plan to be home today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:07:33-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm home all day, wonderful! I'm in the garage until at least five, and then inside. If I don't hear the phone out there I'll check it often."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:07:47-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll write that. Now, one other question. Have you checked the neighborhood at all, or put anything up? Sometimes people post on neighbor groups or put up a sign."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:08:02-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I haven't yet! I wanted to call you first. Should I put up signs? I can do that right now, I have some cardboard."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:08:14-04:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think that's fine to do. It doesn't hurt. Just maybe don't put every detail on it. Keep one thing back, like the collar color, so when someone calls you can check that they're describing the right cat."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:08:33-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's smart! Great idea. I'll leave out the collar, and the white paws, maybe. Just say orange cat, found on Bliss Road."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:08:45-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Also, if he's microchipped, a vet or the shelter can scan him. The officer can tell you more about that when they call."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:08:58-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful, I didn't even think about a chip! Okay. So, will the officer call me today, do you think?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:09:08-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say exactly when. It depends on how busy they are. I'll send this over right after we hang up, and I'd expect a call sometime today or tomorrow morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:09:24-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, that works. And if nobody calls by tomorrow, should I call back here?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:09:32-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, call back here and ask for me or whoever answers. Mention the cat on Bliss Road, and we'll find the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:09:44-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect! Okay, let me make sure I've got it. You'll send it to animal control, they call me at 401-555-0168, and I keep him in the garage until then."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:09:59-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Keep the garage door closed so he doesn't slip out again, and give him some water."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:10:09-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Already got a bowl of water down! Great. Thank you so much, Owen, you've been wonderful."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:10:18-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Thanks for taking him in. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T12:10:24-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too! Bye now!"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T12:01:32-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T12:01:32-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T12:01:32-04:00",
+        "end": "2026-03-11T12:10:27-04:00",
+        "duration_seconds": 535,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T12:01:32-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T12:01:32-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T12:01:32-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T12:01:32-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T12:01:32-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

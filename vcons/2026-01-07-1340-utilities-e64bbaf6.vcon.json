@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e64bbaf6-ae6a-8ca6-b8fa-0ac2e3471272",
+  "created_at": "2026-01-07T13:41:48-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Paula Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T13:40:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:40:34-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, it's Paula Silva. I'm at 146 Marsh Street, down the Point. I got a shutoff warning in the mail today and, honestly, I'm kind of irked. How much time do I have before they actually shut it off?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:40:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. Is this the water and sewer account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:40:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the rental. And the thing is, last winter the bills were way lower. Like wicked lower. Nothing changed over there, so I don't get it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:01-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, I see the notice. It shows a past-due balance, and the notice date gives you a window to pay before the shutoff gets scheduled. I can read you the exact date on the letter if you've got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:14-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, sorry, I'm in line at a bakery counter and if I step out I lose my spot. Just tell me the date, I'll write it on my hand."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. It's the twenty-first of this month on the notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:28-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the twenty-first. And is there a way to pay by phone after four-thirty? I'm not getting to City Hall before then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:36-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an automated phone payment line and online payment, both available after hours. There's also a drop box outside City Hall."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Thanks, Tony. I'll deal with it tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:41:46-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Take care, Paula."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T13:40:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T13:40:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T13:40:30-05:00",
+        "end": "2026-01-07T13:41:48-05:00",
+        "duration_seconds": 78,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T13:40:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T13:40:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T13:40:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T13:40:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T13:40:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

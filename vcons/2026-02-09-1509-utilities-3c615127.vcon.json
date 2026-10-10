@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3c615127-08a3-8fdc-adf8-87963543e52e",
+  "created_at": "2026-02-09T15:11:16-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nelson Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T15:09:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities, water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:09:05-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes, my name is Nelson Teixeira. I live at 98 Bacheller Street, Fifth Ward. I am tenant there. My landlord say I owe the water bill. I want to know, is the bill his or mine?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:09:19-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Typically the city bills the property owner, and the account is in the owner's name. Whether a tenant reimburses it depends on your lease. Let me pull up the account. Can you spell your last name for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:09:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. T-E-I-X-E-I-R-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:09:36-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I see the account at 98 Bacheller, and it is in the owner's name, not yours. So the city's bill goes to him. If you and he agreed that you pay it, that would be in your lease, and that is between the two of you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:09:54-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I understand. The lease I need to check. Can you send me copy of the bill? By email, one duplicate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:02-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. What email address would you like it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. I think I give it later, I do not have it near me. Can I call back with it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's fine. Or if you prefer, we can mail it. But yes, call back with the email and we'll send it right over."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. One more question. The bill, can I pay online? I cannot go to City Hall before four thirty, I am at work."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:33-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there is online payment on the city website, so you don't need to come in during office hours. There's also a drop box for payments outside regular hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:44-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And the bill, what is the amount last time? I think it is thirty dollar?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. The last bill shows thirteen dollars. Thirteen, one-three."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:56-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thirty?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:10:57-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, thirteen. One, three. Thirteen dollars."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:11:00-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, thirteen. Sorry. Thirteen dollar. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:11:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:11:07-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you very much for your help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T15:11:12-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Teixeira. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T15:09:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T15:09:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T15:09:00-05:00",
+        "end": "2026-02-09T15:11:16-05:00",
+        "duration_seconds": 136,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T15:09:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T15:09:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T15:09:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T15:09:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T15:09:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

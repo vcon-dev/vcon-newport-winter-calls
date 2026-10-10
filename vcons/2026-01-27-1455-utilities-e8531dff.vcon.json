@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e8531dff-45e9-8b80-8cff-ccc6e522e54e",
+  "created_at": "2026-01-27T14:59:11-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Carlos Pina",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T14:55:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:55:34-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey, hi, yeah, I'm calling about my mom's water and sewer bill? She's at 405 Chapel Street, up on the Hill. And it's like, way higher than I expected."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:55:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. What name is the account under?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:55:49-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Under Pina. Her name's Marta, but I'm Carlos, her son. She asked me to call since I'm, like, the one who does the paperwork. Sorry, I'm in the car, so if I cut out, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:56:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I've got the account up. Go ahead, what's bothering you about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:56:09-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the bill says it covers a quarter? Like, three months? Why is it a whole quarter and not just monthly? And how do you even count the dates? Because the period on here doesn't line up with anything. It starts mid-month and ends mid-month, which is totally weird?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:56:28-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that trips a lot of people up. We bill quarterly, so each bill covers about three months of use. The dates are tied to when the meter was read, not the calendar, so the period runs from one reading to the next. If the reading happened on the fourteenth, that's where it starts and ends."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:56:49-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but that's kind of annoying? Because it means one big number shows up all at once, and nobody warned her. It's not like she used three months of water in one week."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:02-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, it's a lump sum for the whole stretch. I understand why it lands hard. What's the amount you're looking at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:11-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's, um, [line breaks up] about four hundred and ten. Sorry, there's a truck in front of me, I'm stuck behind this slow thing on Route 138 and it's doing like thirty."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know that road. I missed the amount, was that four hundred ten?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, four ten. So, is a payment plan possible? Like, can she split it up instead of paying it all at once?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:38-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can look into that. I can note the account and have someone from the billing office call back about setting up installments. They'd go over what's possible. Is the number you gave me the best one to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0191."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:57:55-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0191. I'll put a note on the account that you called about a payment arrangement."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:58:02-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Cool. And one more thing, can I just pay it online tonight? Like after City Hall closes? Because I'm not gonna make it there before five, and I'd rather not deal with it tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:58:15-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's online payment through the city website, and it's available around the clock. You'd need the account number off the bill. There's also a drop box at City Hall if you'd rather leave a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:58:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the online thing is probably easier. But should I wait on paying until the payment plan thing gets sorted? I don't want to mess it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:58:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you want to do the plan, I'd hold off on paying the full amount until billing calls you back. Then you'll know what the installments look like."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:58:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that makes sense. Honestly I just wish the bill was clearer about the dates, like, put it in plain English."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:58:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you, I'll pass that along. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:59:05-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nope, that's it. Thanks, Tony. Okay, finally moving, bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:59:09-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Drive safe. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T14:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T14:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T14:55:29-05:00",
+        "end": "2026-01-27T14:59:11-05:00",
+        "duration_seconds": 222,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T14:55:29-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T14:55:29-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T14:55:29-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T14:55:29-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T14:55:29-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "edff654d-c565-89d4-8195-caa32788b48a",
+  "created_at": "2026-01-27T12:51:09-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Margaret Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T12:45:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities Department, water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:45:26-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. My name is Margaret Burdick. I think I have a question about my water bill. It came in the mail yesterday, I believe."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:45:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, Ms. Burdick. What's the question about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:45:41-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I think it says estimated. Right next to the reading, there's a little letter E, maybe. And I'm fairly sure nobody has read my meter. I haven't seen anyone near the house in, oh, I'd say a long time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:45:57-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. An E next to the reading does mean the reading was estimated. That happens when the meter couldn't be read, or the reading didn't come through. Do you have the account number handy? I can pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:46:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so, hold on, let me get my glasses. [pause] Okay. It's, I think, the one at the top right. Is it four-four-seven-one-oh?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:46:23-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the beginning. Is there more after that? Usually there are a few more digits with a dash."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:46:31-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yes, sorry. Dash zero-three-two. I think that's all of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:46:36-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thank you. I have your account. I do see the last two bills were marked as estimated, and this one as well. So your instinct is right, it doesn't look like an actual read came in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:46:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what I sort of suspected. Is that allowed? Just guessing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:46:58-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a normal practice when a meter can't be read. The estimate is based on your past usage, and then it gets corrected when an actual read comes in. If you'd like, I can note the account so the meter gets checked and read."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:47:16-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I think that would be good. Maybe someone could come look at it. It's in the basement, I believe, and perhaps they couldn't get in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:47:27-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in a request for a meter read and inspection. Someone will contact you to schedule if they need access inside. Is the best number the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:47:40-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so, yes. It's four-oh-one, five-five-five, oh-one-five-seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:47:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-five-seven. Perfect."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:47:47-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, there's another word on the bill I don't quite understand. It says consumption. I think it's in a column, maybe next to the dates. What does that mean exactly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:48:00-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Consumption is just the amount of water your household used during the billing period. It's measured in units off the meter, and the charge is calculated from that number. So on an estimated bill, the consumption figure is the estimate, not what was actually measured."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:48:18-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I see. So it's sort of the amount used, not the amount I owe."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:48:25-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. The amount you owe is calculated from the consumption, plus the sewer portion and any other charges listed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:48:33-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. That helps, I think. Now, I'm wondering about paying it. I think the due date is coming up soon, maybe this week. If I put a check in the drop box tonight, would that count as on time? Or does it have to be there during the day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:48:53-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a payment drop box at City Hall, and it's available outside of regular hours. Anything placed in it is collected the next business day, and it's processed based on the date it was received in the box. So if it goes in tonight and your due date is later this week, you should be fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:49:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. And I think it's the one by the front door, is that right? Maybe on the side?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:49:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's near the main entrance. Make sure the check is made out to the city, and write your account number on it so it's matched properly. An envelope is a good idea too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:49:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll do that. I think I have the account number written down now anyway. Should I pay the estimated amount, or wait until they read the meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:49:50-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd suggest paying the bill by the due date. If the actual read comes in lower, the difference is credited to your account on the next bill. If it's higher, it'll be adjusted the same way."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:50:05-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, that seems fair, I suppose. It's gotten dark so early, hasn't it? I think I was putting the lights on at four o'clock yesterday. These afternoons just go on being dark forever, it sort of feels like."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:50:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They really do. It's still a few weeks before it starts to feel noticeably lighter in the evenings."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:50:29-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, well. I suppose that's January. And the storm last weekend, the snow turning into rain, that didn't help the mood either. Anyway, I'm taking up your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:50:41-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. Let me read back what I've noted. Account four-four-seven-one-oh dash zero-three-two, three estimated bills in a row, meter read and inspection requested, and I have your number as four-oh-one, five-five-five, oh-one-five-seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:50:55-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I think that's right. Thank you very much, Priya."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:51:00-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Burdick. Someone will be in touch about the meter. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T12:51:07-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T12:45:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T12:45:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T12:45:20-05:00",
+        "end": "2026-01-27T12:51:09-05:00",
+        "duration_seconds": 349,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T12:45:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T12:45:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T12:45:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T12:45:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T12:45:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

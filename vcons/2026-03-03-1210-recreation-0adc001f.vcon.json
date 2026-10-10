@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0adc001f-8e7a-87fb-b643-6a9146e561b7",
+  "created_at": "2026-03-03T12:12:45-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Dario Lopes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation Department, this is Beth, how can I help you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:14-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. My name is Dario Lopes. I would like to reserve the community room for a birthday gathering, if it is possible."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, happy to help with that! Whose birthday are we celebrating?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is for my sister, she will be seventy. A small party, perhaps twenty-five people. On the other hand, it could be thirty if the cousins all come."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, a big one, that's wonderful. Do you have a date in mind?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Saturday, the eighteenth of April, in the afternoon. From one o'clock until about five. On the other hand, I am flexible by an hour, if the room has another event."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:10:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull up the calendar. [pause] Alright, the Saturday the eighteenth looks open in the afternoon right now. Nothing's held until the paperwork's in, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:11:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. May I ask what is the cost for the room?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:11:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The rate depends on the room and how many hours, and whether you're a Newport resident. Are you a resident?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:11:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I rent an apartment here in Newport. On the other hand, my sister lives in Providence, so the party is for her, but I am the one organizing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:11:29-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, you're the one signing the application, so your residency is what counts. I'll email or mail you the rate sheet and the application so you can see the exact amount for your hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:11:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is better for me, please. I do not use email very much. I will say, I only call the city when I really have to, so I want to do this correctly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:11:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all, that's what we're here for. Can I get your mailing address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:12:00-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would prefer to come in and pick it up, actually. On the other hand, I do not want to make a trip for nothing. What are your hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:12:11-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open weekdays, regular business hours, so any day this week works. The form will be at the front desk with my name on it, and I'll hold the date on the calendar as a courtesy for a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:12:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is very kind. I will come on Thursday, then. My number, in case you need it, is 401-555-0178."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:12:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0178. And it's Lopes, L-O-P-E-S?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:12:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. Thank you, Beth. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:12:41-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Lopes. Enjoy the rest of your day!"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:10:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:10:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T12:10:09-05:00",
+        "end": "2026-03-03T12:12:45-05:00",
+        "duration_seconds": 156,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:10:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T12:10:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T12:10:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T12:10:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T12:10:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

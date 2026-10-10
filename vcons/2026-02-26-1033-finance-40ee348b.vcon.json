@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "40ee348b-7d18-8886-9ad8-e4c5c3fa4ee9",
+  "created_at": "2026-02-26T10:39:41-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Kathleen Donovan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T10:33:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:33:26-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, I got a parking ticket and I'm not paying it. I want to appeal it, and I need to know where to send that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:33:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can help with that. Do you have the ticket in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:33:50-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, hold on. It's somewhere in my bag. [pause] Let me, um, I think I left it on the counter. Hang on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:34:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, I've got it. Sorry, I put the phone down in the kitchen."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:34:11-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, you were pretty far away there. I could hear the whole kitchen. What's the ticket number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:34:22-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says, uh, ticket number is 4471823. Is that it? There's another number under it, but that looks like the violation code."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:34:35-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The first one should be it. And where were you parked?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:34:42-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On Thames Street, down by the shops. Last Friday, around eleven in the morning. The meter was broken. I put in coins, four quarters, and nothing registered. The screen stayed blank, didn't even flash."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:35:01-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, so it ate your money and then the ticket showed up anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:35:09-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. I'm out a dollar and I'm out the ticket money too. I figured it was broken, so I went in, did my errand, came back, and there's the envelope on my windshield. Very nice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:35:29-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's frustrating. Okay, so for an appeal you'll want to do it in writing. You can mail it to the Finance Department at City Hall, attention parking violations. It's on Broadway, Newport, Rhode Island. The zip is 02840."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:35:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Broadway, okay. Not the avenue, not Memorial Boulevard. Broadway."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:35:57-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, Broadway. You can also drop it off at the counter here during business hours if that's easier."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:36:07-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I'll mail it. I'm not driving down there and looking for a spot. That's how this started."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:36:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Put the ticket number on the letter, your name, address, and a phone number. Say what happened with the meter, the location, and the time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:36:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Should I send the actual ticket?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:36:36-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send a copy and keep the original. If you have a photo of the meter, include that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:36:46-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a photo. I was too busy being annoyed. Do I need one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:36:55-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not required. If you walk by again and it's still broken, a picture wouldn't hurt, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:37:04-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, I'm sure it's still broken. Nobody's fixing anything down there. Is there a deadline?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:37:13-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a window on the ticket itself. Look on the back, it should list how many days you have. I'd get the letter out soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:37:27-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, here it is. It says to appeal within, um, it's in small print. Hold on, let me hold it up to the window."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:37:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:37:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, so it's there. I've got time, but not forever. I'll write it tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:37:52-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Also, the penalty can grow if the ticket sits, so getting the appeal in early helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:02-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Does the appeal stop that from going up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:07-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally once it's in the system as contested it gets reviewed first, but I can't promise how it'll play out. If you want, I can make a note on the account that you called today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:27-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please do that. Kathleen Donovan, D-O-N-O-V-A-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:32-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Kathleen Donovan, ticket 4471823, Thames Street, broken meter, appeal being mailed. Do you want me to put a callback number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0164."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, 401-555-0164. That's noted."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:38:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And someone should look at that meter. I'm not the only one, I bet."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:39:00-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll mention it. Meter repairs go through a different office, but I can pass it along. Thames Street, near the shops, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:39:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Near the shops, on the harbor side."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:39:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:39:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Broadway, attention parking violations, copy of the ticket. I've got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:39:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Good luck with the appeal, Ms. Donovan."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:39:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T10:33:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T10:33:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T10:33:20-05:00",
+        "end": "2026-02-26T10:39:41-05:00",
+        "duration_seconds": 381,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T10:33:20-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T10:33:20-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T10:33:20-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T10:33:20-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T10:33:20-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

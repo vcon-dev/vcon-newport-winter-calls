@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0488ba19-9fcc-8f4b-be00-21ad2bef242a",
+  "created_at": "2026-01-23T15:55:09-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ricardo Figueroa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:09-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. [pause] Yeah, I'm calling about a streetlight. It's on all day long. Daytime, nighttime, doesn't matter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a light that's staying on during the day. Where's it located?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:23-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's right in front of 220 Bellevue Avenue. The pole by my driveway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:28-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 220 Bellevue. Do you know if there's a number on the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I haven't looked. [pause] Hang on. No, buddy, don't touch that. Sorry, my little one keeps hitting the speaker button."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, I hear it. I'm writing down, light on all day, 220 Bellevue Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Can you get a crew to come check the pole? [pause] It's been like this a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:54:53-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, I'll put in a request for a crew to look at it. Want to leave a callback number in case they have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:55:01-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. 401-555-0186."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:55:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0186. All set, Mr. Figueroa. Have a good weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-23T15:55:07-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T15:54:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T15:54:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-23T15:54:09-05:00",
+        "end": "2026-01-23T15:55:09-05:00",
+        "duration_seconds": 60,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-23T15:54:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-23T15:54:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-23T15:54:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-23T15:54:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-23T15:54:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

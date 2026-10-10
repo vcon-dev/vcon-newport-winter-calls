@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a85874cd-ef01-8a69-b3f9-9724cb29a547",
+  "created_at": "2026-03-03T11:32:22-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carlos Duarte",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. Yes, good morning. My name is Carlos Duarte. I am calling about the property tax, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Mr. Duarte. Do you have the address for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Seventy-two Spring Street. In the Fifth Ward. I am a renter, but the landlord asks me to call because his English, it is not so good. [line breaks up] Pois, how do you say, he is busy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:50-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. You broke up a little there. Can you say the address one more time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:56-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seventy-two Spring Street. Seven, two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:30:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Let me pull that up. Okay, I see the account. What do you need to know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would like to know when the next installment is due. And, please, does the city mail a reminder, or I must remember by myself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally the city mails a bill before each installment, but I'd still mark your calendar. The next quarterly payment is due on the first of next month, so you've got a few weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The first of April. Yes. I write it down. [pause] Also, I would like a payoff figure. The total, if we pay everything through the thirty-first of March."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:31-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Through March thirty-first. Hang on, let me run that. [pause] Okay, I'm showing the remaining balance for the year, with nothing extra added through that date, at two thousand, one hundred and forty dollars and sixty cents."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two thousand, one hundred forty, and sixty cents. [inaudible] Please, one more time the last part?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:49-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two thousand one hundred forty dollars, sixty cents. I can mail you a printed statement too if that's easier for the landlord."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:31:56-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that would be good. Thank you. My aunt, she is a retired secretary, she always corrects me on the telephone. She says, Carlos, say your name first, say thank you, speak slowly. So I hope I did it right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:32:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You did fine. Your aunt would give you an A. I'll get that statement out to the Spring Street address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:32:15-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Thank you very much, Mr. Luis. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T11:32:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Duarte. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T11:30:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T11:30:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T11:30:24-05:00",
+        "end": "2026-03-03T11:32:22-05:00",
+        "duration_seconds": 118,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T11:30:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T11:30:24-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T11:30:24-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T11:30:24-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T11:30:24-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

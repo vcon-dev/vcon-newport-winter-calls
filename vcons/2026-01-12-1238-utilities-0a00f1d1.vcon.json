@@ -1,0 +1,679 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0a00f1d1-d16b-8b37-ab3e-99258468d73a",
+  "created_at": "2026-01-12T12:47:11-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nora Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T12:38:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:38:48-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Priya. My name is Nora Quinn. I'm calling about my water and sewer bill, and I'm on speakerphone, so please tell me if I'm coming through badly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:39:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're coming through fine. Go ahead, Ms. Quinn."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:39:05-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. The bill that came last week is a good deal higher than usual. I looked at the usage line, and it is nearly double what I normally use. I live alone. I did not suddenly start bathing twice as much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:39:23-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Can I have the service address so I can pull up the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:39:30-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It's 373 Dixon Street, in the North End. I rent the unit, and the bill comes in my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:39:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Give me a moment. [pause] Okay, I have it. Nora Quinn, 373 Dixon. You're right, the last billing period shows noticeably more usage than the two before it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:39:52-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's a relief, in a way. I thought I was reading it wrong. So here's what I think happened. Last month the toilet was running constantly. It ran all day and all night for what I'd guess was a week or more. I jiggled the handle, which is the technical fix, and eventually I told the landlord, and it got repaired."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:40:19-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would very likely explain it. A running toilet can use a surprising amount of water over a few days, and it wouldn't be obvious from the bill alone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:40:32-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Which is annoying, because it was not my fixture, and I did not cause the leak. I just got the bill for it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:40:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Do you know roughly what date it was repaired?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:40:49-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It was the first week of the month, I believe. Hold on, I'll check my text messages. [pause] The landlord texted me on the sixth that the flapper was replaced. So the sixth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:41:04-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that helps. I can note that on the account. Whether the city can adjust anything for a repaired leak is a question for the billing supervisor, because that is not something I can decide at this desk."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:41:21-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. I'd like to ask for that, then. Is there a form, or do I just ask you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:41:30-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put the request in with the note about the repair date and your landlord's text. The supervisor may want a receipt or an invoice for the repair, so it would be worth asking your landlord for one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:41:47-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. He will not enjoy it, but I can do that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:41:54-05:00",
+      "duration": 1,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understandable."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:41:55-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "While I have you, I have two other things. I need to change my mailing address. I'm getting these bills at the Dixon Street unit, but the mail there is unreliable, and I would rather have them sent to a post office box. And I'd like to go paperless, if that's possible."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:42:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both are possible. For the mailing address, what's the new address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:42:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's P.O. Box 4471, Newport, Rhode Island, 02840. I'll repeat it. Post office box four four seven one, Newport, Rhode Island, zero two eight four zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:42:36-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Box 4471, Newport, 02840. I'll read it back once I've entered it. [pause] Okay, that's updated for billing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:42:45-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the paperless part?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:42:48-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For paperless, I need an email address to attach to the account. Then you'd get the bill electronically instead of in the mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:42:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. I'd rather not say my email aloud on a speakerphone in my office. Is there a way to do it that doesn't involve that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:43:11-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can take it by phone, or you can set it up through the sign-up on the city's utility billing page. Either way works. Many people find the page easier for something with a lot of punctuation."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:43:27-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll do it through the page, then. Will the old paper bills stop on their own, or will I have to cancel them somewhere?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:43:38-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Once the paperless option is active, the paper bills stop. Sometimes you get one more in the mail if it's already been printed for the cycle."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:43:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'd just as soon not receive a duplicate at the wrong address, which is why I changed the mailing address first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:44:00-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a sensible order, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:44:03-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, one more thing, and then I'll let you go. There was that big coastal storm Friday into Saturday, two days ago. I wanted to be sure that wasn't somehow reflected in my usage. I don't know how that would happen, but I'd like to rule it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:44:24-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, a storm wouldn't show up in metered water usage unless something on your side was using water. The reading covers the billing period, which ended before the weekend, so the storm isn't part of this bill at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:44:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's what I assumed. I just prefer to ask than assume."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:44:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Always fine to ask."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:44:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, about the adjustment. When would I hear something? I don't want to call here four times and get four different answers."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:45:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The supervisor reviews these requests as they come in, but I can't promise a day. I'd suggest that I have someone call you back with an answer. Is this number the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:45:15-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that works. It's 401-555-0154. I'm at my desk most of the day, but I'm in court some mornings, so if I don't pick up, please leave a message with a name and a reference. I'll call right back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:45:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that. I have 401-555-0154 and a preference for a message with a name and reference if you don't answer."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:45:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. And I'd like it in the notes that I'm asking for the adjustment because of the toilet repair, which was completed on the sixth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:45:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've written that: toilet running continuously last month, repaired on the sixth, adjustment requested, receipt to follow from the landlord."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is accurate. Thank you. I'll say, for the record, that I'm not unhappy with you. I'm unhappy with a flapper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:12-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. I'll make sure the request is clear so nobody has to ask you to repeat it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd appreciate that. I do this for a living, and I have a low tolerance for repeating myself. I'm a court stenographer."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That explains the complete sentences. I wish all my calls were so well organized."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Occupational habit. Is there anything you need from me before I hang up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:43-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think I have everything. Address updated, paperless to be completed through the online page, and a callback about the leak adjustment. Is that all correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:55-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is all correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:46:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then you're all set for now. Someone will call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:47:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Priya. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T12:47:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Quinn. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T12:38:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T12:38:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T12:38:43-05:00",
+        "end": "2026-01-12T12:47:11-05:00",
+        "duration_seconds": 508,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T12:38:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T12:38:43-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T12:38:43-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T12:38:43-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T12:38:43-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

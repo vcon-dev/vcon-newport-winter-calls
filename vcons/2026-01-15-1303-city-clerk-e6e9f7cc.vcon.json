@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e6e9f7cc-cc37-8b9b-9cd0-286b59079ea5",
+  "created_at": "2026-01-15T13:05:09-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Carmen Ortiz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-15T13:03:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. Buenas tardes, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:03:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, hi, good afternoon. Um, I need a birth certificate, for my son. But he was born in Providence, not here in Newport. Is that something you can do there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:03:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, okay. Births are kept by the town where the baby was born, so that one would be Providence. But let me check what we can do here, because some state records can be requested through us. Hold on one second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:04:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. [pause] Sorry, I am on the speaker, I cannot find the button to take it off, this phone is new. Everything is different."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:04:20-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I can hear you okay. So, I'm back. Our office can only issue records for events in Newport. For Providence you'd contact their city clerk or the state vital records office."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:04:31-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, so I need to go to Providence, not here. And what ID I bring? My license only, or also the passport of him?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:04:39-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A photo ID for you, like your license, is the main thing. Bring proof you're the parent, too, but ask Providence exactly what they want, because each office is a little different."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:04:50-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the license, and the, the proof, parent. [line breaks up] Sorry, say again, the last part?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:04:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your photo ID, plus something showing you're his parent. Call the Providence office first to confirm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:05:02-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I think I understand. Maybe. I call them. Thank you, Rosa."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:05:07-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "De nada. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:03:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:03:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-15T13:03:44-05:00",
+        "end": "2026-01-15T13:05:09-05:00",
+        "duration_seconds": 85,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:03:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-15T13:03:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-15T13:03:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-15T13:03:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-15T13:03:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

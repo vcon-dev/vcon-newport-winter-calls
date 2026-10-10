@@ -1,0 +1,811 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7beef244-fff1-8018-b810-e16637262932",
+  "created_at": "2026-02-11T10:54:56-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Conceicao Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-11T10:44:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:44:05-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. I have a parking ticket and I don't understand it. I think it's wrong, but I'm not sure if I'm even doing this right, calling you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:44:18-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're in the right place. Tickets come through us. What's it say on it? Is there a ticket number up in the corner?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:44:28-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, hold on, let me find it. [pause] Oh, and by the way, sorry, you might hear a jingling. I have my tool belt on, I came in from a job and it jingles every time I walk. Okay. The number is, um, there's a letter first, then a bunch of numbers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:44:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead and read it to me slow. Letter first, then the numbers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:44:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a P. P, then four, four, one, seven, zero, two. Is that seven zero two? Or is that a seven and a different thing, a smudge. It's folded, it was under my wiper."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:45:09-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me try it as you said it. [pause] Okay, I've got something. Expired meter, issued last Thursday, down on Thames Street. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:45:20-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it, but the meter was broken. I put in coins, like four quarters, and the screen did nothing. It didn't show any time. It didn't take them, or it took them and didn't tell me. I don't know. So how do I get a ticket for a meter that ate my money?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:45:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the kind of thing you can contest. Did the screen show anything at all? Blank, error message, flashing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:45:51-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Blank. Kind of dark, with a little line. I pushed the button a couple times. Oh, and the other thing, there's a picture? The officer took a picture of my car, I think. Is that a thing? The paper says photo on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:46:09-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, usually there's a photo of the car and the meter, and the violation. I can see a note that photos were taken."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:46:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you email it to me? I'd like to see what it shows. Maybe it shows the meter being dead. Because if it shows the screen blank, then I'm right, no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:46:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It might. I can't promise what it shows. But yeah, I can get that sent to you. What email do you want it at?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:46:42-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Um, is it okay to give it by phone? I always mix up the dots."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:46:50-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Go ahead, say it slow and I'll read it back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:46:56-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, wait. Before that, the ticket, does it say I owe money now? Or do I wait? I don't want it to double or something. My cousin got one and it doubled and she didn't know why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:47:11-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tickets usually go up if they sit past the due date. What's the due date on yours? Should be printed near the amount."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:47:21-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] It says... I see a date, the twenty-sixth. Is that this month? The twenty-sixth of February?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:47:30-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I'm seeing on my screen too. So you've got a couple weeks. If you file a contest before then, it generally holds things while it gets looked at."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:47:43-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. So I don't pay and I contest. But do I do it with you, or somewhere else? Is there a form? I thought maybe the form was on the back, but the back is just, like, rules in tiny writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:48:00-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The back is mostly the options. You can request a hearing or send in a written explanation. I can note on the account that you're disputing it for a broken meter, and mail you the form if you want one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:48:16-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail, yes, okay. Wait, so is that the same as the hearing? I'm confused. If I fill out the form I don't go in person?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:48:27-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two different routes. Written is the form and your explanation, no trip needed. Hearing means you go in and talk to someone. Lots of people do the written one for something simple like this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:48:41-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, written, I think. Because I work all day. Oh, and by the way, if I do the written one, can I put in the picture too? Mine, I mean. I took a picture of the meter yesterday and it still looks broken. It has a sticker maybe."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:49:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, attach it or mention it. A sticker or an out-of-order bag is useful. Did you take it yourself yesterday, so the date's on your phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:49:11-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so. It was around four. But that's the day after the ticket, no, six days after. So is that okay? Does it count if it's not the same day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:49:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It helps show the meter has a problem. It's not the same as proof for that exact moment, but it's worth including. The photo from the officer will help more for the day itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:49:38-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So that's why I need that email. Right. Sorry, I keep going around. The email, do you want it now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:49:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Whenever you're ready. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:49:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's c, o, n, e, i, c, a, o, then the number five, and then at, um, gmail, dot com. Is that too fast?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:50:00-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read it back. C-O-N-E-I-C-A-O, five, at gmail dot com. Did I get that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:50:07-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, wait. There's a c before the a. C-e-i-c-a-o, I think the name has a c with the little thing under it, but in email I just do c. So it's c, o, n, e, i, c, a, o. That's what you said. Oh, okay, yes, you did get it. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:50:28-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. I've got it down. I'll put in a request for the photos and they should land in that inbox. Might not be today, but soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:50:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How soon? Like days? Because the twenty-sixth is the due date and I need to see it before I send the form."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:50:48-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few business days is typical. If you don't see anything by early next week, call back and we'll chase it. And since you've got until the twenty-sixth, you're okay on timing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:51:01-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the form, where do you mail it? I'm at sixty Brewer Street. In the Fifth Ward. The house, not an apartment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:51:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sixty Brewer Street. Is the mailing address the same, or do you get mail somewhere else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:51:18-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same, same. Oh, that reminds me, the ticket, does it have my address on it? Because the car is registered to my husband's old place, no, wait, no, it's registered to me. Never mind. It's sixty Brewer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:51:33-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll double check the registration on the account and send the form to sixty Brewer. If it doesn't match I'll flag that too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:51:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And the money, the four quarters, do I get that back? It's only a dollar, but it bothers me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:51:52-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A dollar in a dead meter, you're not getting that back from me, I'm sorry to say. But reporting the meter helps. Do you remember which block it was?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:52:04-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thames Street, near the, the corner with the shop that sells the sailing jackets. Across from the little park. The meter number was on the side, I think four, one, something."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:52:17-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's enough to pass along. I'll add a note that the meter by that corner wasn't taking coins, so someone can go look at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:52:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because other people will get tickets. Oh, and by the way, is the ticket going to go on a record? Like my insurance?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:52:38-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A meter ticket is a municipal fine. It's not a moving violation, so it's not the kind of thing that normally goes to insurance. Just the fine, if it stands."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:52:51-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's a relief. So just to make sure I have it, I don't pay yet, I fill out the written form, I send my photo, and you email me the officer's photo. Is that all of it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:53:07-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Form arrives by mail at sixty Brewer, photos to your email, send your explanation in before the twenty-sixth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:53:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And the explanation, what do I write? Just that the meter was broken?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:53:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Keep it simple. Say what happened, when, where. You put in four quarters, the screen was blank, it didn't register any time. Add your picture. That's plenty."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:53:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll try. I'm not good with forms. My handwriting is also terrible, so maybe I type it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:53:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Typed is fine. As long as I can read it, we're good. My handwriting would lose a hearing all by itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:53:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, okay. Oh, wait, one more thing. Is the number on my ticket the one I use on the form? The P one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, put the P and all the numbers at the top of anything you send. P, four four one seven zero two, like you read it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is it zero two or oh two? Sorry, I always say it different."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same thing. Zero, two. Either way the system knows what you mean."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I'm still a little mixed up on the hearing part, but I'll read the form when it comes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. The form walks you through it, and if you're stuck, call here and ask for finance. Someone will help you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you very much, Luis. Sorry for all the questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. Take care, and I hope your tool belt makes it through the day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-11T10:54:54-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, thanks. Bye bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T10:44:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T10:44:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-11T10:44:00-05:00",
+        "end": "2026-02-11T10:54:56-05:00",
+        "duration_seconds": 656,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-11T10:44:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-11T10:44:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-11T10:44:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-11T10:44:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-11T10:44:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

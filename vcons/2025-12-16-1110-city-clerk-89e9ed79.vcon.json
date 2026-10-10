@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "89e9ed79-8093-8a6a-b02a-35e80bfa7ba7",
+  "created_at": "2025-12-16T11:12:28-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Esteban Herrera",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T11:10:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:10:27-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. Um, I need to report a stray dog. It's been roaming my street for two days now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:10:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sorry to hear that. Whereabouts is the dog? What street?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:10:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm at 369 Gidley Street, in the Fifth Ward. It's been up and down the block, [inaudible] the corner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:10:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you're coming in a little muffled. Are you on speaker?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:10:52-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, sorry, I'm on speaker, my hands are full. Is that better? I'll pick up the phone... no, I'll just move closer. Gidley Street, 369."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 369 Gidley. Better now. Can you describe the dog for me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:06-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Medium-large, maybe fifty, sixty pounds. Tan with a white chest, kind of a shepherd mix, I'd guess. No collar that I can see. It looks skinny, and honestly it's wandering right out in the road."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Does it seem aggressive, or friendly?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:22-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Skittish more than anything. It keeps backing off when anybody gets close. But that's what worries me. There's a road crew working down the block, and this morning there was a long line of cars backed up waiting for the guys to wave them through, and the dog was weaving right through [crosstalk] the traffic."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh no, that's dangerous for the dog and the drivers. Let me get this to animal control. Is this the best number to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0151."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, 401-555-0151. And the dog's still out there right now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:11:56-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Last I looked, about ten minutes ago, yeah. By the curb near my place. I don't want it getting hit, you know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:04-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll send this over as urgent, with the description and your address. An officer should call you or head out today. If the dog heads somewhere else, call us back with where it went."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, will do. Appreciate it. I just want somebody to get it before something happens."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. Thanks for calling, Mr. Herrera."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:26-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:10:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:10:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T11:10:22-05:00",
+        "end": "2025-12-16T11:12:28-05:00",
+        "duration_seconds": 126,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:10:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T11:10:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T11:10:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T11:10:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T11:10:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

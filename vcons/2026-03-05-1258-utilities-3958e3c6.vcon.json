@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3958e3c6-ca18-82ad-acb3-9e473a5f983c",
+  "created_at": "2026-03-05T13:03:53-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Beverly Thurston",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-05T12:58:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T12:59:00-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. I'm calling about my water and sewer bill. I got a notice, and, um, it says my payment was returned. But I know I sent it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T12:59:15-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can I get your name and the account number from the notice?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T12:59:25-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Beverly Thurston. And the account number, hold on, let me find it. [pause] It's on the top right. Okay, it says account number, four, four, one, seven, dash, zero, nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T12:59:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one seven, dash zero nine. Thank you, Ms. Thurston. Give me a moment to pull that up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T12:59:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Sorry, you're breaking up a little. I'm in the car. [line breaks up] Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:00:01-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you. I'll speak up. I see the account. There was an electronic payment from your bank that came back unpaid about two weeks ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:00:15-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's what the notice says. It says, let me read it, \"payment returned, insufficient funds or account error.\" Which, there were funds. So I want to know where it stands right now. Is the bill still open?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:00:34-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the balance is still open. The returned payment was reversed, so nothing has been applied to it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:00:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's annoying. I had to go through all this already with the bank. Thanks, Priya. Sorry, Pria?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:00:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Priya, but either is fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:00:58-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, is there a payment plan? Because the total on here is, um, [pause] it's more than I want to put down at once."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:01:11-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can usually set up a plan for a balance like this. I'd have you speak with the billing supervisor to arrange the terms, since they approve the schedule. I can take your information and have them call you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:01:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but I'd rather not play phone tag. When would they call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:01:38-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually within one or two business days. If you prefer, you can come to the counter at City Hall and do it in person."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:01:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I work weekdays. So what about Saturday? Can I make a payment on a Saturday? Like, is anything open?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:02:01-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall is closed on Saturdays. But you can pay online any time, including weekends, through the city's website. There's also a payment drop box outside the building that you can use whenever."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:02:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the website. Is that the same thing that failed before? Because I think that's how I did it last time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:02:29-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's likely the same system. The bounce came from your bank's side, so I'd check the account details you entered. If you want to be safe, a check in the drop box works too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:02:47-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I'll look at that. So my number for the call back is four-oh-one, five-five-five, zero-one-eight-two."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:02:56-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-eight-two. Got it. And that's for Beverly Thurston, account four four one seven dash zero nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:03:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. And you said the supervisor will call, right? Thank you, Priyanka."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:03:13-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. I'll note on the account that you're asking about a payment plan, and that the earlier payment was returned, so they have the whole picture."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:03:27-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. I just don't want a late fee on top of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:03:34-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say what happens with fees from here, but I'll put that question in the note for the supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:03:45-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. That's all I needed. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T13:03:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T12:58:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T12:58:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-05T12:58:54-05:00",
+        "end": "2026-03-05T13:03:53-05:00",
+        "duration_seconds": 299,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T12:58:54-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-05T12:58:54-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-05T12:58:54-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-05T12:58:54-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-05T12:58:54-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

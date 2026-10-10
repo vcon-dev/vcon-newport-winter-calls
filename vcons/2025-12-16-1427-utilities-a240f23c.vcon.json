@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a240f23c-e0fe-8295-b9f3-b8d97d5d99c0",
+  "created_at": "2025-12-16T14:28:36-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Aisha Patel",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T14:27:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities, water and sewer billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:27:29-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Tony, good afternoon. I am calling for my mother, she is eighty-one. Her water bill came and it is, um, much too high. Honestly, it is not right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:27:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that. Which account are we talking about?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:27:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The one on, wait. I have two properties, hers and mine, and the papers are all together here. [pause] Sorry, this one is mine. Hers is the other envelope."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:27:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. Read me the account number off the one for your mom."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:27:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yes, this one. It says the usage is double from last quarter. For a woman living alone. Is there any discount, for elderly, or low income? She is on a small pension."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:28:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send you the assistance information for seniors, and we'll flag the reading for a recheck too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:28:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, thank you. And can she pay on a Saturday or Sunday? I work all week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:28:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Office is closed weekends, but there's a drop box outside City Hall, and you can pay online anytime."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:28:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, okay. Before, people just walked in, no calling. Now everything is a computer. Anyway, thank you, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T14:28:34-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy to help. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T14:27:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T14:27:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T14:27:25-05:00",
+        "end": "2025-12-16T14:28:36-05:00",
+        "duration_seconds": 71,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T14:27:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T14:27:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T14:27:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T14:27:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T14:27:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

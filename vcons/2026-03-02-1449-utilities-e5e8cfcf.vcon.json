@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e5e8cfcf-8a89-8a77-ad6c-2a7713b6769b",
+  "created_at": "2026-03-02T14:54:12-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Carlos Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T14:49:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:49:28-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hello. This is Carlos Brito. I manage the building at 64 Dixon Street, up the North End. I got a notice here says my water and sewer payment didn't go through. Bounced, from the bank. I want to know where that stands."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:49:45-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Brito, let me pull up that account. Sixty-four Dixon Street, you said?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:49:51-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sixty-four, yes. Dixon. Same as it's always been."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:49:55-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment. [pause] I see it. A payment was returned by the bank on the account, and the balance has been put back on. So right now that bill shows as unpaid."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:50:09-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Unpaid. Well, that's what I figured. The money was in there, I'll tell you that. I don't know what the bank did with it. Probably the same thing they do with everything, lose it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:50:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't see the reason the bank gave, just that it came back. Was it an automatic withdrawal, or a check you mailed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:50:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A check. I wrote it out, put it in the mail myself, like always. Now I get a letter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:50:40-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. It would help to find out from your bank why it was returned. In the meantime the bill is still open, so you'd want to send a new payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:50:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And is there a fee on top of it? Because I'm not paying a fee for the bank's mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:51:00-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see a note on the account about the return, but I can't tell you an amount from here. I can have someone in the billing office call you back about that. Would that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:51:14-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, fine. Put that down. And while I got you, the bill itself was high, higher than normal. That was last month's. The toilet was running constantly, the whole month. Running and running. I didn't catch it till the bill came."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:51:30-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would certainly do it. A running toilet can use a lot of water. Has it been repaired?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:51:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, fixed. Plumber came, new flapper, whatever it is. Cost me too. So now I got a big bill and a bounced check. Wonderful."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:51:48-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note the repair in the message for billing so they have that context when they call you. Can I confirm the best number to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:51:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0187. That's the landline. I'm home most days, but I don't run to it, so let it ring."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:52:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one eight seven. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:52:12-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Now, here's another thing. I want to pay this right away so it's done. I can't always get down to City Hall during the day. Is there a drop box there, for payments, after you close?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:52:27-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's a payment drop box at City Hall. You can put a check in it outside of regular hours. I'd put the check in an envelope with your account information or the bill stub so it gets applied correctly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:52:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Where is it, the box? On the avenue side or the front?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:52:48-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd look near the main entrance when you get there. If you don't see it right away, the staff at the front desk during business hours can point it out to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:53:01-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Near the main entrance. All right. I'll go by tomorrow and look. Not tonight, it's getting late in the day and I got my neighbor's nonsense to look at."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:53:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh? Is something going on with the neighbor?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:53:17-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, nothing for you. He's been repainting the same shutter for a month. One shutter. Out there every weekend with a little brush. I look out the window and there he is. A month."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:53:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's not something our office handles, but I hope the shutter turns out well."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:53:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's been the same shutter since the first of February. Anyway. So, billing calls me back, I put a new check in the box, and that's all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:53:49-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. I've noted the returned payment, the running toilet repair, and your callback number. Someone from billing should reach out to you. Once your new payment is received, the account will update."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:54:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. I appreciate it. Thank you, Miss Raman."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:54:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Brito. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:54:10-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, you too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:49:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:49:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T14:49:23-05:00",
+        "end": "2026-03-02T14:54:12-05:00",
+        "duration_seconds": 289,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:49:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T14:49:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T14:49:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T14:49:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T14:49:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

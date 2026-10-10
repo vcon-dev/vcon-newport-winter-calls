@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "94591a83-16b9-8d0e-b840-a8135336a7b7",
+  "created_at": "2025-12-05T12:37:36-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Kathleen Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes, good afternoon. I am looking for the post office. I need to know if they are open today, with the storm and everything."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:19-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Um, this is the City Clerk at Newport City Hall. Not the post office. I think you may have the wrong number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:27-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall? No, no, no. I call the post office. Is this not the, the number for the, um, the window for the stamps?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:34-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ma'am. We handle city records, licenses, things like that. The post office is a federal office, so it has its own number."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:41-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ay, okay. I am sorry. I have this old list in my kitchen, very old, I think the numbers they change. Maybe I dial from the list of the last century."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:36:50-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens. Numbers do change. If you look up the post office on your phone, or in a current directory, you should find the right one. They can tell you their hours today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:37:00-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I do that. I only want to send a package, small one. For the trip I am saving, five dollar every week in a jar. So I want to send the little thing before the snow is too much."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:37:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds like a good plan. Just so I'm clear, you want the post office, not anything from the city, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:37:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, correct. Not the city. Only the post office. So you cannot connect me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:37:23-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, I can't transfer you to them. But a quick search should get you there. Stay safe in the storm, all right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:37:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you, thank you very much. You are very patient. Bye-bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-05T12:37:34-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T12:36:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T12:36:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-05T12:36:07-05:00",
+        "end": "2025-12-05T12:37:36-05:00",
+        "duration_seconds": 89,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-05T12:36:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-05T12:36:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-05T12:36:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-05T12:36:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-05T12:36:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

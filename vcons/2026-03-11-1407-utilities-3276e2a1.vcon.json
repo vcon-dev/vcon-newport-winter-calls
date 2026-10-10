@@ -1,0 +1,607 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3276e2a1-545a-887f-bdab-4dc7a3a6d4f0",
+  "created_at": "2026-03-11T14:14:52-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Thomas Brownell",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T14:07:59-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:08:05-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Yeah, I got a reminder notice for a water and sewer bill. Past due. But I never got the original bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:08:17-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can I get your name and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:08:26-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thomas Brownell. 7 Kay Street. Up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:08:32-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Brownell. Give me a moment to pull that up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:08:39-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Sorry, I'm on speaker, I'm kind of in the middle of something. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:08:49-04:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Bear with me. [pause] Okay, I have the account. The reminder notice went out last week. Let me see where the original bill was mailed."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:09:05-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's probably my old place. I moved in the fall."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:09:11-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what it looks like. The original bill was mailed to an address on Thames Street, not to Kay Street. Does that sound like your previous address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:09:26-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. That's it. I did the change with the post office, but I guess that doesn't help with this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:09:37-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Forwarding doesn't always catch utility mail, and the account itself still had the old mailing address on it. So the bill never reached you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:09:50-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And now it says past due. Which, I mean, I didn't know about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:09:59-04:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I can see the bill is open and the reminder is what triggered the past-due notice. Let me first fix the mailing address so this doesn't happen again. Is Kay Street where you want everything sent?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:10:19-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. 7 Kay Street. That's the one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:10:23-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, I've updated it. Do you want the apartment or unit number on there, or is it just the building?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:10:35-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just 7. No unit."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:10:38-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Now, what would you like for the bill itself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:10:44-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can you email me a copy? Right now. So I can see what it is."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:10:53-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can send a duplicate by email. What address should I use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:11:00-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's tbrownell, B-R-O-W-N-E-L-L, at a mail dot com. Wait, no. Put it as tbrownell dot trucks at a mail dot com. That's the one I actually check."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:11:15-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. T, B-R-O-W-N-E-L-L, dot trucks, at a mail dot com. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:11:24-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:11:26-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I've sent it. It should arrive in a few minutes. Sometimes it lands in spam, so check there if it doesn't show up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:11:39-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Trucks is, uh, I have a food truck. It's parked for the season, so I'm not on that email much right now. That's why I'd like a paper one too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:11:56-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Would you like a paper copy mailed as well?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:12:02-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, but a corrected one. Not just the old one reprinted. With the right address on it, and whatever the late stuff is taken off, if that's possible."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:12:17-04:00",
+      "duration": 36,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can have a corrected bill printed and mailed to Kay Street with the updated address. As for the late charge, let me look at what's on there. [pause] There is a late fee posted from the reminder cycle. I can't remove it myself, but I can flag the account and note that the original bill went to the wrong address. A supervisor reviews that kind of request."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:12:53-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I don't know if it comes off."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:12:58-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, I can't tell you that today. What I can tell you is the note will be on the account, and someone will review it before anything else gets sent out."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:15-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "How long does that take?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:18-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a few business days. If you don't hear anything by early next week, call back and we'll check the status."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:30-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. It's just kind of annoying, since the mistake wasn't mine. Well, partly it was, but I did the forwarding."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:42-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. The account just hadn't been updated, and that's on our records. I've noted that you did a post office forwarding as well."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:13:55-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks. And the corrected bill, that's mailed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:00-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it'll go out in the next mail run, to 7 Kay Street. Expect it within a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:11-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Do you have my number in case somebody calls about the late fee?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:19-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do have one on file. Can you confirm it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:25-04:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0158."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:26-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matches. I'll put it in the note."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:31-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Oh, the email just came in. Yeah, I see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:38-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Is there anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:44-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:14:47-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Brownell. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:07:59-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:07:59-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T14:07:59-04:00",
+        "end": "2026-03-11T14:14:52-04:00",
+        "duration_seconds": 413,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:07:59-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T14:07:59-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T14:07:59-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T14:07:59-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T14:07:59-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "9e8b8e4c-e3cf-879f-b3d7-b436af10eaf5",
+  "created_at": "2026-02-23T11:21:54-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Anthony Iannuccilli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-23T11:17:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:17:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. I got my property tax bill and it's higher than last time, and I don't really get why. Is that, like, a thing that happens?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:17:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can happen, sure. Let me pull it up. What's the address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 188 Narragansett Avenue. Fifth Ward, so it's, you know, up past where the bank used to be, if you turn at that corner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll take the address, I'll skip the bank. And the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:19-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anthony Iannuccilli. Two Ls, no, wait, it's I-A-N-N-U-C-C-I-L-L-I. I'm the landlord, it's a rental. I'm not living there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got you. Alright, I see the account. Your bill is up compared to the prior one, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so why? I didn't do anything to the place. No work, nothing. Did they, like, raise it because it's a rental?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, being a rental doesn't do that by itself. Usually it's one of two things. The tax rate changed, or the assessed value changed. Sometimes both."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so what's the assessed, the assessment thing? Is that the same as what the house is worth? Because I thought that was a separate bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:18:59-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close, but not exactly. The assessment is the value the city uses for taxes. The tax is that value times the rate. So if either number moves, your bill moves."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. So the rate times the, okay. And which one moved for me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:14-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "On my screen I can see the total, but the breakdown of the assessment is with the assessor's office. They're the ones who can tell you how the value was figured. I can transfer you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so you guys send the bill but the other office decides the number? That's, okay. I thought it was all you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We collect it, they value it. Two different windows, same building. It's a very exciting system."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ha, okay. Hold on, sorry, my oven's beeping. I'm preheating it for a tray of cookies, so if I trail off, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:49-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Cookies take priority. Do you want the transfer, or do you want me to just send you a fresh copy of the bill first?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:19:58-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yeah, a copy. Can you mail a duplicate? The one I got, I think it went in the wrong pile and I don't know where it is. I only remember the number looked bigger."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:20:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can mail a duplicate. Same address on the bill, the Narragansett Avenue one, or a different mailing address for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:20:18-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same one. Is it, wait, does it go to the rental or to me? I'm not at the rental."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:20:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It shows your mailing address as the Narragansett Avenue property. If you want it going somewhere else, tell me and I'll note it for the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:20:34-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, that's fine, the tenant brings me my mail. Just send it there. Actually, no, hold on. Is that gonna be a problem? Does the tenant see what I pay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:20:45-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a tax bill with the property on it. They'd see an envelope. If you'd rather it go to your own address, give me one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:20:54-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, let me do that. I'll give you my home one. It's, um, you know what, can I just call back with that? I'm not sure I have the zip right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:05-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can. Or I put the request in now to the property address and you tell me if you want it changed. Which one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:13-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Uh, the property one for now. I'll figure it out. And the other office, the assessor, do I call them or do you transfer me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can transfer you right now. If it rings out, you'd want to call back later. Your duplicate is requested, and it should come in the mail in a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:33-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A few days. And that's separate from the, from the why part."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. The copy is from me. The why is from them. Hold on one second and I'll send you over."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thanks. Sorry, I'm still kind of unsure which is which, but I'll ask them."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-23T11:21:51-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Go get your cookies. Transferring now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T11:17:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T11:17:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-23T11:17:45-05:00",
+        "end": "2026-02-23T11:21:54-05:00",
+        "duration_seconds": 249,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-23T11:17:45-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-23T11:17:45-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-23T11:17:45-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-23T11:17:45-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-23T11:17:45-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

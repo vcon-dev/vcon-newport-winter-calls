@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "32c45bc7-a2a0-8e8c-8835-e98903aba28a",
+  "created_at": "2026-02-17T12:31:03-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Zelia Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-17T12:28:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:28:29-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, it's Zelia Tavares. I'm calling about the water and sewer bill for seventy-five Ruggles Avenue. I got a notice saying my payment didn't go through, and, um, it did leave my account, so..."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:28:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. Seventy-five Ruggles Avenue, and the name on the account is Tavares?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:28:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. T-A-V-A-R-E-S. I'm the landlord, the tenants just forward me everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:28:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I see the account. There's a payment that was returned by the bank, and the balance is showing as unpaid again because of that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:04-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Returned. But that's not, the bank told me it was a mix-up on their end, a wrong routing thing, and honestly I've now paid twice for nothing, so..."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:15-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Right now the system shows the original payment as reversed, so the bill is open. If your bank has sent a corrected payment, it may not have posted yet. I can note the account that you're looking into it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:30-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please note it. I don't want a late charge for their mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've added the note. Is there anything else on the account you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:40-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, can you send me a duplicate copy of the bill? By email? I can't find the paper one, I just moved into a new apartment and everything's still in boxes. Hold on, [pause] I'm looking for scissors, sorry, one second."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:55-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:29:57-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, found them. Sorry. The box tape is a nightmare."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. For the email, what address would you like it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:06-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, it's, um, can you use the one on file? I think it's still right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do have one on file. I'll send the duplicate there, and you should see it within the hour. If it doesn't arrive, check your spam folder."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And one more thing. The bill is really high this time. Can the meter be tested? I think it's reading wrong, there's hardly anyone using that much..."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can request a meter test. I'll put in the request, and someone from the water division will contact you to schedule it. Is the best number 401-555-0193?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's the one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. I've got the request and the note about the returned payment. You'll get the email shortly, and the water division will call about the test."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I just wish this had been simpler."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:30:59-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Thanks for calling, Ms. Tavares."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:31:02-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T12:28:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T12:28:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-17T12:28:25-05:00",
+        "end": "2026-02-17T12:31:03-05:00",
+        "duration_seconds": 158,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T12:28:25-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-17T12:28:25-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-17T12:28:25-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-17T12:28:25-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-17T12:28:25-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

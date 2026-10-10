@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "ef662b51-c91d-8323-aa47-1520ecb09e28",
+  "created_at": "2026-01-05T12:21:44-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Omar Rahman",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:52-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:16:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good afternoon. I have a question about my water and sewer bill. I just got it and I'm trying to understand it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:11-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 180 Washington Street. Down in the Point."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "180 Washington Street, okay. Let me pull that up. And the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Omar Rahman. R-A-H-M-A-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Mr. Rahman. I have the account here. What's the question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:30-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the bill covers, um, a quarter. Three months. Why is it a quarter? My electric is monthly. And how do you count the dates? The dates on it look odd to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:17:44-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a common one. Water and sewer are billed quarterly here, so each bill covers about three months of use. The dates are the meter reading dates, so it runs from one reading to the next, not from the first of the month to the end of the month."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:18:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "From one reading to the next."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:18:07-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So your last reading was in early October and this one was early January. The bill covers the use between those two reads, give or take a few days depending on when the reader could get it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:18:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Give or take a few days. Okay. Because mine says, let me look, it says an estimated read. What does that mean?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:18:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Estimated means nobody got an actual number off the meter, so the bill is based on your past usage. Is your meter inside the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:18:43-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's in the crawlspace. Nobody goes in there. I mean, nobody enters it, not me, not anybody. It's tight, it's dirt floor, [line breaks up] haven't been in there in years."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:18:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you broke up a little. You said nobody goes in the crawlspace?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:02-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nobody goes in the crawlspace. Right. So I assume that's why it's estimated."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:08-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be my guess, yeah. If the reader can't get to the meter, it gets estimated. Do you know if there's a remote reader outside, a little device on the wall by the meter pipe coming through?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A device on the wall. I don't think so. I've never noticed one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:29-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then what I'd do is note the account and have the meter folks contact you about getting an actual read or looking at the setup. I can send that over today. Would the number on file work for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The number on file. Yeah, that's fine. It's 401-555-0173 if you want to confirm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0173. That matches. I'll put in the request. They'll call you to set something up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:19:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:20:01-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And just so you know, the estimate gets trued up whenever there's a real reading, so you won't lose anything either way. It just adjusts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:20:12-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It adjusts. Okay. One more thing. Can I pay it on a Saturday or Sunday? I'm at work during the week and City Hall is closed on the weekend, right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:20:24-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall's closed weekends, correct. But you've got options. There's a payment drop box you can use any time, and you can pay online through the city's website, which works around the clock, weekends included."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:20:38-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, weekends included. And the drop box, that's at City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:20:43-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, at City Hall. Checks only in the box, no cash. Put your account number or the bill stub in with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:20:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Checks only, with the stub. Okay. And if I pay online on a Sunday, does it count that day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:21:00-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally it posts as of the day you submit it, though sometimes it shows up on the account the next business day. It's fine as long as you pay before the due date on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:21:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before the due date. Okay. That works. I'll do it online then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:21:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:21:25-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Oh, actually, I should let you go, I have to stop on the way home and buy a new vacuum bag. Anyway. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:21:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Mr. Rahman. The meter folks will be in touch. Take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T12:21:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T12:16:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T12:16:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T12:16:52-05:00",
+        "end": "2026-01-05T12:21:44-05:00",
+        "duration_seconds": 292,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T12:16:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T12:16:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T12:16:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T12:16:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T12:16:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

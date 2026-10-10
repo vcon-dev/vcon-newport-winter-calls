@@ -1,0 +1,811 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "346bb678-15a1-85ca-9b58-89120f8bcdd3",
+  "created_at": "2026-02-26T12:39:21-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carol Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T12:30:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax and collections, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:30:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hello? Oh, I'm sorry. Can you hear me all right? I'm on the speaker."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:30:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you, but very faintly. Could you speak up a little, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:30:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry, I can't, really. I'm in a, well, I'm somewhere I shouldn't be loud. Is this better? I'm sorry to bother you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:30:48-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a little better. You're not bothering me, ma'am. What can I help you with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:30:54-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, I'm calling about property tax. I think. I rent, you see, so I'm not sure I'm even calling the right place. But my landlord's bill, there's a, I'm doing a refinance, and the bank wants some papers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:31:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Just so I understand, you rent the home, but you're the one refinancing? Or is it the owner refinancing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:31:16-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, no, no, I'm sorry, that's confusing. I rent a unit, but I also own a little two-family. My mother's old house. That's the one I'm refinancing. I live in the other place now. Is that, did I say that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:31:30-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's perfectly clear. So the property you own is the one with the tax bill, and the lender is asking for documentation."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:31:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. The loan lady said they need a copy of the paid bill from last year. Or maybe it was the year before. [pause] Sorry. Is that something you can do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:31:50-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can provide a copy of a past bill, and if it was paid, we can show the payment status. Which fiscal year did the lender specify?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:32:00-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, I wrote it down. [pause] I wrote it on the envelope. She said the most recent full year that was paid. So would that be last year? Twenty twenty-four? Twenty twenty-five? I'm sorry, I don't understand how the years work."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:32:15-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be confusing. Our tax bills are named for the fiscal year, which runs from July to June, and they're issued in the summer. The most recent fully paid bill would depend on the quarters you've paid. Do you have the property's address or the plat and lot number from a previous bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:32:33-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh dear. I don't think I have the address, I mean I know the address, I just, I'm not supposed to, I mean, I can't say it right now, there are people near me. Is there another way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:32:46-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ma'am, I do need some way to identify the account. Do you have the owner's name as it appears on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:32:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It's Wilcox. Carol Wilcox. W-I-L-C-O-X. Is that enough? I'm sorry."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:32:59-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I'll search by name. [pause] There are a couple of Wilcox entries. Is the property in your name alone, or is it also in your late mother's name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:10-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Um. I think it's just mine now. It was changed, I think, a few years back. Or maybe it's still, I don't know. Should I know that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. I'm looking at one listing under Carol Wilcox, a two-family residential. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:27-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A two-family, yes. That sounds right. Is that the one? You're sure? I don't want to get the wrong paper for the bank."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:35-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't be fully certain without the street address. If you can write it down and read it to me quietly, or whisper it, that would settle it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me try. [pause] Can you hear me? I'll say it slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:50-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, I'm listening closely."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:33:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[inaudible] I'm sorry, I'm going to say, I don't think I want to say it, can you read me what you have and I'll say yes or no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:34:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's acceptable. The record I'm looking at is a two-family residence with the owner listed as Carol A. Wilcox. The assessor's lot number begins with a one-four. Does that match anything on your paperwork?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:34:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fourteen, yes, I think there was a fourteen. Yes. That's it, I think. Okay. Yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:34:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Then I'll treat this as the account. Now, the lender wants a copy of a paid bill. I can mail it, email it, or you can pick it up. Which would you prefer?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:34:33-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail would be, hmm. Could it be, can you email? No, wait. I don't think I have, my niece set up the email. Could you mail it? Oh, but then it goes to the house, and it's the tenants who get the mail there. Is that a problem?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:34:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill copy would go to the mailing address on the account. Is the mailing address the same as the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:34:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe it's, no, it's my place. My apartment. I changed it. Did I change it? [pause] I'm sorry, I'm not sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:35:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The mailing address on file is not the property address. It's a different street address. I'm not going to read it aloud, but if it's yours, you'll recognize the street. It's a Memorial Boulevard address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:35:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Memorial. Yes, that's me. That's where I live. Good. Okay, so mail would work then."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:35:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I'll request a copy of the most recent fiscal year bill showing the payment record. Typically it goes out within a few business days. Is the bank in a hurry?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:35:34-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a bit. She said the closing is at the end of March. And, oh, there's another thing. She also wants a payoff figure. Is that the right word? Through a date. I wrote it down. March thirtieth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:35:47-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. A payoff figure for property taxes would be the total owed through March thirtieth, including any unpaid quarters and interest. Let me look at the account. [pause] One moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:35:58-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Take your time. I'm sorry for all the questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:36:03-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not at all. [pause] Thank you for waiting. The account shows the first and second quarters of the current fiscal year as paid. The third quarter, the one due in February, is also showing as paid. The fourth quarter would come due in May."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:36:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, wait. So I owe nothing now? But the bank wants a number. Is it zero? Or is it the May one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:36:26-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "As of today, the balance past due is zero. If the closing is March thirtieth, the fourth quarter is not yet due, but the lender may want it accounted for, since it's billed already. I can give you the amount of that fourth installment as a figure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:36:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. I see. No. Wait. So there are two numbers? One is what's due, and one is the whole year?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:36:49-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Think of it this way: what is past due is zero. What remains to be billed for the year is the fourth quarter. The title company usually decides how to handle that at closing. A formal payoff letter is something we can issue in writing through the date you specify."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:37:06-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter. Okay. So I'd need to ask for the letter. Is it the same as the bill copy, or separate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:37:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Separate. The bill copy is one request and the payoff letter is another. I can note both on your account today. For the letter I'll put March thirtieth as the through date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:37:25-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. March thirtieth. Can you say it back? I want to be sure I said it right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:37:32-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Payoff figure through March thirtieth of this year. Plus a copy of the last paid bill. Both mailed to the Memorial Boulevard address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:37:40-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's right. Thank you. Oh, but the last paid bill, is it last year's, or the one I just paid? The bank said paid. Does the one from this year count, since I paid it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:37:53-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The current fiscal year bill is a single bill with four quarters, and it's not fully paid yet. So the lender most likely means the prior fiscal year, which is fully paid. I'll request that one. If they want the current one too, I can add it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, so that's the one that ended last June. Okay. Please do both, then, just in case. If it's not trouble."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's no trouble. I'll request both, the prior year fully paid and the current year showing payments to date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:25-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. [pause] Sorry, can you tell me again which is which? I think I mixed them up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. One: last fiscal year's bill, fully paid. Two: this fiscal year's bill, three quarters paid. Plus the payoff letter through March thirtieth. Three items."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:41-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three items. Okay. And how long until they come?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:45-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Allow about five business days for mailing. If the lender needs them faster, you could ask her whether a faxed or emailed copy would work, and call us back with that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:56-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll ask her. Do you need my phone number, in case there's a question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:01-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:03-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's four-oh-one, five-five-five, oh-one-nine-four. Is that clear? I'm whispering."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:07-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-nine-four. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:09-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That's right. Thank you so much. I hope I did all that right. I'm sorry again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You did fine, Ms. Wilcox. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:19-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T12:30:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T12:30:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T12:30:22-05:00",
+        "end": "2026-02-26T12:39:21-05:00",
+        "duration_seconds": 539,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T12:30:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T12:30:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T12:30:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T12:30:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T12:30:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

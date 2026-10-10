@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fd2605fd-0793-85d1-b62d-ccf345bd55ea",
+  "created_at": "2026-01-07T13:31:30-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Antonio Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Happy Wednesday, what can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:16-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes. I have a parking ticket. The plate is wrong. It is not my plate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Wrong plate on the ticket. Do you have the ticket number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:29-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. One moment. [pause] My cousin is here, he helps me with English. I say, he says it again, okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, no problem. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:40-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The number is four, four, one, seven, zero, nine. The ticket says a plate, but my car has different letters. I do not park there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:50-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Let me pull that up. [pause] Yeah, I see the ticket. I can note that you're disputing it because of the plate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:30:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Please, I want the photo. The photo of the violation. Can you send it by email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:31:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. What email address should I use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:31:10-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My cousin will say it. [pause] Sorry, the light on my kitchen table, it moves while we talk. The sun. It is almost on my phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:31:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, keep the phone out of the spotlight. Go ahead with the email whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T13:31:26-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, he is writing it now. One minute. Thank you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T13:30:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T13:30:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T13:30:11-05:00",
+        "end": "2026-01-07T13:31:30-05:00",
+        "duration_seconds": 79,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T13:30:11-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T13:30:11-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T13:30:11-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T13:30:11-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T13:30:11-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

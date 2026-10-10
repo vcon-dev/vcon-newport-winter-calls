@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bbd816bb-2d48-80a1-835a-560673a616b2",
+  "created_at": "2026-02-24T12:52:42-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Barbara Gifford",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T12:48:31-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:48:35-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Before anything else, could I get your name again? Tony, and is that with an F or a P-H?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:48:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tony Ferreira, F-E-R-R-E-I-R-A. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:48:45-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony. My name is Barbara Gifford. I'm calling for my mother about her water and sewer account. The address is 224 Gibbs Avenue, on the Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:48:56-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Is your mother's name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:00-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is. I help her with the bills. She's in her nineties and doesn't do the paperwork anymore. I have her permission, and I'm sitting right here with her mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Let me pull up the account. What's going on with it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:16-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A payment from her bank bounced. It was the last water and sewer bill. I got a notice saying it was returned, and I want to know the current status. Is it still showing as unpaid?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:29-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Give me one second. [pause] Okay, I see it. The payment came back returned from the bank, so right now the balance is showing as open. Nothing has been applied to it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Open. Let me write that down. Balance open, payment returned. Is there a late charge on it yet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:47-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's interest starting on the past-due portion, but it's small so far. The sooner it gets paid, the less it grows. Is there a reason the payment bounced? Do you know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:49:58-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe it was a timing problem on the bank side, a transfer that hadn't cleared. I've fixed that. But that brings me to the other thing. The bill itself is too high."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:50:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. How high compared to normal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:50:13-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "About double. Last month the toilet in the downstairs bathroom was running constantly. The flapper was bad. We didn't know for a few weeks. It's been replaced now, but the usage on this bill is far above what she ever uses."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:50:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, yeah. A running toilet can add up fast, a lot of gallons a day. That would explain a jump like that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:50:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I figured. So how do I dispute the charge formally? I want to do it properly, in writing if that's what's needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:50:44-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Generally you'd send a written request to the billing office. Put the account holder's name, the service address, the bill date, and a short explanation of what happened and when it was fixed. If you have a plumber's receipt or a receipt for the part, include that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a receipt for the part. Hold on, I'm writing. Name, address, bill date, explanation, receipt. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Say what you're asking for, an adjustment review of the usage. And add a phone number where they can reach you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Where do I send it? Mail, or can I bring it in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:22-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it to the billing counter at City Hall during business hours or mail it to the utilities billing office. I can give you the mailing address if you have a pen."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:34-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the Utilities Billing Office, City Hall, 43 Broadway, Newport, Rhode Island, 02840."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:41-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Forty-three Broadway, Newport, 02840. Got it. Will the bill be on hold while they review it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:51:47-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd ask that when you submit it. I can put a note on the account that a dispute is coming, so it's flagged. But the returned payment still has to be dealt with, so I'd get the undisputed part squared away."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:52:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Please add the note. And I'm giving you my callback number in case someone has questions. It's 401-555-0191."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:52:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0191. Noted on the account, with your name as the daughter helping out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:52:14-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you. One more thing. I'm sorry, I'm surrounded by a stack of winter coats here that I'm sorting for a donation drive, so I keep losing my place. Let me read my notes back. Returned payment, balance open, interest small, written dispute with receipt, mailed to 43 Broadway, note on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:52:33-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's all correct. Nicely done."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:52:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Tony. That's everything I needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T12:52:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Barbara. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T12:48:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T12:48:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T12:48:31-05:00",
+        "end": "2026-02-24T12:52:42-05:00",
+        "duration_seconds": 251,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T12:48:31-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T12:48:31-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T12:48:31-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T12:48:31-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T12:48:31-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

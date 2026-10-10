@@ -1,0 +1,523 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fc12d2d0-f8ef-849d-8779-bfcd517fb1fe",
+  "created_at": "2025-12-22T14:40:03-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Antonio Vieira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T14:33:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:33:44-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hi. Wow, that was fast. I figured I'd be on hold for ten minutes, I was getting ready to put it on speaker and do dishes or something."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:34:00-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You caught us at a quiet moment. Monday afternoon, a couple days before Christmas. What can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:34:11-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I've got two questions. First one, the trash and recycling schedule. With the holiday week, is my pickup moving? And what's the schedule going to be after that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:34:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Let me pull that up. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:34:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 20 Bliss Road. Over by Easton's Beach side, kind of up from the water."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:34:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Twenty Bliss Road, okay. I'm writing that down. And what day do you normally get picked up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:34:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thursday. Normally Thursday, trash and the recycling alternates, I think. I never remember which week is which."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:35:01-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, that's pretty common. So Thursday is Christmas Day. When a holiday lands on your day, collection generally slides back a day, so you'd be looking at Friday that week. Let me double check how it's laid out for your zone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:35:23-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Friday, so the twenty-sixth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:35:26-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, Friday the twenty-sixth. And then New Year's Day is also a Thursday, so same thing, it'd slide to Friday the second. After that you're back to regular Thursdays the week of the eighth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:35:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, let me make sure I've got this. Friday the twenty-sixth, Friday the second, then Thursday the eighth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:35:55-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Now which one is recycling, I'd have to look at the calendar for your street. Give me a second. [pause] Okay, I'm seeing recycling on the twenty-sixth, so trash and recycling both then, and the second would be the other one, depending on how it alternates."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:36:20-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm, so I should just put out whatever the bin sticker or the calendar says."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:36:28-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd go by the calendar, yeah. If you want, I can have the schedule mailed or you can grab it on the city website. It's got a printable one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:36:44-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll look at the website. That's fine. Okay, second question. My recycling bin cracked. Like the whole side split when it was cold the other morning, and the lid's kind of hanging off. How do I get a replacement?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:37:05-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, cracked bin. Yeah, we can do that. I'll put in a request with your address. Is it the blue one, the recycling bin?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:37:18-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the blue one. The big one with wheels."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:37:23-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Wheeled blue recycling cart, cracked side, lid damaged. Is it still usable at all or is it basically done?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:37:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's kind of done. I've been taping it but it's not going to survive the next pickup, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:37:45-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll note that it's not usable. Just so you know, delivery usually takes a little while, especially this time of year, so keep using the old one as best you can, or if you've got a sturdy bin or a box, put recycling out in that and mark it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:38:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I just put it out in a cardboard box?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:38:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally a box is fine for paper and cardboard. For bottles and cans I'd use a rigid container so it doesn't blow around. Just label it recycling."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:38:32-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that works. So do I need to do anything else, like fill out a form, or is the call enough?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:38:44-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The call is enough, I'm entering it now. Can I get a name and a number in case the crew has a question?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:38:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Antonio Vieira. V-I-E-I-R-A. And the number is 401-555-0167."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:02-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Antonio Vieira, 401-555-0167. Perfect. And that's the address, 20 Bliss Road?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, 20 Bliss Road."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:11-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. You're in the system. Someone from the crew should drop the new cart at the curb. Nothing you need to be home for."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:24-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Do they take the old one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:28-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually they'll pick up the broken one when they bring the new one, so leave it by the curb with the lid on if you can. I'll add a note."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:44-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Leave it at the curb. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Thanks a lot, I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:39:58-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, Antonio. Happy holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T14:40:01-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T14:33:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T14:33:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T14:33:41-05:00",
+        "end": "2025-12-22T14:40:03-05:00",
+        "duration_seconds": 382,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T14:33:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T14:33:41-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T14:33:41-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T14:33:41-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T14:33:41-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

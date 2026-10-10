@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e69ab7b2-2049-8c9d-85e4-e3925a936310",
+  "created_at": "2026-02-18T11:09:29-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Gloria Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T11:05:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:05:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, finally. Okay, so I've already called three wrong numbers this morning. I'm pretty sure I'm on a first-name basis with a guy at the water division now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:05:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, you've got the right place for taxes at least. What's going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:06:03-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I got my property tax bill in the mail, and it's got the wrong square footage for my house. Like, wicked wrong. It says almost double what we actually have. We've got a little Cape, it's not a mansion."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:06:20-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And you're looking at the bill right now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:06:25-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I've got it right here. It's got a building size on it and it's totally not our house. I measured, I'm not guessing. Well, I mean, the previous owners had a plan from when they bought it, and that matches what I'm saying."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:06:44-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So here's the thing, I can see the bill amounts and payments on my end, but the square footage and the property description come from the assessor's office. That's who'd have to look at the record and fix it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:07:02-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course it is. Okay. Can you transfer me, or is that gonna be a fourth wrong number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:07:10-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can try, but they're not always at their desks. Do you want their hours first so you're not stuck in voicemail?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:07:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, actually, that's what I was gonna ask. What are the assessor's office hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:07:27-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They're in City Hall, same as us, and they keep regular weekday business hours, so generally morning through late afternoon, Monday to Friday. Closed weekends and holidays. Since it's just past eleven on a Wednesday, you're in the window right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:07:45-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. And do I still have to pay the whole bill while this is getting sorted out? Because the due date is not exactly far off."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:07:57-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question, and the assessor's office can tell you how a correction works and what it does to the bill. I'd ask them that directly, and ask them what they need from you. A copy of those old plans would probably help."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:08:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do have those. Scanned them and everything. I was hoping this would be a two-minute call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:08:24-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, those are never two minutes. Let me try to connect you. If it rolls to voicemail, leave your name, the property, and what's wrong with the record. Short and specific."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:08:37-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Should I leave my number too? It's 401-555-0199."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:08:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, give them that. Say it slowly, they always play those back at double speed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:08:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, totally. Slow. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:08:52-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One more thing. Hang onto the bill, and if anything changes, a corrected bill would come from our side after they update the record. If you don't see one, call us back and ask for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:09:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I will. Thanks, Luis. Sorry, I'm not mad at you, it's just, the bill's wrong and I had to figure that out myself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:09:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, I'd be irritated too. Okay, putting you through now. Hold on."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T11:09:24-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, holding. Fingers crossed it's the right number this time."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:05:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:05:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T11:05:39-05:00",
+        "end": "2026-02-18T11:09:29-05:00",
+        "duration_seconds": 230,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T11:05:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T11:05:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T11:05:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T11:05:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T11:05:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

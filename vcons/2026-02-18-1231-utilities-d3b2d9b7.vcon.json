@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d3b2d9b7-afb0-88c3-a6b7-cc34b708ef10",
+  "created_at": "2026-02-18T12:34:48-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sofia Pacheco",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T12:31:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good afternoon. My name is Sofia Pacheco. I'm calling about my water and sewer bill. Let me explain what happened, in order."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:12-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:14-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was out of town for six weeks, from the end of December through the first week of February. Nobody was staying at the house. I shut things off the best I could, and I came home to a bill that shows a very high amount of usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:32-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:35-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's 126 Mill Street, up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:39-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I'm pulling it up now. [pause] I see the bill you mean. The reading for this period is well above your usual quarter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And the bill says consumption, and then a number. Could you explain what consumption means exactly? I want to be sure I understand the term."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:32:59-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Consumption is just the amount of water that went through your meter during the billing period. It's measured in units, and the charges are based on that number. The sewer charge is usually figured from the same number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:33:14-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not a charge, it's the measurement itself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:33:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The measurement comes first, and the dollar amount is calculated from it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:33:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that helps. Then my question is, how could the meter measure that much if nobody was home? Can the meter be tested?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:33:33-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can request a meter test. Usually we'd also have someone check for a leak on your side, like a running toilet or a broken pipe, since that's the most common cause. I can put in the request for you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:33:48-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. I'd like both. I walked through the house when I got back and didn't see any water, but I'd rather have it checked properly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:33:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note that you were away for the six weeks. What's the best number to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:34:05-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0182. I'm usually at work during the day, so a message is fine. I carpool with a neighbor who is always late, so some days I'm not even home until after six."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:34:18-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll note that a message is fine. Someone from the meter group will call you to schedule. Until the test is done, I'd suggest you hold off on the bill and ask them about it when they call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:34:33-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Do I need to do anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:34:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything for now. The request is in under your address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:34:42-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Priya. I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:34:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T12:31:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T12:31:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T12:31:58-05:00",
+        "end": "2026-02-18T12:34:48-05:00",
+        "duration_seconds": 170,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T12:31:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T12:31:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T12:31:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T12:31:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T12:31:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d3752b30-556d-86f2-89f9-f9e1302e5fd9",
+  "created_at": "2026-03-05T11:52:43-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Barbara Lawton",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-05T11:49:10-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:49:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes. My name is Barbara Lawton. I have a question about my property tax. The bill, I get it, but I am not sure about the assessment. It look too high to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:49:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you have the bill in front of you? What's the address on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:49:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. One eighty-eight Bliss Road. One eight eight. It is near Easton's Beach side."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:49:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Ms. Lawton. So what are you trying to figure out, the amount or the assessment itself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:49:48-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both, maybe. I want to ask about appeal. The assessment appeal. How I do it, and what is the deadline? I do not know if I am already late."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:50:00-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So an appeal goes through the tax assessor's office, and there's a filing window after the bill goes out. The exact date should be printed on your notice, usually on the back. Can you look for something that says appeal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:50:16-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. The back. [pause] Okay, I see small writing. It say appeal must be file within some days. But I do not understand, days from what? From the bill, or from the letter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:50:29-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Usually it counts from the notice date, not when you opened it. Read me the date at the top of that section."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:50:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It say December. Then I am late? Or not late?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:50:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't tell you for sure from here. The assessor's office can confirm whether you're still in time. I can transfer you after we're done, or give you their line."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:50:56-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, transfer is good. Before that, another thing. I want to change mailing address. The bill go to my old place, my friend get it. How I change?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:07-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'll want to send it in writing, with the property address, your name, and the new mailing address. You can mail it in or drop it off at City Hall. Put your signature on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:21-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Writing. Signature. Okay. I write today. So, the bill, I think I just pay now, so no penalty. Eight hundred forty-five dollars and twenty-five cents. Eight forty-five, twenty-five. Can I use credit card on the phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:35-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure can. Go ahead whenever you're ready with the card number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:40-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Five one zero five, one zero five one, zero five one zero, five one zero zero. Five one zero five, one zero five one, zero five one zero, five one zero zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thanks. Expiration date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:56-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one, thirty. January, twenty thirty."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:51:59-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. That's eight hundred forty-five twenty-five going on the card. I'll note a confirmation for you. Paying doesn't affect your right to appeal, by the way, so that part's fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:52:11-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. I was worry about that. Thank you. And my friend is visiting from Canada next month, so he cannot get my mail anymore, he is not here. That is why I fix the address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:52:25-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense. Get that letter in soon, then. Let me put you through to the assessor's office. If it drops, call back and ask for them directly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:52:36-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Assessor. Thank you very much, Mr. Luis."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-05T11:52:40-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Hold on one second."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T11:49:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T11:49:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-05T11:49:10-05:00",
+        "end": "2026-03-05T11:52:43-05:00",
+        "duration_seconds": 213,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-05T11:49:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-05T11:49:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-05T11:49:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-05T11:49:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-05T11:49:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "316037fb-7dfe-8aea-80e1-ec7829f5c204",
+  "created_at": "2025-12-01T13:22:01-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Amara Kim",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T13:16:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, property tax and collections, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:16:34-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, and thank you for taking my call. My name is Amara Kim. I am calling about a property tax bill that arrived at my address, and thank you for your help."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:16:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Ms. Kim. What is the address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:16:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 206 Annandale Road, in the North End. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:16:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And what is the concern with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:17:01-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I recently became the owner of the house. I closed on it about three weeks ago. The bill that came in the mail is in the name of the seller, not my name. I wanted to be sure I am not doing something wrong by having it. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:17:20-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is quite common, Ms. Kim. Tax bills are generated from the assessment records as of a certain date, so a bill can go out under the previous owner's name if the deed was recorded after that. The bill is tied to the property, not to the person."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:17:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Thank you. So the bill is still valid, even though the name is not mine?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:17:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is still valid, and the responsibility for it follows the property. Has the deed been recorded, to your knowledge?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:17:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I believe so. The closing office told me they would record it. I have a copy of the paperwork with a stamp, I think. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:18:03-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That should be sufficient. The assessor's office updates the owner of record once they receive the recorded deed. It can take some time to show up on the billing side. Your next bill should carry your name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:18:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is helpful, thank you. Do I need to do anything to make that happen, or will it happen by itself?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:18:25-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally it happens on its own. If you want to confirm, you can call the assessor's office and ask whether the transfer has been entered. I can give you their main number through the city operator, or I can transfer you now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:18:41-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perhaps later, if that is all right. Thank you. I have a second question, if I may."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:18:48-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:18:50-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand there may be an exemption that I could apply for. I am not sure which one applies to me, but I would like to get the form. Could you tell me the form number for an exemption? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:19:06-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are several exemptions, Ms. Kim, and each has its own application. Which kind are you asking about? For example, there are exemptions for veterans, for elderly homeowners, for the blind, and for certain disabilities."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:19:19-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. I see. I think the one I heard about was the homestead one, for living in the house as my primary home. Is that a separate form? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:19:31-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Newport does not use a form number that I can quote to you from memory with confidence for that. The applications are available from the assessor's office, and they are generally on the city website under the assessor's page. The exemption forms are filed with that office, not with Finance."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:19:50-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. So the assessor's office is the right place for the form. Would they be able to tell me the number of the form, and which exemption I qualify for? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:20:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. They can identify the correct application and tell you the filing deadline. I would recommend you ask them while you confirm the deed transfer, so it is one call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:20:15-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. Thank you. May I ask one more thing about the current bill, since it is in the seller's name? Can I still pay it myself? Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:20:27-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, anyone may make a payment toward a bill. The payment is applied to the property account. I would suggest keeping your receipt."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:20:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Also, the closing office said the seller might have prorated some of the taxes. I am not certain how that works. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:20:46-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Proration is handled between the buyer and seller at closing, and that is not something the city sees. Your closing statement should show it. The city only looks at what has been paid on the account. You can ask us what has been paid, and we can tell you the balance."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:05-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. May I ask for the balance now? I can give the address again. It is 206 Annandale Road."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:13-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One moment, please. [pause] I have the account. The current quarter shows as unpaid and the prior quarter shows as paid. The due date is printed at the top of your bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:25-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That matches what I see. I will be careful with the date. I am saving up for a used pickup truck, so I want to avoid any late charges. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Paying by the due date will avoid interest. Is there anything else I can assist with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that is all. You have been very kind. Thank you for your time, and I will call the assessor's office. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You are welcome, Ms. Kim. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:21:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. Thank you, goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:16:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:16:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T13:16:28-05:00",
+        "end": "2025-12-01T13:22:01-05:00",
+        "duration_seconds": 333,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:16:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T13:16:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T13:16:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T13:16:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T13:16:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

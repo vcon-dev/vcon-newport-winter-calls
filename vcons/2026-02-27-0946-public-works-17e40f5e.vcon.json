@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "17e40f5e-21df-8935-92bc-984c73b843c7",
+  "created_at": "2026-02-27T09:51:16-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Liam Kearney",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-27T09:46:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:46:14-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Liam Kearney. Bottom line, there's a puddle across half the road in front of my house and it won't drain. It hasn't rained in three days. Nothing. It's just sitting there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:46:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a puddle that's not draining and no rain recently. Can I get the address, Mr. Kearney?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:46:39-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "420 Van Zandt Avenue. North End, up toward the corner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:46:44-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "420 Van Zandt Avenue. Got it. And you said it covers about half the road?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:46:52-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Half the width, yeah. Cars are swerving around it into the other lane. It's been there since Monday, maybe Sunday night. Dry as a bone all week and it's still there, so it's not rainwater. Something's backed up or leaking."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:47:11-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. Is the water moving at all, or is it standing? Any smell or color to it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:47:20-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Standing. Clear, no smell. There's a little trickle coming in from the uphill side, I think, but I can't tell where from."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:47:31-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a slow trickle from uphill and clear water. That's helpful for the crew. Is there a storm drain right near it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:47:42-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a catch basin about fifteen feet down. The puddle's below it, so it's not even reaching it. Look, I called about this before, a while back. Different spot on the same street, same kind of problem. Somebody told me it was a state road and not the city's problem."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:48:05-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Do you remember who you spoke with, or roughly when that was?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:48:12-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No name. Last fall, I think. They said state road, call the state. I never got anywhere with that. So I'm asking again. Is Van Zandt state or city? Because I'd like a straight answer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:48:29-05:00",
+      "duration": 30,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair question. Some of the bigger through roads in Newport are state-maintained, but I don't want to tell you wrong on that stretch. Let me check the road responsibility with the engineers here, and if it's the city's, I'll open a work order today. If it turns out to be the state's, we'll pass it to them ourselves so you're not doing the legwork."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:48:59-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd be nice, honestly. I'm not running around chasing three offices. I've got enough on my plate. I got laid off a few weeks ago, so I'm home a lot, job hunting, and I see this thing every time I look out the window."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:49:20-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a lot to deal with. Well, at least you can tell us if it changes. Do you want to give me a callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:49:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. 401-555-0196. That's the landline, so if I'm out, leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:49:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-six. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:49:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:49:44-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. So I have 420 Van Zandt Avenue, standing clear water across about half the road, no rain for three days, a trickle from uphill, and a catch basin about fifteen feet away. I'll also note that you were told before it was a state road."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:50:06-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And if it's a water main or something, say so. I don't want it sitting there another week while two agencies point at each other."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:50:19-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put that in the note, that it may be a leak and not surface runoff. If it's a main, that could go to the water division instead, and I'll flag it either way."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:50:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can somebody call me back when it's done? Not when it's scheduled. When it's actually fixed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:50:44-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll ask for a callback once the work is finished, and I'll note that you want to hear when it's done and not just scheduled."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:50:57-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's all I want."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:51:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll get this over to the engineers right after we hang up. Anything else, Mr. Kearney?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:51:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:51:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Have a good weekend."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:46:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:46:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-27T09:46:09-05:00",
+        "end": "2026-02-27T09:51:16-05:00",
+        "duration_seconds": 307,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:46:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-27T09:46:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-27T09:46:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-27T09:46:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-27T09:46:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

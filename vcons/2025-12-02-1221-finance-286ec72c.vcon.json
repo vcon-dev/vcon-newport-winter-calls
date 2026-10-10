@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "286ec72c-8cce-8044-9e69-6faf130266df",
+  "created_at": "2025-12-02T12:24:23-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Paula Correia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T12:21:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:21:12-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hello, Luis. Yes, um, my name is Paula Correia, and I got a letter in the mail, and I'm not sure it's even meant for me, but it has Newport on it, about a parking ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:21:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Who's the letter from, the city or somebody else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:21:28-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. It's from a rental car company. I rented a car back in the fall, for my sister's visit, so we could get around, and now they sent me this paper saying there was a ticket, and they paid it, or they're passing it on, I can't tell which. And there's extra fees on it. A handling charge, something like that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:21:46-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that happens. The city issues the ticket to the plate, the rental company gets it, and then they send it along to you, usually with their own fee on top. Does the letter have a ticket number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:21:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It has a number, yes. Let me find my glasses. [pause] Here. It's got a long one at the top, and then another one lower down that says citation. Which one do you want?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The citation number. Read me that one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:11-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, it's, hold on, it's smudged. I think it's a seven. Or a one. Luis, I'm eighty-some years old, I don't park where I'm not supposed to, I don't think. Is this from the city, or is the fee from the car people?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fine is the city's. The handling fee is the rental company's, and I can't do anything about that part. You'd call them for it. Let me try looking it up by your name and the plate, if the letter shows a plate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:36-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It shows a plate, but it's not mine, it's the car's. Is that the right one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the one I want, actually. Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:44-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, it starts with two letters, and then, wait. I'll read it slow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, I'm not going anywhere. Lunch can wait."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:22:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, you're sweet. Now, while you look, can I ask, this is the first ticket I ever got. Is there a way they can waive it, the first one? Does the city do that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:23:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There can be a review process, but I can't promise a waiver over the phone. I'll tell you how to ask for it once I see what the ticket is for."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:23:12-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And, um, if I did pay it, I'm usually up at night, I don't sleep, and City Hall will be closed. Could I pay it online tonight? Or does it have to be in the daytime, with a person?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:23:24-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay online any hour, there's a payment page on the city website. There's also a drop box at City Hall for checks. You'd just need the citation number, which is why we need to clear that smudge."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:23:35-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, the computer. My niece set it up, I don't know that I remember. I'll try. So the citation number is what I need, and not the long one at the top."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:23:45-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the citation number. Not the top one, that's the rental company's reference."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:23:49-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Well, this is a mess. I'm like that at home too, I try to buy in bulk, you know, to save, and now I have so much paper towel I can't shut the closet. Forty rolls, Luis."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:24:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a lot of spills you're ready for. Okay, I found a citation under that plate. Meter expired, one day in October. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:24:08-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "October, yes, that was the weekend my sister came. So it's real, then. Not a scam."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:24:13-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's real. I'll give you the number, and you write it down big, so you can read it tonight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T12:24:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, let me get a pen. Go ahead, slowly, please."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T12:21:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T12:21:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T12:21:08-05:00",
+        "end": "2025-12-02T12:24:23-05:00",
+        "duration_seconds": 195,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T12:21:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T12:21:08-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T12:21:08-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T12:21:08-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T12:21:08-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8acfa115-c62e-8cba-88f5-9df0452c5475",
+  "created_at": "2026-01-26T13:29:47-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Beatriz Mejia",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T13:28:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:28:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. My name is Beatriz Mejia. I'm calling about the streetlight in front of my house, at 16 Van Zandt Avenue, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:28:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 16 Van Zandt Avenue. What's going on with the light?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:28:53-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, since the storm came through, the one that started Sunday and finished up today, the light has been very bright and it shines straight into my bedroom window. It was not like that before. I think maybe the pole got moved, or the lamp is turned."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's shining right into the bedroom, and it changed after the storm. Is it staying on all day, or just at night?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just at night, I believe. I only notice it on the weekend nights, I mean the weekday nights. Excuse me, I mix those up. Monday, Sunday, the nights I've been here, anyway."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I understand. So both nights since the storm began. Would you like a crew to look at the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. If somebody can come check the pole and see if it needs fixing, I would appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in the request for 16 Van Zandt Avenue, light shining into a bedroom window, pole to be checked. Do you want me to use the number 401-555-0158 if they need to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's the one. Thank you very much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T13:29:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Mejia. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T13:28:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T13:28:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T13:28:39-05:00",
+        "end": "2026-01-26T13:29:47-05:00",
+        "duration_seconds": 68,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T13:28:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T13:28:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T13:28:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T13:28:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T13:28:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

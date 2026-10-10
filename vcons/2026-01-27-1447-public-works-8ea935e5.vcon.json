@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8ea935e5-a27d-87e7-95f8-5f8a8e965c75",
+  "created_at": "2026-01-27T14:48:51-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Dario Gomes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T14:47:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:47:25-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. Dario Gomes, I'm at 335 Dixon Street, in the North End. The catch basin at the corner is clogged solid with leaves, and every time it rains the water backs right up into my driveway. It did it again Monday, after that snow-to-rain storm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:47:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 335 Dixon Street, the catch basin at the corner, backing up into the driveway. Is that the one right at the corner, then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:47:47-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right at the corner, yes. And I'll be exact, it was Monday morning, around seven, that I first saw it. Cars are slowing to a crawl going through it, because the water spreads across the whole lane."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:47:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can imagine. Has it been like this a while?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:48:03-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since the leaves came down in the fall, and nobody has cleared it. On my way home I also passed a detour sign, um, two blocks up. I don't understand it. There's no work going on that I could see. Is that connected?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:48:17-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say for sure from here. It could be something separate, so I'll note it for the crew to look at when they go out. Let me read this back: clogged catch basin, corner by 335 Dixon, water into the driveway, traffic slowed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:48:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. Do the crews work on weekends? Because if it rains again Saturday, I'd like to know whether anyone's coming."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:48:38-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Crews do get called out for urgent things, but for a clogged drain I'd expect them to get to it during the week. I'm putting in the request now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T14:48:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Thank you. I'd appreciate it being done soon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T14:47:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T14:47:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T14:47:21-05:00",
+        "end": "2026-01-27T14:48:51-05:00",
+        "duration_seconds": 90,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T14:47:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T14:47:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T14:47:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T14:47:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T14:47:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

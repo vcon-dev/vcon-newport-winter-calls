@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d8028945-9128-8ad5-980a-1173d64f6e5f",
+  "created_at": "2025-12-11T14:40:04-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Nicholas K. Fiore",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation Department, this is Beth, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Beth. Thank you for taking my call. I am calling to ask about the camp for the February vacation week, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh sure, we do a vacation week program. What would you like to know?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:20-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, um, what are the ages [inaudible] for the children? My daughter is seven, and I am not sure if she is, how do you say, old enough."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you broke up a little there. Did you ask about the age range?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly, the age limits. Please excuse me, the signal is not good."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. It's usually elementary-aged kids, so seven should be fine, but registration details aren't posted yet. I can take your number and have someone confirm."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:46-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is very kind. It is four zero one, five five five, zero one five six. [line breaks up] And, ah, I just finished a podcast about the history of bridges, so I am very happy today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:39:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's perfect for Newport. Four-oh-one, five-five-five, oh-one-five-six, got it. We'll call you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T14:40:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much, Beth. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T14:39:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T14:39:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T14:39:04-05:00",
+        "end": "2025-12-11T14:40:04-05:00",
+        "duration_seconds": 60,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T14:39:04-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T14:39:04-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T14:39:04-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T14:39:04-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T14:39:04-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

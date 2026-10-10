@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1d6342e3-6a9b-89f8-bfb6-71d6717c041e",
+  "created_at": "2026-01-12T15:09:28-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rachel Tran",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T15:05:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:05:27-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. I have a water and sewer bill here and I don't understand it. It's not in my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:05:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Whose name is on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:05:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Some man's name. I just bought the house. I closed, um, closed last month, so I don't know why they're sending me a bill with the old owner's name on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:05:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's common right after a sale. The account can stay under the previous owner's name until the change is processed. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:05:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it right here in my hand. The bill date is January second. Wait, no. Let me put my glasses on. January second, yes. And the due date is the, the first of February, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:06:11-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Does it show a service period, or a reading date, anywhere on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:06:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says service from, October to December. But I wasn't living there in October. So why am I paying for October?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:06:24-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair question. If the bill covers a period before you owned the home, that portion would normally be the seller's responsibility. Usually that gets settled at closing. Do you remember whether the closing papers mentioned a water reading?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:06:37-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A water reading. I don't know. There was a great deal of paper. Is that the thing with the little numbers? Is that the meter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:06:46-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the meter reading. Sometimes the title company asks for a final reading on the sale date. I can't see your closing paperwork, but if you look for a line about water or sewer, that would tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:06:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll look. Now, you said the account is in his name. Do I need to change it, or do you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:07:06-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We'd need to update it. I can take down your information and get a note on the account so the billing office can reach out, or you can send a copy of your deed or closing statement page showing the date of sale."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:07:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not the whole thing, though. I'm not sending all my papers. Just the page."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:07:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the page showing the sale date and the property. That's all they'd need."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:07:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, my other question. It's Monday and I'm out running around all day, and I'm not good with the computer. If I put a payment in the box tonight, does that count as on time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:07:42-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a payment drop box at City Hall, and it's available outside regular hours. A payment placed in it is generally treated as received on the day it's collected, and your due date is weeks away, so you'd be well ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:07:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'm not paying it tonight, I'm asking if I could. Because I don't want to pay for his October."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:03-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'd hold off until the billing office confirms which portion is yours. If you do pay by mail or box, write the account number on the check so it's applied properly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:14-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account number. Is that the long one on top, or the short one near the barcode?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Read me the one on top, and I'll tell you if it's the account number."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:26-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, it's, hold on. It starts with a four, then, um, I'm squinting. Never mind, I'll just write the whole line and you can sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:35-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Better to use the one labeled account number. It should say that right beside it. I'll also note your file. Can I confirm your callback number as 401-555-0178?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct. That's my landline. I'm not giving out the cell one, I never answer it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. And the name on the new account will be Rachel Tran?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:08:56-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tran, T-R-A-N. And it's Rachel, not Rochelle. People get that wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:09:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Rachel Tran, got it. Someone from billing should call you in the next few business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:09:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Business days, so not by Friday necessarily. All right. And, it's my birthday today, so I'd like not to spend it on the telephone with the water department."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:09:16-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then happy birthday, Ms. Tran. I'll wrap this up for you. Look for that sale date page and a call from billing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:09:24-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, dear. I think I understand it. Mostly. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T15:05:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T15:05:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T15:05:23-05:00",
+        "end": "2026-01-12T15:09:28-05:00",
+        "duration_seconds": 245,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T15:05:23-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T15:05:23-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T15:05:23-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T15:05:23-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T15:05:23-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

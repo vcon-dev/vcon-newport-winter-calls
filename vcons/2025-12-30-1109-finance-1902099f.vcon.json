@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1902099f-f241-86b6-8b1c-5969c7c54d12",
+  "created_at": "2025-12-30T11:13:27-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Celeste Pina",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T11:09:13-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:09:17-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, good morning. Um, I got two parking tickets and I don't, I mean, I don't really understand them. Right? So I'm hoping you can explain."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:09:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look. Do you have the ticket numbers in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:09:32-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, I have them here. One of them is, hold on, it's, you know, it's the yellow envelope one. And then the other one is the same kind of envelope. Both are the same place, the same day. Is that, can they do that? Two in one day?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:09:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They can if the violations are separate or the time stretches past a limit. Read me the first ticket number and I'll pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:09:57-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, it's, um, 4, 4, 1, 0, 7, 3. Wait, is that a seven or a one? My handwriting, no, it's printed. It's a seven. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it's printed, I'll trust the seven. Give me a second. [pause] Okay, I've got one here. Mill Street, last Wednesday, morning. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it, yes, in front of my own house. I live at 66 Mill Street, up on the Hill. I mean, I thought I was allowed to park there. Right? It's my street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Being your street doesn't always mean you're allowed. Some of those blocks have time limits or a no-parking side. What does the ticket say for the violation?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:36-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It says, um, overtime. And the other one says, I think, the same? Or it says something about a zone. I can't really tell what a zone is. You follow me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I follow. Read me the second number and I'll see what it's for."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "4, 4, 1, 0, 7, 4. So that's the next one, right? In order?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:10:57-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, consecutive. [pause] So this one is for the same block, a few hours after the first. It's coded as a separate overtime violation, so the officer came back and chalked you again."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:11:08-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So I get a second one for staying there after I already got the first one? That doesn't, I mean, I thought you got one ticket and then that's it for the day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:11:20-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily. If the car's still sitting there past the limit, it can be ticketed again. It's a little like a second helping nobody asked for."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:11:29-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, okay. Well, listen, I'm kind of rushing, because I have an appointment at two and I still have to get ready. So can you just tell me, this is my first time ever getting a ticket, is there any way they waive the first one? A first-time fine? Is that a thing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:11:47-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't waive anything from this desk. There's a review process where you can ask for a hearing or submit a written request, and they decide. First-time history can be mentioned, but I can't promise how it goes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:00-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I'd have to, what, write a letter? Or come in? I'm sorry, I'm not sure I'm following which one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:07-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one works. You can write it up and mail it or drop it off, or come in and ask for the appeal form. Put both ticket numbers on it and say what happened."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:19-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, both numbers. And I should pay, um, do I pay first or wait? Because I don't want it to go up. Right? Like a late thing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:28-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. The amounts can go up if they sit past the due date. Look at the due date printed on each ticket. If the appeal's filed before then, it generally holds things while they review."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:40-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally. Okay. And it's on the ticket, the date. Let me look. Oh, it says January something. The fifteenth? One's the fifteenth, the other, same. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:49-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then you've got a couple of weeks. Get your appeal in well before the fifteenth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:12:55-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. And, sorry, the form, is it a form, or I just write it on paper? I mean, I got confused when you said both."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a form here at the counter. If you write a plain letter with the ticket numbers, your name, and your address, they'll take that too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So form or letter, both tickets, before the fifteenth. I think I've got it. Mostly. Thank you, um, Luis, was it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Luis, yes. Good luck with your two o'clock."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T11:13:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T11:09:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T11:09:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T11:09:13-05:00",
+        "end": "2025-12-30T11:13:27-05:00",
+        "duration_seconds": 254,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T11:09:13-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T11:09:13-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T11:09:13-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T11:09:13-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T11:09:13-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

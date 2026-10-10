@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d2622802-d9bc-833d-94d4-2ae5970b7d9c",
+  "created_at": "2026-03-11T15:38:23-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Susan Peckham",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T15:34:00-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:34:04-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, yes, good afternoon. Sorry, one second, I am pausing my audiobook. I listen on the drive and it was in the middle of a sentence. Okay. Now I am here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:34:16-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all. What can I help you with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:34:21-04:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am a property manager, and I have a water and sewer bill that is too high, in my opinion. And it says it is for a quarter. Why a quarter? I do not understand why it is not each month, like my electric."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:34:38-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Water and sewer here are billed quarterly, so every bill covers about three months of usage. The meter gets read, and the bill is the difference from the last reading to this one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:34:51-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, but how do you count the dates? On my bill it says from December to March, but the days, they are not exactly three months. I count, and it is like ninety-five days."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:35:04-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's common. The dates are tied to when the meter was actually read, not the calendar. So if a reader got to your meter a few days late this time, the period runs a few days longer. It can be ninety-one, ninety-five, something like that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:35:22-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the days are from reading to reading, not the first to the last of the month. I am understanding correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:35:31-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly right. Reading to reading."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:35:34-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Still, for a building that is empty half the time, this number is wicked high. I will say it, I am annoyed. I do not think it is fair, five more days and I pay more."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:35:49-04:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. If you think the reading itself looks off, I can flag the account for a re-read or have someone check the meter. That's the usual step when usage looks out of line with what's actually going on at the property."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:06-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please do that. Check the meter. And the other thing, this amount, I cannot pay all at once now. Is a payment plan possible? Or is it only everything or nothing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:19-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are arrangements sometimes, yes. I can't set one up myself from this desk, but I can put a note on the account and have the billing supervisor call you back to talk through the options. Would that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:34-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that works. Do you need a number? It is 401-555-0193."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:39-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0193. And under what name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:43-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Susan Peckham. P-E-C-K-H-A-M."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:45-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Susan Peckham, meter re-check and a call about a payment arrangement. I have both noted."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:36:52-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One more question. I work until late, and you close at four-thirty, yes? Is there a way to pay by phone after four-thirty? Or on the internet? I do not want to run here with a check."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:37:07-04:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, we close at four-thirty. There's an online payment option on the city website that works any time, day or night. There's also a drop box outside City Hall for checks. And the phone payment line is automated, so it's not tied to our hours either."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:37:25-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The phone line is automatic, so I can call at nine at night and pay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:37:31-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. You'll just need your account number from the bill in front of you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:37:37-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. But I wait first for the meter and for the supervisor, before I pay. Is that correct, or the bill is still due?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:37:47-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I'd hold off on the full payment until the supervisor calls you, and mention the due date to them when they do. They can tell you where things stand while the meter's being checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:38:01-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So, I wait for the call, and they tell me about the due date. Yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:38:08-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. Usually within a couple of business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:38:13-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you, Tony. You explained clear. Now I go back to my book."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T15:38:19-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Enjoy it. Have a good afternoon, Susan."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T15:34:00-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T15:34:00-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T15:34:00-04:00",
+        "end": "2026-03-11T15:38:23-04:00",
+        "duration_seconds": 263,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T15:34:00-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T15:34:00-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T15:34:00-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T15:34:00-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T15:34:00-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

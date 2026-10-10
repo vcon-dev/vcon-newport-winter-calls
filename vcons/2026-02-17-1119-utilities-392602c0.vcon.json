@@ -1,0 +1,595 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "392602c0-7d59-8347-9487-3a22e537a1a0",
+  "created_at": "2026-02-17T11:25:17-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Raj Cohen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-17T11:19:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:19:19-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes, I have question about water and sewer bill. I just bought house, and first bill came, but it is in name of previous owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:19:31-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that happens a lot when a house sells. The account often stays under the old name until the paperwork catches up. Congratulations on the house, by the way."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:19:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. So is this problem? I am not sure if I must pay this bill, or if it is for him."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:19:54-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at it with you. Do you have the bill in front of you? There should be an account number near the top."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it. Wait, I get my glasses, no, the paper. [pause] Okay. Account number is on top right, it says, um, a long number with dash."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:17-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, go ahead and read it to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero four, dash, one one eight, dash, three three two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:26-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, thanks. Okay, I see the account. It's still listed under the prior owner, and the bill covers a period that runs partly before your closing date. Did you close in January?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:41-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, closing was January. Middle of month. But the bill says bigger usage than I think. I was there only few weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is that bill high compared to what you'd expect?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:20:56-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, very high. And also, I had plumber come. He fixed toilet that was running. I kept the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:21:05-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's good, hang onto that. A running toilet can really run up the usage. Did the plumber say how long it might have been going?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:21:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "He said maybe long time. Not sure. Is receipt something you need?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:21:22-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can help, yes. Can you send it in or bring it to the office, and they can review the usage with it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:21:32-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I send picture?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:21:35-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't give out an email over the phone line here without checking, but you can bring a copy to the counter or mail one in. Let me say that better, the office takes copies in person or by mail, and I'd note your account so they know it's coming."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:21:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I bring copy. So, is it okay that I am not on the account? Is that problem?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:05-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not a problem, we just need to update the name. You'll want to bring something showing you own the property, like your closing paperwork."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And one more question. Do I have to pay this whole bill before you fix it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:24-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you do."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so I pay everything first, and then correction. I understand."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:32-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I think you heard that backwards, or I said it unclear. Sorry. What I meant is, no, you don't have to pay the disputed amount before it's looked at. Just let them know it's under review."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, no. You said yes, I heard yes. [pause] So is no. I do not have to pay first."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:22:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the answer to what you asked, no. Sorry for the mix-up, my fault for how I phrased it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:23:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is okay. Now I am little confused about the part, the old owner. His name stays on bill? Or they change to me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:23:18-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They'll change it to you once they have the closing paperwork. Then you get a bill in your name going forward."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:23:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And for this bill now, I want corrected bill. In the mail. With my name, and with the right amount after the plumber."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:23:38-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll put that in the notes. Corrected bill mailed to you. What's the mailing address for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:23:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is the same, the house address. It is already same address on bill, yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:23:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the service address is on here, and the bill goes to that address. So it'll land at your house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:02-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And how long it will take? One week, two weeks?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:08-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a couple of weeks once they have the documents. It might be a little longer if they need to adjust the usage."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So first I bring receipt and closing papers. Then they review. Then mail new bill. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Do you want me to leave a callback number in case they have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Four oh one, five five five, zero one six six."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:40-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one six six. And it's Raj, right? Last name Cohen?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:48-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Raj Cohen. C-O-H-E-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. I've got the note on the account. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:24:58-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that is all. Thank you for explain. I still little unsure about amount, but I will bring the papers."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:25:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, they'll go through the numbers with you. Have a good day, Raj."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T11:25:15-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T11:19:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T11:19:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-17T11:19:14-05:00",
+        "end": "2026-02-17T11:25:17-05:00",
+        "duration_seconds": 363,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T11:19:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-17T11:19:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-17T11:19:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-17T11:19:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-17T11:19:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

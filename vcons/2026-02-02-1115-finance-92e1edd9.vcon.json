@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "92e1edd9-b29f-8196-b667-bcd7c718394d",
+  "created_at": "2026-02-02T11:18:08-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Linda Gifford",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-02T11:15:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:15:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. I have a, a parking ticket. From Newport. But it is not from me, it comes from the rental company."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:15:55-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Can you tell me a little more? Was it a rental vehicle you were driving?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:01-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a rental car, in the fall. Now the company sends me a letter, forwarded, and they put extra fees on top. Processing, administration, I don't know the word. The ticket is small, the fees are bigger. This is silly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Do you have the ticket number in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, wait. [pause] I have it here, but the letter, it is from the company, the number is, um, on the second page. Is it the one with the letters first?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:29-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The citation number should be on the city's notice. The rental company's fees are separate, and those are set by them, not by the city."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the city does not charge this part. Okay. But the ticket itself. This is my first one, ever. Can the fine be, how do you say, waived? Because first time?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't waive it from this desk. There is a review process for contesting a citation, and I can note your request or direct you to the right office for that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:16:59-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. Then I will pay it. I want to pay before the weekend. But I work, I am out most days, and your office is closed, um, evenings. How do I pay when nobody is here? Online? Or a box?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:17:13-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay online through the city's website using the citation number. There is also a secure drop box at City Hall for checks or money orders. Please don't leave cash."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:17:23-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online is better. I have a card, a gift card, from my daughter's... no, from a store. I keep forgetting to use it. Maybe it works for this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:17:33-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That depends on whether it's a general-purpose prepaid card. A store-only gift card won't be accepted. If it carries a major card brand, it generally will."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:17:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. I must look at the back. Always I forget. Well, it is still a hassle, this whole thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:17:49-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Would you like me to note your name and number so the review office can contact you about the first-offense question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:17:57-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Linda Gifford. Four-oh-one, five-five-five, oh-one-seven-two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:18:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Gifford. I have that. Someone will be in touch. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-02T11:18:06-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T11:15:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T11:15:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-02T11:15:43-05:00",
+        "end": "2026-02-02T11:18:08-05:00",
+        "duration_seconds": 145,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-02T11:15:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-02T11:15:43-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-02T11:15:43-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-02T11:15:43-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-02T11:15:43-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

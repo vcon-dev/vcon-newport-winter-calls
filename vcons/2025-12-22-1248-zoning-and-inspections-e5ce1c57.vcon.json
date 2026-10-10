@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e5ce1c57-37d7-843a-b0f1-511dd16f0a51",
+  "created_at": "2025-12-22T12:52:50-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Zelia Fortes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T12:48:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:48:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Greg. Yes, my name is Zelia Fortes, and I'm calling because I want to put up a little fence and nobody seems able to tell me whether I need a permit for it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:48:24-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, well, I can help with that. What kind of fence are we talking about, and where is it going?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:48:31-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's at forty-seven Carroll Avenue, in the Fifth Ward. I rent the place, and there's a side yard, and I want to close it in. My granddaughter is two and she's running everywhere now, so I need something so she can't go out toward the street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:48:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that makes sense. Have you got a style in mind? Height?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:48:51-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the white picket kind, you know, with the pointy tops. About four and a half feet tall, I think. That's what the fellow at the store said was a good size, not so high it looks like a jail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:49:04-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So here's the general picture. A lot of fences need a permit in the city, and it usually depends on the height and where it sits on the lot. Four and a half feet is right in the range where I'd want you to check before you build."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:49:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what I'm asking. Is there a height where it stops needing a permit? Like, under four feet, say, and then I'm fine, and nobody bothers me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:49:30-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't want to hand you a number off the top of my head and have you buy materials on it. Honestly the cleanest way is to file a short application, or I can have the inspector call you to confirm for your lot. And since you're renting, your landlord has to be okay with it too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:49:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, the landlord, yes, he said fine. He said so long as I pay for it. [pause] That's a whole other thing, but never mind."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:49:58-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Get that in writing if you can. It helps with the application."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:50:03-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll ask him to write it. Now, the other thing is, how close to the property line can I put it? Because the yard is narrow on that side, and the neighbor's driveway is right there, and I don't want a fight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:50:17-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's one of the things the permit review looks at. Some fences can sit right at the line, some have to be set back a bit, and it can depend on the zone. Do you know where your line actually is? Is there a survey or any markers?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:50:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. There's an old stake, I think, by the corner, but it's leaning over. I wouldn't trust it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:50:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then I'd say hold off on digging until you know. If the landlord has a plot plan from when he bought the house, bring a copy. That'll show the line better than a stake."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:50:51-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. So it's all going to take more steps than I thought. Everything does, these days."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:50:57-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's not too bad. One form, a sketch of the yard with the fence drawn in, the height, the material. You can pick up the form here at City Hall, or I can have it mailed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:51:09-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll come in. Oh, wait, while I have you. When I drove over here, there was a sign that said detour, on the street before the turn, but there was nothing wrong with the road that I could see. No men working, no hole, nothing. I went around anyway and it added ten minutes. What is that about?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:51:28-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. I can't say for sure which one you mean. Could be left over from some utility work, or a sign someone forgot to pick up. Do you remember the street?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:51:39-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It was close to Carroll, near the corner, I couldn't read the name of the cross street. It was just an orange sign leaning on a barrel. I don't understand why they leave them out if there's no work."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:51:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd call Public Services about that one, since signs and barrels are theirs. I'll give you the main line if you want it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:00-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I'll just go the other way next time. It's not worth my time. Now, back to the fence. When I come in, who do I ask for?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:10-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just come to the zoning counter and ask for the fence application. Bring the sketch if you can, and the landlord's note. We're open till the afternoon, and with the holiday this week, check the hours before you come."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:23-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right, it's Christmas Thursday. Then I'll try tomorrow morning. Is the form long?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:29-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A page or two. If you get stuck, ask at the counter, someone will help you fill it out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thank you, Greg. I suppose I'll get it done, though it's a lot of fuss for a fence the height of a kitchen counter."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Have a good week, Ms. Fortes."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T12:52:48-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:48:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:48:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T12:48:10-05:00",
+        "end": "2025-12-22T12:52:50-05:00",
+        "duration_seconds": 280,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T12:48:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T12:48:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T12:48:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T12:48:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T12:48:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

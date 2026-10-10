@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "40cee9d0-94cb-85fa-9c01-418b9c5314a0",
+  "created_at": "2026-01-26T11:01:01-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Samir Mensah",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:01-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:03-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Samir Mensah. I am calling about water, a lot of it, across the crosswalk at 300 Rhode Island Avenue, in Historic Hill. Near the school bus stop."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:12-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 300 Rhode Island Avenue. Water across the crosswalk, got it. How deep are we talking?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:17-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Maybe four inches, across the whole width. [pause] The kids are stepping off the curb into the road to get around it. And the cars, they slow to a crawl going through. I am worried someone will be hit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's not good. Is this from the storm?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The snow turned to rain, it started Sunday and finished this morning. The drain there is, I think, blocked with slush. Can you tell me when your crew last came by this spot?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the last visit in front of me. I'll put it in as a priority with the school stop noted, and ask the crew supervisor to call you. Best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:51-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0185. Thank you. I would like to go hiking this spring, so I am planning a trip, but first I want the children safe."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T11:00:58-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Someone will be in touch."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:00:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:00:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T11:00:01-05:00",
+        "end": "2026-01-26T11:01:01-05:00",
+        "duration_seconds": 60,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T11:00:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T11:00:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T11:00:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T11:00:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T11:00:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

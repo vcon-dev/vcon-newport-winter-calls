@@ -1,0 +1,571 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7cf2cade-867f-8a1c-9797-b4a709adcada",
+  "created_at": "2025-12-02T11:35:27-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Timothy Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:44-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:27:51-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Bottom line, I've got a couch I need to get rid of. Can the city pick it up, and is there a fee?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:06-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, a couch. Bulk item pickup, sure. Let me get a few details from you first so I can tell you how it works. Is this at a house or an apartment building?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a rental property. I'm the property manager. Two-family. The tenant moved out and left the couch and I want it gone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And what's the address where the couch would be set out?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "182 Harrison Avenue. Fort Adams side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:28:51-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "182 Harrison Avenue. Let me just pull that up so I can see your pickup day. Bear with me a second."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:04-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Oh, and I tried calling a little while ago, maybe an hour back. Got a robocall in the middle of it and lost the line. So if this seems like a second try, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:25-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's fine, those robocalls are a nuisance. I don't see a note on my end, so we'll just start fresh. Okay, I have 182 Harrison. Your regular trash day shows as Thursday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thursday. Okay. So do I put the couch out Thursday with the regular trash?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:29:54-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not necessarily. Bulk items are usually handled separately from the regular barrels, so you'd want to call it in or schedule it so the right crew knows to come. Putting it out with no notice can mean it just sits there."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:18-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So can you schedule it now? Or do I do that somewhere else?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:27-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can take the request right here on the phone. I'll need your name and a callback number, and a description of the item. So, one couch. Is it just the one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:30:46-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just the one. Three-cushion, fabric. There's also a small side table but I can put that in the garage if it's a problem."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:00-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let's put both down, a couch and a small side table, and the crew can tell you if there's an issue. Name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Timothy Sisson. S-I-S-S-O-N."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Timothy Sisson, S-I-S-S-O-N. And the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0189."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:31:23-05:00",
+      "duration": 38,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0189. Great. Now, on the fee. In general, a bulk pickup for something like a couch can carry a charge, and some items need a sticker or a tag. I don't have the exact amount in front of me, and I don't want to give you a wrong number. Let me check with the supervisor on that. Can you hold for a minute or two?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:01-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, go ahead. I'll hold."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Be right back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:08-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause]"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mr. Sisson, I'm back. Thanks for waiting."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:14-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. What's the answer?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:18-05:00",
+      "duration": 31,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, a couch counts as a bulk item, and there is a fee for it. The crew will let you know the amount when the pickup is confirmed, and you'd pay it before the pickup happens. I'm going to flag your request so someone calls you back with the amount and the date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I won't know the number today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:32:54-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not from me, no. But you'll get a call back at 401-555-0189, and that's when you'll get the exact amount and the pickup date. Is that number okay for daytime?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:33:12-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, it's my cell. I pick up if I can. If I miss it, leave a message."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:33:23-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. And do you want the couch out at the curb in front, or somewhere else on the property? Harrison can be tight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:33:37-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Curb in front. Right by the walkway, not blocking the driveway."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:33:44-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, at the curb in front by the walkway, clear of the driveway. And I'd say don't put it out until you've heard back with the date. That way it isn't sitting there for days and getting rained on or reported."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:34:08-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense. How long before somebody calls me?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:34:13-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually within a couple of business days. Sometimes it's quicker. If you haven't heard by end of the week, call back and mention the couch at 182 Harrison and we'll look it up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:34:33-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Let me make sure I have it. Don't put it out yet, wait for the call, they give me the fee and the date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:34:48-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Let me read back what I have. Timothy Sisson, 182 Harrison Avenue, one couch and one small side table, at the curb in front, callback 401-555-0189. Anything I got wrong?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:35:08-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:35:11-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:35:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:35:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Sisson. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-02T11:35:24-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:27:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:27:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-02T11:27:44-05:00",
+        "end": "2025-12-02T11:35:27-05:00",
+        "duration_seconds": 463,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-02T11:27:44-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:44-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:44-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:44-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-02T11:27:44-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "35a9a493-0f13-8fd2-88a0-256fcda6fe9f",
+  "created_at": "2026-02-05T09:20:22-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Dulce Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T09:16:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:16:48-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Dulce Monteiro. I'm calling about a property tax bill that came to my house, but it's not in my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:16:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Can you give me the property address, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "270 Carroll Avenue. That's in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:06-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And you said the bill came in a different name. Whose name is on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The man I bought it from. I closed on the house in December, so I'm the owner now. The bill still says the seller."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:23-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Property tax bills are generally issued to the owner of record as of a certain date, so a recent sale can result in the prior owner's name appearing. Let me pull up the account. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:38-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Yes, I have 270 Carroll Avenue. The bill is still listed under the previous owner. Do you have the date your deed was recorded?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:17:50-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The closing was the nineteenth of December. The recording, I believe it was that same week. I have the papers in front of me if you need it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:18:01-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The nineteenth is helpful. It may be that the assessor's records have not yet caught up with the recording. I can note the account that the new owner has contacted us. I would also need your name spelled for the file."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:18:17-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "D-U-L-C-E, Monteiro, M-O-N-T-E-I-R-O. And it's an I, not a Y, at the end of nothing. There's no Y in it. You had it right, I just heard you start to say it differently."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:18:30-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My apologies, I had not written anything yet. M-O-N-T-E-I-R-O. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:18:34-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:18:35-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Monteiro. I will make a note, and the assessor's office will need to update the name of record. The bill itself remains tied to the property, so the amount due does not change with the name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:18:50-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I just want to be sure it's not going to be sent to the seller again, and that I'm not missing a notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:00-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will flag it so the mailing address is reviewed. Would you like me to confirm that in writing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:08-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please email me the confirmation. Do you have an email for me, or do you need it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will need it. Please go ahead and spell it slowly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:20-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's dulce dot monteiro, all one word with the dot, at a mail service. I'll give you the full thing. D-U-L-C-E dot M-O-N-T-E-I-R-O at example dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:31-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. Dulce dot Monteiro, at example dot com. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:37-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. And my phone is four-oh-one, five-five-five, zero-one-six-five, in case there's a question."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-six-five. Thank you. You should receive the email within a business day or two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. You know, you sound exactly like a girl I went to school with. Same careful way of talking."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:19:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is that so? Well, I hope she was well regarded."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:20:02-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She was. Top of the class. Anyway, that's all I needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:20:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. Is there anything else I can assist you with this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:20:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:20:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Monteiro. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T09:20:20-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T09:16:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T09:16:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T09:16:41-05:00",
+        "end": "2026-02-05T09:20:22-05:00",
+        "duration_seconds": 221,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T09:16:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T09:16:41-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T09:16:41-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T09:16:41-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T09:16:41-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

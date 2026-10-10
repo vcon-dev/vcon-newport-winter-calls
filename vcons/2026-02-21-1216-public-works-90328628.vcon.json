@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "90328628-f015-8284-b67f-6004a13b8569",
+  "created_at": "2026-02-21T12:17:47-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Edson Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-21T12:16:18-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works storm line, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:16:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Denise. Edson Brito. I know it's Saturday and City Hall's closed, that's why I'm on this line. I'm at 285 Malbone Road, up the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:16:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Brito. What's going on there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:16:34-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Water's over the curb and clear across the sidewalk. A delivery truck got stuck in it a few minutes ago, driver had to wait for a tow guy. And this keeps happening when it rains hard. Nobody's fixed it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:16:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's no good. Is the water getting into your house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:16:53-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, not in the house. It's the street and sidewalk. And the sidewalk is a sheet of mud and grit, you can't walk on it without sliding. It's all coming down off the road."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:17:05-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'm putting that in as flooding at 285 Malbone with a stuck vehicle. Crews are stretched with the storm still going, so I can't give you a time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:17:16-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Do the crews work weekends, though? Because I'm home today, but Monday I'm back at work. My job lets out early on Fridays this season, but that's no help to me right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:17:28-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, they're out on storm calls, weekends included. Priority goes to roads that are blocked. Stay clear of that water, okay? It's hard to see what's under it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:17:38-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Please get it on the list, Denise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:17:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's on there. Stay safe, Mr. Brito."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-21T12:17:45-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. You too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-21T12:16:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-21T12:16:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-21T12:16:18-05:00",
+        "end": "2026-02-21T12:17:47-05:00",
+        "duration_seconds": 89,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-21T12:16:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-21T12:16:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-21T12:16:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-21T12:16:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-21T12:16:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

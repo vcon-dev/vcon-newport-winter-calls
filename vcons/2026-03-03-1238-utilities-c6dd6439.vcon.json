@@ -1,0 +1,691 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c6dd6439-95dc-88fe-9dc8-f8888f2271d2",
+  "created_at": "2026-03-03T12:49:17-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Moira Cullen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-03T12:38:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:38:48-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon. My name is Moira Cullen. I'm calling about the water and sewer bill for my apartment. I have a few questions and I've written them down, so bear with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:39:08-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, take your time. Can I have the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:39:16-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "120 Bridge Street, in the Point. I'm the tenant. The account is in my name for the water, the landlord set it up that way."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:39:32-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me pull that up. Cullen, C-U-L-L-E-N?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:39:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Two L's, two E's... no, I'm sorry, two L's and one E. C-U-L-L-E-N."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:39:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I have the account here. What would you like to know?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:39:57-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "First, I'm trying to put together a budget for the year. I'd like a breakdown of my usage by month. Can you give me that, going back, say, twelve months?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:40:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see the billing history on the account. Are you billed monthly or quarterly on this one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:40:28-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Quarterly, I believe. I have the paper bill right here in my hand. The bill date at the top says February 12th, 2026. Does that match what you have?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:40:46-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check. Yes, I show a bill dated February 12th. That covers the previous quarter's readings."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:40:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. So if they're quarterly, I'd get four numbers, not twelve. Is that all there is?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:41:07-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right, the meter is read and billed per period, so I can give you the usage for each billing period, not a true month by month figure. I can read you the last several periods now, or I can mail you a printout of the account history."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:41:36-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let's do both, if it's no trouble. Read them to me now and I'll write them down, then mail me the printout so I can check my notes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:41:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Do you have a pen ready?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:41:59-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:42:02-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The most recent period, the one on your February bill, shows usage of 14 units. The one before that, 17 units. Before that, 22 units. And the one before that, 19."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:42:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fourteen, seventeen, twenty-two, nineteen. Let me read it back. Fourteen, seventeen, twenty-two, nineteen. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:42:31-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:42:33-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And what is a unit? Is that a hundred cubic feet, or gallons?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:42:42-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's cubic feet, in hundreds. So one unit is a hundred cubic feet. I can see why that's not obvious on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:42:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. So fourteen units is fourteen hundred cubic feet. Thank you. I'll convert it myself."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:43:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it helps, a cubic foot is about seven and a half gallons, so roughly."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:43:17-05:00",
+      "duration": 28,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven and a half. Good, I'll write that down. Now, my second question. The most recent bill seems high to me compared to what I was expecting. I live alone and I'm not home all that much. Is it possible to have the meter tested?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:43:45-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can request a meter test. I'd put in the request and the department would schedule it. Is there anything unusual you've noticed, like the meter running when nothing is on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:44:05-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I haven't checked that. I'm not sure where the meter is. I think it's in the basement, but that's shared with the downstairs unit."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:44:20-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One thing you can try is to turn off everything that uses water and look at the meter's small dial. If it's still moving, that can point to a leak. But if you want the test regardless, I can start the request."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:44:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please start it. I'd rather have it tested properly. Will there be a charge for that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:44:56-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the charge in front of me, and it can depend on the result. I'll note on the request that you want to know the cost before it's scheduled. Someone from the meter division will call you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:45:20-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Should I give you my phone number now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:45:27-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:45:29-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0162. That's my cell."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:45:33-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0162. Got it. And since it's the landlord's building, they may need to give access to the meter. Is the landlord easy to reach?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:45:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, he is. I can ask him to let the technician into the basement."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:45:57-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll put that in the notes too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:46:03-05:00",
+      "duration": 31,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now, my last item is a little odd. A few days ago I got a text message on my phone about my water account, I think. It was in a language I don't speak. I believe it was Portuguese, but I'm not certain. There was a link in it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:46:34-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Did you click on the link?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:46:39-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I did not. I'm careful about that. I just wanted to ask whether the city sends texts about water bills, and whether they'd send one in another language."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:46:57-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Our office doesn't send texts asking you to click a link about your bill, as far as I know. I'd treat it as suspicious. Don't click it, and don't reply. You can delete it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:47:18-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's what I thought. I'll delete it. I wanted to be sure it wasn't something I was supposed to respond to."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:47:31-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your account shows no notices pending other than the regular bill. If you ever get a real notice, it comes by mail."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:47:45-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. That's reassuring. Let me confirm the mailing address for the printout. Is it the same as the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:47:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the billing address as 120 Bridge Street as well. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:48:07-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's correct. Apartment two, if it needs that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:48:13-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll add apartment two. The printout should go out in the next day or two, and you should have it within the week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:48:28-05:00",
+      "duration": 25,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wonderful. So just to summarize, you're mailing me the usage history, you're putting in a meter test request with a note to tell me the cost first, and the meter division will call me at the number I gave you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:48:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly right. I can't give you a day for the call, but it's logged today."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:49:03-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Thank you for your time, Ms. Raman."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:49:09-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-03T12:49:14-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:38:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:38:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-03T12:38:41-05:00",
+        "end": "2026-03-03T12:49:17-05:00",
+        "duration_seconds": 636,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-03T12:38:41-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-03T12:38:41-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-03T12:38:41-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-03T12:38:41-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-03T12:38:41-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

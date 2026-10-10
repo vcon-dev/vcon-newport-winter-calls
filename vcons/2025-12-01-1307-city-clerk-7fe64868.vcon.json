@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7fe64868-0ff7-8c5a-84fb-cf8f3b13ee87",
+  "created_at": "2025-12-01T13:11:44-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Diego Morales",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T13:07:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:07:43-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Rosa, Diego Morales. I'm calling about a noise thing, for my mother actually. She lives over on Bliss Road, down Easton's Beach side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:07:52-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, what's the noise?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:07:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a construction crew next door, tearing down and rebuilding something, and they start up before seven in the morning. Saws, a compressor, trucks beeping backing in. Six-thirty, sometimes a little earlier."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Before seven. And how long has that been going on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:11-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wicked long. Better part of a month now. I figured it'd be a day or two, you know, but nope. Every morning, Monday through Saturday. She's up at the crack of dawn anyway but that's not the point, she didn't ask to be woken up by a nail gun."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's not fun. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:33-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "326 Bliss Road. Just the one house over from hers, but the noise comes right across the yard."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 326 Bliss Road. Is that your mother's address or the construction site?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sorry, 326 is hers. The job site is next door. I don't have that number, it's the gray one with the dumpster out front."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:08:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, we can work with that. Gray house with the dumpster, next to 326."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:09:02-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So what I want to know is, what are the quiet hours? Like, when are they actually allowed to start? Because somebody told me seven and somebody else told me eight on weekends, and I'm not gonna go knock on a guy's door with the wrong information."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:09:20-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally there are limits on construction noise in the early morning and at night, and weekends are usually later. I don't want to quote you an exact hour off the top of my head, so I'll have someone from the right office give you the specifics. Can I take a number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:09:39-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0185. That's my cell, I'm usually reachable."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:09:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0185. And your name again, Diego Morales?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:09:47-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, Diego, D-I-E-G-O. Morales like it sounds."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:09:51-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Now, a complaint like this typically goes to code enforcement or the police non-emergency line depending on the hour. Since it's happening early in the morning, they may want to log each time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:10:04-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And is there somebody in my mother's ward I should talk to? Like a councilor or whatever. I figured they'd have a word on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:10:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A ward? Sorry, you said word, like a word with them?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:10:19-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, ward. W-A-R-D. Like the, uh, the district. Hang on, I got that mixed up, I said word, didn't I. I meant ward, the councilor for her ward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:10:30-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, ward, I follow you now. Yes, her ward councilor would be a fine person to give a heads up. I can look up which ward Bliss Road is in and send you that info with the callback."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:10:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd be good. Honestly I'd just like somebody to tell these guys the rules before another week goes by. My mother's been real patient about it, more than me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:10:55-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. In the meantime, if it starts before the allowed time again tomorrow, write down the time and what you hear. Dates and times help a lot."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I can do that. I'll have her keep a little list on the fridge. She likes lists."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:13-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. So I'm sending this over today, with the 326 Bliss Road location, the early start, the month of it, and your question about quiet hours. Someone should call you back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:25-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Any idea how long, like today or this week?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd say within a couple of business days, but I can't promise the exact day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Alright, thanks Rosa. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:39-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Diego. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T13:11:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:07:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:07:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T13:07:38-05:00",
+        "end": "2025-12-01T13:11:44-05:00",
+        "duration_seconds": 246,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T13:07:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T13:07:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T13:07:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T13:07:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T13:07:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

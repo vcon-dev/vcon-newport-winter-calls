@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3fb92ca1-6535-8e90-927e-ea91a0607f4f",
+  "created_at": "2026-02-03T10:52:52-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Stephen Wilcox",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-03T10:50:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:50:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. My name is Stephen Wilcox. I would like to inquire about a recycling bin at my residence. It was left at the curb this morning with a tag on it saying it was rejected."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:06-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. A rejected tag. Let me get your location. What's the address, Mr. Wilcox?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:11-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 184 Broadway, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "184 Broadway. Got it. And the bin itself was left, so it wasn't emptied, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:20-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. It was not emptied. The tag is still attached to the handle, and frankly, it does not state a clear reason. I would have appreciated an explanation."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Those tags usually have a box checked for the reason, like items that don't belong or bags inside the bin. Is there a box marked on yours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:39-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a mark, but it is smudged. I cannot tell which one. I took a photograph, but the touchscreen on my old phone ignores half of my taps, so I cannot easily send it anywhere. [pause] Hold on, it did it again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:51:52-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. You don't need the photo for this. What I can do is put in a request, and then my question for you is whether you want the same bin back or a replacement."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is what I would like to know. How do I request a replacement? The bin has a cracked lid in any case."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:12-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can enter that right now. So that's a replacement recycling bin, 184 Broadway, cracked lid, and the last pickup was rejected with a tag. Did I get that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is accurate. And I would also like to know what I should do before the next collection, so that it is not rejected again."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:31-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Make sure everything's loose in the bin, no bags, and rinse out the containers. I'll note that on the request too. Do you want a call back at the number you're on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:41-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. It is 401-555-0172."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0172. Perfect. Someone will follow up about the delivery."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Medeiros. Good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-03T10:52:50-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Wilcox."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T10:50:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T10:50:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-03T10:50:51-05:00",
+        "end": "2026-02-03T10:52:52-05:00",
+        "duration_seconds": 121,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-03T10:50:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-03T10:50:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-03T10:50:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-03T10:50:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-03T10:50:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

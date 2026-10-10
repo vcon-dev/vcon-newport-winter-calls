@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "301bf99f-671f-81d3-824d-63d691f373d4",
+  "created_at": "2025-12-24T10:44:28-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Stephen Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:07-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Merry Christmas Eve, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:12-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi, good morning. Um, I'm trying to reach the housing office at the Naval base. I think I got the wrong place."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, you're at City Hall, hon. The City Clerk. The Navy housing office is a separate thing, that's on the base itself."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:28-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, no, figured. [pause] I was working off an old list. Wicked old. Half the numbers on it are probably pizza places that are gone now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:37-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[crosstalk] Ha, that happens. Those lists get stale fast."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:41-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And honestly, it's not even my fault this time. The car's bluetooth hooked up to my wife's phone instead of mine, so I'm on speaker and I don't even know whose phone is dialing. [line breaks up] Sorry, can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:43:55-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. A little echo, that's all. So for the base housing, I'd try the main gate or look up the base's own housing office listing. They'll be the ones to point you to the right desk."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:44:09-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the main gate, got it. I'll look it up fresh instead of trusting that list."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:44:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the way. Sorry I couldn't do more for you on this one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:44:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, you were great. Thanks for your time. Have a good holiday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T10:44:25-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Stephen. Stay warm, bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:43:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:43:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T10:43:07-05:00",
+        "end": "2025-12-24T10:44:28-05:00",
+        "duration_seconds": 81,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T10:43:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T10:43:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T10:43:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T10:43:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T10:43:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

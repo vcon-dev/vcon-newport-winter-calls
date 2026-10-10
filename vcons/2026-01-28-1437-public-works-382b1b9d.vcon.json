@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "382b1b9d-64c5-81d7-ae6c-9710899f935a",
+  "created_at": "2026-01-28T14:40:52-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Nora Kearney",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T14:37:18-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:37:22-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Kevin. My name is Nora Kearney, K-E-A-R-N-E-Y. I'm calling about a trash pickup that didn't happen, and I'd also like to ask about putting out a couch."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:37:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, happy to help with both. What's the address where the pickup was missed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:37:37-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 321 Memorial Boulevard. That's on the Easton's Beach side. It's a business, actually, I run a small shop there, and we have our regular collection on Monday. Well, I should be exact. Monday is the usual day, but it is Wednesday now, and nothing was taken Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:37:53-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 321 Memorial Boulevard, Monday pickup missed. Let me write that down. And Monday was right after that snow-to-rain storm, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:38:01-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, last weekend's storm, Sunday into Monday. The bins were out at the curb by seven Monday morning. Wait, no, it was six-thirty. I remember because it was still dark and the sidewalk was slush. And they were still full when I closed up that evening."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:38:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Bins out by six-thirty, still full Monday evening. Has this happened before?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:38:21-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, this is the second miss in a row. The week before, that was Monday the nineteenth, no, the twentieth. Let me think. The nineteenth was the holiday, so I believe the pickup shifted, and it was not collected then either. So two in a row."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:38:36-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the holiday week can push things a day. Sounds like it may have thrown the schedule off, and then the storm on top of it. Let me see what I can note here. Are the bins still out there now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:38:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They are. I brought them in last night and put them back out this morning, because I was told once that's what you do."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:38:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'll put in a request for a pickup check at that address. Crews are still catching up from the storm, so I can't say the exact hour, but it'll be flagged as a second miss."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:39:12-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Now, the couch. I have an old couch from the back office, and I would like to put it out. What do I need to do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:39:22-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bulk items like a couch usually need to be scheduled ahead of time, they don't go out with regular trash. Is there a way you can do that online? There's a form on the city site."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:39:34-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I tried that. I have a new smartphone, my daughter set it up, no, my niece set it up, and I could not find the right button. The page came up and then the screen jumped around and I lost it. So I'd rather do it with you if I can."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:39:51-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I can take it over the phone. Couch, one piece. Is it going to be at the curb in front of 321 Memorial Boulevard?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:00-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, at the curb, on the Memorial Boulevard side. Not the side street."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, curb, Memorial Boulevard side. I'll put it down for your next regular pickup day, which is Monday. Don't set it out until the day before, Sunday evening, so it doesn't block the sidewalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sunday evening. Understood. So that would be the first of February."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:21-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it, Sunday the first. And I have your number as 401-555-0161?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:26-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct, it's my cell. I'll have it on me. If I miss a call, please leave a message and I will return it the same day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:36-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. So just to read back, missed pickup Monday and the week before at 321 Memorial Boulevard, and a couch scheduled for Monday the second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:45-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is right. Thank you, Kevin. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T14:40:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Kearney. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T14:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T14:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T14:37:18-05:00",
+        "end": "2026-01-28T14:40:52-05:00",
+        "duration_seconds": 214,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T14:37:18-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T14:37:18-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T14:37:18-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T14:37:18-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T14:37:18-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

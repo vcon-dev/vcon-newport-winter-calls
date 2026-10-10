@@ -1,0 +1,307 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "cf70b793-df2e-81b8-a461-860fb2641f59",
+  "created_at": "2026-02-25T09:24:48-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Adriana Castillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:00-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. Good morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:03-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning. I got my water and sewer bill and I don't understand why it covers three months instead of one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, happy to walk you through it. Water and sewer here are billed quarterly, so each bill covers about a three-month stretch of meter readings."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. But how are the dates counted? Mine says November something through the end of January, and I thought a quarter was January to March."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:26-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the confusing part. It's not calendar quarters. It's whatever three months fall between your meter readings, so the dates follow the reading schedule, not the calendar."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:35-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the bill date isn't the end of the period."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The bill goes out a little after the last reading. The period on the bill is what you actually used."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:46-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. Because the usage looks high. Our toilet was running constantly last month. Would that be in there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:23:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If it was running in January, yes, that water went through the meter and it's on this bill. A running toilet can add up quick."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I fixed it. So that's the high number, then, not a mistake."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Most likely, yeah. If you want, I can note the account that you had a repair."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:09-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please. Also, can the bill be paid at a bank? Which places take payments?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:14-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Payments are taken at the City Hall finance counter, and you can mail a check to the address on the bill. For a bank, I'm not sure which ones, so I'd go with those two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so not the bank. Got it. Sorry, I'm a little rushed, I'm mailing a box of cookies to my aunt in Ohio and I have to get to the post office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Anything else on the bill I can explain?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Quarter is by meter reading, not calendar. I think I have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:44-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Have a good one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T09:24:46-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T09:23:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T09:23:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-25T09:23:00-05:00",
+        "end": "2026-02-25T09:24:48-05:00",
+        "duration_seconds": 108,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T09:23:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-25T09:23:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-25T09:23:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-25T09:23:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-25T09:23:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

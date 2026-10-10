@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c567bc41-ab38-80f8-86bf-d27d9ae8b384",
+  "created_at": "2026-01-16T15:11:26-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Susan Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-16T15:08:42-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you this afternoon?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:08:47-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Tony. Susan Tillinghast, I'm over at 359 Harrison Avenue, the Fort Adams side. I got a late fee on my water and sewer bill and I'm, well, I'm not happy about it. I mailed that check on time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:09:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:09:05-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, I've got the paper bill right here in my hand. It says the bill date is December ninth, and then the due date down below is the, um, the thirtieth. I put my check in the mail the week before that. Right around the twenty-second."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:09:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Can I get your utility account number? It's on the top right of that bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:09:27-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's seven five one one, four two zero, one seven zero six nine. So seven five one one four two zero one seven zero six nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:09:36-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven five one one four two zero one seven zero six nine. Perfect, I've got it up. Okay, I see the late charge posted on the second of January. And it shows your payment came in on the fifth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:09:49-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The fifth! That's nearly two weeks to get across town. I'm not buying that. It's a stamp and a mailbox, Tony. The check was cashed, I could see it on my statement, but I don't know when."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:10:01-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, the date we post is when it's received and processed, not the postmark. Around the holidays the mail ran slow, so that happens more than it should."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:10:11-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's wicked frustrating to pay a fee for the post office being slow. And I'll tell you, we've got three generations living in this one house, so the water bill is not a small thing. Every dollar counts around here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:10:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. Is there something specific you'd like me to do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:10:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd like the usage re-checked, too. The read looks high to me for the quarter. It's more than we've ever used and nothing changed, same people, same laundry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:10:40-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can put in a request for a re-read on the meter. Somebody will go out and verify the number, and if it was off, the bill gets adjusted. As for the late fee, I'll note on the account that you say it was mailed before the due date. I can't promise it comes off, but I'll flag it for review."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:11:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I guess that's something. Will somebody call me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:11:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They will, if they need anything. Is the number on the account still the best one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:11:10-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's four oh one, five five five, zero one five six."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:11:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. The re-read request and the note are both in. Anything else today, Susan?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:11:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-16T15:11:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good weekend."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T15:08:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T15:08:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-16T15:08:42-05:00",
+        "end": "2026-01-16T15:11:26-05:00",
+        "duration_seconds": 164,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-16T15:08:42-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-16T15:08:42-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-16T15:08:42-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-16T15:08:42-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-16T15:08:42-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

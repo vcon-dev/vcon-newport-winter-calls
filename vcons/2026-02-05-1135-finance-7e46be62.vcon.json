@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7e46be62-68b2-8f76-bc1c-ab5f438782c0",
+  "created_at": "2026-02-05T11:38:13-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carlos Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T11:35:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:35:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, bottom line first. I paid the first installment of my property tax and I want to know if it posted. That's it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:35:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can look. What's the name on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:35:38-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Carlos Monteiro. M-O-N-T-E-I-R-O. I manage a building, it's under my name."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:35:43-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Monteiro. Give me a second, I'm pulling it up. [pause] Alright, I see a payment on the first quarter and it shows as posted. So you're good on that one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:35:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Posted. So that means it's done? Because I mailed a check and I got no receipt, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:02-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Posted means we got it and applied it. We don't always send a receipt for a check. Your canceled check is your receipt, basically."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. Then the bill I have says second installment is due, and there's a number on it. That's a different thing from the first one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the next quarter. The first is paid, the second is what's still open."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:27-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Also, how do I change the mailing address? I want the bills to go to a different place now. Do I fill out a form, or call, or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:38-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can send us the change in writing, with the property listed and the new address. Or I can note the request here, but I'd say put it in writing too so it sticks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:51-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In writing to who? To this office?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:36:54-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, to the tax collector at City Hall. Just put the property and your name on it and the new mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:03-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the property address, not the new address, goes as the identifier. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both, really. Where the property is, and then where you want the mail to go."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:15-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Now, the second installment. I'll just pay it now on the phone with a credit card. Easier than me finding a stamp. I've been sitting here with a stack of magazines I never opened, trying to get through them, and the stamps are somewhere under that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:32-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. The amount due is one thousand twenty dollars. Go ahead with the card whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's 4012 8888 8888 1881."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:42-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And the expiration date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:45-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "07/27."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:46-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. I'm running it for one thousand twenty dollars. [pause] That went through. You'll see it on the card as a city payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:37:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's the second one paid. Then the first one is paid and posted. Both done?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:38:02-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both done for now. Next bill comes later in the year."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:38:07-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I follow. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T11:38:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Monteiro. Enjoy the magazines."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:35:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:35:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T11:35:21-05:00",
+        "end": "2026-02-05T11:38:13-05:00",
+        "duration_seconds": 172,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T11:35:21-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T11:35:21-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T11:35:21-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T11:35:21-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T11:35:21-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

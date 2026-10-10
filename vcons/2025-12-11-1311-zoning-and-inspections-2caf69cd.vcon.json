@@ -1,0 +1,631 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "2caf69cd-ba80-8888-99d8-f3c8b47852be",
+  "created_at": "2025-12-11T13:20:07-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Doug Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-11T13:11:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:11:23-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Doug Burdick. I've got a building on Kingston Avenue, number 75, up in the Historic Hill area. I'm putting a shop in the ground floor and I want to hang a sign over the new door. Do I need a permit for that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:11:44-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sign, yeah, generally you do. Signs on commercial storefronts usually go through a sign permit, and in Historic Hill there can be extra review on top of that. Is it a new sign or are you replacing something that was there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:12:04-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "New. There's never been a shop there. It was an apartment, and then a storage thing, and now I'm converting it. So the door is new too. Well, the door opening is new. Is that, um, is that a separate thing? The door?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:12:24-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The door and the change of use are building permit questions, not the sign. Do you already have a permit for the conversion?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:12:35-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so. My contractor pulled something. I'd have to check the paper. I thought the sign was part of that, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:12:46-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, the sign is its own application. Separate permit, separate review. Your contractor's paperwork wouldn't cover it unless he filed for it specifically."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:12:57-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So that's the thing I was told might be wrong. A guy at the hardware store said signs are just covered under the main one. So he was wrong."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:13:12-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds like it. Not a big deal, you just have to file it separately."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:13:19-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Next question. Does a licensed contractor have to be the one who applies? Because I was going to just do it myself. I'm the owner. Well, my LLC is the owner, I'm the, you know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:13:36-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a sign permit, the owner or the business can usually apply. It depends who's doing the installation, though. If there's electrical work, like a lit sign, that part needs a licensed electrician. A plain painted or hung sign, you can often apply on your own."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:13:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I apply, but the electrician is separate if it lights up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:14:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Is it lit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:14:07-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know yet. Probably not. Maybe a little light shining on it from above. Is that lit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:14:16-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A light fixture aimed at it, that's electrical work too, so that'd be the electrician. The sign itself isn't lit, but the fixture counts."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:14:28-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so if it's not lit but there's a light on it, I need the electrician. But if there's no light I don't. Okay. I think I got that. Say it again?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:14:44-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No light, you can apply yourself and hang it. Any wiring or fixture, an electrician handles that part. The sign application is still yours either way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:14:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Got it. Mostly. So what do I put on the application? Is there a form?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:15:05-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a sign permit application. You'll want the size of the sign, the materials, how it's attached, where it goes on the building, and a drawing or mockup. Photo of the building front helps too. Also the property owner's information."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:15:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Size like, in inches? Or the area? I read something online about square feet and I got confused."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:15:33-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Give us the dimensions, width and height, and the square footage works out from that. Put both if you can."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:15:43-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, hang on. My keyboard has a sticky letter e, so every time I try to look at the website I get these typos, like it types two of them or none. It's been driving me nuts. So half the time I can't even find the page."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:16:06-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'll do it. You don't have to do it online anyway. You can come by the office and pick up the paper form, or we can give you the information over the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:16:22-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Paper's fine. Where are you again? City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:16:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall, Broadway side. Zoning and Inspections. We're open regular weekday hours, so you can come this afternoon if you want."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:16:38-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Today's Thursday, right. Yeah, maybe. Is there a fee? I'm guessing there's a fee."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:16:45-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's a fee, yes. I don't want to quote you a number off the top of my head and get it wrong. The counter will have it when you pick up the form."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:17:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And how long does it take? Because the shop's supposed to open in, like, February."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:17:09-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It varies. Simple ones can go quickly. In the historic district it might need to go in front of a review, and that can add time. So I'd file soon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:17:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Historic review. Okay. What does that mean, a board? Do I have to show up?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:17:32-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Might be a board, might be staff review depending on the sign. When you file, they'll tell you which. If you do have to appear, they'll give you a date."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:17:47-05:00",
+      "duration": 24,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. More paperwork, more waiting. Okay. So just so I'm not wrong again. The sign is a separate permit from the building one. I can apply myself, no contractor needed. If there's a light or wiring, a licensed electrician does that part. And I should bring dimensions, drawing, photo. Right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:18:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. You nailed it. Bring the materials and how it mounts, too."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:18:18-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mounts. Like brackets, screws into the brick?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:18:22-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, however it's attached to the building. If it's brick, they'll want to know you're not wrecking the masonry. Mortar joints versus the brick itself, that kind of thing, especially on Historic Hill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:18:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. I didn't know that was a thing. Okay, so I should ask whoever's hanging it what they plan to do."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:18:49-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good idea. Put it on the drawing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:18:53-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if my contractor already pulled the other permit, is he going to be annoyed I'm doing the sign separately?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:19:04-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can't say, but it won't affect his permit. They're independent."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:19:10-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Okay. And the name on it, does it have to be the LLC or me? I keep going back and forth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:19:21-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Whoever owns the property or is the responsible party. If the LLC owns the building, put the LLC and list yourself as the contact. The counter can sort it out if you're unsure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:19:37-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Honestly I figured this would be a bigger mess. Still a little fuzzy on the electrician thing, but I'll ask when I come in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:19:49-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, ask at the counter. They can walk you through it with the form in front of you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:19:58-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Thanks, Greg. I'll try to come by later today."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-11T13:20:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Take care, Doug."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T13:11:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T13:11:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-11T13:11:19-05:00",
+        "end": "2025-12-11T13:20:07-05:00",
+        "duration_seconds": 528,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-11T13:11:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-11T13:11:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-11T13:11:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-11T13:11:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-11T13:11:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

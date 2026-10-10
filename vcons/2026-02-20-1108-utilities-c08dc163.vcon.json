@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c08dc163-bc38-897f-8c08-3e1f1e28ca05",
+  "created_at": "2026-02-20T11:12:09-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Beatriz Quintero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T11:08:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:08:32-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, sorry, I'm going to be quiet. Someone's sleeping in the next room. I have a question about my water bill. The sewer part."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:08:42-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, no problem, I'll keep it low too. What's the question on the sewer part?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:08:48-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, there's a line that says sewer charge. And it's more than the water charge. Like, quite a bit more. I don't understand that. I thought the sewer is... the water goes out, so it should be the same?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:09:03-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's a really common thing to wonder about. Sewer is billed on its own rate, separate from water. Usually it's based on how much water came through your meter, but the sewer rate per unit can be higher than the water rate. So the two lines don't have to match."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:09:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Wait. So it's not the same number of... [pause] units? The water and the sewer?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:09:29-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually the same usage drives both, yes. The units are the same, but each one gets multiplied by a different rate. Does that make sense?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:09:39-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sort of. No. Maybe. Sorry. Is it, the rate, is it the same as last year? Because last year in the winter, my bills were much lower. Like, much. I kept them, I can look."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:09:53-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't say for sure without pulling up your account. Could be the rate changed, could be more usage this billing period, or it could be an estimated read. Do you have the bill in front of you? Look for a line that says actual or estimated next to the meter reading."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:13-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, hold on. [pause] I see, there's a letter next to the number. It's an E. Is E estimated?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's usually what E means, yes. Estimated means the meter wasn't read and the bill was guessed from past use. Those can swing high and then correct later."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:32-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So I'm paying for a guess? That doesn't, I don't get that. Can I ask, is this call being recorded?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:40-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Calls to this office may be recorded, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:44-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. That's fine. That's fine, I just wanted to know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:49-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:10:51-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So what do I do? I'd like someone to look at it. Can I talk to a supervisor? Somebody who can review the charge. Because I still don't understand why the sewer is so much higher than before."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:06-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. My supervisor's on another call right now. I can either put you on hold or have her call you back. Which is easier, with someone sleeping there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Call back is better. Please. The number is four oh one, five five five, zero one five five."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:24-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four oh one, five five five, zero one five five. And the name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Beatriz Quintero. B-E-A-T-R-I-Z. Quintero, with a Q."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:33-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. I'll note that you're asking for a review of the sewer charge, that the bill shows an estimated read, and that last winter's bills were lower. Anything else to add?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Should I pay it before she calls?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:11:50-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd hold off on deciding until she's looked at it. She can tell you where it stands. You should hear back today or on Monday."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:12:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I'm still a little lost, but okay. Thank you, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:12:06-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good weekend."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T11:08:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T11:08:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T11:08:27-05:00",
+        "end": "2026-02-20T11:12:09-05:00",
+        "duration_seconds": 222,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T11:08:27-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T11:08:27-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T11:08:27-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T11:08:27-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T11:08:27-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

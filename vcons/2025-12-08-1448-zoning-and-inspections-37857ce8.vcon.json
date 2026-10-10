@@ -1,0 +1,643 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "37857ce8-c0d4-868d-ac70-87605cda2000",
+  "created_at": "2025-12-08T14:56:10-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Beverly Tillinghast",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-08T14:48:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:48:48-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, yes. I'm not sure if I've got the right office. I want to put a deck on the back of my house and I don't know what, what I need to do first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:49:01-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're in the right place. We handle building permits. So, a deck. Is this a new deck, or are you replacing one that's already there?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:49:10-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "New. There's just, there's a couple of concrete steps now, going down to the yard. And I'd like a deck off the back door instead. So does that need a permit? Or an inspection, or both, I wasn't sure which is which."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:49:25-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, yes, a new deck attached to the house needs a building permit, and the permit comes with inspections while it's being built. Those are two parts of the same process. You apply first, then the inspector comes out at certain stages. Can I ask how big you're thinking?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:49:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Um, maybe twelve by sixteen? I think. My nephew measured but I wrote it down somewhere. It's not real high, maybe, two steps up from the grass."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:49:53-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's helpful. And will it be attached to the house, or free standing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:49:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Attached, I think. Is that, does that matter? I thought it would just sit against the back wall."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:50:06-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It does matter, because attached decks are tied into the house structure, so they get looked at more closely. Even a free standing one can need a permit depending on size and height. So either way I'd plan on applying."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:50:21-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I'd, I'd fill out something? Is it a form online or do I come in? I'm sorry, I've never done this."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:50:30-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need to apologize. You can come in to City Hall and pick up the application, and I believe it's also available on the city website. You'll typically need a simple drawing showing the deck, the dimensions, and where it sits on the lot. Who's doing the work, you or a contractor?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:50:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A contractor. Well, I haven't hired one yet. Do I need to have one before I apply? [pause] Or does the permit come first?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:50:58-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can often start the application before you've settled on someone, but the contractor usually has to be named on it. Some people have the contractor pull the permit for them. If you're the homeowner doing it yourself, that's a different set of rules. So it's worth deciding that first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. So the contractor can do the paperwork. That would be easier, honestly. I get mixed up with the forms."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:24-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A lot of homeowners go that way. Now what's the address of the house, so I can make a note?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's two sixty Farewell Street. In the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:36-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two sixty Farewell Street, got it. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:40-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Beverly Tillinghast. T-I-L-L-I, and then, N-G-H-A-S-T."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:43-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Beverly. Is there anything about the yard I should know, like is it low, or close to the property line?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:51:51-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the yard's pretty small. The fence on the one side is, I think it's maybe five feet from the deck spot? I'd have to look. And after the storm Saturday, the nor'easter, it's still kind of soggy back there, so I've been looking at it and thinking, you know, now's when I'm thinking about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:52:11-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. The setback from the property line is something the plan reviewer will check, so measure that distance when you can. A tape measure from the back wall to the fence, and from the house to the side line."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:52:26-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll write that down. Wait, so the setback, is that the same as, is that how close I can build? Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:52:34-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly. It's how close to the property line a structure is allowed to be. It depends on the zoning district, so I'd want to look up your lot before I tell you the number. The reviewer will confirm it when you apply."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:52:50-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how long does it take? To get approved. Because I was hoping, maybe, spring? To have it for the summer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:52:58-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a straightforward residential deck, it's typically a matter of a couple of weeks once the application is complete. It can be longer if the plans need corrections or the lot needs additional review. Applying in winter is actually smart, because you'll likely be done well before summer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:53:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh good. A couple weeks. So that's like, two weeks, or, I shouldn't count on exactly two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:53:22-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I wouldn't count on exactly two. Think of it as a few weeks to be safe, and it can be quicker. Missing information is what usually slows people down."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:53:33-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay. And then the inspection, they come to the house? How many times?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:53:39-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the inspector comes to the property. Usually there's one when the footings are dug, before concrete goes in, then a framing inspection, and a final at the end. Your contractor schedules those, or you can call us."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:53:53-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Footings. That's the holes? For the posts?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:53:56-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right, the holes for the posts, before they're filled. The inspector checks the depth and size."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:54:03-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I think I got it. So first the contractor, then the application with a drawing, then the permit, then three visits. Is that, did I say it right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:54:14-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You've got it. Roughly three inspections, and I'd say that's the typical number, your permit paperwork will list exactly what's required."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:54:22-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I was born over in Bristol, across the bay, and I always figured building a thing was simpler over there, but maybe it's the same. I don't know."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:54:33-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think the basics are similar everywhere. Each town has its own details, though. Do you want me to hold the application at the counter for you, or will you grab it online?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:54:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Um, I might just look online first. If I can't find it I'll come in. Where is it on the website? Under, what?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:54:54-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Look for the Zoning and Inspections page, or search for building permit application. If you can't find it, call back and I'll walk you through it. We're here until the end of the afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:07-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if I have questions about the setback thing, I just call this number?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:13-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, this same line. Give your address and we can look at the lot together. Do you want me to note a callback number, in case I find something on your parcel?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:25-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's four oh one, five five five, oh one six five."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:30-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one six five. Perfect. Anything else, Beverly?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's, well, wait. The inspection, is that, do I pay for that separately, or is it part of the permit?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:45-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The inspections are covered under the permit. The permit fee is calculated when you apply, and the application will show it. I can't quote a number from here, since it depends on the project."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:55:58-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Alright. Thank you. I'm still a little, I'll figure it out when I see the form."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:56:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Have a good afternoon, Beverly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T14:56:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T14:48:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T14:48:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-08T14:48:43-05:00",
+        "end": "2025-12-08T14:56:10-05:00",
+        "duration_seconds": 447,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T14:48:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-08T14:48:43-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-08T14:48:43-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-08T14:48:43-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-08T14:48:43-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

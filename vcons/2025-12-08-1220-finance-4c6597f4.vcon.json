@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4c6597f4-6a35-80c7-a241-81f7f4c80ed6",
+  "created_at": "2025-12-08T12:25:25-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Liam Doyle",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:15-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance, this is Luis."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:18-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Liam Doyle. I got my property tax bill and the square footage on it is wrong. Who do I talk to about that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:32-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wrong how? Too big, too small?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:36-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Too big. It says twenty-eight hundred square feet. The house is nowhere near that. It's closer to eighteen hundred, maybe nineteen."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:48-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What's the address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:53-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "43 Howard Street. Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:20:57-05:00",
+      "duration": 28,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So here's the bottom line, since I can hear you want that. I can't change the square footage from this desk. That's a property record, and it lives with the assessor's office. They'd need to look at the record and probably send somebody to measure or check the card on file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:21:25-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I call the assessor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:21:29-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Call them, or stop by. Bring the bill, and if you have anything showing the actual size, a survey, plans, an old appraisal, bring that too. It helps."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:21:44-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I might have an appraisal from when I refinanced. I'll dig it out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:21:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That'd do it. Do you want me to transfer you over now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:21:59-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, in a second. One more thing first. How do I change the mailing address? The bill went to my old PO box and I want it going to the house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:22:16-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That one I can help with. Is the PO box on the bill, or did it come to the house?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:22:27-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It came to the house, but the name line has the box listed as the mailing address. I haven't used that box in years."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:22:40-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Then it's the mailing address on the account that needs updating. I can note it here if you give me the new one, but I'd put it in writing too, just a short signed note with the parcel and the address, so it's on file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The new one is the same as the house. 43 Howard Street, Newport."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:12-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easy enough. Is it just you on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:18-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just me. Liam Doyle, D-O-Y-L-E."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. I'll put the request in under your name. Give me a number in case we have a question."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:32-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0163."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:33-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one six three. Good. Now, I'll say this once: the mailing address change won't fix the square footage. Those are two separate things, so you still need the assessor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:49-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Will the bill amount change if they fix it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:23:55-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the record changes, the assessment can change, yes. I can't tell you by how much or whether it would apply to this bill. The assessor can walk you through that."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:24:12-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Is there a deadline? I don't want to miss something."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:24:19-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are usually time limits on challenging an assessment, so I wouldn't sit on it. Call them today or tomorrow if you can. They'll tell you what the window is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:24:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll do it this afternoon. I've got a busy evening, though. I run a fantasy football league and the draft's tonight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:24:47-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Tonight? In December? Your league is running late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:24:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a second-chance draft. Anyway, I want this done before then so I'm not thinking about it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:25:02-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair. Let me get you over to the assessor. Hold on a moment, and if it drops, the number is on the city website under assessor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:25:16-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:25:17-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Ringing now. Good luck with the draft, Mr. Doyle."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-08T12:25:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Appreciate it."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:20:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:20:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-08T12:20:15-05:00",
+        "end": "2025-12-08T12:25:25-05:00",
+        "duration_seconds": 310,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-08T12:20:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-08T12:20:15-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-08T12:20:15-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-08T12:20:15-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-08T12:20:15-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

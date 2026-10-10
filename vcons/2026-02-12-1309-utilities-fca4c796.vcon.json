@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fca4c796-94f8-8f62-a94e-61a5d7f02f68",
+  "created_at": "2026-02-12T13:13:38-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Thomas Chase",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-12T13:09:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:01-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, good afternoon. Um, my name's Thomas Chase. I got a water and sewer bill here and it's wicked high, and I don't get it at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:10-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let's take a look. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:13-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "255 Malbone Road, up the North End. Or, wait. Is that the one? I got two places, so I got two bills sitting here on the table and I'm looking at the wrong one maybe."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:23-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time. Is Malbone Road the house you live in, or the other property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Malbone's where I live. The other one's the rental. Hang on. [pause] Okay, the one I'm holding says Malbone, but the account number, I think that's the rental's number. Is that a thing, could they be switched?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:40-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be a mix-up on the paper, or you might just have the two bills stacked wrong. Read me the account number off the bill and the address printed on it, and I'll see what comes up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:10:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so it's, uh, the number starts with a four, then zero, zero, seven, and then a dash, and a two. That's all I can see, the rest is under my thumb."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:11:01-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, I can find it by address. Alright, I've got 255 Malbone Road here. And yeah, the usage on this last billing period is up a good amount over what you normally run."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:11:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "See, that's what I don't get. I was away six weeks. Down to my sister's, in Florida, from the start of December to mid January. Nobody was in the house. So how's the usage high if nobody's using water?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:11:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the right question to ask. Did you have anybody checking on the place while you were gone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:11:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "My neighbor grabbed the mail, that's it. Nobody was running anything. Unless, hmm, unless this is the rental's usage. The rental had tenants in it the whole time. Is that possible, that I'm looking at their number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:11:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, the bill I'm looking at is attached to your Malbone Road account, so the usage is for that meter. But the rental has its own account and its own meter. Do you want me to pull that one up too, so we can compare?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:11:52-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yeah, please. That'd help. The rental's on, uh, Rodman, I mean, no. Hold on. Is it Rodman? [pause] Sorry, I'm getting myself all turned around here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:00-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're all right. Give me the street when you find it, no rush."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's Rodman Street. Number 41. Sorry about that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:07-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Rodman's usage looks normal for a tenant household, so those two aren't swapped. The high reading is on your Malbone account. What I can do is flag it for a meter re-read and a review, since you were gone six weeks and it doesn't match."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the reading could be wrong? Like the meter's wrong, or somebody read it wrong?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:26-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be a misread, could be an estimated reading that got trued up, or it could be a leak on the property. The re-read will tell us more. If the reading was off, they'll correct it and issue a new bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And can you mail me the corrected bill? I don't do the computer thing much. I want it on paper, in the mailbox, so I can see it with my own eyes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:48-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, I'll note it for a mailed copy to the Malbone Road address. Is the number you're calling from the best one to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:56-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0195. That's my cell."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:12:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Someone from the department will follow up once the re-read is done."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:13:04-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Sorry, I'm a little scattered today. I've got this retirement dinner Saturday for a buddy of mine and I gotta give a speech, so I've been walking around the house saying it out loud. Thirty-one years he worked the docks, and I keep starting with the same joke and losing the end of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:13:20-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that'll explain the scattered. Good luck with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:13:23-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Tony. So just to make sure I got it right, the Malbone one is the high one, Rodman's fine, and you're sending a new bill in the mail after they check the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:13:33-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it exactly. Have a good one, Mr. Chase."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-12T13:13:36-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thanks a lot."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T13:09:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T13:09:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-12T13:09:57-05:00",
+        "end": "2026-02-12T13:13:38-05:00",
+        "duration_seconds": 221,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-12T13:09:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-12T13:09:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-12T13:09:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-12T13:09:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-12T13:09:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

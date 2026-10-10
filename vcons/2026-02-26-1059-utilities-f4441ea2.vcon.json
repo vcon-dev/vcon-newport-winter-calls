@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "f4441ea2-a47e-85d8-bf0f-2962bf76ecc2",
+  "created_at": "2026-02-26T11:03:34-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rosa Quintero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:12-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. This is Rosa Quintero. I got my water and sewer bill and there's a late fee on it. The check was mailed on time, so I want to know why I'm being charged."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:25-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that. Do you have the account number on the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. It's on the top right. Account number is 4 4 1 0 7 2 8."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:38-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Let me pull that up. [pause] I see the account under Quintero. The late fee was added on the first of the month. Do you know about what date you mailed the check?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:50-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I mailed it on the eleventh of February. The due date was the fourteenth. That is three days early."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T10:59:57-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. What I'm showing is that the payment was posted on the nineteenth, so it came in after the due date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's not my fault. The post office took eight days to go across town. I did my part. And it's not the fourteenth, it's the, hold on, the bill says the fourteenth, yes. Fourteenth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:17-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the due date is the fourteenth, you're right. I can note on the account that you're disputing the late fee and that you mailed it on the eleventh. Do you still have the check number, or the stub from your checkbook?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:31-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Check number 2 2 1 4. I wrote the date in the register. February eleventh."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:37-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll put that in the note. A supervisor reviews fee disputes, so I can't tell you right now that it will be removed, but the note will go with your account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:48-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. How long does that take?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually a week or two. If there's any change, it would show on your next statement."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:00:57-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And while I have you, the bill was high too. Higher than usual. The toilet was running constantly last month. I jiggled the handle and it kept going, day and night. I think that's why the usage is up."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:01:11-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That could definitely do it. A running toilet can use a lot of water. Has it been repaired?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:01:18-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I replaced the flapper myself. It's fixed now. It was a ten dollar part, not a big job."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:01:25-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I'll add that to the note as well, so the reviewer sees there was a leak that has been repaired. I can't promise how they'll treat the usage, but it's helpful for them to know."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:01:38-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, put it down. Now, another question. If I want to pay this bill tonight, after City Hall is closed, can I do it online?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:01:47-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an online payment option on the city website, and it works any time of day. There's also a drop box at City Hall for checks that you can use after hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:01:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not putting another check in a box and hoping. I'll do it online. Do I need the account number again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:07-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'll need the account number from the bill, and it may ask for your service address or the amount due. Should you pay the whole balance, including the late fee, if the dispute is still open?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:20-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. That's what I'm asking you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:23-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, I misspoke. Pay the amount you're comfortable with, but the safest way to avoid further charges is to pay the base amount due. If the fee is removed, it would be credited to your next bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:36-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So pay the base amount tonight, and the fee gets credited if they agree."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:42-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:44-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. One more thing, not about the bill. The landlord keeps saying he'll rake the yard, and I'm thinking about buying a leaf blower. But I can't decide. Electric or gas, or just a rake. I go back and forth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:02:58-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, I'm afraid that's not something I can weigh in on from the utilities desk. Sorry about that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, I wasn't asking you really. Just saying. I'll figure it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Is there anything else on the account I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:14-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. You have my check number and the dates?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Mailed February eleventh, check 2214, and the toilet repair. Should I confirm the callback number as 401-555-0195?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:25-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:27-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Quintero. Someone will follow up if they need anything else."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T11:03:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T10:59:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T10:59:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T10:59:08-05:00",
+        "end": "2026-02-26T11:03:34-05:00",
+        "duration_seconds": 266,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T10:59:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T10:59:08-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T10:59:08-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T10:59:08-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T10:59:08-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

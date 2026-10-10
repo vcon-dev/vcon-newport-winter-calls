@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "811f0636-abad-8e51-ac36-bd429248d2ce",
+  "created_at": "2026-01-21T11:49:16-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Samir Haddad",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-21T11:43:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:43:41-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, um, good morning. Well, it's still morning, just. My name is Samir Haddad, and I have a water and sewer bill here and I have a couple of questions about it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:43:55-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing, Mr. Haddad. Do you have the bill in front of you? Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:44:03-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, I have it. It's 108 Annandale Road, up in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:44:09-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 108 Annandale. Let me pull that up. Okay, I see the account. What's your question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:44:17-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, um, the bill says it covers three months. A quarter, it says. I don't understand why it's a quarter. My electric is every month. So why does the water come so, so rarely, and how do you count the dates? It says one date to another date and I'm not sure which days are in it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:44:40-05:00",
+      "duration": 27,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question, and a lot of folks wonder about that. Water and sewer here is billed quarterly, so every three months or so, rather than monthly. The meter gets read, and the bill covers the usage between the last reading and this reading. So those two dates at the top, the service from and service to, that's the stretch of days you're being billed for."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:45:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, so the first date, is that the day the man came to read it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:45:14-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The first date is basically where the last bill left off, so that was the previous reading. The second date is the most recent reading. The usage is just the difference between the two numbers on the meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:45:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, all right. So it's not the date you mailed it, it's the date of the reading. And the one that says due date, that is something else."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:45:42-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. The due date is when payment is expected, and that comes after the bill is issued. Totally separate from the reading dates."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:45:52-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay, that I understand now. Um, the amount is more than I like, and I would like to know if a payment plan is possible. Instead of all at once. I am on a, well, a fixed income, and the whole thing in one go is, um, a lot."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:46:13-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can look at that. Payment arrangements are something we do set up. I can't finalize one over the phone without the account being reviewed, so what I can do is put a note on it and have someone in the billing office call you back to go over the options. Would that work?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:46:36-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that would be fine. They can call me at home. The number is 401-555-0199."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:46:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0199. Got it. And that's a landline?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:46:47-05:00",
+      "duration": 26,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, the house phone. The one on the wall in the kitchen. I am usually near it. Well, sometimes I am in the other room, and I don't hear it because the clock in the hallway chimes every hour, and it is very loud, and I miss the ring if it is chiming. So if it rings a long time, that is why."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:47:13-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note to let it ring a while. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:47:18-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, one more. Um, when I pay, can I pay on a Saturday? My niece is the one who drives me, and she works during the week, so Saturday is the only day. City Hall is closed, I think. So is there a way, a drop, or on the computer, or by telephone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:47:40-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, a few ways. There's a secure drop box outside City Hall where you can leave a check anytime, including weekends. You can also pay online through the city's website anytime, day or night. If you'd rather not use a computer, you can mail a check in the envelope that came with the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:48:02-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The box, is it, um, is it at the front of the building? I don't want to put it in the wrong slot."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:48:12-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's marked as a payment drop box, so you can't miss it. Just put the check in with the stub from your bill, and write your account number on the check so it posts to the right place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:48:28-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account number on the check. Yes. I will write that down. Well, then that is everything I wanted. So the billing office will call me about the plan, and in the meantime I should not pay it yet."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:48:44-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd keep an eye on that due date on the bill. The callback should come in the next few business days, and they can tell you how the plan works with that date. If you haven't heard back by early next week, call us again and we'll check on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:49:05-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Early next week. Good. Thank you very much, Mr. Ferreira. You explained it well."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:49:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy to help, Mr. Haddad. You take care."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-21T11:49:15-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T11:43:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T11:43:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-21T11:43:36-05:00",
+        "end": "2026-01-21T11:49:16-05:00",
+        "duration_seconds": 340,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-21T11:43:36-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-21T11:43:36-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-21T11:43:36-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-21T11:43:36-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-21T11:43:36-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

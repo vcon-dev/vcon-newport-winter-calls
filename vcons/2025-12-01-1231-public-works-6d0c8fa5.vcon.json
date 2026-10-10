@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6d0c8fa5-7e2d-8145-8fd6-95111a0a0a8e",
+  "created_at": "2025-12-01T12:32:57-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Mike Gallagher",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T12:31:57-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:31:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Lorraine. Mike Gallagher. I have three things. First, my trash wasn't picked up this morning. Second, it's the second miss in a row. Third, I want to know how to get a couch picked up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sorry about that. What's the address for the missed pickup?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:14-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "309 Callender Avenue, in the North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:17-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "309 Callender. Got it. And the couch, is that a bulk item you want to put out at the curb?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:24-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. First, is that allowed, and second, do I have to call ahead or just set it out?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:30-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bulk items usually need to be scheduled, so I'll set that up with you. Let me get a callback number in case anything changes on the missed pickup."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:39-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0182."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:41-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0172, let me read that back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:44-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, 0182. The 0128 was my old number, years ago."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks for catching that. 401-555-0182. I'll put in the missed pickup and the couch request, and someone will follow up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T12:32:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great, thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T12:31:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T12:31:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T12:31:57-05:00",
+        "end": "2025-12-01T12:32:57-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T12:31:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T12:31:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T12:31:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T12:31:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T12:31:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

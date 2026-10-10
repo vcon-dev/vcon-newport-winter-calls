@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5c2f06e1-31f5-8806-b30b-b9f50324824f",
+  "created_at": "2025-12-23T09:33:57-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Anabela Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T09:30:02-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:30:07-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hi, sorry, I know this is silly, but before I start, is this the right extension for property tax questions? I like to confirm I have the right extension first, otherwise I get bounced around."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:30:20-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you've reached the correct office. Property tax questions come through Finance. What can I help you with?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:30:27-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Sorry, my name is Anabela Brito. I rent at 191 Narragansett Avenue, in the Fifth Ward. My landlord said the tax bill is something he passes along, sort of, and I got confused about it. I know this is silly, but is there a senior exemption? Or a veteran one? I'm not sure which one applies to somebody like me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:30:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Exemptions are generally applied to the property owner's bill, ma'am. Are you the owner of record, or is the property owned by your landlord?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:30:59-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, no, I rent. The landlord owns it. But he said if there was something for seniors I should ask. I'm in my fifties, so, I don't know if that even counts. Sorry."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:31:11-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are elderly exemptions and veteran exemptions available, and each has its own eligibility requirements. Age and ownership would both matter. Since you're a tenant, you would not apply on your own behalf. The owner would have to apply for any exemption tied to the property."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:31:28-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Sorry, so I can't apply myself at all? I thought the form was something I fill out and send in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:31:36-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not as a renter, no. The application is filed by the property owner with the Tax Assessor's office, and it is generally due by a deadline each year. If you yourself were a veteran, that would not transfer to a property you do not own."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:31:52-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sorry, I think I get it. Sorry, I know this is silly, but is there a form number? So I can tell him? He's not great with this stuff and I'd rather give him the exact name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:32:06-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a form number in front of me that I can state with confidence. The Assessor's office can tell you the exact form for each exemption. I can transfer you, or you may ask your landlord to contact them directly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:32:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, so it's the Assessor, not Finance? I thought taxes were all the same place."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:32:27-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a common mix-up. Finance handles billing and collection. The Assessor determines the valuation and processes exemptions. So the bill comes from us, but the exemption application goes to them."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:32:38-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, so he'd call them, and they'd give him the form. And the age thing, does the senior one start at, like, sixty-five? Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:32:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would not want to state the age requirement incorrectly. The Assessor's office can confirm the criteria. Would you like me to transfer you now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:32:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, yes please. And, um, if it drops, do I call back this same extension? I'd rather make sure."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:04-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the transfer fails, call the main City Hall line and ask for the Assessor's office. I'll stay on until it connects. One moment, please."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:13-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. Sorry for all the questions."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:17-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Please hold."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:20-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ms. Brito, I'm getting a voicemail at the Assessor's desk. Would you prefer to leave a message there, or try again later this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, um, I'll try later. So just to repeat, the landlord applies, through the Assessor, not Finance. And I ask them for the form name. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct. The owner applies through the Assessor's office, and they can name the form and the requirements."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:47-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Ms. Whitcomb. Sorry, I'm still a little mixed up, but I'll try them. Happy holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T09:33:54-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Happy holidays to you as well. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T09:30:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T09:30:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T09:30:02-05:00",
+        "end": "2025-12-23T09:33:57-05:00",
+        "duration_seconds": 235,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T09:30:02-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T09:30:02-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T09:30:02-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T09:30:02-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T09:30:02-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

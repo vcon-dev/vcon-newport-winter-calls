@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "09ef1ca9-bc9c-8879-89d1-c9f13bcbd833",
+  "created_at": "2026-02-17T12:39:00-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Erin Sullivan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-17T12:37:48-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:37:52-05:00",
+      "duration": 30,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, so I'm calling because a neighbor keeps leaving trash bags at the corner by me, not on pickup day, just whenever, and it's been a few weeks, and the bags get ripped open and stuff blows around, and I'm also wondering how I'd request a replacement, because my recycling bin got knocked over and cracked in the middle of all that, and I've been home sorting old photographs into albums so I'm out there a lot and I see it, and the location is 233 Memorial Boulevard, that corner right there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:22-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, let me make sure I have that. Bags being dumped at the corner of 233 Memorial Boulevard, and your recycling bin is cracked and needs replacing. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For the replacement bin, I'll put in a request with your address. Is the bin the one the city gave you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the blue one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:44-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I'll send the dumping report to the crew too, so they can check the corner. Do you want a callback number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0168."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0168. All set, Erin. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-17T12:38:58-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T12:37:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T12:37:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-17T12:37:48-05:00",
+        "end": "2026-02-17T12:39:00-05:00",
+        "duration_seconds": 72,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-17T12:37:48-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-17T12:37:48-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-17T12:37:48-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-17T12:37:48-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-17T12:37:48-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

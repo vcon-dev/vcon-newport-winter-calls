@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "048bda27-50e7-83e4-bc34-4269da8ba97b",
+  "created_at": "2025-12-30T12:11:40-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Daniel Mensah",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-30T12:06:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:06:44-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey Tony, it's Daniel. Well, I was gonna say I'm calling to turn myself in, but it's just a water bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:06:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, we can work with that. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:00-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] So I got a notice in the mail. It says shutoff warning on it. In red. Not a great thing to find on the last Monday of the year."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, those don't look friendly. Can I get your address and I'll pull up the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Sure. Three thirty-six Admiral Kalbfus Road. North End."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you're on speaker, right? There's a little lag on my end. Three thirty-six Admiral Kalbfus?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Yeah, that's it. Sorry, I think it's the line, everything's coming through late on mine too. I'll talk slower."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, we'll just take turns. Okay, I've got it up. Last name Mensah?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:50-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Yep. Mensah."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:07:52-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I'm showing the last quarterly bill is past due, and the notice went out as a final reminder before service gets scheduled for shutoff. The balance is higher than your usual."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:08:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Yeah, that's the thing. It's way higher. I think I know why. The toilet was running constantly last month. Like all the time. I didn't catch it for a couple weeks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:08:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, that'll do it. A running toilet can use a surprising amount of water, and it all gets billed as sewer too, since that's tied to water use."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:08:33-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Right, so I fixed it. Flapper, ten bucks. Cost me about four hundred in water, though, apparently. Anyway. How much time do I have before they actually shut it off?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:08:47-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the notice should have a date on it. Do you see a pay-by date near the top?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:08:55-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hang on. Let me find it. [pause] Okay, it says January ninth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:01-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that matches what I see. So you've got until then to pay, or to call us about an arrangement, before it goes to the shutoff list. You've got a little over a week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:16-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, good. So not tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, not tomorrow. You've got some room."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:23-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Alright. Now, here's my other problem. I work till past five most days, and I know you close at four-thirty. Is there any way to pay by phone after that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:37-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. There's an online payment option on the city website you can use anytime, day or night. And there's a drop box at City Hall for checks if you want to go that way."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:52-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Online, okay. And that one's open at, like, nine at night?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:09:58-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, it's always up. You'll need your account number off the bill. It's near the top, by your name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:10:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay. And if I wanted to do it by phone, not the website? After hours, I mean."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:10:15-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "By phone with a person, it'd be during our regular hours. After that, the website is your best bet. Or you can call tomorrow on your lunch and do it with me directly."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:10:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[line breaks up] ...lunch, yeah, that might be easier, I'm on lunch right now actually, [inaudible] but I don't have the card on me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:10:40-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you broke up there. You said you don't have your card on you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:10:47-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Right. It's in the truck. I'm in the kitchen right now. I'll just do the website tonight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:10:55-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. And once you've paid, it should post to the account pretty quick, and the shutoff notice gets cleared."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:11:04-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay. And the high bill, is there anything for that? Since it was the toilet?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:11:12-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly, the usage was real water going through the meter, so the charge stands. But if the full amount is tough, call us and we can talk about splitting it up, as long as it's before that ninth."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:11:29-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Alright, I'll see how tonight goes. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:11:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime. Happy New Year, Daniel."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-30T12:11:37-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] You too. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:06:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:06:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-30T12:06:39-05:00",
+        "end": "2025-12-30T12:11:40-05:00",
+        "duration_seconds": 301,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-30T12:06:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-30T12:06:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-30T12:06:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-30T12:06:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-30T12:06:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

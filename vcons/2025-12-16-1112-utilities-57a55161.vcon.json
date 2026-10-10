@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "57a55161-837c-8c12-9fcf-8b4a79e1945f",
+  "created_at": "2025-12-16T11:18:01-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Rachel Cohen",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:38-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:43-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. I am calling about water and sewer bill. I just bought house, and first bill came, but it is in name of former owner. Not my name."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:12:56-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that happens a lot right after a sale. The bill goes out under whoever was on the account at the last reading. Congratulations on the house, by the way. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:13:13-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I have it. Is annoying. I closed three weeks ago. Why they send it to old owner name? I am the owner now."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:13:24-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so the account hasn't been switched over yet. Usually the transfer happens when the deed gets recorded and somebody tells us to update the account. Sometimes it lags. What's the name on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:13:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name is Brad Pittman. Like the actor, Brad Pitt. I thought, is joke."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:13:45-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, no joke, I think you mean Pittman, with the M-A-N at the end. Not the actor. Just a regular former owner."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:13:55-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Pittman. Sorry. Anyway, bill is for two hundred sixty something. I think is not all mine. Part is before I own the house."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:14:06-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a fair point. The bill covers a billing period, so some of it may be from before closing. If there was a final reading at the sale, the previous owner's portion should be settled with them, usually through the closing. Did your closing papers mention a water adjustment?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:14:27-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not know. I will look. But I am landlord, I have tenant also, and I do not want to pay for somebody else. Why I get bill for his water?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:14:41-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. What I can do is note the account, and have the ownership updated once I have your closing date and the property address on file. Then we can sort out which part is yours. Can you give me the address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:14:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will send it with the papers. Not now. Now I want to ask, can I do payment plan? Is big amount for one time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:15:10-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, you can ask about that. Generally we can set up installments on a balance, but it's best to get the account in your name first so it's clear what you owe. Once that's done, somebody in the office can go over a plan with you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:15:30-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Another thing. I am leaving on trip this Friday, for two weeks. I want to pay before I go, but I cannot come to City Hall in these hours. How I can pay outside the regular hours?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:15:46-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. You've got a couple of options. There's a payment drop box at City Hall you can use any time, day or night, with a check and the bill stub. You can also pay online through the city website, that works around the clock. And you can mail a check too, though with the holidays that might take a while."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:16:12-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online is okay. I need account number from bill, yes?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:16:17-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the account number is printed on the bill, usually near the top. Just keep in mind it's still under the old owner's name, so the online system will show his name. That's normal. The payment will still go to that account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:16:35-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "But if I pay, and part is his, I lose money?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:16:40-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. If you want to wait on the full amount until we sort it out, I'd rather you call back after we update the account. But if you're leaving Friday, maybe pay what you think is clearly yours and keep your receipt. Then the rest gets worked out when you're back."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. This is annoying, honestly. I buy house, and I get his bill."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:09-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you, it's a hassle. It's very fixable though. Do you want to leave a callback number so the billing office can reach you before Friday?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Four zero one, five five five, zero one eight eight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:26-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-eight-eight. And it's Cohen, right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:30-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, Rachel Cohen. C-O-H-E-N."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:33-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. I'll put a note that you're the new owner, you want the account transferred, you're asking about a payment plan, and you're traveling Friday. Someone should get back to you in the next day or two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Thank you. I will send the closing papers."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good. Safe travels, Ms. Cohen, and have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T11:17:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:12:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:12:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T11:12:38-05:00",
+        "end": "2025-12-16T11:18:01-05:00",
+        "duration_seconds": 323,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T11:12:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T11:12:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T11:12:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T11:12:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T11:12:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

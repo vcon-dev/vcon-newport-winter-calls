@@ -1,0 +1,511 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3b1ff988-b523-8cd7-9ca0-ff9f4f97c83f",
+  "created_at": "2026-01-14T14:07:21-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Diane Santoro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-14T14:01:08-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:01:12-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, sir. Thank you for taking my call. My name is Diane Santoro. I am calling because I received a bill from the city for the car tax, and I do not understand it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:01:26-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the motor vehicle excise tax. Happy to look at it with you. What's confusing about it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:01:33-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The bill is for a car, a Honda, but I sold this car last year. In the summer, I think, July or maybe August. So I do not understand why the city is asking me to pay for it now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:01:49-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. That happens a lot, actually. The bill goes out based on who the registered owner was on record, and if the registration wasn't canceled with the state, the car can still show up under your name. Did you turn in the plates when you sold it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:02:07-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, the plates. I believe the man who bought the car, he kept the plates. He said he would take care of everything at the registry. I did not do anything more. Was that a mistake?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:02:21-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Might be what happened. Not a crime, just a paperwork gap. Do you have a bill in front of you? Is there a bill number or a year at the top?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:02:33-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, one moment please. [pause] Okay. It says the year, two thousand twenty-five, and then there is a long number. Do you want that number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:02:43-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet, let's figure out the process first. What I'd tell you is, when a vehicle's been sold, there's usually a way to ask for an adjustment or exemption. You'd need proof that the car was sold and that the registration was ended."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:03:00-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Proof. Like what? I have a paper, a bill of sale, but it is handwritten. Is that okay? And I do not have a paper from the registry."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:03:11-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A handwritten bill of sale is a start. The better thing is a plate cancellation receipt or something from the registry showing the date the registration ended. You can usually get that from the registry, sometimes online."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:03:25-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. Excuse me, one more question. Is there a form for this? Like a number for the form, so I can look for it. I want to ask for the right one, because I do not want to make a mistake with the city."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:03:42-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Honestly, I don't have a form number I can give you off the top of my head, and I'd rather not hand you the wrong one. Let me check with the tax assessor's side, because that's who handles the adjustments. Can you hold for a minute?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:04:00-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, of course. I will wait. Thank you very much."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:04:05-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Back. So I talked to the colleague. There's a request form for excise tax abatement, and the assessor's office has it. They can send it or you can pick it up at City Hall. I don't have a number to give you, but if you ask for the motor vehicle abatement form, they'll know."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:04:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Abatement. Sorry, this word, abatement. It means the bill is lowered or canceled?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:04:32-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's it. Reduced or wiped out, depending on the dates and what you can show."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:04:39-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. Then the form is called the abatement, and it is not the exemption. I thought exemption was the word. So they are two different things?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:04:50-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Kind of overlapping, to be honest. Exemptions are for specific situations, like certain veterans or other categories. Yours sounds like an abatement because you sold the car. The assessor can tell you for sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:05:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So I should ask for the abatement, not the exemption. I am writing it. A-B-A-T-E-M-E-N-T. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:05:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You nailed it. Better spelling than half my emails."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:05:15-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. You are very kind. I am a little nervous with the English words for these things. Right now I am also studying for my ham radio license exam, so my head is full of other vocabulary, like frequency and antenna. Now I have abatement too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:05:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's a good mix. Hopefully the abatement is the easier test."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:05:38-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hope so. Please, one more thing. Do I have to pay the bill first, while I wait for the answer? The bill says there is a date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:05:49-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I'd say get the request in before that due date, so there's a record you asked. Whether you pay in the meantime, the assessor's office will tell you. I don't want to steer you wrong on that part."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:06:05-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So first I call the assessor, ask for the abatement form, and bring the bill of sale. And maybe go to the registry for the paper about the plates."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:06:17-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the plan. Plates first, if you can, since it makes your case stronger. And keep the bill handy when you contact the assessor, they'll want the number you saw."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:06:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. And the bill is from the finance office, but the abatement is from the assessor. I am sorry, I am still a little confused who does what."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:06:40-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, it's confusing from the outside. We send and collect the bills. Assessor decides the adjustments. I can transfer you right now if you want."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:06:50-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please, if it is not a problem. Before, may I give you my telephone number, in case the line falls?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:06:59-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:07:01-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is four-zero-one, five-five-five, zero-one-five-five."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:07:04-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-five-five. Got it, noted with your name. Okay, Ms. Santoro, hang on while I transfer you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:07:12-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much, Mr. Luis. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-14T14:07:17-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Good luck with the radio exam."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T14:01:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T14:01:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-14T14:01:08-05:00",
+        "end": "2026-01-14T14:07:21-05:00",
+        "duration_seconds": 373,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-14T14:01:08-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-14T14:01:08-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-14T14:01:08-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-14T14:01:08-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-14T14:01:08-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

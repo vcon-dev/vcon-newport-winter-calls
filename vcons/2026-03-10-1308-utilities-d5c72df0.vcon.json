@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d5c72df0-8e2c-88be-b847-c74a8e563cd4",
+  "created_at": "2026-03-10T13:12:28-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Ricardo Rivera",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-10T13:08:59-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:03-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good afternoon. This is Ricardo Rivera. I am calling about my water and sewer payment. It was returned, bounced, from my bank, and I would like to know the status of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:15-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can you give me the account name, or the service address on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:23-04:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account is under Rivera, Ricardo. The address I would prefer not to say on this line, because I am on speakerphone, in the bank lobby. I am waiting my turn, so it is a little loud here."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:37-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Do you have the account number from the top of the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:43-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not have the bill with me. On the other hand, I have the name and my telephone, which is 401-555-0152. [crosstalk] Sorry, the teller is calling someone else, not me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:09:55-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I'll try searching by name. One moment. [pause] I see a Rivera, Ricardo, with a returned payment noted on the account. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:05-04:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is it. So it is returned. But the money was in the account, I am quite sure. This is why I am here at the bank, to understand what happened. The bank says one thing, you say another."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:20-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can only see that the payment came back unpaid. The reason code isn't something I can read from here. I can see the balance is still open."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:30-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Open, meaning I owe it still. On the other hand, nobody told me by mail or by phone. I find out only now. It is an annoying thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:40-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. There may be a notice in the mail that hasn't reached you yet. I'm not seeing a late action posted on the account at this point."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:10:50-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that is something. Also, I have a question. My daughter helps me with the bills, the computer things, the paperwork. She wants to be authorized to speak with you for me. How is this done?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:03-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We'd need an authorization from the account holder, in writing, with her name and contact information. I can have the form sent to you, or you can pick one up at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:15-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send it, please. By email I am not good, so the regular mail is better. And the rest, the bounced payment, who can tell me exactly what to do now? You, or someone else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:28-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Our billing supervisor can confirm the returned payment details and whether any fee was added. She's in a meeting right now. I can leave her a note and have someone call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:40-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please call me back with an answer. The number I gave you, it is the correct one. [line breaks up] Sorry, did you hear?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:11:49-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I lost you for a second. I have 401-555-0152 on the account. I'll note that you want the status of the returned payment, whether anything is owed beyond the original amount, and the authorization form for your daughter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:12:03-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. That is all correct. And please, today if it is possible. On the other hand, I understand you are busy, so tomorrow is also acceptable."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:12:13-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll mark it as a priority. You should hear from someone by tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:12:18-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Miss Priya. They are calling my number now at the bank, so I must go. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-10T13:12:25-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Mr. Rivera. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:08:59-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:08:59-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-10T13:08:59-04:00",
+        "end": "2026-03-10T13:12:28-04:00",
+        "duration_seconds": 209,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-10T13:08:59-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-10T13:08:59-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-10T13:08:59-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-10T13:08:59-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-10T13:08:59-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

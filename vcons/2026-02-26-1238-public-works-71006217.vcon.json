@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "71006217-f6ab-81b9-a121-dd16a8d589d1",
+  "created_at": "2026-02-26T12:39:41-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ileana Valdez",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:23-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. I call about the sidewalk. It is broken, heaved up, and I tripped on it yesterday. Almost fell down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sorry to hear that. Are you okay? Where's the sidewalk, exactly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:36-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am okay, only my knee is sore. It is 170 Mill Street. One-seven-zero, Mill Street. Up on the Hill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 170 Mill Street, got it. And the sidewalk's lifted up, like a slab pushed up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:38:49-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the slab go up, maybe [line breaks up] maybe two inches higher. And it is right in the bike lane, so the bicycle people also can hit it. Is dangerous."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, you cut out for a second. Two inches, in the bike lane, right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, two inches. Bike lane. I want the street to be added to the repair list. This is not first time I notice it. Nobody fix."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:14-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll put 170 Mill Street on the list for the sidewalk crew to look at. Can I get a callback number in case they have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:23-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 401-555-0178. Zero-one-seven-eight. Sorry, I am a little rushed voice. I just finish arguing with my teenager about curfew."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:30-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries, I hear you. Okay, I've got it all noted. Heaved sidewalk, bike lane, 170 Mill. Someone will take a look."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T12:39:38-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Please do soon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T12:38:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T12:38:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T12:38:19-05:00",
+        "end": "2026-02-26T12:39:41-05:00",
+        "duration_seconds": 82,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T12:38:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T12:38:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T12:38:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T12:38:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T12:38:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "bc9f9ad0-6113-8ac9-b718-1b37f1c8b4ed",
+  "created_at": "2026-01-06T11:57:29-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Alan Thurston",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-06T11:53:55-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:53:58-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Mr. Lombardi. My name is Alan Thurston. I am calling about a sign permit, if you would be so kind as to help me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:54:09-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Tell me what you're looking to do."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:54:13-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am a landlord, and I have a new shop opening in the ground floor of my building at 478 Chapel Street. I would like to mount a sign over the door of the shop, and I wish to know whether a permit is required."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:54:31-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, a sign usually needs a permit, and being up on Historic Hill, there may be an extra review on top of that. Is it a flat sign on the wall, or hanging out from the building?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:54:46-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It would be a hanging sign, on a bracket, mounted above the door. Wood, with painted lettering."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:54:54-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the building the one that holds the shop and apartments above?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:55:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is correct. Two apartments above, and the shop on the ground floor."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:55:06-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And you own the building, so you'd be the applicant, or is the shop tenant doing it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:55:14-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I shall be the applicant. The tenant has agreed to it, but the building is mine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:55:21-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that keeps it simple."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:55:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Might I ask what documents I should bring with me? Kindly tell me everything, so that I do not make two trips."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:55:33-05:00",
+      "duration": 29,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Bring a completed sign permit application, which you can pick up here or print from the city website. Bring a drawing of the sign with the dimensions, the lettering, and the colors. Bring a photo of the front of the building showing where it'll go, and something showing how it's attached and how far it hangs out. And if you're not the owner of record on the paperwork, a letter from the owner."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:02-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I am the owner of record. [pause] Forgive me, one moment while I write this down. A drawing with the dimensions, the photograph of the facade, and the mounting detail."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Also the name of whoever's making and installing it, if you have that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:21-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do not yet have an installer. I may do the mounting myself, or hire a carpenter."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:29-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, just bring what you've got. We can tell you if anything else is missing when you come in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:38-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Very good. I should mention that my neighbor, a retired teacher, corrects my grammar whenever I speak to her. If I have said anything improperly, I trust you will forgive it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounded fine to me. We're here until four-thirty today, if you want to come by this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:56:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is most helpful. I believe I shall come after lunch, then. Is there a particular counter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:57:07-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just come to the main desk here at Zoning and Inspections, upstairs at City Hall. Tell them it's for a sign permit and they'll take you right in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:57:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Lombardi. I appreciate your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:57:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Have a good one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-06T11:57:26-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good day to you."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T11:53:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T11:53:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-06T11:53:55-05:00",
+        "end": "2026-01-06T11:57:29-05:00",
+        "duration_seconds": 214,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-06T11:53:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-06T11:53:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-06T11:53:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-06T11:53:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-06T11:53:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

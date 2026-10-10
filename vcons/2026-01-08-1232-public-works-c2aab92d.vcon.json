@@ -1,0 +1,211 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c2aab92d-dd19-83e1-90ba-fafe03c2fa22",
+  "created_at": "2026-01-08T12:33:11-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Rui Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:07-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I'm calling about a streetlight on my street. It's been switched to something really bright and it shines straight into my bedroom window. I can't sleep with it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, that's no good. Is it a new bulb, or has it always been like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It changed a couple weeks ago. Before that it was a dull yellow. Now it's white and it lights up the whole room. I put a blanket over the curtain. Doesn't help."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:33-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Which street is the pole on? Do you have a number from the pole?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:38-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm not giving my own address, but it's the pole right in front of the house across from the corner market. I didn't read a number. Can you send a crew to check the pole? Maybe the fixture is wrong or it's aimed wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:50-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll put in a request for a crew to look at it. Can I get a callback number in case they have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:32:57-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. 401-555-0199. Sorry, my speaker is cracked. It buzzes on high notes, so if I sound off, that's why."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:33:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I can hear you fine. I've got it down. Someone should take a look in the coming days."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T12:33:09-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:32:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:32:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-08T12:32:07-05:00",
+        "end": "2026-01-08T12:33:11-05:00",
+        "duration_seconds": 64,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T12:32:07-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-08T12:32:07-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-08T12:32:07-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-08T12:32:07-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-08T12:32:07-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

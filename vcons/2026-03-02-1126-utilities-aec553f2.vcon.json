@@ -1,0 +1,331 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "aec553f2-6ed0-8019-9ea2-5ca0acfa9d59",
+  "created_at": "2026-03-02T11:28:07-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Diogo Souza",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:05-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:09-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah. I got a water and sewer bill and it says estimated. I think nobody ever read my meter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that. What's the address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "386 Ocean Avenue. Diogo Souza."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:23-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Diogo. Give me a second to pull it up."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:27-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Sorry, one moment. I've got a customer at my register. [pause] Okay, I'm back."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:33-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. So yes, I see it here. This last bill was based on an estimated read. That means the meter wasn't actually read for that cycle, so the system used your past usage to guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:45-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. That's what I figured. I don't think anyone's been out to the meter at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:26:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It looks like the last actual read was a while back. When the next real read comes in, it'll adjust, so you could see a catch-up on the following bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:01-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, is a payment plan possible? The amount's a bit much all at once."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's something we can usually set up. I'd have to get you on the arrangement paperwork, and I can note your account while we talk."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:15-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. One moment, please. [pause] Sorry. Yeah, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All good. Anything else on the bill you want me to explain?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:24-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just paying. I work days, so I can't get there during the regular hours. Can I pay in person after four thirty, or in the evening?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:33-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The counter here closes at the end of the regular business day, so evening in person isn't really an option. But there's a drop box at City Hall you can use anytime, and you can pay online whenever you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:46-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, the drop box and online. That works."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:49-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And I'll flag the account about the estimated read so somebody looks at getting the meter checked. Want me to put your cell on it, in case we call back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:27:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's 401-555-0169."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:28:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Someone will be in touch about the payment plan."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:28:05-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:26:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:26:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T11:26:05-05:00",
+        "end": "2026-03-02T11:28:07-05:00",
+        "duration_seconds": 122,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:26:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T11:26:05-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T11:26:05-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T11:26:05-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T11:26:05-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

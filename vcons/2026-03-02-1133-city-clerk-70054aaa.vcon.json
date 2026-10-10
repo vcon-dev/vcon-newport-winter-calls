@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "70054aaa-09cf-8f3c-a51c-16ce6f0764bc",
+  "created_at": "2026-03-02T11:34:04-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Thomas Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:01-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, hi. Yeah, I'm trying to reach the school department. Is this the school department?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, sir, this is the City Clerk at Newport City Hall. I think you may have the wrong number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:16-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Well, I dialed the number off the back of my kid's, my nephew's, folder. Is this not a four-oh-one? I thought they were all four-oh-one."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:24-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, four-oh-one is the area code for all of Rhode Island. So that part's right. It's the seven digits after it that must be off."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:31-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. So the area code's fine. I thought maybe I needed a different one, like for Middletown. Oh, and by the way, I'm parked down by the harbor right now and the water looks totally flat. Not a ripple. Anyway, the school department."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:43-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Take your time. I'd suggest looking up Newport Public Schools on the city website or checking the folder again for the main office number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:50-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I just try the folder again, with the four-oh-one first?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Four-oh-one, then the seven digits. Hopefully that gets you there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:33:58-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Owen. Sorry about that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:34:01-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:33:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:33:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T11:33:01-05:00",
+        "end": "2026-03-02T11:34:04-05:00",
+        "duration_seconds": 63,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:33:01-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T11:33:01-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T11:33:01-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T11:33:01-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T11:33:01-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

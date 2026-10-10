@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a5d2f932-c03f-8c6d-b015-931d03944680",
+  "created_at": "2026-01-26T12:14:50-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Anthony Cirelli",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-26T12:10:43-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:10:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. My name is Anthony Cirelli. I am calling about a fence. I want to ask if I need a permit."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:10:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. Is this for a house you own, or are you renting?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:11:02-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I rent. I am at 268 Admiral Kalbfus Road, in the North End. My neighbor, he is putting up a fence now, and I think, I would like the same. For my yard."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:11:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. What kind of fence are you thinking about?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:11:19-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Cedar. Wood, cedar. About four and a half feet tall. Four and a half, yes. So, do I need to pull a permit before the guy starts? He wants to come next week, the fence man."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:11:33-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Generally, yes, a fence usually needs a permit here, so I'd hold off on starting. One thing though, since you're renting, the property owner has to be okay with it. Is your landlord aware you're planning this?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:11:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The landlord? Um. I did not talk to him yet. I thought I pull the permit, I am the one who pays. Is it not me who asks?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:11:59-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The permit application is usually done by the owner or by a contractor on the owner's behalf. It's their property, so they'd have to sign off. I'd talk to your landlord first."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:12:12-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So first the landlord, then the permit, then the fence man. Is this the correct order?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:12:19-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the order. Landlord, permit, then the fence guy starts."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:12:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And another question. How close to the property line is allowed? My neighbor, his fence looks like right on the line. Or maybe he is inside. I cannot tell."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:12:36-05:00",
+      "duration": 26,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That depends on the lot and the type of fence, and I don't want to give you a number off the top of my head that turns out wrong. When the permit application goes in, you'd show where the fence sits on a simple sketch of the lot, and the office will tell you if it's okay. A survey of the property helps if your landlord has one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:13:02-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A survey. Okay. So the landlord maybe has a paper with the lines. And I draw the fence on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:13:11-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close. Whoever applies would mark it on a plot plan or a copy of the survey. You can also come in and the staff will walk you through the forms."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:13:23-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Come in, yes. What are the hours? I must plan, because on Wednesdays there is a late bus, and I always forget it. I wait and wait, and then I remember."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:13:36-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open weekdays during regular business hours at City Hall, so any weekday works. Not sure about your bus, but a morning visit on a day other than Wednesday would avoid the problem."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:13:49-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good idea, not Wednesday. Thursday maybe. Do I bring the picture of the fence? From the fence man?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:13:57-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Bring whatever you have, a drawing or a brochure from the fence company showing the style and height, plus the survey or lot sketch. And bring your landlord's name and contact info."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:14:10-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. Cedar, four and a half feet, landlord name, the lot paper. Did I say this right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:14:18-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. You can also have the landlord call us directly if that's easier."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:14:25-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I will tell him. Maybe tonight I call him. If you need my number, it is 401-555-0184."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:14:33-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't need it right now, but thanks. If anything else comes up, just call back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:14:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much, Greg. You were very helpful to me. God bless you and your family."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-26T12:14:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Cirelli. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:10:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:10:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-26T12:10:43-05:00",
+        "end": "2026-01-26T12:14:50-05:00",
+        "duration_seconds": 247,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-26T12:10:43-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-26T12:10:43-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-26T12:10:43-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-26T12:10:43-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-26T12:10:43-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

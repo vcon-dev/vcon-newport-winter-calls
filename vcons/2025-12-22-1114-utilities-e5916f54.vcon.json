@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e5916f54-6d2f-8542-ae1f-1cf7049651f1",
+  "created_at": "2025-12-22T11:20:19-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Holly Sisson",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-22T11:14:51-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:14:56-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, Holly Sisson. I got my water and sewer bill in the mail Saturday and I'm looking at it and it makes no sense to me. The sewer part is wicked higher than the water part."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:15:13-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that with you. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:15:21-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do, yeah. Water usage is one number, and then the sewer line is almost double. I only use the water once, so how am I paying twice as much to get rid of it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:15:37-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair question. The sewer charge is figured off the water that comes into the property. Whatever comes in is assumed to go down the drain. But the sewer rate per unit is higher than the water rate, because it covers the treatment plant and the pipes. So the same gallons show up on both lines, just priced differently."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:16:02-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's the same gallons, but a higher rate on the sewer side."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:16:09-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. It's not a second reading, it's the same reading billed at a different rate."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:16:16-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I don't love it, but I get it better than I did. I still think it's steep. It's a rental, I've got tenants downstairs, and half that water goes in the garden hose in the summer, not down any sewer."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:16:34-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I hear that a lot. I can't change the rate on the phone, but I can note your account. Do you want me to pull up the account? What name is it under?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:16:49-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sisson, Holly. S-I-S-S-O-N."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:16:51-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Let me see. [pause] Okay, I've got your last three bills here. The usage on this one is a little above the one before, but nothing crazy."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:17:04-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay. Fine. That's not the whole reason I called, though. My daughter helps me with all the bills now. She does the computer stuff. She wants to be able to talk to you folks about the account without me sitting right there. How do I get her authorized?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:17:26-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Easy enough. We'd need something in writing from you, with her name, her phone number, and your account info, and you sign it. You can drop it off at the counter or mail it in. Then she's on file."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:17:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Does it have to be a special form?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:17:47-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No special form. A signed letter works. Just say you're authorizing her to discuss and handle the account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:17:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I can do that. I'll write it up this week, before the holiday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:18:03-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open through Tuesday, and then closed for Christmas, so sooner is better if you want it done this year."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:18:12-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Now, other thing. How do I set up autopay? Like automatic withdrawal out of my checking for the future bills. I'm tired of writing a check every quarter and then forgetting till the last minute."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:18:29-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. We have an automatic withdrawal form. It asks for your account number and the bank routing and account numbers, and you sign it. I can have one mailed to you, or you can pick it up here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:18:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it is better. I'm out in the car half the day. Can you send it to the address on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:18:56-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. I'll put a request in now. You should see it in a few days, maybe a bit longer with the holiday mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:19:07-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. I'm not in a rush on that one. I'm the youngest of seven, so believe me, I learned patience a long time ago. You wait your turn for everything in my family."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:19:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that'll serve you well with the mail this week."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:19:27-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Okay, so just to make sure I have this right. The sewer's higher because it's a higher rate on the same gallons. Letter for my daughter, signed. And the autopay form comes in the mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:19:43-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. If your daughter wants, she can also call once she's on file and I or someone here can go over the bill with her."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:19:55-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Do you need a number for me, in case the form gets lost?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:20:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead and give me one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:20:06-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0179."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:20:07-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0179. I've noted the account, and the form request is in."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:20:13-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks, Tony. Merry Christmas."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-22T11:20:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Holly. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T11:14:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T11:14:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-22T11:14:51-05:00",
+        "end": "2025-12-22T11:20:19-05:00",
+        "duration_seconds": 328,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-22T11:14:51-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-22T11:14:51-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-22T11:14:51-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-22T11:14:51-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-22T11:14:51-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

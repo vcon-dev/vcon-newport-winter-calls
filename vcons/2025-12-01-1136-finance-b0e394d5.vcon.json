@@ -1,0 +1,379 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b0e394d5-bbba-8c57-a71a-430eacb53784",
+  "created_at": "2025-12-01T11:39:44-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Carmen Quintero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-01T11:36:22-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Luis. Good morning, or just about afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:36:27-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I'm calling about a property tax bill. I got one in the mail on Saturday, and my mortgage company is supposed to pay that out of escrow."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:36:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is this a bill for your home, or for a business property?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:36:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, it's the shop. I have a little shop on the commercial side, the building, I mean. Sorry, you asked about the home. No, it's the building the shop is in. I own it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:36:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, the commercial building. And the mortgage is on that building?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:36:59-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. The bank collects escrow every month with my payment. They told me when I refinanced that they'd send the tax payment to the city. So why am I holding a bill with my name on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:37:12-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few reasons that happens. Sometimes the bill goes to the owner no matter what, and the mortgage company pays from their own copy. Sometimes the bank is late or has the wrong account. Do you see anything on the bill that says paid or shows the lender's name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:37:28-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] It has the lender listed at the top, in the corner. The amount due is the full amount, though. Nothing says paid."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:37:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the bill for the first quarter payment, or is it an older one?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:37:43-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It was due in, um, well, I called my bank already. Oh, you asked about the quarter. It's the December one, I think. Let me see. Yes, the second installment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:37:53-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Then my suggestion is to call your bank's escrow department and ask them to confirm the date they send the payment. If they've already sent it, it may just not be posted on our end yet. If you want, you can call us back in a few days and we'll look at the account."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:38:11-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense. I don't want to pay twice. And one more thing. There's an exemption I think I qualify for on the building. What's the form number for that?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:38:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a commercial property, there are a couple of different ones depending on what kind of exemption. Which one are you thinking of?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:38:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's the tangible, no, wait, that's the equipment. I mean the one for, um, the veteran one. My husband's. It's on the property."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:38:38-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so a veteran exemption. I don't want to read you the wrong form number off the top of my head. That one runs through the assessor's office, and they'd give you the right form and tell you what paperwork goes with it. I can transfer you over, or I can take your number and have them call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:38:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Transfer is fine. Actually, can they call me? I have to get back to the shop. The number is 401-555-0155."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero one five five, got it. And the name?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Carmen Quintero. Q-U-I-N-T-E-R-O."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:10-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. I'll put a note that you want the exemption form number and that your escrow bill question is with your bank first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Sorry, I'm a little scattered. My daughter texted me in the middle of all this. The school cafeteria changed its menu, and she is not pleased. Apparently the pizza is gone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:29-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's a serious matter. Might need a formal complaint."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:33-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll tell her you said so. Alright, thank you for your help."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:38-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Quintero. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-01T11:39:42-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T11:36:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T11:36:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-01T11:36:22-05:00",
+        "end": "2025-12-01T11:39:44-05:00",
+        "duration_seconds": 202,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-01T11:36:22-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-01T11:36:22-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-01T11:36:22-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-01T11:36:22-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-01T11:36:22-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

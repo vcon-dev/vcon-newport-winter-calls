@@ -1,0 +1,715 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "1d7e0750-006d-8396-87d7-803b508ea0b2",
+  "created_at": "2026-03-02T14:13:25-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Manuel Teixeira",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T14:05:39-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Newport Utilities, water and sewer billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:05:47-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Manuel Teixeira. I need to change the mailing address on my water account and switch to paperless billing. [pause] Sorry, hang on, my screen reader is going in the background. Let me turn it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:04-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's reading some email aloud. It'll keep mumbling a little, ignore it. So, the address change."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:15-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. First, I need to find the account. What's the service address, the property where the water is metered?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "361 Bellevue Avenue. That's the service address, that doesn't change. Only the mailing address."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And the account is under Manuel Teixeira, T-E-I-X-E-I-R-A?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:36-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. As I said, T-E-I-X-E-I-R-A. It's under the business, but my name is on it as the contact."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:45-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I have it here. Currently the bills are going to the Bellevue address itself. What would you like the new mailing address to be?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:06:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a P.O. box. Box 214, Newport, Rhode Island, 02840."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:07:02-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Box 214, Newport, 02840. Let me read that back so we're sure. P.O. Box two-one-four, Newport, Rhode Island, zero-two-eight-four-zero. Correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:07:12-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:07:13-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. I've updated that. Now, for paperless billing, I'll need an email address where we send the notices. Do you want to give me one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:07:25-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Can I do that over the phone? I'd rather not spell it out and have it get mangled."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:07:34-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can. I'll read it back letter by letter. Or if you prefer, I can note that you want paperless and you can finish enrollment through the online account page."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:07:48-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just do it now. I'll spell it slow. Hold on, the reader's talking again. [pause] Okay. It's m-t-e-i-x-e-i-r-a, then the word marine, then at, then a mail service. I'll say the whole thing."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please go ahead with the complete address and I'll write it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "M as in Mike, T, E, I, X, E, I, R, A, marine, M-A-R-I-N-E, at, my domain, which is teixeiramarine dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So that's M, T, E, I, X, E, I, R, A, M-A-R-I-N-E, at teixeiramarine dot com."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:28-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:30-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Paperless is set. You'll get a confirmation email, and after that, paper bills stop. It can take a billing cycle to fully switch over, so you might get one more paper bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A billing cycle. Fine. As I said before, I don't need a long explanation, I just need it done."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Anything else on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:08:58-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. My daughter helps me with the bills. Because of my eyes, I have her read me things and she does a lot of the payments. She wants to be authorized on the account so she can call and ask questions without me sitting there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:09:19-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's reasonable. Since the account holder has to approve it, I'll need you to tell me that you authorize her. Do you have her full name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:09:31-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Daniela Teixeira. D-A-N-I-E-L-A."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:09:34-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. I can add her as an authorized contact on the account, with your verbal permission right now. Do you give that permission?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:09:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I authorize her. To discuss billing and make payments."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:09:51-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Noted. When she calls, she'll be asked to verify the service address and her name. If the city needs anything in writing for her to make changes beyond billing questions, we'll let you know."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:07-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What kind of changes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Things like closing the account or changing ownership. Questions and payments are fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:17-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. She doesn't need to do those."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:22-05:00",
+      "duration": 1,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:23-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Now, one more. Payments. Can she pay on a Saturday or Sunday? She works during the week and she's only free on the weekend. City Hall is closed then, right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:37-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Hall is closed on weekends, yes. But you can pay online any day, any hour, through the account portal. That works on a Saturday or Sunday. There's also a drop box at City Hall for checks that's available outside office hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:10:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, does it work with a screen reader? Mine's not great with some sites."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:11:03-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise how it'll behave with your particular software. Most people manage it, though. If she's with you, she can do it on the weekend and read you each step. And if the site gives you trouble, she can pay by phone during our weekday hours."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:11:25-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is there a phone line on weekends?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:11:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not staffed on weekends. Online and the drop box are your weekend options."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:11:37-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. The drop box, where is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:11:41-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "At City Hall on Broadway, near the main entrance. You'd put in a check with your account number or the stub from the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:11:53-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account number, I have that. It's on the old bills. [pause] Hold on, the reader is going again. Okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:12:02-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. Also, since you're going paperless, the account number will be in the email notices, and your daughter will be able to see it too if she's on the email or sits with you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:12:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Then she can find it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:12:23-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. Let me recap what I did. Mailing address is now P.O. Box 214, Newport, 02840. Paperless billing is on with your email. Daniela Teixeira is added as an authorized contact for billing questions and payments. Anything I missed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:12:41-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all of it. Is there a number she can call back, if something doesn't look right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:12:50-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "She can call this same utilities billing line during weekday office hours. Would you like me to put your callback number on the account as well? I see a number ending in zero-one-seven-eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:13:05-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right. 401-555-0178."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:13:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that matches. You're all set, Mr. Teixeira."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:13:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. That was quicker than I expected."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:13:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Glad to hear it. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T14:13:23-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:05:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:05:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T14:05:39-05:00",
+        "end": "2026-03-02T14:13:25-05:00",
+        "duration_seconds": 466,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T14:05:39-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T14:05:39-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T14:05:39-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T14:05:39-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T14:05:39-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "8f5af0eb-df04-83d0-9cbf-02dd7c1a8c88",
+  "created_at": "2026-01-05T10:56:19-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Bruce Hazard",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-05T10:50:57-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:02-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Good morning. My name is Bruce Hazard. I'm calling about my water and sewer bill. I got a notice that says my payment didn't go through."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:14-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can I have the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:20-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's one-oh-six Gibbs Avenue. Over on the Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "One-oh-six Gibbs Avenue. Thank you, Mr. Hazard. And you said the payment didn't go through. How did you pay it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:34-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It was a direct draw out of my checking account. I did it online, I think the end of December. Then the bank sent me a thing saying it bounced. Which is news to me, because there was money in there. I checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:51-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Let me pull up the account. Give me just a moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:51:57-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. I've got the paper bill right here in front of me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:52:03-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that will help. Can you read me the date at the top of the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:52:10-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Hold on, my glasses. [pause] It says, bill date, December... one, two. Twelve. Two thousand twenty-five. And then due date, January... one, five. Today, I guess. Is that right? January fifth?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:52:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, today is the fifth. So that bill is due today. I'm seeing the account now. There is a returned payment noted on the twenty-ninth of December. It shows as returned by the bank, so the balance is still open."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:52:39-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it's not paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:52:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, as of now it's not paid. The payment came back, so the full amount is still showing as owed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:52:51-05:00",
+      "duration": 20,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's aggravating. I did what I was supposed to do. I don't know why the bank would do that. Could be they typed the numbers wrong. I'll call them. But I'd like to get this taken care of today so it doesn't get a late charge or whatever."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:53:11-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'd suggest you confirm with your bank, because I can only see that it was returned, not the reason. In the meantime you can make a new payment today, by phone with me, or online."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:53:26-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Here's the thing. I'm calling right before I go pick up the kids. I've got to leave in about ten minutes. So I can't really sit here and do the whole thing right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:53:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. We don't have to do it right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:53:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So can I pay it online tonight? After City Hall's closed? Is the website open at night, or is it only during business hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:53:55-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The online payment page is available around the clock, so you can pay this evening. You'd need your account number from the bill. It should be near the top, on the right side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:54:09-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] Okay, I see an account number. Do you want me to read it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:54:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No need, just have it handy tonight. What I'd say is, since the last payment bounced, use a different method if you can, a card, or double check the bank details before you try the account again."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:54:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah. Yeah, that makes sense. I'll use the card, probably. And if it posts tonight, does it count for today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:54:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A payment made online tonight should be recorded with today's date. If you get a confirmation number, keep it, and write it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:54:51-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Confirmation number. Write it down. And what about that returned payment, is there a fee for that? On my end I mean. I don't see anything on the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:55:03-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't see a fee posted on the account at the moment. If one is added later, it will show on your next statement. If you see anything you don't understand, call us back and we can go over it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:55:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. And you have my number if I need to... no, wait. You don't. It's four-oh-one, five-five-five, zero-one-seven-one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:55:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-seven-one. I've added that to the account notes. That's the number you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:55:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's the cell. Reception's not great in the kitchen but it's fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:55:40-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So to recap: the December payment was returned by your bank, the balance is still open and due today, and you plan to pay online tonight with a different method."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:55:53-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Thank you. I'm a little irritated, but not at you. Somebody dropped the ball and I'd like to know who."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:56:02-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fair. Your bank should be able to tell you. Is there anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:56:10-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's all. I've got to go get the kids. Thanks for your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-05T10:56:16-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Hazard. Drive safely."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T10:50:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T10:50:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-05T10:50:57-05:00",
+        "end": "2026-01-05T10:56:19-05:00",
+        "duration_seconds": 322,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-05T10:50:57-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-05T10:50:57-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-05T10:50:57-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-05T10:50:57-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-05T10:50:57-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a543aef4-530e-8bc6-869a-c8b35afb77a7",
+  "created_at": "2025-12-24T11:06:24-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Fernando Resendes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:03-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance, this is Luis. Happy Christmas Eve, what can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. [pause] Fernando Resendes. I got a parking ticket on my tenant's car, well, on my car, parked out front of my building, and I want to know what happens if I don't pay it right away."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:21-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Do you have the ticket in front of you? Is there a number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:27-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on. Sorry, I just got a new phone and I'm still learning the gestures, I keep swiping the wrong thing. [pause] Okay, I've got the ticket, it's in my hand, the paper one. It says overnight parking, and I was parked right in front of my own place. Fifty-three Howard Street."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:44-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, Howard Street. Read me the ticket number whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:49-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's, uh, ticket number is on the top right. I'll just say it's the one that's dated the twentieth. Honestly I'm not paying until somebody explains why I got this."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:04:59-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Without the number I can't pull it up, but I can tell you how the clock works. Tickets usually go up if they sit unpaid past the due date printed on the ticket."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:05:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so how much does it double to, and when? That's what I need to know. It's on there somewhere but the print is tiny."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:05:20-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's the due date on the ticket. Miss that, and the fine doubles. The ticket will show you the original amount, so you just double that. If you read me the number I can confirm the exact date for you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:05:33-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Fine. Hold on. I'm not looking for a fight, I just think it's a bad ticket. Where do I send a written appeal? Is there an address, or do I bring it in?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:05:44-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can mail it to the City of Newport, attention Finance, parking violations, at City Hall. Or drop it at the counter. Include a copy of the ticket, your plate number and your reasons, and sign it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:05:56-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Mail it to City Hall, attention Finance. Copy of the ticket, plate, reasons. [pause] And that stops the doubling?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:06:03-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't promise it stops the clock on its own. Get the appeal in well before the due date and ask in writing for a hold. If you want, call back with the ticket number and I'll look at the date with you."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:06:17-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, all right. I'll find the number. Thanks, Luis. Merry Christmas, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-24T11:06:22-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Go swipe something."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T11:04:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T11:04:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-24T11:04:03-05:00",
+        "end": "2025-12-24T11:06:24-05:00",
+        "duration_seconds": 141,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-24T11:04:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-24T11:04:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-24T11:04:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-24T11:04:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-24T11:04:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

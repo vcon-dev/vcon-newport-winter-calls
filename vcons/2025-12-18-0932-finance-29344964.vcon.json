@@ -1,0 +1,415 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "29344964-a1bf-8f84-a716-8544fb616cab",
+  "created_at": "2025-12-18T09:36:51-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Priya Patel",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T09:32:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:04-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Miss Whitcomb. My name is Priya Patel. I am calling for my mother, about a parking ticket. She paid it already, but a late notice came in the mail yesterday."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:16-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see. I'll need some information to look it up. Do you have the ticket number or the license plate?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:24-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have the notice here. The ticket number is, um, four, four, one, seven, zero, two. Is that right, I read it slow. Four four one seven zero two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:36-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one seven zero two. Thank you. And the name on the registration?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is my mother, Marie Patel. She lives at ten Van Zandt Avenue, in the North End. I am helping her with the papers."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. One moment while I pull that up."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:56-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:33:58-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, I have the citation. It shows a payment received on December ninth, and the late notice was generated on the twelfth. Did your mother pay online?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:34:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, online, on the computer. I did it with her, sitting next to her. We got a confirmation page. I wrote down the date, it was the ninth, same like you say."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:34:21-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That matches what I'm seeing. It appears the payment posted after the notice had already gone into the mailing batch. So the notice crossed with the payment."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:34:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, so it was the mail and the payment, they pass each other. So she owes nothing more?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:34:39-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The account shows the ticket as paid in full. She can disregard the late notice."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:34:46-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Can you put it in the note, so nobody sends another one? She is worried, a little, when she sees letters from the city."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:34:56-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've added a note to the citation that the payment was received on the ninth and the notice should be disregarded. You shouldn't receive anything further on it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:35:07-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Also, one more thing. I would like the photo of the violation. The picture the officer took of the car. Can you send to me by email?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:35:18-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a photo attached to this citation. I can email it to you. What email address would you like me to use?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:35:27-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is priya dot patel dot home, all one word after the dot, at mail dot com. Let me say again slowly. P, R, I, Y, A, dot, P, A, T, E, L, dot, home, at mail dot com."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:35:42-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me read that back. Priya dot patel dot home at mail dot com. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:35:49-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, correct. That is it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:35:52-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll send it this morning. It may take a little while to arrive, so please check your junk folder if you don't see it by this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:36:03-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I will look. I want to see where the car was, because my mother says she was parked right, near the church. Maybe the picture shows."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:36:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The photo should show the vehicle's position and the signage. If you have questions about the violation itself, you would need to follow up with the parking office."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:36:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I understand. She paid already, so I only want to see. I don't call the city much, only when I really have to. So I am happy this is clear."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:36:37-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Is there anything else I can help you with today, Ms. Patel?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:36:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you for your help, Miss Whitcomb. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T09:36:49-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You as well. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T09:32:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T09:32:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T09:32:58-05:00",
+        "end": "2025-12-18T09:36:51-05:00",
+        "duration_seconds": 233,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T09:32:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T09:32:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T09:32:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T09:32:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T09:32:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

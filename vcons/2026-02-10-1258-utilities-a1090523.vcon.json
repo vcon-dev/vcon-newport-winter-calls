@@ -1,0 +1,535 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a1090523-21d7-8a1d-8fce-6ab48c02e6f1",
+  "created_at": "2026-02-10T13:05:02-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Moira Reardon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-10T12:58:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:58:05-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Tony. Yes. My name is Moira Reardon. I am calling about my water bill. I am on speaker, because I have the bill in my hands and I need to read it. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:58:20-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Go ahead, Ms. Reardon. What's going on with the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:58:26-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is almost double. Double! Every quarter it is about the same, and this one, no. It is nearly twice what I always pay. I did not change anything in my house. Same people, same laundry, same everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:58:41-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's definitely worth a look. Do you have the bill in front of you? Can you tell me the date on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:58:50-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. The date at the top says January twenty-ninth, twenty twenty-six. And then the due date is below it. It is in February, the twenty-seventh, I think. Let me look again. Yes, the twenty-seventh."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:59:04-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And on there, there should be a section showing the previous reading and the current reading, with the usage in between. Do you see that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:59:15-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Previous reading, current reading. The usage number is very big. I do not understand it. I thought maybe it is a mistake from the meter. Because I do not have a leak. I checked the toilets, I checked the faucets. Nothing is running."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:59:32-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, that's the first thing people check. So here's how it usually works. Sometimes the meter gets read wrong, sometimes it's an estimated read and then the next real read catches up and it looks like a jump. Does it say anything next to the reading, like an E or the word estimated?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T12:59:52-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] I see a letter next to the previous one. It is an E, I think. Yes. An E. And the current one has an A."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:00:03-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the previous one was estimated and the current one is actual. That can do it. If the estimate came in low last time, the actual read this time makes up the difference, so it looks like double. But I can't say for sure that's what happened here without pulling the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:00:23-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. So I paid less before, and now they take the rest? But nobody told me this. There was no letter. I would like to understand. It is annoying, because I always pay on time and now I have a surprise."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:00:39-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. It's a fair complaint. Let me ask you something. What I'd want is the account looked at, and if the reads are off, a corrected bill goes out. Is that what you're looking for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:00:54-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Exactly. I want a corrected bill. Mailed to me, on paper, please. Not only a phone call. I need it in my hand to keep."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:01:05-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely, we can mail it. I'll put a note on the account to have the readings reviewed and a corrected bill sent out if it comes back different. Can I get the name on the account and the service address to pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:01:22-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The name is Reardon, R-E-A-R-D-O-N. Moira. And, um, I would rather not say the address on the phone, I am on speaker. Can you find it by the name and the account number? The account number is on the bill, top right."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:01:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that works. Read me the account number off the bill and I'll find it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:01:44-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me find it. [pause] It is zero-zero-four, seven-two-one, dash, nine. Zero-zero-four, seven-two-one, nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:01:50-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zero-zero-four, seven-two-one, dash nine. Let me bring that up. Bear with me one second."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:01:56-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, of course. Take your time. I tried last week to call, you know. I was on the line, and then a robocall came in, a recording, and it cut me off. I lost my place. So I had to start again today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:02:13-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ugh, sorry about that. Those robocalls are the worst. Okay, I've got it up. Reardon, and that account number matches. I see the two reads you're talking about. The one from October is flagged as an estimate, like you said, and the January one is an actual read."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:02:32-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it is what I thought, an estimate before. But still, the number is too big. Even if the first one was low, double? I do not think so."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:02:44-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You might be right to question it. The usage this period is a lot higher than the one before, but it's also higher than what the account usually shows over a full year. So an estimate catching up wouldn't totally explain it. That's why I want the reading checked."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:03:03-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. That is what I think. Somebody should check the meter, maybe. Or the reading was typed wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:03:11-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be either one. I'll send a request to have the meter read again and have someone compare the numbers. That usually takes a few business days. Once they've looked, if there's an error, the bill gets corrected and we mail you a new one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:03:28-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few days. Okay. And the due date, the twenty-seventh. What do I do about this? I do not want a late fee for something that is not my fault."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:03:40-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. I'm going to note on the account that the bill is under review, so it's on record that you called today and disputed it. If the review's still going close to the due date, call us back and we'll check where it stands."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:03:57-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. And you will mail the new bill? To the same address as this one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:04-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, to the mailing address on the account. Is that still the right one for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:11-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is the same. Nothing changed."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Do you want to leave a number in case the meter people have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:21-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is four-oh-one, five-five-five, zero-one-five-nine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:24-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, zero-one-five-nine. Got it. So just to read it back: bill dated January twenty-ninth, usage looks about double, prior read was estimated, you want the meter rechecked and a corrected paper bill mailed. Did I get it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:39-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that is everything. Thank you, Tony. You explained it nicely. I was only annoyed because nobody warned me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Totally understandable. Sorry for the hassle. You'll hear from us once it's been looked at."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:53-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you very much. God bless you and your family, Tony. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-10T13:04:58-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Ms. Reardon. Take care now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:58:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:58:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-10T12:58:00-05:00",
+        "end": "2026-02-10T13:05:02-05:00",
+        "duration_seconds": 422,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-10T12:58:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-10T12:58:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-10T12:58:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-10T12:58:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-10T12:58:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

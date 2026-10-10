@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e2008877-dc9f-8f96-ba0f-159625ea568e",
+  "created_at": "2026-03-11T14:53:01-04:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Colleen Donovan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T14:51:23-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City of Newport Finance Department, this is Janet Whitcomb. How may I direct your call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:51:28-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, Colleen Donovan here. I got a parking ticket and I think it's bogus. How do I contest it? What does the hearing process even look like?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:51:37-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly. You may contest a citation by requesting a hearing within the time stated on the notice. A hearing officer reviews the citation and any evidence you submit, and you would be notified of a date."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:51:49-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Oh, one moment, hon. Sorry, I'm at my register, I got a customer. One moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:51:55-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time, ma'am."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:51:57-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm back. So I'm in the shop, I'm not gonna be able to sit in a hearing in the middle of a Wednesday. Can I just do it in writing?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:07-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "In many cases, yes. You can submit a written appeal along with your photographs or other documentation. Please include the citation number, your name, your plate number, and the reason for your appeal."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:18-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. One moment, I'll be right with you. Sorry. So where do I send it? Is there an address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:25-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Written appeals go to the Finance Department at City Hall, attention parking violations. I would also check the back of your notice, as the mailing instructions are printed there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:35-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The back, okay. Hang on, I got it here somewhere. Yeah, one moment. Okay, I see it, there's small print on the back. Honestly I was parked right where the sign said I could be."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:47-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then your photographs of the sign will be useful. Be sure to mail it before the deadline on the notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:54-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Alright, thank you, Janet. Sorry, one moment, sir. Bye now."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T14:52:59-04:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for calling. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:51:23-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:51:23-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T14:51:23-04:00",
+        "end": "2026-03-11T14:53:01-04:00",
+        "duration_seconds": 98,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T14:51:23-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T14:51:23-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T14:51:23-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T14:51:23-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T14:51:23-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

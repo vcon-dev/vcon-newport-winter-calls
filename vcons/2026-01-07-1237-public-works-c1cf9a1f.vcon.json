@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c1cf9a1f-a2c7-881a-91eb-a5b85326269f",
+  "created_at": "2026-01-07T12:39:27-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Richard Gifford",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T12:37:55-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:37:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, Denise. My name is Richard Gifford. I live at 168 Kay Street, on the Hill. I have a question about the recycling."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:38:07-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, Mr. Gifford. What's the question?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:38:10-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What can go in the recycling now? I hear the rules changed. Pizza boxes, glass, and those plastic clamshells, the ones from the grocery with the berries. I want to do it right."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:38:22-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Pizza boxes are fine if they're clean, but if the bottom is greasy, that part goes in the trash. Glass bottles and jars are accepted, just rinse them out. Clamshells are usually fine if they're rinsed and marked with a number one or a number two."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:38:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Number one or two. Okay. Rinse the glass. Clean pizza box only. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:38:44-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:38:46-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. I would like a supervisor to call me back, please. Somebody there who knows the rules for the whole list. I want to be sure, because my pickup was skipped last time and I did not understand why."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:39:00-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can have a supervisor call you. What's the best number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:39:05-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is 401-555-0167. Please, call before three o'clock if possible. I have to drop off my dry cleaning before they close, so I am leaving soon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:39:14-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0167, 168 Kay Street. I'll put in the request and mark it for this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:39:21-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Denise. You are very kind. Goodbye."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T12:39:25-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:37:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:37:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T12:37:55-05:00",
+        "end": "2026-01-07T12:39:27-05:00",
+        "duration_seconds": 92,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T12:37:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T12:37:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T12:37:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T12:37:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T12:37:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

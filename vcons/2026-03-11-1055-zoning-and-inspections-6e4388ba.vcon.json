@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6e4388ba-1814-829c-8b9f-be6959d809c4",
+  "created_at": "2026-03-11T10:56:44-04:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Ricardo Valdez",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-11T10:55:27-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:55:30-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, good morning. My name is Ricardo Valdez. I'm calling for my mother, she's got a house at 34 Memorial Boulevard, over by Easton's Beach."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:55:38-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. What can I do for you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:55:41-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So we're doing a renovation, the kitchen mostly, and we need a dumpster. On the street, because the driveway is too narrow. Is there a permit for that? A dumpster permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:55:51-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, if the dumpster's going on the street, you'll need a permit for that. Doesn't matter if it's a day or a couple weeks."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:55:59-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. And the company, the rental company, they don't handle the permit? I thought maybe they handle the permit."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:56:06-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Some will offer, some won't. Ask them before you assume. Either way it's the property owner's name that matters, so your mother."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:56:13-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, her name, not mine. Got it. And the fee? Is there a fee for the permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:56:19-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is, yeah. I don't have the exact amount in front of me. Let me put you through to the permit desk, they can give you the number and tell you what to fill out."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:56:30-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, sure. Sorry, I'm a little scattered. I hung a new curtain rod this morning and now I feel like I'm an expert on everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:56:38-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hang on, I'll transfer you. Stay on the line."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-11T10:56:42-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, thank you. I'll wait."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T10:55:27-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T10:55:27-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-11T10:55:27-04:00",
+        "end": "2026-03-11T10:56:44-04:00",
+        "duration_seconds": 77,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-11T10:55:27-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-11T10:55:27-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-11T10:55:27-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-11T10:55:27-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-11T10:55:27-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

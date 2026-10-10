@@ -1,0 +1,343 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "977fe254-ba65-80a9-8612-4ede0183c52d",
+  "created_at": "2026-02-18T12:59:37-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Min-jun Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T12:56:56-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony. Well, I'm calling to see if you take bribes for late fees. Kidding. Mostly. Min-jun Goldberg, I'm on Gibbs Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:08-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, no bribes, sorry. What's going on with the bill, Mr. Goldberg?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:13-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I got hit with a late fee on my water and sewer bill, and I mailed that check on time. I'm pretty sure of it. It's 226 Gibbs Avenue, over on the Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 226 Gibbs. Let me pull that up. Do you have the bill in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:31-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I've got it right here. The bill is dated January second, and the due date says January thirty-first. I put the check in the mailbox the Monday before that, the twenty-sixth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:42-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, bear with me a second. [pause] Okay, I see it. The payment was posted on February third, and the late charge went on after the due date passed. So it's the posting date that counts for us, not the mailing date."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:57:56-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Five days to get across town? That's one way to run a mail system."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:01-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it does happen, and the envelope with the postmark would be the thing to have. If you still have your bank record showing when the check cleared, that helps too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:11-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see the check cleared on the third, so that matches what you're saying. I don't have the envelope, obviously."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:18-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. I can note your account that you dispute it and pass it to the billing supervisor to review. I can't promise what they'll decide, but it'll be on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:28-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine, put the note on it. And while I've got you, how do I set up autopay? Like automatic withdrawal from my checking account, so I'm not relying on a mailbox."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:38-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, we have an automatic withdrawal form. It asks for your account number and the bank routing number off a check, and you sign it. I can email it or mail it to you, whichever you like."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:50-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail is how I got here, so email, please. I'll give you the address."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:55-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:58:57-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Honestly I need to get this settled now. Our youngest starts preschool in January, wait, no, next January, so it's about to be tuition on top of everything. I want one less thing to remember."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:59:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Makes sense. Do you want to give me the email now, or is there a callback number on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:59:15-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Use the callback, it's 401-555-0151. You can read me the email you'd send to, or just send it to what's on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:59:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll send it to what's on the account and have the supervisor call this number about the late fee. Should be in the next day or two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:59:32-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Tony. Appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T12:59:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T12:56:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T12:56:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T12:56:56-05:00",
+        "end": "2026-02-18T12:59:37-05:00",
+        "duration_seconds": 161,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T12:56:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T12:56:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T12:56:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T12:56:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T12:56:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

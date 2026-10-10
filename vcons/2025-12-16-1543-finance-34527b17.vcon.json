@@ -1,0 +1,475 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "34527b17-86ca-877b-9855-9e36e1353929",
+  "created_at": "2025-12-16T15:48:10-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Rocco Conti",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-16T15:43:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:43:19-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, I think I'm in the right place. I got a parking ticket thing in the mail, sort of, but it's not really from you guys directly. It came through a rental car company."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:43:32-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Those happen. The rental company pays it, then passes it along to whoever had the car. Do you have the ticket number handy?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:43:41-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think so, hold on. Maybe it's on the second page. Okay, so there's a letter from the rental company, and then behind it there's the, um, the citation. The number is... I think it's four, four, one, seven, nine, zero, two."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:43:56-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one seven nine zero two. Let me pull that up. Bear with me, my computer's got one speed and it's called thoughtful."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:44:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, okay. Take your time. I've got nowhere to be, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:44:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, I've got it. Overtime meter violation on Thames Street, back in October. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:44:17-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I think that's it. I was in town for a weekend, I was maybe ten minutes over, if that. And now the rental company is, sort of, charging me this whole administrative fee on top. It's way more than the ticket. I think it's like triple."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:44:34-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that part's the rental company's doing. They tack on a handling fee. The city's portion is just the fine itself. That's the only part I can see or touch."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:44:45-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. So, I think I already paid the city part. Maybe. I sent something in October, I believe, when I got the first notice. So why is it coming again?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:44:57-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at the payment history. Hmm. I do see a payment posted on the twenty-first of October. Then the rental company's payment shows up later, which may be the overlap. Do you know what card you used?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:45:11-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think it was my Visa, maybe. The last four are, um, sort of, three, three, five, eight. Three three five eight."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:45:20-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three three five eight. That matches the payment I'm looking at. So you paid, and then the rental company paid too, because the notice went to them first."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:45:31-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I paid twice. Basically. I think that's what you're telling me."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:45:36-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Basically, the city got paid twice on that ticket. Which sounds like a refund situation, but I can't promise how it'll go until it's reviewed. I can flag it for a duplicate payment review."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:45:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yeah, please do that. That's, I mean, that's kind of annoying. I did the right thing and now I'm chasing it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:45:58-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note the date of your payment and the card ending in three three five eight, so they don't have to ask you again."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:46:08-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Um, can I also get the photo? Of the violation. I think there was a photo, maybe. The letter said there's one. I'd like to see it, because I'm not sure the car was even where they say."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:46:22-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is an image attached to the record. I can email it to you. What email address do you want it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:46:31-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, sure. Hold on, my friend gave me a list of questions to ask, sort of a cheat sheet. I think the email one is on there. Anyway, it's rocco dot conti, all one word after the dot, at a mail dot com. Maybe I should spell it. R-O-C-C-O, dot, C-O-N-T-I."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:46:50-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Rocco dot Conti at a mail dot com. I'll send the photo over this afternoon. Should land within the hour, unless the computer decides otherwise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:00-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And what else is on this list. Um. He wrote down to ask for a confirmation of the review. Like something in writing, I think."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:10-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Your friend's thorough. I'll put a note on the account, and the review outcome gets mailed out. What's the mailing address on file? I have one Carroll Avenue listed."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:21-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's me. One sixty-nine Carroll Avenue, in the Fifth Ward. That's right."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:26-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect, one sixty-nine Carroll. And a callback number in case they have questions?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:31-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's four-oh-one, five-five-five, oh-one-eight-seven."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:34-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, oh one eight seven. Got it. Anything else I can do for you today?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I think that's it. I mean, there's one more thing on the list, but it's, like, about parking permits, and it's not really what I called about. So no."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:47:53-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Watch your email for the photo, and the duplicate review will come by mail."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:48:00-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks. I guess I'll wait and see."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:48:04-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You do that. Have a good afternoon, Mr. Conti."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-16T15:48:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, you too."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T15:43:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T15:43:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-16T15:43:15-05:00",
+        "end": "2025-12-16T15:48:10-05:00",
+        "duration_seconds": 295,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-16T15:43:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-16T15:43:15-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-16T15:43:15-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-16T15:43:15-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-16T15:43:15-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

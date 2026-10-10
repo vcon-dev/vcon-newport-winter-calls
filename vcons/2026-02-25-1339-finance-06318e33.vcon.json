@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "06318e33-8097-8bce-8cbc-5c81d42d5f63",
+  "created_at": "2026-02-25T13:42:10-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Fernando Raposo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance, this is Luis. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:22-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good afternoon. My name is Fernando Raposo. I'm calling about the property tax bill. It went up from last time and I want to understand why."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:31-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Are you the owner? Or is this one your landlord passes along?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I rent, but the landlord sends me the bill and I pay my share. Eu vi o número e, uh, sorry. I saw the number and it's higher than before."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:39:46-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, bilingual is welcome here. Usually a bump comes from a change in the assessed value or the rate the council set for the year. Whichever it is, it's on the bill itself. Do you have it in front of you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a copy, but it's hard to read. Half of it is cut off. Can you mail me a duplicate bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:08-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I can send a duplicate. Do you have the account number handy so I can pull it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:15-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Account number is four four one, zero seven, nine two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one, zero seven, nine two. Got it. And the mailing address is the same as on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:26-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same one, yes. Just send it to the name on the account, it will find me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It will. Should be in the mail within a day or two. The breakdown of the assessment and the rate will be on it, so you'll see what moved."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And while I have you, I want to pay this one by electronic check. Eu tenho o, sorry, I have the routing number here. Can I read it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:52-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead, nice and slow."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:54-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Routing number is seven eight five, two zero four, eight five zero."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:40:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Seven eight five, two zero four, eight five zero. That's nine digits, good. I'll need the checking account number after that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Actually, I need to get that from my checkbook. One minute. [pause] It's in the other room."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:13-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. I'm not going anywhere. It's Wednesday, the phones are polite."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:18-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Okay, I'm back. Before I read it, can I ask something? How long have you worked there, in the finance office?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:26-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Me? Going on six years now. Long enough to know where the good coffee isn't."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:32-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Six years, okay. Then you know the bills well. That's good."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:36-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well enough. Alright, go ahead with the account number whenever you're ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:41-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is, ah, let me see. Sorry, the glasses. I think I should wait for the duplicate bill first, so I can see the amount right. Then I call back and do the payment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:41:53-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. I'll note that you gave the routing number but we didn't finish. When you call back, just ask for finance."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:01-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Obrigado, uh, thank you. I keep doing that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Don't apologize. Have a good afternoon, Mr. Raposo."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-25T13:42:08-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T13:39:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T13:39:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-25T13:39:19-05:00",
+        "end": "2026-02-25T13:42:10-05:00",
+        "duration_seconds": 171,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-25T13:39:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-25T13:39:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

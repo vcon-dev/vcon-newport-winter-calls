@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "09f410e3-d63f-8d16-b4f6-798e4e4d11b2",
+  "created_at": "2026-01-08T09:24:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Bruce Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:16-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:20-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, um, my name's Bruce Burdick. I rent a place on Coggeshall Avenue, and my landlord says I owe the water bill, and I, I don't really know if that's right..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. What's the address there, Bruce?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:34-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "259 Coggeshall Avenue. Up on the Hill. It's the, uh, upstairs and downstairs, but I'm just downstairs."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:40-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Let me pull that up. And whose name is the water account under, do you know? That's usually the first thing to check."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:20:49-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the thing, it, it was my wife's name. She passed, so it's been her name on the account, I never changed it, I guess. The bills just kept coming and I paid them, and then the landlord sent me a letter saying a big one's overdue and it's mine..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:21:05-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'm sorry to hear that, Bruce. Okay, so I'm looking at it. The account is billed to the property owner, that's the name on the water service. Is your landlord's name on there, or your wife's?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:21:17-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Her name. Is that, can that be? She's not the owner, she never was, we just rented."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:21:23-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that happens. Sometimes a tenant opens an account for a rental, and it stays that way until someone changes it. So the bill can be in the tenant's name, but whether you actually owe it depends on your lease and what the landlord agreed to. The city just bills whoever's on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:21:40-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So, wait, so it's mine or it's his? I don't, the lease just says utilities, something, I'd have to find it..."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:21:47-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, so two different questions. One, who the city bills, which is the name on the account. Two, who's responsible between you and the landlord, which is your lease. I can only speak to the first one. Does that make sense?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:22:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Kind of. So the city thinks it's hers, but the landlord thinks it's mine. Because I live there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:22:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Close. The city's bill is under her name, yes. The landlord is saying you should cover it. Those aren't the same thing, and that's why it's confusing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:22:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Okay. Sorry, I'm, uh, I'm building a bookshelf from a kit while I'm on the phone, and the instructions make no sense either, so my head's, yeah. [pause] How do I, like, dispute it? Formally. The charge."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:22:28-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No worries. For a formal dispute, you'd put it in writing to the water division billing office. Include the account name, the service address, the bill date, and why you think it's wrong. Then they review it and respond. If you want, I can note on the account that you're disputing it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:22:45-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Do I send it, or bring it, or... which one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:22:50-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either works. You can mail it or drop it off at City Hall during business hours. Keep a copy for yourself, and if you hand it in, ask for it to be stamped."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:01-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And do I put her name, or mine? Because I'm not, I'm not the one on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Put both. Say the account is in your late wife's name, and that you're the tenant at the address. That tells them who you are and why you're writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, her name and then mine. And the, the landlord's the owner, so he should maybe be on the account or something?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:25-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Possibly. The owner can ask about getting the account moved to his name. That's something the billing office would sort out with him."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:33-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. Okay. So I write it, I say it's her account, I'm the tenant, and I, I don't owe it, maybe. Is that... right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:41-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You say you're disputing it and why. They decide from there. You're not admitting anything by asking. And if I put a note on now, it shows you contacted us today, Thursday the eighth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. I might call back if I get stuck. This whole thing's, I'm still a little lost, honestly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:23:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, Bruce. Call anytime. Good luck with the bookshelf too."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-08T09:24:03-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, thanks. I'll need it. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T09:20:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T09:20:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-08T09:20:16-05:00",
+        "end": "2026-01-08T09:24:06-05:00",
+        "duration_seconds": 230,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-08T09:20:16-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-08T09:20:16-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-08T09:20:16-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-08T09:20:16-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-08T09:20:16-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

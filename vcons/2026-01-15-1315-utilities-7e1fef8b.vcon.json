@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "7e1fef8b-3007-839e-b152-a5b64407c4d2",
+  "created_at": "2026-01-15T13:17:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Cristina Cabral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-15T13:15:19-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:15:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, this is Cristina Cabral. I'm on speakerphone, I'm at the bus stop, so if you hear a truck that's why. It's freezing out here."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:15:32-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I can hear you fine. What's going on with the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:15:37-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So I got a reminder in the mail, a past due notice for my water and sewer. Past due! I never got a bill. Not one. Turns out they sent it to my old address, the place I moved out of."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:15:51-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So the original bill went to the previous address on file, and the reminder is the first you saw of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:15:59-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, the first. And now there's a late charge on it, which, come on. Oh, and by the way, I had a plumber out a few weeks ago, because I thought maybe something was leaking, and I kept the receipt. Does that matter for this? Because the amount looks high to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:16:16-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could matter. If there was a leak and it got repaired, that can explain a high reading. Keep that receipt handy. Do you know the dates on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:16:26-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have it in front of me, I'm standing here [crosstalk] hold on, the bus is not here yet. Anyway, the dates, no. But the address thing is the main thing. Somebody should have updated that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:16:39-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll need to pull the account and look at when the address changed and how the late charge was applied. That's not something I can answer standing here on the phone with you. Can I call you back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:16:52-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Call me back with an answer. It's 401-555-0167."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:16:56-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0167. I'll look into the address and the late charge and call you back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T13:17:02-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you. Here comes the bus, finally."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:15:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:15:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-15T13:15:19-05:00",
+        "end": "2026-01-15T13:17:06-05:00",
+        "duration_seconds": 107,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T13:15:19-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-15T13:15:19-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-15T13:15:19-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-15T13:15:19-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-15T13:15:19-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0965fc72-a3c1-8536-adc7-63a229567673",
+  "created_at": "2026-01-22T11:35:07-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Yuki Goldberg",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-22T11:30:46-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:30:51-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. Bottom line first: I got a shutoff warning for water and sewer and I need to know how much time I have."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:01-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sixty Old Beach Road. Over by Easton's Beach. I'm the landlord, the tenant's name is on the account but I'm the one getting the notices."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, give me a moment to pull it up. And your name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yuki Goldberg. Sorry, hang on, I'm at a loading dock and there's a forklift going. [pause] It's beeping, you'll hear it. Can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:31-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine. Take your time. Okay, I have the account. There's a past-due balance and a notice was mailed out earlier this month."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:41-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that's the one. It says shutoff, and the date is kind of smudged on my copy. What's the date?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:31:49-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The notice gives a date about two weeks out from when it was issued, and that falls in the middle of next week. So you have until then to either pay or make contact about the balance."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:32:03-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Next week. Okay. So not tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:32:06-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not tomorrow, no."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:32:08-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because honestly the bill is way high. It's like triple what it normally is. I had a plumber out there last month, there was a leak in the supply line, and he fixed it. I kept the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:32:23-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's helpful. A usage spike from a leak is something the billing office can review, and the plumber's receipt would be the documentation. You'd want to send that in with the account number and a note explaining the repair date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:32:39-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Send it how? Email, mail, drop it off?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:32:43-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Any of those works, or you can bring it to the counter at City Hall. If you give me an email I can't read one out to you from here, but the billing page on the city website lists where to send it. I can also make a note on the account that a receipt is coming."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:33:05-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, make the note. Now, separate thing. I want to pay at least part of this before the weekend so nobody shuts anything off. But I'm stuck at work till late and you'll be closed. How do I pay once the office is closed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:33:22-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There are a few ways. You can pay online through the city's payment page any time of day, using a card or a bank account. There's also a drop box outside City Hall for checks, which is available when the building is closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:33:39-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online works. Do I need the account number or the tenant's login or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:33:45-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You'd use the account number from the top of the bill. You don't need a login to make a payment. And a payment made online goes onto the account right away or by the next business day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:33:59-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so if I pay tonight or Friday it counts before the weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It should, yes. I'd do it Friday at the latest, so there's no question."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:11-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. And if the leak adjustment comes through, I get the money back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the review lowers the balance, it's credited to the account, so it would reduce what's owed going forward. I can't say how much the review would change. That's up to the billing office once they see the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:32-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Annoying, but fine. Can you read back what you're noting?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:37-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Sixty Old Beach Road, shutoff notice received, caller is the property owner, plumber repair last month, receipt to be submitted for a usage review, and the caller plans to pay a partial amount online before the weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:52-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Callback number if they have questions is 401-555-0157."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:34:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0157. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:35:01-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-22T11:35:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Goldberg. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:30:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:30:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-22T11:30:46-05:00",
+        "end": "2026-01-22T11:35:07-05:00",
+        "duration_seconds": 261,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-22T11:30:46-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-22T11:30:46-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-22T11:30:46-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-22T11:30:46-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-22T11:30:46-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

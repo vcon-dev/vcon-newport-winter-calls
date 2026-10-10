@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "fe30b3ba-c2df-8c80-89b9-133b0fd2b535",
+  "created_at": "2026-01-28T10:27:24-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Manuel Amaral",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Sandra Pimentel",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-28T10:23:15-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Sandra. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:23:20-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Yes, I am calling about a license for my dog. I just got him, he is a rescue, and I am not sure what I need to bring. Can you hear me okay? I am on the speaker."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:23:34-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear you fine, a little echo but fine. Congratulations on the new dog. What's your name, hon?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:23:41-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Manuel Amaral. I live at forty-two Ocean Avenue, on the Ocean Drive side."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:23:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Amaral. So for a dog license, they'll want proof that he's had his rabies shot."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:23:52-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, that is what I am asking. The rabies certificate. What counts for that? I have a paper from the shelter, it says he got the vaccine, but it is, um, like a big adoption form with many things on it. Is that okay or no?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:24:07-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. Does the form say the vaccine date and the vet or clinic that gave it? Usually it's a rabies certificate that comes from the veterinarian, with the date and when it expires."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:24:18-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Let me look. It says rabies, and a date, October. And the name of a clinic. But no expiration, I don't see. No way, maybe it is on the back."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:24:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. Is there a signature from a vet on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:24:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There is a stamp. And a signature, I think. It is very small. So that is the certificate, or the certificate is a different paper?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:24:43-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It might be the same thing. If it's got the vet's stamp, the date, and what vaccine he got, that may do it. If it's just a line on an adoption sheet, I'd call the clinic and ask them to send you the actual certificate. They do that all the time, it's no trouble for them."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:01-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So I call the clinic, I ask for the certificate. Even if I have the adoption paper."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:08-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, to be safe. Bring both, actually. Then if the clerk at the counter likes the adoption paper, great, and if not you've got the certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:17-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And what else do I bring? In person, I mean. I have to come there to City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:24-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, you can come to the clerk's office. Bring the rabies paperwork, a photo ID, and something showing your address. If he's been spayed or neutered, bring that proof too, because that can matter for the license."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:36-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Neutered, yes, the shelter did it. That is on the same big paper, I think. So that is one more thing to check. And the ID, my driver license is okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:46-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Driver's license is perfect. And your license shows your address, so that may cover both."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:25:52-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. No way I was going to find a bill in my house, it is a mess with the papers. [pause] Sorry, you hear that? The bonging?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:02-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I did hear something. Is that a clock?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:05-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, a grandfather clock in the hall. Very loud. It is ten-thirty almost, so it does the, how you say, the chime. Everyone hears it on the phone."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha, well, it's a handsome sound. That's all right, I can hear you over it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. So, I ask again to be sure. I bring the shelter paper, the vet certificate if I can get it, my license, and the neuter proof. Is that all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:31-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. And you'll want to have the dog's name and breed or a description handy, for the form."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:38-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "His name is Biscuit. Breed, I do not know. The shelter wrote mixed. Is mixed okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:44-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mixed is fine, you can just describe him, color and size."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:48-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the hours, you are open today? I could come this afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:26:53-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open today, yes, regular weekday hours. If you can get the clinic to fax or email that certificate first, you'll save yourself a second trip."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:27:02-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. I will call the clinic now. So only the certificate, I am a little not sure if my paper is enough, but I bring everything."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:27:11-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's the best plan. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:27:15-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is all. Thank you, Sandra. You were very patient with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-28T10:27:20-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Anytime, Mr. Amaral. Say hi to Biscuit for me. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T10:23:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T10:23:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-28T10:23:15-05:00",
+        "end": "2026-01-28T10:27:24-05:00",
+        "duration_seconds": 249,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-28T10:23:15-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-28T10:23:15-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-28T10:23:15-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-28T10:23:15-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-28T10:23:15-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

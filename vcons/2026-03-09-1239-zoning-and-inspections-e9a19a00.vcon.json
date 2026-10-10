@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e9a19a00-7e9f-811f-9452-112cacb4467d",
+  "created_at": "2026-03-09T12:42:29-04:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Theresa Ricci",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Anita Chaudhry",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:17-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Anita. Good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:21-04:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Yes. I want to put up a fence. Do I need a permit?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:27-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can help with that. Let me ask a few things first. Is this a fence for the front yard, the back, the side?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:37-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Front. Short one. Decorative. Four feet tall."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:40-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And what is it made of?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:43-04:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wood. Pressure-treated. Is that a problem? I don't know what the rules are. Is there a form or something? Paperwork?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:39:51-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wood is fine as a material, generally. Most fences do need a permit, and front yards often have their own height and style limits, so four feet is the kind of thing we'd look at. Are you the owner of the property?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:06-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Renter. Twenty-four Mill Street. Up on the Hill. Does that matter?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:11-04:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It does a little. If you're renting, the owner usually has to sign off on the application. Have you talked to your landlord?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:20-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not yet. Wait, so the landlord files it? Or me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:24-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either one can submit it, but the owner needs to approve it. I'd get their okay first, then come in or send the application with a sketch of where the fence goes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:36-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A sketch. Okay. Do I need a survey? Like a, a surveyor?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:41-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not always. Sometimes a survey or the existing plot plan is enough to show the property line. If you don't know where your line is, that's when a survey helps. Does your landlord have a plot plan or closing paperwork?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:40:56-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't know. I'll ask. So survey is maybe. Permit is probably yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:01-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Permit, very likely. Survey, depends on whether the line is clear. And since you're on the Hill, there may be extra review for how it looks from the street, so I'd mention that when you apply."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:15-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Extra review. What does that mean?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:18-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It means someone may check the design against the neighborhood standards. Pressure-treated wood might be fine, they might ask about paint or stain. It's best to ask the inspector when you submit."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:30-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Hold on. [pause] Sorry. No, the dragon does not need a tail on the phone. Sorry. My toddler is in a costume and insists I call him a dragon. He won't answer to anything else."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:43-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Dragons are welcome. Is the fence for him, to keep him in the yard?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:50-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Partly. Mostly decorative. Does that change anything?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:41:53-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, not for the permit question. Same process. Do you want me to take your number in case someone from the office wants to follow up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:42:03-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Four oh one, five five five, oh one seven seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:42:08-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, oh one seven seven. So to recap: talk to your landlord, get the sketch together, find out about a plot plan, and plan on a permit application."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:42:19-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Permit yes. Landlord first. Survey maybe. Got it. I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:42:24-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Call back if anything's unclear."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T12:42:27-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T12:39:17-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T12:39:17-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T12:39:17-04:00",
+        "end": "2026-03-09T12:42:29-04:00",
+        "duration_seconds": 192,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T12:39:17-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T12:39:17-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T12:39:17-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T12:39:17-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T12:39:17-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

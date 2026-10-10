@@ -1,0 +1,619 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c143fdb2-855f-8341-86d8-0f6627e6777d",
+  "created_at": "2026-02-18T13:34:23-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Ricardo Cordero",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T13:25:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:25:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hello. Ricardo Cordero. I'm calling about a water and sewer bill. It's, um, it's wrong. I think it's wrong."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:25:52-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look at that with you. Which account is it, or what's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:26:00-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I manage the building, I don't own it. Let me, hold on, I'm in the drugstore, I'm buying batteries for a smoke detector. The chirping, you know, it drives the tenants crazy. Okay. I have the bill here in my coat pocket, give me a second."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:26:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Take your time. Whenever you're ready, the account number is near the top of the bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:26:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I have it. But the number is long and the print is tiny. Could you look it up by my name? Cordero?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:26:40-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can try the name, but it may be under the owner's name rather than yours. Do you have the owner's name or the street address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:26:52-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'd rather not say the address on the phone in the store. People are standing right here. Can I read the account number? Slowly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:27:04-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, go ahead, and I'll read it back to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:27:09-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. It's, um, zero, four, four, seven, one, dash, two. [pause] Then there is a second part, it says nine, zero, three."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:27:20-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Zero four four seven one, dash two, and then nine oh three. Let me pull that up. Okay, I have it. What looks off to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:27:33-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The meter. A new meter was installed last month. Last month. And since then, the bill, it is much higher. Much higher. Before, it was about the same every quarter. Now it's almost double."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:27:49-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see the new meter on the account. The install is noted in January, and the latest reading is a lot higher than the previous ones. Is anyone using more water than usual? New tenants, a leak, anything like that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:28:07-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Same tenants. Same number of people. Nobody is doing anything different. I checked the faucets, the toilets. Nothing running."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:28:17-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Is the reading on the bill an actual reading or an estimate? Let me look. It shows as a remote reading from the new meter, so it's not an estimate."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:28:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's the thing. The meter is in a crawlspace. A crawlspace. Nobody goes in there. Nobody. I don't go in there. So who is reading it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:28:45-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The new meters send the reading by a small transmitter, so no one has to go in. That's why the reading comes through even if the space isn't entered. But it does mean the number could be wrong if the unit isn't working properly."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:29:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So it could be a bad meter. A bad one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:29:10-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be. I can't tell from here. What I can do is put in a request for a meter test and a field check. Someone from the water division would need to get access to the crawlspace, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:29:28-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Access, okay. That I can arrange. But I want it noted that nobody has been in there. The hatch has a latch, it's stiff, I'd know. Nobody."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:29:41-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll note that. Can I have a number to reach you to schedule the access?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:29:49-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It's four, zero, one, five, five, five, zero, one, eight, one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:29:55-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four oh one, five five five, zero one eight one. Is that a cell? Are texts okay or just calls?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:30:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Calls. Just calls. I don't, I don't like the texts."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:30:10-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Calls only, noted. The field check request is in. Someone from the division should call you to set up a time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:30:20-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Now, the bill. The bill is due soon, I think. Do I pay it, or do I wait? I don't want to pay something that is wrong, but I don't want a penalty either."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:30:36-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Since the dispute is noted on the account, I've added a comment about the meter question. If you're able to, paying the amount you normally pay is a reasonable way to keep it current, and any correction would be credited after the test. That's up to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:30:57-05:00",
+      "duration": 23,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm. Okay. Normal amount. That I can do. Now, here is my other question. I want to pay before the weekend. Friday is a busy day, I'm at three buildings. How do I pay when the office is closed? At night? Is there something, a drop box, a phone line, online?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:31:20-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there are a few ways. There's an online payment portal that works any time, day or night. There's also a drop box at City Hall for checks, and you can use it after hours. And there's an automated payment line you can call outside office hours, if you have the account number handy."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:31:45-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The online. Is it, is it easy? Do I need a password, a login?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:31:52-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can usually pay as a guest with the account number and the service address, so no login is required. If you'd rather register, you can, but it isn't necessary."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:32:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The service address. Yes, I have that. And the drop box, if I go with a check. Where is it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:32:16-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's at City Hall, near the main entrance on the Broadway side. Put the check in an envelope with the account number written on it, and make it payable to the City of Newport."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:32:32-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Account number on the envelope. Okay. And the check, if it is dropped Thursday night, it counts for Thursday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:32:41-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's generally logged the next business day it's collected, so a Thursday night drop would be processed Friday morning. If the due date is close, online is the safer choice because it's stamped right away."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:32:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online, then. Online. I will do it tonight, after the batteries. After I fix the chirping."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:33:05-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. You'll get a confirmation on screen, and you can ask for an emailed receipt. Keep that for your records."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:33:15-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. And, the test of the meter. How long? A week? A month?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:33:22-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Usually the division calls within several business days to schedule, and the visit itself is short. After that, the test results go to the account and any adjustment follows. A couple of weeks is a fair expectation overall."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:33:40-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A couple of weeks. All right. I'm annoyed, I will say that. Annoyed. A new meter, and now I'm the one paying double and crawling to prove it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:33:53-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. I've noted the account so you shouldn't have to explain it again when they call. If anything looks different on the next bill, call back and mention the field check request."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:34:08-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you, Priya. That was clear. I'll wait for the call."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:34:14-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Mr. Cordero. Good luck with the smoke detector."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T13:34:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Batteries first. Then the water. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:25:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:25:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T13:25:37-05:00",
+        "end": "2026-02-18T13:34:23-05:00",
+        "duration_seconds": 526,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T13:25:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T13:25:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T13:25:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T13:25:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T13:25:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

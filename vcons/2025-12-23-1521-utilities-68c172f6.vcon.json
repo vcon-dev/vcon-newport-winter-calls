@@ -1,0 +1,439 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "68c172f6-5458-8724-9f51-1782d67671f2",
+  "created_at": "2025-12-23T15:25:55-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Teresa Costa",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-23T15:21:56-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:22:00-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, hi Priya. Um, I'm calling about a water and sewer bill I got, and honestly I don't totally get what I'm looking at. It's wicked confusing."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:22:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can help with that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:22:14-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 182 Ocean Avenue, out on the Ocean Drive side. My name's Teresa Costa."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:22:20-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks, Teresa. Give me a second to pull that up. Okay, I have the account. What part of the bill is confusing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:22:28-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So there's like two charges, one says water and one says sewer, and I thought the sewer was part of the water? Like, totally one thing? And then there's a number that says usage, and I don't know if that's gallons or what."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:22:43-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They're two separate lines. Water is what comes into the property, and sewer is the charge for what goes out. The sewer charge is generally based on the water usage. The usage figure is in units, not single gallons, so it should say on the bill what the unit is."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:23:00-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so units. Wait, so what's a unit? Because the number's pretty low, and I'm kind of never there. Hold on, sorry, I'm in the apartment now and it's got such an echo, there's nothing in here, no furniture, nothing. You can probably hear it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:23:15-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can hear a little echo, yes. So the unit is a fixed amount of water, and I can tell you the exact figure when I look at the bill detail. Is the apartment currently vacant?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:23:27-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, it's empty. Nobody's in it. So I'm like, why am I paying for that much if nobody's using it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:23:34-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There's typically a minimum or base charge on an account even with low use, so that might be part of it. Your last reading shows very low consumption, which fits an empty unit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:23:45-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. Okay. So the base thing is the part I can't get out of. Alright. Um, I'm in my fifties, but is there any kind of discount, like for low-income people or seniors? Because I'm on a pretty tight budget."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:23:59-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have a program I can confirm for you on this line. Let me check with the billing supervisor whether there's any assistance for low-income or older households and what you'd have to submit."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:11-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that'd be great. And can you call me back with the answer? I don't wanna be on hold forever."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:18-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. What number should I use?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 401-555-0197."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:23-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0197, got it. I'll call you back once I hear from the supervisor."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:28-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Oh, and one more thing, can you send me a duplicate copy of the bill by email? I think I lost the paper one, or it's in a pile somewhere."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. What email address would you like it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:44-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, um, it's the one you probably have on file? I never know if I gave you guys one."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:51-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] I don't see an email on the account. Would you like to give me one now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:24:58-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay, so no. Hm. I'm blanking on how to say it with the echo and everything. Can you just mail another one instead, and I'll set up the email thing later?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:09-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can mail a copy, sure. Or if you call back with the email, I can send the duplicate that way. Which do you prefer?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:18-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let's do the mail for now. Wait, but it goes to this address, the empty one? Or my regular address?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:25-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It would go to the mailing address on the account. Let me read it to you. [pause] It's the Ocean Avenue address."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:33-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, that's the one I'm standing in. Fine, that works. I'm still not sure I follow the whole base charge thing, but I guess you'll explain when you call."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:43-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will go over it again when I call. Anything else for now?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, I think that's it. Thanks, Priya. Happy holidays."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-23T15:25:52-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Teresa. Talk soon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T15:21:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T15:21:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-23T15:21:56-05:00",
+        "end": "2025-12-23T15:25:55-05:00",
+        "duration_seconds": 239,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-23T15:21:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-23T15:21:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-23T15:21:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-23T15:21:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-23T15:21:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4f3299a0-6c3e-88a4-86ec-87392e8f8a0f",
+  "created_at": "2026-01-27T15:21:05-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Sofia Resendes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T15:17:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:17:57-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello, good afternoon. Pardon me, is this the office for property taxes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:02-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it is. I can help you with that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:06-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. My name is Sofia Resendes. I paid my first installment a little while back and I would like to confirm that it posted to my account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:16-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Certainly, Ms. Resendes. Could you spell your last name for me, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:21-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. R-E-S-E-N-D-E-S."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:23-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. And do you have the bill or the account number in front of you? I will need one of those, or the property location, to pull up the record."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:34-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pardon me, I have the bill here. Let me find the number. [pause] It is on the top right, I believe. Is that the one that begins with the letters?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:45-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account number is usually labeled as such near the top. Read me what you see beside that label."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:52-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yes, I see it now. It says account, and then the number is four, four, one, eight, seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:18:59-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four four one eight seven. One moment while I look that up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:04-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you for waiting. I have the account here. Ms. Resendes, the first installment payment is showing as received and posted. It was applied about two weeks ago."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:17-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, good. Pardon me, did you say it posted? Fully?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:21-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the first installment is posted in full. The account shows the first payment satisfied, and the second installment remains due on its regular date."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:30-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. That is what I wanted to know. Could I ask you to send me a confirmation by email? I would like to have something in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:40-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. What email address would you like it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:45-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Pardon me, I need to be careful with this one. It is sofia dot resendes, one word after the dot, at a mail service. May I spell it slowly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:55-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. Go ahead whenever you are ready."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:19:59-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "S-O-F-I-A, period, R-E-S-E-N-D-E-S, and then the at sign and the mail company. It is the same as the one on file, I think."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:07-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do see an email address on file for the account. I will send the confirmation there. Let me read back the first part to be sure it matches."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:17-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It begins S-O-F-I-A, period, R-E-S-E-N-D-E-S. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That is correct, thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:25-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. It will go out this afternoon. If it does not arrive within a day, please check your spam folder, and call us back if it is not there."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:35-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I will. Pardon me, one more thing. I may not hear the computer when it chimes. I listen to old radio dramas while I do my chores, and the volume is usually up."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:47-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. It will be waiting in your inbox whenever you check. Is there anything else I can help you with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:55-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that is everything. Thank you very much for your help."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:20:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You are welcome, Ms. Resendes. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T15:21:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You as well. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T15:17:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T15:17:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T15:17:53-05:00",
+        "end": "2026-01-27T15:21:05-05:00",
+        "duration_seconds": 192,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T15:17:53-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T15:17:53-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T15:17:53-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T15:17:53-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T15:17:53-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

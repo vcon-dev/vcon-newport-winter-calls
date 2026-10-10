@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "80428f64-ae67-8d73-b88c-b5c5705342ed",
+  "created_at": "2025-12-12T14:50:05-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Sheila Quinn",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-12T14:48:52-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:48:56-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, hi, this is Sheila Quinn. I got my water bill and it's too high, way too high. They put a new meter last month and now the number, it makes no sense."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:06-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. A new meter installed last month, and the bill looks higher than you'd expect. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, exactly. Double, almost. And I had a plumber come, like two weeks ago, to check the pipes. Nothing is leaking, he said. I kept the receipt, I have it right here."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:21-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, hold on to that. I can put a note on your account and have the meter reading reviewed. They may want a copy of the plumber's receipt."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:29-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, fine. [pause] Also I want to pay before the weekend, but you close soon, no? How I pay when the office is closed? Online, or a box, something?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay online through the city website, any hour. There's also a payment drop box outside City Hall for checks."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:45-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, online is good. Sorry, I'm on speaker, I'm in the car. I have to go to my daughter's school, they have an assembly this afternoon and I cannot be late."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:54-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Can I confirm a callback number for the review?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:58-05:00",
+      "duration": 1,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, 401-555-0178."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:49:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0178. Someone will follow up. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-12T14:50:03-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T14:48:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T14:48:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-12T14:48:52-05:00",
+        "end": "2025-12-12T14:50:05-05:00",
+        "duration_seconds": 73,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-12T14:48:52-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-12T14:48:52-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-12T14:48:52-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-12T14:48:52-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-12T14:48:52-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "33680c86-b0a7-879d-826f-83de6d5364ae",
+  "created_at": "2026-02-24T11:36:37-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Ricardo Ortiz",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-24T11:29:30-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. Good morning, how can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:29:37-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. Sorry, I know this is probably a silly thing to call about, but I'm not sure who handles it. It's about trash. Somebody's leaving bags at the corner by my house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:29:55-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's not silly at all, trash is exactly what we handle here. Let me get some details. Bags of trash left on a corner, is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:30:10-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. Sorry, so, there's a neighbor, I'm pretty sure it's a neighbor, I've seen him do it. He puts maybe four or five black bags right at the corner instead of by his own house, and they've been sitting there since the weekend."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:30:32-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Four or five black bags at a corner, sitting since the weekend. And where is that, please?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:30:42-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's 325 Kay Street. In Historic Hill. The bags are at the corner right next to my place, so the cross street side."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:30:54-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "325 Kay Street, got it. And have the bags been torn open or anything, with the storm we had?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:31:04-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sorry, yes, a little. After last weekend's nor'easter, Saturday into Sunday, with all the wind, one of them tipped over and there's some stuff blown around. Mostly paper and packaging. Nothing awful, but it's a mess."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:31:23-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That makes sense, the wind would do that. So one bag tipped and some of it blew around the corner. Is it blocking the sidewalk at all?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:31:37-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Partly. Sorry, I know that sounds picky. You can still walk by, but you have to step around it. I've been picking up the loose stuff myself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:31:51-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, thank you for that. Now, what would you like to know? Are you mostly looking for the next pickup, or do you want it reported?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:32:05-05:00",
+      "duration": 18,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both, I guess. Sorry. First, when is the next pickup on my street? I'm not sure if the storm shifted the schedule. If it's coming soon, maybe the bags just get taken with everything else."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:32:23-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look at that. Kay Street, give me one second. [pause] Okay. Your regular pickup there is Thursday. I'm not seeing a storm delay listed for this week, so it should be this Thursday, the day after tomorrow."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:32:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thursday. Okay. So, sorry, two days from now."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:32:48-05:00",
+      "duration": 24,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right, Thursday. Now, one thing I should say, crews generally take what's set out properly at each household. Bags dumped at a corner that don't belong to the house might get left behind. So I'd like to put in a report so someone can look at it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:33:12-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that's what I was worried they'd skip. Sorry, I don't want to get him in trouble exactly, I just want it gone."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:33:24-05:00",
+      "duration": 25,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. I'll note it as bags left at the corner of Kay Street, next to 325, and that you've seen a neighbor put them there. I won't put your name in as the one pointing a finger, I'll just take your callback number in case the inspector has questions."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:33:49-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0199."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:33:51-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-nine-nine. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:33:55-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it, yes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:33:57-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "And your name for the report?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:34:01-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ricardo Ortiz. O-R-T-I-Z."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:34:03-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ricardo Ortiz. Thank you. And I'll say the bags are black, about four or five, one torn open with debris on the sidewalk. Does that sound right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:34:17-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Sorry, can I ask, would it help if I took a photo? I can send one if there's somewhere to send it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:34:30-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's kind of you. I can't promise how the inspector will want it, but go ahead and take one, and if they call you, mention you have it. It's good to have the date on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:34:48-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, will do. Sorry, one more thing. If it's still sitting there Thursday after the truck goes by, should I call back, or is there something else I should do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:35:04-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Call back here and give me the same address, and I'll add it to the report so it doesn't start over. Meanwhile, if you can, tie up the torn one so nothing else blows out. But don't feel you have to handle it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:35:26-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, I'll tie it. Honestly, this call is a relief. I inspect elevators for a living, so my whole day is people telling me what's broken and why it's my fault. It's nice to call somewhere and just describe something simple."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:35:47-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'm glad we're an easy one. Elevators, that sounds like a lot of responsibility."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:35:55-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It can be. Anyway, sorry, I'm rambling. So Thursday for pickup, and the report goes in today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:36:04-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Thursday pickup on Kay Street, and I'm entering the report as soon as we hang up, for the bags at the corner next to 325 Kay Street. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:36:22-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's everything. Sorry for taking your time. Thank you, Lorraine."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:36:28-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble at all, Mr. Ortiz. Have a good rest of your day."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-24T11:36:35-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T11:29:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T11:29:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-24T11:29:30-05:00",
+        "end": "2026-02-24T11:36:37-05:00",
+        "duration_seconds": 427,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-24T11:29:30-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-24T11:29:30-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-24T11:29:30-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-24T11:29:30-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-24T11:29:30-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

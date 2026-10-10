@@ -1,0 +1,367 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "4456f19d-eec9-8267-9e82-ffbedb42acef",
+  "created_at": "2026-02-05T13:07:50-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Sal Lombardozzi",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:35-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:41-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi hon, Sal Lombardozzi here. Listen, I got a neighbor's dog that won't quit barking and I want somebody to take a report."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can help with that. How long has the barking been going on?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:04:59-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Better part of a month now. Morning, afternoon, middle of the night, doesn't matter. Out the door at six and it's already going. I'm not asking for the moon, hon, just shut the dog in the house."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Have you talked to the neighbor directly?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:19-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I knocked twice. First time nobody answered, second time the guy says he'll handle it. Handle it. Nothing changed. So now I'm calling you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:30-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. I'll take down the details and it gets routed to the right office. Can I get your phone number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:40-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's 401-555-0196. That's the landline, I'm home most days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:45-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0196. And the address of the dog, not yours, where's the barking coming from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:05:53-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, you know what, I'd rather not get into addresses on the phone right now. Can you just take the complaint and I'll give that to whoever calls me back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:06-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, they will need a location to act on it. But I can note that you'll provide it on the callback. Is that okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:17-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that works. Put that down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:20-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Noted: barking dog, ongoing about a month, all hours, you spoke to the owner twice, location to be given on callback. Anything else, like what time it's worst?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:33-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Early morning and late evening, mostly. Like five-thirty to seven, and then nine at night on. Sometimes it's just nonstop in between too."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:44-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I've added that. Someone from the department that handles animal complaints should call you back. I can't say exactly when, but usually within a few business days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:06:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few days. Fine. Better than a month of this. Hey, hold on one second, hon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:05-05:00",
+      "duration": 1,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:06-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Sorry, my wife's got the kindergarten registration packet on the counter and I'm looking at it, it's for our grandson. Not your department, I know. Anyway, where was I."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:19-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We were wrapping up the report. Did you want me to read it back?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:26-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Nah, I heard you. You got it right. Just make sure somebody actually calls."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:33-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've flagged it. If you don't hear back by early next week, call us and mention the barking complaint from today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. Thanks, Rosa. Take care, hon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-05T13:07:47-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Lombardozzi. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T13:04:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T13:04:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-05T13:04:35-05:00",
+        "end": "2026-02-05T13:07:50-05:00",
+        "duration_seconds": 195,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-05T13:04:35-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-05T13:04:35-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-05T13:04:35-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-05T13:04:35-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-05T13:04:35-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

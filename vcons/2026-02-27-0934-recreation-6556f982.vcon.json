@@ -1,0 +1,223 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "6556f982-8d2e-8c05-bef8-4569f6df5df4",
+  "created_at": "2026-02-27T09:35:54-05:00",
+  "subject": "Inbound call, Recreation",
+  "parties": [
+    {
+      "name": "Sarah A. Singh",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Beth Almeida",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:34-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Recreation department, this is Beth, good morning!"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:37-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, good morning. I'm calling about the beach parking. My mother wants to go down to Easton's, and, um, what are the rules for parking this time of year?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:47-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure! In the off-season it's pretty relaxed. The beach lots are generally open without the summer pass requirement, but there can be posted signs on certain days, so check the signs when you pull in."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:34:59-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And she'd be there around noon, so that's fine. Oh, and no, I'm not the one going, she is. I'm her daughter, I'm just calling for her."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:09-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's no problem at all."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:12-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Also, do you have keys? Sorry, I mean, I need to get keys copied. Is that at the hardware counter there, or is that somewhere else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:21-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hmm, I'd say try the counter first, but I'm not sure that's something we do over here. Let me double check for you. [pause] Okay, you can ask at the counter, but they may send you elsewhere."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:34-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. And what if that doesn't work out? Who do I ask then?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:39-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If they can't do it, call us back and I'll point you to the next place to try. Just ask for me, Beth."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:48-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, great. Thank you. Bye."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-27T09:35:51-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Have a good one, bye now!"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:34:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "recreation"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:34:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-27T09:34:34-05:00",
+        "end": "2026-02-27T09:35:54-05:00",
+        "duration_seconds": 80,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-27T09:34:34-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-27T09:34:34-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-27T09:34:34-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-27T09:34:34-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-27T09:34:34-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

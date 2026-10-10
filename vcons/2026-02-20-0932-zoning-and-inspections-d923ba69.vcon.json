@@ -1,0 +1,271 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d923ba69-ceb7-8d23-b802-978348de8f78",
+  "created_at": "2026-02-20T09:34:38-05:00",
+  "subject": "Inbound call, Zoning and Inspections",
+  "parties": [
+    {
+      "name": "Nilza Monteiro",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Greg Lombardi",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T09:32:56-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Zoning and Inspections, this is Greg."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:32:59-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. Yes. I am opening a shop, and I want to put a sign over the new door. I do not understand if I need a permit for that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, a sign usually does need a permit. Is it attached to the building or freestanding?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:14-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is over the door. On the front of the building. Is that a sign permit or a building permit? The form online says both things. I am not sure which one I pick."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:25-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "For a sign over the door, you want the sign permit. Building permit is for construction work. If you're doing both, you might end up with two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two. Okay. I do not know if I am doing both. The sign is just going to be mounted with screws. The shop is at 404 Bellevue Avenue."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:43-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Bellevue Avenue. Mounting with screws, that's probably just the sign permit. Bring a drawing with the size and where it goes, and the wording."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:51-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A drawing. Of the sign, or of the door? I thought the picture of the door was the drawing."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:33:58-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Both is best. The sign with measurements, and a photo or sketch of the front showing where it hangs."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:34:04-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. How long does approval take? I have the sign being made already."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:34:09-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Depends how complete the application is. Could be a week or two. Don't hang it before you have the approval, though."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:34:16-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A week or two. Okay. I will not hang it. Can you give me your last name? I would like to write down who I talked to, and spell it for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:34:26-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Lombardi. L-O-M-B-A-R-D-I."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:34:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "L-O-M-B-A-R-D-I. Thank you. I think I understand now. Mostly. Sign permit, drawing of the sign and the door."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T09:34:34-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's it. Call back if you get stuck on the form."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T09:32:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "zoning-and-inspections"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T09:32:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T09:32:56-05:00",
+        "end": "2026-02-20T09:34:38-05:00",
+        "duration_seconds": 102,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T09:32:56-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T09:32:56-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T09:32:56-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T09:32:56-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T09:32:56-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

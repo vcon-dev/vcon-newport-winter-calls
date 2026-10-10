@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "462f0538-ced1-8cee-bcac-f427a65039be",
+  "created_at": "2026-01-27T09:50:11-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Elvis Brito",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Janet Whitcomb",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:00-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, City of Newport Finance Department, this is Janet Whitcomb. How may I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, hi. I got a parking ticket, and I want to dispute it. It's for the snow parking ban."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:13-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Do you have the ticket in front of you? I'll need the ticket number, please."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:20-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I have it. It is four, four, one, seven, zero, nine. The ticket says I parked during the ban, Monday morning. But the street was never plowed. Never. And there was no sign posted, nothing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:33-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Four four one seven zero nine. I have it here. It was issued Monday, correct, during the storm that came through Sunday into Monday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:42-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, the snow-to-rain one, last weekend. So I should not get a ticket if the street is not plowed and not posted, right? I am understanding this correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:48:52-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't decide that over the phone, sir. That is what the appeal is for. You would state those facts in writing, that the street was not posted and was not plowed, and a reviewer considers it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:05-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And how long it takes, the appeal? A week? A month?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:10-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Typically a few weeks once it's received. While it's pending, the ticket is on hold, so you shouldn't see a late penalty added during review."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:19-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A few weeks. Okay. That is fine. I just do not want to pay for something that is not my fault."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:27-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. If you'd like, I can note your phone number on the file. Is it the one you're calling from?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:35-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. It is four-oh-one, five-five-five, zero-one-eight-seven."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:38-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Mr. Brito. Four oh one, five five five, zero one eight seven. I'll note it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:45-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Sorry, one second, [pause] I am waiting on the locksmith to call me, for the window of the appointment. Is okay if I hang up so the line is free?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:49:56-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Please put your appeal in writing and include the ticket number and a photo of the street if you have one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:50:04-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have photos. Okay, I do that today. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-27T09:50:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T09:48:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T09:48:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-27T09:48:00-05:00",
+        "end": "2026-01-27T09:50:11-05:00",
+        "duration_seconds": 131,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-27T09:48:00-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-27T09:48:00-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-27T09:48:00-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-27T09:48:00-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-27T09:48:00-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

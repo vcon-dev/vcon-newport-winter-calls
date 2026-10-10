@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "12a68172-931b-85d8-9d34-b9cf712008d0",
+  "created_at": "2026-01-30T13:18:49-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Jorge Silva",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:03-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, Luis speaking. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:07-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, um, yes. I'm calling about property tax. I need a copy of a paid bill from a past year, for a refinance."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, we can do that. Which property, and which year?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:19-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's 180 Dixon Street, up in the North End. Um, I need the bill from two thousand twenty-four. The, the one that shows it was paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, 180 Dixon. And the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Silva. Jorge Silva. S-I-L-V-A. [line breaks up] sorry, can you hear me? I'm in the car, the signal is, um, not great."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:39-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You cut out a little there, but I got Silva, J-O-R-G-E. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:44-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, yes, that's right. Sorry, mi esposa is, um, talking in the back, and the kids, they... well, we speak three languages at home, so I switch in the middle. Está bem, I mean, it's fine, I'm good."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:17:56-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, I've heard worse in this office. Let me pull up the account. [pause] Okay, I see 2024, and it shows paid in full. I can send you a copy of that."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:06-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Can you, um, email it? And also a confirmation that you sent it? The lender wants, well, they want something in writing."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:13-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can email the bill, and the email itself will be your confirmation. What address should I use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:19-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[crosstalk] Um, can I give it to you, sorry, you're breaking up. Can you say that again?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:25-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I said, what email address do you want it sent to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:29-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Yeah, it's the one on the account already, I think. Can you just use that?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:35-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, there's one on file. I'll send it there today, so keep an eye out this afternoon. Check your spam folder if it doesn't show."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, perfect. Thank you. That's all I needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-30T13:18:46-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. Good luck with the refinance."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T13:17:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T13:17:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-30T13:17:03-05:00",
+        "end": "2026-01-30T13:18:49-05:00",
+        "duration_seconds": 106,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-30T13:17:03-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-30T13:17:03-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-30T13:17:03-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-30T13:17:03-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-30T13:17:03-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

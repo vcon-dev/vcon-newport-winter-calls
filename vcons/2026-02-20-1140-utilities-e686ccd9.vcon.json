@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e686ccd9-4fb5-89bc-994b-68d6b0c34f15",
+  "created_at": "2026-02-20T11:44:55-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "George Chase",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-20T11:40:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:40:15-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, good morning. My name is George Chase. I am calling about my water and sewer bill, because the amount is wrong. It is much too high."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:40:28-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Mr. Chase, I can look at that. What's the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:40:34-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "188 Carroll Avenue. In the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:40:38-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Give me a moment to pull up the account. [pause] Okay, I have it. What looks wrong to you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:40:49-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was out of town for six weeks. Gone, completely. Nobody in the house, no showers, no laundry. And the bill shows high consumption. So how is this possible?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:41:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I see the last billing period. Let me look at the reads. [pause] The meter reading did go up quite a bit over that stretch."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:41:15-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, but this is what I am saying. It cannot go up. Wait, one moment. [pause] Sorry, the printer in my office is jamming again. Third time this morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:41:29-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem, take your time."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:41:32-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Back. So, please, the word on the bill, consumption. Can you explain to me what it means exactly? Is it what I used, or what the meter counted?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:41:46-05:00",
+      "duration": 21,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Consumption is just the amount of water that passed through your meter during the billing period. It's measured in units, and the charge is based on that number. So it's what the meter recorded, whether or not anyone was home using it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:42:07-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the meter recorded a lot, with nobody home. For me this is a problem with the meter, or with a leak, not with me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:42:19-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be either one. A running toilet or a leak somewhere would show up this way, and so would a bad read. Did anyone have access to the house while you were away?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:42:35-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No. Nobody. I locked everything and I left. [crosstalk] Sorry, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:42:41-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I was going to say, the reads on the account look like they're all actual reads, not estimates. So the meter did report that number."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:42:53-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then the meter is wrong. I do not accept this charge. I am not paying for water I did not use."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:43:03-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. What I can do is note the dispute on the account, and we can have the meter checked and the read verified."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:43:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I would like a supervisor to review the charge. Please. I think this is needed, a note is not enough for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:43:26-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, that's reasonable. Let me see if my supervisor is at her desk. Can you hold for a minute?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:43:36-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I will hold."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:43:39-05:00",
+      "duration": 23,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Thanks for waiting. She's in a meeting right now and won't be out until after lunch. I'll send her the account with everything you told me, the six weeks away, the read, the dispute, and she'll call you back. Is the best number the one on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:02-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The number is 401-555-0157. This is my cell phone. Please call that."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:08-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0157. She should reach you today or Monday morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:14-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And meanwhile, the bill is due. Will I get a penalty?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:20-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put the dispute note on the account so it's documented before the due date. The supervisor can tell you more about how it's handled when she calls."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:34-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. I hope she can fix it. This is very annoying, honestly. [pause] Excuse me, the printer again. I must go and pull the paper out."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Go ahead. Thanks for calling, Mr. Chase. You'll hear from us."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-20T11:44:53-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T11:40:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T11:40:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-20T11:40:09-05:00",
+        "end": "2026-02-20T11:44:55-05:00",
+        "duration_seconds": 286,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-20T11:40:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-20T11:40:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-20T11:40:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-20T11:40:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-20T11:40:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

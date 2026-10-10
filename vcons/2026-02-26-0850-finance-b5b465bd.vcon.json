@@ -1,0 +1,559 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b5b465bd-ce0a-87c0-80cd-2d532c4105c1",
+  "created_at": "2026-02-26T08:55:57-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Dario Andrade",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:06-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. Morning."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:09-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, morning. I need a copy of a property tax bill from a past year, one that's already been paid. Is that something you people can do?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:21-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We can. Which year are you looking for?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:25-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Two years ago. The one for fiscal, whatever, the year before last. The mortgage company wants proof for a refinance and they won't take the current one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:37-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. So they want the bill showing it was paid, not just the bill itself?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that's what I'm asking. Is there a difference? Because last time I sent the bill and they came back and said it's not enough."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:50:55-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "There can be. A bill shows what was owed. A receipt or a payment history shows what was actually paid. For a refinance, the lender usually wants the second one, or both. I'd ask for both and cover yourself."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:51:12-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Huh. And how do I know that's what they want? They didn't say."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:51:18-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You don't, until you ask them. Honestly, one quick call to your loan officer saves you doing this twice. But requesting both costs you nothing extra to ask for."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:51:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. So how do I get it? Do I have to come down there?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:51:38-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You don't have to. I can look up the account here. I'll need the name on the bill and the property address, or the plat and lot number if you have it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:51:52-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Dario Andrade. A-N-D-R-A-D-E. And the address, I'd rather not just say it over a cell phone. Why do you need it, if you've got the name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:52:04-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because there might be more than one Andrade in town, and I'd rather not mail you somebody else's tax history. The address is how I pin it down."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:52:17-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Okay, I guess that's fair. But I'm not giving it right now. Can I do it another way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:52:26-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can send a written request with the address on it, or come to the window with an ID. Or call back when you're somewhere you're comfortable reading it out. Up to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:52:41-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright. Written request, how, email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:52:44-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter works, and the front desk can tell you if there's an online request form. I don't want to read you a web address wrong over the phone, so I'd check the city website under the tax collector page."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:01-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So you don't know if there's a form."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:05-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I know there's a way to request it in writing. Whether it's a form or just a letter, I'd rather you see it on the page than take my word. Fair?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:19-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Fine. Second thing. I moved my mail. How do I change the mailing address on the tax bill? Because the bills keep going to the old place."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:31-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Same office handles that. You'd send in a written notice with your name, the property, and the new mailing address, signed. Then it gets updated on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:43-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Signed. Why signed? Can't I just tell you now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:48-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Because anybody could call and say send Dario's bill to Timbuktu. The signature is how we know it's really you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:53:57-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ha. Okay. So I could put both things in one letter? The copy and the address change?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:54:05-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You could. I'd put them as two clearly separate requests so nobody skips one. Number them, one and two."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:54:14-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, one and two. And how long does it take? Because the refinance people are already breathing down my neck."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:54:23-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't give you a firm number of days. Mailed things take a few days to arrive, then it's in the queue. If you're in a hurry, going to the window is quicker."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:54:38-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Going down there is a pain. My minivan is ancient, the sliding door sticks, half the time I can't even get it open on the passenger side. I'd rather not."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:54:51-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Then I'd mail it today, and ask your lender if they'll take a printout from the account in the meantime."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:01-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "They might. Hold on, let me write this down. Letter, name, address, signed, two requests. Anything else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:09-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Include a phone number in case there's a question. And say which year you need."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The number's 401-555-0171."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:18-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0171. Read it back to you, that's right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:23-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep. And you're sure that's all I need? I don't want to mail this and have it bounce back."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "As sure as I can be without seeing your account. If something's missing they'll call that number. Worst case you lose a few days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:43-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's not comforting, but okay."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:46-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do my best. Anything else this morning?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:50-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-26T08:55:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You got it. Have a good one."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T08:50:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T08:50:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-26T08:50:06-05:00",
+        "end": "2026-02-26T08:55:57-05:00",
+        "duration_seconds": 351,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-26T08:50:06-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-26T08:50:06-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-26T08:50:06-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-26T08:50:06-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-26T08:50:06-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

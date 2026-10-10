@@ -1,0 +1,235 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "3ce619e0-5958-8a79-a87b-b286d9b8ef17",
+  "created_at": "2026-01-15T12:17:58-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Gerard Kearney",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Kevin Sousa",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-15T12:16:58-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Kevin."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:00-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. I want to report a streetlight that is out. The crosswalk near my building is completely dark."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, got it. Where's the crosswalk, what's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It is at 437 Coggeshall Avenue. The pole is right in front, by the crosswalk."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:15-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Coggeshall, 437, light out at the crosswalk. Is it the whole light that's dark, or does it flicker?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:21-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Whole light is dark. Not flicker. I walk there in the evening and I do not feel safe. Cars do not see people. I would like a crew to check the pole."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:31-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that makes sense. I'll put in a request for a crew to look at that pole. Do you want a call back, or just report it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:39-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Just report is fine. But if you need number, it is 401-555-0176. I am sorry, I am at table now with stack of library books, so I have pen."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:48-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. I've got the number down. Name?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:51-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Gerard Kearney."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:53-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Alright, Gerard, it's in. Crew will check it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T12:17:56-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T12:16:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T12:16:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-15T12:16:58-05:00",
+        "end": "2026-01-15T12:17:58-05:00",
+        "duration_seconds": 60,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T12:16:58-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-15T12:16:58-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-15T12:16:58-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-15T12:16:58-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-15T12:16:58-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

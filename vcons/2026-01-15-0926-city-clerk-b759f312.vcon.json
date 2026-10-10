@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b759f312-0acd-88a5-89aa-43a76627a760",
+  "created_at": "2026-01-15T09:30:52-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Andres Castillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-15T09:26:05-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. Buenos días, good morning. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:26:11-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good morning, Miss Rosa. Thank you. My name is Andres Castillo. You are my first call of the day, so I hope I am calling the right place."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:26:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I'll do my best to make it a good start. What do you need, Mr. Castillo?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:26:29-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have a dog. A small dog, he is, um, four years now. I need the license for him. And I am told I need a paper for the rabies. A certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:26:42-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, yes, that's right. For a dog license we need proof that he's current on his rabies vaccination. Is he already vaccinated?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:26:51-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes, he has the shot. The doctor of the animals, the veterinarian, he give me a paper last year. But what is it that counts? I have a receipt, I have a little tag also for the collar. Is that enough?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:27:07-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The tag on the collar won't do it, and a receipt by itself usually doesn't either. What we want is the actual rabies vaccination certificate from the vet. It should have the dog's name, the date of the vaccine, and the vet's name or signature on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:27:25-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah, okay. The certificate, from the vet. Not the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:27:30-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Sometimes the receipt is printed with all that information and it's fine, but the certificate is the safest. If you don't have it anymore, the vet's office can print you another copy, they keep the records."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:27:44-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good, good. I think I have it in the drawer, in the kitchen. I will look. And Miss Rosa, how long is it valid? This paper. The vaccine, it is one year, or more?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:27:57-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It depends on the vaccine the vet gave him. Some are good for one year and some for three. The expiration date is written right on the certificate, so check that. As long as it hasn't expired when you apply, you're fine."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:28:13-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The date is on the paper. Okay. So I look for the date, and if it is not finished, I am good."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:28:22-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Exactly. If it's expired, he'll need a new shot first, then bring the new certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:28:28-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And I bring it to you, to City Hall? Or I send it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:28:34-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Either way. You can bring it in to the clerk's office here at City Hall, or you can mail a copy with the application. Don't mail your only original, make a copy first if you can."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:28:48-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A copy. Yes. My neighbor has the machine for copy, he helps me. [pause] And the dog, he must come with me?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:28:57-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no need to bring the dog. Just the paperwork. Do you want me to tell you what else to have with you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Slowly, if you can. I write."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:10-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. Take your time. You'll need the rabies certificate, your name and address, and the dog's name, breed, and color. Also say if he's been spayed or neutered, because that can matter for the license."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:24-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Name, address, the dog name, breed, color. And, um, the neutered. He is neutered, yes. I have the paper for that also, maybe."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:34-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If you have it, bring it along. The vet's certificate sometimes lists it already."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:40-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. My address is two thirty-three Old Beach Road, near the Easton's Beach side. You need this now?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:48-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I've got it, two thirty-three Old Beach Road. You don't need to do anything else on the phone. Just come in or mail it when you have the certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:29:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Miss Rosa. And what time you are open? I do not want to come and find closed."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:06-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "We're open weekdays during regular business hours, so today you're fine. If you want to be extra sure, call before you head over and we'll tell you."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:17-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Today I look for the paper first, then I come maybe tomorrow. My knees, they like the slow mornings."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:25-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine. Tomorrow is a Friday, we'll be here. Ask for the clerk's counter when you walk in."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:32-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The clerk counter. Okay. Thank you very much. You are very kind, and very clear for me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. Anything else I can help with today?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, no, that is all. Thank you, Miss Rosa. Have a good day."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-15T09:30:49-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, Mr. Castillo. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T09:26:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T09:26:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-15T09:26:05-05:00",
+        "end": "2026-01-15T09:30:52-05:00",
+        "duration_seconds": 287,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-15T09:26:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-15T09:26:05-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-15T09:26:05-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-15T09:26:05-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-15T09:26:05-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

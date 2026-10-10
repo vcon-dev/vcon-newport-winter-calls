@@ -1,0 +1,487 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "03cf29da-9777-87c5-8f12-29a575c397fe",
+  "created_at": "2026-03-04T11:38:19-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Fatima Medeiros",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:10-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:14-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, um, I'm calling about a water and sewer bill. I just got a past-due reminder in the mail and I never got the actual bill. Like, ever."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:25-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I can look into that. Can I get your name and the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:31-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fatima Medeiros. The house is 53 Bellevue Avenue. Oh, wait, you asked for the address, yes, that's the one, but the bill didn't go there."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Let me pull up the account. You're on speaker, right? You're a little echoey."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:46-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, sorry, I'm on speakerphone, my hands are full of papers. Is that better if I pick it up?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:33:53-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, you're fine, I can hear you. Okay, I've got 53 Bellevue. Looks like the bills for this account were mailed to a different address on file. Is that somewhere you used to live?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:34:05-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. My old apartment, on the other side of town. I bought the house, and I thought, well, I filled out a form, I thought it was all switched over. [pause] Honestly I only found out because of the reminder notice, which came to the right place, which is funny."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:34:22-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That happens. The reminder probably went out through a different mailing step than the original bill. So I can see the original bill went to the old address, and then the reminder came to you."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:34:35-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. So nobody told me anything was due. And the amount on the reminder is, it's high. It's way higher than what I'd expect."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:34:44-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What are you comparing it to?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:34:47-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, um, the seller's, no, wait. I mean, the bills last winter. The previous owner showed me some of them at closing, and last year's winter bills were much lower. Like, a fraction of this."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:34:59-05:00",
+      "duration": 19,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Let me look at the usage. Hang on one second. [pause] So what I'm seeing is the bill covers a longer billing period than usual, because it was never corrected after the ownership change. Sometimes when a bill sits, you get a couple of cycles lumped into what's owed. Does that sound possible?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:35:18-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I mean, maybe. But I didn't get to see any of it. I'd have called right away if I had a bill in my hand. Now there's a late charge on top of it, which is kind of ridiculous."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:35:32-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. The late charge is tied to the due date, and that passed. But it's fair to question it, especially since the bill went to the wrong place."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:35:43-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So how do I dispute it? Formally, I mean. Not just you and me on the phone, I want it on record."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:35:51-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. The formal way is a written request. You'd put in your name, the service address, the account number, and explain what you're disputing, the amount and why. In your case, the bill went to the old address, and the usage looks higher than previous winters. You can send it to the utilities billing office, or drop it off here at the counter."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:36:13-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Do I need a special form, or is a letter okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:36:18-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A letter works. If you want, I can also note on the account right now that you're disputing it and that the mailing address was wrong, so nothing escalates while you get your letter in. I can't promise what the outcome will be, but that note helps."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:36:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please do that. And can you fix the mailing address so this doesn't happen again? Because that's the part that's really getting me."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:36:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Absolutely. Let me update that. So the mailing address should be 53 Bellevue Avenue, correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:36:49-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. Bellevue Avenue, 53. And the old one you can just take off."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:36:54-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Done. It's changed on the account. Do you want me to have someone look at the meter readings too? They could check whether the readings on those bills were actual or estimated."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:06-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yes, that'd be good. Actually, that's a good question, because I don't know if they were estimated. Could that be why it's so high?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:15-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It could be. If a few were estimated and then a real reading came in, it can jump. That's the kind of thing you'd point out in your letter, too. Ask them to review the readings."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:28-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll write that down. Sorry, I'm juggling, I have my practice questions all over the table. I'm studying for my ham radio license exam, so I've got antenna formulas everywhere and now a water bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:41-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, good luck with the exam. Hopefully the water bill is the harder one to sort out."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:48-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's more annoying, honestly. The exam at least makes sense."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:52-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Can I confirm a callback number in case the billing supervisor needs to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:37:59-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0179."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:38:01-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0179. I've put the dispute note and the address correction on the account. Send that letter in as soon as you can and include the account number from the reminder."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:38:13-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks, Tony. I'll get it done this week."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-04T11:38:17-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Take care."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T11:33:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T11:33:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-04T11:33:10-05:00",
+        "end": "2026-03-04T11:38:19-05:00",
+        "duration_seconds": 309,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-04T11:33:10-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-04T11:33:10-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-04T11:33:10-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-04T11:33:10-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-04T11:33:10-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

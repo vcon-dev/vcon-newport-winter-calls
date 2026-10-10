@@ -1,0 +1,199 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "b10536a0-eede-8c4f-882a-795a010a696b",
+  "created_at": "2026-01-07T11:49:31-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Donna Cardillo",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Lorraine Medeiros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-07T11:48:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Lorraine. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:48:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, Lorraine, it's Donna Cardillo. I manage a building up on Historic Hill, and I'm calling because a tenant moved out and left a whole mess at the curb. A mattress, a busted chair, boxes. Honestly, I told him Monday, and here it is Wednesday."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:48:45-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and what's the address where it's sitting?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:48:48-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "309 Pelham Street. Oh, hold on, my phone case, the popsocket is loose and it rattles, you hear that? Sorry. It reminds me, my sister had one of those, and, well, never mind. Pelham Street."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:48:59-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No trouble. So 309 Pelham Street, bulk items left out after a move-out. What I need to know is when you want to know the next pickup?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:49:07-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, when is the next one? I'm annoyed, I'll be honest, because the neighbors are going to complain to me."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:49:14-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me check the route for Pelham. [pause] Okay, I'm showing your next trash pickup is Friday. Bulk items like a mattress may need to be arranged separately, so I'll have someone call you to confirm."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:49:25-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. It's 401-555-0180. Thank you, dear."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-07T11:49:28-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's 401-555-0180, for Donna at 309 Pelham. You're welcome."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T11:48:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T11:48:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-07T11:48:28-05:00",
+        "end": "2026-01-07T11:49:31-05:00",
+        "duration_seconds": 63,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-07T11:48:28-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-07T11:48:28-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-07T11:48:28-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-07T11:48:28-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-07T11:48:28-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

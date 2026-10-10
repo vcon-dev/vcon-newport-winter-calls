@@ -1,0 +1,463 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a51abcff-483a-8809-a434-3c8c974103d6",
+  "created_at": "2026-01-13T12:33:26-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Richard Burdick",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:14-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:18-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yeah, Luis. This is Richard Burdick. Sorry, I'm on my cell and the reception's not great where I am, so if I cut out just say so."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:28-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Will do. I can hear you fine right now."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:32-05:00",
+      "duration": 27,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay good. So, background, I got the tax bill back in the fall, and the first installment was due, I think it was the beginning of the quarter, and I sent a check in the mail. Actually I dropped it at the post office on a Thursday, because I was already there mailing something else, a package, which is a whole other thing. Anyway, I never got anything back saying it was received. So I wanted to confirm it posted."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:29:59-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'll need the name on the account, or the bill number if you have it handy."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:05-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Name's Burdick, B-U-R-D-I-C-K. First name Richard. I don't have the bill number in front of me, I'm actually at my desk at work and I'm wrapping a present for a coworker's secret Santa, we pushed it late this year, so I've got tape and paper everywhere and the bill's at home."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:22-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, I hope it's a good gift. Burdick, Richard. Let me pull that up. [pause] Okay, I've got a Richard Burdick. Is the property in Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:31-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's in Newport. I'd rather not, um, I mean I don't need to read out the address, do I?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:38-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not if I've got the right record. The name matches one account with a first installment payment. It shows received and posted back in the fall, so you're good on that one."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:49-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, great. [line breaks up] sorry, you said it's posted?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:53-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Posted. First installment shows as paid in full."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:30:57-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Good. So that's the first part. The second thing, and this is why I really called, is my wife and I might be refinancing, and the lender wants a payoff figure. Well, not payoff exactly, I guess what they want is what I'd owe through a certain date. They said the end of February."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:16-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the total remaining on the year's taxes, if you paid everything through the end of February."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:22-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, that. Through February twenty-eighth."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:25-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Let me look. [pause] Okay, so the first installment is paid. The second installment is the one that's coming due, and then the third and fourth after that. If you paid it all off through February twenty-eighth, you'd owe the remaining three installments, plus any interest if something's late. Nothing's late on yours."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:43-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, and what's the number? Sorry, I should've said, do you have a dollar figure?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:31:49-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I do. I can give it to you now, or I can send you a written statement, which the lender will probably prefer. It's usually the written one they want."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:00-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yeah, the written one would be better. [inaudible] Can you mail it, or, is there a way to get it by email?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:08-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can email it. What's the address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:11-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's, hold on, I'll have to give you a different way. Can you mail it to the property? The address on the account."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:19-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I'll mail it to the mailing address on file. Should take a few days. And I can still read you the number now so you've got it for your lender."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:30-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Let me grab a pen. Okay, go ahead."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:34-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The remaining balance through February twenty-eighth comes to three thousand, one hundred and forty-two dollars and sixty cents, assuming nothing changes on the account before then."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:43-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Three thousand one forty-two sixty. Okay. And that's the amount for the three installments, not counting the one I paid."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:50-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct. The paid one's already off the books."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:32:54-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. [line breaks up] Sorry, can you say the date on the statement? Will it have the February twenty-eighth date on it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:02-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, I'll note the date on the request. If your lender wants a different date, call back and we'll redo it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if you need to reach me, the number is four-oh-one, five-five-five, oh-one-eight-eight."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:15-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, four-oh-one, five-five-five, oh-one-eight-eight. Anything else, Richard?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:19-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, that's it. Thanks, Luis. I appreciate it."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-13T12:33:23-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Good luck with the wrapping."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:29:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:29:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-13T12:29:14-05:00",
+        "end": "2026-01-13T12:33:26-05:00",
+        "duration_seconds": 252,
+        "channel": "cell-poor"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-13T12:29:14-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-13T12:29:14-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-13T12:29:14-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-13T12:29:14-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-13T12:29:14-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

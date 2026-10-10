@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "0af2b689-0279-83b7-860a-6673f16a65a3",
+  "created_at": "2026-02-09T13:42:06-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Bridget Sullivan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T13:38:24-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good afternoon, Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:38:29-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, honey. Yes, my name is Bridget Sullivan, and I'm calling about my mother's water bill. She's the one on the account, but I help her with the paperwork these days."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:38:40-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:38:43-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four seventy-five Bacheller Street, in the Fifth Ward. Now, the thing is, dear, you people came and put in a new meter last month. A young man came to the door, very nice, did his thing in the basement, and was gone in twenty minutes."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:38:59-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right, so a new meter was installed in January. What are you seeing on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:39:06-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, it's just about double what she normally pays. Mum lives alone. She doesn't even run the dishwasher half the time. I sat down with the bill last night and I said, there's no way. So either the new meter's reading wrong, or somebody typed something in wrong, and frankly I'm a little tired of it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:39:25-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. Is the bill showing an actual reading or an estimated one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:39:30-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hold on, let me find my glasses. [pause] Okay. It says... the previous reading and then the current reading, and there's a letter next to it. An A, I think. Not an E."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:39:42-05:00",
+      "duration": 17,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "An A usually means actual, so the meter was read. What I can do is pull the account and look at the reading history around the installation date. Sometimes the old meter's final reading and the new meter's starting reading get overlapped, which can inflate a first bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:39:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, that sounds like what happened, if you ask me. Can you fix it while I'm on the phone?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:40:06-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can't adjust it from here. I'd need to look at the readings and probably have the meter team verify them. I can note the account for a review, and then someone calls you back with an answer."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:40:20-05:00",
+      "duration": 15,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That would be fine. And one more thing. I'd like to be put on the account so I can talk to you people for her. I'm her daughter. I'm the one paying attention to all this now. Is there a form, or what?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:40:35-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, there's an authorization form. Your mother would need to sign it, naming you as someone we can discuss the account with. I can email it or mail it, whichever is easier."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:40:47-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Mail it, honey, she doesn't do the email. Send it to her at the Bacheller Street address. She's right here, actually, she's saying something. [pause] She says the neighbor offered to drive her down to City Hall to sort it out in person, and she told him no. I said, Ma, you don't need to go anywhere, that's why I'm calling."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:08-05:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's fine, she doesn't need to come in. The form can be signed at home and mailed back. Meanwhile, I'll flag the account for review so the bill is looked at before anything else happens."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:21-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good. Because I don't want a late notice showing up on top of all this."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:27-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll make a note about the dispute on the account. Can I confirm the best number to reach you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:34-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's 401-555-0173. That's my cell. If I don't pick up, leave a message, I'm in and out today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:41-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it, 401-555-0173. I'll have someone call you back once the readings have been checked. And the form will go out in the mail to your mother."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:51-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "All right. Thank you, Priya. I appreciate it. Though I'll say, a new meter shouldn't make more work for us."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:41:59-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Understood. Thanks for calling, Ms. Sullivan. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T13:42:03-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too, dear. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T13:38:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T13:38:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T13:38:24-05:00",
+        "end": "2026-02-09T13:42:06-05:00",
+        "duration_seconds": 222,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T13:38:24-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T13:38:24-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T13:38:24-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T13:38:24-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T13:38:24-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

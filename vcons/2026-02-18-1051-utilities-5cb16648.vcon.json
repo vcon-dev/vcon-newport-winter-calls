@@ -1,0 +1,391 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "5cb16648-37a3-8693-a0b8-f4afb04a6256",
+  "created_at": "2026-02-18T10:55:28-05:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Lidia Tavares",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Priya Raman",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-18T10:51:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Priya. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:00-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes. I need to change the mailing address on my water and sewer account. And I want to go paperless, if that's possible."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:10-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, we can do both. Can I have the name on the account?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:16-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Lidia Tavares. T-A-V-A-R-E-S."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:18-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thank you, Ms. Tavares. And what's the new mailing address you'd like on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:24-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a P.O. box now. Box 4417, Newport, Rhode Island, 02840. I don't want things sitting on the porch anymore."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:32-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Box 4417, Newport, 02840. Let me read that back to be sure. Is that correct?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:39-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's right. Now, the paperless part. Do I have to do something online, or can you just do it?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:47-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can note the account for paperless billing on my end. You'll need an email address on file so the bill notices reach you. What email would you like to use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:52:59-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "[pause] Hold on. Honestly, I'd rather not say it over the phone. Can I add it myself online?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:53:06-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can. If you log into the water billing portal, there's a place for notification preferences. I'll mark the mailing address change now, and you can enter the email there."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:53:18-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Also, I want to say, as I said before, the estimated reads on this account are ridiculous. The meter is in a crawlspace. Nobody goes in there. Nobody has been in there in years."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:53:31-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I understand. If the meter isn't accessible, the readings can end up estimated. Is there a remote reader on it, or does someone normally have to go in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:53:42-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Someone would have to go in, and nobody's going to. I'm not crawling in there and neither is anybody I know. So whatever you're doing, it's estimates."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:53:53-05:00",
+      "duration": 18,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. I'll add a note to the account that the meter is in a crawlspace and that access is the issue. For a different arrangement, the meter division would need to look at it. Would you like me to send them a message with your callback number?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:11-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. 401-555-0177."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:13-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "401-555-0177. I'll pass that along."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:16-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. One more thing. I'm leaving on a trip Friday morning, and I'd like to pay the bill before I go. I don't want to come into City Hall for it. What are my options if I can't get there during the day?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:32-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can pay online through the same portal at any hour. There's also a payment drop box at City Hall that you can use outside business hours. You can put a check in it with your account number on the memo line."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:48-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The online one is easier. I'll do that when I put in the email."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:54-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. You'll just need your account number from the last bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:54:59-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have it. Okay. I have to go, I've got a huge pot of chowder on the stove for a gathering this weekend and it needs stirring."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:55:10-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Of course. To recap, I've changed your mailing address to Box 4417, noted the crawlspace meter, and sent the callback request. You'll add your email in the portal for paperless."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:55:22-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-18T10:55:24-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Tavares. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T10:51:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T10:51:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-18T10:51:55-05:00",
+        "end": "2026-02-18T10:55:28-05:00",
+        "duration_seconds": 213,
+        "channel": "landline"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-18T10:51:55-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-18T10:51:55-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-18T10:51:55-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-18T10:51:55-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-18T10:51:55-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "094d3ed8-4169-833f-80c5-52be5a98402c",
+  "created_at": "2026-03-09T11:43:16-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Nancy Hazard",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-09T11:41:11-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities, water and sewer billing, this is Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:41:15-04:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi Tony, it's Nancy Hazard. So I got my water bill and it's, like, wicked high. Way more than normal."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:41:22-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'm sorry about that. Do you know why it jumped? Anything going on at the house?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:41:28-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, a pipe broke. It was in the wall by the washer, and I got it fixed already. A plumber came and everything. So I wanna know if there's a leak adjustment or something for that."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:41:40-04:00",
+      "duration": 13,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, there's usually a process for that. You'd send in the plumber's invoice or a repair record along with the bill, and the office reviews the extra usage. I can put a note on the account that you're asking."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:41:53-04:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, good. Please do. And can you email me a duplicate copy of the bill? Mine got kind of soaked in the whole mess, it's basically mush."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:03-04:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure thing. Is there an email on the account, or do you want to give me a new one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:10-04:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Use what's on file. I haven't changed it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:14-04:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, I'll send it to that one. You should see it within the day."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:20-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Perfect. Um, one more thing. I work days, so I can't really get down there before you close. Can I pay in person after four thirty, like in the evening? Or is there some other way?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:32-04:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The counter closes with regular hours, so not in the evening. But there's a drop box outside City Hall you can use any time, and you can pay online whenever you want, nights and weekends too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:44-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, okay. Online's fine then. I'll just do that once I see the copy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:49-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That works. Just keep your invoice handy for the adjustment, too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:42:54-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, will do. Honestly I gotta get this sorted before Friday. I play euchre every Friday with the same four people, and I do not wanna be sitting there stewing over a water bill."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:43:06-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fair enough. Well, you'll have the copy today, and hopefully the rest is easy."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:43:11-04:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Thanks, Tony."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-09T11:43:13-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Nancy. Have a good afternoon."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:41:11-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:41:11-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-09T11:41:11-04:00",
+        "end": "2026-03-09T11:43:16-04:00",
+        "duration_seconds": 125,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-09T11:41:11-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-09T11:41:11-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-09T11:41:11-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-09T11:41:11-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-09T11:41:11-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

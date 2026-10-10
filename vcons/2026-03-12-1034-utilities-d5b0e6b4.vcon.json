@@ -1,0 +1,319 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "d5b0e6b4-c6f6-8389-871f-273d2db041c8",
+  "created_at": "2026-03-12T10:36:59-04:00",
+  "subject": "Inbound call, Utilities",
+  "parties": [
+    {
+      "name": "Colin Hanlon",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Tony Ferreira",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:13-04:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Utilities billing, this is Tony. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:17-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hey, yeah, I've got my water and sewer bill here and I don't get it. The sewer part is way higher than the water part. How's that even possible?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:28-04:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, I can walk you through it. Can I get the service address?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:33-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, it's 401 Callender Avenue. North End. And the name's Colin Hanlon."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:38-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, Colin, give me a second to pull it up. Alright, I've got it. What are you seeing on the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:46-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "So the water charge is, like, small, and then right under it the sewer charge is almost double. I'm one guy in an apartment. I'm not running a laundromat."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:34:57-04:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that throws a lot of people. The sewer charge is usually figured off how much water you use, but the sewer rate per unit is typically higher than the water rate. So even with the same usage, the sewer line comes out bigger."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:35:12-04:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Wait, so it's the same usage for both? Because I thought, no, the date on this thing says February ninth. That's the bill date, right? Sorry, you asked about usage. Yeah, I guess it'd be the same number."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:35:25-04:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, February ninth is the bill date you're reading. And yes, same usage number feeds both lines. The sewer just has the higher rate on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:35:35-04:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's kind of ridiculous, honestly. Every time I look at this thing it's something. Nobody explained any of this when I moved in."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:35:44-04:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I hear you. It's not obvious on the paper bill. I can't change the rate, but I can tell you what you're paying for and make sure the reading looks right. Yours looks normal for the usage on file."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:35:58-04:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Fine. So, um, how do I pay it? I work till late and I can't get to City Hall before four thirty. Is there a way to pay online or something, outside regular hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:10-04:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yep, you can pay online through the city's website, any time of day. There's also a drop box at City Hall for checks if you'd rather do that on your way by."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:21-04:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Online's better. Do I need the account number off the bill?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:26-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, it's printed near the top, by the bill date. Type that in and it should pull up the balance."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:34-04:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. I've lived on Aquidneck Island my whole life, never anywhere else, and I still don't know how this stuff works. I just want it to make sense."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:45-04:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Well, you're not alone on that one. If the online page gives you trouble, call back and we'll sort it out."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:53-04:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thanks. I'll try it tonight."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-12T10:36:56-04:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds good, Colin. Have a good day."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T10:34:13-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "utilities"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T10:34:13-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-12T10:34:13-04:00",
+        "end": "2026-03-12T10:36:59-04:00",
+        "duration_seconds": 166,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-12T10:34:13-04:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-12T10:34:13-04:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-12T10:34:13-04:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-12T10:34:13-04:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-12T10:34:13-04:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

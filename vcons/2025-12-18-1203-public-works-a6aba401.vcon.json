@@ -1,0 +1,247 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "a6aba401-6c7a-8baf-ad8a-38e5d423bb62",
+  "created_at": "2025-12-18T12:04:40-05:00",
+  "subject": "Inbound call, Public Works",
+  "parties": [
+    {
+      "name": "Odete Lopes",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Denise Arruda",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:05-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Public Works, this is Denise."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:08-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, yes, hello. I'm calling about a storm drain, a catch basin, on Spring Street. I'm the property manager at fifty-two Spring Street, in the Fifth Ward."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:19-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, what's it doing?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:22-05:00",
+      "duration": 21,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's totally clogged with leaves. The soaker came in Wednesday and just wrapped up today, and the water can't get down, so it backs right into the driveway. It's pooling at the low end of Spring, and, sorry, one second, honey, not now, I'm on the, um, I'm on the phone."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:43-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Which corner is the basin on?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:03:47-05:00",
+      "duration": 19,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The corner right by the building. And cars are slowing to a crawl going through it. I can see the whole thing out front, I've got a webcam and I forgot to cover it, so I'm watching it live on the, on the, [pause] anyway. It's a mess."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:06-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. So you want the drain cleaned out."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:10-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, please. Can somebody come clear it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:14-05:00",
+      "duration": 15,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll put in a work order for Spring Street at that corner, fifty-two Spring. Crews are stacked up after this one, so it'll probably be in the next day or two. Want a callback number on it?"
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:29-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. It's 401-555-0150."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:31-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Four-oh-one, five-five-five, oh-one-five-oh. Got it."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:34-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right. Thank you. Okay, bye."
+    },
+    {
+      "type": "text",
+      "start": "2025-12-18T12:04:37-05:00",
+      "duration": 3,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:03:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "public-works"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:03:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2025-12-18T12:03:05-05:00",
+        "end": "2025-12-18T12:04:40-05:00",
+        "duration_seconds": 95,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2025-12-18T12:03:05-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2025-12-18T12:03:05-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2025-12-18T12:03:05-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2025-12-18T12:03:05-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2025-12-18T12:03:05-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

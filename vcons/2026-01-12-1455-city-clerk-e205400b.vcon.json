@@ -1,0 +1,427 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "e205400b-b142-847c-9521-3a4f67e889c6",
+  "created_at": "2026-01-12T15:00:32-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Andres Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Rosa Delgado",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-01-12T14:55:38-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Rosa. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:55:44-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi, hello, yes. Andres Pagan here. I'm calling about a dog license. I think. Is that you folks or is that somebody else?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:55:55-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's us. Is it a new dog or a renewal?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:56:00-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "New. Well, new to me. She's a rescue, a little brown mutt, about three years old, we've had her two weeks. Reminds me of a dog my uncle had back in, oh, ninety-four, ninety-five, that thing would ride the bus with him. Anyway. Sorry. Sorry, so the license."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:56:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. For a new license you'll need proof of a current rabies vaccination."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:56:29-05:00",
+      "duration": 17,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, so the rabies paper. The rescue gave me a bunch of papers. There's an adoption contract, and a sheet with her shots listed, and a receipt. Which one is the rabies paper? Is it the sheet?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:56:46-05:00",
+      "duration": 20,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "What you want is a rabies certificate, signed by a vet or the clinic that gave the shot. It should have the dog's description, the vaccine date, and when it expires. If your sheet has all that and a vet's signature, it may work."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:57:06-05:00",
+      "duration": 22,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hm. Let me look. I'm out on the porch, I'm in a lawn chair with a blanket, because the papers are out here with me. Hold on. [pause] Okay, the sheet says rabies, and a date, and it says Dr. something, but it's printed, I don't see a signature."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:57:28-05:00",
+      "duration": 16,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Printed from a computer with the clinic name and vet's name is often fine. If it lists the vaccine date and expiration, bring it in. If not, call the rescue and ask for the actual certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:57:44-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And the receipt, that doesn't count? It says rabies vaccine right on it, like a line item."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:57:53-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No, a receipt only shows they charged for it. It doesn't prove the dog got it. You need the certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:03-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right, right. So not the receipt. Not the adoption contract either, I guess."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:10-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Correct, unless the contract has the vaccine information on it. Usually it doesn't."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:17-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. Okay. And what's the fee? For the license?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:22-05:00",
+      "duration": 10,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I don't have the fee schedule in front of me, and it can depend on whether she's spayed. Is she spayed?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:32-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Spayed, yes, that's on the sheet too. Oh, wait, is that the same paper? Does that go with the rabies one or is that a different one?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:45-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's a separate proof. If the rescue spayed her, the sheet or contract probably says so. Bring that too, so you get the right rate."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:58:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, okay. So two things. Rabies certificate and the spay thing. And somebody can tell me the fee when I come in?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:59:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, the counter staff can quote it exactly. Are you coming to City Hall?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:59:14-05:00",
+      "duration": 16,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I could come tomorrow. Hold on, I thought the license was by mail. Or I read the town website says, um, was that another town? I get mixed up, I used to live in Warwick."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:59:30-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Could be Warwick, each city does it differently. Here you can come in with the papers. Do you want to give me your address so I can note the call?"
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:59:44-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure, it's fifty-seven Dixon Street, North End."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:59:48-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks. And you're all right after the storm? Lots of folks up there had wind."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T14:59:55-05:00",
+      "duration": 14,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh, yeah, we're fine. Saturday was loud, from Friday into Saturday, but we're okay. Anyway. So, to be clear, the certificate has to have the vet on it, not the receipt."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:00:09-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Right. Certificate with the vaccine date and expiration, plus proof she's spayed. Bring both."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:00:16-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Great. Okay. Thank you, Rosa. I think I've got it. Mostly."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:00:22-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "If the sheet's missing anything, call the rescue first. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-01-12T15:00:29-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Thanks. Bye now."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T14:55:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T14:55:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-01-12T14:55:38-05:00",
+        "end": "2026-01-12T15:00:32-05:00",
+        "duration_seconds": 294,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-01-12T14:55:38-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-01-12T14:55:38-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-01-12T14:55:38-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-01-12T14:55:38-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-01-12T14:55:38-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

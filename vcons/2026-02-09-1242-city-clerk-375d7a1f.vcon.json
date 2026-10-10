@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "375d7a1f-f7ef-82e2-b84e-c935b83c4f9b",
+  "created_at": "2026-02-09T12:45:45-05:00",
+  "subject": "Inbound call, City Clerk",
+  "parties": [
+    {
+      "name": "Amara Singh",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Owen Haskell",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:37-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "City Clerk's office, this is Owen. How can I help you?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:42-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hello. Yes, hello. My name is Amara Singh. I have a question about a record? A certificate."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:49-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay, sure. What kind of certificate are you looking for, Ms. Singh?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:42:54-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A birth certificate. But it is not born in Newport. It is born in another town, in Rhode Island. Can I get it from you? Or is it only for Newport?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:06-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Good question. Let me make sure I understand. The birth took place in a different town, not in Newport. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:15-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, yes. Different town. I live in Newport now, but it is not born here."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:21-05:00",
+      "duration": 22,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Generally, the records are kept by the town where the event happened. So for a birth in another town, that town's clerk would usually be the place to start. Some records are also held at the state level, so that may be an option too. I'd say call the clerk in that town, or ask the state vital records office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:43-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Oh. So Newport does not have? Only the Newport ones?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:47-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "That's right, we'd have the ones from Newport. Do you know which town it was?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:43:53-05:00",
+      "duration": 8,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Um, yes. But I am not sure I understand. If I live in Newport, then I ask Newport. No?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:01-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can see why you'd think that. It goes by where the birth happened, not where you live now. So where you live doesn't matter for that one."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:12-05:00",
+      "duration": 13,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Ah. Okay. Where the birth happened. Okay, I understand a little. [pause] I also have a form. For a different thing. I want to drop it off at your office. What are the hours?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:25-05:00",
+      "duration": 12,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Our office is open Monday through Friday, during regular business hours. I believe we open at eight thirty and close at four thirty, but let me double-check that for you. One moment."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:37-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, okay. Thank you. I wait."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:40-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Thanks for holding. Yes, eight thirty to four thirty, Monday to Friday. Closed on holidays."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:46-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Eight thirty to four thirty. Monday to Friday. So, not Saturday?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:51-05:00",
+      "duration": 2,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Not Saturday, no."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:44:53-05:00",
+      "duration": 12,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Sorry, I am sorting some things right now. My sister gave me a big stack of coupons, and I am putting them in piles, so I am a little slow today."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:05-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem at all, take your time. Anything else I can help with?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:10-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The form, I just bring it to the counter? Or put it somewhere?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:15-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You can bring it right to the counter during those hours and someone will take it."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:22-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Counter. Eight thirty to four thirty. And the birth one, I call the other town. Yes?"
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:29-05:00",
+      "duration": 5,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes, that's it. The town where the birth was, or the state office."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:34-05:00",
+      "duration": 5,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Thank you very much. I think I understand. Maybe. Thank you."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:39-05:00",
+      "duration": 4,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You're welcome, Ms. Singh. Have a good afternoon."
+    },
+    {
+      "type": "text",
+      "start": "2026-02-09T12:45:43-05:00",
+      "duration": 2,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "You too. Goodbye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:42:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "city-clerk"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:42:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-02-09T12:42:37-05:00",
+        "end": "2026-02-09T12:45:45-05:00",
+        "duration_seconds": 188,
+        "channel": "cell"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-02-09T12:42:37-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-02-09T12:42:37-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-02-09T12:42:37-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-02-09T12:42:37-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-02-09T12:42:37-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}

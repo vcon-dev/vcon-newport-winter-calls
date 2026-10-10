@@ -1,0 +1,355 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "c042c4f2-688b-847a-9e86-cb7b94b8bf65",
+  "created_at": "2026-03-02T11:58:59-05:00",
+  "subject": "Inbound call, Finance",
+  "parties": [
+    {
+      "name": "Luz Pagan",
+      "role": "resident",
+      "validation": "synthetic"
+    },
+    {
+      "name": "Luis Barros",
+      "role": "clerk",
+      "validation": "synthetic"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:09-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Finance department, this is Luis. Happy Monday, sort of. How can I help?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:15-05:00",
+      "duration": 11,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Hi. I paid a parking ticket online two weeks ago and I got a late notice in the mail on Saturday. So that's a problem."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:26-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yeah, that'll make your weekend. Let me look it up. Do you have the ticket number or your plate?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:34-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have the plate. It's a Rhode Island plate, two-one-seven-four-four-zero. Hang on, I'm on speakerphone, can you hear me okay?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:43-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "A little echo, but I've got you. Two-one-seven-four-four-zero. Give me a second."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:49-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sure. I'm in the kitchen. The heat's low, so I'm wearing two sweaters and fuzzy socks. That's why I'm not moving much."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:56:58-05:00",
+      "duration": 8,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Sounds like a solid strategy. Okay, I see the ticket. Overnight parking, issued on Eustis Avenue. Is that right?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:06-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Yes. In front of my house. Three eighty-five Eustis."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:10-05:00",
+      "duration": 14,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Got it. And I do see a payment posted, but it looks like it came in a day after the late notice date was generated. So the notice and your payment crossed paths."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:24-05:00",
+      "duration": 7,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I paid it before the due date. I have the confirmation email. The date is on it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:31-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Then the confirmation date is what matters. I'm going to note the account so the late fee gets reviewed and taken off. You can ignore that notice."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:42-05:00",
+      "duration": 4,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. Will I get something saying that it's cleared?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:46-05:00",
+      "duration": 11,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "The account will show a zero balance. If you want something in writing I can send a note, but check the balance in a few days too."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:57:57-05:00",
+      "duration": 10,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Please do. Also, I want the photo of the violation. The officer's photo. I think the car was legal and I want to see it."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:07-05:00",
+      "duration": 7,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can email that. Photos are attached to the ticket record. What email address should I use?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:14-05:00",
+      "duration": 9,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "It's luz dot pagan at the same address I used on the payment. Can you use the one on file?"
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:23-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I can do that. I'll send it to the one on file. It may take a day or so, but it'll come."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:32-05:00",
+      "duration": 6,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Okay. And if it doesn't, I'll call back at four-oh-one, five-five-five, zero-one-six-four."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:38-05:00",
+      "duration": 9,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I have that number on the note. If you don't see it by Wednesday, call me and ask for Luis."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:47-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "Fine. Thanks. That's all I needed."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:50-05:00",
+      "duration": 6,
+      "parties": [
+        1
+      ],
+      "originator": 1,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "No problem. Stay warm, Luz. Put a third sweater on if you have to."
+    },
+    {
+      "type": "text",
+      "start": "2026-03-02T11:58:56-05:00",
+      "duration": 3,
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "text/plain",
+      "encoding": "none",
+      "body": "I'll consider it. Bye."
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "tags",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:56:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "department": "finance"
+      }
+    },
+    {
+      "purpose": "call_detail",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:56:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "direction": "inbound",
+        "start": "2026-03-02T11:56:09-05:00",
+        "end": "2026-03-02T11:58:59-05:00",
+        "duration_seconds": 170,
+        "channel": "speakerphone"
+      }
+    },
+    {
+      "purpose": "lawful_basis",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-02T11:56:09-05:00",
+      "mediatype": "application/json",
+      "encoding": "json",
+      "body": {
+        "lawful_basis": "legitimate_interests",
+        "expiration": null,
+        "purpose_grants": [
+          {
+            "purpose": "recording",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:09-05:00"
+          },
+          {
+            "purpose": "transcription",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:09-05:00"
+          },
+          {
+            "purpose": "analysis",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:09-05:00"
+          },
+          {
+            "purpose": "redistribution",
+            "granted": true,
+            "granted_at": "2026-03-02T11:56:09-05:00"
+          }
+        ],
+        "proof_mechanisms": [
+          {
+            "mechanism_type": "external_system",
+            "description": "Synthetic corpus generated by vcon-dev/vcon-newport-winter-calls; no real data subject"
+          }
+        ]
+      }
+    }
+  ],
+  "extensions": [
+    "lawful_basis"
+  ]
+}
